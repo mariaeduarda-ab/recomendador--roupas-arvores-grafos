@@ -4,6 +4,7 @@
 #include <vector>
 
 #include "avaliacao.hpp"
+#include "avaliacao_d.hpp"
 #include "gephi.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
@@ -23,6 +24,7 @@ int mostrar_uso() {
                  "  ./recomendador parecidas <id_peca> <k>          k peças parecidas da mesma categoria\n"
                  "  ./recomendador completar <id_look> <categoria>  completa um look (versão C)\n"
                  "  ./recomendador avaliar                          Hit@k das versões e tempos\n"
+                 "  ./recomendador avaliar_d                        compara todas as versões, com a D (demora)\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
@@ -78,7 +80,7 @@ int main(int argc, char** argv) {
     const std::string comando = argumentos[0];
     const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
-                            (comando == "avaliar" && argumentos.size() == 1) ||
+                            ((comando == "avaliar" || comando == "avaliar_d") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2);
     if (!formato_ok) return mostrar_uso();
 
@@ -98,6 +100,10 @@ int main(int argc, char** argv) {
     GrafoLooks grafo_looks;
     grafo_looks.construir(base);
     Recomendador rec(base, arvore, grafo_looks, ajuste);
+
+    if (comando == "avaliar_d") {
+        return avaliar_d(base, pasta_dados, PASTA_RESULTADOS) ? 0 : 1;
+    }
 
     if (comando == "completar_d" || comando == "montar") {
         std::vector<Atrib> attr;

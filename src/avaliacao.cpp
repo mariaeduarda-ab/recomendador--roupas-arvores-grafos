@@ -76,6 +76,17 @@ void medir_base(const Base& base, const std::string& rotulo, std::ostream& saida
 
 }  // namespace
 
+std::vector<Escondida> sortear_escondidas(const Base& base, const std::vector<int>& looks) {
+    std::mt19937 gerador(SEMENTE);
+    std::vector<Escondida> res;
+    for (int l : looks) {
+        if (base.looks[l].pecas.size() < 2) continue;
+        std::uniform_int_distribution<int> sorteio(0, (int)base.looks[l].pecas.size() - 1);
+        res.push_back({l, sorteio(gerador)});
+    }
+    return res;
+}
+
 int hit_em_k(const std::vector<Candidata>& lista, int alvo, int k) {
     int limite = std::min(k, (int)lista.size());
     for (int i = 0; i < limite; i++) {
@@ -89,16 +100,18 @@ void avaliar_hit(const Base& base, const Recomendador& rec, const GrafoLooks& gr
     const int valores_k[N_K] = {1, 5, 10};
     long long acertos[N_VERSOES][N_K] = {};
 
-    std::mt19937 gerador(SEMENTE);
+    std::vector<int> looks_teste;
+    for (int l = 0; l < (int)base.looks.size(); l++) {
+        if (!base.looks[l].treino) looks_teste.push_back(l);
+    }
+
     long long total = 0;
     long long no_treino = 0;
-    for (const Look& look : base.looks) {
-        if (look.treino || look.pecas.size() < 2) continue;
-        std::uniform_int_distribution<int> sorteio(0, (int)look.pecas.size() - 1);
-        int pos = sorteio(gerador);
-        int escondida = look.pecas[pos];
+    for (const Escondida& e : sortear_escondidas(base, looks_teste)) {
+        const Look& look = base.looks[e.look];
+        int escondida = look.pecas[e.pos];
         std::vector<int> resto = look.pecas;
-        resto.erase(resto.begin() + pos);
+        resto.erase(resto.begin() + e.pos);
         const std::string& cat = base.pecas[escondida].categoria;
 
         total++;

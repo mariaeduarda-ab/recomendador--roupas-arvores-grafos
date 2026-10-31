@@ -50,6 +50,9 @@ public:
     // melhores looks a partir de uma peca, do maior pro menor. categoria sem candidata fica de fora
     std::vector<LookMontado> montar(int peca, const std::vector<std::string>& categorias) const;
 
+    double ms_arvores() const { return ms_arvores_; }
+    double ms_arestas() const { return ms_arestas_; }
+
     const std::vector<std::vector<int>>& arestas() const { return adj_; }
     std::vector<Vizinho> vizinhos(int p, const std::string& categoria, int k) const;
     std::vector<Vizinho> vizinhos_bruta(int p, const std::string& categoria, int k) const;
@@ -73,6 +76,9 @@ private:
     std::vector<std::vector<double>> busca_;
     std::vector<int> local_;
     std::vector<std::vector<int>> adj_;
+
+    double ms_arvores_ = 0.0;
+    double ms_arestas_ = 0.0;
 
     std::vector<int> grupo_;
     std::unordered_map<long long, double> juntos_;

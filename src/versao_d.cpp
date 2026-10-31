@@ -1,6 +1,7 @@
 #include "versao_d.hpp"
 
 #include <algorithm>
+#include <chrono>
 #include <cmath>
 #include <functional>
 #include <queue>
@@ -47,8 +48,13 @@ double regra_estampa(const Atrib& p, const Atrib& q) {
 
 VersaoD::VersaoD(const Base& base, const std::vector<Atrib>& attr, const GrafoLooks& grafo, const ConfigD& cfg)
     : base_(base), attr_(attr), grafo_(grafo), cfg_(cfg) {
+    auto t0 = std::chrono::steady_clock::now();
     montar_arvores();
+    auto t1 = std::chrono::steady_clock::now();
     montar_arestas();
+    auto t2 = std::chrono::steady_clock::now();
+    ms_arvores_ = std::chrono::duration<double, std::milli>(t1 - t0).count();
+    ms_arestas_ = std::chrono::duration<double, std::milli>(t2 - t1).count();
     montar_tabela_grupos();
 }
 

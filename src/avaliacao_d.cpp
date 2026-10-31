@@ -355,7 +355,7 @@ bool avaliar_d(const Base& base, const std::string& pasta_dados, const std::stri
     versao.trocar_pesos(cfg.a, cfg.b, cfg.c, 0.0);
     gravar_linha(csv, rodar("D sem bonus de looks", base, testes, com_d(versao)));
     versao.trocar_pesos(1.0, 1.0, 1.0, 1.0);
-    gravar_linha(csv, rodar("D com pesos iniciais", base, testes, com_d(versao)));
+    gravar_linha(csv, rodar("D com pesos 1 (mesmo k e regra)", base, testes, com_d(versao)));
 
     ConfigD outro = cfg;
     outro.mutuo = !cfg.mutuo;
@@ -370,5 +370,55 @@ bool avaliar_d(const Base& base, const std::string& pasta_dados, const std::stri
     misturado.misturar = true;
     VersaoD versao_mist(base, attr, grafo, misturado);
     gravar_linha(csv, rodar("D com atributos misturados", base, testes, com_d(versao_mist)));
+    return true;
+}
+
+bool ler_config_d(const std::string& caminho, ConfigD& cfg) {
+    std::ifstream arquivo(caminho);
+    std::string cabecalho;
+    std::getline(arquivo, cabecalho);
+    int mutuo = 0;
+    char v;
+    ConfigD lida;
+    if (!(arquivo >> lida.k >> v >> mutuo >> v >> lida.a >> v >> lida.b >> v >> lida.c >> v >> lida.d)) return false;
+    lida.mutuo = mutuo != 0;
+    cfg = lida;
+    return true;
+}
+
+bool reavaliar(const Base& base, const std::string& pasta_dados, const ConfigD& cfg, const std::string& pasta_saida) {
+    std::vector<Atrib> attr;
+    std::string erro;
+    if (!ler_atributos_da_pasta(pasta_dados, base, attr, erro)) {
+        std::cerr << erro << '\n';
+        return false;
+    }
+    std::filesystem::create_directories(pasta_saida);
+
+    std::vector<int> looks_teste;
+    for (int l = 0; l < (int)base.looks.size(); l++) {
+        if (!base.looks[l].treino) looks_teste.push_back(l);
+    }
+    const std::vector<Escondida> testes = sortear_escondidas(base, looks_teste);
+    std::ofstream lista_esc(pasta_saida + "/escondidas.csv");
+    lista_esc << "look_id,peca_id\n";
+    for (const Escondida& e : testes) {
+        lista_esc << base.looks[e.look].id << ',' << base.pecas[base.looks[e.look].pecas[e.pos]].id << '\n';
+    }
+
+    KDTree arvore((int)base.pecas[0].v.size());
+    arvore.construir(base.pecas);
+    GrafoLooks grafo;
+    grafo.construir(base);
+    Recomendador rec(base, arvore, grafo);
+    VersaoD versao(base, attr, grafo, cfg);
+    const int tudo = (int)base.pecas.size();
+
+    std::ofstream csv(pasta_saida + "/reavaliar.csv");
+    csv << "versao,looks,acertos1,acertos5,acertos10,hit1,hit5,hit10,cobertos,cobertura,candidatas_media\n";
+    gravar_linha(csv, rodar("Popularidade", base, testes, [&](const std::vector<int>& l, const std::string& c) { return rec.popularidade(l, c, tudo); }));
+    gravar_linha(csv, rodar("B", base, testes, [&](const std::vector<int>& l, const std::string& c) { return rec.versao_b(l, c, tudo); }));
+    gravar_linha(csv, rodar("C", base, testes, [&](const std::vector<int>& l, const std::string& c) { return rec.versao_c(l, c, tudo); }));
+    gravar_linha(csv, rodar("D", base, testes, [&](const std::vector<int>& l, const std::string& c) { return versao.completar(l, c, tudo); }));
     return true;
 }

@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <cmath>
+#include <fstream>
 #include <iostream>
 #include <map>
 #include <random>
@@ -8,6 +9,7 @@
 #include <vector>
 
 #include "avaliacao.hpp"
+#include "avaliacao_d.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
 #include "kdtree.hpp"
@@ -366,6 +368,14 @@ void testar_ajuste_popularidade() {
 
 }  // namespace
 
+void testar_config() {
+    ConfigD cfg;
+    checar(!ler_config_d("dados/exemplo/nao_existe.csv", cfg) && cfg.k == 5, "Config: sem arquivo não muda nada");
+    const std::string caminho = "build/config_teste.csv";
+    std::ofstream(caminho) << "k,mutuo,a,b,c,d\n20,0,0.5,0,0,1\n";
+    checar(ler_config_d(caminho, cfg) && cfg.k == 20 && !cfg.mutuo && cfg.a == 0.5 && cfg.b == 0.0, "Config: lê k, mútuo e pesos");
+}
+
 int main() {
     Base base;
     std::string erro;
@@ -384,6 +394,7 @@ int main() {
     testar_versao_c(base);
     testar_casos_de_borda(base);
     testar_ajuste_popularidade();
+    testar_config();
     testar_regras();
     testar_versao_d(base);
     testar_d_contra_forca_bruta();

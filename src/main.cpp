@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <filesystem>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -16,6 +17,7 @@
 namespace {
 
 const std::string PASTA_RESULTADOS = "resultados";
+const std::string ARQUIVO_CONFIG = "resultados/config_d.csv";
 const std::vector<std::string> CATEGORIAS_MONTAR = {"top", "pants", "shoes", "bag"};
 constexpr int N_COMPLETAR = 10;
 
@@ -25,6 +27,7 @@ int mostrar_uso() {
                  "  ./recomendador completar <id_look> <categoria>  completa um look (versão C)\n"
                  "  ./recomendador avaliar                          Hit@k das versões e tempos\n"
                  "  ./recomendador avaliar_d                        compara todas as versões, com a D (demora)\n"
+                 "  ./recomendador reavaliar                        popularidade, B, C e D com a config já escolhida\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
@@ -42,6 +45,22 @@ bool ler_inteiro(const std::string& texto, int& valor) {
     } catch (const std::exception&) {
         return false;
     }
+}
+
+// outra base grava em subpasta, senao o exemplo sobrescreve as tabelas da base real
+std::string pasta_de_saida(const std::string& pasta_dados) {
+    std::filesystem::path p = std::filesystem::path(pasta_dados).lexically_normal();
+    if (!p.has_filename()) p = p.parent_path();
+    if (p == "dados") return PASTA_RESULTADOS;
+    return PASTA_RESULTADOS + "/" + p.filename().string();
+}
+
+ConfigD config_escolhida() {
+    ConfigD cfg;
+    if (!ler_config_d(ARQUIVO_CONFIG, cfg)) {
+        std::cerr << "Aviso: sem " << ARQUIVO_CONFIG << ". Usando a config inicial (k = 5, mútuo).\n";
+    }
+    return cfg;
 }
 
 void imprimir_lista(const Base& base, const std::vector<Candidata>& lista) {
@@ -80,9 +99,11 @@ int main(int argc, char** argv) {
     const std::string comando = argumentos[0];
     const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
-                            ((comando == "avaliar" || comando == "avaliar_d") && argumentos.size() == 1) ||
+                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "reavaliar") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2);
     if (!formato_ok) return mostrar_uso();
+
+    const std::string saida = pasta_de_saida(pasta_dados);
 
     Base base;
     std::string erro;
@@ -102,7 +123,10 @@ int main(int argc, char** argv) {
     Recomendador rec(base, arvore, grafo_looks, ajuste);
 
     if (comando == "avaliar_d") {
-        return avaliar_d(base, pasta_dados, PASTA_RESULTADOS) ? 0 : 1;
+        return avaliar_d(base, pasta_dados, saida) ? 0 : 1;
+    }
+    if (comando == "reavaliar") {
+        return reavaliar(base, pasta_dados, config_escolhida(), saida) ? 0 : 1;
     }
 
     if (comando == "completar_d" || comando == "montar") {
@@ -113,7 +137,7 @@ int main(int argc, char** argv) {
         }
         int id = 0;
         if (!ler_inteiro(argumentos[1], id)) return mostrar_uso();
-        VersaoD versao(base, attr, grafo_looks, ConfigD{});
+        VersaoD versao(base, attr, grafo_looks, config_escolhida());
 
         if (comando == "completar_d") {
             const auto look = base.indice_do_look.find(id);
@@ -177,8 +201,8 @@ int main(int argc, char** argv) {
         if (lista.empty()) std::cout << "Nenhuma candidata de " << categoria << " para esse look.\n";
         imprimir_lista(base, lista);
     } else if (comando == "avaliar") {
-        avaliar_hit(base, rec, grafo_looks, PASTA_RESULTADOS);
-        medir_tempos(pasta_dados, PASTA_RESULTADOS);
+        avaliar_hit(base, rec, grafo_looks, saida);
+        medir_tempos(pasta_dados, saida);
         for (int k : {5, 10, 15}) {
             GrafoSimilaridade grafo;
             grafo.construir(base.pecas, arvore, k);
@@ -191,8 +215,8 @@ int main(int argc, char** argv) {
         grafo.construir(base.pecas, arvore, k);
         const std::vector<int> grupos = grafo.grupos();
         imprimir_resumo(grupos, k);
-        if (exportar_gephi(base, grupos, grafo.adjacencia(), PASTA_RESULTADOS)) {
-            std::cout << "Arquivos em " << PASTA_RESULTADOS << "/nodes.csv e edges.csv\n";
+        if (exportar_gephi(base, grupos, grafo.adjacencia(), saida)) {
+            std::cout << "Arquivos em " << saida << "/nodes.csv e edges.csv\n";
         } else {
             std::cerr << "Não foi possível exportar para o Gephi.\n";
             return 1;

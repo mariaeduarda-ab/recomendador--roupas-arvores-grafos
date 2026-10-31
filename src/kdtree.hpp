@@ -1,41 +1,36 @@
 #pragma once
 
+#include <queue>
 #include <string>
+#include <utility>
 #include <vector>
 
 #include "peca.hpp"
 
-// Resultado de uma busca. indice é a posição da peça no vetor de peças.
 struct Vizinho {
-    int indice = -1;
-    double dist2 = 0.0;  // distância ao quadrado
+    int indice = -1;  // posicao no vetor de pecas
+    double dist2 = 0.0;
 };
 
-// ESQUELETO. A dupla implementa esta classe.
-// A dimensão é definida em tempo de execução. Os testes usam 2 e o projeto real usa 5.
+// (dist2, indice). o topo e a pior das k melhores
+using HeapMax = std::priority_queue<std::pair<double, int>>;
+
 class KDTree {
 public:
     explicit KDTree(int dim);
 
-    // Monta a árvore. O eixo de cada nível é profundidade % dim.
-    // O nó é a peça na posição n/2 depois de std::nth_element por esse eixo.
-    // Guarda um ponteiro para pecas, então o vetor precisa continuar vivo.
+    // guarda so um ponteiro, entao pecas precisa continuar vivo
     void construir(const std::vector<Peca>& pecas);
 
-    // Índices das peças em pré-ordem (nó, esquerda, direita).
     std::vector<int> preordem() const;
-
-    // Peça mais próxima de q. visitados recebe quantos nós a busca comparou.
     Vizinho mais_proximo(const std::vector<double>& q, int& visitados) const;
 
-    // As k peças mais próximas de q, da mais próxima para a mais distante.
-    // Usa heap de máximo (std::priority_queue) e distâncias ao quadrado.
-    // categoria != nullptr: só peças dessa categoria entram no heap.
-    // excluir >= 0: essa peça nunca entra no heap. Serve para a peça não achar a si mesma.
+    // categoria != nullptr filtra na hora de entrar no heap.
+    // excluir e pra peca nao achar ela mesma
     std::vector<Vizinho> knn(const std::vector<double>& q, int k,
                              const std::string* categoria = nullptr, int excluir = -1) const;
 
-    // Mesmo contrato de knn, mas compara com todas as peças. É o gabarito dos testes.
+    // gabarito da knn nos testes
     std::vector<Vizinho> forca_bruta(const std::vector<double>& q, int k,
                                      const std::string* categoria = nullptr, int excluir = -1) const;
 
@@ -46,6 +41,20 @@ private:
         int esquerda = -1;
         int direita = -1;
     };
+
+    struct Busca {
+        const std::vector<double>& q;
+        int k;
+        const std::string* categoria;
+        int excluir;
+        HeapMax heap;
+        int visitados;
+    };
+
+    int montar(std::vector<int>& ids, int ini, int fim, int prof);
+    void pre(int no, std::vector<int>& res) const;
+    void buscar(int no, Busca& b) const;
+    bool passa_filtro(int i, const std::string* categoria, int excluir) const;
 
     int dim_;
     const std::vector<Peca>* pecas_ = nullptr;

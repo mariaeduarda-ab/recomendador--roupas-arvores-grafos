@@ -1,22 +1,31 @@
 #include "grafo_looks.hpp"
 
+#include <cmath>
+
 void GrafoLooks::construir(const Base& base) {
-    // TODO: dimensionar as listas e percorrer base.looks.
-    // TODO: ignorar looks de teste. Se entrarem, o resultado da avaliação fica falso.
-    (void)base;
+    looks_da_peca.assign(base.pecas.size(), {});
+    pecas_do_look.assign(base.looks.size(), {});
+    for (int l = 0; l < (int)base.looks.size(); l++) {
+        // look de teste aqui seria vazamento: a BFS acharia a peca escondida
+        if (!base.looks[l].treino) continue;
+        pecas_do_look[l] = base.looks[l].pecas;
+        for (int p : pecas_do_look[l]) looks_da_peca[p].push_back(l);
+    }
 }
 
 std::unordered_map<int, double> GrafoLooks::bfs_2_passos(int peca, bool ajuste_popularidade) const {
-    // TODO: passo 1. Visitar looks_da_peca[peca].
-    // TODO: passo 2. Visitar pecas_do_look[l] e somar 1 em cada outra peça. Parar aqui.
-    // TODO: se ajuste_popularidade, dividir cada contagem por sqrt(num_looks(candidata)).
-    (void)peca;
-    (void)ajuste_popularidade;
-    return {};
+    std::unordered_map<int, double> cont;
+    for (int l : looks_da_peca[peca]) {
+        for (int p : pecas_do_look[l]) {
+            if (p != peca) cont[p] += 1.0;
+        }
+    }
+    if (ajuste_popularidade) {
+        for (auto& par : cont) par.second /= std::sqrt(num_looks(par.first));
+    }
+    return cont;
 }
 
 int GrafoLooks::num_looks(int peca) const {
-    // TODO: devolver o tamanho de looks_da_peca[peca].
-    (void)peca;
-    return 0;
+    return (int)looks_da_peca[peca].size();
 }

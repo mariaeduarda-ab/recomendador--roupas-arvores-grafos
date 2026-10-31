@@ -53,6 +53,18 @@ flowchart TD
     J --> L
     L --> M["Recomendações<br/>lista ordenada"]
     M --> N["Avaliação<br/>Hit@k e tempos"]
+
+    subgraph V["Versão D"]
+        O["atributos.py<br/>atributos do texto"] --> P["pecas_v2.csv"]
+        P --> Q["KD-tree por categoria<br/>só grupo 1"]
+        Q --> R["Arestas entre categorias<br/>mútuo ou um lado"]
+        R --> T["Candidatas e soma das notas"]
+        T --> U["completar_d e montar<br/>heap com os 3 melhores"]
+    end
+
+    A --> O
+    J -- "bônus de looks" --> T
+    T --> N
 ```
 
 ## 4. Os dados
@@ -416,6 +428,8 @@ A KD-tree só compara camisa com camisa. Ela nunca compara a camisa com a saia. 
 
 A versão A tende a recomendar peças da mesma cor. Camisa preta leva a saia preta. Esse defeito é esperado, e é por isso que ela serve de comparação.
 
+**Versão D.** Usa uma KD-tree por categoria, arestas entre categorias e soma de notas. Ela ficou pior que B, C e popularidade. A explicação completa está em [VERSAO_KNN_POR_CATEGORIA.md](VERSAO_KNN_POR_CATEGORIA.md).
+
 **Referência extra: popularidade.** Recomenda as peças da categoria pedida que mais aparecem nos looks de treino. Uma versão que não supera a popularidade não ajuda.
 
 **Peças parecidas.** A outra tarefa é uma busca kNN direta na KD-tree, filtrada pela categoria da peça consultada.
@@ -511,6 +525,11 @@ O filtro de categoria pode aumentar o custo do kNN. Peças de outras categorias 
 | `src/grafo_looks.hpp/.cpp` | grafo bipartido e BFS de 2 passos |
 | `src/recomendador.hpp/.cpp` | versões A, B e C e popularidade |
 | `src/avaliacao.hpp/.cpp` | Hit@k e tempos |
+| `preprocess/atributos.py` e `palavras_chave.py` | atributos do texto e `pecas_v2.csv` |
+| `preprocess/graficos.py` e `ordem.py` | gráficos e embaralhamento do catálogo |
+| `src/atributos.hpp/.cpp` | leitura de `pecas_v2.csv` |
+| `src/versao_d.hpp/.cpp` | versão D: árvores por categoria, arestas, nota e montar |
+| `src/avaliacao_d.hpp/.cpp` | validação, teste e tempos da versão D |
 | `src/gephi.hpp/.cpp` | nodes.csv e edges.csv |
 | `src/main.cpp` | interface de linha de comando |
 | `testes/testes.cpp` | testes sem framework externo |
@@ -535,6 +554,7 @@ Toda estrutura usa o índice da peça no vetor, e não o id do CSV. Motivo: nos 
 | Recomendação | BFS ampliada pelas peças parecidas | ajuda looks com poucos dados |
 | Peso das vizinhas | max(0, 1 − d / d_ref) | a vizinha mais distante continua com peso |
 | Avaliação | Hit@k em looks fora do grafo | evita resultado falso por vazamento de dados |
+| Versão D | mantida como comparação | teve 10 acertos no Hit@10, contra 37 da C. O teste não confirmou a ideia |
 
 ## 16. Riscos
 

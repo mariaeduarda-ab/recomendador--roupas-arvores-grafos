@@ -10,10 +10,12 @@
 #include "kdtree.hpp"
 #include "leitura.hpp"
 #include "recomendador.hpp"
+#include "versao_d.hpp"
 
 namespace {
 
 const std::string PASTA_RESULTADOS = "resultados";
+const std::vector<std::string> CATEGORIAS_MONTAR = {"top", "pants", "shoes", "bag"};
 constexpr int N_COMPLETAR = 10;
 
 int mostrar_uso() {
@@ -22,6 +24,8 @@ int mostrar_uso() {
                  "  ./recomendador completar <id_look> <categoria>  completa um look (versão C)\n"
                  "  ./recomendador avaliar                          Hit@k das versões e tempos\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
+                 "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
+                 "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "Opção:\n"
                  "  --dados <pasta>                                 pasta dos CSVs (padrão: dados)\n"
                  "  --ajuste                                        divide a contagem pela popularidade da peça\n";
@@ -72,7 +76,8 @@ int main(int argc, char** argv) {
     }
     if (argumentos.empty()) return mostrar_uso();
     const std::string comando = argumentos[0];
-    const bool formato_ok = ((comando == "parecidas" || comando == "completar") && argumentos.size() == 3) ||
+    const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d") && argumentos.size() == 3) ||
+                            (comando == "montar" && argumentos.size() >= 2) ||
                             (comando == "avaliar" && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2);
     if (!formato_ok) return mostrar_uso();
@@ -94,7 +99,49 @@ int main(int argc, char** argv) {
     grafo_looks.construir(base);
     Recomendador rec(base, arvore, grafo_looks, ajuste);
 
-    if (comando == "parecidas") {
+    if (comando == "completar_d" || comando == "montar") {
+        std::vector<Atrib> attr;
+        if (!ler_atributos_da_pasta(pasta_dados, base, attr, erro)) {
+            std::cerr << erro << '\n';
+            return 1;
+        }
+        int id = 0;
+        if (!ler_inteiro(argumentos[1], id)) return mostrar_uso();
+        VersaoD versao(base, attr, grafo_looks, ConfigD{});
+
+        if (comando == "completar_d") {
+            const auto look = base.indice_do_look.find(id);
+            if (look == base.indice_do_look.end()) {
+                std::cerr << "Look " << id << " não encontrado.\n";
+                return 1;
+            }
+            const std::string& categoria = argumentos[2];
+            std::vector<int> pecas = base.looks[look->second].pecas;
+            pecas.erase(std::remove_if(pecas.begin(), pecas.end(),
+                                       [&](int p) { return base.pecas[p].categoria == categoria; }),
+                        pecas.end());
+            const std::vector<Candidata> lista = versao.completar(pecas, categoria, N_COMPLETAR);
+            if (lista.empty()) std::cout << "Nenhuma candidata de " << categoria << " para esse look.\n";
+            imprimir_lista(base, lista);
+            return 0;
+        }
+
+        const auto peca = base.indice_da_peca.find(id);
+        if (peca == base.indice_da_peca.end()) {
+            std::cerr << "Peça " << id << " não encontrada.\n";
+            return 1;
+        }
+        std::vector<std::string> cats(argumentos.begin() + 2, argumentos.end());
+        if (cats.empty()) cats = CATEGORIAS_MONTAR;
+        cats.erase(std::remove(cats.begin(), cats.end(), base.pecas[peca->second].categoria), cats.end());
+        const std::vector<LookMontado> looks = versao.montar(peca->second, cats);
+        for (const LookMontado& l : looks) {
+            std::cout << "soma " << l.soma << ':';
+            for (int p : l.pecas) std::cout << ' ' << base.pecas[p].id;
+            std::cout << '\n';
+        }
+        if (looks.empty() || looks[0].pecas.size() < 2) std::cout << "Essa peça não tem arestas nas categorias pedidas.\n";
+    } else if (comando == "parecidas") {
         int id = 0;
         int k = 0;
         if (!ler_inteiro(argumentos[1], id) || !ler_inteiro(argumentos[2], k) || k <= 0) return mostrar_uso();

@@ -98,6 +98,8 @@ def carregar_pecas(caminho):
                 "categoria": categoria,
                 "rgb": rgb,
                 "descricao": item["refined_caption"],
+                "legenda": item["base_caption"],
+                "cor_nome": item["dominant_color"],
                 "looks": set(),
             }
         pecas[chave]["looks"].add(int(look.group(1)))

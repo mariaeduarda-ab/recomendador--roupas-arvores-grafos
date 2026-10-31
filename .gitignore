@@ -18,6 +18,7 @@ __pycache__/
 # Relatorios e tabelas do artigo ficam no repositorio
 !resultados/*.md
 !resultados/hit_k.csv
+!resultados/ordem_d.csv
 !resultados/tempos.csv
 !resultados/hit_d.csv
 !resultados/tempos_d.csv

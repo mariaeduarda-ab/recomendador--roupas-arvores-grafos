@@ -21,6 +21,8 @@ struct Base {
 };
 
 // toda coluna fora id, categoria e nome vira numero do vetor
+std::vector<std::string> separar_colunas(std::string linha);
+
 bool ler_pecas(const std::string& caminho, Base& base, std::string& erro);
 
 // ignora peca fora da base pq os subconjuntos tem so parte das pecas

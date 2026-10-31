@@ -5,8 +5,6 @@
 #include <fstream>
 #include <sstream>
 
-namespace {
-
 std::vector<std::string> separar_colunas(std::string linha) {
     if (!linha.empty() && linha.back() == '\r') linha.pop_back();
     std::vector<std::string> colunas;
@@ -15,6 +13,8 @@ std::vector<std::string> separar_colunas(std::string linha) {
     while (std::getline(fluxo, coluna, ',')) colunas.push_back(coluna);
     return colunas;
 }
+
+namespace {
 
 int posicao_coluna(const std::vector<std::string>& cabecalho, const std::string& nome) {
     const auto it = std::find(cabecalho.begin(), cabecalho.end(), nome);

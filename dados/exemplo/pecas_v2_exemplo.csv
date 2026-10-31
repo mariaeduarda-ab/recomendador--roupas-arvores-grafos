@@ -1,0 +1,17 @@
+id,categoria,estilo_casual,estilo_classico,estilo_esportivo,estilo_romantico,estilo_moderno,ocasiao_dia,ocasiao_trabalho,ocasiao_festa,ocasiao_esporte,ocasiao_praia,formalidade,L,a,b,cor_neutra,estampa,comprimento,modelagem
+0,blazer,0,1,0,0,0,0,1,0,0,0,0.8,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+1,camisa,0,1,0,0,0,0,1,0,0,0,0.7,0.5,0.5,0.5,1,listrada,desconhecido,desconhecido
+2,vestido,0,0,0,1,0,0,0,1,0,0,0.9,0.5,0.5,0.5,0,desconhecido,desconhecido,desconhecido
+3,camiseta,1,0,0,0,0,1,0,0,0,0,0.2,0.5,0.5,0.5,0,lisa,desconhecido,desconhecido
+4,camisa,1,0,0,0,0,1,0,0,0,0,0.3,0.5,0.5,0.5,0,floral,desconhecido,desconhecido
+5,calca,0,1,0,0,0,0,1,0,0,0,0.8,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+6,camisa,1,0,0,0,0,1,0,0,0,0,0.2,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+7,saia,1,0,0,0,0,1,0,0,0,0,0.2,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+8,sapato,1,0,0,0,0,1,0,0,0,0,0.3,0.5,0.5,0.5,1,desconhecido,desconhecido,desconhecido
+9,camisa,1,0,0,0,0,1,0,0,0,0,0.3,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+10,sapato,0,0,1,0,0,0,0,0,1,0,0.1,0.5,0.5,0.5,0,lisa,desconhecido,desconhecido
+11,saia,1,0,0,0,0,1,0,0,0,0,0.3,0.5,0.5,0.5,0,desconhecido,desconhecido,desconhecido
+12,sapato,1,0,0,0,0,1,0,0,0,0,0.4,0.5,0.5,0.5,0,desconhecido,desconhecido,desconhecido
+13,camisa,0,0,0,1,0,0,0,1,0,0,0.8,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+14,saia,0,0,0,1,0,0,0,1,0,0,0.8,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido
+15,sapato,0,0,0,1,0,0,0,1,0,0,0.9,0.5,0.5,0.5,1,lisa,desconhecido,desconhecido

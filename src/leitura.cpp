@@ -18,7 +18,7 @@ std::vector<std::string> separar_colunas(std::string linha) {
 
 int posicao_coluna(const std::vector<std::string>& cabecalho, const std::string& nome) {
     const auto it = std::find(cabecalho.begin(), cabecalho.end(), nome);
-    return it == cabecalho.end() ? -1 : static_cast<int>(it - cabecalho.begin());
+    return it == cabecalho.end() ? -1 : (int)(it - cabecalho.begin());
 }
 
 std::string erro_na_linha(const std::string& caminho, int numero) {
@@ -47,6 +47,11 @@ bool ler_pecas(const std::string& caminho, Base& base, std::string& erro) {
         erro = "Faltam as colunas id e categoria em " + caminho;
         return false;
     }
+    // sem atributo a KD-tree faria profundidade % 0
+    if (cabecalho.size() <= 2u + (col_nome >= 0 ? 1u : 0u)) {
+        erro = "Sem colunas numericas em " + caminho;
+        return false;
+    }
 
     int numero = 1;
     while (std::getline(arquivo, linha)) {
@@ -62,7 +67,7 @@ bool ler_pecas(const std::string& caminho, Base& base, std::string& erro) {
             peca.id = std::stoi(colunas[col_id]);
             peca.categoria = colunas[col_categoria];
             if (col_nome >= 0) peca.nome = colunas[col_nome];
-            for (int i = 0; i < static_cast<int>(colunas.size()); i++) {
+            for (int i = 0; i < (int)colunas.size(); i++) {
                 if (i != col_id && i != col_categoria && i != col_nome) {
                     peca.v.push_back(std::stod(colunas[i]));
                 }
@@ -71,7 +76,7 @@ bool ler_pecas(const std::string& caminho, Base& base, std::string& erro) {
             erro = erro_na_linha(caminho, numero);
             return false;
         }
-        base.indice_da_peca[peca.id] = static_cast<int>(base.pecas.size());
+        base.indice_da_peca[peca.id] = (int)base.pecas.size();
         base.pecas.push_back(peca);
     }
     return true;
@@ -124,10 +129,14 @@ bool ler_looks(const std::string& caminho, Base& base, std::string& erro) {
             Look novo;
             novo.id = look_id;
             novo.treino = colunas[col_conjunto] == "treino";
-            look = base.indice_do_look.emplace(look_id, static_cast<int>(base.looks.size())).first;
+            look = base.indice_do_look.emplace(look_id, (int)base.looks.size()).first;
             base.looks.push_back(novo);
         }
-        base.looks[look->second].pecas.push_back(peca->second);
+        // peca repetida no look contaria em dobro na BFS
+        std::vector<int>& pecas_look = base.looks[look->second].pecas;
+        if (std::find(pecas_look.begin(), pecas_look.end(), peca->second) == pecas_look.end()) {
+            pecas_look.push_back(peca->second);
+        }
     }
     return true;
 }

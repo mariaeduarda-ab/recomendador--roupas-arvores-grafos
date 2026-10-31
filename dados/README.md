@@ -8,6 +8,7 @@ Enquanto a base tratada não está no Zenodo, gere os CSVs:
 
 1. Baixe o `FashionVerse-MME.zip` do Mendeley Data e extraia o `Combined_Metadata.json`.
 2. Rode `python3 preprocess/preprocessar.py --entrada Combined_Metadata.json --saida dados`.
+3. Rode `python3 preprocess/atributos.py --entrada Combined_Metadata.json --saida dados`. Ele usa os arquivos do passo 2 e é necessário para a versão D.
 
 Arquivos esperados:
 
@@ -17,6 +18,8 @@ dados/looks.csv
 dados/pecas_1000.csv     dados/looks_1000.csv
 dados/pecas_10000.csv    dados/looks_10000.csv
 dados/pecas_100000.csv   dados/looks_100000.csv
+dados/pecas_v2.csv
+dados/pecas_v2_1000.csv  dados/pecas_v2_10000.csv  dados/pecas_v2_100000.csv
 ```
 
 ## Formato
@@ -24,13 +27,14 @@ dados/pecas_100000.csv   dados/looks_100000.csv
 ```
 pecas.csv   id,categoria,L,a,b,variacao_cor,formalidade
 looks.csv   look_id,peca_id,conjunto
+pecas_v2.csv   id,categoria,estilo_casual,estilo_classico,estilo_esportivo,estilo_romantico,estilo_moderno,ocasiao_dia,ocasiao_trabalho,ocasiao_festa,ocasiao_esporte,ocasiao_praia,formalidade,L,a,b,cor_neutra,estampa,comprimento,modelagem
 ```
 
-O campo `conjunto` vale `treino` ou `teste`.
+O campo `conjunto` vale `treino` ou `teste`. O `pecas_v2.csv` tem os mesmos ids do `pecas.csv`.
 
 ## Origem
 
-A base original é a FashionVerse-MME (Mendeley Data, DOI 10.17632/6sx3pbsfvz.1). Os CSVs saem do script `preprocess/preprocessar.py`. Quem só vai rodar o projeto não precisa desse script.
+A base original é a FashionVerse-MME (Mendeley Data, DOI 10.17632/6sx3pbsfvz.1). Os CSVs saem dos scripts `preprocess/preprocessar.py` e `preprocess/atributos.py`. Quem só vai rodar o projeto não precisa desse script.
 
 ## Dados de exemplo
 

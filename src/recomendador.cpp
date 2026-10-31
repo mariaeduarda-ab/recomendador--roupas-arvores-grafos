@@ -3,8 +3,6 @@
 #include <algorithm>
 #include <cmath>
 
-namespace {
-
 // desempata pelo indice. a ordem do unordered_map nao e garantida
 void ordenar_e_cortar(std::vector<Candidata>& lista, int n) {
     std::sort(lista.begin(), lista.end(), [](const Candidata& a, const Candidata& b) {
@@ -13,6 +11,8 @@ void ordenar_e_cortar(std::vector<Candidata>& lista, int n) {
     });
     if ((int)lista.size() > n) lista.resize(n);
 }
+
+namespace {
 
 bool esta_no_look(const std::vector<int>& look, int p) {
     return std::find(look.begin(), look.end(), p) != look.end();

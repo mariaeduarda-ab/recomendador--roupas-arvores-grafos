@@ -22,6 +22,7 @@ struct Partida {
 };
 
 double peso_vizinha(double d, double d_ref = D_REF);
+void ordenar_e_cortar(std::vector<Candidata>& lista, int n);
 
 // as listas voltam da maior pontuacao pra menor, e peca do look nunca e candidata
 class Recomendador {

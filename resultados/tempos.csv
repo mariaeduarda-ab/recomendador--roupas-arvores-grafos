@@ -1,0 +1,4 @@
+pecas,construir_kdtree_ms,busca_kdtree_ms,busca_forca_bruta_ms,grafo_e_union_find_ms,recomendacao_c_ms
+1000,0.45506,0.0150996,0.0317748,14.8089,0.008182
+10000,2.36362,0.013414,0.0950105,344.33,0.0233109
+100000,45.2274,0.0660152,1.46201,23683,0.141859

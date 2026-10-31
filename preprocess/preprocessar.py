@@ -1,87 +1,34 @@
 #!/usr/bin/env python3
-"""Prepara a base FashionVerse-MME e grava os CSVs usados pelo C++. Roda uma vez.
-
-Uso:
-    python3 preprocess/preprocessar.py --entrada <arquivo.json> --saida dados
-
-ANTES DE RODAR: preencha os TODO das funções de leitura de campos.
-O formato do JSON ainda não foi conferido. Abra uma amostra da base primeiro.
-"""
+# Prepara a FashionVerse-MME e grava os CSVs que o C++ le. Roda uma vez.
+# Uso: python3 preprocess/preprocessar.py --entrada Combined_Metadata.json --saida dados
 
 import argparse
 import csv
 import json
 import math
 import random
+import re
 from pathlib import Path
 
 import numpy as np
 
-# Constantes fáceis de mudar.
 SEMENTE = 42
 FRACAO_TREINO = 0.8
 TAMANHOS_SUBCONJUNTOS = [1_000, 10_000, 100_000]
 
-# Peso de cada atributo. O valor normalizado é multiplicado por raiz(peso).
 PESOS = {"L": 1.0, "a": 1.0, "b": 1.0, "variacao_cor": 1.0, "formalidade": 0.5}
 
-# Listas feitas pela dupla. Ajustem depois de ver as descrições reais.
-PALAVRAS_FORMAIS = {"formal", "elegant", "tailored", "blazer", "suit", "silk", "dress shirt"}
-PALAVRAS_CASUAIS = {"casual", "sporty", "denim", "sneaker", "hoodie", "t-shirt", "relaxed"}
+PALAVRAS_FORMAIS = {"formal", "elegant", "tailored", "blazer", "suit", "silk", "sophisticated", "office"}
+PALAVRAS_CASUAIS = {"casual", "sporty", "denim", "sneaker", "sneakers", "hoodie", "t-shirt", "relaxed", "laid-back"}
 
+# a base tem o mesmo tipo com dois nomes. juntando da as 20 categorias do artigo deles
+NOME_CATEGORIA = {"outwear": "outerwear", "watches": "watch"}
 
-# ---------------------------------------------------------------------------
-# Campos do JSON. Só estas funções dependem do formato da base.
-# ---------------------------------------------------------------------------
+# 200266907_1.jpg = peca 1 do look 200266907. uns 277 arquivos fogem disso e ficam sem look
+NOME_ARQUIVO = re.compile(r"^(\d+)_\d+\.jpe?g$")
 
-def listar_pecas_brutas(dados):
-    """Devolve a lista de peças do JSON."""
-    # TODO: preencher depois de abrir uma amostra da base.
-    raise NotImplementedError("Preencha listar_pecas_brutas com o formato real do JSON.")
-
-
-def campo_id(peca):
-    """Devolve o identificador da peça."""
-    # TODO: preencher com o nome real do campo.
-    raise NotImplementedError("Preencha campo_id.")
-
-
-def campo_categoria(peca):
-    """Devolve a categoria da peça, ou None se não houver."""
-    # TODO: preencher com o nome real do campo.
-    raise NotImplementedError("Preencha campo_categoria.")
-
-
-def campo_cor_dominante(peca):
-    """Devolve a cor dominante como [r, g, b] de 0 a 255, ou None se não houver."""
-    # TODO: preencher com o nome real do campo e conferir a escala.
-    raise NotImplementedError("Preencha campo_cor_dominante.")
-
-
-def campo_paleta(peca):
-    """Devolve a paleta como lista de [r, g, b] de 0 a 255, ou None se não houver."""
-    # TODO: preencher com o nome real do campo e conferir a escala.
-    raise NotImplementedError("Preencha campo_paleta.")
-
-
-def campo_descricao(peca):
-    """Devolve o texto da descrição usada na formalidade."""
-    # TODO: escolher a descrição (BLIP ou LLaMA) e preencher com o nome real do campo.
-    raise NotImplementedError("Preencha campo_descricao.")
-
-
-def campo_looks(peca):
-    """Devolve a lista de identificadores dos looks em que a peça aparece."""
-    # TODO: preencher com o nome real do campo. Os looks podem estar em outra parte do JSON.
-    raise NotImplementedError("Preencha campo_looks.")
-
-
-# ---------------------------------------------------------------------------
-# Cor
-# ---------------------------------------------------------------------------
 
 def rgb_para_lab(rgb):
-    """Converte cores sRGB (0 a 255) para Lab, passando por XYZ. Iluminante D65."""
     srgb = np.asarray(rgb, dtype=float) / 255.0
     linear = np.where(srgb <= 0.04045, srgb / 12.92, ((srgb + 0.055) / 1.055) ** 2.4)
 
@@ -91,8 +38,7 @@ def rgb_para_lab(rgb):
         [0.0193339, 0.1191920, 0.9503041],
     ])
     xyz = linear @ matriz.T
-    branco = np.array([0.95047, 1.0, 1.08883])
-    t = xyz / branco
+    t = xyz / np.array([0.95047, 1.0, 1.08883])  # branco D65
 
     delta = 6.0 / 29.0
     f = np.where(t > delta ** 3, np.cbrt(t), t / (3 * delta ** 2) + 4.0 / 29.0)
@@ -103,7 +49,6 @@ def rgb_para_lab(rgb):
 
 
 def normalizar_lab(lab):
-    """Leva L de 0 a 100 e a, b de -128 a 127 para o intervalo de 0 a 1."""
     L, a, b = lab
     return [
         float(np.clip(L / 100.0, 0.0, 1.0)),
@@ -112,100 +57,82 @@ def normalizar_lab(lab):
     ]
 
 
-def variacao_bruta(cor_lab, paleta_lab):
-    """Média da distância entre as cores da paleta e a cor dominante, em Lab."""
-    return float(np.mean(np.linalg.norm(paleta_lab - cor_lab, axis=1)))
-
-
 def normalizar_min_max(valores):
-    """Leva uma lista de números para o intervalo de 0 a 1."""
     menor = min(valores)
     maior = max(valores)
     if maior == menor:
         return [0.0 for _ in valores]
-    return [(valor - menor) / (maior - menor) for valor in valores]
+    return [(v - menor) / (maior - menor) for v in valores]
 
-
-# ---------------------------------------------------------------------------
-# Formalidade
-# ---------------------------------------------------------------------------
 
 def calcular_formalidade(texto):
-    """Conta palavras formais e casuais. Devolve 0,5 quando nenhuma aparece."""
-    texto = (texto or "").lower()
-    formais = sum(texto.count(palavra) for palavra in PALAVRAS_FORMAIS)
-    casuais = sum(texto.count(palavra) for palavra in PALAVRAS_CASUAIS)
+    # palavra inteira: com texto.count("suit") o "suitable" contava como formal,
+    # e "suitable" esta em 60% das descricoes
+    palavras = re.findall(r"[a-z]+(?:-[a-z]+)*", texto.lower())
+    formais = sum(p in PALAVRAS_FORMAIS for p in palavras)
+    casuais = sum(p in PALAVRAS_CASUAIS for p in palavras)
     if formais + casuais == 0:
         return 0.5
     return formais / (formais + casuais)
 
 
-# ---------------------------------------------------------------------------
-# Etapas
-# ---------------------------------------------------------------------------
-
-def carregar_pecas_validas(caminho):
-    """Lê o JSON e descarta peças sem cor, sem categoria ou sem look."""
+def carregar_pecas(caminho):
     with open(caminho, encoding="utf-8") as arquivo:
         dados = json.load(arquivo)
 
-    pecas = []
+    # o nome do arquivo e unico por look, entao cada peca apareceria em um look so e a BFS
+    # nunca sairia do look. a mesma imagem da mesma categoria tem o mesmo rgb e a mesma legenda
+    # do BLIP (a legenda refinada muda), entao essa chave junta a peca que se repete
+    pecas = {}
     descartadas = 0
-    for bruta in listar_pecas_brutas(dados):
-        categoria = campo_categoria(bruta)
-        cor = campo_cor_dominante(bruta)
-        paleta = campo_paleta(bruta)
-        looks = campo_looks(bruta)
-        if not categoria or cor is None or not paleta or not looks:
+    for item in dados:
+        look = NOME_ARQUIVO.match(item["image_name"])
+        rgb = item["dominant_rgb_top3"]
+        if not look or not item["category"] or not rgb:
             descartadas += 1
             continue
-        pecas.append({
-            "origem": campo_id(bruta),
-            # A vírgula separa colunas no CSV, então não pode aparecer no texto.
-            "categoria": str(categoria).replace(",", " ").strip(),
-            "cor": cor,
-            "paleta": paleta,
-            "descricao": campo_descricao(bruta),
-            "looks": looks,
-        })
-    print(f"Peças válidas: {len(pecas)}. Descartadas: {descartadas}.")
-    return pecas
+        categoria = NOME_CATEGORIA.get(item["category"], item["category"])
+        chave = (categoria, json.dumps(rgb), item["base_caption"])
+        if chave not in pecas:
+            pecas[chave] = {
+                "categoria": categoria,
+                "rgb": rgb,
+                "descricao": item["refined_caption"],
+                "looks": set(),
+            }
+        pecas[chave]["looks"].add(int(look.group(1)))
+
+    lista = list(pecas.values())
+    print(f"Registros descartados: {descartadas}. Pecas depois de juntar repetidas: {len(lista)}.")
+    return lista
 
 
 def calcular_vetores(pecas):
-    """Calcula os 5 números de cada peça, normaliza e aplica raiz(peso)."""
-    cores = rgb_para_lab(np.array([peca["cor"] for peca in pecas], dtype=float))
-    variacoes = normalizar_min_max([
-        variacao_bruta(cor, rgb_para_lab(np.array(peca["paleta"], dtype=float)))
-        for cor, peca in zip(cores, pecas)
-    ])
+    labs = [rgb_para_lab(np.array(p["rgb"], dtype=float)) for p in pecas]
+    # o primeiro rgb e a cor dominante. peca lisa fica com as outras perto dele
+    variacoes = normalizar_min_max([float(np.mean(np.linalg.norm(lab - lab[0], axis=1))) for lab in labs])
 
     raizes = {nome: math.sqrt(peso) for nome, peso in PESOS.items()}
-    for indice, (peca, cor) in enumerate(zip(pecas, cores)):
-        L, a, b = normalizar_lab(cor)
-        peca["id"] = indice
+    for i, peca in enumerate(pecas):
+        L, a, b = normalizar_lab(labs[i][0])
+        peca["id"] = i
         peca["vetor"] = [
             L * raizes["L"],
             a * raizes["a"],
             b * raizes["b"],
-            variacoes[indice] * raizes["variacao_cor"],
+            variacoes[i] * raizes["variacao_cor"],
             calcular_formalidade(peca["descricao"]) * raizes["formalidade"],
         ]
 
 
 def dividir_looks(pecas):
-    """Sorteia os looks com semente fixa. Devolve {look original: (id novo, conjunto)}."""
-    originais = sorted({look for peca in pecas for look in peca["looks"]}, key=str)
+    originais = sorted({look for peca in pecas for look in peca["looks"]})
     random.Random(SEMENTE).shuffle(originais)
     corte = int(len(originais) * FRACAO_TREINO)
-    return {
-        look: (indice, "treino" if indice < corte else "teste")
-        for indice, look in enumerate(originais)
-    }
+    return {look: (i, "treino" if i < corte else "teste") for i, look in enumerate(originais)}
 
 
 def gravar(pecas, divisao, caminho_pecas, caminho_looks):
-    """Grava pecas.csv e looks.csv."""
     with open(caminho_pecas, "w", newline="", encoding="utf-8") as arquivo:
         escritor = csv.writer(arquivo, lineterminator="\n")
         escritor.writerow(["id", "categoria", "L", "a", "b", "variacao_cor", "formalidade"])
@@ -225,26 +152,25 @@ def gravar(pecas, divisao, caminho_pecas, caminho_looks):
 
 
 def gravar_subconjuntos(pecas, divisao, pasta):
-    """Grava pecas_N.csv e looks_N.csv para os testes de tempo."""
     sorteio = random.Random(SEMENTE)
     for tamanho in TAMANHOS_SUBCONJUNTOS:
         if tamanho > len(pecas):
-            print(f"Subconjunto de {tamanho} ignorado. A base tem {len(pecas)} peças.")
+            print(f"Subconjunto de {tamanho} ignorado. A base tem {len(pecas)} pecas.")
             continue
-        amostra = sorted(sorteio.sample(pecas, tamanho), key=lambda peca: peca["id"])
+        amostra = sorted(sorteio.sample(pecas, tamanho), key=lambda p: p["id"])
         gravar(amostra, divisao, pasta / f"pecas_{tamanho}.csv", pasta / f"looks_{tamanho}.csv")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Prepara a base e grava os CSVs.")
-    parser.add_argument("--entrada", required=True, help="arquivo JSON da FashionVerse-MME")
-    parser.add_argument("--saida", default="dados", help="pasta dos CSVs (padrão: dados)")
-    argumentos = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--entrada", required=True)
+    parser.add_argument("--saida", default="dados")
+    args = parser.parse_args()
 
-    pasta = Path(argumentos.saida)
+    pasta = Path(args.saida)
     pasta.mkdir(parents=True, exist_ok=True)
 
-    pecas = carregar_pecas_validas(argumentos.entrada)
+    pecas = carregar_pecas(args.entrada)
     calcular_vetores(pecas)
     divisao = dividir_looks(pecas)
     gravar(pecas, divisao, pasta / "pecas.csv", pasta / "looks.csv")

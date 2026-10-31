@@ -1,32 +1,44 @@
 #pragma once
 
+#include <utility>
 #include <vector>
 
-// ESQUELETO. A dupla implementa esta classe.
-// Usa união por rank e compressão de caminho.
 class UnionFind {
 public:
-    // TODO: parent[i] = i e rnk[i] = 0 para cada um dos n elementos.
-    explicit UnionFind(int n) { (void)n; }
-
-    // Devolve a raiz do grupo de x e aponta o caminho inteiro para ela.
-    // TODO: escrever com laço, não com recursão, para não estourar a pilha.
-    int find(int x) { return x; }
-
-    // Junta os grupos de a e b. Devolve false se já estavam juntos.
-    // TODO: a raiz de rank menor fica embaixo da outra.
-    // TODO: com ranks iguais, a raiz de b fica embaixo da raiz de a. O teste espera essa regra.
-    bool unite(int a, int b) {
-        (void)a;
-        (void)b;
-        return false;
+    explicit UnionFind(int n) : parent(n), rnk(n, 0) {
+        for (int i = 0; i < n; i++) parent[i] = i;
     }
 
-    // Quantidade de grupos.
-    // TODO: contar as posições com parent[i] == i. Não contar valores diferentes.
-    int contar_grupos() const { return 0; }
+    // com laco pq uma corrente longa estouraria a pilha na recursao
+    int find(int x) {
+        int raiz = x;
+        while (parent[raiz] != raiz) raiz = parent[raiz];
+        while (parent[x] != raiz) {
+            int prox = parent[x];
+            parent[x] = raiz;
+            x = prox;
+        }
+        return raiz;
+    }
 
-    // Pronto. Usados pelos testes para ler e definir o vetor parent.
+    bool unite(int a, int b) {
+        int ra = find(a);
+        int rb = find(b);
+        if (ra == rb) return false;
+        if (rnk[ra] < rnk[rb]) std::swap(ra, rb);
+        parent[rb] = ra;
+        if (rnk[ra] == rnk[rb]) rnk[ra]++;
+        return true;
+    }
+
+    int contar_grupos() const {
+        int total = 0;
+        for (int i = 0; i < (int)parent.size(); i++) {
+            if (parent[i] == i) total++;
+        }
+        return total;
+    }
+
     const std::vector<int>& pais() const { return parent; }
     void definir_pais(const std::vector<int>& novos) { parent = novos; }
 

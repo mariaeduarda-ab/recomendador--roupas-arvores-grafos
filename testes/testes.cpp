@@ -176,13 +176,15 @@ void testar_casos_de_borda(const Base& base) {
     checar(arvore.knn({0, 0}, 100, &saia).size() == 3, "Borda: filtro de categoria");
     checar(rec.versao_a({}, saia, 5).empty(), "Borda: look vazio na versão A");
     checar(rec.versao_c({}, saia, 5).empty(), "Borda: look vazio na versão C");
-    checar(rec.popularidade("nao existe", 5).empty(), "Borda: categoria desconhecida");
+    checar(rec.popularidade({}, "nao existe", 5).empty(), "Borda: categoria desconhecida");
 
     const int teste_preta = base.indice_da_peca.at(6);
     checar(grafo.num_looks(teste_preta) == 1, "Vazamento: look de teste fora do grafo");
 
-    const std::vector<Candidata> pop = rec.popularidade(saia, 1);
+    const std::vector<Candidata> pop = rec.popularidade({}, saia, 1);
     checar(pop.size() == 1 && pop[0].indice == base.indice_da_peca.at(7), "Popularidade: saia cinza primeiro");
+    const std::vector<Candidata> sem_cinza = rec.popularidade({base.indice_da_peca.at(7)}, saia, 10);
+    checar(sem_cinza.size() == 2 && sem_cinza[0].indice != base.indice_da_peca.at(7), "Popularidade: peça do look sai da lista");
 
     const std::vector<Candidata> c = rec.versao_c({teste_preta}, saia, 10);
     checar(c.size() == 3 && c[0].indice == base.indice_da_peca.at(7), "Versão C completa: saia cinza primeiro");

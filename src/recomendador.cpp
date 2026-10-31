@@ -34,11 +34,16 @@ Recomendador::Recomendador(const Base& base, const KDTree& arvore, const GrafoLo
     for (auto& par : ranking_) ordenar_e_cortar(par.second, (int)par.second.size());
 }
 
-std::vector<Candidata> Recomendador::popularidade(const std::string& categoria, int n) const {
+std::vector<Candidata> Recomendador::popularidade(const std::vector<int>& look, const std::string& categoria,
+                                                  int n) const {
+    std::vector<Candidata> res;
     auto it = ranking_.find(categoria);
-    if (it == ranking_.end()) return {};
-    int total = std::min(n, (int)it->second.size());
-    return std::vector<Candidata>(it->second.begin(), it->second.begin() + total);
+    if (it == ranking_.end()) return res;
+    for (const Candidata& c : it->second) {
+        if ((int)res.size() == n) break;
+        if (!esta_no_look(look, c.indice)) res.push_back(c);
+    }
+    return res;
 }
 
 std::vector<Candidata> Recomendador::versao_a(const std::vector<int>& look, const std::string& categoria,

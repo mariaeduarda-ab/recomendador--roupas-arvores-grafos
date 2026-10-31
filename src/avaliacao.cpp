@@ -105,7 +105,7 @@ void avaliar_hit(const Base& base, const Recomendador& rec, const GrafoLooks& gr
         if (grafo.num_looks(escondida) > 0) no_treino++;
 
         const std::vector<Candidata> listas[N_VERSOES] = {
-            rec.popularidade(cat, valores_k[N_K - 1]),
+            rec.popularidade(resto, cat, valores_k[N_K - 1]),
             rec.versao_a(resto, cat, valores_k[N_K - 1]),
             rec.versao_b(resto, cat, valores_k[N_K - 1]),
             rec.versao_c(resto, cat, valores_k[N_K - 1]),

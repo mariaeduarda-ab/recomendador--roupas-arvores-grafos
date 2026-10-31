@@ -30,7 +30,7 @@ public:
     Recomendador(const Base& base, const KDTree& arvore, const GrafoLooks& grafo,
                  bool ajuste_popularidade = false);
 
-    std::vector<Candidata> popularidade(const std::string& categoria, int n) const;
+    std::vector<Candidata> popularidade(const std::vector<int>& look, const std::string& categoria, int n) const;
 
     // A: proximidade ate a media dos vetores do look
     std::vector<Candidata> versao_a(const std::vector<int>& look, const std::string& categoria, int n) const;

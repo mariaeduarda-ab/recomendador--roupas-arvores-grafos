@@ -9,53 +9,53 @@ Para ver o que já passa, rode `make test`.
 - [ ] Abrir uma amostra da FashionVerse e conferir o formato e a qualidade
 - Responsável:
 - Arquivos: nenhum. Anotar os nomes dos campos para a tarefa 2.
-- Pronto quando: os nomes dos campos forem conhecidos, 50 peças forem conferidas à mão e a licença for confirmada.
+- Pronto quando: 50 peças forem conferidas à mão. Os campos e a licença (CC BY 4.0) já foram conferidos.
 
 ## 2. Pré-processamento
 
-- [ ] Completar o `preprocessar.py` e gerar os CSVs
+- [x] Completar o `preprocessar.py` e gerar os CSVs
 - Responsável:
 - Arquivos: `preprocess/preprocessar.py`, `dados/`
 - Pronto quando: `pecas.csv`, `looks.csv` e os subconjuntos existirem e `./recomendador parecidas 0 5` ler a base sem erro de leitura.
 
 ## 3. Union-Find
 
-- [ ] Union-Find + testes
+- [x] Union-Find + testes
 - Responsável:
 - Arquivos: `src/union_find.hpp`
 - Pronto quando: os testes `Union-Find` passarem.
 
 ## 4. KD-tree
 
-- [ ] KD-tree (construção, vizinho mais próximo, kNN, força bruta) + testes
+- [x] KD-tree (construção, vizinho mais próximo, kNN, força bruta) + testes
 - Responsável:
 - Arquivos: `src/kdtree.hpp`, `src/kdtree.cpp`
 - Pronto quando: os testes `KD-tree` passarem, inclusive o teste contra a força bruta.
 
 ## 5. Grafo de similaridade
 
-- [ ] Grafo kNN mútuo + grupos + exportação Gephi
+- [x] Grafo kNN mútuo + grupos + exportação Gephi
 - Responsável:
 - Arquivos: `src/grafo_similaridade.cpp`, `src/gephi.cpp`
 - Pronto quando: os testes `kNN mútuo` passarem e `./recomendador gephi 10` gerar arquivos que abrem no Gephi.
 
 ## 6. Grafo peça–look
 
-- [ ] Grafo peça–look + BFS de 2 passos + testes
+- [x] Grafo peça–look + BFS de 2 passos + testes
 - Responsável:
 - Arquivos: `src/grafo_looks.cpp`
 - Pronto quando: os testes `BFS` passarem.
 
 ## 7. Recomendação
 
-- [ ] Versões A, B, C e popularidade
+- [x] Versões A, B, C e popularidade
 - Responsável:
 - Arquivos: `src/recomendador.cpp`
 - Pronto quando: os testes `Peso` e `Versão C` passarem e `./recomendador completar 5 saia --dados dados/exemplo` listar saia cinza, saia jeans e saia preta, nessa ordem.
 
 ## 8. Avaliação
 
-- [ ] Avaliação (Hit@k) e testes de tempo
+- [x] Avaliação (Hit@k) e testes de tempo
 - Responsável:
 - Arquivos: `src/avaliacao.cpp`, `resultados/`
 - Pronto quando: `./recomendador avaliar` gravar `resultados/hit_k.csv` e `resultados/tempos.csv` com valores da base real.

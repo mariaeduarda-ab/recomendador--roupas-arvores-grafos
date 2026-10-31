@@ -59,7 +59,7 @@ flowchart TD
 
 ### Base principal: FashionVerse-MME
 
-Está no Mendeley Data, com DOI 10.17632/6sx3pbsfvz.1. Foi criada a partir da base Polyvore, que tem licença Apache 2.0. Tem cerca de 127 mil peças em cerca de 22 mil looks, em 20 categorias.
+Está no Mendeley Data, com DOI 10.17632/6sx3pbsfvz.1 e licença CC BY 4.0. Foi criada a partir da base Polyvore, que tem licença Apache 2.0. O arquivo usado é o `Combined_Metadata.json`, com 126.928 registros em 20 categorias.
 
 Para cada peça, a base traz:
 
@@ -76,7 +76,15 @@ Motivos da escolha:
 - Já tem as cores. Não é preciso rodar visão computacional nas imagens.
 - É grande. Permite medir o tempo de 1 mil até 100 mil peças.
 
-O formato exato do JSON ainda não foi conferido. Por isso os nomes dos campos são `TODO` no `preprocessar.py`.
+### O que a base tem de diferente do esperado
+
+O JSON não tem um campo de look. O look sai do nome do arquivo: `200266907_1.jpg` é a peça 1 do look 200266907.
+
+Esse nome é único, então cada registro aparece em um look só. Com isso, a BFS nunca sairia do próprio look. A solução foi juntar os registros com a mesma categoria, os mesmos três RGB e a mesma legenda do BLIP, porque a mesma imagem gera esses mesmos valores. O resultado são 102.370 peças, e cerca de 14% delas aparecem em mais de um look.
+
+Consequência: em 1.600 dos 5.842 looks de teste (27%) a peça escondida existe no treino. Esse é o teto de acerto das versões B e C.
+
+Outros ajustes: `outwear` vira `outerwear`, `watches` vira `watch`, e 277 registros cujo nome não segue o padrão são descartados. A descrição da base fala em 21.889 looks, mas os nomes dos arquivos dão 31.609. O projeto usa os nomes dos arquivos.
 
 ### Base opcional: roupas de segunda mão da Noruega
 
@@ -95,7 +103,7 @@ Está no Zenodo, com DOI 10.5281/zenodo.20440761 e licença CC BY-SA 4.0. Tem 16
 Passos do `preprocessar.py`:
 
 1. Ler o JSON da FashionVerse.
-2. Descartar peças sem cor, sem categoria ou sem look.
+2. Descartar registros sem cor, sem categoria ou com nome fora do padrão e juntar as peças repetidas.
 3. Converter a cor dominante e a paleta de RGB para Lab.
 4. Calcular os atributos numéricos e normalizar todos para o intervalo de 0 a 1.
 5. Multiplicar cada atributo por √w, em que w é o peso dele.
@@ -448,10 +456,12 @@ O programa grava esta tabela em `resultados/hit_k.csv`.
 
 | Versão | Hit@1 | Hit@5 | Hit@10 |
 | --- | --- | --- | --- |
-| Popularidade | | | |
-| A. Só semelhança | | | |
-| B. Só grafo | | | |
-| C. Grafo + semelhança | | | |
+| Popularidade | 0,0017 | 0,0056 | 0,0087 |
+| A. Só semelhança | 0,0005 | 0,0019 | 0,0051 |
+| B. Só grafo | 0,0038 | 0,0058 | 0,0060 |
+| C. Grafo + semelhança | 0,0036 | 0,0060 | 0,0063 |
+
+Valores em 5.842 looks de teste, com os parâmetros iniciais. A lista é comparada com o catálogo inteiro da categoria, então os valores são baixos em todas as versões. O grafo ganha da popularidade em Hit@1 e Hit@5, mas a popularidade ganha em Hit@10. A versão C só ganha da B em Hit@5 e Hit@10, por pouco, e perde em Hit@1. O ajuste de popularidade (`--ajuste`) piorou B e C nesta base.
 
 ### Testes de tempo
 
@@ -490,20 +500,20 @@ O filtro de categoria pode aumentar o custo do kNN. Peças de outras categorias 
 
 ## 14. Organização do código
 
-| Arquivo | O que faz | Estado |
-| --- | --- | --- |
-| `preprocess/preprocessar.py` | gera os CSVs | pronto, com TODO nos nomes dos campos |
-| `src/peca.hpp` | struct Peca e distância ao quadrado | pronto |
-| `src/leitura.hpp/.cpp` | leitura dos CSVs | pronto |
-| `src/kdtree.hpp/.cpp` | construção, kNN e força bruta | esqueleto |
-| `src/union_find.hpp` | find, unite e contagem de grupos | esqueleto |
-| `src/grafo_similaridade.hpp/.cpp` | kNN mútuo e grupos | esqueleto |
-| `src/grafo_looks.hpp/.cpp` | grafo bipartido e BFS de 2 passos | esqueleto |
-| `src/recomendador.hpp/.cpp` | versões A, B e C e popularidade | esqueleto |
-| `src/avaliacao.hpp/.cpp` | Hit@k e tempos | pronto |
-| `src/gephi.hpp/.cpp` | nodes.csv e edges.csv | pronto |
-| `src/main.cpp` | interface de linha de comando | pronto |
-| `testes/testes.cpp` | testes sem framework externo | pronto |
+| Arquivo | O que faz |
+| --- | --- |
+| `preprocess/preprocessar.py` | gera os CSVs |
+| `src/peca.hpp` | struct Peca e distância ao quadrado |
+| `src/leitura.hpp/.cpp` | leitura dos CSVs |
+| `src/kdtree.hpp/.cpp` | construção, kNN e força bruta |
+| `src/union_find.hpp` | find, unite e contagem de grupos |
+| `src/grafo_similaridade.hpp/.cpp` | kNN mútuo e grupos |
+| `src/grafo_looks.hpp/.cpp` | grafo bipartido e BFS de 2 passos |
+| `src/recomendador.hpp/.cpp` | versões A, B e C e popularidade |
+| `src/avaliacao.hpp/.cpp` | Hit@k e tempos |
+| `src/gephi.hpp/.cpp` | nodes.csv e edges.csv |
+| `src/main.cpp` | interface de linha de comando |
+| `testes/testes.cpp` | testes sem framework externo |
 
 Toda estrutura usa o índice da peça no vetor, e não o id do CSV. Motivo: nos subconjuntos, os ids não são sequenciais.
 
@@ -530,7 +540,7 @@ Toda estrutura usa o índice da peça no vetor, e não o id do CSV. Motivo: nos 
 
 | Risco | O que fazer |
 | --- | --- |
-| Licença da FashionVerse não confirmada | confirmar antes de publicar a base tratada no Zenodo |
+| A junção de peças repetidas é uma regra aproximada | em uma amostra de 15 grupos, 14 tinham o arquivo de imagem idêntico. Citar essa limitação no artigo |
 | Erros nas cores ou nas descrições da base | conferir uma amostra de 50 peças à mão no começo |
 | Regra de formalidade pouco confiável | comparar com cerca de 50 peças rotuladas à mão. Se ficar ruim, tirar do vetor |
 | Peças populares dominam as recomendações | ligar o ajuste da seção 10 e relatar no artigo |
@@ -541,7 +551,7 @@ Toda estrutura usa o índice da peça no vetor, e não o id do CSV. Motivo: nos 
 
 - Registrar o tema da dupla nos canais da disciplina.
 - Receber as respostas do professor sobre escopo, número de bases, uso de atributos gerados por IA e uso de `priority_queue` e `nth_element`.
-- Confirmar a licença e a qualidade da FashionVerse.
+- Conferir à mão a qualidade de uma amostra da FashionVerse.
 - Ajustar os pesos, o k e o d_ref depois dos primeiros testes.
 - Publicar a base tratada no Zenodo.
 

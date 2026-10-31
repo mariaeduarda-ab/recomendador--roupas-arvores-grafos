@@ -4,8 +4,10 @@ A base completa não fica neste repositório.
 
 ## Como baixar
 
-1. Baixe os arquivos no Zenodo. Link: TODO (colocar depois da publicação).
-2. Coloque os arquivos nesta pasta.
+Enquanto a base tratada não está no Zenodo, gere os CSVs:
+
+1. Baixe o `FashionVerse-MME.zip` do Mendeley Data e extraia o `Combined_Metadata.json`.
+2. Rode `python3 preprocess/preprocessar.py --entrada Combined_Metadata.json --saida dados`.
 
 Arquivos esperados:
 

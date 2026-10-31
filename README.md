@@ -14,7 +14,7 @@ Precisa só de `g++` e `make`, no Ubuntu 24.04.
 
 ## Como baixar os dados
 
-A base tratada fica no Zenodo. O link ainda é um TODO. Veja [dados/README.md](dados/README.md).
+Veja [dados/README.md](dados/README.md).
 
 ## Comandos
 
@@ -25,7 +25,7 @@ A base tratada fica no Zenodo. O link ainda é um TODO. Veja [dados/README.md](d
 ./recomendador gephi <k>                        # grupos com esse k e arquivos do Gephi
 ```
 
-Use `--dados <pasta>` para escolher a pasta dos CSVs. O padrão é `dados/`. Para usar os dados pequenos de exemplo, escreva `--dados dados/exemplo`.
+Use `--ajuste` para dividir a contagem da BFS pela popularidade da peça. Use `--dados <pasta>` para escolher a pasta dos CSVs. O padrão é `dados/`. Para usar os dados pequenos de exemplo, escreva `--dados dados/exemplo`.
 
 ## Testes
 
@@ -33,4 +33,3 @@ Use `--dados <pasta>` para escolher a pasta dos CSVs. O padrão é `dados/`. Par
 make test
 ```
 
-Os testes das estruturas falham até as estruturas serem implementadas. Isso é esperado.

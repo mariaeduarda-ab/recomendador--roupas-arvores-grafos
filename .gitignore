@@ -14,3 +14,6 @@ resultados/*
 __pycache__/
 *.pyc
 .venv/
+
+# Relatorios e tabelas do artigo ficam no repositorio
+!resultados/*.md

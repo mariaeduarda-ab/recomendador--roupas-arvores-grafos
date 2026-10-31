@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <cmath>
 #include <iostream>
 #include <map>
@@ -13,6 +14,7 @@
 #include "leitura.hpp"
 #include "recomendador.hpp"
 #include "union_find.hpp"
+#include "versao_d.hpp"
 
 namespace {
 
@@ -191,6 +193,158 @@ void testar_casos_de_borda(const Base& base) {
     checar(rec.versao_b({teste_preta}, saia, 10).size() == 1, "Versão B: só acha a saia cinza");
 }
 
+void testar_regras() {
+    Atrib lisa, listrada, floral, nao_sei;
+    lisa.estampa = "lisa";
+    listrada.estampa = "listrada";
+    floral.estampa = "floral";
+    checar(regra_estampa(listrada, floral) == -1.0, "Estampa: duas estampadas tiram ponto");
+    checar(regra_estampa(lisa, floral) == 1.0, "Estampa: lisa com estampada dá ponto");
+    checar(regra_estampa(lisa, lisa) == 0.0, "Estampa: duas lisas é neutro");
+    checar(regra_estampa(nao_sei, floral) == 0.0, "Estampa: desconhecido é neutro");
+
+    Atrib neutra;
+    neutra.neutra = true;
+    checar(regra_cor(neutra, lisa) == BONUS_COR_NEUTRA, "Cor: uma neutra ganha o bônus");
+    checar(regra_cor(lisa, floral) == 0.0, "Cor: nenhuma neutra fica sem bônus");
+}
+
+void testar_versao_d(const Base& base) {
+    std::vector<Atrib> attr;
+    std::string erro;
+    checar(ler_atributos_da_pasta("dados/exemplo", base, attr, erro), "Versão D: lê os atributos do exemplo");
+    GrafoLooks grafo;
+    grafo.construir(base);
+    VersaoD d(base, attr, grafo, ConfigD{});
+
+    const int preta = base.indice_da_peca.at(6);
+    const int cinza = base.indice_da_peca.at(7);
+
+    bool sem_mesma_cat = true;
+    for (int p = 0; p < (int)d.arestas().size(); p++) {
+        for (int q : d.arestas()[p]) {
+            if (base.pecas[p].categoria == base.pecas[q].categoria) sem_mesma_cat = false;
+        }
+    }
+    checar(sem_mesma_cat, "Versão D: aresta só entre categorias");
+    const std::vector<int>& adj_preta = d.arestas()[preta];
+    checar(std::find(adj_preta.begin(), adj_preta.end(), cinza) != adj_preta.end(), "Versão D: camisa preta liga com saia cinza");
+
+    // vetores iguais: 1 de proximidade, 0,5 de cor, 0 de estampa, 1 / raiz(2) de bonus
+    const double esperada = 1.0 + BONUS_COR_NEUTRA + 1.0 / std::sqrt(2.0);
+    checar(quase_igual(d.nota(preta, cinza), esperada), "Versão D: nota da camisa preta com a saia cinza");
+
+    const std::vector<Candidata> lista = d.completar({preta}, "saia", 10);
+    checar(!lista.empty() && lista[0].indice == cinza && quase_igual(lista[0].pontuacao, esperada),
+           "Versão D: saia cinza primeiro");
+
+    const int bota = base.indice_da_peca.at(8);
+    const std::vector<Candidata> soma = d.completar({preta, bota}, "saia", 10);
+    bool soma_certa = false;
+    for (const Candidata& c : soma) {
+        if (c.indice == cinza) soma_certa = quase_igual(c.pontuacao, d.nota(preta, cinza) + d.nota(bota, cinza));
+    }
+    checar(soma_certa, "Versão D: soma as notas com cada peça do look");
+
+    const std::vector<LookMontado> looks = d.montar(preta, {"saia", "sapato"});
+    bool montou = !looks.empty() && looks.size() <= 3;
+    for (int i = 1; i < (int)looks.size(); i++) montou = montou && looks[i - 1].soma >= looks[i].soma;
+    if (montou) {
+        const std::vector<int>& l = looks[0].pecas;
+        montou = l.size() == 3 && l[0] == preta &&
+                 quase_igual(looks[0].soma, d.nota(l[0], l[1]) + d.nota(l[0], l[2]) + d.nota(l[1], l[2]));
+    }
+    checar(montou, "Montar: até 3 looks, em ordem, com a soma das duplas");
+
+    d.trocar_pesos(1.0, 0.0, 0.0, 0.0);
+    checar(quase_igual(d.nota(preta, cinza), 1.0), "Versão D: peso 0 desliga a parte");
+
+    // nenhum look no treino: sem bonus de peca nem de grupo
+    Base sem_treino = base;
+    for (Look& look : sem_treino.looks) look.treino = false;
+    GrafoLooks grafo_vazio;
+    grafo_vazio.construir(sem_treino);
+    VersaoD d2(sem_treino, attr, grafo_vazio, ConfigD{});
+    checar(quase_igual(d2.nota(preta, cinza), 1.0 + BONUS_COR_NEUTRA), "Versão D: bônus só vem dos looks de treino");
+
+    // L1 fora: a camisa preta nao tem look, entao vale o bonus do grupo (camisa grafite, L2)
+    Base sem_l1 = base;
+    sem_l1.looks[base.indice_do_look.at(1)].treino = false;
+    GrafoLooks grafo_l1;
+    grafo_l1.construir(sem_l1);
+    VersaoD d3(sem_l1, attr, grafo_l1, ConfigD{});
+    checar(d3.bonus_grupo(preta, cinza) > 0.0 && quase_igual(d3.nota(preta, cinza), 1.0 + BONUS_COR_NEUTRA + d3.bonus_grupo(preta, cinza)),
+           "Versão D: usa o bônus do grupo quando o da peça é zero");
+
+    ConfigD um_lado;
+    um_lado.k = 1;
+    um_lado.mutuo = false;
+    ConfigD mutuo = um_lado;
+    mutuo.mutuo = true;
+    VersaoD lado(base, attr, grafo, um_lado);
+    VersaoD mut(base, attr, grafo, mutuo);
+    long long total_lado = 0;
+    long long total_mut = 0;
+    for (const auto& l : lado.arestas()) total_lado += l.size();
+    for (const auto& l : mut.arestas()) total_mut += l.size();
+    checar(total_lado > total_mut, "Versão D: basta um lado dá mais arestas que o mútuo");
+}
+
+void testar_d_contra_forca_bruta() {
+    std::mt19937 gerador(42);
+    std::bernoulli_distribution bit(0.3);
+    std::uniform_int_distribution<int> forma(0, 4);
+    const std::vector<std::string> cats = {"top", "saia", "sapato"};
+
+    Base base;
+    std::vector<Atrib> attr;
+    for (int i = 0; i < 3000; i++) {
+        Peca p;
+        p.id = i;
+        p.categoria = cats[i % 3];
+        p.v = {0.0};
+        base.pecas.push_back(p);
+        Atrib a;
+        for (int j = 0; j < 10; j++) a.g1.push_back(bit(gerador) ? 1.0 : 0.0);
+        a.g1.push_back(forma(gerador) / 4.0);  // poucos valores pra forcar empate
+        a.lab = {0.5, 0.5, 0.5};
+        attr.push_back(a);
+    }
+    GrafoLooks grafo;
+    grafo.construir(base);
+    ConfigD cfg;
+    cfg.k = 2;
+    VersaoD d(base, attr, grafo, cfg);
+
+    bool iguais = true;
+    for (int i = 0; i < 1000 && iguais; i++) {
+        const std::vector<Vizinho> x = d.vizinhos(i, cats[i % 3], 5);
+        const std::vector<Vizinho> y = d.vizinhos_bruta(i, cats[i % 3], 5);
+        const std::vector<Vizinho> x2 = d.vizinhos(i, cats[(i + 1) % 3], 5);
+        const std::vector<Vizinho> y2 = d.vizinhos_bruta(i, cats[(i + 1) % 3], 5);
+        iguais = x.size() == 5 && y.size() == 5 && x2.size() == 5 && y2.size() == 5;
+        for (int j = 0; j < 5 && iguais; j++) iguais = quase_igual(x[j].dist2, y[j].dist2) && quase_igual(x2[j].dist2, y2[j].dist2);
+    }
+    checar(iguais, "Versão D: KD-tree por categoria igual à força bruta com empates");
+
+    VersaoD outra(base, attr, grafo, cfg);
+    checar(d.arestas() == outra.arestas(), "Versão D: arestas iguais em duas execuções");
+}
+
+void testar_pontos_iguais() {
+    std::vector<Peca> pecas(50000);
+    for (int i = 0; i < (int)pecas.size(); i++) {
+        pecas[i].id = i;
+        pecas[i].v = {1.0, 0.0, 1.0};
+    }
+    KDTree arvore(3);
+    arvore.construir(pecas);
+    int visitados = 0;
+    arvore.mais_proximo({1.0, 0.0, 1.0}, visitados);
+    checar(visitados < 100, "KD-tree: pontos iguais não degeneram a busca");
+    checar(arvore.knn({1.0, 0.0, 1.0}, 5).size() == 5, "KD-tree: kNN com pontos iguais");
+}
+
 void testar_ajuste_popularidade() {
     Base base;
     for (int i = 0; i < 3; i++) {
@@ -230,6 +384,10 @@ int main() {
     testar_versao_c(base);
     testar_casos_de_borda(base);
     testar_ajuste_popularidade();
+    testar_regras();
+    testar_versao_d(base);
+    testar_d_contra_forca_bruta();
+    testar_pontos_iguais();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

@@ -456,7 +456,7 @@ O programa grava esta tabela em `resultados/hit_k.csv`.
 
 | Versão | Hit@1 | Hit@5 | Hit@10 |
 | --- | --- | --- | --- |
-| Popularidade | 0,0017 | 0,0056 | 0,0087 |
+| Popularidade | 0,0017 | 0,0056 | 0,0089 |
 | A. Só semelhança | 0,0005 | 0,0019 | 0,0051 |
 | B. Só grafo | 0,0038 | 0,0058 | 0,0060 |
 | C. Grafo + semelhança | 0,0036 | 0,0060 | 0,0063 |

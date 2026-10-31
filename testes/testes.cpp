@@ -1,7 +1,3 @@
-// Testes simples, sem framework externo.
-// Os testes das estruturas falham até a dupla implementar cada parte. Isso é esperado.
-
-#include <algorithm>
 #include <cmath>
 #include <iostream>
 #include <map>
@@ -30,7 +26,6 @@ void checar(bool condicao, const std::string& nome) {
 
 bool quase_igual(double a, double b) { return std::fabs(a - b) < 1e-9; }
 
-// As 6 primeiras peças do exemplo são os pontos A a F do guia.
 std::vector<Peca> pontos_do_guia(const Base& base) {
     return std::vector<Peca>(base.pecas.begin(), base.pecas.begin() + 6);
 }
@@ -84,7 +79,7 @@ void testar_kdtree_contra_forca_bruta() {
     std::uniform_real_distribution<double> sorteio(0.0, 1.0);
     std::vector<Peca> pecas(10000);
     for (std::size_t i = 0; i < pecas.size(); i++) {
-        pecas[i].id = static_cast<int>(i);
+        pecas[i].id = (int)i;
         pecas[i].categoria = "camisa";
         for (int d = 0; d < 5; d++) pecas[i].v.push_back(sorteio(gerador));
     }
@@ -97,7 +92,7 @@ void testar_kdtree_contra_forca_bruta() {
         for (int d = 0; d < 5; d++) q.push_back(sorteio(gerador));
         const std::vector<Vizinho> a = arvore.knn(q, 5);
         const std::vector<Vizinho> b = arvore.forca_bruta(q, 5);
-        // Listas vazias não contam como iguais. Compara a distância por causa de empates.
+        // compara distancia e nao indice por causa de empates
         iguais = a.size() == 5 && b.size() == 5;
         for (std::size_t i = 0; i < a.size() && iguais; i++) iguais = quase_igual(a[i].dist2, b[i].dist2);
     }
@@ -110,7 +105,7 @@ void testar_knn_mutuo() {
     std::vector<Peca> pecas(400);
     for (std::size_t i = 0; i < pecas.size(); i++) {
         const double centro = i < 200 ? 0.0 : 100.0;
-        pecas[i].id = static_cast<int>(i);
+        pecas[i].id = (int)i;
         pecas[i].categoria = "camisa";
         pecas[i].v = {centro + ruido(gerador), centro + ruido(gerador)};
     }
@@ -167,6 +162,52 @@ void testar_versao_c(const Base& base) {
     checar(certo, "Versão C: saia cinza 1,8, saia jeans 0,8 e saia preta 0,5");
 }
 
+void testar_casos_de_borda(const Base& base) {
+    KDTree arvore(2);
+    arvore.construir(base.pecas);
+    GrafoLooks grafo;
+    grafo.construir(base);
+    const Recomendador rec(base, arvore, grafo);
+
+    checar(arvore.knn({0, 0}, 0).empty(), "Borda: k = 0 devolve vazio");
+    checar(arvore.knn({0, 0}, 100).size() == base.pecas.size(), "Borda: k maior que a base devolve todas");
+
+    const std::string saia = "saia";
+    checar(arvore.knn({0, 0}, 100, &saia).size() == 3, "Borda: filtro de categoria");
+    checar(rec.versao_a({}, saia, 5).empty(), "Borda: look vazio na versão A");
+    checar(rec.versao_c({}, saia, 5).empty(), "Borda: look vazio na versão C");
+    checar(rec.popularidade("nao existe", 5).empty(), "Borda: categoria desconhecida");
+
+    const int teste_preta = base.indice_da_peca.at(6);
+    checar(grafo.num_looks(teste_preta) == 1, "Vazamento: look de teste fora do grafo");
+
+    const std::vector<Candidata> pop = rec.popularidade(saia, 1);
+    checar(pop.size() == 1 && pop[0].indice == base.indice_da_peca.at(7), "Popularidade: saia cinza primeiro");
+
+    const std::vector<Candidata> c = rec.versao_c({teste_preta}, saia, 10);
+    checar(c.size() == 3 && c[0].indice == base.indice_da_peca.at(7), "Versão C completa: saia cinza primeiro");
+    checar(rec.versao_b({teste_preta}, saia, 10).size() == 1, "Versão B: só acha a saia cinza");
+}
+
+void testar_ajuste_popularidade() {
+    Base base;
+    for (int i = 0; i < 3; i++) {
+        Peca p;
+        p.id = i;
+        p.categoria = "x";
+        p.v = {(double)i};
+        base.pecas.push_back(p);
+    }
+    Look a, b;
+    a.pecas = {0, 1};
+    b.pecas = {1, 2};
+    base.looks = {a, b};
+    GrafoLooks grafo;
+    grafo.construir(base);
+    const auto cont = grafo.bfs_2_passos(0, true);
+    checar(quase_igual(cont.at(1), 1.0 / std::sqrt(2.0)), "BFS: ajuste divide pela raiz dos looks");
+}
+
 }  // namespace
 
 int main() {
@@ -185,8 +226,9 @@ int main() {
     testar_knn_mutuo();
     testar_bfs(base);
     testar_versao_c(base);
+    testar_casos_de_borda(base);
+    testar_ajuste_popularidade();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
-    // Sempre devolve 0. Testes falhando são esperados enquanto as estruturas são esqueletos.
-    return 0;
+    return reprovados > 0 ? 1 : 0;
 }

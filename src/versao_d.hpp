@@ -32,6 +32,18 @@ struct LookMontado {
     double soma = 0.0;
 };
 
+// conta quantas vezes cada grupo de atributos aparece junto de outro nos looks de treino
+class TabelaGrupos {
+public:
+    void montar(const Base& base, const std::vector<Atrib>& attr);
+    double bonus(int p, int q) const;
+
+private:
+    std::vector<int> grupo_;
+    std::unordered_map<long long, double> juntos_;
+    std::unordered_map<int, double> aparicoes_;
+};
+
 // o bonus so ve os looks com treino == true na Base e no grafo.
 // pra separar validacao, passe uma copia da Base com esses looks marcados como nao treino
 class VersaoD {
@@ -62,7 +74,6 @@ private:
 
     void montar_arvores();
     void montar_arestas();
-    void montar_tabela_grupos();
     double nota_com(int p, int q, const Contagem& bfs) const;
 
     const Base& base_;
@@ -80,7 +91,5 @@ private:
     double ms_arvores_ = 0.0;
     double ms_arestas_ = 0.0;
 
-    std::vector<int> grupo_;
-    std::unordered_map<long long, double> juntos_;
-    std::unordered_map<int, double> aparicoes_;
+    TabelaGrupos grupos_;
 };

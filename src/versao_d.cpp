@@ -46,6 +46,32 @@ double regra_estampa(const Atrib& p, const Atrib& q) {
     return 0.0;
 }
 
+void TabelaGrupos::montar(const Base& base, const std::vector<Atrib>& attr) {
+    std::unordered_map<std::string, int> id_cat;
+    grupo_.resize(base.pecas.size());
+    for (int i = 0; i < (int)base.pecas.size(); i++) {
+        int c = id_cat.emplace(base.pecas[i].categoria, (int)id_cat.size()).first->second;
+        grupo_[i] = grupo_da_peca(attr[i], c);
+    }
+    for (const Look& look : base.looks) {
+        if (!look.treino) continue;
+        for (int p : look.pecas) {
+            aparicoes_[grupo_[p]] += 1.0;
+            for (int q : look.pecas) {
+                if (base.pecas[p].categoria != base.pecas[q].categoria) juntos_[chave_par(grupo_[p], grupo_[q])] += 1.0;
+            }
+        }
+    }
+}
+
+// divide pelos dois grupos pra ficar perto de 0 a 1. um grupo tem milhares de looks,
+// dividir so por um deixaria esse bonus muito maior que as outras partes da nota
+double TabelaGrupos::bonus(int p, int q) const {
+    auto it = juntos_.find(chave_par(grupo_[p], grupo_[q]));
+    if (it == juntos_.end()) return 0.0;
+    return it->second / std::sqrt(aparicoes_.at(grupo_[p]) * aparicoes_.at(grupo_[q]));
+}
+
 VersaoD::VersaoD(const Base& base, const std::vector<Atrib>& attr, const GrafoLooks& grafo, const ConfigD& cfg)
     : base_(base), attr_(attr), grafo_(grafo), cfg_(cfg) {
     auto t0 = std::chrono::steady_clock::now();
@@ -55,7 +81,7 @@ VersaoD::VersaoD(const Base& base, const std::vector<Atrib>& attr, const GrafoLo
     auto t2 = std::chrono::steady_clock::now();
     ms_arvores_ = std::chrono::duration<double, std::milli>(t1 - t0).count();
     ms_arestas_ = std::chrono::duration<double, std::milli>(t2 - t1).count();
-    montar_tabela_grupos();
+    grupos_.montar(base_, attr_);
 }
 
 void VersaoD::trocar_pesos(double a, double b, double c, double d) {
@@ -69,7 +95,6 @@ void VersaoD::montar_arvores() {
     int n = (int)base_.pecas.size();
     busca_.resize(n);
     local_.resize(n);
-    grupo_.resize(n);
     for (int i = 0; i < n; i++) {
         busca_[i] = attr_[i].g1;
         if (cfg_.misturar) {
@@ -84,7 +109,6 @@ void VersaoD::montar_arvores() {
         p.v = busca_[i];
         local_[i] = (int)pecas_cat_[c].size();
         pecas_cat_[c].push_back(p);
-        grupo_[i] = grupo_da_peca(attr_[i], c);
     }
     // so depois de encher pecas_cat_: a arvore guarda ponteiro pro vetor
     for (const std::vector<Peca>& lista : pecas_cat_) {
@@ -122,29 +146,13 @@ void VersaoD::montar_arestas() {
     }
 }
 
-void VersaoD::montar_tabela_grupos() {
-    for (const Look& look : base_.looks) {
-        if (!look.treino) continue;
-        for (int p : look.pecas) {
-            aparicoes_[grupo_[p]] += 1.0;
-            for (int q : look.pecas) {
-                if (base_.pecas[p].categoria != base_.pecas[q].categoria) juntos_[chave_par(grupo_[p], grupo_[q])] += 1.0;
-            }
-        }
-    }
-}
-
 double VersaoD::proximidade(int p, int q) const {
     const std::vector<double>& x = attr_[p].g1;
     return 1.0 - std::sqrt(distancia2(x, attr_[q].g1) / x.size());
 }
 
-// divide pelos dois grupos pra ficar perto de 0 a 1. um grupo tem milhares de looks,
-// dividir so por um deixaria esse bonus muito maior que as outras partes da nota
 double VersaoD::bonus_grupo(int p, int q) const {
-    auto it = juntos_.find(chave_par(grupo_[p], grupo_[q]));
-    if (it == juntos_.end()) return 0.0;
-    return it->second / std::sqrt(aparicoes_.at(grupo_[p]) * aparicoes_.at(grupo_[q]));
+    return grupos_.bonus(p, q);
 }
 
 double VersaoD::nota_com(int p, int q, const Contagem& bfs) const {

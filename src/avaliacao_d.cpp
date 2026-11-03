@@ -36,13 +36,7 @@ const std::vector<double> GRADE_B = {0.0, 1.0};
 const std::vector<double> GRADE_C = {0.0, 1.0};
 const std::vector<double> GRADE_D = {1.0, 5.0};
 
-struct Linha {
-    std::string nome;
-    std::vector<int> pos;  // posicao da escondida na lista completa, -1 se nao apareceu
-    double candidatas = 0.0;
-};
-
-using Lista = std::function<std::vector<Candidata>(const std::vector<int>&, const std::string&)>;
+}  // namespace
 
 int conta_hit(const std::vector<int>& pos, int k) {
     int total = 0;
@@ -97,6 +91,8 @@ void gravar_linha(std::ofstream& csv, const Linha& l) {
     std::cout << l.nome << ": " << conta_hit(l.pos, 10) << " acertos no top 10" << std::endl;
 }
 
+namespace {
+
 // sorteia N_LISTA pecas da categoria. fora delas a escondida ainda e candidata, entao pos fica >= N_LISTA
 Linha rodar_aleatoria(const Base& base, const std::vector<Escondida>& testes) {
     std::unordered_map<std::string, std::vector<int>> por_cat;
@@ -150,6 +146,8 @@ void gravar_esperado(std::ofstream& csv, const Base& base, const std::vector<Esc
     csv << ',' << n << ",1," << (n > 0 ? cand_total / n : 0.0) << std::endl;
 }
 
+}  // namespace
+
 // diferenca pareada: mesmos looks nas duas versoes. se o intervalo passa pelo 0, nao da pra afirmar
 void gravar_diferenca(std::ofstream& csv, const Linha& x, const Linha& y) {
     int n = (int)x.pos.size();
@@ -184,6 +182,8 @@ std::vector<int> sortear_validacao(const Base& base) {
     treino.resize((std::size_t)(treino.size() * FRACAO_VALIDACAO));
     return treino;
 }
+
+namespace {
 
 ConfigD escolher_config(const Base& base, const std::vector<Atrib>& attr, const std::string& pasta_saida) {
     std::vector<int> val = sortear_validacao(base);

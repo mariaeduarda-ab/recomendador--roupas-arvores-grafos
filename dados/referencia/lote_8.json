@@ -1,0 +1,502 @@
+[
+ {
+  "id": 95481,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 100472,
+  "categoria": "outerwear",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 26817,
+  "categoria": "dress",
+  "estampa": "listrada",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 41131,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 32802,
+  "categoria": "dress",
+  "estampa": "floral",
+  "comprimento": "médio",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 97819,
+  "categoria": "outerwear",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "cropped",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 43648,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 15719,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "justa",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 90178,
+  "categoria": "jumpsuit",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 44825,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90207,
+  "categoria": "jumpsuit",
+  "estampa": "outra estampa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 28188,
+  "categoria": "dress",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 28770,
+  "categoria": "dress",
+  "estampa": "floral",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 47266,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 19759,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90070,
+  "categoria": "jumpsuit",
+  "estampa": "outra estampa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 18621,
+  "categoria": "skirt",
+  "estampa": "xadrez",
+  "comprimento": "médio",
+  "modelagem": "ampla",
+  "estilo": "moderno",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 99333,
+  "categoria": "outerwear",
+  "estampa": "outra estampa",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 11632,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "cropped",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90093,
+  "categoria": "jumpsuit",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 14940,
+  "categoria": "dress",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 14986,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "reta",
+  "estilo": "esportivo",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 43624,
+  "categoria": "pants",
+  "estampa": "outra estampa",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 12986,
+  "categoria": "top",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "justa",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 42947,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 10760,
+  "categoria": "top",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90210,
+  "categoria": "jumpsuit",
+  "estampa": "floral",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 17248,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 602,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 17994,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "médio",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 45724,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90235,
+  "categoria": "jumpsuit",
+  "estampa": "xadrez",
+  "comprimento": "médio",
+  "modelagem": "ampla",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 90212,
+  "categoria": "jumpsuit",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 10334,
+  "categoria": "top",
+  "estampa": "listrada",
+  "comprimento": "não se aplica",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 32672,
+  "categoria": "top",
+  "estampa": "listrada",
+  "comprimento": "não se aplica",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 27756,
+  "categoria": "dress",
+  "estampa": "floral",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 42962,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 17815,
+  "categoria": "skirt",
+  "estampa": "floral",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 31675,
+  "categoria": "dress",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "justa",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 16356,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 7757,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 32490,
+  "categoria": "dress",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 8286,
+  "categoria": "jumpsuit",
+  "estampa": "floral",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90219,
+  "categoria": "jumpsuit",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 90259,
+  "categoria": "jumpsuit",
+  "estampa": "outra estampa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 95891,
+  "categoria": "outerwear",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "cropped",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 14240,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "justa",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 27001,
+  "categoria": "dress",
+  "estampa": "outra estampa",
+  "comprimento": "curto",
+  "modelagem": "oversized",
+  "estilo": "esportivo",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 32556,
+  "categoria": "dress",
+  "estampa": "outra estampa",
+  "comprimento": "longo",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 19751,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ }
+]

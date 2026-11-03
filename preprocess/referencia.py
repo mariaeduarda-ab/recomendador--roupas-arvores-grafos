@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Confere os lotes rotulados olhando as imagens e junta tudo em referencia_300.csv.
+# Confere os lotes rotulados olhando as imagens e junta em referencia_300.csv e referencia_extra_100.csv.
 # Uso: python3 preprocess/referencia.py validar dados/referencia/lote_1.json
 #      python3 preprocess/referencia.py juntar
 
@@ -56,20 +56,20 @@ def validar(caminho):
     return erros
 
 
-def juntar():
+def juntar(lotes, nome):
     linhas = []
-    for n in range(1, 7):
+    for n in lotes:
         caminho = PASTA / f"lote_{n}.json"
         erros = validar(caminho)
         if erros:
             sys.exit(f"{caminho}: {len(erros)} erros. Rode validar primeiro.")
         linhas += json.loads(caminho.read_text(encoding="utf-8"))
     linhas.sort(key=lambda p: p["id"])
-    with open(PASTA / "referencia_300.csv", "w", newline="", encoding="utf-8") as arq:
+    with open(PASTA / nome, "w", newline="", encoding="utf-8") as arq:
         esc = csv.DictWriter(arq, COLUNAS, extrasaction="ignore", lineterminator="\n")
         esc.writeheader()
         esc.writerows(linhas)
-    print(f"{len(linhas)} pecas em {PASTA / 'referencia_300.csv'}.")
+    print(f"{len(linhas)} pecas em {PASTA / nome}.")
 
 
 def main():
@@ -78,7 +78,9 @@ def main():
         print("\n".join(erros) if erros else "OK: 50 pecas, so valores permitidos.")
         sys.exit(1 if erros else 0)
     if len(sys.argv) == 2 and sys.argv[1] == "juntar":
-        juntar()
+        juntar(range(1, 7), "referencia_300.csv")
+        # lotes 7 e 8 sao as 100 roupas extras, sorteadas de outro jeito, entao ficam num arquivo separado
+        juntar(range(7, 9), "referencia_extra_100.csv")
         return
     sys.exit(__doc__ or "uso: referencia.py validar <lote.json> | referencia.py juntar")
 

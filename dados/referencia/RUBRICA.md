@@ -34,4 +34,4 @@ Correção feita depois dos lotes: a primeira versão dizia que bordado era "out
 
 ## Incerto
 
-"incerto" só quando a imagem não mostra o atributo. Exemplo: peça dobrada ou foto cortada. Houve 4 casos em 300.
+"incerto" só quando a imagem não mostra o atributo. Exemplo: peça dobrada ou foto cortada. Houve 3 casos em 300.

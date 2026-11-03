@@ -10,6 +10,7 @@
 
 #include "avaliacao.hpp"
 #include "avaliacao_d.hpp"
+#include "avaliacao_fitb.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
 #include "kdtree.hpp"
@@ -17,6 +18,7 @@
 #include "recomendador.hpp"
 #include "union_find.hpp"
 #include "versao_d.hpp"
+#include "versao_e.hpp"
 
 namespace {
 
@@ -29,6 +31,112 @@ void checar(bool condicao, const std::string& nome) {
 }
 
 bool quase_igual(double a, double b) { return std::fabs(a - b) < 1e-9; }
+
+void testar_regras_e() {
+    TabelaCores cores;
+    cores.adicionar("red", {"brown"});
+    cores.adicionar("green", {"blue"});
+    int red = cores.id("red");
+    int brown = cores.id("brown");
+    int green = cores.id("green");
+    int black = cores.id("black");
+
+    checar(quase_igual(regra_cor_e(cores, red, Tipo::CIMA, red, Tipo::BAIXO), -1.0), "Cor E: vermelho em cima e embaixo perde");
+    checar(quase_igual(regra_cor_e(cores, red, Tipo::CIMA, red, Tipo::COMPLEMENTO), 1.0), "Cor E: vermelho em cima e no sapato ganha");
+    checar(quase_igual(regra_cor_e(cores, red, Tipo::CIMA, brown, Tipo::BAIXO), 0.5), "Cor E: cores da mesma linha da tabela");
+    checar(quase_igual(regra_cor_e(cores, red, Tipo::CIMA, green, Tipo::BAIXO), -0.5), "Cor E: cores fora da tabela");
+    checar(quase_igual(regra_cor_e(cores, black, Tipo::CIMA, black, Tipo::BAIXO), 0.0), "Cor E: preto com preto nao perde");
+
+    checar(quase_igual(regra_atencao(1.0, 0.0), 1.0), "Atencao: chamativa com calma ganha");
+    checar(quase_igual(regra_atencao(1.0, 1.0), -1.0), "Atencao: duas chamativas perdem");
+    checar(quase_igual(regra_atencao(0.0, 0.0), 0.0), "Atencao: duas calmas ficam neutras");
+}
+
+void testar_versao_e() {
+    Base base;
+    const char* cats[] = {"top", "pants", "pants", "shoes"};
+    for (int i = 0; i < 4; i++) {
+        Peca p;
+        p.id = i;
+        p.categoria = cats[i];
+        p.v = {0.0};
+        base.pecas.push_back(p);
+        base.indice_da_peca[i] = i;
+    }
+    Look treino;
+    treino.pecas = {0, 2};
+    base.looks.push_back(treino);
+
+    TabelaCores cores;
+    cores.adicionar("red", {"brown"});
+    std::vector<AtribE> attr_e(4);
+    attr_e[0].cor = cores.id("red");
+    attr_e[1].cor = cores.id("red");
+    attr_e[2].cor = cores.id("brown");
+    attr_e[3].cor = cores.id("red");
+    std::vector<Atrib> attr(4);
+    for (Atrib& a : attr) a.g1 = std::vector<double>(11, 0.0);
+
+    GrafoLooks grafo;
+    grafo.construir(base);
+    VersaoE versao(base, attr, attr_e, cores, grafo);
+    ConfigE cfg;
+
+    std::vector<Candidata> calcas = versao.completar({0}, "pants", cfg, 10);
+    checar(calcas.size() == 1 && calcas[0].indice == 2, "Versao E: blusa vermelha nao busca calca vermelha");
+    std::vector<Candidata> sapatos = versao.completar({0}, "shoes", cfg, 10);
+    checar(sapatos.size() == 1 && sapatos[0].indice == 3, "Versao E: blusa vermelha busca sapato vermelho");
+    checar(versao.completar({2}, "pants", cfg, 10).empty(), "Versao E: sem peca de outra categoria nao ha candidata");
+
+    cfg.filtrar_cor = false;
+    checar(versao.completar({0}, "pants", cfg, 10).size() == 2, "Versao E: sem filtro as duas calcas entram");
+    cfg.filtrar_cor = true;
+    cfg.categoria_inteira = true;
+    checar(versao.completar({0}, "pants", cfg, 10).size() == 1, "Versao E: categoria inteira respeita o filtro");
+
+    Partes x;
+    x.soma = {1.0, 2.0, 3.0, 4.0};
+    checar(quase_igual(x.nota(1.0, 0.0, 0.0, 0.5), 3.0), "Versao E: peso 0 desliga a parte");
+}
+
+void testar_fitb() {
+    Pergunta p;
+    p.certa = 1;
+    p.opcoes = {1, 2, 3, 4};
+    checar(quase_igual(credito({{1, 5.0}, {2, 3.0}}, p), 1.0), "Multipla escolha: certa com a maior nota");
+    checar(quase_igual(credito({{1, 3.0}, {2, 5.0}}, p), 0.0), "Multipla escolha: errada com a maior nota");
+    checar(quase_igual(credito({{1, 5.0}, {2, 5.0}}, p), 0.5), "Multipla escolha: empate divide o ponto");
+    checar(quase_igual(credito({}, p), 0.25), "Multipla escolha: sem nota nenhuma vale 1/4");
+    checar(quase_igual(credito({{2, 1.0}}, p), 0.0), "Multipla escolha: certa fora da lista perde");
+    checar(quase_igual(credito({{9, 7.0}, {1, 1.0}}, p), 1.0), "Multipla escolha: peca fora das opcoes nao conta");
+
+    Base base;
+    for (int i = 0; i < 12; i++) {
+        Peca x;
+        x.id = i;
+        x.categoria = i < 8 ? "shoes" : "top";
+        base.pecas.push_back(x);
+    }
+    Look look;
+    look.pecas = {0, 8};
+    base.looks.push_back(look);
+    Look outro;
+    outro.pecas = {1, 2, 3, 9};
+    base.looks.push_back(outro);
+    Escondida e;
+    e.look = 0;
+    e.pos = 0;
+    std::vector<Pergunta> a = montar_perguntas(base, {e}, 5);
+    std::vector<Pergunta> b = montar_perguntas(base, {e}, 5);
+    bool ok = a.size() == 1 && a[0].opcoes.size() == 4 && a[0].opcoes[0] == 0;
+    std::set<int> sem_repetir(a[0].opcoes.begin(), a[0].opcoes.end());
+    ok = ok && sem_repetir.size() == 4;
+    for (int o : a[0].opcoes) ok = ok && o < 8;
+    checar(ok, "Multipla escolha: 4 opcoes diferentes da mesma categoria");
+    checar(a[0].opcoes == b[0].opcoes, "Multipla escolha: mesma semente, mesmas perguntas");
+    std::set<int> no_treino(a[0].opcoes.begin() + 1, a[0].opcoes.end());
+    checar(no_treino == std::set<int>({1, 2, 3}), "Multipla escolha: erradas aparecem no treino como a certa");
+}
 
 std::vector<Peca> pontos_do_guia(const Base& base) {
     return std::vector<Peca>(base.pecas.begin(), base.pecas.begin() + 6);
@@ -399,6 +507,9 @@ int main() {
     testar_versao_d(base);
     testar_d_contra_forca_bruta();
     testar_pontos_iguais();
+    testar_regras_e();
+    testar_versao_e();
+    testar_fitb();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

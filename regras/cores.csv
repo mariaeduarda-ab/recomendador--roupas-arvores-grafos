@@ -1,0 +1,11 @@
+cor,combina
+red,brown;pink;wine;maroon;blue;royal blue
+wine,red;maroon;pink;green;olive green;brown;purple
+maroon,red;wine;pink;olive green;brown
+pink,red;wine;maroon;purple;green;blue;royal blue;brown
+purple,pink;wine;green;olive green;royal blue
+blue,red;pink;brown;green;royal blue
+royal blue,red;pink;purple;blue;brown
+green,wine;pink;purple;blue;brown;olive green
+olive green,wine;maroon;purple;green;brown
+brown,red;wine;maroon;pink;blue;royal blue;green;olive green

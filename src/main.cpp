@@ -6,6 +6,8 @@
 
 #include "avaliacao.hpp"
 #include "avaliacao_d.hpp"
+#include "avaliacao_e.hpp"
+#include "avaliacao_fitb.hpp"
 #include "gephi.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
@@ -13,11 +15,14 @@
 #include "leitura.hpp"
 #include "recomendador.hpp"
 #include "versao_d.hpp"
+#include "versao_e.hpp"
 
 namespace {
 
 const std::string PASTA_RESULTADOS = "resultados";
 const std::string ARQUIVO_CONFIG = "resultados/config_d.csv";
+const std::string ARQUIVO_CONFIG_E = "resultados/config_e.csv";
+const std::string TABELA_CORES = "regras/cores.csv";
 const std::vector<std::string> CATEGORIAS_MONTAR = {"top", "pants", "shoes", "bag"};
 constexpr int N_COMPLETAR = 10;
 
@@ -28,6 +33,9 @@ int mostrar_uso() {
                  "  ./recomendador avaliar                          Hit@k das versões e tempos\n"
                  "  ./recomendador avaliar_d                        compara todas as versões, com a D (demora)\n"
                  "  ./recomendador reavaliar                        popularidade, B, C e D com a config já escolhida\n"
+                 "  ./recomendador avaliar_e                        escolhe os pesos da E e roda o teste\n"
+                 "  ./recomendador avaliar_fitb                     prova de múltipla escolha com todas as versões\n"
+                 "  ./recomendador completar_e <id_look> <categoria> completa um look (versão E)\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
@@ -97,9 +105,9 @@ int main(int argc, char** argv) {
     }
     if (argumentos.empty()) return mostrar_uso();
     const std::string comando = argumentos[0];
-    const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d") && argumentos.size() == 3) ||
+    const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d" || comando == "completar_e") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
-                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "reavaliar") && argumentos.size() == 1) ||
+                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2);
     if (!formato_ok) return mostrar_uso();
 
@@ -124,6 +132,32 @@ int main(int argc, char** argv) {
 
     if (comando == "avaliar_d") {
         return avaliar_d(base, pasta_dados, saida) ? 0 : 1;
+    }
+    if (comando == "avaliar_e") {
+        return avaliar_e(base, pasta_dados, TABELA_CORES, saida) ? 0 : 1;
+    }
+    if (comando == "avaliar_fitb") {
+        return avaliar_fitb(base, pasta_dados, TABELA_CORES, saida) ? 0 : 1;
+    }
+    if (comando == "completar_e") {
+        std::vector<Atrib> attr;
+        std::vector<AtribE> attr_e;
+        TabelaCores cores;
+        ConfigE cfg;
+        int id_look = 0;
+        if (!ler_inteiro(argumentos[1], id_look) || !base.indice_do_look.count(id_look)) return mostrar_uso();
+        if (!ler_atributos_da_pasta(pasta_dados, base, attr, erro) || !cores.ler(TABELA_CORES, erro) ||
+            !ler_atributos_e(pasta_dados + "/pecas_v3.csv", base, cores, attr_e, erro)) {
+            std::cerr << erro << '\n';
+            return 1;
+        }
+        ler_config_e(ARQUIVO_CONFIG_E, cfg);
+        VersaoE versao(base, attr, attr_e, cores, grafo_looks);
+        const Look& look = base.looks[base.indice_do_look.at(id_look)];
+        for (const Candidata& c : versao.completar(look.pecas, argumentos[2], cfg, N_COMPLETAR)) {
+            std::cout << base.pecas[c.indice].id << ' ' << c.pontuacao << '\n';
+        }
+        return 0;
     }
     if (comando == "reavaliar") {
         return reavaliar(base, pasta_dados, config_escolhida(), saida) ? 0 : 1;

@@ -37,6 +37,7 @@ int mostrar_uso() {
                  "  ./recomendador avaliar_fitb                     prova de múltipla escolha com todas as versões\n"
                  "  ./recomendador completar_e <id_look> <categoria> completa um look (versão E)\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
+                 "  ./recomendador validacao                        lista os looks de validacao\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "Opção:\n"
@@ -107,7 +108,7 @@ int main(int argc, char** argv) {
     const std::string comando = argumentos[0];
     const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d" || comando == "completar_e") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
-                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar") && argumentos.size() == 1) ||
+                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2);
     if (!formato_ok) return mostrar_uso();
 
@@ -122,6 +123,13 @@ int main(int argc, char** argv) {
     if (base.pecas.empty()) {
         std::cerr << "A base não tem peças.\n";
         return 1;
+    }
+
+    // o catalogo de avaliacao do CLIP precisa dos mesmos looks de validacao sorteados aqui
+    if (comando == "validacao") {
+        std::cout << "look_id\n";
+        for (int l : sortear_validacao(base)) std::cout << base.looks[l].id << '\n';
+        return 0;
     }
 
     KDTree arvore((int)base.pecas[0].v.size());

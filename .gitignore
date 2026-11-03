@@ -5,6 +5,8 @@ recomendador
 # Base completa (baixar do Zenodo). A pasta dados/exemplo continua no repositório.
 dados/*.csv
 dados/*.json
+# imagens baixadas por preprocess/imagens.py
+dados/imagens/
 
 # Resultados gerados
 resultados/*

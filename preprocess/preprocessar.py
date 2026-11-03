@@ -100,6 +100,8 @@ def carregar_pecas(caminho):
                 "descricao": item["refined_caption"],
                 "legenda": item["base_caption"],
                 "cor_nome": item["dominant_color"],
+                # pasta e nome dentro do zip. a pasta nem sempre e igual ao campo category
+                "imagem": item["image_path"].split("/")[-2] + "/" + item["image_name"],
                 "looks": set(),
             }
         pecas[chave]["looks"].add(int(look.group(1)))

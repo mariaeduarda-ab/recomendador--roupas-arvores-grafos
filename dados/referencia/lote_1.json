@@ -1,0 +1,502 @@
+[
+ {
+  "id": 49008,
+  "categoria": "hairwear",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 87708,
+  "categoria": "rings",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 48366,
+  "categoria": "brooch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 23957,
+  "categoria": "eyewear",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 48103,
+  "categoria": "brooch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 81616,
+  "categoria": "shoes",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 36356,
+  "categoria": "neckwear",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 33041,
+  "categoria": "hats",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "esportivo",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 87618,
+  "categoria": "bracelet",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 49830,
+  "categoria": "rings",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 88547,
+  "categoria": "bracelet",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 26053,
+  "categoria": "watch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "esportivo",
+  "ocasiao": "esporte",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 47986,
+  "categoria": "gloves",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 44968,
+  "categoria": "pants",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "justa",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 97494,
+  "categoria": "outerwear",
+  "estampa": "lisa",
+  "comprimento": "médio",
+  "modelagem": "reta",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 26189,
+  "categoria": "watch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 25573,
+  "categoria": "watch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 48371,
+  "categoria": "brooch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 24505,
+  "categoria": "legwear",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 91625,
+  "categoria": "necklace",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 75122,
+  "categoria": "shoes",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 53193,
+  "categoria": "bag",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 46525,
+  "categoria": "pants",
+  "estampa": "floral",
+  "comprimento": "curto",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 81630,
+  "categoria": "shoes",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 90205,
+  "categoria": "jumpsuit",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "reta",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 35171,
+  "categoria": "hats",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 76174,
+  "categoria": "shoes",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 98427,
+  "categoria": "outerwear",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "justa",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 22802,
+  "categoria": "eyewear",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 55601,
+  "categoria": "bag",
+  "estampa": "animal print",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 71354,
+  "categoria": "top",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "incerto",
+  "estilo": "esportivo",
+  "ocasiao": "esporte",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 33367,
+  "categoria": "hats",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "praia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 36311,
+  "categoria": "neckwear",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 48168,
+  "categoria": "brooch",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 51241,
+  "categoria": "rings",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 35660,
+  "categoria": "neckwear",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 82828,
+  "categoria": "shoes",
+  "estampa": "outra estampa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 49040,
+  "categoria": "hairwear",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 49271,
+  "categoria": "hairwear",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 27026,
+  "categoria": "dress",
+  "estampa": "outra estampa",
+  "comprimento": "médio",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 83844,
+  "categoria": "shoes",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ },
+ {
+  "id": 71071,
+  "categoria": "shoes",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 7437,
+  "categoria": "top",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "reta",
+  "estilo": "clássico",
+  "ocasiao": "trabalho",
+  "formalidade": "média"
+ },
+ {
+  "id": 39542,
+  "categoria": "earrings",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 29907,
+  "categoria": "skirt",
+  "estampa": "outra estampa",
+  "comprimento": "curto",
+  "modelagem": "ampla",
+  "estilo": "romântico",
+  "ocasiao": "festa",
+  "formalidade": "média"
+ },
+ {
+  "id": 47891,
+  "categoria": "gloves",
+  "estampa": "não se aplica",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "clássico",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 17234,
+  "categoria": "skirt",
+  "estampa": "lisa",
+  "comprimento": "longo",
+  "modelagem": "ampla",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "média"
+ },
+ {
+  "id": 24512,
+  "categoria": "legwear",
+  "estampa": "lisa",
+  "comprimento": "não se aplica",
+  "modelagem": "não se aplica",
+  "estilo": "casual",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 98729,
+  "categoria": "outerwear",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "justa",
+  "estilo": "moderno",
+  "ocasiao": "dia a dia",
+  "formalidade": "baixa"
+ },
+ {
+  "id": 31027,
+  "categoria": "dress",
+  "estampa": "lisa",
+  "comprimento": "curto",
+  "modelagem": "justa",
+  "estilo": "moderno",
+  "ocasiao": "festa",
+  "formalidade": "alta"
+ }
+]

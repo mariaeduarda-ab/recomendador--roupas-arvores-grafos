@@ -7,6 +7,9 @@ dados/*.csv
 dados/*.json
 # imagens baixadas por preprocess/imagens.py
 dados/imagens/
+dados/imagens_lote/
+# vetores do CLIP (preprocess/clip_vetores.py)
+dados/clip_vetores*/
 
 # Resultados gerados
 resultados/*

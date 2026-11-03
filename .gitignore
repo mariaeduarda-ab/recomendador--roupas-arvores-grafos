@@ -26,5 +26,14 @@ __pycache__/
 !resultados/validacao_d.csv
 !resultados/config_d.csv
 !resultados/escondidas.csv
+!resultados/hit_e.csv
+!resultados/tempos_e.csv
+!resultados/diferencas_e.csv
+!resultados/validacao_e.csv
+!resultados/config_e.csv
+!resultados/fitb.csv
+!resultados/diferencas_fitb.csv
+!resultados/validacao_fitb.csv
+!resultados/config_fitb.csv
 !resultados/acertos.png
 !resultados/tempos.png

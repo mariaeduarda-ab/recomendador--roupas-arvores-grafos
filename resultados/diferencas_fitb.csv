@@ -1,0 +1,12 @@
+x,y,diferenca,ic95_min,ic95_max
+E inteira,Popularidade,-0.0236078,-0.0358932,-0.0113224
+E inteira,A,-0.0523793,-0.0673462,-0.0374124
+E inteira,B,0.036075,0.0254108,0.0467392
+E inteira,C,0.0359038,0.025226,0.0465816
+E inteira,D,0.040226,0.0295104,0.0509415
+E inteira,E com KD-tree,0.0327228,0.0230255,0.0424202
+E inteira sem regra de cor,E inteira,-0.00867283,-0.0128592,-0.00448647
+E inteira sem regra de atencao,E inteira,0,0,0
+E inteira com regra de atencao,E inteira,-0.0075602,-0.0174146,0.00229417
+E inteira sem bonus de looks,E inteira,-0.00850165,-0.0143583,-0.00264499
+E inteira sem filtro de cor,E inteira,0,0,0

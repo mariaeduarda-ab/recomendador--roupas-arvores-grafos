@@ -1,0 +1,7 @@
+# so para atributos_clip.py. no computador sem GPU:
+# pip install -r preprocess/requirements_clip.txt --extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+open_clip_torch
+pillow
+numpy

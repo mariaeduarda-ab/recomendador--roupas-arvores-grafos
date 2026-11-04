@@ -10,6 +10,7 @@ import io
 import json
 import struct
 import subprocess
+import time
 import zipfile
 import zlib
 from concurrent.futures import ThreadPoolExecutor
@@ -31,11 +32,16 @@ def endereco_final():
 
 
 def faixa(url, inicio, fim):
-    for _ in range(3):
+    # a rede cai as vezes no meio de um lote de 2000. espera cada vez mais antes de desistir
+    for tentativa in range(8):
         r = subprocess.run(["curl", "-s", "--fail", "-r", f"{inicio}-{fim}", url], capture_output=True)
         if r.returncode == 0 and len(r.stdout) == fim - inicio + 1:
             return r.stdout, url
-        url = endereco_final()
+        time.sleep(min(60, 2 ** tentativa))
+        try:
+            url = endereco_final()
+        except subprocess.CalledProcessError:
+            pass
     raise RuntimeError(f"falhou a faixa {inicio}-{fim}")
 
 

@@ -93,7 +93,10 @@ def main():
         arquivos = [(fixas if (fixas / f"{i}.jpg").exists() else temp) / f"{i}.jpg" for i in lote]
         vetores, ok = codificar(modelo, preparo, arquivos, aparelho)
         bons = [i for i, certo in zip(lote, ok) if certo]
-        np.savez(destino, ids=np.array(bons, dtype=np.int32), vetores=vetores)
+        # grava com outro nome e renomeia no fim: com o disco cheio, um arquivo pela metade pareceria pronto
+        parcial = destino.with_suffix(".parcial.npz")
+        np.savez(parcial, ids=np.array(bons, dtype=np.int32), vetores=vetores)
+        parcial.rename(destino)
         shutil.rmtree(temp, ignore_errors=True)
         gasto = time.time() - inicio
         print(f"lote {n + 1}/{len(lotes)}: {len(bons)} vetores, {len(lote) - len(bons)} ilegiveis, {gasto / 60:.1f} min", flush=True)

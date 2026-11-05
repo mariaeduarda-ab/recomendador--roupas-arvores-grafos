@@ -69,3 +69,22 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | A forma 1 para em K = 50 ou quando nenhuma união cabe no limite de 5%, que tem no mínimo 2 peças. | 50 é o valor do meio dos K testados. Com menos de 40 peças, 5% daria menos de 2 e ninguém se uniria. | Não. |
 | Os 3 pesos da estampa não foram testados para os grupos do Gephi. | A forma 3 não usa o vetor de cor e estampa. Os 3 pesos são testados no Kruskal puro da F (agente 4). | Não se aplica. |
 | No Gephi da forma 3, as arestas são as mútuas do kNN dentro de cada grupo. | A forma 3 não tem arestas próprias, e essas desenham cada grupo. | Não se aplica. |
+
+### Versão F e ajuste na validação (agente 4)
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| O desempate pela popularidade entrou como parâmetro opcional de `avaliar_notas`. | Assim o desempate é exato, sem somar um valor pequeno à nota. As outras versões não mudam. | Sim. As versões antigas repetiram a `validacao_corrigida`. |
+| O termo de atributo é guardado por valor da candidata. | A conta só depende do valor da candidata. Isso deixa a grade rápida (pico de 190 MB). Um teste confere que o resultado é a mesma soma por peça. | Não se aplica. |
+| A grade tem 4 passos: os w, os pesos de atributo um de cada vez, os w de novo e os pesos de novo. Os 9 tipos de grupo (K = 20, 50, 100 e estampa 0; 0,1; 0,2) entram no primeiro passo. | A grade cheia é grande demais. São 623 combinações, em `grade_f.csv`. | Sim. |
+| Critério de escolha: maior Hit@10, depois maior Hit@5, depois mais zeros, depois mais pesos iguais a 1. | Foi combinado antes de ver os números. Pesos (1; 1) e (0,5; 0,5) dão a mesma lista. | Sim. |
+| Os grupos só ficam se a melhor combinação com grupos ganhar da melhor sem grupos pelo critério acima. | É a regra dela aplicada com o critério da grade. | Sim. Os grupos ganharam por 1 consulta. |
+| Quando w2 = 0, os pesos de atributo são ajustados na melhor combinação com w2 > 0. | Sem isso, os pesos nunca seriam testados. | Sim. Mesmo assim os atributos não ganharam. |
+| A "C + popularidade" foi ajustada numa grade de w1 e w4 em (0; 0,5; 1). | Foi o que ela pediu. O resultado foi w1 = w4 = 1. | Sim. |
+| No teste final, as tabelas, os grupos e a popularidade usam todos os looks de treino, inclusive os de validação. | É o que a C, a D e as outras versões fazem no teste. | Não se aplica. |
+
+### Decisão dela antes do teste final (05/11)
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| A F testada é C + 0,5 × grupos (K = 100, estampa 0,1) + popularidade. Os pontos por atributo ficaram com peso 0. | Ela escolheu seguir o critério combinado antes. Na validação, a diferença para a C + popularidade é de 1 consulta e pode ser sorte. Isso vai dito no artigo. | Sim. |

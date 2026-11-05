@@ -11,6 +11,7 @@
 #include "gephi.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
+#include "grupos_kruskal.hpp"
 #include "kdtree.hpp"
 #include "leitura.hpp"
 #include "recomendador.hpp"
@@ -40,6 +41,7 @@ int mostrar_uso() {
                  "  ./recomendador completar_e <id_look> <categoria> completa um look (versão E)\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador validacao                        lista os looks de validacao\n"
+                 "  ./recomendador grupos [K ...]                   grupos com Kruskal por categoria (padrão: 20 50 100)\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "Opção:\n"
@@ -111,7 +113,7 @@ int main(int argc, char** argv) {
     const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d" || comando == "completar_e") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
-                            (comando == "gephi" && argumentos.size() == 2);
+                            (comando == "gephi" && argumentos.size() == 2) || comando == "grupos";
     if (!formato_ok) return mostrar_uso();
 
     const std::string saida = pasta_de_saida(pasta_dados);
@@ -132,6 +134,17 @@ int main(int argc, char** argv) {
         std::cout << "look_id\n";
         for (int l : sortear_validacao(base)) std::cout << base.looks[l].id << '\n';
         return 0;
+    }
+
+    if (comando == "grupos") {
+        std::vector<int> lista = {20, 50, 100};
+        if (argumentos.size() > 1) lista.clear();
+        for (std::size_t i = 1; i < argumentos.size(); i++) {
+            int k = 0;
+            if (!ler_inteiro(argumentos[i], k) || k <= 0) return mostrar_uso();
+            lista.push_back(k);
+        }
+        return rodar_grupos(base, pasta_dados, lista, saida) ? 0 : 1;
     }
 
     KDTree arvore((int)base.pecas[0].v.size());

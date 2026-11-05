@@ -13,6 +13,8 @@
 //   Grupos gr = agrupar(g, K, base.pecas.size()); // K grupos por categoria (mais, se o grafo ja for desconexo)
 //   PontosGrupos pg(base, gr);                  // conta so os looks com treino = true
 //   pg.pontos(p, c);                            // p e c sao indices em base.pecas. mesma categoria da 0
+//   pg.arestas();                               // grafo entre grupos com os pontos (Tarjan)
+// As outras formas (agrupar_limitado, agrupar_mutuo, agrupar_por_chave) devolvem o mesmo Grupos.
 // Na validacao, passe uma copia da base com os looks de validacao marcados treino = false.
 
 constexpr int K_VIZINHOS_GRUPOS = 10;
@@ -24,6 +26,7 @@ struct ArestaK {
     int u = 0;  // u < v, indices dentro da categoria
     int v = 0;
     double peso = 0.0;
+    bool mutua = false;  // u esta entre os k de v e v entre os k de u
 };
 
 struct GrafoKnn {
@@ -56,6 +59,27 @@ GrafoKnn montar_grafo_knn(const Base& base, const std::vector<Atrib>& attr, int 
 
 Grupos agrupar(const GrafoKnn& grafo, int alvo, int n_pecas);
 
+// como o kruskal, mas pula a uniao se o grupo novo passar de limite pecas
+int kruskal_limitado(int n, const std::vector<ArestaK>& arestas, int alvo, int limite, UnionFind& uf,
+                     std::vector<ArestaK>* usadas = nullptr);
+
+// forma 1: kruskal com grupo de no maximo fracao das pecas da categoria (pelo menos 2)
+Grupos agrupar_limitado(const GrafoKnn& grafo, int alvo, double fracao, int n_pecas);
+
+// forma 2: union-find so nas arestas mutuas. floresta = as arestas mutuas
+Grupos agrupar_mutuo(const GrafoKnn& grafo, int n_pecas);
+
+// forma 3: mesma chave, mesmo grupo (chave[i] da peca i). nao usa as arestas
+Grupos agrupar_por_chave(const GrafoKnn& grafo, const std::vector<std::string>& chave, int n_pecas);
+
+// aresta do grafo entre grupos (supervertices), para o Tarjan
+struct ParGrupos {
+    int g = 0;  // g < h
+    int h = 0;
+    int n = 0;
+    double pontos = 0.0;
+};
+
 class PontosGrupos {
 public:
     PontosGrupos(const Base& base, const Grupos& grupos);
@@ -64,6 +88,8 @@ public:
     double pontos_entre(int g, int h) const;  // por grupo
     int contagem(int g, int h) const;
     double esperado(int g, int h) const;
+    // pares de grupos que aparecem juntos em pelo menos min_n pares de pecas, ordenados por (g, h)
+    std::vector<ParGrupos> arestas(int min_n = 1) const;
 
 private:
     int n_cat_ = 0;

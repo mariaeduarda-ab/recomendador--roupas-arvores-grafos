@@ -100,9 +100,16 @@ GrafoKnn montar_grafo_knn(const Base& base, const std::vector<Atrib>& attr, int 
         std::sort(lista.begin(), lista.end(), [](const ArestaK& x, const ArestaK& y) {
             return x.u != y.u ? x.u < y.u : x.v < y.v;
         });
-        lista.erase(std::unique(lista.begin(), lista.end(),
-                                [](const ArestaK& x, const ArestaK& y) { return x.u == y.u && x.v == y.v; }),
-                    lista.end());
+        // a aresta que aparece duas vezes veio dos dois lados: e mutua
+        std::size_t fim = 0;
+        for (std::size_t i = 0; i < lista.size(); i++) {
+            if (fim > 0 && lista[fim - 1].u == lista[i].u && lista[fim - 1].v == lista[i].v) {
+                lista[fim - 1].mutua = true;
+            } else {
+                lista[fim++] = lista[i];
+            }
+        }
+        lista.resize(fim);
         // empate no peso desempata pelos indices pra sair igual em toda execucao
         std::sort(lista.begin(), lista.end(), [](const ArestaK& x, const ArestaK& y) {
             if (x.peso != y.peso) return x.peso < y.peso;
@@ -114,29 +121,118 @@ GrafoKnn montar_grafo_knn(const Base& base, const std::vector<Atrib>& attr, int 
     return g;
 }
 
-Grupos agrupar(const GrafoKnn& grafo, int alvo, int n_pecas) {
+namespace {
+
+// rotulo[c][i] e qualquer numero da peca i da categoria c. vira id de grupo de 0 a G - 1
+Grupos montar_grupos(const GrafoKnn& grafo, const std::vector<std::vector<int>>& rotulo, int n_pecas) {
     Grupos r;
     r.grupo.assign(n_pecas, -1);
     r.por_categoria.assign(grafo.categorias.size(), 0);
     r.floresta.assign(grafo.categorias.size(), {});
     for (int c = 0; c < (int)grafo.categorias.size(); c++) {
         const std::vector<int>& m = grafo.membros[c];
-        int n = (int)m.size();
-        UnionFind uf(n);
-        r.por_categoria[c] = kruskal(n, grafo.arestas[c], alvo, uf, &r.floresta[c]);
-        std::vector<int> id_da_raiz(n, -1);
-        for (int i = 0; i < n; i++) {
-            int raiz = uf.find(i);
-            if (id_da_raiz[raiz] < 0) {
-                id_da_raiz[raiz] = (int)r.tamanho.size();
+        std::unordered_map<int, int> id;
+        for (int i = 0; i < (int)m.size(); i++) {
+            auto it = id.find(rotulo[c][i]);
+            if (it == id.end()) {
+                it = id.emplace(rotulo[c][i], (int)r.tamanho.size()).first;
                 r.tamanho.push_back(0);
                 r.cat_do_grupo.push_back(c);
+                r.por_categoria[c]++;
             }
-            r.grupo[m[i]] = id_da_raiz[raiz];
-            r.tamanho[id_da_raiz[raiz]]++;
+            r.grupo[m[i]] = it->second;
+            r.tamanho[it->second]++;
         }
     }
     return r;
+}
+
+std::vector<int> raizes(UnionFind& uf, int n) {
+    std::vector<int> r(n);
+    for (int i = 0; i < n; i++) r[i] = uf.find(i);
+    return r;
+}
+
+}  // namespace
+
+Grupos agrupar(const GrafoKnn& grafo, int alvo, int n_pecas) {
+    int n_cat = (int)grafo.categorias.size();
+    std::vector<std::vector<int>> rotulo(n_cat);
+    std::vector<std::vector<ArestaK>> floresta(n_cat);
+    for (int c = 0; c < n_cat; c++) {
+        int n = (int)grafo.membros[c].size();
+        UnionFind uf(n);
+        kruskal(n, grafo.arestas[c], alvo, uf, &floresta[c]);
+        rotulo[c] = raizes(uf, n);
+    }
+    Grupos r = montar_grupos(grafo, rotulo, n_pecas);
+    r.floresta = floresta;
+    return r;
+}
+
+int kruskal_limitado(int n, const std::vector<ArestaK>& arestas, int alvo, int limite, UnionFind& uf,
+                     std::vector<ArestaK>* usadas) {
+    std::vector<int> tam(n, 1);  // vale so na raiz
+    int grupos = n;
+    alvo = std::max(alvo, 1);
+    for (const ArestaK& a : arestas) {
+        if (grupos <= alvo) break;
+        int ra = uf.find(a.u);
+        int rb = uf.find(a.v);
+        // o grupo grande para de crescer e as outras arestas ainda podem unir os pequenos
+        if (ra == rb || tam[ra] + tam[rb] > limite) continue;
+        uf.unite(ra, rb);
+        tam[uf.find(ra)] = tam[ra] + tam[rb];
+        grupos--;
+        if (usadas) usadas->push_back(a);
+    }
+    return grupos;
+}
+
+Grupos agrupar_limitado(const GrafoKnn& grafo, int alvo, double fracao, int n_pecas) {
+    int n_cat = (int)grafo.categorias.size();
+    std::vector<std::vector<int>> rotulo(n_cat);
+    std::vector<std::vector<ArestaK>> floresta(n_cat);
+    for (int c = 0; c < n_cat; c++) {
+        int n = (int)grafo.membros[c].size();
+        // com menos de 40 pecas 5% da menos de 2 e ninguem se uniria
+        int limite = std::max(2, (int)(fracao * n));
+        UnionFind uf(n);
+        kruskal_limitado(n, grafo.arestas[c], alvo, limite, uf, &floresta[c]);
+        rotulo[c] = raizes(uf, n);
+    }
+    Grupos r = montar_grupos(grafo, rotulo, n_pecas);
+    r.floresta = floresta;
+    return r;
+}
+
+Grupos agrupar_mutuo(const GrafoKnn& grafo, int n_pecas) {
+    int n_cat = (int)grafo.categorias.size();
+    std::vector<std::vector<int>> rotulo(n_cat);
+    std::vector<std::vector<ArestaK>> mutuas(n_cat);
+    for (int c = 0; c < n_cat; c++) {
+        int n = (int)grafo.membros[c].size();
+        UnionFind uf(n);
+        for (const ArestaK& a : grafo.arestas[c]) {
+            if (!a.mutua) continue;
+            uf.unite(a.u, a.v);
+            mutuas[c].push_back(a);
+        }
+        rotulo[c] = raizes(uf, n);
+    }
+    Grupos r = montar_grupos(grafo, rotulo, n_pecas);
+    r.floresta = mutuas;
+    return r;
+}
+
+Grupos agrupar_por_chave(const GrafoKnn& grafo, const std::vector<std::string>& chave, int n_pecas) {
+    int n_cat = (int)grafo.categorias.size();
+    std::vector<std::vector<int>> rotulo(n_cat);
+    for (int c = 0; c < n_cat; c++) {
+        std::unordered_map<std::string, int> id;
+        for (int i : grafo.membros[c]) rotulo[c].push_back(id.emplace(chave[i], (int)id.size()).first->second);
+    }
+    return montar_grupos(grafo, rotulo, n_pecas);
 }
 
 PontosGrupos::PontosGrupos(const Base& base, const Grupos& grupos)
@@ -185,6 +281,25 @@ double PontosGrupos::pontos_entre(int g, int h) const {
 }
 
 double PontosGrupos::pontos(int p, int c) const { return pontos_entre(grupo_[p], grupo_[c]); }
+
+std::vector<ParGrupos> PontosGrupos::arestas(int min_n) const {
+    std::vector<ParGrupos> res;
+    const long long total = (long long)cat_.size();
+    for (const auto& par : n_) {
+        if (par.second < min_n) continue;
+        ParGrupos x;
+        x.g = (int)(par.first / total);
+        x.h = (int)(par.first % total);
+        x.n = par.second;
+        x.pontos = pontos_entre(x.g, x.h);
+        res.push_back(x);
+    }
+    // o unordered_map nao tem ordem fixa
+    std::sort(res.begin(), res.end(), [](const ParGrupos& a, const ParGrupos& b) {
+        return a.g != b.g ? a.g < b.g : a.h < b.h;
+    });
+    return res;
+}
 
 namespace {
 

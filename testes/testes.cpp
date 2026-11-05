@@ -569,6 +569,14 @@ void testar_kruskal() {
     UnionFind vazio(1);
     checar(kruskal(1, {}, 20, vazio) == 1, "Kruskal: 1 peca e 1 grupo");
 
+    // limite 3: a ultima uniao (2-3) daria um grupo de 5
+    UnionFind lim(5);
+    checar(kruskal_limitado(5, arestas, 1, 3, lim) == 2 && lim.find(0) == lim.find(2) && lim.find(0) != lim.find(3),
+           "Kruskal limitado: para quando o grupo passaria de 3");
+    UnionFind lim2(5);
+    checar(kruskal_limitado(5, arestas, 1, 2, lim2) == 3 && lim2.find(2) != lim2.find(1) && lim2.find(2) != lim2.find(3),
+           "Kruskal limitado: com limite 2 a peca 2 fica sozinha");
+
     checar(quase_igual(valor_estampa("lisa"), 0.0) && quase_igual(valor_estampa("floral"), 1.0) &&
                quase_igual(valor_estampa("desconhecido"), 0.5),
            "Grupos: estampa lisa 0, floral 1 e desconhecido 0,5");
@@ -612,6 +620,16 @@ void testar_pontos_grupos() {
            "Pontos de grupo: log((n + 1) / (esperado + 1))");
     checar(quase_igual(pg.pontos(0, 2), 0.0) && quase_igual(pg.pontos(6, 0), 0.0),
            "Pontos de grupo: mesma categoria e categoria sem par dao 0");
+    std::vector<ParGrupos> ligacoes = pg.arestas();
+    checar(ligacoes.size() == 2 && ligacoes[0].g < ligacoes[0].h &&
+               quase_igual(ligacoes[0].pontos, pg.pontos_entre(ligacoes[0].g, ligacoes[0].h)),
+           "Pontos de grupo: grafo entre grupos com 2 arestas");
+
+    Grupos mutuo = agrupar_mutuo(g, 7);
+    checar(mutuo.grupo[0] == mutuo.grupo[3] && mutuo.tamanho.size() == 3, "kNN mutuo: 4 blusas com k = 10 viram 1 grupo");
+    Grupos chave = agrupar_por_chave(g, {"preto", "preto", "branco", "branco", "preto", "branco", "x"}, 7);
+    checar(chave.tamanho.size() == 5 && chave.grupo[0] == chave.grupo[1] && chave.grupo[0] != chave.grupo[4],
+           "Grupos por chave: mesma chave em categoria diferente nao junta");
 }
 
 // as 4 variantes tem que dar os mesmos grupos que a classe do projeto

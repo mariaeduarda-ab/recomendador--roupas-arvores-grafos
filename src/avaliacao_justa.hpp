@@ -57,8 +57,10 @@ struct Posicoes {
     std::vector<std::array<signed char, N_ORDENS>> fitb;  // 1 acerta, 0 erra, -1 sem pergunta
 };
 
-// nota maior vem antes. no empate vem antes quem esta antes na ordem s
-Posicoes avaliar_notas(const Base& base, const Consultas& c, const std::string& nome, const Notas& f);
+// nota maior vem antes. no empate vem antes quem esta antes na ordem s.
+// com desempate (um valor por peca, ex.: popularidade), ele decide antes da ordem s
+Posicoes avaliar_notas(const Base& base, const Consultas& c, const std::string& nome, const Notas& f,
+                       const std::vector<double>* desempate = nullptr);
 
 // k = 1, 5 ou 10 da o Hit@k. k = 0 da o FITB
 double taxa(const Posicoes& p, int k, int s);

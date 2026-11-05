@@ -23,6 +23,7 @@
 #include "union_find.hpp"
 #include "versao_d.hpp"
 #include "versao_e.hpp"
+#include "versao_f.hpp"
 
 namespace {
 
@@ -852,6 +853,91 @@ void testar_pontos_atributos() {
     checar(!ler_valores("build/pecas_v5_teste.csv", pequena, lido, erro), "Pontos: peca sem linha da erro");
 }
 
+void testar_versao_f() {
+    std::vector<double> x = {2.0, 2.0, 2.0};
+    normalizar(x);
+    checar(x == std::vector<double>({0.0, 0.0, 0.0}), "F: candidatas com o mesmo valor ficam com 0");
+    x = {5.0};
+    normalizar(x);
+    checar(x[0] == 0.0, "F: uma so candidata fica com 0");
+    x.clear();
+    normalizar(x);
+    checar(x.empty(), "F: sem candidata nao quebra");
+    x = {1.0, 3.0, 2.0};
+    normalizar(x);
+    checar(quase_igual(x[0], 0.0) && quase_igual(x[1], 1.0) && quase_igual(x[2], 0.5), "F: min-max entre 0 e 1");
+
+    // nota 0 em todas. a peca 2 e mais popular que a escondida (0), as outras menos
+    Base pequena;
+    Consultas c = consultas_pequenas(pequena);
+    std::vector<double> pop = {1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+    Posicoes p = avaliar_notas(pequena, c, "pop", [](int, const std::vector<int>&, const std::vector<int>&, std::vector<double>&) {}, &pop);
+    checar(p.pos[0][0] == 1 && p.pos[0][1] == 1 && p.empatadas[0] == 0, "F: no empate a mais popular vem antes da ordem sorteada");
+    checar(p.fitb[0][0] == 0 && p.fitb[0][1] == 0, "F: FITB tambem desempata pela popularidade");
+    pop[2] = 0.0;
+    p = avaliar_notas(pequena, c, "pop", [](int, const std::vector<int>&, const std::vector<int>&, std::vector<double>&) {}, &pop);
+    checar(p.pos[0][0] == 0 && p.fitb[0][0] == 1, "F: escondida mais popular ganha o empate");
+
+    ValoresAtrib val;
+    Base base = base_pontos(val);
+    PontosAtributos pa(base, val);
+    KDTree arvore(1);
+    arvore.construir(base.pecas);
+    GrafoLooks grafo;
+    grafo.construir(base);
+    Recomendador rec(base, arvore, grafo);
+    VersaoF f(base, rec, grafo, pa);
+    checar(quase_igual(f.popularidade()[2], std::log(4.0)) && quase_igual(f.popularidade()[4], std::log(2.0)),
+           "F: popularidade = log(1 + grau), sem o look de teste");
+
+    // dois tops no look, candidatas de calca. o termo guardado por valor tem que dar a soma do pontos
+    const std::vector<int> look = {0, 1};
+    const std::vector<int> cand = {2, 3};
+    TermosF t = f.termos(look, cand);
+    std::array<double, N_ATRIB> um;
+    um.fill(1.0);
+    checar(quase_igual(f.atributos(t, 2, um), pa.pontos(0, 2) + pa.pontos(1, 2)) &&
+               quase_igual(f.atributos(t, 3, um), pa.pontos(0, 3) + pa.pontos(1, 3)),
+           "F: pontos_atributos = soma dos pontos com cada peca do look");
+
+    ConfigF cfg;
+    cfg.peso = um;
+    std::vector<double> nota;
+    cfg.w = {0.0, 0.0, 0.0, 1.0};
+    f.notas(t, nullptr, nullptr, cand, cfg, nota);
+    checar(nota == std::vector<double>({1.0, 0.0}), "F: so popularidade, ja entre 0 e 1");
+    cfg.w = {0.0, 0.0, 0.0, 0.0};
+    f.notas(t, nullptr, nullptr, cand, cfg, nota);
+    checar(nota == std::vector<double>({0.0, 0.0}), "F: todos os w em 0 dao nota 0");
+    cfg.w = {0.0, 1.0, 0.0, 0.0};
+    cfg.peso.fill(0.0);
+    f.notas(t, nullptr, nullptr, cand, cfg, nota);
+    checar(nota == std::vector<double>({0.0, 0.0}), "F: pesos de atributo em 0 desligam o termo");
+    cfg.w = {0.0, 0.0, 1.0, 1.0};
+    f.notas(t, nullptr, nullptr, cand, cfg, nota);
+    checar(nota == std::vector<double>({1.0, 0.0}), "F: sem grupos o w3 nao muda nada");
+
+    // um grupo por categoria: o termo do grupo e a soma do pontos do PontosGrupos
+    std::vector<Atrib> attr(base.pecas.size());
+    Grupos gr = agrupar(montar_grafo_knn(base, attr), 1, (int)base.pecas.size());
+    PontosGrupos pg(base, gr);
+    TermoGrupos tg = VersaoF::termo_grupos(gr, pg, look, cand);
+    checar(tg.soma.size() == 1 && quase_igual(tg.soma[0], pg.pontos(0, 2) + pg.pontos(1, 2)) &&
+               gr.grupo[2] == tg.ini,
+           "F: termo de grupos por grupo da categoria pedida");
+
+    ConfigF lida, lida_c;
+    cfg.w = {1.0, 0.5, 0.0, 1.0};
+    cfg.peso = {1.0, 0.0, 0.5, 1.0, 1.0, 0.0};
+    ConfigF c_pop;
+    c_pop.w = {1.0, 0.0, 0.0, 0.5};
+    checar(gravar_config_f("build/config_f_teste.csv", cfg, c_pop) &&
+               ler_config_f("build/config_f_teste.csv", lida, lida_c) && lida.w == cfg.w && lida.peso == cfg.peso &&
+               lida_c.w == c_pop.w,
+           "F: config gravada e lida de volta");
+    checar(!ler_config_f("build/nao_existe.csv", lida, lida_c), "F: sem config da falso");
+}
+
 int main() {
     Base base;
     std::string erro;
@@ -884,6 +970,7 @@ int main() {
     testar_prim_kruskal();
     testar_avaliacao_justa();
     testar_pontos_atributos();
+    testar_versao_f();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

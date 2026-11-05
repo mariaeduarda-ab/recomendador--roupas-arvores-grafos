@@ -8,6 +8,7 @@
 #include "avaliacao_d.hpp"
 #include "avaliacao_e.hpp"
 #include "avaliacao_fitb.hpp"
+#include "avaliacao_justa.hpp"
 #include "gephi.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
@@ -39,6 +40,7 @@ int mostrar_uso() {
                  "  ./recomendador estampa_d                        valida a regra de estampa na D nova\n"
                  "  ./recomendador avaliar_e                        escolhe os pesos da E e roda o teste\n"
                  "  ./recomendador avaliar_fitb                     prova de múltipla escolha com todas as versões\n"
+                 "  ./recomendador avaliar_justo [--validacao]      todas as versões na categoria inteira, 10 ordens\n"
                  "  ./recomendador completar_e <id_look> <categoria> completa um look (versão E)\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador validacao                        lista os looks de validacao\n"
@@ -116,7 +118,8 @@ int main(int argc, char** argv) {
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
-                            (comando == "tempos_f" && argumentos.size() == 1);
+                            (comando == "tempos_f" && argumentos.size() == 1) ||
+                            (comando == "avaliar_justo" && (argumentos.size() == 1 || (argumentos.size() == 2 && argumentos[1] == "--validacao")));
     if (!formato_ok) return mostrar_uso();
 
     // usa os subconjuntos pecas_N.csv, entao nao precisa ler a base inteira
@@ -164,6 +167,9 @@ int main(int argc, char** argv) {
     }
     if (comando == "avaliar_e") {
         return avaliar_e(base, pasta_dados, TABELA_CORES, saida) ? 0 : 1;
+    }
+    if (comando == "avaliar_justo") {
+        return avaliar_justo(base, pasta_dados, argumentos.size() == 2, saida) ? 0 : 1;
     }
     if (comando == "avaliar_fitb") {
         return avaliar_fitb(base, pasta_dados, TABELA_CORES, saida) ? 0 : 1;

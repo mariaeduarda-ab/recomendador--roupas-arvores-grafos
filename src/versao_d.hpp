@@ -59,6 +59,9 @@ public:
 
     std::vector<Candidata> completar(const std::vector<int>& look, const std::string& categoria, int n) const;
 
+    // mesma nota do completar, mas em todas as pecas de cand, sem a lista curta das arestas
+    std::vector<double> notas(const std::vector<int>& look, const std::vector<int>& cand) const;
+
     // melhores looks a partir de uma peca, do maior pro menor. categoria sem candidata fica de fora
     std::vector<LookMontado> montar(int peca, const std::vector<std::string>& categorias) const;
 

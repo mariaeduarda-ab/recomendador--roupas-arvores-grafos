@@ -48,3 +48,7 @@ __pycache__/
 resultados/gephi_grupos/*
 !resultados/gephi_grupos/k100_*
 !resultados/tempos_f/
+!resultados/tabela_corrigida.csv
+!resultados/tabela_corrigida_diferencas.csv
+!resultados/validacao_corrigida.csv
+!resultados/validacao_corrigida_diferencas.csv

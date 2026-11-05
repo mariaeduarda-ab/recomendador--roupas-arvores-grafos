@@ -427,16 +427,6 @@ namespace {
 
 const char* GRUPOS[3] = {"estilo", "ocasiao", "formalidade"};
 
-// tira do g1 os grupos fora de "usa". valor igual em todas as pecas = o grupo nao separa nada
-std::vector<Atrib> com_grupos(std::vector<Atrib> attr, const bool usa[3]) {
-    for (Atrib& a : attr) {
-        if (!usa[0]) std::fill(a.g1.begin(), a.g1.begin() + 5, 0.0);
-        if (!usa[1]) std::fill(a.g1.begin() + 5, a.g1.begin() + 10, 0.0);
-        if (!usa[2]) a.g1[10] = 0.5;
-    }
-    return attr;
-}
-
 std::string nome_grupos(const bool usa[3]) {
     std::string s;
     for (int g = 0; g < 3; g++) {
@@ -448,6 +438,16 @@ std::string nome_grupos(const bool usa[3]) {
 }
 
 }  // namespace
+
+// tira do g1 os grupos fora de "usa". valor igual em todas as pecas = o grupo nao separa nada
+std::vector<Atrib> com_grupos(std::vector<Atrib> attr, const bool usa[3]) {
+    for (Atrib& a : attr) {
+        if (!usa[0]) std::fill(a.g1.begin(), a.g1.begin() + 5, 0.0);
+        if (!usa[1]) std::fill(a.g1.begin() + 5, a.g1.begin() + 10, 0.0);
+        if (!usa[2]) a.g1[10] = 0.5;
+    }
+    return attr;
+}
 
 bool escolher_vetor_d(const Base& base, const std::string& pasta_dados, const ConfigD& cfg,
                       const std::string& pasta_saida) {

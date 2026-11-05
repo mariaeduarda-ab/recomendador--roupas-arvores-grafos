@@ -32,6 +32,9 @@ bool avaliar_d(const Base& base, const std::string& pasta_dados, const std::stri
 // false se o arquivo nao existe ou esta com formato errado. nesse caso cfg nao muda
 bool ler_config_d(const std::string& caminho, ConfigD& cfg);
 
+// usa = {estilo, ocasiao, formalidade}. grupo fora fica igual em todas as pecas
+std::vector<Atrib> com_grupos(std::vector<Atrib> attr, const bool usa[3]);
+
 // roda popularidade, B, C e D com uma config pronta. nao escolhe nada.
 // serve pra ver quanto o resultado muda com a ordem das linhas do catalogo
 bool reavaliar(const Base& base, const std::string& pasta_dados, const ConfigD& cfg, const std::string& pasta_saida);

@@ -88,3 +88,16 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | Decisão | Motivo | Testada na validação? |
 | --- | --- | --- |
 | A F testada é C + 0,5 × grupos (K = 100, estampa 0,1) + popularidade. Os pontos por atributo ficaram com peso 0. | Ela escolheu seguir o critério combinado antes. Na validação, a diferença para a C + popularidade é de 1 consulta e pode ser sorte. Isso vai dito no artigo. | Sim. |
+
+### Articulações com Tarjan (análise depois do congelamento)
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| O grafo do Tarjan usa os grupos da forma 3 e os pontos de `PontosGrupos` com todos os looks de treino. | É o grafo entre grupos que a F usa no teste final. | Não se aplica. Não muda nenhuma recomendação. |
+| A aresta só entra com n ≥ 3 pares de peças. | Com 1 ou 2 pares, a aresta pode vir de um look só. Sem o corte, 39628 das 50836 arestas positivas teriam n = 1 ou 2. | Não se aplica. |
+| Os 3 limiares são os quartis dos pontos das arestas positivas com n ≥ 3 (0,223; 0,437; 0,705). | Cada um guarda 75%, 50% e 25% dessas arestas. São tirados da distribuição, sem olhar as articulações. | Não se aplica. |
+| A tabela completa usa a mediana. Os outros limiares aparecem em forma curta. | É o limiar do meio. | Não se aplica. |
+| Grupos separados = grupos fora do maior pedaço quando a articulação sai. Só contam as que separam 3 ou mais. | É o pedido dela (ignorar as que soltam 1 ou 2 grupos). | Não se aplica. |
+| Arestas paralelas contam como arestas diferentes no Tarjan, e laços são ignorados. | Duas arestas entre os mesmos vértices nunca são ponte. No grafo dos grupos não há paralelas, mas os testes cobrem o caso. | Não se aplica. |
+| Os exemplos de peças são as 3 do grupo que mais aparecem nos looks de treino. | São as peças que mais pesam nos pontos do grupo. | Não se aplica. |
+| O tempo do Tarjan é a média de 1000 execuções no mesmo grafo. | Uma execução leva menos de 1 ms e sairia com muito ruído. | Não se aplica. |

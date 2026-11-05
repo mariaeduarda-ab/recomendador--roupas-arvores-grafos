@@ -189,7 +189,8 @@ Notas de_lista(const Base& base, const Lista& gerar) {
     };
 }
 
-Posicoes avaliar_notas(const Base& base, const Consultas& c, const std::string& nome, const Notas& f) {
+Posicoes avaliar_notas(const Base& base, const Consultas& c, const std::string& nome, const Notas& f,
+                       const std::vector<double>* desempate) {
     Posicoes res;
     res.nome = nome;
     std::vector<double> nota;
@@ -203,12 +204,18 @@ Posicoes avaliar_notas(const Base& base, const Consultas& c, const std::string& 
         for (std::size_t i = 0; i < cand.size(); i++) {
             if (cand[i] == alvo) na = nota[i];
         }
+        const double da = desempate ? (*desempate)[alvo] : 0.0;
         // rank = notas maiores + empatadas que vem antes na ordem. nao precisa ordenar a categoria
         int maiores = 0;
         std::vector<int> empate;
         for (std::size_t i = 0; i < cand.size(); i++) {
-            if (nota[i] > na) maiores++;
-            else if (nota[i] == na && cand[i] != alvo) empate.push_back(cand[i]);
+            if (nota[i] > na) {
+                maiores++;
+            } else if (nota[i] == na && cand[i] != alvo) {
+                double d = desempate ? (*desempate)[cand[i]] : 0.0;
+                if (d > da) maiores++;
+                else if (d == da) empate.push_back(cand[i]);
+            }
         }
         std::array<int, N_ORDENS> pos;
         for (int s = 0; s < N_ORDENS; s++) {
@@ -222,8 +229,10 @@ Posicoes avaliar_notas(const Base& base, const Consultas& c, const std::string& 
         for (int o : c.erradas[q]) {
             auto it = std::find(cand.begin(), cand.end(), o);
             double no = it != cand.end() ? nota[it - cand.begin()] : -INFINITY;
+            double d = desempate ? (*desempate)[o] : 0.0;
             for (int s = 0; s < N_ORDENS; s++) {
-                if (no > na || (no == na && c.ordem[s][o] < c.ordem[s][alvo])) fitb[s] = 0;
+                bool antes = d > da || (d == da && c.ordem[s][o] < c.ordem[s][alvo]);
+                if (no > na || (no == na && antes)) fitb[s] = 0;
             }
         }
 

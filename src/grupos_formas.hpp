@@ -2,6 +2,7 @@
 
 #include <string>
 
+#include "grupos_kruskal.hpp"
 #include "leitura.hpp"
 
 // Criterio escrito antes de rodar: entre as formas 1, 2 e 3, fica a de menor media (entre as categorias)
@@ -14,3 +15,7 @@ constexpr double FRACAO_LIMITE = 0.05;    // maior grupo do Kruskal limitado
 // compara as formas sem olhar looks, escolhe pelo criterio acima e, se a forma usa o vetor,
 // escolhe o peso da estampa (0; 0,1; 0,2) pelo Hit@10 na validacao de C + pontos_grupos
 bool comparar_formas(const Base& base, const std::string& pasta_dados, const std::string& pasta_saida);
+
+// grupos da forma escolhida (forma 3: mesma combinacao de grupo_cor, estampa e faixa de formalidade).
+// le pecas_v4.csv e pecas_v5.csv e nao usa looks. depois: PontosGrupos pg(base, gr); pg.arestas()
+bool grupos_escolhidos(const Base& base, const std::string& pasta_dados, Grupos& gr, std::string& erro);

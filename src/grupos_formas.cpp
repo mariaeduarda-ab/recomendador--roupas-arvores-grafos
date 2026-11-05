@@ -44,6 +44,22 @@ std::string cor_da_peca(const ValoresAtrib& val, int i) {
     return x.empty() ? "desconhecido" : val.nomes[COR][x[0]];
 }
 
+bool ler_tudo(const Base& base, const std::string& pasta, std::vector<Atrib>& attr, ValoresAtrib& val,
+              std::string& erro) {
+    return ler_atributos(pasta + "/pecas_v4.csv", base, attr, erro) && ler_valores(pasta + "/pecas_v5.csv", base, val, erro);
+}
+
+// forma 3: cor, estampa e faixa de formalidade. ocasiao fica de fora porque e marcada em
+// varias ao mesmo tempo (32 combinacoes) e picaria demais os grupos
+std::vector<std::string> chaves(const std::vector<Atrib>& attr, const ValoresAtrib& val) {
+    std::vector<std::string> chave(attr.size());
+    for (int i = 0; i < (int)attr.size(); i++) {
+        double f = attr[i].g1.size() > 10 ? attr[i].g1[10] : 0.5;
+        chave[i] = cor_da_peca(val, i) + "|" + estampa3(attr[i].estampa) + "|" + faixa_formalidade(f);
+    }
+    return chave;
+}
+
 struct Forma {
     std::string nome;
     bool usa_vetor = false;
@@ -145,7 +161,7 @@ std::string exemplos(const Base& base, const GrafoKnn& g, const Grupos& gr, cons
     const char* nome[] = {"maior grupo", "grupo do meio", "menor grupo com 5 peças ou mais"};
     for (int k = 0; k < 3; k++) {
         int x = escolhidos[k];
-        s << "\n" << g.categorias[c] << ", " << nome[k] << " (" << gr.tamanho[x] << " peças):\n\n"
+        s << "\n" << g.categorias[c] << ", " << nome[k] << " (" << gr.tamanho[x] << (gr.tamanho[x] == 1 ? " peça" : " peças") << "):\n\n"
           << "| id | grupo_cor | Lab | estampa | formalidade | ocasião |\n| --- | --- | --- | --- | --- | --- |\n";
         int mostradas = 0;
         for (int i : g.membros[c]) {
@@ -215,19 +231,12 @@ bool comparar_formas(const Base& base, const std::string& pasta_dados, const std
     std::vector<Atrib> attr;
     ValoresAtrib val;
     std::string erro;
-    if (!ler_atributos(pasta_dados + "/pecas_v4.csv", base, attr, erro) ||
-        !ler_valores(pasta_dados + "/pecas_v5.csv", base, val, erro)) {
+    if (!ler_tudo(base, pasta_dados, attr, val, erro)) {
         std::cerr << erro << '\n';
         return false;
     }
     const int n = (int)base.pecas.size();
-    // forma 3: cor, estampa e faixa de formalidade. ocasiao fica de fora porque e marcada em
-    // varias ao mesmo tempo (32 combinacoes) e picaria demais os grupos
-    std::vector<std::string> chave(n);
-    for (int i = 0; i < n; i++) {
-        double f = attr[i].g1.size() > 10 ? attr[i].g1[10] : 0.5;
-        chave[i] = cor_da_peca(val, i) + "|" + estampa3(attr[i].estampa) + "|" + faixa_formalidade(f);
-    }
+    const std::vector<std::string> chave = chaves(attr, val);
 
     GrafoKnn g = montar_grafo_knn(base, attr);
     std::vector<Forma> formas(4);
@@ -350,4 +359,14 @@ bool comparar_formas(const Base& base, const std::string& pasta_dados, const std
           "A coluna Grupo serve para colorir (Partition).\n";
     std::cout << "Resumo em " << pasta_saida << "/grupos_formas.md" << std::endl;
     return (bool)md;
+}
+
+bool grupos_escolhidos(const Base& base, const std::string& pasta_dados, Grupos& gr, std::string& erro) {
+    std::vector<Atrib> attr;
+    ValoresAtrib val;
+    if (!ler_tudo(base, pasta_dados, attr, val, erro)) return false;
+    // k = 0: so separa as categorias, a forma 3 nao usa as arestas
+    GrafoKnn g = montar_grafo_knn(base, attr, 0);
+    gr = agrupar_por_chave(g, chaves(attr, val), (int)base.pecas.size());
+    return true;
 }

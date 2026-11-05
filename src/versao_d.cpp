@@ -197,6 +197,18 @@ std::vector<Candidata> VersaoD::completar(const std::vector<int>& look, const st
     return res;
 }
 
+std::vector<double> VersaoD::notas(const std::vector<int>& look, const std::vector<int>& cand) const {
+    std::vector<double> res(cand.size(), 0.0);
+    if (cand.empty()) return res;
+    const std::string& categoria = base_.pecas[cand[0]].categoria;
+    for (int p : look) {
+        if (base_.pecas[p].categoria == categoria) continue;
+        const Contagem bfs = grafo_.bfs_2_passos(p, true);
+        for (std::size_t i = 0; i < cand.size(); i++) res[i] += nota_com(p, cand[i], bfs);
+    }
+    return res;
+}
+
 std::vector<LookMontado> VersaoD::montar(int peca, const std::vector<std::string>& categorias) const {
     const Contagem bfs_peca = grafo_.bfs_2_passos(peca, true);
     std::vector<std::vector<int>> combos = {{peca}};

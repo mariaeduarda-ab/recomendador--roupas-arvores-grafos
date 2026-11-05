@@ -1,0 +1,9 @@
+grupos,looks,hit1,hit5,hit10,cobertura
+nenhum,2332,2,4,6,32
+estilo,2332,1,3,4,41
+ocasiao,2332,2,5,7,36
+formalidade,2332,3,5,5,35
+estilo + ocasiao,2332,3,6,6,45
+estilo + formalidade,2332,1,2,5,43
+ocasiao + formalidade,2332,3,3,4,39
+estilo + ocasiao + formalidade,2332,2,4,5,47

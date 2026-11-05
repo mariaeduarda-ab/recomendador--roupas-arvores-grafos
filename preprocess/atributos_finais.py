@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# Monta um pecas_v2.csv com a fonte escolhida para cada atributo (ver resultados/comparacao_fontes.md).
+# Monta um CSV no formato do pecas_v2.csv com a fonte escolhida para cada atributo (ver resultados/comparacao_fontes.md).
 # O formato e o mesmo que a versao D le (src/atributos.cpp), entao o C++ nao muda.
 # Uso: python3 preprocess/atributos_finais.py --texto <pasta com pecas_v2.csv> --clip dados/atributos_clip.csv
-#        --ids lista.csv --saida <pasta>   [--fonte estilo=texto ...]
+#        --ids lista.csv --saida <pasta> [--nome pecas_v4.csv] [--fonte estilo=texto ...]
 
 import argparse
 import csv
@@ -13,14 +13,15 @@ from aplicacao import aplica
 from atributos import COLUNAS
 from referencia import NA
 
-# fora = valor neutro que a D ja trata. so a estampa passou dos 70% no teste
+# fora = valor neutro que a D ja trata. so a estampa passou dos 70% no teste.
+# estilo, ocasiao e formalidade ficam no texto: o Hit@k na validacao decide se entram no vetor
 FONTE = {
     "estampa": "lisa",
-    "comprimento": "fora",
+    "comprimento": "texto",
     "modelagem": "fora",
-    "estilo": "fora",
-    "ocasiao": "fora",
-    "formalidade": "fora",
+    "estilo": "texto",
+    "ocasiao": "texto",
+    "formalidade": "texto",
 }
 OPCOES = {"texto", "clip", "comb", "lisa", "fora"}
 DESC = "desconhecido"
@@ -122,6 +123,7 @@ def main():
     parser.add_argument("--clip", default="dados/atributos_clip.csv")
     parser.add_argument("--ids", required=True)
     parser.add_argument("--saida", required=True)
+    parser.add_argument("--nome", default="pecas_v4.csv")
     parser.add_argument("--fonte", action="append", default=[], help="atributo=fonte, troca a escolha padrao")
     args = parser.parse_args()
 
@@ -153,7 +155,7 @@ def main():
     sem_clip = 0
     pasta = Path(args.saida)
     pasta.mkdir(parents=True, exist_ok=True)
-    with open(pasta / "pecas_v2.csv", "w", newline="", encoding="utf-8") as arq:
+    with open(pasta / args.nome, "w", newline="", encoding="utf-8") as arq:
         esc = csv.writer(arq, lineterminator="\n")
         esc.writerow(COLUNAS)
         for i in sorted(texto):
@@ -162,7 +164,7 @@ def main():
             linha = montar(texto[i], c, fontes, conta)
             esc.writerow([linha[k] for k in COLUNAS])
 
-    print(f"{len(texto)} peças em {pasta / 'pecas_v2.csv'}. Sem linha do CLIP: {sem_clip}.")
+    print(f"{len(texto)} peças em {pasta / args.nome}. Sem linha do CLIP: {sem_clip}.")
     for atr, f in fontes.items():
         print(f"{atr} ({f}): {dict(conta[atr].most_common())}")
 

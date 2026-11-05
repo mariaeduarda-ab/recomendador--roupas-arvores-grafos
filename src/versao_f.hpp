@@ -1,6 +1,7 @@
 #pragma once
 
 #include <array>
+#include <memory>
 #include <string>
 #include <utility>
 #include <vector>
@@ -75,6 +76,23 @@ private:
     const PontosAtributos& pa_;
     std::vector<double> pop_;
     mutable std::vector<double> nota_c_;  // por peca, zerada depois de cada uso
+};
+
+// F e C + popularidade do config_f.csv, prontas para o avaliar_justo.
+// b, rec e grafo precisam viver enquanto as notas forem usadas
+struct VersoesF {
+    ConfigF f;
+    ConfigF c_pop;
+    ValoresAtrib val;
+    std::unique_ptr<PontosAtributos> pa;
+    std::unique_ptr<VersaoF> versao;
+    Grupos gr;
+    std::unique_ptr<PontosGrupos> pg;
+
+    // false se faltar config_f.csv ou pecas_v5.csv. tabelas e grupos usam so os looks de treino de b
+    bool montar(const Base& b, const Recomendador& rec, const GrafoLooks& grafo, const std::string& pasta_dados,
+                const std::string& arquivo_config, std::string& erro);
+    Notas notas(const ConfigF& cfg) const;
 };
 
 // vetor dos grupos com o pecas_v4.csv, como no comando grupos

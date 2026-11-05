@@ -189,6 +189,37 @@ bool ler_attr_grupos(const std::string& pasta_dados, const Base& base, std::vect
                                        : ler_atributos_da_pasta(pasta_dados, base, attr, erro);
 }
 
+bool VersoesF::montar(const Base& b, const Recomendador& rec, const GrafoLooks& grafo, const std::string& pasta_dados,
+                      const std::string& arquivo_config, std::string& erro) {
+    if (!ler_config_f(arquivo_config, f, c_pop)) {
+        erro = "sem " + arquivo_config + " (rode ./recomendador ajustar_f)";
+        return false;
+    }
+    if (!ler_valores(pasta_dados + "/pecas_v5.csv", b, val, erro)) return false;
+    pa = std::make_unique<PontosAtributos>(b, val);
+    pa->peso = f.peso;
+    versao = std::make_unique<VersaoF>(b, rec, grafo, *pa);
+    if (f.w[T_GRUPOS] != 0.0) {
+        std::vector<Atrib> attr;
+        if (!ler_attr_grupos(pasta_dados, b, attr, erro)) return false;
+        gr = agrupar(montar_grafo_knn(b, attr, K_VIZINHOS_GRUPOS, f.peso_estampa), f.k_grupos, (int)b.pecas.size());
+        pg = std::make_unique<PontosGrupos>(b, gr);
+    }
+    return true;
+}
+
+Notas VersoesF::notas(const ConfigF& cfg) const {
+    return [this, cfg](int, const std::vector<int>& look, const std::vector<int>& cand, std::vector<double>& nota) {
+        const TermosF t = versao->termos(look, cand);
+        if (cfg.w[T_GRUPOS] != 0.0 && pg) {
+            const TermoGrupos tg = VersaoF::termo_grupos(gr, *pg, look, cand);
+            versao->notas(t, &tg, &gr, cand, cfg, nota);
+        } else {
+            versao->notas(t, nullptr, nullptr, cand, cfg, nota);
+        }
+    };
+}
+
 namespace {
 
 const double GRADE[3] = {0.0, 0.5, 1.0};

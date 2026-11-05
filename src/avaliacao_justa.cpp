@@ -18,6 +18,7 @@
 #include "kdtree.hpp"
 #include "recomendador.hpp"
 #include "versao_d.hpp"
+#include "versao_f.hpp"
 
 namespace {
 
@@ -346,9 +347,9 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
     const int tudo = (int)b.pecas.size();
 
     std::vector<Posicoes> res;
-    const auto rodar_versao = [&](const std::string& nome, const Notas& f) {
+    const auto rodar_versao = [&](const std::string& nome, const Notas& f, const std::vector<double>* desempate = nullptr) {
         auto ini = std::chrono::steady_clock::now();
-        res.push_back(avaliar_notas(b, c, nome, f));
+        res.push_back(avaliar_notas(b, c, nome, f, desempate));
         double seg = std::chrono::duration<double>(std::chrono::steady_clock::now() - ini).count();
         std::cout << nome << ": Hit@10 = " << resumir(res.back(), 10).media << ", FITB = " << resumir(res.back(), 0).media
                   << " (" << seg << " s)" << std::endl;
@@ -382,6 +383,18 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
             nota = vn.notas(look, cand);
         });
     }
+    // F e C + popularidade com os pesos escolhidos na validacao (config_f.csv). desempate pela popularidade
+    VersoesF vf;
+    std::string erro_f;
+    const bool tem_f = vf.montar(b, rec, grafo, pasta_dados, pasta_saida + "/config_f.csv", erro_f);
+    int i_c_pop = -1;
+    if (tem_f) {
+        i_c_pop = (int)res.size();
+        rodar_versao("C + popularidade", vf.notas(vf.c_pop), &vf.versao->popularidade());
+        rodar_versao("F", vf.notas(vf.f), &vf.versao->popularidade());
+    } else {
+        std::cerr << "Aviso: " << erro_f << ". F e C + popularidade ficam de fora.\n";
+    }
     const int principais = (int)res.size();
     // a D antiga so pontuava as vizinhas das arestas. fica so pra comparar com a D na categoria inteira
     rodar_versao("D (só lista curta)", de_lista(b, [&](const std::vector<int>& l, const std::string& cat) { return vd.completar(l, cat, tudo); }));
@@ -389,7 +402,9 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
         rodar_versao("D nova (só lista curta)", de_lista(b, [&](const std::vector<int>& l, const std::string& cat) { return vn.completar(l, cat, tudo); }));
     }
 
-    const std::string nome_arq = validacao ? "validacao_corrigida" : "tabela_corrigida";
+    // com a F a tabela vira a final. a corrigida antiga fica como estava
+    const std::string nome_arq = tem_f ? (validacao ? "validacao_final" : "tabela_final")
+                                       : (validacao ? "validacao_corrigida" : "tabela_corrigida");
     std::ofstream csv(pasta_saida + "/" + nome_arq + ".csv");
     csv << "versao,metrica,media,min,max\n";
     for (int m = 0; m < 4; m++) {
@@ -413,6 +428,7 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
     for (int v = 0; v < principais; v++) {
         if (v != i_c && v != i_pop) pares.push_back({v, i_c});
     }
+    if (tem_f) pares.push_back({i_c_pop + 1, i_c_pop});  // F x C + popularidade
     std::ofstream dif(pasta_saida + "/" + nome_arq + "_diferencas.csv");
     dif << "x,y,metrica,diferenca,ic95_min,ic95_max,conclusao\n";
     std::vector<std::vector<Intervalo>> ints;
@@ -436,7 +452,9 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
     if (!c.alvo.empty()) cand_media /= c.alvo.size();
 
     std::ofstream md(pasta_saida + "/" + nome_arq + ".md");
-    md << "# " << (validacao ? "Validação com a avaliação corrigida" : "Tabela corrigida (teste)") << "\n\n"
+    const std::string titulo = tem_f ? (validacao ? "Validação com a versão F" : "Tabela final (teste)")
+                                     : (validacao ? "Validação com a avaliação corrigida" : "Tabela corrigida (teste)");
+    md << "# " << titulo << "\n\n"
        << "Gerado por `./recomendador avaliar_justo" << (validacao ? " --validacao" : "") << "`. "
        << (validacao ? "Looks de validação (semente 7). Eles saem do grafo, do bônus e da popularidade. O teste não é usado.\n\n"
                      : "Looks de teste, uma peça escondida por look com `sortear_escondidas`. Conferência: " + conferencia + ".\n\n")
@@ -449,7 +467,10 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
        << "- FITB: a escondida contra 3 erradas da mesma categoria (as mesmas perguntas do `avaliar_fitb`). "
           "Ela acerta se tem a maior nota das 4. No empate vale a mesma ordem sorteada. O chute acerta 25%.\n"
        << "- D: config de `config_d.csv` com `pecas_v2.csv`. D nova: mesma config com `pecas_v4.csv` e só os grupos de `vetor_d.csv`. "
-          "As duas agora dão nota a todas as peças da categoria. As linhas \"só lista curta\" mostram a D antiga, que só pontua as vizinhas das arestas.\n\n"
+          "As duas agora dão nota a todas as peças da categoria. As linhas \"só lista curta\" mostram a D antiga, que só pontua as vizinhas das arestas.\n"
+       << (tem_f ? "- F e C + popularidade: pesos de `config_f.csv`, escolhidos só na validação pelo `ajustar_f` (ver `escolha_final.md`). "
+                   "Cada termo vai de 0 a 1 dentro da consulta. As duas desempatam pela popularidade antes da ordem sorteada.\n\n"
+                 : "\n")
        << "## Por que sortear a ordem é o mesmo que embaralhar as linhas\n\n"
        << "Todas as versões desempatam pelo índice da peça, que é a linha dela no catálogo. "
           "Embaralhar as linhas troca esses índices por uma ordem sorteada. "

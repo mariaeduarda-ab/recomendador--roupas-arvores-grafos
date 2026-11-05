@@ -33,6 +33,8 @@ int mostrar_uso() {
                  "  ./recomendador avaliar                          Hit@k das versões e tempos\n"
                  "  ./recomendador avaliar_d                        compara todas as versões, com a D (demora)\n"
                  "  ./recomendador reavaliar                        popularidade, B, C e D com a config já escolhida\n"
+                 "  ./recomendador vetor_d                          escolhe na validacao o vetor da D com pecas_v4.csv\n"
+                 "  ./recomendador estampa_d                        valida a regra de estampa na D nova\n"
                  "  ./recomendador avaliar_e                        escolhe os pesos da E e roda o teste\n"
                  "  ./recomendador avaliar_fitb                     prova de múltipla escolha com todas as versões\n"
                  "  ./recomendador completar_e <id_look> <categoria> completa um look (versão E)\n"
@@ -108,7 +110,7 @@ int main(int argc, char** argv) {
     const std::string comando = argumentos[0];
     const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d" || comando == "completar_e") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
-                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "validacao") && argumentos.size() == 1) ||
+                            ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2);
     if (!formato_ok) return mostrar_uso();
 
@@ -166,6 +168,12 @@ int main(int argc, char** argv) {
             std::cout << base.pecas[c.indice].id << ' ' << c.pontuacao << '\n';
         }
         return 0;
+    }
+    if (comando == "vetor_d") {
+        return escolher_vetor_d(base, pasta_dados, config_escolhida(), saida) ? 0 : 1;
+    }
+    if (comando == "estampa_d") {
+        return validar_estampa_d(base, pasta_dados, config_escolhida(), saida) ? 0 : 1;
     }
     if (comando == "reavaliar") {
         return reavaliar(base, pasta_dados, config_escolhida(), saida) ? 0 : 1;

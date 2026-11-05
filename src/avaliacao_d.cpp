@@ -422,3 +422,195 @@ bool reavaliar(const Base& base, const std::string& pasta_dados, const ConfigD& 
     gravar_linha(csv, rodar("D", base, testes, [&](const std::vector<int>& l, const std::string& c) { return versao.completar(l, c, tudo); }));
     return true;
 }
+
+namespace {
+
+const char* GRUPOS[3] = {"estilo", "ocasiao", "formalidade"};
+
+// tira do g1 os grupos fora de "usa". valor igual em todas as pecas = o grupo nao separa nada
+std::vector<Atrib> com_grupos(std::vector<Atrib> attr, const bool usa[3]) {
+    for (Atrib& a : attr) {
+        if (!usa[0]) std::fill(a.g1.begin(), a.g1.begin() + 5, 0.0);
+        if (!usa[1]) std::fill(a.g1.begin() + 5, a.g1.begin() + 10, 0.0);
+        if (!usa[2]) a.g1[10] = 0.5;
+    }
+    return attr;
+}
+
+std::string nome_grupos(const bool usa[3]) {
+    std::string s;
+    for (int g = 0; g < 3; g++) {
+        if (!usa[g]) continue;
+        if (!s.empty()) s += " + ";
+        s += GRUPOS[g];
+    }
+    return s.empty() ? "nenhum" : s;
+}
+
+}  // namespace
+
+bool escolher_vetor_d(const Base& base, const std::string& pasta_dados, const ConfigD& cfg,
+                      const std::string& pasta_saida) {
+    std::vector<Atrib> antigo;
+    std::vector<Atrib> novo;
+    std::string erro;
+    if (!ler_atributos_da_pasta(pasta_dados, base, antigo, erro) ||
+        !ler_atributos(pasta_dados + "/pecas_v4.csv", base, novo, erro)) {
+        std::cerr << erro << '\n';
+        return false;
+    }
+    std::filesystem::create_directories(pasta_saida);
+
+    // so validacao. as 8 combinacoes vao de menos grupos para mais, e no empate fica a primeira:
+    // um grupo so entra se melhora
+    std::vector<int> val = sortear_validacao(base);
+    Base sem_val = base;
+    for (int l : val) sem_val.looks[l].treino = false;
+    GrafoLooks grafo_val;
+    grafo_val.construir(sem_val);
+    std::vector<Escondida> testes_val = sortear_escondidas(sem_val, val);
+
+    std::vector<int> ordem(8);
+    std::iota(ordem.begin(), ordem.end(), 0);
+    std::stable_sort(ordem.begin(), ordem.end(),
+                     [](int x, int y) { return __builtin_popcount(x) < __builtin_popcount(y); });
+
+    std::ofstream csv_val(pasta_saida + "/validacao_vetor_d.csv");
+    csv_val << "grupos,looks,hit1,hit5,hit10,cobertura\n";
+    bool melhor[3] = {false, false, false};
+    int melhor10 = -1;
+    int melhor5 = -1;
+    for (int m : ordem) {
+        bool usa[3] = {(m & 1) != 0, (m & 2) != 0, (m & 4) != 0};
+        std::vector<Atrib> attr = com_grupos(novo, usa);
+        VersaoD versao(sem_val, attr, grafo_val, cfg);
+        Linha l = rodar("", sem_val, testes_val, [&](const std::vector<int>& look, const std::string& cat) {
+            return versao.completar(look, cat, (int)sem_val.pecas.size());
+        });
+        int h10 = conta_hit(l.pos, 10);
+        int h5 = conta_hit(l.pos, 5);
+        csv_val << nome_grupos(usa) << ',' << testes_val.size() << ',' << conta_hit(l.pos, 1) << ',' << h5 << ','
+                << h10 << ',' << conta_cobertura(l.pos) << std::endl;
+        std::cout << "Validacao com " << nome_grupos(usa) << ": " << h10 << " de " << testes_val.size() << std::endl;
+        if (h10 > melhor10 || (h10 == melhor10 && h5 > melhor5)) {
+            melhor10 = h10;
+            melhor5 = h5;
+            std::copy(usa, usa + 3, melhor);
+        }
+    }
+    std::ofstream escolhido(pasta_saida + "/vetor_d.csv");
+    escolhido << "estilo,ocasiao,formalidade\n" << melhor[0] << ',' << melhor[1] << ',' << melhor[2] << std::endl;
+    std::cout << "Vetor escolhido na validacao: " << nome_grupos(melhor) << std::endl;
+
+    // teste: mesma funcao e mesma semente do avaliar_d
+    std::vector<int> looks_teste;
+    for (int l = 0; l < (int)base.looks.size(); l++) {
+        if (!base.looks[l].treino) looks_teste.push_back(l);
+    }
+    const std::vector<Escondida> testes = sortear_escondidas(base, looks_teste);
+    KDTree arvore((int)base.pecas[0].v.size());
+    arvore.construir(base.pecas);
+    GrafoLooks grafo;
+    grafo.construir(base);
+    Recomendador rec(base, arvore, grafo);
+    const int tudo = (int)base.pecas.size();
+
+    std::ofstream csv(pasta_saida + "/hit_d_vetor.csv");
+    csv << "versao,looks,acertos1,acertos5,acertos10,hit1,hit5,hit10,cobertos,cobertura,candidatas_media\n";
+    Linha pop = rodar("Popularidade", base, testes, [&](const std::vector<int>& l, const std::string& c) {
+        return rec.popularidade(l, c, tudo);
+    });
+    gravar_linha(csv, pop);
+    Linha vc = rodar("C", base, testes, [&](const std::vector<int>& l, const std::string& c) { return rec.versao_c(l, c, tudo); });
+    gravar_linha(csv, vc);
+
+    VersaoD d_antiga(base, antigo, grafo, cfg);
+    Linha vd = rodar("D", base, testes, [&](const std::vector<int>& l, const std::string& c) { return d_antiga.completar(l, c, tudo); });
+    gravar_linha(csv, vd);
+    std::vector<Atrib> attr = com_grupos(novo, melhor);
+    VersaoD d_nova(base, attr, grafo, cfg);
+    Linha vn = rodar("D nova (" + nome_grupos(melhor) + ")", base, testes,
+                     [&](const std::vector<int>& l, const std::string& c) { return d_nova.completar(l, c, tudo); });
+    gravar_linha(csv, vn);
+
+    std::ofstream dif(pasta_saida + "/diferencas_d_vetor.csv");
+    dif << "x,y,k,so_x_acerta,so_y_acerta,diferenca,ic95_min,ic95_max\n";
+    gravar_diferenca(dif, vn, vd);
+    gravar_diferenca(dif, vn, vc);
+    gravar_diferenca(dif, vn, pop);
+    return true;
+}
+
+bool validar_estampa_d(const Base& base, const std::string& pasta_dados, const ConfigD& cfg,
+                       const std::string& pasta_saida) {
+    std::vector<Atrib> novo;
+    std::string erro;
+    if (!ler_atributos(pasta_dados + "/pecas_v4.csv", base, novo, erro)) {
+        std::cerr << erro << '\n';
+        return false;
+    }
+    // vetor ja escolhido pelo vetor_d
+    std::ifstream arq(pasta_saida + "/vetor_d.csv");
+    std::string cab;
+    std::getline(arq, cab);
+    int e = 0, o = 0, f = 0;
+    char v;
+    if (!(arq >> e >> v >> o >> v >> f)) {
+        std::cerr << "Rode ./recomendador vetor_d antes.\n";
+        return false;
+    }
+    const bool usa[3] = {e != 0, o != 0, f != 0};
+    const std::vector<Atrib> attr = com_grupos(novo, usa);
+
+    std::vector<int> val = sortear_validacao(base);
+    Base sem_val = base;
+    for (int l : val) sem_val.looks[l].treino = false;
+    GrafoLooks grafo_val;
+    grafo_val.construir(sem_val);
+    std::vector<Escondida> testes_val = sortear_escondidas(sem_val, val);
+
+    // so a regra de estampa muda. c = 0 vem primeiro e fica no empate
+    VersaoD versao(sem_val, attr, grafo_val, cfg);
+    std::ofstream csv_val(pasta_saida + "/validacao_estampa_d.csv");
+    csv_val << "c,looks,hit1,hit5,hit10,cobertura\n";
+    int h10[2], h5[2];
+    for (int c = 0; c < 2; c++) {
+        versao.trocar_pesos(cfg.a, cfg.b, c, cfg.d);
+        Linha l = rodar("", sem_val, testes_val, [&](const std::vector<int>& look, const std::string& cat) {
+            return versao.completar(look, cat, (int)sem_val.pecas.size());
+        });
+        h10[c] = conta_hit(l.pos, 10);
+        h5[c] = conta_hit(l.pos, 5);
+        csv_val << c << ',' << testes_val.size() << ',' << conta_hit(l.pos, 1) << ',' << h5[c] << ',' << h10[c] << ','
+                << conta_cobertura(l.pos) << std::endl;
+        std::cout << "Validacao com c = " << c << ": " << h10[c] << " de " << testes_val.size() << std::endl;
+    }
+    if (h10[1] < h10[0] || (h10[1] == h10[0] && h5[1] <= h5[0])) {
+        std::cout << "A regra de estampa nao melhorou na validacao. O teste nao roda." << std::endl;
+        return true;
+    }
+
+    // ganhou na validacao: roda o teste uma vez, contra a D nova com c = 0
+    std::vector<int> looks_teste;
+    for (int l = 0; l < (int)base.looks.size(); l++) {
+        if (!base.looks[l].treino) looks_teste.push_back(l);
+    }
+    const std::vector<Escondida> testes = sortear_escondidas(base, looks_teste);
+    GrafoLooks grafo;
+    grafo.construir(base);
+    const int tudo = (int)base.pecas.size();
+    VersaoD d_nova(base, attr, grafo, cfg);
+    std::ofstream csv(pasta_saida + "/hit_d_estampa.csv");
+    csv << "versao,looks,acertos1,acertos5,acertos10,hit1,hit5,hit10,cobertos,cobertura,candidatas_media\n";
+    d_nova.trocar_pesos(cfg.a, cfg.b, 0.0, cfg.d);
+    Linha sem = rodar("D nova", base, testes, [&](const std::vector<int>& l, const std::string& c) { return d_nova.completar(l, c, tudo); });
+    gravar_linha(csv, sem);
+    d_nova.trocar_pesos(cfg.a, cfg.b, 1.0, cfg.d);
+    Linha com = rodar("D nova com regra de estampa", base, testes,
+                      [&](const std::vector<int>& l, const std::string& c) { return d_nova.completar(l, c, tudo); });
+    gravar_linha(csv, com);
+    std::ofstream dif(pasta_saida + "/diferencas_d_estampa.csv");
+    dif << "x,y,k,so_x_acerta,so_y_acerta,diferenca,ic95_min,ic95_max\n";
+    gravar_diferenca(dif, com, sem);
+    return true;
+}

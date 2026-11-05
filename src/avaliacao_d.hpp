@@ -35,3 +35,12 @@ bool ler_config_d(const std::string& caminho, ConfigD& cfg);
 // roda popularidade, B, C e D com uma config pronta. nao escolhe nada.
 // serve pra ver quanto o resultado muda com a ordem das linhas do catalogo
 bool reavaliar(const Base& base, const std::string& pasta_dados, const ConfigD& cfg, const std::string& pasta_saida);
+
+// decide na validacao se estilo, ocasiao e formalidade entram no vetor da D (pecas_v4.csv),
+// com a config ja escolhida. depois roda o teste uma vez com D antiga e D nova
+bool escolher_vetor_d(const Base& base, const std::string& pasta_dados, const ConfigD& cfg,
+                      const std::string& pasta_saida);
+
+// valida a regra de estampa (c = 0 ou 1) com o vetor do vetor_d. so roda o teste se c = 1 ganhar
+bool validar_estampa_d(const Base& base, const std::string& pasta_dados, const ConfigD& cfg,
+                       const std::string& pasta_saida);

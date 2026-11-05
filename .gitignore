@@ -47,3 +47,4 @@ __pycache__/
 !resultados/gephi_grupos/
 resultados/gephi_grupos/*
 !resultados/gephi_grupos/k100_*
+!resultados/tempos_f/

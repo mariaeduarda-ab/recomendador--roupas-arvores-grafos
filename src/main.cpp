@@ -15,6 +15,7 @@
 #include "kdtree.hpp"
 #include "leitura.hpp"
 #include "recomendador.hpp"
+#include "tempos_f.hpp"
 #include "versao_d.hpp"
 #include "versao_e.hpp"
 
@@ -44,6 +45,7 @@ int mostrar_uso() {
                  "  ./recomendador grupos [K ...]                   grupos com Kruskal por categoria (padrão: 20 50 100)\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
+                 "  ./recomendador tempos_f                         tempos das estruturas para 1 mil, 10 mil e 100 mil peças\n"
                  "Opção:\n"
                  "  --dados <pasta>                                 pasta dos CSVs (padrão: dados)\n"
                  "  --ajuste                                        divide a contagem pela popularidade da peça\n";
@@ -113,8 +115,12 @@ int main(int argc, char** argv) {
     const bool formato_ok = ((comando == "parecidas" || comando == "completar" || comando == "completar_d" || comando == "completar_e") && argumentos.size() == 3) ||
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
-                            (comando == "gephi" && argumentos.size() == 2) || comando == "grupos";
+                            (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
+                            (comando == "tempos_f" && argumentos.size() == 1);
     if (!formato_ok) return mostrar_uso();
+
+    // usa os subconjuntos pecas_N.csv, entao nao precisa ler a base inteira
+    if (comando == "tempos_f") return medir_tempos_f(pasta_dados, pasta_de_saida(pasta_dados)) ? 0 : 1;
 
     const std::string saida = pasta_de_saida(pasta_dados);
 

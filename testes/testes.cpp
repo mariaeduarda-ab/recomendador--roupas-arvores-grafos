@@ -17,6 +17,7 @@
 #include "kdtree.hpp"
 #include "leitura.hpp"
 #include "recomendador.hpp"
+#include "tempos_f.hpp"
 #include "union_find.hpp"
 #include "versao_d.hpp"
 #include "versao_e.hpp"
@@ -544,6 +545,78 @@ void testar_pontos_grupos() {
            "Pontos de grupo: mesma categoria e categoria sem par dao 0");
 }
 
+// as 4 variantes tem que dar os mesmos grupos que a classe do projeto
+void testar_uf_variantes() {
+    std::mt19937 gerador(3);
+    const int n = 200;
+    std::uniform_int_distribution<int> sorteio(0, n - 1);
+    std::vector<std::pair<int, int>> unioes(150);
+    for (auto& u : unioes) u = {sorteio(gerador), sorteio(gerador)};
+    UnionFind ref(n);
+    for (auto [a, b] : unioes) ref.unite(a, b);
+    for (bool tam : {false, true}) {
+        for (bool comp : {false, true}) {
+            UFVariante u(n, tam, comp);
+            bool ok = true;
+            for (auto [a, b] : unioes) {
+                bool juntos = u.find(a) == u.find(b);
+                ok = ok && u.unite(a, b) == !juntos;
+            }
+            for (int a = 0; a < n; a++) {
+                for (int b = a + 1; b < n; b++) ok = ok && ((u.find(a) == u.find(b)) == (ref.find(a) == ref.find(b)));
+            }
+            checar(ok, std::string("Union-Find variante: tamanho ") + (tam ? "sim" : "nao") + ", compressao " +
+                           (comp ? "sim" : "nao") + " da os mesmos grupos");
+        }
+    }
+    UFVariante u(3, false, false);
+    checar(u.unite(0, 1) && !u.unite(1, 0) && u.find(2) == 2, "Union-Find variante: unir de novo devolve falso");
+}
+
+Floresta kruskal_teste(int n, std::vector<ArestaAGM> e) {
+    ordenar_arestas_agm(e);
+    return agm_kruskal(n, e);
+}
+
+void testar_prim_kruskal() {
+    // quadrado 0-1-2-3 com diagonal. AGM: 1 + 2 + 3 = 6
+    std::vector<ArestaAGM> e = {{0, 1, 1}, {1, 2, 2}, {2, 3, 3}, {3, 0, 4}, {0, 2, 5}};
+    Floresta k = kruskal_teste(4, e);
+    Floresta p = agm_prim(lista_adj_agm(4, e));
+    checar(quase_igual(k.peso, 6.0) && k.arestas == 3, "Kruskal: quadrado com diagonal pesa 6");
+    checar(quase_igual(p.peso, 6.0) && p.arestas == 3, "Prim: quadrado com diagonal pesa 6");
+
+    // dois componentes e um vertice solto: floresta com n - 3 arestas
+    e = {{0, 1, 2}, {1, 2, 1}, {0, 2, 3}, {3, 4, 5}};
+    k = kruskal_teste(6, e);
+    p = agm_prim(lista_adj_agm(6, e));
+    checar(quase_igual(k.peso, 8.0) && k.arestas == 3 && quase_igual(p.peso, 8.0) && p.arestas == 3,
+           "Prim e Kruskal: grafo desconexo da floresta com peso 8");
+
+    checar(kruskal_teste(0, {}).arestas == 0 && agm_prim(ListaAdj()).arestas == 0, "Prim e Kruskal: grafo vazio");
+    checar(agm_prim(lista_adj_agm(1, {})).arestas == 0, "Prim: um vertice so nao tem aresta");
+
+    // grafo kNN de pontos sorteados, com empates de peso
+    std::mt19937 gerador(5);
+    std::uniform_int_distribution<int> coord(0, 9);
+    std::vector<Peca> pecas(300);
+    for (int i = 0; i < 300; i++) {
+        pecas[i].id = i;
+        pecas[i].v = {(double)coord(gerador), (double)coord(gerador)};
+    }
+    KDTree arvore(2);
+    arvore.construir(pecas);
+    std::vector<ArestaAGM> knn = grafo_knn_agm(pecas, arvore, 4);
+    bool sem_repetida = true;
+    for (std::size_t i = 1; i < knn.size(); i++) {
+        sem_repetida = sem_repetida && knn[i].a < knn[i].b && !(knn[i].a == knn[i - 1].a && knn[i].b == knn[i - 1].b);
+    }
+    checar(sem_repetida, "Grafo kNN: cada aresta aparece uma vez");
+    k = kruskal_teste(300, knn);
+    p = agm_prim(lista_adj_agm(300, knn));
+    checar(std::fabs(k.peso - p.peso) < 1e-6 && k.arestas == p.arestas, "Prim e Kruskal: mesmo peso no grafo kNN");
+}
+
 }  // namespace
 
 void testar_config() {
@@ -582,6 +655,8 @@ int main() {
     testar_fitb();
     testar_kruskal();
     testar_pontos_grupos();
+    testar_uf_variantes();
+    testar_prim_kruskal();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

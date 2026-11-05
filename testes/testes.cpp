@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <cmath>
 #include <fstream>
+#include <functional>
 #include <iostream>
 #include <map>
 #include <random>
@@ -19,6 +20,7 @@
 #include "leitura.hpp"
 #include "pontos_atributos.hpp"
 #include "recomendador.hpp"
+#include "tarjan.hpp"
 #include "tempos_f.hpp"
 #include "union_find.hpp"
 #include "versao_d.hpp"
@@ -938,6 +940,160 @@ void testar_versao_f() {
     checar(!ler_config_f("build/nao_existe.csv", lida, lida_c), "F: sem config da falso");
 }
 
+namespace {
+
+using ListaArestas = std::vector<std::pair<int, int>>;
+
+// componente de cada vertice sem o vertice fora e sem a aresta sem, por busca. fora fica com -1
+std::vector<int> rotulos_bruto(int n, const ListaArestas& a, int fora, int sem, int& total) {
+    std::vector<std::vector<int>> adj(n);
+    for (int e = 0; e < (int)a.size(); e++) {
+        if (e == sem || a[e].first == fora || a[e].second == fora) continue;
+        adj[a[e].first].push_back(a[e].second);
+        adj[a[e].second].push_back(a[e].first);
+    }
+    std::vector<int> rot(n, -1);
+    total = 0;
+    for (int r = 0; r < n; r++) {
+        if (r == fora || rot[r] >= 0) continue;
+        std::vector<int> fila = {r};
+        rot[r] = total;
+        while (!fila.empty()) {
+            int v = fila.back();
+            fila.pop_back();
+            for (int w : adj[v]) {
+                if (rot[w] < 0) {
+                    rot[w] = total;
+                    fila.push_back(w);
+                }
+            }
+        }
+        total++;
+    }
+    return rot;
+}
+
+std::vector<int> pontes_de(const Tarjan& t) {
+    std::vector<int> r;
+    for (int e = 0; e < (int)t.ponte.size(); e++) {
+        if (t.ponte[e]) r.push_back(e);
+    }
+    return r;
+}
+
+std::vector<int> articulacoes_de(const Tarjan& t) {
+    std::vector<int> r;
+    for (int v = 0; v < (int)t.articulacao.size(); v++) {
+        if (t.articulacao[v]) r.push_back(v);
+    }
+    return r;
+}
+
+// confere articulacoes, pedacos e pontes removendo cada vertice e cada aresta
+bool confere_bruto(int n, const ListaArestas& a) {
+    Tarjan t = tarjan(n, a);
+    int antes = 0;
+    int depois = 0;
+    const std::vector<int> orig = rotulos_bruto(n, a, -1, -1, antes);
+    for (int v = 0; v < n; v++) {
+        std::vector<int> rot = rotulos_bruto(n, a, v, -1, depois);
+        if ((depois > antes) != t.articulacao[v]) return false;
+        if (!t.articulacao[v]) continue;
+        // pedacos = componentes de G - v com vertices do componente de v
+        std::vector<int> tam(depois, 0);
+        for (int u = 0; u < n; u++) {
+            if (u != v && orig[u] == orig[v]) tam[rot[u]]++;
+        }
+        std::vector<int> esperado;
+        for (int x : tam) {
+            if (x > 0) esperado.push_back(x);
+        }
+        std::sort(esperado.begin(), esperado.end(), std::greater<int>());
+        if (esperado != t.pedacos[v]) return false;
+    }
+    for (int e = 0; e < (int)a.size(); e++) {
+        std::vector<int> rot = rotulos_bruto(n, a, -1, e, depois);
+        if ((depois > antes) != t.ponte[e]) return false;
+        if (!t.ponte[e]) continue;
+        int lado = 0;
+        for (int u = 0; u < n; u++) lado += rot[u] == rot[a[e].first];
+        int resto = 0;
+        for (int u = 0; u < n; u++) resto += rot[u] == rot[a[e].second];
+        if (t.separa[e] != std::min(lado, resto)) return false;
+    }
+    return true;
+}
+
+}  // namespace
+
+void testar_tarjan() {
+    // caminho 0-1-2-3: os do meio sao articulacoes e toda aresta e ponte
+    Tarjan t = tarjan(4, {{0, 1}, {1, 2}, {2, 3}});
+    checar(articulacoes_de(t) == std::vector<int>{1, 2} && pontes_de(t).size() == 3,
+           "Tarjan: caminho tem 2 articulacoes e 3 pontes");
+    checar(t.pedacos[1] == std::vector<int>{2, 1} && t.separa[0] == 1 && t.separa[1] == 2,
+           "Tarjan: pedacos e lado menor no caminho");
+
+    t = tarjan(5, {{0, 1}, {1, 2}, {2, 3}, {3, 4}, {4, 0}});
+    checar(articulacoes_de(t).empty() && pontes_de(t).empty(), "Tarjan: ciclo sem articulacao e sem ponte");
+
+    // triangulos 0-1-2 e 3-4-5 ligados pela ponte 2-3
+    t = tarjan(6, {{0, 1}, {1, 2}, {2, 0}, {3, 4}, {4, 5}, {5, 3}, {2, 3}});
+    checar(articulacoes_de(t) == std::vector<int>{2, 3} && pontes_de(t) == std::vector<int>{6} && t.separa[6] == 3,
+           "Tarjan: dois ciclos ligados por uma ponte");
+    checar(t.pedacos[2] == std::vector<int>{3, 2}, "Tarjan: sem o 2 sobram o outro triangulo e 2 vertices");
+
+    // estrela com centro 0: raiz com 4 filhos
+    t = tarjan(5, {{0, 1}, {0, 2}, {0, 3}, {0, 4}});
+    checar(articulacoes_de(t) == std::vector<int>{0} && t.pedacos[0] == std::vector<int>{1, 1, 1, 1} &&
+               pontes_de(t).size() == 4,
+           "Tarjan: estrela tem o centro como articulacao");
+    // estrela comecando por uma ponta: o centro nao e raiz
+    t = tarjan(5, {{4, 0}, {1, 0}, {2, 0}, {3, 0}});
+    checar(articulacoes_de(t) == std::vector<int>{0}, "Tarjan: centro da estrela fora da raiz");
+
+    // 0-1-2 e 3-4 separados, 5 isolado
+    t = tarjan(6, {{0, 1}, {1, 2}, {3, 4}});
+    checar(articulacoes_de(t) == std::vector<int>{1} && pontes_de(t).size() == 3 && t.tam_comp.size() == 3 &&
+               t.separa[2] == 1,
+           "Tarjan: grafo desconexo e vertice isolado");
+    checar(!t.articulacao[5] && t.pedacos[5].empty() && t.tam_comp[t.comp[5]] == 1,
+           "Tarjan: vertice isolado nao e articulacao");
+
+    // aresta paralela: 0=1 nao e ponte, 1-2 continua ponte
+    t = tarjan(3, {{0, 1}, {1, 0}, {1, 2}});
+    checar(pontes_de(t) == std::vector<int>{2} && articulacoes_de(t) == std::vector<int>{1},
+           "Tarjan: aresta paralela nao e ponte");
+    t = tarjan(2, {{0, 1}, {0, 1}, {0, 0}});
+    checar(pontes_de(t).empty() && articulacoes_de(t).empty(), "Tarjan: laco ignorado e paralela sem ponte");
+
+    t = tarjan(0, {});
+    checar(t.articulacao.empty() && t.ponte.empty() && t.tam_comp.empty(), "Tarjan: grafo vazio");
+    t = tarjan(1, {});
+    checar(articulacoes_de(t).empty() && t.tam_comp == std::vector<int>{1}, "Tarjan: um vertice so");
+
+    // caminho longo nao estoura a pilha porque a DFS nao e recursiva
+    ListaArestas longo;
+    for (int v = 0; v + 1 < 200000; v++) longo.push_back({v, v + 1});
+    t = tarjan(200000, longo);
+    checar(articulacoes_de(t).size() == 199998 && t.pedacos[1] == std::vector<int>{199998, 1},
+           "Tarjan: caminho de 200 mil vertices sem recursao");
+
+    // contra a forca bruta em grafos aleatorios, com arestas repetidas e lacos
+    std::mt19937 rng(7);
+    bool ok = true;
+    int com_art = 0;
+    for (int caso = 0; caso < 300 && ok; caso++) {
+        int n = 1 + (int)(rng() % 12);
+        int m = (int)(rng() % (2 * n + 1));
+        ListaArestas a;
+        for (int e = 0; e < m; e++) a.push_back({(int)(rng() % n), (int)(rng() % n)});
+        ok = confere_bruto(n, a);
+        if (!articulacoes_de(tarjan(n, a)).empty()) com_art++;
+    }
+    checar(ok && com_art > 50, "Tarjan: igual a forca bruta em 300 grafos aleatorios (semente 7)");
+}
+
 int main() {
     Base base;
     std::string erro;
@@ -971,6 +1127,7 @@ int main() {
     testar_avaliacao_justa();
     testar_pontos_atributos();
     testar_versao_f();
+    testar_tarjan();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

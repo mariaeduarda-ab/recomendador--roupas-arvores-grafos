@@ -42,3 +42,8 @@ __pycache__/
 !resultados/config_fitb.csv
 !resultados/acertos.png
 !resultados/tempos.png
+!resultados/grupos_kruskal.csv
+# so o K = 100 do Gephi (2 MB). os outros saem com ./recomendador grupos
+!resultados/gephi_grupos/
+resultados/gephi_grupos/*
+!resultados/gephi_grupos/k100_*

@@ -53,3 +53,10 @@ resultados/gephi_grupos/*
 !resultados/validacao_corrigida.csv
 !resultados/validacao_corrigida_diferencas.csv
 !resultados/tabelas_pontos/
+# versao F: grade da validacao, config escolhida e tabelas finais
+!resultados/grade_f.csv
+!resultados/config_f.csv
+!resultados/validacao_final.csv
+!resultados/validacao_final_diferencas.csv
+!resultados/tabela_final.csv
+!resultados/tabela_final_diferencas.csv

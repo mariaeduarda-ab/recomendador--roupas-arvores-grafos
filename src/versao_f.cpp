@@ -595,7 +595,7 @@ bool ajustar_f(const Base& base, const std::string& pasta_dados, const std::stri
         bool tem = false;
         std::string etapa_atual;
         const auto fechar = [&]() {
-            if (tem) md << "| " << etapa_atual << " | " << descrever(acum.cfg) << " | " << pct(acum.media[1], 1)
+            if (tem) md << "| " << etapa_atual.substr(0, 1) << " | " << descrever(acum.cfg) << " | " << pct(acum.media[1], 1)
                         << " | " << pct(acum.media[2], 2) << " |\n";
         };
         for (const Resultado& r : grade) {

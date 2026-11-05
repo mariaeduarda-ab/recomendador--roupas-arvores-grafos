@@ -12,6 +12,7 @@
 #include "gephi.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
+#include "grupos_formas.hpp"
 #include "grupos_kruskal.hpp"
 #include "kdtree.hpp"
 #include "leitura.hpp"
@@ -46,6 +47,7 @@ int mostrar_uso() {
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador validacao                        lista os looks de validacao\n"
                  "  ./recomendador grupos [K ...]                   grupos com Kruskal por categoria (padrão: 20 50 100)\n"
+                 "  ./recomendador grupos_formas                    compara 3 formas de agrupar e escolhe uma\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "  ./recomendador pontos                           tabelas de pontos por atributo e diagnóstico na validação\n"
@@ -120,7 +122,7 @@ int main(int argc, char** argv) {
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
-                            ((comando == "tempos_f" || comando == "pontos") && argumentos.size() == 1) ||
+                            ((comando == "tempos_f" || comando == "pontos" || comando == "grupos_formas") && argumentos.size() == 1) ||
                             (comando == "avaliar_justo" && (argumentos.size() == 1 || (argumentos.size() == 2 && argumentos[1] == "--validacao")));
     if (!formato_ok) return mostrar_uso();
 
@@ -157,6 +159,7 @@ int main(int argc, char** argv) {
         }
         return rodar_grupos(base, pasta_dados, lista, saida) ? 0 : 1;
     }
+    if (comando == "grupos_formas") return comparar_formas(base, pasta_dados, saida) ? 0 : 1;
     if (comando == "pontos") return rodar_pontos(base, pasta_dados, saida) ? 0 : 1;
 
     KDTree arvore((int)base.pecas[0].v.size());

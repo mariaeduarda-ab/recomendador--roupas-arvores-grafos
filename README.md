@@ -2,7 +2,7 @@
 
 Trabalho final da disciplina AEDS 2 (CEFET-MG). O sistema encontra peças de roupa parecidas com uma KD-tree e completa looks com um grafo de peças e looks. O programa é escrito em C++17 e usa só a biblioteca padrão.
 
-A explicação completa está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md). A ordem das tarefas está em [docs/ROTEIRO.md](docs/ROTEIRO.md).
+A explicação completa está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md). A versão final (F), a avaliação justa e os resultados finais estão em [docs/VERSAO_F.md](docs/VERSAO_F.md). As decisões tomadas durante o trabalho estão em [docs/DECISOES.md](docs/DECISOES.md). A ordem das tarefas está em [docs/ROTEIRO.md](docs/ROTEIRO.md).
 
 ## Como compilar
 
@@ -10,7 +10,7 @@ A explicação completa está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md). A o
 make
 ```
 
-Precisa só de `g++` e `make`, no Ubuntu 24.04.
+Precisa só de `g++` e `make`. Testado no Ubuntu 22.04 (g++ 11.4) e no Ubuntu 24.04.
 
 ## Como baixar os dados
 
@@ -27,7 +27,23 @@ Veja [dados/README.md](dados/README.md).
 ./recomendador reavaliar                        # popularidade, B, C e D com a config já escolhida
 ./recomendador completar_d <id_look> <categoria> # completa um look (versão D)
 ./recomendador montar <id_peca> [categorias]    # 3 melhores looks a partir de uma peça
+./recomendador validacao                        # lista os looks de validação
+./recomendador vetor_d                          # escolhe na validação o vetor da D com pecas_v4.csv
+./recomendador estampa_d                        # valida a regra de estampa na D nova
+./recomendador avaliar_e                        # escolhe os pesos da E e roda o teste
+./recomendador avaliar_fitb                     # prova de múltipla escolha com todas as versões
+./recomendador completar_e <id_look> <categoria> # completa um look (versão E)
+./recomendador pontos                           # tabelas de pontos por atributo (pecas_v5.csv)
+./recomendador grupos [K ...]                   # grupos com Kruskal por categoria (padrão: 20 50 100)
+./recomendador grupos_formas                    # compara 3 formas de agrupar e grava o Gephi da escolhida
+./recomendador ajustar_f                        # escolhe os pesos da F só na validação (cerca de 14 min)
+./recomendador avaliar_justo [--validacao]      # todas as versões na categoria inteira, 10 desempates, bootstrap
+./recomendador articulacoes                     # Tarjan: articulações e pontes no grafo entre grupos
+./recomendador tempos_f                         # tempos das estruturas para 1 mil, 10 mil e 100 mil peças
+make tempos_f                                   # refaz os tempos e os gráficos da versão F
 ```
+
+`avaliar_justo` sem `--validacao` roda o teste. Ele já foi rodado uma vez para a tabela final (tag `v-final`). Rodar de novo só repete os mesmos números.
 
 `completar_d`, `montar` e `reavaliar` usam `resultados/config_d.csv`. Sem esse arquivo, avisam e usam a configuração inicial.
 
@@ -42,6 +58,23 @@ make test
 ./recomendador avaliar_d
 python3 preprocess/ordem.py <pasta temporária>
 python3 preprocess/graficos.py
+```
+
+Versão F (depois da sequência acima):
+
+```
+python3 preprocess/atributos.py --entrada Combined_Metadata.json --saida <pasta temporária>
+python3 preprocess/atributos_finais.py --texto <pasta temporária> --ids dados/pecas.csv --saida dados   # gera pecas_v4.csv
+python3 preprocess/grupos_cor.py --saida dados/pecas_v5.csv
+./recomendador vetor_d
+./recomendador pontos
+./recomendador grupos
+./recomendador grupos_formas
+./recomendador ajustar_f
+./recomendador avaliar_justo --validacao
+./recomendador avaliar_justo
+./recomendador articulacoes
+make tempos_f
 ```
 
 Os scripts em Python precisam do que está em `preprocess/requirements.txt`.

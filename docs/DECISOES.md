@@ -34,7 +34,7 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | Decisão | Motivo | Testada na validação? |
 | --- | --- | --- |
 | O vetor do grupo é a cor Lab (na unidade acima) mais a estampa: lisa = 0, estampada = 1, desconhecida = 0,5. | O 0,5 não puxa a peça para nenhum dos lados. | Não. |
-| O peso da estampa é 0,1, ou seja, estampa diferente vale como uma diferença de cor Delta E 10. | No grafo, sem looks: com 0 a estampa some, com 0,2 ou mais ela domina, e 0,1 fica no meio. | Ainda não. Ela pediu um teste com 3 valores na validação. |
+| O peso da estampa é 0,1, ou seja, estampa diferente vale como uma diferença de cor Delta E 10. | No grafo, sem looks: com 0 a estampa some, com 0,2 ou mais ela domina, e 0,1 fica no meio. | Sim, depois, no `ajustar_f` (0; 0,1; 0,2). Com K = 100, os pesos 0,1 e 0,2 empataram em todas as métricas. O 0,1 ficou porque vem antes na grade. |
 | As arestas são ordenadas por (peso, u, v). | Assim o resultado sai igual em toda execução. | Não se aplica. |
 | Só o Gephi com K = 100 entra no git. | Cada K gera cerca de 2 MB. Os outros saem com `./recomendador grupos`. | Não se aplica. |
 

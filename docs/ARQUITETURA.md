@@ -428,6 +428,8 @@ A KD-tree só compara camisa com camisa. Ela nunca compara a camisa com a saia. 
 
 A versão A tende a recomendar peças da mesma cor. Camisa preta leva a saia preta. Esse defeito é esperado, e é por isso que ela serve de comparação.
 
+> **Atenção:** os resultados desta seção e da seção 12 são da avaliação antiga, que só olhava a lista curta de cada versão. A avaliação justa (todas as peças da categoria, 10 desempates e bootstrap) muda algumas conclusões. Nela, a D dá nota à categoria inteira e empata com a C, e a B fica um pouco acima da C. A versão F e os números finais estão em [VERSAO_F.md](VERSAO_F.md) e em `resultados/tabela_final.md`.
+
 **Versão D.** Usa uma KD-tree por categoria, arestas entre categorias e soma de notas. Ela ficou pior que B, C e popularidade. A explicação completa está em [VERSAO_KNN_POR_CATEGORIA.md](VERSAO_KNN_POR_CATEGORIA.md).
 
 **Referência extra: popularidade.** Recomenda as peças da categoria pedida que mais aparecem nos looks de treino. Uma versão que não supera a popularidade não ajuda.

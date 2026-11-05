@@ -13,6 +13,7 @@
 #include "avaliacao_fitb.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
+#include "grupos_kruskal.hpp"
 #include "kdtree.hpp"
 #include "leitura.hpp"
 #include "recomendador.hpp"
@@ -474,6 +475,75 @@ void testar_ajuste_popularidade() {
     checar(quase_igual(cont.at(1), 1.0 / std::sqrt(2.0)), "BFS: ajuste divide pela raiz dos looks");
 }
 
+void testar_kruskal() {
+    // ordem: 0-1 (1), 3-4 (1,5), 1-2 (2), 0-2 (5, fecha ciclo), 2-3 (10)
+    std::vector<ArestaK> arestas = {{0, 1, 1.0}, {3, 4, 1.5}, {1, 2, 2.0}, {0, 2, 5.0}, {2, 3, 10.0}};
+    UnionFind uf(5);
+    std::vector<ArestaK> usadas;
+    int grupos = kruskal(5, arestas, 1, uf, &usadas);
+    double soma = 0.0;
+    for (const ArestaK& a : usadas) soma += a.peso;
+    checar(grupos == 1 && usadas.size() == 4 && quase_igual(soma, 14.5), "Kruskal: arvore minima com peso 14,5");
+    checar(std::none_of(usadas.begin(), usadas.end(), [](const ArestaK& a) { return a.u == 0 && a.v == 2; }),
+           "Kruskal: aresta que fecha ciclo fica de fora");
+
+    UnionFind dois(5);
+    grupos = kruskal(5, arestas, 2, dois);
+    checar(grupos == 2 && dois.find(0) == dois.find(2) && dois.find(3) == dois.find(4) && dois.find(0) != dois.find(3),
+           "Kruskal: para em 2 grupos sem a aresta mais cara");
+
+    UnionFind solto(5);
+    grupos = kruskal(5, {{0, 1, 1.0}, {2, 3, 1.0}}, 2, solto);
+    checar(grupos == 3, "Kruskal: grafo desconexo para em 3 grupos quando pede 2");
+
+    UnionFind vazio(1);
+    checar(kruskal(1, {}, 20, vazio) == 1, "Kruskal: 1 peca e 1 grupo");
+
+    checar(quase_igual(valor_estampa("lisa"), 0.0) && quase_igual(valor_estampa("floral"), 1.0) &&
+               quase_igual(valor_estampa("desconhecido"), 0.5),
+           "Grupos: estampa lisa 0, floral 1 e desconhecido 0,5");
+}
+
+void testar_pontos_grupos() {
+    // 4 blusas (2 pretas, 2 brancas), 2 calcas e 1 chapeu sozinho na categoria
+    Base base;
+    const char* cats[] = {"top", "top", "top", "top", "pants", "pants", "hats"};
+    const double L[] = {0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.5};
+    std::vector<Atrib> attr(7);
+    for (int i = 0; i < 7; i++) {
+        Peca p;
+        p.id = i;
+        p.categoria = cats[i];
+        base.pecas.push_back(p);
+        base.indice_da_peca[i] = i;
+        attr[i].lab = {L[i], 0.5, 0.5};
+        attr[i].estampa = "lisa";
+    }
+    for (std::vector<int> pecas : {std::vector<int>{0, 5}, {1, 5}, {2, 4}, {3, 4}}) {
+        Look l;
+        l.pecas = pecas;
+        base.looks.push_back(l);
+    }
+    base.looks[3].treino = false;
+
+    GrafoKnn g = montar_grafo_knn(base, attr);
+    Grupos gr = agrupar(g, 2, 7);
+    checar(gr.grupo[0] == gr.grupo[1] && gr.grupo[2] == gr.grupo[3] && gr.grupo[0] != gr.grupo[2],
+           "Grupos: blusas pretas e brancas em 2 grupos");
+    checar(gr.tamanho[gr.grupo[6]] == 1 && g.arestas[0].empty() && g.componentes[0] == 1,
+           "Grupos: categoria com 1 peca fica com 1 grupo e sem aresta");
+
+    PontosGrupos pg(base, gr);
+    // 3 pares top-pants no treino. o look 3 e de teste e nao conta
+    checar(pg.contagem(gr.grupo[0], gr.grupo[5]) == 2 && pg.contagem(gr.grupo[2], gr.grupo[4]) == 1,
+           "Pontos de grupo: conta so os looks de treino");
+    checar(quase_igual(pg.esperado(gr.grupo[0], gr.grupo[5]), 0.75), "Pontos de grupo: esperado 3 x 1/2 x 1/2");
+    checar(quase_igual(pg.pontos(0, 5), std::log(3.0 / 1.75)) && quase_igual(pg.pontos(1, 4), std::log(1.0 / 1.75)),
+           "Pontos de grupo: log((n + 1) / (esperado + 1))");
+    checar(quase_igual(pg.pontos(0, 2), 0.0) && quase_igual(pg.pontos(6, 0), 0.0),
+           "Pontos de grupo: mesma categoria e categoria sem par dao 0");
+}
+
 }  // namespace
 
 void testar_config() {
@@ -510,6 +580,8 @@ int main() {
     testar_regras_e();
     testar_versao_e();
     testar_fitb();
+    testar_kruskal();
+    testar_pontos_grupos();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

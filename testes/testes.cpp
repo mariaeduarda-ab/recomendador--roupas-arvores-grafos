@@ -11,6 +11,7 @@
 #include "avaliacao.hpp"
 #include "avaliacao_d.hpp"
 #include "avaliacao_fitb.hpp"
+#include "avaliacao_justa.hpp"
 #include "grafo_looks.hpp"
 #include "grafo_similaridade.hpp"
 #include "kdtree.hpp"
@@ -136,6 +137,73 @@ void testar_fitb() {
     checar(a[0].opcoes == b[0].opcoes, "Multipla escolha: mesma semente, mesmas perguntas");
     std::set<int> no_treino(a[0].opcoes.begin() + 1, a[0].opcoes.end());
     checar(no_treino == std::set<int>({1, 2, 3}), "Multipla escolha: erradas aparecem no treino como a certa");
+}
+
+// 6 sapatos (0 a 5), 1 bolsa (6) e 1 blusa (7). consulta 0: look {7, 0} sem a 0. consulta 1: look {7, 6} sem a 6
+Consultas consultas_pequenas(Base& base) {
+    for (int i = 0; i < 8; i++) {
+        Peca x;
+        x.id = i;
+        x.categoria = i < 6 ? "shoes" : (i == 6 ? "bag" : "top");
+        base.pecas.push_back(x);
+    }
+    Consultas c;
+    c.indice_look = {0, 1};
+    c.alvo = {0, 6};
+    c.look = {{7}, {7}};
+    c.erradas = {{1, 2, 3}, {}};
+    for (int i = 0; i < 8; i++) c.por_cat[base.pecas[i].categoria].push_back(i);
+    // ordem fixa: na ordem 0 a peca 0 vem por ultimo, nas outras ela vem primeiro
+    c.ordem.assign(N_ORDENS, {0, 1, 2, 3, 4, 5, 6, 7});
+    c.ordem[0] = {9, 1, 2, 3, 4, 5, 6, 7};
+    return c;
+}
+
+void testar_avaliacao_justa() {
+    Base base;
+    Consultas c = consultas_pequenas(base);
+    checar(candidatas(base, c, 0).size() == 6 && candidatas(base, c, 1) == std::vector<int>({6}),
+           "Justa: candidatas sao a categoria inteira, com a escondida");
+    c.look[0] = {7, 3};
+    checar(candidatas(base, c, 0).size() == 5, "Justa: peca do look sai das candidatas");
+    c.look[0] = {7};
+
+    // nota 0 em todas: so a ordem decide
+    Posicoes nada = avaliar_notas(base, c, "zero", [](int, const std::vector<int>&, const std::vector<int>&, std::vector<double>&) {});
+    checar(nada.pos[0][0] == 5 && nada.pos[0][1] == 0 && nada.empatadas[0] == 5, "Justa: empate total segue a ordem sorteada");
+    checar(nada.pos[1][0] == 0 && nada.fitb[1][0] == -1, "Justa: categoria so com a escondida fica em primeiro");
+    checar(nada.fitb[0][0] == 0 && nada.fitb[0][1] == 1, "Justa: FITB empatado segue a mesma ordem");
+
+    // 2 notas maiores, 1 empatada que vem antes so na ordem 0
+    Posicoes p = avaliar_notas(base, c, "x", [](int, const std::vector<int>&, const std::vector<int>& cand, std::vector<double>& nota) {
+        const double valores[6] = {2.0, 3.0, 2.0, 5.0, 1.0, 1.0};
+        for (std::size_t i = 0; i < cand.size(); i++) {
+            if (cand[i] < 6) nota[i] = valores[cand[i]];
+        }
+    });
+    checar(p.pos[0][0] == 3 && p.pos[0][1] == 2, "Justa: posicao = maiores + empatadas antes na ordem");
+    checar(p.fitb[0][0] == 0 && p.fitb[0][5] == 0, "Justa: FITB erra quando uma errada tem nota maior");
+    checar(quase_igual(taxa(p, 3, 0), 0.5) && quase_igual(taxa(p, 3, 1), 1.0), "Justa: Hit@3 por ordem");
+    checar(quase_igual(taxa(p, 0, 1), 0.0) && quase_igual(taxa(nada, 0, 1), 1.0), "Justa: FITB ignora consulta sem pergunta");
+    std::vector<double> pc = por_consulta(p, 3);
+    checar(quase_igual(pc[0], 0.9) && quase_igual(por_consulta(p, 0)[1], -1.0), "Justa: media das 10 ordens por consulta");
+
+    Notas lista = de_lista(base, [](const std::vector<int>&, const std::string&) {
+        return std::vector<Candidata>{{4, 7.0}};
+    });
+    Posicoes l = avaliar_notas(base, c, "lista", lista);
+    checar(l.pos[0][1] == 1 && l.empatadas[0] == 4, "Justa: fora da lista curta a nota e 0");
+
+    Intervalo igual = bootstrap({0.0, 1.0, 1.0}, {0.0, 1.0, 1.0});
+    checar(quase_igual(igual.dif, 0.0) && quase_igual(igual.min, 0.0) && quase_igual(igual.max, 0.0),
+           "Bootstrap: versoes iguais dao intervalo 0");
+    Intervalo sempre = bootstrap({1.0, 1.0, -1.0}, {0.0, 0.0, 0.0});
+    checar(quase_igual(sempre.dif, 1.0) && quase_igual(sempre.min, 1.0), "Bootstrap: consulta com -1 fica de fora");
+    std::vector<double> x(200, 0.0), y(200, 0.0);
+    x[0] = 1.0;
+    Intervalo sorte = bootstrap(x, y);
+    checar(sorte.min <= 0.0 && sorte.max > 0.0, "Bootstrap: 1 acerto em 200 pode ser sorte");
+    checar(bootstrap({}, {}).dif == 0.0, "Bootstrap: sem consulta nao quebra");
 }
 
 std::vector<Peca> pontos_do_guia(const Base& base) {
@@ -510,6 +578,7 @@ int main() {
     testar_regras_e();
     testar_versao_e();
     testar_fitb();
+    testar_avaliacao_justa();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

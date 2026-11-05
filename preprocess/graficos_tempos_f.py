@@ -30,7 +30,7 @@ GRAFICOS = [
     ]),
     ("union_find.csv", "union_find.png", "Union-Find: n − 1 uniões e n buscas", [
         ("uf_sem_tecnicas", "Sem as duas técnicas", "n²"),
-        ("uf_so_tamanho", "Só união por tamanho", "n log n"),
+        ("uf_so_tamanho", "Só união por tamanho", "n"),
         ("uf_so_compressao", "Só compressão de caminho", "n"),
         ("uf_tamanho_e_compressao", "Tamanho e compressão", "n"),
     ]),

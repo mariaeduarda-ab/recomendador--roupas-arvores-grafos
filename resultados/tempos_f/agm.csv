@@ -1,0 +1,16 @@
+n,medida,media_ms,desvio_ms
+1000,montar_grafo_knn,9.0493,0.0410389
+1000,kruskal_ordenar_arestas,0.494941,0.00253967
+1000,kruskal_uniao,0.0735656,0.00380825
+1000,prim_lista_adj,0.413935,0.0704055
+1000,prim_heap,0.736815,0.0102475
+10000,montar_grafo_knn,208.205,4.17897
+10000,kruskal_ordenar_arestas,6.3663,0.0184293
+10000,kruskal_uniao,0.765723,0.00710494
+10000,prim_lista_adj,5.25875,0.582878
+10000,prim_heap,10.5609,0.124544
+100000,montar_grafo_knn,10216.8,119.496
+100000,kruskal_ordenar_arestas,65.3026,0.126649
+100000,kruskal_uniao,8.33767,0.0135339
+100000,prim_lista_adj,87.6626,11.3913
+100000,prim_heap,111.885,3.56276

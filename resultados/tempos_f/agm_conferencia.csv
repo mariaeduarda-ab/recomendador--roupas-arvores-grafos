@@ -1,0 +1,4 @@
+n,arestas_grafo,peso_kruskal,peso_prim,arestas_kruskal,arestas_prim,componentes
+1000,6571,45.5603,45.5603,999,999,1
+10000,66028,252.109,252.109,9999,9999,1
+100000,649640,1381.19,1381.19,99999,99999,1

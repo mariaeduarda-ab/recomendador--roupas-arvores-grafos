@@ -42,3 +42,4 @@ __pycache__/
 !resultados/config_fitb.csv
 !resultados/acertos.png
 !resultados/tempos.png
+!resultados/tempos_f/

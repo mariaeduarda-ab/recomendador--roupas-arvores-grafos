@@ -25,9 +25,14 @@ $(BUILD):
 test: $(BUILD)/testes
 	./$(BUILD)/testes
 
+# refaz as medidas de tempo e os graficos. a carga da maquina fica em resultados/tempos_f/carga.csv
+tempos_f: recomendador
+	nice -n 0 ./recomendador tempos_f
+	python3 preprocess/graficos_tempos_f.py
+
 clean:
 	rm -rf $(BUILD) recomendador
 
-.PHONY: all test clean
+.PHONY: all test clean tempos_f
 
 -include $(wildcard $(BUILD)/*.d)

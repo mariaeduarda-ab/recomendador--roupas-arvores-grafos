@@ -59,3 +59,13 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | Duas peças da mesma categoria no mesmo look ficam fora das contas, e o par vale 0. | A tarefa sempre pede uma categoria que ainda não está no look. | Não. |
 | Um par de categorias com menos de 200 pares usa a tabela dos grupos de categoria. Parte de cima: top e outerwear. Parte de baixo: pants, skirt e legwear. Peça única: dress e jumpsuit. Calçado: shoes. Bolsa: bag. Acessório: o resto. | O limite de 200 vem do prompt. A meia-calça vai junto com a parte de baixo. | Não. Só 2,5% dos pares da validação usaram a tabela do grupo. |
 | `explicar` some com os termos abaixo de 0,005 e ordena pelo valor absoluto. | Assim o texto fica curto. | Não se aplica. |
+
+### Formas de agrupar para o Gephi e as articulações
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| A forma escolhida é a de menor média do maior grupo, com no máximo 20% de grupos de 1 peça. O critério foi escrito e commitado antes de rodar. | Ela pediu a forma mais equilibrada. Assim o critério não foi ajustado depois de ver os números. | Não. Os grupos não usam looks. |
+| A forma escolhida foi a 3: grupo_cor + estampa (lisa, estampada, desconhecida) + faixa de formalidade, sem ocasião. | A ocasião pode ter vários valores marcados ao mesmo tempo (32 combinações) e picaria os grupos. Resultado: maior grupo de 17,6% em média e 9,1% de grupos de 1 peça. | Não. Os grupos não usam looks. |
+| A forma 1 para em K = 50 ou quando nenhuma união cabe no limite de 5%, que tem no mínimo 2 peças. | 50 é o valor do meio dos K testados. Com menos de 40 peças, 5% daria menos de 2 e ninguém se uniria. | Não. |
+| Os 3 pesos da estampa não foram testados para os grupos do Gephi. | A forma 3 não usa o vetor de cor e estampa. Os 3 pesos são testados no Kruskal puro da F (agente 4). | Não se aplica. |
+| No Gephi da forma 3, as arestas são as mútuas do kNN dentro de cada grupo. | A forma 3 não tem arestas próprias, e essas desenham cada grupo. | Não se aplica. |

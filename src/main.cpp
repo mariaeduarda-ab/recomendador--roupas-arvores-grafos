@@ -15,6 +15,7 @@
 #include "grupos_kruskal.hpp"
 #include "kdtree.hpp"
 #include "leitura.hpp"
+#include "pontos_atributos.hpp"
 #include "recomendador.hpp"
 #include "tempos_f.hpp"
 #include "versao_d.hpp"
@@ -47,6 +48,7 @@ int mostrar_uso() {
                  "  ./recomendador grupos [K ...]                   grupos com Kruskal por categoria (padrão: 20 50 100)\n"
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
+                 "  ./recomendador pontos                           tabelas de pontos por atributo e diagnóstico na validação\n"
                  "  ./recomendador tempos_f                         tempos das estruturas para 1 mil, 10 mil e 100 mil peças\n"
                  "Opção:\n"
                  "  --dados <pasta>                                 pasta dos CSVs (padrão: dados)\n"
@@ -118,7 +120,7 @@ int main(int argc, char** argv) {
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
-                            (comando == "tempos_f" && argumentos.size() == 1) ||
+                            ((comando == "tempos_f" || comando == "pontos") && argumentos.size() == 1) ||
                             (comando == "avaliar_justo" && (argumentos.size() == 1 || (argumentos.size() == 2 && argumentos[1] == "--validacao")));
     if (!formato_ok) return mostrar_uso();
 
@@ -155,6 +157,7 @@ int main(int argc, char** argv) {
         }
         return rodar_grupos(base, pasta_dados, lista, saida) ? 0 : 1;
     }
+    if (comando == "pontos") return rodar_pontos(base, pasta_dados, saida) ? 0 : 1;
 
     KDTree arvore((int)base.pecas[0].v.size());
     arvore.construir(base.pecas);

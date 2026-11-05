@@ -20,6 +20,7 @@
 #include "tempos_f.hpp"
 #include "versao_d.hpp"
 #include "versao_e.hpp"
+#include "versao_f.hpp"
 
 namespace {
 
@@ -50,6 +51,7 @@ int mostrar_uso() {
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "  ./recomendador pontos                           tabelas de pontos por atributo e diagnóstico na validação\n"
                  "  ./recomendador tempos_f                         tempos das estruturas para 1 mil, 10 mil e 100 mil peças\n"
+                 "  ./recomendador ajustar_f                        escolhe os pesos da F na validação (não monta o teste)\n"
                  "Opção:\n"
                  "  --dados <pasta>                                 pasta dos CSVs (padrão: dados)\n"
                  "  --ajuste                                        divide a contagem pela popularidade da peça\n";
@@ -120,7 +122,7 @@ int main(int argc, char** argv) {
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
-                            ((comando == "tempos_f" || comando == "pontos") && argumentos.size() == 1) ||
+                            ((comando == "tempos_f" || comando == "pontos" || comando == "ajustar_f") && argumentos.size() == 1) ||
                             (comando == "avaliar_justo" && (argumentos.size() == 1 || (argumentos.size() == 2 && argumentos[1] == "--validacao")));
     if (!formato_ok) return mostrar_uso();
 
@@ -158,6 +160,7 @@ int main(int argc, char** argv) {
         return rodar_grupos(base, pasta_dados, lista, saida) ? 0 : 1;
     }
     if (comando == "pontos") return rodar_pontos(base, pasta_dados, saida) ? 0 : 1;
+    if (comando == "ajustar_f") return ajustar_f(base, pasta_dados, saida) ? 0 : 1;
 
     KDTree arvore((int)base.pecas[0].v.size());
     arvore.construir(base.pecas);

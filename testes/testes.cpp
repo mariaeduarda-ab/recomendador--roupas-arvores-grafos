@@ -17,6 +17,7 @@
 #include "grupos_kruskal.hpp"
 #include "kdtree.hpp"
 #include "leitura.hpp"
+#include "pontos_atributos.hpp"
 #include "recomendador.hpp"
 #include "tempos_f.hpp"
 #include "union_find.hpp"
@@ -695,6 +696,144 @@ void testar_config() {
     checar(ler_config_d(caminho, cfg) && cfg.k == 20 && !cfg.mutuo && cfg.a == 0.5 && cfg.b == 0.0, "Config: lê k, mútuo e pesos");
 }
 
+// 0 top lisa, 1 top listrada, 2 pants lisa, 3 pants listrada, 4 skirt lisa, 5 top sem estampa,
+// 6 shoes, 7 bag. formalidade copia a estampa (lisa = alta) pra testar a ordem do explicar
+Base base_pontos(ValoresAtrib& val) {
+    Base base;
+    const char* cats[] = {"top", "top", "pants", "pants", "skirt", "top", "shoes", "bag"};
+    for (int i = 0; i < 8; i++) {
+        Peca p;
+        p.id = i;
+        p.categoria = cats[i];
+        p.v = {0.0};
+        base.pecas.push_back(p);
+        base.indice_da_peca[i] = i;
+    }
+    for (int a = 0; a < N_ATRIB; a++) val.val[a].assign(8, {});
+    int lisa = val.valor(ESTAMPA, "lisa");
+    int listrada = val.valor(ESTAMPA, "listrada");
+    int alta = val.valor(FORMALIDADE, "alta");
+    int baixa = val.valor(FORMALIDADE, "baixa");
+    const int est[] = {lisa, listrada, lisa, listrada, lisa};
+    for (int i = 0; i < 5; i++) {
+        val.val[ESTAMPA][i] = {est[i]};
+        val.val[FORMALIDADE][i] = {est[i] == lisa ? alta : baixa};
+    }
+    int casual = val.valor(ESTILO, "casual");
+    int classico = val.valor(ESTILO, "classico");
+    val.val[ESTILO][0] = {casual};
+    val.val[ESTILO][2] = {casual, classico};
+    val.val[ESTILO][3] = {classico};
+
+    const std::vector<std::vector<int>> looks = {{0, 2}, {0, 2}, {1, 3}, {0, 3}, {1, 4}, {5, 2}, {0, 1}};
+    for (const auto& l : looks) {
+        Look look;
+        look.pecas = l;
+        base.looks.push_back(look);
+    }
+    Look teste;
+    teste.treino = false;
+    teste.pecas = {1, 2, 4};
+    base.looks.push_back(teste);
+    // 200 pares bolsa-sapato: esse par tem tabela propria
+    for (int i = 0; i < 200; i++) {
+        Look l;
+        l.pecas = {6, 7};
+        base.looks.push_back(l);
+    }
+    return base;
+}
+
+void testar_pontos_atributos() {
+    checar(faixa_formalidade(0.5) == "desconhecido" && faixa_formalidade(0.0) == "baixa" &&
+               faixa_formalidade(1.0 / 3.0) == "media" && faixa_formalidade(2.0 / 3.0) == "media" &&
+               faixa_formalidade(0.75) == "alta",
+           "Pontos: faixas da formalidade, 0,5 desconhecido");
+    checar(grupo_categoria("legwear") == "parte de baixo" && grupo_categoria("jumpsuit") == "peca unica" &&
+               grupo_categoria("brooch") == "acessorio" && grupo_categoria("outerwear") == "parte de cima",
+           "Pontos: grupos de categoria");
+
+    ValoresAtrib val;
+    Base base = base_pontos(val);
+    PontosAtributos pa(base, val);
+    const int nv = (int)val.nomes[ESTAMPA].size();
+
+    // top x pants: (l,l) 2, (t,t) 1, (l,t) 1, (t,l) 0. total 4, lado A l 3 t 1, lado B l 2 t 2.
+    // o look de teste e o par com a peca sem estampa nao entram
+    const Tabela* t = pa.tabela_de(ESTAMPA, false, "top", "pants");
+    checar(t && quase_igual(t->total, 4) && quase_igual(t->n[0 * nv + 0], 2) && quase_igual(t->n[1 * nv + 0], 0),
+           "Pontos: contagem so com treino e valor conhecido");
+    checar(quase_igual(esperado(*t, nv, 0, 0), 1.5) && quase_igual(esperado(*t, nv, 1, 0), 0.5),
+           "Pontos: esperado = total x fracao A x fracao B");
+    checar(quase_igual(pontos_tabela(*t, nv, 0, 0), std::log(3.0 / 2.5)) &&
+               quase_igual(pontos_tabela(*t, nv, 1, 0), std::log(1.0 / 1.5)) &&
+               quase_igual(pontos_tabela(*t, nv, 1, 1), std::log(2.0 / 1.5)),
+           "Pontos: log((n + 1) / (esperado + 1)) feito a mao");
+    const Tabela* inv = pa.tabela_de(ESTAMPA, false, "pants", "top");
+    checar(inv && quase_igual(inv->n[1 * nv + 0], 1) && quase_igual(inv->n[0 * nv + 1], 0),
+           "Pontos: tabela B x A e a transposta");
+
+    // menos de 200 pares: usa cima x baixo, que junta pants e skirt. (t,l) vira n 1, esperado 2 x 3 / 5
+    checar(pa.usa_grupo("top", "pants") && pa.usa_grupo("top", "skirt") && !pa.usa_grupo("bag", "shoes"),
+           "Pontos: fallback abaixo de 200 pares");
+    checar(quase_igual(pa.pontos_de(ESTAMPA, 1, 2), std::log(2.0 / 2.2)) &&
+               quase_igual(pa.pontos_de(ESTAMPA, 1, 4), std::log(2.0 / 2.2)),
+           "Pontos: par com poucas contagens usa a tabela do grupo");
+    checar(pa.tabela(ESTAMPA, 6, 7) == pa.tabela_de(ESTAMPA, false, "shoes", "bag"),
+           "Pontos: par com 200 pares usa a tabela da categoria");
+
+    checar(quase_igual(pa.pontos_de(ESTAMPA, 5, 2), 0.0) && quase_igual(pa.pontos_de(ESTAMPA, 2, 5), 0.0),
+           "Pontos: desconhecido vale 0");
+    checar(quase_igual(pa.pontos(0, 1), 0.0) && pa.tabela(ESTAMPA, 0, 1) == nullptr,
+           "Pontos: mesma categoria vale 0");
+
+    // estilo: a peca 2 tem dois valores. cada um conta meio, e o par de pecas e a media
+    const Tabela* te = pa.tabela_de(ESTILO, true, "parte de cima", "parte de baixo");
+    const int ne = (int)val.nomes[ESTILO].size();
+    checar(te && quase_igual(te->total, 3) && quase_igual(te->n[0 * ne + 0], 1.0) &&
+               quase_igual(te->n[0 * ne + 1], 2.0),
+           "Pontos: valor multiplo reparte o peso");
+    checar(quase_igual(pa.pontos_de(ESTILO, 0, 2),
+                       0.5 * (pontos_tabela(*te, ne, 0, 0) + pontos_tabela(*te, ne, 0, 1))),
+           "Pontos: valor multiplo da a media dos pares");
+
+    // so estampa e formalidade conhecidas no par 1 x 2, as duas com -0,095
+    pa.peso[FORMALIDADE] = 2.0;
+    checar(pa.explicar(1, 2) == "formalidade baixa com alta: -0,19; estampa listrada com lisa: -0,10",
+           "Pontos: explicar ordena pelo valor absoluto");
+    checar(quase_igual(pa.pontos(1, 2), 3.0 * std::log(2.0 / 2.2)), "Pontos: soma com peso");
+    pa.peso.fill(0.0);
+    checar(pa.explicar(1, 2) == "nenhum atributo pesa neste par" && quase_igual(pa.pontos(1, 2), 0.0),
+           "Pontos: peso 0 tira o atributo");
+
+    // leitor do pecas_v5: comprimento so em roupa, 0,5 desconhecido, estilo com dois valores
+    {
+        std::ofstream f("build/pecas_v5_teste.csv");
+        f << "id,categoria,estilo_casual,estilo_classico,estilo_esportivo,estilo_romantico,estilo_moderno,"
+             "ocasiao_dia,ocasiao_trabalho,ocasiao_festa,ocasiao_esporte,ocasiao_praia,formalidade,"
+             "L,a,b,cor_neutra,estampa,comprimento,modelagem,grupo_cor\n"
+          << "0,top,1,0,0,0,1,0,0,0,0,0,0.500000,0.5,0.5,0.5,1,desconhecido,longo,desconhecido,cinza 1\n"
+          << "6,shoes,0,0,0,0,0,1,0,0,0,0,1.000000,0.5,0.5,0.5,1,poa,curto,desconhecido,preto\n"
+          << "99,bag,0,0,0,0,0,1,0,0,0,0,1.000000,0.5,0.5,0.5,1,lisa,curto,desconhecido,preto\n";
+    }
+    Base pequena;
+    for (int i : {0, 6}) {
+        pequena.indice_da_peca[base.pecas[i].id] = (int)pequena.pecas.size();
+        pequena.pecas.push_back(base.pecas[i]);
+    }
+    ValoresAtrib lido;
+    std::string erro;
+    bool ok = ler_valores("build/pecas_v5_teste.csv", pequena, lido, erro);
+    checar(ok && lido.val[ESTILO][0].size() == 2 && lido.val[FORMALIDADE][0].empty() && lido.val[ESTAMPA][0].empty() &&
+               lido.val[COMPRIMENTO][0].size() == 1 && lido.val[COMPRIMENTO][1].empty() &&
+               lido.nomes[COR][lido.val[COR][0][0]] == "cinza 1" &&
+               lido.nomes[ESTAMPA][lido.val[ESTAMPA][1][0]] == "poa",
+           "Pontos: leitor do pecas_v5");
+    pequena.indice_da_peca[7] = (int)pequena.pecas.size();
+    pequena.pecas.push_back(base.pecas[7]);
+    checar(!ler_valores("build/pecas_v5_teste.csv", pequena, lido, erro), "Pontos: peca sem linha da erro");
+}
+
 int main() {
     Base base;
     std::string erro;
@@ -726,6 +865,7 @@ int main() {
     testar_uf_variantes();
     testar_prim_kruskal();
     testar_avaliacao_justa();
+    testar_pontos_atributos();
 
     std::cout << "\nResultado: " << aprovados << " OK e " << reprovados << " FALHOU\n";
     return reprovados > 0 ? 1 : 0;

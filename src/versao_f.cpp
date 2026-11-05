@@ -440,10 +440,31 @@ bool ajustar_f(const Base& base, const std::string& pasta_dados, const std::stri
     const bool usa_grupos = melhor(com_grupos, sem_grupos);
     Resultado atual = usa_grupos ? com_grupos : sem_grupos;
 
-    // 2. pesos de atributo, 3. grade dos w de novo, 4. pesos de atributo de novo
-    atual = passar_atributos("2. pesos de atributo", atual);
+    // 2. pesos de atributo, 3. grade dos w de novo, 4. pesos de atributo de novo.
+    // com w2 = 0 os pesos nao mudam nada. ai ajusta na melhor combinacao com w2 > 0 e os grupos escolhidos,
+    // pra dar chance a outra mistura de atributos
+    const auto ajustar_pesos = [&](const std::string& etapa, Resultado atual) {
+        Resultado base_pesos = atual;
+        if (atual.cfg.w[T_ATRIB] == 0.0) {
+            bool tem = false;
+            for (const Resultado& r : grade) {
+                bool mesmos_grupos = usa_grupos ? r.cfg.w[T_GRUPOS] != 0.0 && r.cfg.k_grupos == atual.cfg.k_grupos &&
+                                                      r.cfg.peso_estampa == atual.cfg.peso_estampa
+                                                : r.cfg.w[T_GRUPOS] == 0.0;
+                if (r.cfg.w[T_ATRIB] == 0.0 || !mesmos_grupos || r.cfg.peso != atual.cfg.peso) continue;
+                if (!tem || melhor(r, base_pesos)) base_pesos = r;
+                tem = true;
+            }
+            if (!tem) return atual;
+        }
+        Resultado r = passar_atributos(etapa, base_pesos);
+        if (melhor(r, atual)) return r;
+        atual.cfg.peso = r.cfg.peso;  // so leva os pesos pra proxima grade. com w2 = 0 a nota nao muda
+        return atual;
+    };
+    atual = ajustar_pesos("2. pesos de atributo", atual);
     atual = grade_w("3. grade de novo", atual.cfg, !usa_grupos, false, &atual);
-    atual = passar_atributos("4. pesos de atributo de novo", atual);
+    atual = ajustar_pesos("4. pesos de atributo de novo", atual);
     ConfigF escolhida = atual.cfg;
     if (escolhida.w[T_GRUPOS] == 0.0) {
         escolhida.k_grupos = 0;
@@ -560,7 +581,8 @@ bool ajustar_f(const Base& base, const std::string& pasta_dados, const std::stri
           "Depois, para cada opção de grupos (K = 20, 50, 100 e peso da estampa 0; 0,1; 0,2), as combinações "
           "com w3 > 0. Os grupos só ficam se a melhor com grupos ganhar da melhor sem grupos.\n"
        << "2. Com os w fixos, cada peso de atributo passa por 0; 0,5 e 1, um de cada vez, com os outros fixos. "
-          "Fica o valor que ganha.\n"
+          "Fica o valor que ganha. Se a melhor até aqui tem w2 = 0, os pesos não mudam nada nela. Então o ajuste "
+          "parte da melhor combinação com w2 > 0 (mesmos grupos), e os pesos que saem dele vão para o passo 3.\n"
        << "3. Grade dos w de novo, com os pesos de atributo do passo 2.\n"
        << "4. Pesos de atributo de novo, um de cada vez.\n\n"
        << "Critério: maior Hit@10 (média das 10 ordens). No empate, maior Hit@5. Depois, a combinação com mais "

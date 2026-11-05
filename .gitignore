@@ -61,3 +61,5 @@ resultados/gephi_grupos/*
 !resultados/validacao_final_diferencas.csv
 !resultados/tabela_final.csv
 !resultados/tabela_final_diferencas.csv
+# Tarjan: Gephi das articulacoes nos 3 limiares (800 KB)
+!resultados/gephi_articulacoes/

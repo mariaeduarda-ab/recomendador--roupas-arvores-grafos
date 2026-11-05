@@ -1,0 +1,1256 @@
+Id,Label,Categoria,Cor,Estampa,Formalidade,Pecas,Grau,articulacao,grupos_separados,destaque
+0,bag preto lisa formalidade desconhecido,bag,preto,lisa,desconhecido,1275,23,0,0,0
+1,bag vinho lisa formalidade baixa,bag,vinho,lisa,baixa,236,24,1,1,0
+2,bag cinza 1 lisa formalidade baixa,bag,cinza 1,lisa,baixa,250,8,0,0,0
+3,bag verde lisa formalidade desconhecido,bag,verde,lisa,desconhecido,84,10,1,1,0
+4,bag preto lisa formalidade alta,bag,preto,lisa,alta,2346,25,1,5,1
+5,bag branco estampada formalidade alta,bag,branco,estampada,alta,145,9,0,0,0
+6,bag branco lisa formalidade baixa,bag,branco,lisa,baixa,424,21,0,0,0
+7,bag marinho lisa formalidade desconhecido,bag,marinho,lisa,desconhecido,110,7,0,0,0
+8,bag branco lisa formalidade alta,bag,branco,lisa,alta,1104,24,1,2,0
+9,bag bege lisa formalidade alta,bag,bege,lisa,alta,817,36,1,1,0
+10,bag bege lisa formalidade desconhecido,bag,bege,lisa,desconhecido,352,37,1,1,0
+11,bag cinza 2 estampada formalidade alta,bag,cinza 2,estampada,alta,55,4,0,0,0
+12,bag vermelho lisa formalidade alta,bag,vermelho,lisa,alta,467,38,1,3,1
+13,bag marinho lisa formalidade alta,bag,marinho,lisa,alta,234,17,1,1,0
+14,bag bege lisa formalidade baixa,bag,bege,lisa,baixa,351,20,0,0,0
+15,bag branco lisa formalidade desconhecido,bag,branco,lisa,desconhecido,553,24,0,0,0
+16,bag cinza 1 lisa formalidade alta,bag,cinza 1,lisa,alta,596,22,1,1,0
+17,bag vinho lisa formalidade alta,bag,vinho,lisa,alta,446,40,1,1,0
+18,bag cinza 1 lisa formalidade desconhecido,bag,cinza 1,lisa,desconhecido,380,13,0,0,0
+19,bag marrom lisa formalidade alta,bag,marrom,lisa,alta,568,44,1,3,1
+20,bag preto estampada formalidade alta,bag,preto,estampada,alta,204,12,0,0,0
+21,bag vermelho estampada formalidade alta,bag,vermelho,estampada,alta,22,2,0,0,0
+22,bag marrom estampada formalidade desconhecido,bag,marrom,estampada,desconhecido,43,7,0,0,0
+23,bag preto lisa formalidade baixa,bag,preto,lisa,baixa,636,28,0,0,0
+24,bag vermelho lisa formalidade baixa,bag,vermelho,lisa,baixa,191,17,0,0,0
+25,bag amarelo lisa formalidade alta,bag,amarelo,lisa,alta,130,18,1,1,0
+26,bag marrom lisa formalidade desconhecido,bag,marrom,lisa,desconhecido,336,32,0,0,0
+27,bag cinza 1 estampada formalidade baixa,bag,cinza 1,estampada,baixa,73,5,0,0,0
+28,bag verde lisa formalidade alta,bag,verde,lisa,alta,130,9,0,0,0
+29,bag cinza 2 lisa formalidade baixa,bag,cinza 2,lisa,baixa,201,12,0,0,0
+30,bag cinza 2 lisa formalidade alta,bag,cinza 2,lisa,alta,442,24,1,1,0
+31,bag cinza 2 lisa formalidade desconhecido,bag,cinza 2,lisa,desconhecido,266,16,1,1,0
+32,bag preto estampada formalidade baixa,bag,preto,estampada,baixa,155,7,0,0,0
+33,bag marinho lisa formalidade baixa,bag,marinho,lisa,baixa,89,6,0,0,0
+34,bag preto estampada formalidade desconhecido,bag,preto,estampada,desconhecido,206,13,0,0,0
+35,bag marrom lisa formalidade baixa,bag,marrom,lisa,baixa,516,37,1,1,0
+36,bag vermelho lisa formalidade desconhecido,bag,vermelho,lisa,desconhecido,300,27,1,1,0
+37,bag cinza 1 estampada formalidade desconhecido,bag,cinza 1,estampada,desconhecido,89,7,0,0,0
+38,bag marinho estampada formalidade desconhecido,bag,marinho,estampada,desconhecido,12,1,0,0,0
+39,bag amarelo lisa formalidade desconhecido,bag,amarelo,lisa,desconhecido,162,18,1,3,1
+40,bag vermelho estampada formalidade desconhecido,bag,vermelho,estampada,desconhecido,30,0,0,0,0
+41,bag cinza 1 estampada formalidade alta,bag,cinza 1,estampada,alta,82,9,0,0,0
+42,bag branco lisa formalidade media,bag,branco,lisa,media,40,8,0,0,0
+43,bag amarelo lisa formalidade baixa,bag,amarelo,lisa,baixa,217,21,1,1,0
+44,bag branco estampada formalidade desconhecido,bag,branco,estampada,desconhecido,86,0,0,0,0
+45,bag rosa lisa formalidade desconhecido,bag,rosa,lisa,desconhecido,80,3,0,0,0
+46,bag rosa lisa formalidade alta,bag,rosa,lisa,alta,182,16,1,2,0
+47,bag bege lisa formalidade media,bag,bege,lisa,media,42,2,0,0,0
+48,bag marrom estampada formalidade baixa,bag,marrom,estampada,baixa,50,2,0,0,0
+49,bag vinho lisa formalidade desconhecido,bag,vinho,lisa,desconhecido,230,17,0,0,0
+50,bag branco estampada formalidade baixa,bag,branco,estampada,baixa,125,9,0,0,0
+51,bag preto estampada formalidade media,bag,preto,estampada,media,3,1,0,0,0
+52,bag marinho estampada formalidade alta,bag,marinho,estampada,alta,13,1,0,0,0
+53,bag preto lisa formalidade media,bag,preto,lisa,media,53,14,0,0,0
+54,bag rosa lisa formalidade baixa,bag,rosa,lisa,baixa,87,6,0,0,0
+55,bag verde lisa formalidade baixa,bag,verde,lisa,baixa,66,7,0,0,0
+56,bag bege estampada formalidade baixa,bag,bege,estampada,baixa,50,4,0,0,0
+57,bag rosa estampada formalidade baixa,bag,rosa,estampada,baixa,14,0,0,0,0
+58,bag vinho estampada formalidade desconhecido,bag,vinho,estampada,desconhecido,27,0,0,0,0
+59,bag cinza 2 estampada formalidade baixa,bag,cinza 2,estampada,baixa,40,3,0,0,0
+60,bag bege estampada formalidade alta,bag,bege,estampada,alta,75,3,0,0,0
+61,bag marrom estampada formalidade alta,bag,marrom,estampada,alta,45,2,0,0,0
+62,bag cinza 1 lisa formalidade media,bag,cinza 1,lisa,media,20,2,0,0,0
+63,bag bege estampada formalidade desconhecido,bag,bege,estampada,desconhecido,53,8,0,0,0
+64,bag verde estampada formalidade alta,bag,verde,estampada,alta,7,0,0,0,0
+65,bag vinho lisa formalidade media,bag,vinho,lisa,media,24,4,0,0,0
+66,bag cinza 2 estampada formalidade desconhecido,bag,cinza 2,estampada,desconhecido,32,6,0,0,0
+67,bag amarelo estampada formalidade baixa,bag,amarelo,estampada,baixa,22,0,0,0,0
+68,bag amarelo estampada formalidade desconhecido,bag,amarelo,estampada,desconhecido,12,1,0,0,0
+69,bag vinho estampada formalidade alta,bag,vinho,estampada,alta,23,3,0,0,0
+70,bag cinza 2 lisa formalidade media,bag,cinza 2,lisa,media,16,2,0,0,0
+71,bag marrom lisa formalidade media,bag,marrom,lisa,media,38,2,0,0,0
+72,bag vinho estampada formalidade baixa,bag,vinho,estampada,baixa,20,0,0,0,0
+73,bag cinza 1 estampada formalidade media,bag,cinza 1,estampada,media,9,0,0,0,0
+74,bag rosa estampada formalidade alta,bag,rosa,estampada,alta,12,0,0,0,0
+75,bag verde estampada formalidade baixa,bag,verde,estampada,baixa,9,0,0,0,0
+76,bag rosa lisa formalidade media,bag,rosa,lisa,media,8,0,0,0,0
+77,bag marinho estampada formalidade baixa,bag,marinho,estampada,baixa,16,0,0,0,0
+78,bag verde estampada formalidade desconhecido,bag,verde,estampada,desconhecido,10,0,0,0,0
+79,bag marinho estampada formalidade media,bag,marinho,estampada,media,1,0,0,0,0
+80,bag vermelho estampada formalidade baixa,bag,vermelho,estampada,baixa,23,4,0,0,0
+81,bag vermelho lisa formalidade media,bag,vermelho,lisa,media,8,0,0,0,0
+82,bag marinho lisa formalidade media,bag,marinho,lisa,media,8,0,0,0,0
+83,bag amarelo lisa formalidade media,bag,amarelo,lisa,media,10,0,0,0,0
+84,bag bege estampada formalidade media,bag,bege,estampada,media,5,0,0,0,0
+85,bag rosa estampada formalidade desconhecido,bag,rosa,estampada,desconhecido,17,1,0,0,0
+86,bag amarelo estampada formalidade alta,bag,amarelo,estampada,alta,7,0,0,0,0
+87,bag verde lisa formalidade media,bag,verde,lisa,media,1,0,0,0,0
+88,bag branco estampada formalidade media,bag,branco,estampada,media,2,0,0,0,0
+89,bag cinza 2 estampada formalidade media,bag,cinza 2,estampada,media,3,0,0,0,0
+90,bag marrom estampada formalidade media,bag,marrom,estampada,media,1,0,0,0,0
+91,bag vinho estampada formalidade media,bag,vinho,estampada,media,2,0,0,0,0
+92,bracelet branco estampa? formalidade desconhecido,bracelet,branco,estampa?,desconhecido,221,5,1,2,0
+93,bracelet cinza 2 estampa? formalidade alta,bracelet,cinza 2,estampa?,alta,166,19,0,0,0
+94,bracelet branco estampa? formalidade alta,bracelet,branco,estampa?,alta,645,9,0,0,0
+95,bracelet marrom estampa? formalidade alta,bracelet,marrom,estampa?,alta,217,24,1,1,0
+96,bracelet preto estampa? formalidade alta,bracelet,preto,estampa?,alta,387,29,0,0,0
+97,bracelet bege estampa? formalidade alta,bracelet,bege,estampa?,alta,589,31,1,4,1
+98,bracelet cinza 2 estampa? formalidade desconhecido,bracelet,cinza 2,estampa?,desconhecido,51,3,0,0,0
+99,bracelet rosa estampa? formalidade alta,bracelet,rosa,estampa?,alta,18,3,0,0,0
+100,bracelet verde estampa? formalidade media,bracelet,verde,estampa?,media,2,0,0,0,0
+101,bracelet cinza 1 estampa? formalidade alta,bracelet,cinza 1,estampa?,alta,136,18,0,0,0
+102,bracelet rosa estampa? formalidade baixa,bracelet,rosa,estampa?,baixa,10,0,0,0,0
+103,bracelet preto estampa? formalidade desconhecido,bracelet,preto,estampa?,desconhecido,164,24,1,1,0
+104,bracelet bege estampa? formalidade media,bracelet,bege,estampa?,media,15,5,0,0,0
+105,bracelet cinza 1 estampa? formalidade desconhecido,bracelet,cinza 1,estampa?,desconhecido,51,1,0,0,0
+106,bracelet bege estampa? formalidade desconhecido,bracelet,bege,estampa?,desconhecido,156,11,0,0,0
+107,bracelet preto estampa? formalidade baixa,bracelet,preto,estampa?,baixa,66,9,0,0,0
+108,bracelet branco estampa? formalidade baixa,bracelet,branco,estampa?,baixa,105,7,0,0,0
+109,bracelet vinho estampa? formalidade alta,bracelet,vinho,estampa?,alta,81,14,0,0,0
+110,bracelet marrom estampa? formalidade desconhecido,bracelet,marrom,estampa?,desconhecido,75,15,0,0,0
+111,bracelet amarelo estampa? formalidade desconhecido,bracelet,amarelo,estampa?,desconhecido,20,1,0,0,0
+112,bracelet verde estampa? formalidade baixa,bracelet,verde,estampa?,baixa,4,0,0,0,0
+113,bracelet verde estampa? formalidade alta,bracelet,verde,estampa?,alta,22,4,0,0,0
+114,bracelet bege estampa? formalidade baixa,bracelet,bege,estampa?,baixa,67,7,0,0,0
+115,bracelet cinza 2 estampa? formalidade baixa,bracelet,cinza 2,estampa?,baixa,21,5,0,0,0
+116,bracelet marrom estampa? formalidade baixa,bracelet,marrom,estampa?,baixa,51,3,0,0,0
+117,bracelet marinho estampa? formalidade desconhecido,bracelet,marinho,estampa?,desconhecido,12,0,0,0,0
+118,bracelet amarelo estampa? formalidade alta,bracelet,amarelo,estampa?,alta,54,8,0,0,0
+119,bracelet vinho estampa? formalidade baixa,bracelet,vinho,estampa?,baixa,33,1,0,0,0
+120,bracelet marinho estampa? formalidade alta,bracelet,marinho,estampa?,alta,33,2,0,0,0
+121,bracelet vermelho estampa? formalidade alta,bracelet,vermelho,estampa?,alta,46,9,0,0,0
+122,bracelet preto estampa? formalidade media,bracelet,preto,estampa?,media,6,0,0,0,0
+123,bracelet rosa estampa? formalidade desconhecido,bracelet,rosa,estampa?,desconhecido,11,0,0,0,0
+124,bracelet vermelho estampa? formalidade baixa,bracelet,vermelho,estampa?,baixa,15,3,0,0,0
+125,bracelet vermelho estampa? formalidade desconhecido,bracelet,vermelho,estampa?,desconhecido,27,4,0,0,0
+126,bracelet vermelho estampa? formalidade media,bracelet,vermelho,estampa?,media,1,0,0,0,0
+127,bracelet cinza 1 estampa? formalidade baixa,bracelet,cinza 1,estampa?,baixa,40,3,0,0,0
+128,bracelet verde estampa? formalidade desconhecido,bracelet,verde,estampa?,desconhecido,10,1,0,0,0
+129,bracelet vinho estampa? formalidade desconhecido,bracelet,vinho,estampa?,desconhecido,26,3,0,0,0
+130,bracelet amarelo estampa? formalidade media,bracelet,amarelo,estampa?,media,1,0,0,0,0
+131,bracelet branco estampa? formalidade media,bracelet,branco,estampa?,media,15,4,0,0,0
+132,bracelet cinza 1 estampa? formalidade media,bracelet,cinza 1,estampa?,media,6,0,0,0,0
+133,bracelet marinho estampa? formalidade baixa,bracelet,marinho,estampa?,baixa,8,0,0,0,0
+134,bracelet amarelo estampa? formalidade baixa,bracelet,amarelo,estampa?,baixa,8,0,0,0,0
+135,bracelet marrom estampa? formalidade media,bracelet,marrom,estampa?,media,4,0,0,0,0
+136,bracelet cinza 2 estampa? formalidade media,bracelet,cinza 2,estampa?,media,3,0,0,0,0
+137,bracelet vinho estampa? formalidade media,bracelet,vinho,estampa?,media,1,0,0,0,0
+138,brooch branco estampa? formalidade baixa,brooch,branco,estampa?,baixa,17,2,0,0,0
+139,brooch vermelho estampa? formalidade alta,brooch,vermelho,estampa?,alta,37,4,0,0,0
+140,brooch bege estampa? formalidade alta,brooch,bege,estampa?,alta,110,9,0,0,0
+141,brooch cinza 1 estampa? formalidade alta,brooch,cinza 1,estampa?,alta,29,2,0,0,0
+142,brooch branco estampa? formalidade media,brooch,branco,estampa?,media,2,0,0,0,0
+143,brooch cinza 2 estampa? formalidade alta,brooch,cinza 2,estampa?,alta,67,5,0,0,0
+144,brooch branco estampa? formalidade desconhecido,brooch,branco,estampa?,desconhecido,35,3,0,0,0
+145,brooch branco estampa? formalidade alta,brooch,branco,estampa?,alta,186,15,0,0,0
+146,brooch amarelo estampa? formalidade alta,brooch,amarelo,estampa?,alta,31,5,0,0,0
+147,brooch verde estampa? formalidade alta,brooch,verde,estampa?,alta,19,1,0,0,0
+148,brooch marinho estampa? formalidade alta,brooch,marinho,estampa?,alta,18,1,0,0,0
+149,brooch bege estampa? formalidade desconhecido,brooch,bege,estampa?,desconhecido,19,3,0,0,0
+150,brooch rosa estampa? formalidade alta,brooch,rosa,estampa?,alta,14,1,0,0,0
+151,brooch marrom estampa? formalidade alta,brooch,marrom,estampa?,alta,48,8,0,0,0
+152,brooch amarelo estampa? formalidade desconhecido,brooch,amarelo,estampa?,desconhecido,9,0,0,0,0
+153,brooch preto estampa? formalidade alta,brooch,preto,estampa?,alta,70,13,0,0,0
+154,brooch vermelho estampa? formalidade baixa,brooch,vermelho,estampa?,baixa,7,0,0,0,0
+155,brooch vinho estampa? formalidade alta,brooch,vinho,estampa?,alta,25,1,0,0,0
+156,brooch marrom estampa? formalidade desconhecido,brooch,marrom,estampa?,desconhecido,16,0,0,0,0
+157,brooch cinza 2 estampa? formalidade baixa,brooch,cinza 2,estampa?,baixa,5,0,0,0,0
+158,brooch bege estampa? formalidade baixa,brooch,bege,estampa?,baixa,9,3,0,0,0
+159,brooch cinza 1 estampa? formalidade desconhecido,brooch,cinza 1,estampa?,desconhecido,7,0,0,0,0
+160,brooch preto estampa? formalidade desconhecido,brooch,preto,estampa?,desconhecido,6,0,0,0,0
+161,brooch marinho estampa? formalidade baixa,brooch,marinho,estampa?,baixa,4,0,0,0,0
+162,brooch verde estampa? formalidade desconhecido,brooch,verde,estampa?,desconhecido,4,0,0,0,0
+163,brooch vinho estampa? formalidade desconhecido,brooch,vinho,estampa?,desconhecido,4,0,0,0,0
+164,brooch vermelho estampa? formalidade desconhecido,brooch,vermelho,estampa?,desconhecido,4,0,0,0,0
+165,brooch rosa estampa? formalidade desconhecido,brooch,rosa,estampa?,desconhecido,5,0,0,0,0
+166,brooch amarelo estampa? formalidade baixa,brooch,amarelo,estampa?,baixa,9,0,0,0,0
+167,brooch marrom estampa? formalidade baixa,brooch,marrom,estampa?,baixa,3,0,0,0,0
+168,brooch cinza 1 estampa? formalidade baixa,brooch,cinza 1,estampa?,baixa,2,0,0,0,0
+169,brooch rosa estampa? formalidade baixa,brooch,rosa,estampa?,baixa,2,0,0,0,0
+170,brooch verde estampa? formalidade baixa,brooch,verde,estampa?,baixa,1,0,0,0,0
+171,brooch preto estampa? formalidade baixa,brooch,preto,estampa?,baixa,3,0,0,0,0
+172,brooch rosa estampa? formalidade media,brooch,rosa,estampa?,media,1,0,0,0,0
+173,brooch marrom estampa? formalidade media,brooch,marrom,estampa?,media,1,0,0,0,0
+174,brooch cinza 2 estampa? formalidade desconhecido,brooch,cinza 2,estampa?,desconhecido,2,0,0,0,0
+175,brooch marinho estampa? formalidade desconhecido,brooch,marinho,estampa?,desconhecido,1,0,0,0,0
+176,dress cinza 2 lisa formalidade alta,dress,cinza 2,lisa,alta,209,7,0,0,0
+177,dress branco estampada formalidade baixa,dress,branco,estampada,baixa,154,9,0,0,0
+178,dress vinho estampada formalidade baixa,dress,vinho,estampada,baixa,20,1,0,0,0
+179,dress cinza 1 estampada formalidade alta,dress,cinza 1,estampada,alta,51,3,0,0,0
+180,dress amarelo lisa formalidade alta,dress,amarelo,lisa,alta,44,2,0,0,0
+181,dress preto estampada formalidade alta,dress,preto,estampada,alta,216,4,0,0,0
+182,dress bege lisa formalidade alta,dress,bege,lisa,alta,312,29,0,0,0
+183,dress cinza 1 lisa formalidade alta,dress,cinza 1,lisa,alta,161,7,0,0,0
+184,dress branco estampada formalidade alta,dress,branco,estampada,alta,222,10,0,0,0
+185,dress preto lisa formalidade desconhecido,dress,preto,lisa,desconhecido,200,6,0,0,0
+186,dress preto lisa formalidade alta,dress,preto,lisa,alta,930,15,1,2,0
+187,dress amarelo lisa formalidade baixa,dress,amarelo,lisa,baixa,80,12,0,0,0
+188,dress vermelho lisa formalidade alta,dress,vermelho,lisa,alta,312,18,1,1,0
+189,dress branco estampada formalidade desconhecido,dress,branco,estampada,desconhecido,148,5,0,0,0
+190,dress branco lisa formalidade desconhecido,dress,branco,lisa,desconhecido,126,3,0,0,0
+191,dress preto lisa formalidade baixa,dress,preto,lisa,baixa,51,2,0,0,0
+192,dress vermelho lisa formalidade desconhecido,dress,vermelho,lisa,desconhecido,68,4,0,0,0
+193,dress marinho estampada formalidade baixa,dress,marinho,estampada,baixa,21,0,0,0,0
+194,dress amarelo estampada formalidade desconhecido,dress,amarelo,estampada,desconhecido,7,0,0,0,0
+195,dress vinho lisa formalidade alta,dress,vinho,lisa,alta,137,10,0,0,0
+196,dress marrom estampada formalidade desconhecido,dress,marrom,estampada,desconhecido,24,1,0,0,0
+197,dress vinho lisa formalidade baixa,dress,vinho,lisa,baixa,7,0,0,0,0
+198,dress verde estampada formalidade alta,dress,verde,estampada,alta,14,1,0,0,0
+199,dress marrom lisa formalidade alta,dress,marrom,lisa,alta,107,10,0,0,0
+200,dress cinza 2 lisa formalidade baixa,dress,cinza 2,lisa,baixa,26,0,0,0,0
+201,dress branco lisa formalidade alta,dress,branco,lisa,alta,652,19,0,0,0
+202,dress bege estampada formalidade baixa,dress,bege,estampada,baixa,46,5,0,0,0
+203,dress cinza 1 estampada formalidade desconhecido,dress,cinza 1,estampada,desconhecido,54,3,0,0,0
+204,dress cinza 2 estampada formalidade desconhecido,dress,cinza 2,estampada,desconhecido,48,3,0,0,0
+205,dress verde lisa formalidade alta,dress,verde,lisa,alta,85,12,0,0,0
+206,dress preto estampada formalidade baixa,dress,preto,estampada,baixa,134,8,0,0,0
+207,dress preto estampada formalidade desconhecido,dress,preto,estampada,desconhecido,139,5,0,0,0
+208,dress cinza 1 lisa formalidade desconhecido,dress,cinza 1,lisa,desconhecido,27,1,0,0,0
+209,dress marrom estampada formalidade baixa,dress,marrom,estampada,baixa,22,0,0,0,0
+210,dress bege estampada formalidade desconhecido,dress,bege,estampada,desconhecido,44,3,0,0,0
+211,dress vinho lisa formalidade desconhecido,dress,vinho,lisa,desconhecido,16,2,0,0,0
+212,dress bege lisa formalidade baixa,dress,bege,lisa,baixa,29,4,0,0,0
+213,dress cinza 2 estampada formalidade baixa,dress,cinza 2,estampada,baixa,53,0,0,0,0
+214,dress vinho estampada formalidade desconhecido,dress,vinho,estampada,desconhecido,15,2,0,0,0
+215,dress rosa lisa formalidade desconhecido,dress,rosa,lisa,desconhecido,20,2,0,0,0
+216,dress bege lisa formalidade desconhecido,dress,bege,lisa,desconhecido,69,8,0,0,0
+217,dress marinho lisa formalidade desconhecido,dress,marinho,lisa,desconhecido,34,3,0,0,0
+218,dress verde lisa formalidade baixa,dress,verde,lisa,baixa,6,0,0,0,0
+219,dress cinza 2 lisa formalidade desconhecido,dress,cinza 2,lisa,desconhecido,37,4,0,0,0
+220,dress verde estampada formalidade baixa,dress,verde,estampada,baixa,7,0,0,0,0
+221,dress preto lisa formalidade media,dress,preto,lisa,media,7,0,0,0,0
+222,dress branco lisa formalidade baixa,dress,branco,lisa,baixa,51,2,0,0,0
+223,dress marrom lisa formalidade desconhecido,dress,marrom,lisa,desconhecido,28,1,0,0,0
+224,dress amarelo lisa formalidade desconhecido,dress,amarelo,lisa,desconhecido,46,3,0,0,0
+225,dress marinho lisa formalidade alta,dress,marinho,lisa,alta,162,12,0,0,0
+226,dress bege estampada formalidade alta,dress,bege,estampada,alta,73,12,0,0,0
+227,dress marrom lisa formalidade baixa,dress,marrom,lisa,baixa,9,0,0,0,0
+228,dress cinza 1 estampada formalidade baixa,dress,cinza 1,estampada,baixa,34,1,0,0,0
+229,dress vermelho lisa formalidade baixa,dress,vermelho,lisa,baixa,37,4,0,0,0
+230,dress marrom estampada formalidade alta,dress,marrom,estampada,alta,41,4,0,0,0
+231,dress amarelo estampada formalidade baixa,dress,amarelo,estampada,baixa,15,1,0,0,0
+232,dress bege lisa formalidade media,dress,bege,lisa,media,10,0,0,0,0
+233,dress vermelho estampada formalidade alta,dress,vermelho,estampada,alta,35,5,0,0,0
+234,dress rosa lisa formalidade alta,dress,rosa,lisa,alta,83,3,0,0,0
+235,dress amarelo lisa formalidade media,dress,amarelo,lisa,media,2,0,0,0,0
+236,dress cinza 1 lisa formalidade baixa,dress,cinza 1,lisa,baixa,24,1,0,0,0
+237,dress branco estampada formalidade media,dress,branco,estampada,media,9,0,0,0,0
+238,dress vermelho estampada formalidade baixa,dress,vermelho,estampada,baixa,20,1,0,0,0
+239,dress cinza 2 estampada formalidade alta,dress,cinza 2,estampada,alta,64,5,0,0,0
+240,dress branco lisa formalidade media,dress,branco,lisa,media,9,1,0,0,0
+241,dress vermelho estampada formalidade desconhecido,dress,vermelho,estampada,desconhecido,15,0,0,0,0
+242,dress verde estampada formalidade desconhecido,dress,verde,estampada,desconhecido,9,0,0,0,0
+243,dress marrom lisa formalidade media,dress,marrom,lisa,media,5,0,0,0,0
+244,dress vinho estampada formalidade alta,dress,vinho,estampada,alta,28,3,0,0,0
+245,dress marinho lisa formalidade baixa,dress,marinho,lisa,baixa,21,0,0,0,0
+246,dress preto estampada formalidade media,dress,preto,estampada,media,8,1,0,0,0
+247,dress marinho estampada formalidade desconhecido,dress,marinho,estampada,desconhecido,13,0,0,0,0
+248,dress amarelo estampada formalidade alta,dress,amarelo,estampada,alta,5,0,0,0,0
+249,dress marinho estampada formalidade alta,dress,marinho,estampada,alta,33,2,0,0,0
+250,dress verde lisa formalidade desconhecido,dress,verde,lisa,desconhecido,14,0,0,0,0
+251,dress rosa estampada formalidade alta,dress,rosa,estampada,alta,11,0,0,0,0
+252,dress cinza 1 estampada formalidade media,dress,cinza 1,estampada,media,2,0,0,0,0
+253,dress rosa estampada formalidade baixa,dress,rosa,estampada,baixa,10,0,0,0,0
+254,dress marinho lisa formalidade media,dress,marinho,lisa,media,2,0,0,0,0
+255,dress cinza 1 lisa formalidade media,dress,cinza 1,lisa,media,3,0,0,0,0
+256,dress rosa lisa formalidade baixa,dress,rosa,lisa,baixa,13,1,0,0,0
+257,dress rosa estampada formalidade desconhecido,dress,rosa,estampada,desconhecido,12,0,0,0,0
+258,dress vinho lisa formalidade media,dress,vinho,lisa,media,1,0,0,0,0
+259,dress cinza 2 lisa formalidade media,dress,cinza 2,lisa,media,4,0,0,0,0
+260,dress marrom estampada formalidade media,dress,marrom,estampada,media,4,0,0,0,0
+261,dress rosa lisa formalidade media,dress,rosa,lisa,media,1,0,0,0,0
+262,dress cinza 2 estampada formalidade media,dress,cinza 2,estampada,media,5,0,0,0,0
+263,dress verde lisa formalidade media,dress,verde,lisa,media,1,0,0,0,0
+264,dress vermelho estampada formalidade media,dress,vermelho,estampada,media,1,0,0,0,0
+265,dress marinho estampada formalidade media,dress,marinho,estampada,media,1,0,0,0,0
+266,earrings bege estampa? formalidade alta,earrings,bege,estampa?,alta,795,33,1,1,0
+267,earrings cinza 2 estampa? formalidade desconhecido,earrings,cinza 2,estampa?,desconhecido,60,6,0,0,0
+268,earrings rosa estampa? formalidade alta,earrings,rosa,estampa?,alta,36,1,0,0,0
+269,earrings branco estampa? formalidade alta,earrings,branco,estampa?,alta,1042,11,0,0,0
+270,earrings marrom estampa? formalidade desconhecido,earrings,marrom,estampa?,desconhecido,56,6,0,0,0
+271,earrings bege estampa? formalidade desconhecido,earrings,bege,estampa?,desconhecido,115,13,0,0,0
+272,earrings cinza 1 estampa? formalidade alta,earrings,cinza 1,estampa?,alta,161,6,0,0,0
+273,earrings branco estampa? formalidade desconhecido,earrings,branco,estampa?,desconhecido,202,5,0,0,0
+274,earrings branco estampa? formalidade baixa,earrings,branco,estampa?,baixa,73,5,0,0,0
+275,earrings preto estampa? formalidade alta,earrings,preto,estampa?,alta,476,34,0,0,0
+276,earrings cinza 2 estampa? formalidade alta,earrings,cinza 2,estampa?,alta,281,24,0,0,0
+277,earrings amarelo estampa? formalidade alta,earrings,amarelo,estampa?,alta,92,15,0,0,0
+278,earrings vermelho estampa? formalidade alta,earrings,vermelho,estampa?,alta,124,17,1,1,0
+279,earrings marrom estampa? formalidade alta,earrings,marrom,estampa?,alta,230,24,0,0,0
+280,earrings preto estampa? formalidade desconhecido,earrings,preto,estampa?,desconhecido,73,13,0,0,0
+281,earrings marinho estampa? formalidade alta,earrings,marinho,estampa?,alta,92,13,1,2,0
+282,earrings vermelho estampa? formalidade desconhecido,earrings,vermelho,estampa?,desconhecido,46,10,0,0,0
+283,earrings verde estampa? formalidade alta,earrings,verde,estampa?,alta,77,10,0,0,0
+284,earrings cinza 1 estampa? formalidade desconhecido,earrings,cinza 1,estampa?,desconhecido,42,5,0,0,0
+285,earrings bege estampa? formalidade media,earrings,bege,estampa?,media,7,0,0,0,0
+286,earrings vinho estampa? formalidade alta,earrings,vinho,estampa?,alta,115,19,0,0,0
+287,earrings vinho estampa? formalidade desconhecido,earrings,vinho,estampa?,desconhecido,25,2,0,0,0
+288,earrings amarelo estampa? formalidade desconhecido,earrings,amarelo,estampa?,desconhecido,20,0,0,0,0
+289,earrings verde estampa? formalidade desconhecido,earrings,verde,estampa?,desconhecido,20,0,0,0,0
+290,earrings vinho estampa? formalidade baixa,earrings,vinho,estampa?,baixa,13,2,0,0,0
+291,earrings marrom estampa? formalidade baixa,earrings,marrom,estampa?,baixa,22,0,0,0,0
+292,earrings bege estampa? formalidade baixa,earrings,bege,estampa?,baixa,44,8,0,0,0
+293,earrings rosa estampa? formalidade media,earrings,rosa,estampa?,media,1,0,0,0,0
+294,earrings preto estampa? formalidade baixa,earrings,preto,estampa?,baixa,20,2,0,0,0
+295,earrings vermelho estampa? formalidade baixa,earrings,vermelho,estampa?,baixa,20,2,0,0,0
+296,earrings rosa estampa? formalidade desconhecido,earrings,rosa,estampa?,desconhecido,18,2,0,0,0
+297,earrings rosa estampa? formalidade baixa,earrings,rosa,estampa?,baixa,7,0,0,0,0
+298,earrings cinza 1 estampa? formalidade baixa,earrings,cinza 1,estampa?,baixa,7,0,0,0,0
+299,earrings marinho estampa? formalidade desconhecido,earrings,marinho,estampa?,desconhecido,18,0,0,0,0
+300,earrings amarelo estampa? formalidade baixa,earrings,amarelo,estampa?,baixa,15,0,0,0,0
+301,earrings verde estampa? formalidade baixa,earrings,verde,estampa?,baixa,9,0,0,0,0
+302,earrings branco estampa? formalidade media,earrings,branco,estampa?,media,17,0,0,0,0
+303,earrings cinza 2 estampa? formalidade baixa,earrings,cinza 2,estampa?,baixa,18,1,0,0,0
+304,earrings preto estampa? formalidade media,earrings,preto,estampa?,media,3,0,0,0,0
+305,earrings marrom estampa? formalidade media,earrings,marrom,estampa?,media,1,0,0,0,0
+306,earrings vinho estampa? formalidade media,earrings,vinho,estampa?,media,1,0,0,0,0
+307,earrings marinho estampa? formalidade media,earrings,marinho,estampa?,media,1,0,0,0,0
+308,earrings cinza 2 estampa? formalidade media,earrings,cinza 2,estampa?,media,3,0,0,0,0
+309,earrings cinza 1 estampa? formalidade media,earrings,cinza 1,estampa?,media,2,0,0,0,0
+310,earrings marinho estampa? formalidade baixa,earrings,marinho,estampa?,baixa,2,0,0,0,0
+311,eyewear preto estampa? formalidade baixa,eyewear,preto,estampa?,baixa,117,24,0,0,0
+312,eyewear vermelho estampa? formalidade desconhecido,eyewear,vermelho,estampa?,desconhecido,29,5,0,0,0
+313,eyewear branco estampa? formalidade baixa,eyewear,branco,estampa?,baixa,152,17,0,0,0
+314,eyewear vinho estampa? formalidade baixa,eyewear,vinho,estampa?,baixa,42,7,0,0,0
+315,eyewear bege estampa? formalidade alta,eyewear,bege,estampa?,alta,144,8,0,0,0
+316,eyewear cinza 2 estampa? formalidade baixa,eyewear,cinza 2,estampa?,baixa,129,5,0,0,0
+317,eyewear branco estampa? formalidade alta,eyewear,branco,estampa?,alta,347,9,1,2,0
+318,eyewear cinza 1 estampa? formalidade media,eyewear,cinza 1,estampa?,media,25,4,0,0,0
+319,eyewear cinza 1 estampa? formalidade alta,eyewear,cinza 1,estampa?,alta,372,16,0,0,0
+320,eyewear cinza 2 estampa? formalidade desconhecido,eyewear,cinza 2,estampa?,desconhecido,210,6,0,0,0
+321,eyewear vinho estampa? formalidade alta,eyewear,vinho,estampa?,alta,76,8,0,0,0
+322,eyewear preto estampa? formalidade desconhecido,eyewear,preto,estampa?,desconhecido,239,22,0,0,0
+323,eyewear branco estampa? formalidade desconhecido,eyewear,branco,estampa?,desconhecido,206,18,1,2,0
+324,eyewear preto estampa? formalidade media,eyewear,preto,estampa?,media,49,10,0,0,0
+325,eyewear cinza 1 estampa? formalidade desconhecido,eyewear,cinza 1,estampa?,desconhecido,244,9,0,0,0
+326,eyewear bege estampa? formalidade baixa,eyewear,bege,estampa?,baixa,75,13,0,0,0
+327,eyewear cinza 1 estampa? formalidade baixa,eyewear,cinza 1,estampa?,baixa,130,6,0,0,0
+328,eyewear cinza 2 estampa? formalidade alta,eyewear,cinza 2,estampa?,alta,324,7,0,0,0
+329,eyewear preto estampa? formalidade alta,eyewear,preto,estampa?,alta,388,26,1,2,0
+330,eyewear marrom estampa? formalidade alta,eyewear,marrom,estampa?,alta,169,11,0,0,0
+331,eyewear marinho estampa? formalidade baixa,eyewear,marinho,estampa?,baixa,15,2,0,0,0
+332,eyewear marrom estampa? formalidade desconhecido,eyewear,marrom,estampa?,desconhecido,166,26,0,0,0
+333,eyewear marrom estampa? formalidade baixa,eyewear,marrom,estampa?,baixa,108,12,0,0,0
+334,eyewear bege estampa? formalidade desconhecido,eyewear,bege,estampa?,desconhecido,90,19,0,0,0
+335,eyewear branco estampa? formalidade media,eyewear,branco,estampa?,media,24,5,0,0,0
+336,eyewear amarelo estampa? formalidade alta,eyewear,amarelo,estampa?,alta,16,0,0,0,0
+337,eyewear vermelho estampa? formalidade alta,eyewear,vermelho,estampa?,alta,19,0,0,0,0
+338,eyewear vinho estampa? formalidade desconhecido,eyewear,vinho,estampa?,desconhecido,71,7,0,0,0
+339,eyewear amarelo estampa? formalidade baixa,eyewear,amarelo,estampa?,baixa,16,2,0,0,0
+340,eyewear marrom estampa? formalidade media,eyewear,marrom,estampa?,media,29,3,0,0,0
+341,eyewear verde estampa? formalidade alta,eyewear,verde,estampa?,alta,21,2,0,0,0
+342,eyewear vermelho estampa? formalidade baixa,eyewear,vermelho,estampa?,baixa,10,1,0,0,0
+343,eyewear bege estampa? formalidade media,eyewear,bege,estampa?,media,7,0,0,0,0
+344,eyewear marinho estampa? formalidade alta,eyewear,marinho,estampa?,alta,27,1,0,0,0
+345,eyewear rosa estampa? formalidade desconhecido,eyewear,rosa,estampa?,desconhecido,14,2,0,0,0
+346,eyewear vinho estampa? formalidade media,eyewear,vinho,estampa?,media,7,0,0,0,0
+347,eyewear cinza 2 estampa? formalidade media,eyewear,cinza 2,estampa?,media,19,4,0,0,0
+348,eyewear amarelo estampa? formalidade desconhecido,eyewear,amarelo,estampa?,desconhecido,15,1,0,0,0
+349,eyewear verde estampa? formalidade desconhecido,eyewear,verde,estampa?,desconhecido,17,2,0,0,0
+350,eyewear rosa estampa? formalidade alta,eyewear,rosa,estampa?,alta,9,0,0,0,0
+351,eyewear marinho estampa? formalidade desconhecido,eyewear,marinho,estampa?,desconhecido,9,0,0,0,0
+352,eyewear marinho estampa? formalidade media,eyewear,marinho,estampa?,media,2,0,0,0,0
+353,eyewear rosa estampa? formalidade baixa,eyewear,rosa,estampa?,baixa,6,0,0,0,0
+354,eyewear verde estampa? formalidade baixa,eyewear,verde,estampa?,baixa,11,1,0,0,0
+355,eyewear vermelho estampa? formalidade media,eyewear,vermelho,estampa?,media,3,0,0,0,0
+356,eyewear verde estampa? formalidade media,eyewear,verde,estampa?,media,3,0,0,0,0
+357,gloves preto estampa? formalidade alta,gloves,preto,estampa?,alta,116,19,0,0,0
+358,gloves cinza 2 estampa? formalidade alta,gloves,cinza 2,estampa?,alta,13,1,0,0,0
+359,gloves preto estampa? formalidade baixa,gloves,preto,estampa?,baixa,9,1,0,0,0
+360,gloves cinza 1 estampa? formalidade alta,gloves,cinza 1,estampa?,alta,30,2,0,0,0
+361,gloves amarelo estampa? formalidade alta,gloves,amarelo,estampa?,alta,4,0,0,0,0
+362,gloves bege estampa? formalidade alta,gloves,bege,estampa?,alta,19,3,0,0,0
+363,gloves branco estampa? formalidade alta,gloves,branco,estampa?,alta,42,6,0,0,0
+364,gloves cinza 1 estampa? formalidade desconhecido,gloves,cinza 1,estampa?,desconhecido,5,0,0,0,0
+365,gloves vinho estampa? formalidade alta,gloves,vinho,estampa?,alta,18,3,0,0,0
+366,gloves preto estampa? formalidade desconhecido,gloves,preto,estampa?,desconhecido,11,1,0,0,0
+367,gloves branco estampa? formalidade desconhecido,gloves,branco,estampa?,desconhecido,4,0,0,0,0
+368,gloves marrom estampa? formalidade alta,gloves,marrom,estampa?,alta,20,1,0,0,0
+369,gloves marinho estampa? formalidade alta,gloves,marinho,estampa?,alta,4,0,0,0,0
+370,gloves marrom estampa? formalidade baixa,gloves,marrom,estampa?,baixa,4,0,0,0,0
+371,gloves preto estampa? formalidade media,gloves,preto,estampa?,media,2,0,0,0,0
+372,gloves vermelho estampa? formalidade alta,gloves,vermelho,estampa?,alta,19,2,0,0,0
+373,gloves vermelho estampa? formalidade desconhecido,gloves,vermelho,estampa?,desconhecido,1,0,0,0,0
+374,gloves amarelo estampa? formalidade desconhecido,gloves,amarelo,estampa?,desconhecido,2,0,0,0,0
+375,gloves vinho estampa? formalidade desconhecido,gloves,vinho,estampa?,desconhecido,2,0,0,0,0
+376,gloves branco estampa? formalidade baixa,gloves,branco,estampa?,baixa,2,0,0,0,0
+377,gloves marrom estampa? formalidade desconhecido,gloves,marrom,estampa?,desconhecido,4,0,0,0,0
+378,gloves rosa estampa? formalidade alta,gloves,rosa,estampa?,alta,2,0,0,0,0
+379,gloves verde estampa? formalidade alta,gloves,verde,estampa?,alta,1,0,0,0,0
+380,gloves cinza 1 estampa? formalidade baixa,gloves,cinza 1,estampa?,baixa,2,0,0,0,0
+381,gloves verde estampa? formalidade desconhecido,gloves,verde,estampa?,desconhecido,1,0,0,0,0
+382,gloves marinho estampa? formalidade desconhecido,gloves,marinho,estampa?,desconhecido,1,0,0,0,0
+383,gloves vinho estampa? formalidade baixa,gloves,vinho,estampa?,baixa,2,0,0,0,0
+384,gloves vinho estampa? formalidade media,gloves,vinho,estampa?,media,1,0,0,0,0
+385,gloves vermelho estampa? formalidade baixa,gloves,vermelho,estampa?,baixa,1,0,0,0,0
+386,gloves bege estampa? formalidade baixa,gloves,bege,estampa?,baixa,1,0,0,0,0
+387,gloves cinza 2 estampa? formalidade desconhecido,gloves,cinza 2,estampa?,desconhecido,1,0,0,0,0
+388,hairwear bege estampa? formalidade desconhecido,hairwear,bege,estampa?,desconhecido,16,0,0,0,0
+389,hairwear branco estampa? formalidade alta,hairwear,branco,estampa?,alta,76,9,0,0,0
+390,hairwear branco estampa? formalidade baixa,hairwear,branco,estampa?,baixa,14,0,0,0,0
+391,hairwear preto estampa? formalidade desconhecido,hairwear,preto,estampa?,desconhecido,19,1,0,0,0
+392,hairwear bege estampa? formalidade alta,hairwear,bege,estampa?,alta,49,7,0,0,0
+393,hairwear marinho estampa? formalidade alta,hairwear,marinho,estampa?,alta,9,0,0,0,0
+394,hairwear cinza 2 estampa? formalidade alta,hairwear,cinza 2,estampa?,alta,34,3,0,0,0
+395,hairwear vinho estampa? formalidade alta,hairwear,vinho,estampa?,alta,21,0,0,0,0
+396,hairwear marrom estampa? formalidade desconhecido,hairwear,marrom,estampa?,desconhecido,4,0,0,0,0
+397,hairwear amarelo estampa? formalidade alta,hairwear,amarelo,estampa?,alta,4,0,0,0,0
+398,hairwear cinza 2 estampa? formalidade desconhecido,hairwear,cinza 2,estampa?,desconhecido,8,0,0,0,0
+399,hairwear verde estampa? formalidade alta,hairwear,verde,estampa?,alta,3,0,0,0,0
+400,hairwear cinza 2 estampa? formalidade baixa,hairwear,cinza 2,estampa?,baixa,4,0,0,0,0
+401,hairwear branco estampa? formalidade desconhecido,hairwear,branco,estampa?,desconhecido,23,3,0,0,0
+402,hairwear amarelo estampa? formalidade desconhecido,hairwear,amarelo,estampa?,desconhecido,4,0,0,0,0
+403,hairwear preto estampa? formalidade alta,hairwear,preto,estampa?,alta,48,4,0,0,0
+404,hairwear cinza 1 estampa? formalidade alta,hairwear,cinza 1,estampa?,alta,13,0,0,0,0
+405,hairwear marinho estampa? formalidade baixa,hairwear,marinho,estampa?,baixa,3,0,0,0,0
+406,hairwear vermelho estampa? formalidade baixa,hairwear,vermelho,estampa?,baixa,7,0,0,0,0
+407,hairwear verde estampa? formalidade baixa,hairwear,verde,estampa?,baixa,4,0,0,0,0
+408,hairwear rosa estampa? formalidade baixa,hairwear,rosa,estampa?,baixa,6,0,0,0,0
+409,hairwear bege estampa? formalidade baixa,hairwear,bege,estampa?,baixa,7,0,0,0,0
+410,hairwear vermelho estampa? formalidade desconhecido,hairwear,vermelho,estampa?,desconhecido,7,1,0,0,0
+411,hairwear preto estampa? formalidade baixa,hairwear,preto,estampa?,baixa,14,2,0,0,0
+412,hairwear amarelo estampa? formalidade baixa,hairwear,amarelo,estampa?,baixa,10,12,0,0,0
+413,hairwear rosa estampa? formalidade alta,hairwear,rosa,estampa?,alta,7,0,0,0,0
+414,hairwear cinza 1 estampa? formalidade baixa,hairwear,cinza 1,estampa?,baixa,2,0,0,0,0
+415,hairwear vermelho estampa? formalidade alta,hairwear,vermelho,estampa?,alta,13,1,0,0,0
+416,hairwear marinho estampa? formalidade desconhecido,hairwear,marinho,estampa?,desconhecido,4,0,0,0,0
+417,hairwear amarelo estampa? formalidade media,hairwear,amarelo,estampa?,media,1,0,0,0,0
+418,hairwear cinza 1 estampa? formalidade desconhecido,hairwear,cinza 1,estampa?,desconhecido,2,0,0,0,0
+419,hairwear marrom estampa? formalidade alta,hairwear,marrom,estampa?,alta,13,0,0,0,0
+420,hairwear marrom estampa? formalidade baixa,hairwear,marrom,estampa?,baixa,4,0,0,0,0
+421,hairwear vinho estampa? formalidade baixa,hairwear,vinho,estampa?,baixa,1,0,0,0,0
+422,hairwear rosa estampa? formalidade desconhecido,hairwear,rosa,estampa?,desconhecido,4,0,0,0,0
+423,hairwear branco estampa? formalidade media,hairwear,branco,estampa?,media,1,0,0,0,0
+424,hairwear vinho estampa? formalidade desconhecido,hairwear,vinho,estampa?,desconhecido,2,0,0,0,0
+425,hats branco lisa formalidade baixa,hats,branco,lisa,baixa,110,8,0,0,0
+426,hats preto lisa formalidade media,hats,preto,lisa,media,21,4,0,0,0
+427,hats cinza 2 lisa formalidade baixa,hats,cinza 2,lisa,baixa,68,4,0,0,0
+428,hats branco estampada formalidade baixa,hats,branco,estampada,baixa,14,0,0,0,0
+429,hats cinza 1 lisa formalidade alta,hats,cinza 1,lisa,alta,44,5,0,0,0
+430,hats amarelo lisa formalidade baixa,hats,amarelo,lisa,baixa,19,0,0,0,0
+431,hats vermelho lisa formalidade alta,hats,vermelho,lisa,alta,35,1,0,0,0
+432,hats bege lisa formalidade baixa,hats,bege,lisa,baixa,72,12,0,0,0
+433,hats bege lisa formalidade alta,hats,bege,lisa,alta,111,15,0,0,0
+434,hats preto lisa formalidade alta,hats,preto,lisa,alta,364,40,0,0,0
+435,hats marrom lisa formalidade desconhecido,hats,marrom,lisa,desconhecido,36,9,0,0,0
+436,hats branco lisa formalidade desconhecido,hats,branco,lisa,desconhecido,64,5,0,0,0
+437,hats preto lisa formalidade desconhecido,hats,preto,lisa,desconhecido,186,20,0,0,0
+438,hats marrom lisa formalidade baixa,hats,marrom,lisa,baixa,39,5,0,0,0
+439,hats cinza 2 estampada formalidade alta,hats,cinza 2,estampada,alta,5,0,0,0,0
+440,hats cinza 2 lisa formalidade desconhecido,hats,cinza 2,lisa,desconhecido,30,3,1,1,0
+441,hats preto estampada formalidade baixa,hats,preto,estampada,baixa,38,5,0,0,0
+442,hats preto estampada formalidade alta,hats,preto,estampada,alta,24,2,0,0,0
+443,hats preto estampada formalidade media,hats,preto,estampada,media,3,1,0,0,0
+444,hats vinho lisa formalidade baixa,hats,vinho,lisa,baixa,38,9,0,0,0
+445,hats branco lisa formalidade alta,hats,branco,lisa,alta,146,13,0,0,0
+446,hats preto lisa formalidade baixa,hats,preto,lisa,baixa,199,16,0,0,0
+447,hats verde lisa formalidade baixa,hats,verde,lisa,baixa,5,0,0,0,0
+448,hats vinho lisa formalidade alta,hats,vinho,lisa,alta,48,7,0,0,0
+449,hats marrom lisa formalidade alta,hats,marrom,lisa,alta,85,10,0,0,0
+450,hats vinho lisa formalidade desconhecido,hats,vinho,lisa,desconhecido,21,2,0,0,0
+451,hats cinza 2 lisa formalidade alta,hats,cinza 2,lisa,alta,44,4,0,0,0
+452,hats preto estampada formalidade desconhecido,hats,preto,estampada,desconhecido,31,1,0,0,0
+453,hats bege estampada formalidade alta,hats,bege,estampada,alta,10,0,0,0,0
+454,hats bege lisa formalidade desconhecido,hats,bege,lisa,desconhecido,64,6,0,0,0
+455,hats marrom estampada formalidade alta,hats,marrom,estampada,alta,6,0,0,0,0
+456,hats branco lisa formalidade media,hats,branco,lisa,media,9,0,0,0,0
+457,hats bege estampada formalidade desconhecido,hats,bege,estampada,desconhecido,9,0,0,0,0
+458,hats marinho lisa formalidade alta,hats,marinho,lisa,alta,20,4,0,0,0
+459,hats bege estampada formalidade baixa,hats,bege,estampada,baixa,22,2,0,0,0
+460,hats vermelho estampada formalidade desconhecido,hats,vermelho,estampada,desconhecido,4,0,0,0,0
+461,hats cinza 1 estampada formalidade baixa,hats,cinza 1,estampada,baixa,14,0,0,0,0
+462,hats vermelho lisa formalidade baixa,hats,vermelho,lisa,baixa,35,3,0,0,0
+463,hats vermelho estampada formalidade baixa,hats,vermelho,estampada,baixa,4,0,0,0,0
+464,hats branco estampada formalidade alta,hats,branco,estampada,alta,13,0,0,0,0
+465,hats marrom estampada formalidade baixa,hats,marrom,estampada,baixa,5,1,0,0,0
+466,hats cinza 2 estampada formalidade baixa,hats,cinza 2,estampada,baixa,5,0,0,0,0
+467,hats marinho lisa formalidade desconhecido,hats,marinho,lisa,desconhecido,5,0,0,0,0
+468,hats cinza 2 lisa formalidade media,hats,cinza 2,lisa,media,3,0,0,0,0
+469,hats vermelho lisa formalidade desconhecido,hats,vermelho,lisa,desconhecido,27,1,0,0,0
+470,hats cinza 1 lisa formalidade baixa,hats,cinza 1,lisa,baixa,49,10,0,0,0
+471,hats cinza 1 lisa formalidade desconhecido,hats,cinza 1,lisa,desconhecido,30,0,0,0,0
+472,hats branco estampada formalidade desconhecido,hats,branco,estampada,desconhecido,12,0,0,0,0
+473,hats verde lisa formalidade media,hats,verde,lisa,media,1,0,0,0,0
+474,hats amarelo estampada formalidade baixa,hats,amarelo,estampada,baixa,3,0,0,0,0
+475,hats rosa lisa formalidade alta,hats,rosa,lisa,alta,7,0,0,0,0
+476,hats rosa lisa formalidade baixa,hats,rosa,lisa,baixa,4,0,0,0,0
+477,hats cinza 1 estampada formalidade alta,hats,cinza 1,estampada,alta,2,0,0,0,0
+478,hats verde lisa formalidade alta,hats,verde,lisa,alta,5,0,0,0,0
+479,hats cinza 1 estampada formalidade desconhecido,hats,cinza 1,estampada,desconhecido,6,0,0,0,0
+480,hats rosa lisa formalidade desconhecido,hats,rosa,lisa,desconhecido,3,0,0,0,0
+481,hats marinho lisa formalidade baixa,hats,marinho,lisa,baixa,11,2,0,0,0
+482,hats amarelo lisa formalidade desconhecido,hats,amarelo,lisa,desconhecido,6,0,0,0,0
+483,hats amarelo lisa formalidade alta,hats,amarelo,lisa,alta,3,0,0,0,0
+484,hats marrom estampada formalidade desconhecido,hats,marrom,estampada,desconhecido,4,0,0,0,0
+485,hats cinza 2 estampada formalidade desconhecido,hats,cinza 2,estampada,desconhecido,1,0,0,0,0
+486,hats vermelho estampada formalidade alta,hats,vermelho,estampada,alta,2,0,0,0,0
+487,hats vinho lisa formalidade media,hats,vinho,lisa,media,2,0,0,0,0
+488,hats bege lisa formalidade media,hats,bege,lisa,media,4,0,0,0,0
+489,hats marinho estampada formalidade alta,hats,marinho,estampada,alta,1,0,0,0,0
+490,hats vinho estampada formalidade baixa,hats,vinho,estampada,baixa,2,0,0,0,0
+491,hats branco estampada formalidade media,hats,branco,estampada,media,1,0,0,0,0
+492,hats vermelho lisa formalidade media,hats,vermelho,lisa,media,1,0,0,0,0
+493,hats rosa estampada formalidade alta,hats,rosa,estampada,alta,1,0,0,0,0
+494,hats amarelo estampada formalidade desconhecido,hats,amarelo,estampada,desconhecido,1,0,0,0,0
+495,hats marrom lisa formalidade media,hats,marrom,lisa,media,2,0,0,0,0
+496,hats cinza 1 lisa formalidade media,hats,cinza 1,lisa,media,2,0,0,0,0
+497,hats vinho estampada formalidade desconhecido,hats,vinho,estampada,desconhecido,1,0,0,0,0
+498,jumpsuit preto lisa formalidade baixa,jumpsuit,preto,lisa,baixa,7,0,0,0,0
+499,jumpsuit cinza 2 lisa formalidade desconhecido,jumpsuit,cinza 2,lisa,desconhecido,5,0,0,0,0
+500,jumpsuit branco estampada formalidade baixa,jumpsuit,branco,estampada,baixa,7,0,0,0,0
+501,jumpsuit branco lisa formalidade baixa,jumpsuit,branco,lisa,baixa,7,0,0,0,0
+502,jumpsuit branco estampada formalidade desconhecido,jumpsuit,branco,estampada,desconhecido,6,0,0,0,0
+503,jumpsuit preto lisa formalidade alta,jumpsuit,preto,lisa,alta,22,1,0,0,0
+504,jumpsuit vermelho lisa formalidade baixa,jumpsuit,vermelho,lisa,baixa,3,1,0,0,0
+505,jumpsuit cinza 2 estampada formalidade baixa,jumpsuit,cinza 2,estampada,baixa,6,0,0,0,0
+506,jumpsuit branco estampada formalidade alta,jumpsuit,branco,estampada,alta,3,0,0,0,0
+507,jumpsuit rosa lisa formalidade baixa,jumpsuit,rosa,lisa,baixa,1,0,0,0,0
+508,jumpsuit marrom estampada formalidade baixa,jumpsuit,marrom,estampada,baixa,2,0,0,0,0
+509,jumpsuit bege lisa formalidade baixa,jumpsuit,bege,lisa,baixa,4,0,0,0,0
+510,jumpsuit branco lisa formalidade desconhecido,jumpsuit,branco,lisa,desconhecido,9,0,0,0,0
+511,jumpsuit amarelo lisa formalidade baixa,jumpsuit,amarelo,lisa,baixa,1,0,0,0,0
+512,jumpsuit cinza 2 lisa formalidade alta,jumpsuit,cinza 2,lisa,alta,2,0,0,0,0
+513,jumpsuit branco lisa formalidade alta,jumpsuit,branco,lisa,alta,11,0,0,0,0
+514,jumpsuit preto estampada formalidade desconhecido,jumpsuit,preto,estampada,desconhecido,2,0,0,0,0
+515,jumpsuit preto estampada formalidade alta,jumpsuit,preto,estampada,alta,4,0,0,0,0
+516,jumpsuit cinza 1 estampada formalidade baixa,jumpsuit,cinza 1,estampada,baixa,3,0,0,0,0
+517,jumpsuit vermelho lisa formalidade desconhecido,jumpsuit,vermelho,lisa,desconhecido,6,0,0,0,0
+518,jumpsuit cinza 2 lisa formalidade baixa,jumpsuit,cinza 2,lisa,baixa,10,0,0,0,0
+519,jumpsuit cinza 1 lisa formalidade baixa,jumpsuit,cinza 1,lisa,baixa,3,0,0,0,0
+520,jumpsuit marrom lisa formalidade baixa,jumpsuit,marrom,lisa,baixa,3,0,0,0,0
+521,jumpsuit marrom lisa formalidade media,jumpsuit,marrom,lisa,media,1,0,0,0,0
+522,jumpsuit vermelho lisa formalidade alta,jumpsuit,vermelho,lisa,alta,4,0,0,0,0
+523,jumpsuit preto lisa formalidade media,jumpsuit,preto,lisa,media,2,0,0,0,0
+524,jumpsuit preto lisa formalidade desconhecido,jumpsuit,preto,lisa,desconhecido,13,2,0,0,0
+525,jumpsuit amarelo lisa formalidade desconhecido,jumpsuit,amarelo,lisa,desconhecido,2,0,0,0,0
+526,jumpsuit marinho lisa formalidade media,jumpsuit,marinho,lisa,media,1,0,0,0,0
+527,jumpsuit bege lisa formalidade desconhecido,jumpsuit,bege,lisa,desconhecido,3,0,0,0,0
+528,jumpsuit marinho lisa formalidade baixa,jumpsuit,marinho,lisa,baixa,6,0,0,0,0
+529,jumpsuit cinza 1 lisa formalidade alta,jumpsuit,cinza 1,lisa,alta,2,0,0,0,0
+530,jumpsuit rosa lisa formalidade alta,jumpsuit,rosa,lisa,alta,1,0,0,0,0
+531,jumpsuit bege estampada formalidade baixa,jumpsuit,bege,estampada,baixa,2,0,0,0,0
+532,jumpsuit cinza 2 lisa formalidade media,jumpsuit,cinza 2,lisa,media,1,0,0,0,0
+533,jumpsuit cinza 1 estampada formalidade desconhecido,jumpsuit,cinza 1,estampada,desconhecido,2,0,0,0,0
+534,jumpsuit branco estampada formalidade media,jumpsuit,branco,estampada,media,1,0,0,0,0
+535,jumpsuit marinho estampada formalidade desconhecido,jumpsuit,marinho,estampada,desconhecido,1,0,0,0,0
+536,jumpsuit rosa estampada formalidade baixa,jumpsuit,rosa,estampada,baixa,1,0,0,0,0
+537,jumpsuit vinho lisa formalidade baixa,jumpsuit,vinho,lisa,baixa,1,0,0,0,0
+538,jumpsuit branco lisa formalidade media,jumpsuit,branco,lisa,media,1,0,0,0,0
+539,jumpsuit vinho lisa formalidade desconhecido,jumpsuit,vinho,lisa,desconhecido,2,0,0,0,0
+540,jumpsuit marrom lisa formalidade desconhecido,jumpsuit,marrom,lisa,desconhecido,1,0,0,0,0
+541,jumpsuit bege estampada formalidade alta,jumpsuit,bege,estampada,alta,1,0,0,0,0
+542,jumpsuit preto estampada formalidade baixa,jumpsuit,preto,estampada,baixa,3,0,0,0,0
+543,jumpsuit cinza 1 lisa formalidade media,jumpsuit,cinza 1,lisa,media,1,0,0,0,0
+544,jumpsuit cinza 1 lisa formalidade desconhecido,jumpsuit,cinza 1,lisa,desconhecido,2,0,0,0,0
+545,jumpsuit preto estampada formalidade media,jumpsuit,preto,estampada,media,1,0,0,0,0
+546,jumpsuit bege estampada formalidade desconhecido,jumpsuit,bege,estampada,desconhecido,1,0,0,0,0
+547,jumpsuit bege lisa formalidade alta,jumpsuit,bege,lisa,alta,1,0,0,0,0
+548,jumpsuit vinho estampada formalidade baixa,jumpsuit,vinho,estampada,baixa,1,0,0,0,0
+549,legwear cinza 2 lisa formalidade alta,legwear,cinza 2,lisa,alta,7,0,0,0,0
+550,legwear preto lisa formalidade baixa,legwear,preto,lisa,baixa,9,1,0,0,0
+551,legwear preto lisa formalidade desconhecido,legwear,preto,lisa,desconhecido,10,1,0,0,0
+552,legwear branco lisa formalidade media,legwear,branco,lisa,media,6,0,0,0,0
+553,legwear cinza 1 estampada formalidade baixa,legwear,cinza 1,estampada,baixa,4,0,0,0,0
+554,legwear branco lisa formalidade alta,legwear,branco,lisa,alta,6,0,0,0,0
+555,legwear cinza 2 lisa formalidade desconhecido,legwear,cinza 2,lisa,desconhecido,2,0,0,0,0
+556,legwear vinho lisa formalidade alta,legwear,vinho,lisa,alta,2,0,0,0,0
+557,legwear preto lisa formalidade alta,legwear,preto,lisa,alta,14,0,0,0,0
+558,legwear preto estampada formalidade baixa,legwear,preto,estampada,baixa,17,0,0,0,0
+559,legwear branco estampada formalidade alta,legwear,branco,estampada,alta,4,1,0,0,0
+560,legwear branco lisa formalidade desconhecido,legwear,branco,lisa,desconhecido,8,0,0,0,0
+561,legwear vinho lisa formalidade desconhecido,legwear,vinho,lisa,desconhecido,1,0,0,0,0
+562,legwear branco lisa formalidade baixa,legwear,branco,lisa,baixa,8,0,0,0,0
+563,legwear branco estampada formalidade media,legwear,branco,estampada,media,2,0,0,0,0
+564,legwear cinza 1 estampada formalidade alta,legwear,cinza 1,estampada,alta,1,0,0,0,0
+565,legwear cinza 2 lisa formalidade baixa,legwear,cinza 2,lisa,baixa,5,0,0,0,0
+566,legwear bege lisa formalidade baixa,legwear,bege,lisa,baixa,3,0,0,0,0
+567,legwear cinza 1 lisa formalidade baixa,legwear,cinza 1,lisa,baixa,3,0,0,0,0
+568,legwear cinza 2 estampada formalidade baixa,legwear,cinza 2,estampada,baixa,3,0,0,0,0
+569,legwear branco estampada formalidade baixa,legwear,branco,estampada,baixa,9,0,0,0,0
+570,legwear bege lisa formalidade desconhecido,legwear,bege,lisa,desconhecido,4,0,0,0,0
+571,legwear cinza 1 lisa formalidade alta,legwear,cinza 1,lisa,alta,2,0,0,0,0
+572,legwear rosa estampada formalidade baixa,legwear,rosa,estampada,baixa,1,0,0,0,0
+573,legwear cinza 1 lisa formalidade desconhecido,legwear,cinza 1,lisa,desconhecido,5,0,0,0,0
+574,legwear preto estampada formalidade alta,legwear,preto,estampada,alta,3,0,0,0,0
+575,legwear bege lisa formalidade alta,legwear,bege,lisa,alta,4,0,0,0,0
+576,legwear marrom estampada formalidade baixa,legwear,marrom,estampada,baixa,1,0,0,0,0
+577,legwear cinza 2 lisa formalidade media,legwear,cinza 2,lisa,media,1,0,0,0,0
+578,legwear bege lisa formalidade media,legwear,bege,lisa,media,2,0,0,0,0
+579,legwear cinza 2 estampada formalidade desconhecido,legwear,cinza 2,estampada,desconhecido,2,0,0,0,0
+580,legwear bege estampada formalidade alta,legwear,bege,estampada,alta,1,0,0,0,0
+581,legwear branco estampada formalidade desconhecido,legwear,branco,estampada,desconhecido,4,0,0,0,0
+582,legwear preto estampada formalidade media,legwear,preto,estampada,media,2,0,0,0,0
+583,legwear preto estampada formalidade desconhecido,legwear,preto,estampada,desconhecido,3,0,0,0,0
+584,legwear amarelo lisa formalidade baixa,legwear,amarelo,lisa,baixa,1,0,0,0,0
+585,legwear vinho estampada formalidade media,legwear,vinho,estampada,media,1,0,0,0,0
+586,legwear amarelo lisa formalidade alta,legwear,amarelo,lisa,alta,1,0,0,0,0
+587,legwear rosa estampada formalidade alta,legwear,rosa,estampada,alta,1,0,0,0,0
+588,legwear bege estampada formalidade desconhecido,legwear,bege,estampada,desconhecido,1,0,0,0,0
+589,legwear cinza 1 estampada formalidade desconhecido,legwear,cinza 1,estampada,desconhecido,2,0,0,0,0
+590,legwear vermelho lisa formalidade desconhecido,legwear,vermelho,lisa,desconhecido,1,0,0,0,0
+591,legwear vermelho lisa formalidade baixa,legwear,vermelho,lisa,baixa,1,0,0,0,0
+592,legwear marrom lisa formalidade baixa,legwear,marrom,lisa,baixa,1,0,0,0,0
+593,necklace marrom estampa? formalidade desconhecido,necklace,marrom,estampa?,desconhecido,53,6,0,0,0
+594,necklace marrom estampa? formalidade alta,necklace,marrom,estampa?,alta,156,12,0,0,0
+595,necklace cinza 1 estampa? formalidade alta,necklace,cinza 1,estampa?,alta,155,17,0,0,0
+596,necklace preto estampa? formalidade alta,necklace,preto,estampa?,alta,340,25,0,0,0
+597,necklace cinza 2 estampa? formalidade alta,necklace,cinza 2,estampa?,alta,229,8,0,0,0
+598,necklace preto estampa? formalidade desconhecido,necklace,preto,estampa?,desconhecido,128,15,0,0,0
+599,necklace branco estampa? formalidade baixa,necklace,branco,estampa?,baixa,142,9,0,0,0
+600,necklace bege estampa? formalidade media,necklace,bege,estampa?,media,12,0,0,0,0
+601,necklace vermelho estampa? formalidade alta,necklace,vermelho,estampa?,alta,62,8,0,0,0
+602,necklace cinza 1 estampa? formalidade baixa,necklace,cinza 1,estampa?,baixa,28,1,0,0,0
+603,necklace branco estampa? formalidade alta,necklace,branco,estampa?,alta,1248,14,1,2,0
+604,necklace marinho estampa? formalidade desconhecido,necklace,marinho,estampa?,desconhecido,9,1,0,0,0
+605,necklace bege estampa? formalidade alta,necklace,bege,estampa?,alta,662,16,1,1,0
+606,necklace branco estampa? formalidade desconhecido,necklace,branco,estampa?,desconhecido,376,18,1,1,0
+607,necklace verde estampa? formalidade alta,necklace,verde,estampa?,alta,43,3,0,0,0
+608,necklace cinza 1 estampa? formalidade desconhecido,necklace,cinza 1,estampa?,desconhecido,56,4,0,0,0
+609,necklace vermelho estampa? formalidade desconhecido,necklace,vermelho,estampa?,desconhecido,26,2,0,0,0
+610,necklace marrom estampa? formalidade baixa,necklace,marrom,estampa?,baixa,27,3,0,0,0
+611,necklace cinza 2 estampa? formalidade baixa,necklace,cinza 2,estampa?,baixa,36,2,0,0,0
+612,necklace bege estampa? formalidade desconhecido,necklace,bege,estampa?,desconhecido,199,8,0,0,0
+613,necklace preto estampa? formalidade baixa,necklace,preto,estampa?,baixa,27,1,0,0,0
+614,necklace cinza 2 estampa? formalidade desconhecido,necklace,cinza 2,estampa?,desconhecido,88,15,0,0,0
+615,necklace amarelo estampa? formalidade media,necklace,amarelo,estampa?,media,1,0,0,0,0
+616,necklace marinho estampa? formalidade alta,necklace,marinho,estampa?,alta,46,6,0,0,0
+617,necklace verde estampa? formalidade baixa,necklace,verde,estampa?,baixa,5,0,0,0,0
+618,necklace marinho estampa? formalidade baixa,necklace,marinho,estampa?,baixa,5,0,0,0,0
+619,necklace bege estampa? formalidade baixa,necklace,bege,estampa?,baixa,72,4,0,0,0
+620,necklace vinho estampa? formalidade desconhecido,necklace,vinho,estampa?,desconhecido,17,2,0,0,0
+621,necklace vinho estampa? formalidade alta,necklace,vinho,estampa?,alta,36,3,0,0,0
+622,necklace amarelo estampa? formalidade desconhecido,necklace,amarelo,estampa?,desconhecido,16,1,0,0,0
+623,necklace branco estampa? formalidade media,necklace,branco,estampa?,media,22,1,0,0,0
+624,necklace rosa estampa? formalidade desconhecido,necklace,rosa,estampa?,desconhecido,11,0,0,0,0
+625,necklace vinho estampa? formalidade baixa,necklace,vinho,estampa?,baixa,11,0,0,0,0
+626,necklace amarelo estampa? formalidade baixa,necklace,amarelo,estampa?,baixa,13,0,0,0,0
+627,necklace amarelo estampa? formalidade alta,necklace,amarelo,estampa?,alta,41,3,0,0,0
+628,necklace rosa estampa? formalidade alta,necklace,rosa,estampa?,alta,13,0,0,0,0
+629,necklace vermelho estampa? formalidade baixa,necklace,vermelho,estampa?,baixa,7,0,0,0,0
+630,necklace verde estampa? formalidade desconhecido,necklace,verde,estampa?,desconhecido,13,1,0,0,0
+631,necklace marrom estampa? formalidade media,necklace,marrom,estampa?,media,4,0,0,0,0
+632,necklace cinza 1 estampa? formalidade media,necklace,cinza 1,estampa?,media,2,0,0,0,0
+633,necklace preto estampa? formalidade media,necklace,preto,estampa?,media,3,0,0,0,0
+634,necklace rosa estampa? formalidade media,necklace,rosa,estampa?,media,2,0,0,0,0
+635,necklace cinza 2 estampa? formalidade media,necklace,cinza 2,estampa?,media,3,0,0,0,0
+636,necklace rosa estampa? formalidade baixa,necklace,rosa,estampa?,baixa,3,0,0,0,0
+637,necklace vinho estampa? formalidade media,necklace,vinho,estampa?,media,1,0,0,0,0
+638,neckwear branco lisa formalidade baixa,neckwear,branco,lisa,baixa,24,1,0,0,0
+639,neckwear branco estampada formalidade baixa,neckwear,branco,estampada,baixa,21,1,0,0,0
+640,neckwear preto lisa formalidade alta,neckwear,preto,lisa,alta,150,12,0,0,0
+641,neckwear cinza 2 lisa formalidade baixa,neckwear,cinza 2,lisa,baixa,16,2,0,0,0
+642,neckwear cinza 2 lisa formalidade alta,neckwear,cinza 2,lisa,alta,80,7,0,0,0
+643,neckwear preto lisa formalidade desconhecido,neckwear,preto,lisa,desconhecido,31,6,0,0,0
+644,neckwear branco lisa formalidade alta,neckwear,branco,lisa,alta,95,9,0,0,0
+645,neckwear vinho lisa formalidade baixa,neckwear,vinho,lisa,baixa,11,0,0,0,0
+646,neckwear rosa lisa formalidade alta,neckwear,rosa,lisa,alta,14,0,0,0,0
+647,neckwear marrom lisa formalidade desconhecido,neckwear,marrom,lisa,desconhecido,7,0,0,0,0
+648,neckwear marrom lisa formalidade baixa,neckwear,marrom,lisa,baixa,13,1,0,0,0
+649,neckwear verde lisa formalidade baixa,neckwear,verde,lisa,baixa,3,0,0,0,0
+650,neckwear bege lisa formalidade alta,neckwear,bege,lisa,alta,44,9,0,0,0
+651,neckwear verde lisa formalidade alta,neckwear,verde,lisa,alta,8,0,0,0,0
+652,neckwear marrom estampada formalidade baixa,neckwear,marrom,estampada,baixa,17,0,0,0,0
+653,neckwear cinza 2 estampada formalidade desconhecido,neckwear,cinza 2,estampada,desconhecido,10,0,0,0,0
+654,neckwear amarelo lisa formalidade desconhecido,neckwear,amarelo,lisa,desconhecido,6,0,0,0,0
+655,neckwear cinza 1 lisa formalidade desconhecido,neckwear,cinza 1,lisa,desconhecido,11,0,0,0,0
+656,neckwear preto estampada formalidade alta,neckwear,preto,estampada,alta,59,4,0,0,0
+657,neckwear cinza 1 estampada formalidade baixa,neckwear,cinza 1,estampada,baixa,23,1,0,0,0
+658,neckwear amarelo lisa formalidade alta,neckwear,amarelo,lisa,alta,8,0,0,0,0
+659,neckwear marinho lisa formalidade desconhecido,neckwear,marinho,lisa,desconhecido,6,0,0,0,0
+660,neckwear vermelho lisa formalidade alta,neckwear,vermelho,lisa,alta,23,2,0,0,0
+661,neckwear cinza 2 lisa formalidade desconhecido,neckwear,cinza 2,lisa,desconhecido,7,0,0,0,0
+662,neckwear marinho lisa formalidade alta,neckwear,marinho,lisa,alta,23,2,0,0,0
+663,neckwear marinho estampada formalidade baixa,neckwear,marinho,estampada,baixa,4,0,0,0,0
+664,neckwear preto estampada formalidade baixa,neckwear,preto,estampada,baixa,33,5,0,0,0
+665,neckwear bege lisa formalidade baixa,neckwear,bege,lisa,baixa,14,2,0,0,0
+666,neckwear marinho estampada formalidade alta,neckwear,marinho,estampada,alta,2,0,0,0,0
+667,neckwear vinho lisa formalidade desconhecido,neckwear,vinho,lisa,desconhecido,5,0,0,0,0
+668,neckwear marinho lisa formalidade baixa,neckwear,marinho,lisa,baixa,2,0,0,0,0
+669,neckwear branco estampada formalidade alta,neckwear,branco,estampada,alta,52,10,0,0,0
+670,neckwear branco lisa formalidade desconhecido,neckwear,branco,lisa,desconhecido,32,2,0,0,0
+671,neckwear cinza 1 estampada formalidade alta,neckwear,cinza 1,estampada,alta,22,1,0,0,0
+672,neckwear marrom estampada formalidade desconhecido,neckwear,marrom,estampada,desconhecido,10,0,0,0,0
+673,neckwear bege lisa formalidade desconhecido,neckwear,bege,lisa,desconhecido,14,0,0,0,0
+674,neckwear vermelho estampada formalidade desconhecido,neckwear,vermelho,estampada,desconhecido,4,0,0,0,0
+675,neckwear marrom estampada formalidade alta,neckwear,marrom,estampada,alta,23,4,0,0,0
+676,neckwear marrom lisa formalidade media,neckwear,marrom,lisa,media,2,0,0,0,0
+677,neckwear vinho lisa formalidade alta,neckwear,vinho,lisa,alta,37,7,0,0,0
+678,neckwear amarelo estampada formalidade desconhecido,neckwear,amarelo,estampada,desconhecido,1,0,0,0,0
+679,neckwear cinza 1 lisa formalidade alta,neckwear,cinza 1,lisa,alta,46,1,0,0,0
+680,neckwear amarelo lisa formalidade baixa,neckwear,amarelo,lisa,baixa,6,0,0,0,0
+681,neckwear cinza 2 estampada formalidade alta,neckwear,cinza 2,estampada,alta,25,0,0,0,0
+682,neckwear bege estampada formalidade desconhecido,neckwear,bege,estampada,desconhecido,12,1,0,0,0
+683,neckwear cinza 1 estampada formalidade desconhecido,neckwear,cinza 1,estampada,desconhecido,13,1,0,0,0
+684,neckwear marrom lisa formalidade alta,neckwear,marrom,lisa,alta,34,5,0,0,0
+685,neckwear marinho estampada formalidade desconhecido,neckwear,marinho,estampada,desconhecido,3,0,0,0,0
+686,neckwear amarelo estampada formalidade baixa,neckwear,amarelo,estampada,baixa,5,0,0,0,0
+687,neckwear branco estampada formalidade desconhecido,neckwear,branco,estampada,desconhecido,21,0,0,0,0
+688,neckwear vinho estampada formalidade desconhecido,neckwear,vinho,estampada,desconhecido,4,0,0,0,0
+689,neckwear vinho estampada formalidade baixa,neckwear,vinho,estampada,baixa,12,0,0,0,0
+690,neckwear bege estampada formalidade baixa,neckwear,bege,estampada,baixa,13,1,0,0,0
+691,neckwear amarelo lisa formalidade media,neckwear,amarelo,lisa,media,1,0,0,0,0
+692,neckwear vermelho lisa formalidade desconhecido,neckwear,vermelho,lisa,desconhecido,9,0,0,0,0
+693,neckwear preto estampada formalidade desconhecido,neckwear,preto,estampada,desconhecido,35,7,0,0,0
+694,neckwear vinho estampada formalidade alta,neckwear,vinho,estampada,alta,18,2,0,0,0
+695,neckwear preto lisa formalidade baixa,neckwear,preto,lisa,baixa,15,1,0,0,0
+696,neckwear vermelho estampada formalidade alta,neckwear,vermelho,estampada,alta,5,0,0,0,0
+697,neckwear rosa estampada formalidade alta,neckwear,rosa,estampada,alta,5,0,0,0,0
+698,neckwear cinza 1 lisa formalidade baixa,neckwear,cinza 1,lisa,baixa,6,0,0,0,0
+699,neckwear bege estampada formalidade alta,neckwear,bege,estampada,alta,15,1,0,0,0
+700,neckwear branco lisa formalidade media,neckwear,branco,lisa,media,3,0,0,0,0
+701,neckwear bege lisa formalidade media,neckwear,bege,lisa,media,3,0,0,0,0
+702,neckwear vermelho lisa formalidade baixa,neckwear,vermelho,lisa,baixa,9,1,0,0,0
+703,neckwear cinza 2 estampada formalidade baixa,neckwear,cinza 2,estampada,baixa,8,0,0,0,0
+704,neckwear vermelho estampada formalidade baixa,neckwear,vermelho,estampada,baixa,7,1,0,0,0
+705,neckwear cinza 2 estampada formalidade media,neckwear,cinza 2,estampada,media,1,0,0,0,0
+706,neckwear cinza 2 lisa formalidade media,neckwear,cinza 2,lisa,media,1,0,0,0,0
+707,neckwear amarelo estampada formalidade alta,neckwear,amarelo,estampada,alta,4,0,0,0,0
+708,neckwear branco estampada formalidade media,neckwear,branco,estampada,media,2,0,0,0,0
+709,neckwear rosa estampada formalidade desconhecido,neckwear,rosa,estampada,desconhecido,1,0,0,0,0
+710,neckwear preto lisa formalidade media,neckwear,preto,lisa,media,1,0,0,0,0
+711,neckwear cinza 1 lisa formalidade media,neckwear,cinza 1,lisa,media,3,0,0,0,0
+712,neckwear preto estampada formalidade media,neckwear,preto,estampada,media,2,0,0,0,0
+713,neckwear verde lisa formalidade desconhecido,neckwear,verde,lisa,desconhecido,3,0,0,0,0
+714,neckwear verde estampada formalidade alta,neckwear,verde,estampada,alta,1,0,0,0,0
+715,neckwear rosa lisa formalidade desconhecido,neckwear,rosa,lisa,desconhecido,3,0,0,0,0
+716,neckwear marrom estampada formalidade media,neckwear,marrom,estampada,media,1,0,0,0,0
+717,neckwear rosa lisa formalidade baixa,neckwear,rosa,lisa,baixa,2,0,0,0,0
+718,neckwear verde estampada formalidade baixa,neckwear,verde,estampada,baixa,2,0,0,0,0
+719,neckwear verde estampada formalidade desconhecido,neckwear,verde,estampada,desconhecido,1,0,0,0,0
+720,neckwear rosa estampada formalidade baixa,neckwear,rosa,estampada,baixa,1,0,0,0,0
+721,outerwear branco lisa formalidade baixa,outerwear,branco,lisa,baixa,377,16,0,0,0
+722,outerwear preto lisa formalidade alta,outerwear,preto,lisa,alta,868,20,0,0,0
+723,outerwear preto estampada formalidade baixa,outerwear,preto,estampada,baixa,145,4,0,0,0
+724,outerwear preto estampada formalidade alta,outerwear,preto,estampada,alta,79,5,0,0,0
+725,outerwear vermelho lisa formalidade baixa,outerwear,vermelho,lisa,baixa,81,7,0,0,0
+726,outerwear preto lisa formalidade desconhecido,outerwear,preto,lisa,desconhecido,722,26,1,2,0
+727,outerwear cinza 2 lisa formalidade alta,outerwear,cinza 2,lisa,alta,210,13,0,0,0
+728,outerwear branco estampada formalidade baixa,outerwear,branco,estampada,baixa,96,6,0,0,0
+729,outerwear bege lisa formalidade baixa,outerwear,bege,lisa,baixa,161,13,0,0,0
+730,outerwear preto estampada formalidade desconhecido,outerwear,preto,estampada,desconhecido,109,12,0,0,0
+731,outerwear cinza 1 lisa formalidade desconhecido,outerwear,cinza 1,lisa,desconhecido,141,12,0,0,0
+732,outerwear preto lisa formalidade baixa,outerwear,preto,lisa,baixa,671,25,0,0,0
+733,outerwear verde lisa formalidade alta,outerwear,verde,lisa,alta,31,4,0,0,0
+734,outerwear amarelo lisa formalidade baixa,outerwear,amarelo,lisa,baixa,131,18,0,0,0
+735,outerwear vinho lisa formalidade desconhecido,outerwear,vinho,lisa,desconhecido,71,10,0,0,0
+736,outerwear cinza 1 lisa formalidade baixa,outerwear,cinza 1,lisa,baixa,258,11,0,0,0
+737,outerwear branco lisa formalidade alta,outerwear,branco,lisa,alta,557,22,0,0,0
+738,outerwear branco lisa formalidade desconhecido,outerwear,branco,lisa,desconhecido,289,13,0,0,0
+739,outerwear marinho lisa formalidade desconhecido,outerwear,marinho,lisa,desconhecido,35,2,0,0,0
+740,outerwear cinza 2 estampada formalidade baixa,outerwear,cinza 2,estampada,baixa,50,4,0,0,0
+741,outerwear marrom lisa formalidade baixa,outerwear,marrom,lisa,baixa,212,18,0,0,0
+742,outerwear marrom lisa formalidade alta,outerwear,marrom,lisa,alta,178,24,0,0,0
+743,outerwear verde lisa formalidade baixa,outerwear,verde,lisa,baixa,27,1,0,0,0
+744,outerwear vermelho lisa formalidade desconhecido,outerwear,vermelho,lisa,desconhecido,120,8,0,0,0
+745,outerwear cinza 2 lisa formalidade baixa,outerwear,cinza 2,lisa,baixa,323,16,0,0,0
+746,outerwear marrom lisa formalidade desconhecido,outerwear,marrom,lisa,desconhecido,108,12,0,0,0
+747,outerwear cinza 1 estampada formalidade baixa,outerwear,cinza 1,estampada,baixa,51,3,0,0,0
+748,outerwear branco estampada formalidade desconhecido,outerwear,branco,estampada,desconhecido,58,4,0,0,0
+749,outerwear cinza 1 estampada formalidade alta,outerwear,cinza 1,estampada,alta,29,4,0,0,0
+750,outerwear rosa estampada formalidade baixa,outerwear,rosa,estampada,baixa,8,0,0,0,0
+751,outerwear marinho estampada formalidade baixa,outerwear,marinho,estampada,baixa,9,0,0,0,0
+752,outerwear cinza 1 estampada formalidade desconhecido,outerwear,cinza 1,estampada,desconhecido,31,4,0,0,0
+753,outerwear rosa lisa formalidade baixa,outerwear,rosa,lisa,baixa,38,2,0,0,0
+754,outerwear cinza 2 lisa formalidade media,outerwear,cinza 2,lisa,media,29,3,0,0,0
+755,outerwear preto lisa formalidade media,outerwear,preto,lisa,media,35,3,0,0,0
+756,outerwear cinza 1 lisa formalidade alta,outerwear,cinza 1,lisa,alta,188,8,0,0,0
+757,outerwear vinho lisa formalidade alta,outerwear,vinho,lisa,alta,83,8,0,0,0
+758,outerwear cinza 1 lisa formalidade media,outerwear,cinza 1,lisa,media,18,0,0,0,0
+759,outerwear marrom estampada formalidade alta,outerwear,marrom,estampada,alta,15,0,0,0,0
+760,outerwear marinho lisa formalidade alta,outerwear,marinho,lisa,alta,77,4,0,0,0
+761,outerwear bege lisa formalidade alta,outerwear,bege,lisa,alta,241,21,0,0,0
+762,outerwear marinho lisa formalidade baixa,outerwear,marinho,lisa,baixa,79,11,0,0,0
+763,outerwear amarelo lisa formalidade desconhecido,outerwear,amarelo,lisa,desconhecido,41,4,0,0,0
+764,outerwear branco estampada formalidade alta,outerwear,branco,estampada,alta,46,2,0,0,0
+765,outerwear vinho estampada formalidade baixa,outerwear,vinho,estampada,baixa,14,0,0,0,0
+766,outerwear verde estampada formalidade baixa,outerwear,verde,estampada,baixa,3,0,0,0,0
+767,outerwear branco estampada formalidade media,outerwear,branco,estampada,media,3,0,0,0,0
+768,outerwear verde lisa formalidade desconhecido,outerwear,verde,lisa,desconhecido,24,0,0,0,0
+769,outerwear cinza 2 lisa formalidade desconhecido,outerwear,cinza 2,lisa,desconhecido,128,5,0,0,0
+770,outerwear bege estampada formalidade desconhecido,outerwear,bege,estampada,desconhecido,11,0,0,0,0
+771,outerwear bege estampada formalidade alta,outerwear,bege,estampada,alta,11,0,0,0,0
+772,outerwear cinza 2 estampada formalidade media,outerwear,cinza 2,estampada,media,6,1,0,0,0
+773,outerwear vinho lisa formalidade baixa,outerwear,vinho,lisa,baixa,80,10,0,0,0
+774,outerwear marrom lisa formalidade media,outerwear,marrom,lisa,media,14,0,0,0,0
+775,outerwear amarelo lisa formalidade alta,outerwear,amarelo,lisa,alta,41,9,0,0,0
+776,outerwear bege lisa formalidade desconhecido,outerwear,bege,lisa,desconhecido,122,18,0,0,0
+777,outerwear rosa estampada formalidade alta,outerwear,rosa,estampada,alta,3,0,0,0,0
+778,outerwear verde lisa formalidade media,outerwear,verde,lisa,media,5,0,0,0,0
+779,outerwear vermelho estampada formalidade baixa,outerwear,vermelho,estampada,baixa,7,0,0,0,0
+780,outerwear bege estampada formalidade baixa,outerwear,bege,estampada,baixa,20,2,0,0,0
+781,outerwear marrom estampada formalidade desconhecido,outerwear,marrom,estampada,desconhecido,22,2,0,0,0
+782,outerwear branco lisa formalidade media,outerwear,branco,lisa,media,33,6,0,0,0
+783,outerwear amarelo estampada formalidade baixa,outerwear,amarelo,estampada,baixa,14,1,0,0,0
+784,outerwear verde estampada formalidade desconhecido,outerwear,verde,estampada,desconhecido,4,0,0,0,0
+785,outerwear preto estampada formalidade media,outerwear,preto,estampada,media,3,1,0,0,0
+786,outerwear amarelo lisa formalidade media,outerwear,amarelo,lisa,media,5,0,0,0,0
+787,outerwear bege lisa formalidade media,outerwear,bege,lisa,media,23,2,0,0,0
+788,outerwear vermelho lisa formalidade alta,outerwear,vermelho,lisa,alta,154,17,0,0,0
+789,outerwear rosa lisa formalidade alta,outerwear,rosa,lisa,alta,49,8,0,0,0
+790,outerwear verde estampada formalidade alta,outerwear,verde,estampada,alta,3,0,0,0,0
+791,outerwear cinza 2 estampada formalidade alta,outerwear,cinza 2,estampada,alta,40,2,0,0,0
+792,outerwear cinza 2 estampada formalidade desconhecido,outerwear,cinza 2,estampada,desconhecido,25,3,0,0,0
+793,outerwear amarelo estampada formalidade alta,outerwear,amarelo,estampada,alta,4,0,0,0,0
+794,outerwear vinho estampada formalidade alta,outerwear,vinho,estampada,alta,8,0,0,0,0
+795,outerwear marrom estampada formalidade baixa,outerwear,marrom,estampada,baixa,23,2,0,0,0
+796,outerwear rosa lisa formalidade media,outerwear,rosa,lisa,media,3,0,0,0,0
+797,outerwear vinho estampada formalidade desconhecido,outerwear,vinho,estampada,desconhecido,11,0,0,0,0
+798,outerwear rosa lisa formalidade desconhecido,outerwear,rosa,lisa,desconhecido,29,2,0,0,0
+799,outerwear amarelo estampada formalidade media,outerwear,amarelo,estampada,media,1,0,0,0,0
+800,outerwear marinho estampada formalidade media,outerwear,marinho,estampada,media,1,0,0,0,0
+801,outerwear marinho estampada formalidade desconhecido,outerwear,marinho,estampada,desconhecido,3,0,0,0,0
+802,outerwear vermelho lisa formalidade media,outerwear,vermelho,lisa,media,2,0,0,0,0
+803,outerwear marinho lisa formalidade media,outerwear,marinho,lisa,media,5,1,0,0,0
+804,outerwear cinza 1 estampada formalidade media,outerwear,cinza 1,estampada,media,5,0,0,0,0
+805,outerwear rosa estampada formalidade media,outerwear,rosa,estampada,media,1,0,0,0,0
+806,outerwear vermelho estampada formalidade desconhecido,outerwear,vermelho,estampada,desconhecido,9,0,0,0,0
+807,outerwear amarelo estampada formalidade desconhecido,outerwear,amarelo,estampada,desconhecido,2,0,0,0,0
+808,outerwear marinho estampada formalidade alta,outerwear,marinho,estampada,alta,3,0,0,0,0
+809,outerwear vermelho estampada formalidade alta,outerwear,vermelho,estampada,alta,3,0,0,0,0
+810,outerwear rosa estampada formalidade desconhecido,outerwear,rosa,estampada,desconhecido,3,0,0,0,0
+811,outerwear vinho lisa formalidade media,outerwear,vinho,lisa,media,3,0,0,0,0
+812,outerwear vermelho estampada formalidade media,outerwear,vermelho,estampada,media,2,0,0,0,0
+813,outerwear marrom estampada formalidade media,outerwear,marrom,estampada,media,1,0,0,0,0
+814,outerwear vinho estampada formalidade media,outerwear,vinho,estampada,media,1,0,0,0,0
+815,pants cinza 2 lisa formalidade baixa,pants,cinza 2,lisa,baixa,1043,18,1,2,0
+816,pants cinza 1 lisa formalidade desconhecido,pants,cinza 1,lisa,desconhecido,66,7,0,0,0
+817,pants branco lisa formalidade baixa,pants,branco,lisa,baixa,590,18,1,1,0
+818,pants branco lisa formalidade media,pants,branco,lisa,media,47,3,0,0,0
+819,pants bege lisa formalidade baixa,pants,bege,lisa,baixa,115,12,0,0,0
+820,pants branco lisa formalidade desconhecido,pants,branco,lisa,desconhecido,105,10,0,0,0
+821,pants cinza 1 estampada formalidade baixa,pants,cinza 1,estampada,baixa,88,4,0,0,0
+822,pants vermelho lisa formalidade baixa,pants,vermelho,lisa,baixa,101,8,0,0,0
+823,pants preto estampada formalidade media,pants,preto,estampada,media,12,0,0,0,0
+824,pants preto lisa formalidade baixa,pants,preto,lisa,baixa,1082,19,1,2,0
+825,pants preto lisa formalidade desconhecido,pants,preto,lisa,desconhecido,481,16,1,1,0
+826,pants cinza 1 lisa formalidade alta,pants,cinza 1,lisa,alta,37,1,0,0,0
+827,pants vinho estampada formalidade alta,pants,vinho,estampada,alta,4,0,0,0,0
+828,pants preto lisa formalidade alta,pants,preto,lisa,alta,354,9,0,0,0
+829,pants preto estampada formalidade desconhecido,pants,preto,estampada,desconhecido,36,2,0,0,0
+830,pants preto estampada formalidade baixa,pants,preto,estampada,baixa,125,8,0,0,0
+831,pants cinza 1 lisa formalidade baixa,pants,cinza 1,lisa,baixa,549,16,1,1,0
+832,pants cinza 2 lisa formalidade alta,pants,cinza 2,lisa,alta,18,3,0,0,0
+833,pants cinza 2 estampada formalidade baixa,pants,cinza 2,estampada,baixa,103,2,0,0,0
+834,pants vermelho lisa formalidade desconhecido,pants,vermelho,lisa,desconhecido,47,6,0,0,0
+835,pants branco lisa formalidade alta,pants,branco,lisa,alta,43,9,0,0,0
+836,pants preto lisa formalidade media,pants,preto,lisa,media,92,10,0,0,0
+837,pants verde lisa formalidade baixa,pants,verde,lisa,baixa,49,2,0,0,0
+838,pants branco estampada formalidade desconhecido,pants,branco,estampada,desconhecido,30,4,0,0,0
+839,pants marinho lisa formalidade baixa,pants,marinho,lisa,baixa,335,14,1,1,0
+840,pants marinho lisa formalidade desconhecido,pants,marinho,lisa,desconhecido,32,2,0,0,0
+841,pants marrom estampada formalidade baixa,pants,marrom,estampada,baixa,21,2,0,0,0
+842,pants preto estampada formalidade alta,pants,preto,estampada,alta,19,5,0,0,0
+843,pants marrom lisa formalidade baixa,pants,marrom,lisa,baixa,102,9,0,0,0
+844,pants branco estampada formalidade media,pants,branco,estampada,media,15,1,0,0,0
+845,pants marinho estampada formalidade baixa,pants,marinho,estampada,baixa,25,1,0,0,0
+846,pants bege lisa formalidade media,pants,bege,lisa,media,10,1,0,0,0
+847,pants cinza 1 estampada formalidade media,pants,cinza 1,estampada,media,4,0,0,0,0
+848,pants branco estampada formalidade baixa,pants,branco,estampada,baixa,132,11,0,0,0
+849,pants marinho lisa formalidade media,pants,marinho,lisa,media,12,0,0,0,0
+850,pants marrom lisa formalidade alta,pants,marrom,lisa,alta,21,0,0,0,0
+851,pants amarelo lisa formalidade baixa,pants,amarelo,lisa,baixa,57,4,0,0,0
+852,pants verde estampada formalidade desconhecido,pants,verde,estampada,desconhecido,2,0,0,0,0
+853,pants marrom lisa formalidade desconhecido,pants,marrom,lisa,desconhecido,24,2,0,0,0
+854,pants rosa estampada formalidade baixa,pants,rosa,estampada,baixa,7,0,0,0,0
+855,pants vinho lisa formalidade desconhecido,pants,vinho,lisa,desconhecido,42,5,0,0,0
+856,pants rosa lisa formalidade baixa,pants,rosa,lisa,baixa,36,5,0,0,0
+857,pants vinho lisa formalidade baixa,pants,vinho,lisa,baixa,65,8,0,0,0
+858,pants vinho lisa formalidade media,pants,vinho,lisa,media,8,0,0,0,0
+859,pants cinza 2 lisa formalidade desconhecido,pants,cinza 2,lisa,desconhecido,75,3,0,0,0
+860,pants bege estampada formalidade baixa,pants,bege,estampada,baixa,27,2,0,0,0
+861,pants bege lisa formalidade alta,pants,bege,lisa,alta,31,1,0,0,0
+862,pants vinho lisa formalidade alta,pants,vinho,lisa,alta,22,0,0,0,0
+863,pants amarelo lisa formalidade desconhecido,pants,amarelo,lisa,desconhecido,8,0,0,0,0
+864,pants bege lisa formalidade desconhecido,pants,bege,lisa,desconhecido,25,3,0,0,0
+865,pants vermelho estampada formalidade baixa,pants,vermelho,estampada,baixa,5,0,0,0,0
+866,pants marrom estampada formalidade alta,pants,marrom,estampada,alta,3,0,0,0,0
+867,pants cinza 1 lisa formalidade media,pants,cinza 1,lisa,media,23,0,0,0,0
+868,pants marinho estampada formalidade desconhecido,pants,marinho,estampada,desconhecido,3,0,0,0,0
+869,pants cinza 2 lisa formalidade media,pants,cinza 2,lisa,media,33,1,0,0,0
+870,pants vinho estampada formalidade baixa,pants,vinho,estampada,baixa,14,0,0,0,0
+871,pants rosa lisa formalidade desconhecido,pants,rosa,lisa,desconhecido,8,0,0,0,0
+872,pants cinza 2 estampada formalidade media,pants,cinza 2,estampada,media,4,0,0,0,0
+873,pants verde lisa formalidade media,pants,verde,lisa,media,8,0,0,0,0
+874,pants marinho lisa formalidade alta,pants,marinho,lisa,alta,16,0,0,0,0
+875,pants verde lisa formalidade desconhecido,pants,verde,lisa,desconhecido,6,0,0,0,0
+876,pants branco estampada formalidade alta,pants,branco,estampada,alta,15,1,0,0,0
+877,pants cinza 1 estampada formalidade desconhecido,pants,cinza 1,estampada,desconhecido,11,0,0,0,0
+878,pants cinza 2 estampada formalidade alta,pants,cinza 2,estampada,alta,6,0,0,0,0
+879,pants marinho estampada formalidade media,pants,marinho,estampada,media,1,0,0,0,0
+880,pants cinza 1 estampada formalidade alta,pants,cinza 1,estampada,alta,8,0,0,0,0
+881,pants rosa estampada formalidade alta,pants,rosa,estampada,alta,1,0,0,0,0
+882,pants vermelho lisa formalidade alta,pants,vermelho,lisa,alta,25,0,0,0,0
+883,pants rosa lisa formalidade media,pants,rosa,lisa,media,3,0,0,0,0
+884,pants bege estampada formalidade desconhecido,pants,bege,estampada,desconhecido,10,0,0,0,0
+885,pants verde lisa formalidade alta,pants,verde,lisa,alta,5,0,0,0,0
+886,pants cinza 2 estampada formalidade desconhecido,pants,cinza 2,estampada,desconhecido,7,0,0,0,0
+887,pants marinho estampada formalidade alta,pants,marinho,estampada,alta,3,0,0,0,0
+888,pants amarelo lisa formalidade alta,pants,amarelo,lisa,alta,1,0,0,0,0
+889,pants amarelo lisa formalidade media,pants,amarelo,lisa,media,3,0,0,0,0
+890,pants rosa estampada formalidade desconhecido,pants,rosa,estampada,desconhecido,1,0,0,0,0
+891,pants vermelho estampada formalidade desconhecido,pants,vermelho,estampada,desconhecido,4,0,0,0,0
+892,pants marrom estampada formalidade desconhecido,pants,marrom,estampada,desconhecido,5,0,0,0,0
+893,pants amarelo estampada formalidade baixa,pants,amarelo,estampada,baixa,7,0,0,0,0
+894,pants marrom lisa formalidade media,pants,marrom,lisa,media,6,0,0,0,0
+895,pants bege estampada formalidade media,pants,bege,estampada,media,2,0,0,0,0
+896,pants bege estampada formalidade alta,pants,bege,estampada,alta,1,0,0,0,0
+897,pants verde estampada formalidade baixa,pants,verde,estampada,baixa,2,0,0,0,0
+898,pants vermelho lisa formalidade media,pants,vermelho,lisa,media,4,0,0,0,0
+899,pants verde estampada formalidade alta,pants,verde,estampada,alta,1,0,0,0,0
+900,pants rosa lisa formalidade alta,pants,rosa,lisa,alta,1,0,0,0,0
+901,pants vinho estampada formalidade desconhecido,pants,vinho,estampada,desconhecido,2,0,0,0,0
+902,rings preto estampa? formalidade alta,rings,preto,estampa?,alta,271,32,0,0,0
+903,rings cinza 2 estampa? formalidade alta,rings,cinza 2,estampa?,alta,178,6,0,0,0
+904,rings preto estampa? formalidade baixa,rings,preto,estampa?,baixa,13,3,0,0,0
+905,rings bege estampa? formalidade alta,rings,bege,estampa?,alta,567,19,0,0,0
+906,rings branco estampa? formalidade alta,rings,branco,estampa?,alta,832,14,1,1,0
+907,rings vinho estampa? formalidade alta,rings,vinho,estampa?,alta,55,3,0,0,0
+908,rings verde estampa? formalidade alta,rings,verde,estampa?,alta,37,2,0,0,0
+909,rings marrom estampa? formalidade alta,rings,marrom,estampa?,alta,173,16,0,0,0
+910,rings branco estampa? formalidade desconhecido,rings,branco,estampa?,desconhecido,134,5,0,0,0
+911,rings rosa estampa? formalidade alta,rings,rosa,estampa?,alta,16,1,0,0,0
+912,rings preto estampa? formalidade desconhecido,rings,preto,estampa?,desconhecido,51,12,0,0,0
+913,rings marinho estampa? formalidade desconhecido,rings,marinho,estampa?,desconhecido,4,0,0,0,0
+914,rings marinho estampa? formalidade alta,rings,marinho,estampa?,alta,27,2,0,0,0
+915,rings vinho estampa? formalidade desconhecido,rings,vinho,estampa?,desconhecido,17,0,0,0,0
+916,rings bege estampa? formalidade desconhecido,rings,bege,estampa?,desconhecido,102,18,1,1,0
+917,rings amarelo estampa? formalidade alta,rings,amarelo,estampa?,alta,36,8,0,0,0
+918,rings branco estampa? formalidade baixa,rings,branco,estampa?,baixa,31,6,0,0,0
+919,rings vermelho estampa? formalidade alta,rings,vermelho,estampa?,alta,40,5,0,0,0
+920,rings branco estampa? formalidade media,rings,branco,estampa?,media,11,1,0,0,0
+921,rings bege estampa? formalidade baixa,rings,bege,estampa?,baixa,21,2,0,0,0
+922,rings cinza 1 estampa? formalidade alta,rings,cinza 1,estampa?,alta,120,18,0,0,0
+923,rings amarelo estampa? formalidade baixa,rings,amarelo,estampa?,baixa,4,0,0,0,0
+924,rings marrom estampa? formalidade media,rings,marrom,estampa?,media,4,0,0,0,0
+925,rings cinza 2 estampa? formalidade desconhecido,rings,cinza 2,estampa?,desconhecido,29,3,0,0,0
+926,rings rosa estampa? formalidade desconhecido,rings,rosa,estampa?,desconhecido,3,0,0,0,0
+927,rings amarelo estampa? formalidade desconhecido,rings,amarelo,estampa?,desconhecido,4,0,0,0,0
+928,rings cinza 1 estampa? formalidade baixa,rings,cinza 1,estampa?,baixa,7,0,0,0,0
+929,rings verde estampa? formalidade desconhecido,rings,verde,estampa?,desconhecido,3,0,0,0,0
+930,rings vermelho estampa? formalidade baixa,rings,vermelho,estampa?,baixa,3,0,0,0,0
+931,rings marrom estampa? formalidade desconhecido,rings,marrom,estampa?,desconhecido,33,1,0,0,0
+932,rings cinza 2 estampa? formalidade baixa,rings,cinza 2,estampa?,baixa,6,1,0,0,0
+933,rings cinza 1 estampa? formalidade desconhecido,rings,cinza 1,estampa?,desconhecido,22,2,0,0,0
+934,rings vermelho estampa? formalidade desconhecido,rings,vermelho,estampa?,desconhecido,10,1,0,0,0
+935,rings bege estampa? formalidade media,rings,bege,estampa?,media,7,0,0,0,0
+936,rings verde estampa? formalidade media,rings,verde,estampa?,media,1,0,0,0,0
+937,rings marrom estampa? formalidade baixa,rings,marrom,estampa?,baixa,5,0,0,0,0
+938,rings vermelho estampa? formalidade media,rings,vermelho,estampa?,media,1,0,0,0,0
+939,rings vinho estampa? formalidade media,rings,vinho,estampa?,media,1,0,0,0,0
+940,rings vinho estampa? formalidade baixa,rings,vinho,estampa?,baixa,2,0,0,0,0
+941,rings cinza 2 estampa? formalidade media,rings,cinza 2,estampa?,media,1,0,0,0,0
+942,rings rosa estampa? formalidade baixa,rings,rosa,estampa?,baixa,1,0,0,0,0
+943,rings marinho estampa? formalidade baixa,rings,marinho,estampa?,baixa,2,0,0,0,0
+944,shoes branco lisa formalidade media,shoes,branco,lisa,media,83,13,0,0,0
+945,shoes branco lisa formalidade baixa,shoes,branco,lisa,baixa,820,26,0,0,0
+946,shoes preto lisa formalidade alta,shoes,preto,lisa,alta,3067,24,1,2,0
+947,shoes cinza 1 lisa formalidade alta,shoes,cinza 1,lisa,alta,532,18,1,1,0
+948,shoes preto estampada formalidade alta,shoes,preto,estampada,alta,112,7,0,0,0
+949,shoes marrom estampada formalidade baixa,shoes,marrom,estampada,baixa,41,1,0,0,0
+950,shoes cinza 1 lisa formalidade desconhecido,shoes,cinza 1,lisa,desconhecido,257,17,0,0,0
+951,shoes bege lisa formalidade desconhecido,shoes,bege,lisa,desconhecido,397,27,1,1,0
+952,shoes preto lisa formalidade desconhecido,shoes,preto,lisa,desconhecido,1203,20,1,2,0
+953,shoes bege lisa formalidade alta,shoes,bege,lisa,alta,1188,35,1,3,1
+954,shoes marrom lisa formalidade desconhecido,shoes,marrom,lisa,desconhecido,304,24,0,0,0
+955,shoes branco estampada formalidade alta,shoes,branco,estampada,alta,93,3,0,0,0
+956,shoes marrom lisa formalidade baixa,shoes,marrom,lisa,baixa,448,28,0,0,0
+957,shoes marrom lisa formalidade alta,shoes,marrom,lisa,alta,661,44,1,2,0
+958,shoes cinza 2 lisa formalidade alta,shoes,cinza 2,lisa,alta,300,22,0,0,0
+959,shoes marrom estampada formalidade alta,shoes,marrom,estampada,alta,55,7,0,0,0
+960,shoes bege estampada formalidade alta,shoes,bege,estampada,alta,63,8,0,0,0
+961,shoes branco lisa formalidade alta,shoes,branco,lisa,alta,1239,26,1,2,0
+962,shoes branco lisa formalidade desconhecido,shoes,branco,lisa,desconhecido,483,25,0,0,0
+963,shoes vinho lisa formalidade media,shoes,vinho,lisa,media,15,1,0,0,0
+964,shoes amarelo lisa formalidade desconhecido,shoes,amarelo,lisa,desconhecido,80,14,1,1,0
+965,shoes vermelho lisa formalidade desconhecido,shoes,vermelho,lisa,desconhecido,183,25,0,0,0
+966,shoes marrom lisa formalidade media,shoes,marrom,lisa,media,37,3,0,0,0
+967,shoes branco estampada formalidade desconhecido,shoes,branco,estampada,desconhecido,64,2,0,0,0
+968,shoes marinho lisa formalidade alta,shoes,marinho,lisa,alta,207,25,1,2,0
+969,shoes cinza 1 lisa formalidade baixa,shoes,cinza 1,lisa,baixa,265,17,0,0,0
+970,shoes cinza 2 lisa formalidade baixa,shoes,cinza 2,lisa,baixa,134,12,0,0,0
+971,shoes vinho estampada formalidade desconhecido,shoes,vinho,estampada,desconhecido,18,0,0,0,0
+972,shoes cinza 2 lisa formalidade desconhecido,shoes,cinza 2,lisa,desconhecido,127,11,0,0,0
+973,shoes vinho lisa formalidade alta,shoes,vinho,lisa,alta,365,23,0,0,0
+974,shoes preto lisa formalidade baixa,shoes,preto,lisa,baixa,618,23,1,1,0
+975,shoes vermelho lisa formalidade alta,shoes,vermelho,lisa,alta,376,30,0,0,0
+976,shoes vinho lisa formalidade desconhecido,shoes,vinho,lisa,desconhecido,147,20,0,0,0
+977,shoes amarelo lisa formalidade baixa,shoes,amarelo,lisa,baixa,88,4,0,0,0
+978,shoes rosa lisa formalidade desconhecido,shoes,rosa,lisa,desconhecido,65,11,0,0,0
+979,shoes vinho lisa formalidade baixa,shoes,vinho,lisa,baixa,205,22,1,1,0
+980,shoes verde lisa formalidade alta,shoes,verde,lisa,alta,89,10,0,0,0
+981,shoes marinho lisa formalidade desconhecido,shoes,marinho,lisa,desconhecido,48,6,0,0,0
+982,shoes cinza 2 estampada formalidade alta,shoes,cinza 2,estampada,alta,23,0,0,0,0
+983,shoes bege estampada formalidade desconhecido,shoes,bege,estampada,desconhecido,49,4,0,0,0
+984,shoes rosa lisa formalidade alta,shoes,rosa,lisa,alta,149,14,1,1,0
+985,shoes preto estampada formalidade desconhecido,shoes,preto,estampada,desconhecido,101,3,0,0,0
+986,shoes cinza 1 estampada formalidade alta,shoes,cinza 1,estampada,alta,43,0,0,0,0
+987,shoes vermelho lisa formalidade baixa,shoes,vermelho,lisa,baixa,88,9,0,0,0
+988,shoes rosa lisa formalidade baixa,shoes,rosa,lisa,baixa,35,3,0,0,0
+989,shoes preto estampada formalidade baixa,shoes,preto,estampada,baixa,84,7,0,0,0
+990,shoes verde lisa formalidade desconhecido,shoes,verde,lisa,desconhecido,33,2,0,0,0
+991,shoes bege lisa formalidade baixa,shoes,bege,lisa,baixa,263,14,0,0,0
+992,shoes bege estampada formalidade baixa,shoes,bege,estampada,baixa,40,4,0,0,0
+993,shoes amarelo estampada formalidade alta,shoes,amarelo,estampada,alta,5,0,0,0,0
+994,shoes rosa estampada formalidade baixa,shoes,rosa,estampada,baixa,2,0,0,0,0
+995,shoes branco estampada formalidade baixa,shoes,branco,estampada,baixa,123,7,0,0,0
+996,shoes amarelo lisa formalidade alta,shoes,amarelo,lisa,alta,103,15,0,0,0
+997,shoes verde lisa formalidade baixa,shoes,verde,lisa,baixa,34,2,0,0,0
+998,shoes marinho lisa formalidade baixa,shoes,marinho,lisa,baixa,52,4,0,0,0
+999,shoes preto estampada formalidade media,shoes,preto,estampada,media,4,0,0,0,0
+1000,shoes preto lisa formalidade media,shoes,preto,lisa,media,48,5,0,0,0
+1001,shoes cinza 1 lisa formalidade media,shoes,cinza 1,lisa,media,11,0,0,0,0
+1002,shoes cinza 1 estampada formalidade desconhecido,shoes,cinza 1,estampada,desconhecido,41,3,0,0,0
+1003,shoes cinza 2 estampada formalidade baixa,shoes,cinza 2,estampada,baixa,9,0,0,0,0
+1004,shoes vermelho lisa formalidade media,shoes,vermelho,lisa,media,5,0,0,0,0
+1005,shoes bege lisa formalidade media,shoes,bege,lisa,media,12,0,0,0,0
+1006,shoes cinza 2 lisa formalidade media,shoes,cinza 2,lisa,media,9,1,0,0,0
+1007,shoes rosa estampada formalidade alta,shoes,rosa,estampada,alta,7,0,0,0,0
+1008,shoes vermelho estampada formalidade alta,shoes,vermelho,estampada,alta,10,0,0,0,0
+1009,shoes cinza 1 estampada formalidade baixa,shoes,cinza 1,estampada,baixa,30,1,0,0,0
+1010,shoes marinho estampada formalidade desconhecido,shoes,marinho,estampada,desconhecido,7,0,0,0,0
+1011,shoes marinho estampada formalidade alta,shoes,marinho,estampada,alta,8,0,0,0,0
+1012,shoes amarelo estampada formalidade desconhecido,shoes,amarelo,estampada,desconhecido,3,0,0,0,0
+1013,shoes vermelho estampada formalidade baixa,shoes,vermelho,estampada,baixa,7,0,0,0,0
+1014,shoes bege estampada formalidade media,shoes,bege,estampada,media,2,0,0,0,0
+1015,shoes marrom estampada formalidade desconhecido,shoes,marrom,estampada,desconhecido,40,3,0,0,0
+1016,shoes amarelo estampada formalidade baixa,shoes,amarelo,estampada,baixa,5,0,0,0,0
+1017,shoes branco estampada formalidade media,shoes,branco,estampada,media,9,0,0,0,0
+1018,shoes cinza 2 estampada formalidade desconhecido,shoes,cinza 2,estampada,desconhecido,10,1,0,0,0
+1019,shoes marinho estampada formalidade baixa,shoes,marinho,estampada,baixa,8,1,0,0,0
+1020,shoes verde estampada formalidade desconhecido,shoes,verde,estampada,desconhecido,4,0,0,0,0
+1021,shoes vinho estampada formalidade baixa,shoes,vinho,estampada,baixa,7,0,0,0,0
+1022,shoes vinho estampada formalidade alta,shoes,vinho,estampada,alta,10,0,0,0,0
+1023,shoes marinho lisa formalidade media,shoes,marinho,lisa,media,3,1,0,0,0
+1024,shoes vermelho estampada formalidade desconhecido,shoes,vermelho,estampada,desconhecido,7,0,0,0,0
+1025,shoes amarelo lisa formalidade media,shoes,amarelo,lisa,media,2,0,0,0,0
+1026,shoes cinza 1 estampada formalidade media,shoes,cinza 1,estampada,media,1,0,0,0,0
+1027,shoes verde estampada formalidade baixa,shoes,verde,estampada,baixa,2,0,0,0,0
+1028,shoes rosa estampada formalidade desconhecido,shoes,rosa,estampada,desconhecido,6,0,0,0,0
+1029,shoes marinho estampada formalidade media,shoes,marinho,estampada,media,1,0,0,0,0
+1030,shoes verde lisa formalidade media,shoes,verde,lisa,media,1,0,0,0,0
+1031,skirt branco lisa formalidade desconhecido,skirt,branco,lisa,desconhecido,161,13,0,0,0
+1032,skirt cinza 2 estampada formalidade baixa,skirt,cinza 2,estampada,baixa,66,2,0,0,0
+1033,skirt preto estampada formalidade desconhecido,skirt,preto,estampada,desconhecido,157,9,0,0,0
+1034,skirt branco estampada formalidade baixa,skirt,branco,estampada,baixa,157,14,0,0,0
+1035,skirt preto lisa formalidade desconhecido,skirt,preto,lisa,desconhecido,348,17,0,0,0
+1036,skirt branco lisa formalidade alta,skirt,branco,lisa,alta,212,15,0,0,0
+1037,skirt amarelo lisa formalidade desconhecido,skirt,amarelo,lisa,desconhecido,29,1,0,0,0
+1038,skirt branco lisa formalidade baixa,skirt,branco,lisa,baixa,102,10,0,0,0
+1039,skirt amarelo lisa formalidade baixa,skirt,amarelo,lisa,baixa,62,7,0,0,0
+1040,skirt preto lisa formalidade alta,skirt,preto,lisa,alta,563,14,0,0,0
+1041,skirt branco estampada formalidade alta,skirt,branco,estampada,alta,112,8,0,0,0
+1042,skirt vinho lisa formalidade alta,skirt,vinho,lisa,alta,59,3,0,0,0
+1043,skirt vermelho lisa formalidade desconhecido,skirt,vermelho,lisa,desconhecido,68,8,0,0,0
+1044,skirt cinza 1 lisa formalidade baixa,skirt,cinza 1,lisa,baixa,41,3,0,0,0
+1045,skirt marinho lisa formalidade desconhecido,skirt,marinho,lisa,desconhecido,33,2,0,0,0
+1046,skirt rosa lisa formalidade alta,skirt,rosa,lisa,alta,35,4,0,0,0
+1047,skirt marrom lisa formalidade baixa,skirt,marrom,lisa,baixa,42,4,0,0,0
+1048,skirt vermelho lisa formalidade baixa,skirt,vermelho,lisa,baixa,37,4,0,0,0
+1049,skirt vermelho lisa formalidade alta,skirt,vermelho,lisa,alta,85,8,0,0,0
+1050,skirt preto estampada formalidade alta,skirt,preto,estampada,alta,138,9,0,0,0
+1051,skirt cinza 2 lisa formalidade baixa,skirt,cinza 2,lisa,baixa,93,16,0,0,0
+1052,skirt bege lisa formalidade alta,skirt,bege,lisa,alta,92,6,0,0,0
+1053,skirt cinza 1 estampada formalidade desconhecido,skirt,cinza 1,estampada,desconhecido,51,7,0,0,0
+1054,skirt cinza 1 lisa formalidade desconhecido,skirt,cinza 1,lisa,desconhecido,73,7,0,0,0
+1055,skirt preto lisa formalidade baixa,skirt,preto,lisa,baixa,98,9,0,0,0
+1056,skirt marrom estampada formalidade desconhecido,skirt,marrom,estampada,desconhecido,27,2,0,0,0
+1057,skirt bege lisa formalidade desconhecido,skirt,bege,lisa,desconhecido,67,5,0,0,0
+1058,skirt preto estampada formalidade baixa,skirt,preto,estampada,baixa,176,8,0,0,0
+1059,skirt vinho estampada formalidade desconhecido,skirt,vinho,estampada,desconhecido,20,2,0,0,0
+1060,skirt cinza 1 lisa formalidade alta,skirt,cinza 1,lisa,alta,73,7,0,0,0
+1061,skirt rosa lisa formalidade baixa,skirt,rosa,lisa,baixa,13,2,0,0,0
+1062,skirt cinza 1 estampada formalidade baixa,skirt,cinza 1,estampada,baixa,73,5,0,0,0
+1063,skirt marinho lisa formalidade alta,skirt,marinho,lisa,alta,52,3,0,0,0
+1064,skirt bege estampada formalidade baixa,skirt,bege,estampada,baixa,49,8,0,0,0
+1065,skirt verde estampada formalidade desconhecido,skirt,verde,estampada,desconhecido,5,0,0,0,0
+1066,skirt amarelo lisa formalidade alta,skirt,amarelo,lisa,alta,20,0,0,0,0
+1067,skirt bege lisa formalidade baixa,skirt,bege,lisa,baixa,61,10,0,0,0
+1068,skirt bege estampada formalidade desconhecido,skirt,bege,estampada,desconhecido,39,9,0,0,0
+1069,skirt vinho lisa formalidade desconhecido,skirt,vinho,lisa,desconhecido,57,2,0,0,0
+1070,skirt marrom lisa formalidade desconhecido,skirt,marrom,lisa,desconhecido,55,5,0,0,0
+1071,skirt cinza 1 estampada formalidade alta,skirt,cinza 1,estampada,alta,42,5,0,0,0
+1072,skirt vinho estampada formalidade alta,skirt,vinho,estampada,alta,20,0,0,0,0
+1073,skirt branco estampada formalidade desconhecido,skirt,branco,estampada,desconhecido,83,4,0,0,0
+1074,skirt marrom estampada formalidade baixa,skirt,marrom,estampada,baixa,40,4,0,0,0
+1075,skirt cinza 2 lisa formalidade alta,skirt,cinza 2,lisa,alta,88,5,0,0,0
+1076,skirt cinza 2 estampada formalidade desconhecido,skirt,cinza 2,estampada,desconhecido,39,2,0,0,0
+1077,skirt bege estampada formalidade alta,skirt,bege,estampada,alta,31,4,0,0,0
+1078,skirt amarelo estampada formalidade desconhecido,skirt,amarelo,estampada,desconhecido,7,0,0,0,0
+1079,skirt vinho estampada formalidade baixa,skirt,vinho,estampada,baixa,19,1,0,0,0
+1080,skirt branco estampada formalidade media,skirt,branco,estampada,media,5,2,0,0,0
+1081,skirt amarelo estampada formalidade baixa,skirt,amarelo,estampada,baixa,12,1,0,0,0
+1082,skirt marinho lisa formalidade baixa,skirt,marinho,lisa,baixa,46,5,0,0,0
+1083,skirt verde lisa formalidade baixa,skirt,verde,lisa,baixa,18,1,0,0,0
+1084,skirt cinza 2 estampada formalidade alta,skirt,cinza 2,estampada,alta,39,2,0,0,0
+1085,skirt marrom lisa formalidade alta,skirt,marrom,lisa,alta,65,14,0,0,0
+1086,skirt cinza 2 lisa formalidade desconhecido,skirt,cinza 2,lisa,desconhecido,46,5,0,0,0
+1087,skirt marinho estampada formalidade baixa,skirt,marinho,estampada,baixa,20,0,0,0,0
+1088,skirt vinho lisa formalidade baixa,skirt,vinho,lisa,baixa,20,1,0,0,0
+1089,skirt rosa estampada formalidade baixa,skirt,rosa,estampada,baixa,6,0,0,0,0
+1090,skirt vermelho estampada formalidade baixa,skirt,vermelho,estampada,baixa,24,1,0,0,0
+1091,skirt rosa estampada formalidade alta,skirt,rosa,estampada,alta,3,0,0,0,0
+1092,skirt preto lisa formalidade media,skirt,preto,lisa,media,8,1,0,0,0
+1093,skirt vermelho estampada formalidade desconhecido,skirt,vermelho,estampada,desconhecido,23,1,0,0,0
+1094,skirt verde lisa formalidade desconhecido,skirt,verde,lisa,desconhecido,18,3,0,0,0
+1095,skirt verde lisa formalidade alta,skirt,verde,lisa,alta,26,1,0,0,0
+1096,skirt rosa lisa formalidade desconhecido,skirt,rosa,lisa,desconhecido,23,0,0,0,0
+1097,skirt vermelho estampada formalidade alta,skirt,vermelho,estampada,alta,10,3,0,0,0
+1098,skirt marrom lisa formalidade media,skirt,marrom,lisa,media,3,0,0,0,0
+1099,skirt cinza 1 estampada formalidade media,skirt,cinza 1,estampada,media,4,0,0,0,0
+1100,skirt amarelo estampada formalidade alta,skirt,amarelo,estampada,alta,4,0,0,0,0
+1101,skirt verde estampada formalidade baixa,skirt,verde,estampada,baixa,7,0,0,0,0
+1102,skirt marinho lisa formalidade media,skirt,marinho,lisa,media,2,0,0,0,0
+1103,skirt rosa estampada formalidade desconhecido,skirt,rosa,estampada,desconhecido,6,0,0,0,0
+1104,skirt bege lisa formalidade media,skirt,bege,lisa,media,2,0,0,0,0
+1105,skirt marrom estampada formalidade alta,skirt,marrom,estampada,alta,15,0,0,0,0
+1106,skirt cinza 2 lisa formalidade media,skirt,cinza 2,lisa,media,5,0,0,0,0
+1107,skirt marinho estampada formalidade alta,skirt,marinho,estampada,alta,10,0,0,0,0
+1108,skirt vinho lisa formalidade media,skirt,vinho,lisa,media,2,0,0,0,0
+1109,skirt branco lisa formalidade media,skirt,branco,lisa,media,6,0,0,0,0
+1110,skirt verde estampada formalidade alta,skirt,verde,estampada,alta,1,0,0,0,0
+1111,skirt marinho estampada formalidade desconhecido,skirt,marinho,estampada,desconhecido,6,0,0,0,0
+1112,skirt preto estampada formalidade media,skirt,preto,estampada,media,6,0,0,0,0
+1113,skirt amarelo estampada formalidade media,skirt,amarelo,estampada,media,1,0,0,0,0
+1114,skirt vermelho lisa formalidade media,skirt,vermelho,lisa,media,1,0,0,0,0
+1115,skirt cinza 1 lisa formalidade media,skirt,cinza 1,lisa,media,1,0,0,0,0
+1116,skirt marrom estampada formalidade media,skirt,marrom,estampada,media,1,0,0,0,0
+1117,skirt marinho estampada formalidade media,skirt,marinho,estampada,media,1,0,0,0,0
+1118,skirt bege estampada formalidade media,skirt,bege,estampada,media,1,0,0,0,0
+1119,top verde lisa formalidade baixa,top,verde,lisa,baixa,81,6,0,0,0
+1120,top branco lisa formalidade baixa,top,branco,lisa,baixa,1591,22,1,10,1
+1121,top cinza 2 estampada formalidade baixa,top,cinza 2,estampada,baixa,347,7,1,1,0
+1122,top preto lisa formalidade alta,top,preto,lisa,alta,746,20,0,0,0
+1123,top preto lisa formalidade baixa,top,preto,lisa,baixa,871,16,1,1,0
+1124,top verde lisa formalidade desconhecido,top,verde,lisa,desconhecido,26,2,0,0,0
+1125,top branco lisa formalidade alta,top,branco,lisa,alta,1809,8,1,2,0
+1126,top bege lisa formalidade desconhecido,top,bege,lisa,desconhecido,178,16,0,0,0
+1127,top branco estampada formalidade baixa,top,branco,estampada,baixa,1362,14,1,1,0
+1128,top vinho estampada formalidade media,top,vinho,estampada,media,6,0,0,0,0
+1129,top vinho lisa formalidade alta,top,vinho,lisa,alta,106,11,0,0,0
+1130,top bege estampada formalidade alta,top,bege,estampada,alta,51,11,0,0,0
+1131,top cinza 2 lisa formalidade alta,top,cinza 2,lisa,alta,246,14,0,0,0
+1132,top marinho lisa formalidade alta,top,marinho,lisa,alta,118,6,0,0,0
+1133,top cinza 2 lisa formalidade baixa,top,cinza 2,lisa,baixa,540,15,0,0,0
+1134,top bege estampada formalidade baixa,top,bege,estampada,baixa,169,11,0,0,0
+1135,top bege estampada formalidade desconhecido,top,bege,estampada,desconhecido,54,9,0,0,0
+1136,top branco estampada formalidade desconhecido,top,branco,estampada,desconhecido,337,7,0,0,0
+1137,top vinho lisa formalidade baixa,top,vinho,lisa,baixa,145,14,0,0,0
+1138,top amarelo lisa formalidade alta,top,amarelo,lisa,alta,47,5,1,1,0
+1139,top bege lisa formalidade alta,top,bege,lisa,alta,273,21,0,0,0
+1140,top branco estampada formalidade media,top,branco,estampada,media,100,5,0,0,0
+1141,top preto estampada formalidade desconhecido,top,preto,estampada,desconhecido,190,8,0,0,0
+1142,top branco lisa formalidade desconhecido,top,branco,lisa,desconhecido,731,27,1,1,0
+1143,top amarelo lisa formalidade baixa,top,amarelo,lisa,baixa,241,21,1,1,0
+1144,top branco estampada formalidade alta,top,branco,estampada,alta,364,19,0,0,0
+1145,top cinza 1 estampada formalidade baixa,top,cinza 1,estampada,baixa,256,8,0,0,0
+1146,top preto lisa formalidade desconhecido,top,preto,lisa,desconhecido,626,24,0,0,0
+1147,top marinho estampada formalidade baixa,top,marinho,estampada,baixa,72,5,0,0,0
+1148,top rosa lisa formalidade baixa,top,rosa,lisa,baixa,110,8,0,0,0
+1149,top cinza 1 lisa formalidade alta,top,cinza 1,lisa,alta,173,7,0,0,0
+1150,top bege lisa formalidade media,top,bege,lisa,media,37,3,0,0,0
+1151,top vinho lisa formalidade desconhecido,top,vinho,lisa,desconhecido,65,5,0,0,0
+1152,top cinza 1 lisa formalidade baixa,top,cinza 1,lisa,baixa,296,11,0,0,0
+1153,top preto estampada formalidade media,top,preto,estampada,media,47,2,0,0,0
+1154,top preto estampada formalidade alta,top,preto,estampada,alta,143,15,0,0,0
+1155,top preto estampada formalidade baixa,top,preto,estampada,baixa,744,15,0,0,0
+1156,top marrom lisa formalidade baixa,top,marrom,lisa,baixa,195,21,0,0,0
+1157,top cinza 2 lisa formalidade desconhecido,top,cinza 2,lisa,desconhecido,202,15,0,0,0
+1158,top marrom lisa formalidade alta,top,marrom,lisa,alta,83,14,0,0,0
+1159,top vermelho lisa formalidade desconhecido,top,vermelho,lisa,desconhecido,89,4,0,0,0
+1160,top bege lisa formalidade baixa,top,bege,lisa,baixa,423,25,1,1,0
+1161,top vinho estampada formalidade baixa,top,vinho,estampada,baixa,104,7,0,0,0
+1162,top branco lisa formalidade media,top,branco,lisa,media,255,18,0,0,0
+1163,top cinza 1 estampada formalidade media,top,cinza 1,estampada,media,18,2,0,0,0
+1164,top rosa lisa formalidade desconhecido,top,rosa,lisa,desconhecido,35,1,0,0,0
+1165,top marinho lisa formalidade baixa,top,marinho,lisa,baixa,138,10,0,0,0
+1166,top marrom lisa formalidade media,top,marrom,lisa,media,16,1,0,0,0
+1167,top vermelho lisa formalidade baixa,top,vermelho,lisa,baixa,245,14,1,1,0
+1168,top cinza 2 estampada formalidade desconhecido,top,cinza 2,estampada,desconhecido,78,3,0,0,0
+1169,top cinza 1 lisa formalidade desconhecido,top,cinza 1,lisa,desconhecido,115,10,0,0,0
+1170,top cinza 1 estampada formalidade alta,top,cinza 1,estampada,alta,37,1,0,0,0
+1171,top verde lisa formalidade alta,top,verde,lisa,alta,37,0,0,0,0
+1172,top cinza 2 estampada formalidade media,top,cinza 2,estampada,media,25,1,0,0,0
+1173,top amarelo lisa formalidade desconhecido,top,amarelo,lisa,desconhecido,55,5,0,0,0
+1174,top marrom lisa formalidade desconhecido,top,marrom,lisa,desconhecido,60,11,0,0,0
+1175,top vermelho lisa formalidade alta,top,vermelho,lisa,alta,117,11,0,0,0
+1176,top vermelho estampada formalidade baixa,top,vermelho,estampada,baixa,102,9,0,0,0
+1177,top vermelho lisa formalidade media,top,vermelho,lisa,media,16,1,0,0,0
+1178,top preto lisa formalidade media,top,preto,lisa,media,71,5,0,0,0
+1179,top cinza 1 lisa formalidade media,top,cinza 1,lisa,media,39,7,0,0,0
+1180,top verde estampada formalidade alta,top,verde,estampada,alta,9,0,0,0,0
+1181,top marrom estampada formalidade baixa,top,marrom,estampada,baixa,80,12,0,0,0
+1182,top amarelo estampada formalidade baixa,top,amarelo,estampada,baixa,62,4,0,0,0
+1183,top cinza 2 lisa formalidade media,top,cinza 2,lisa,media,86,6,0,0,0
+1184,top verde estampada formalidade baixa,top,verde,estampada,baixa,35,0,0,0,0
+1185,top cinza 1 estampada formalidade desconhecido,top,cinza 1,estampada,desconhecido,59,4,0,0,0
+1186,top amarelo lisa formalidade media,top,amarelo,lisa,media,14,2,0,0,0
+1187,top rosa estampada formalidade baixa,top,rosa,estampada,baixa,65,3,0,0,0
+1188,top marinho lisa formalidade media,top,marinho,lisa,media,19,3,0,0,0
+1189,top marinho lisa formalidade desconhecido,top,marinho,lisa,desconhecido,51,3,0,0,0
+1190,top vermelho estampada formalidade media,top,vermelho,estampada,media,5,1,0,0,0
+1191,top rosa lisa formalidade alta,top,rosa,lisa,alta,63,5,0,0,0
+1192,top bege estampada formalidade media,top,bege,estampada,media,6,0,0,0,0
+1193,top marinho estampada formalidade desconhecido,top,marinho,estampada,desconhecido,15,2,0,0,0
+1194,top vinho estampada formalidade desconhecido,top,vinho,estampada,desconhecido,24,0,0,0,0
+1195,top marrom estampada formalidade media,top,marrom,estampada,media,4,1,0,0,0
+1196,top cinza 2 estampada formalidade alta,top,cinza 2,estampada,alta,60,4,0,0,0
+1197,top marrom estampada formalidade alta,top,marrom,estampada,alta,28,2,0,0,0
+1198,top vinho estampada formalidade alta,top,vinho,estampada,alta,23,3,0,0,0
+1199,top vinho lisa formalidade media,top,vinho,lisa,media,8,0,0,0,0
+1200,top verde estampada formalidade desconhecido,top,verde,estampada,desconhecido,12,0,0,0,0
+1201,top vermelho estampada formalidade alta,top,vermelho,estampada,alta,25,2,0,0,0
+1202,top vermelho estampada formalidade desconhecido,top,vermelho,estampada,desconhecido,21,0,0,0,0
+1203,top rosa estampada formalidade desconhecido,top,rosa,estampada,desconhecido,13,1,0,0,0
+1204,top marrom estampada formalidade desconhecido,top,marrom,estampada,desconhecido,22,3,0,0,0
+1205,top rosa estampada formalidade media,top,rosa,estampada,media,2,0,0,0,0
+1206,top rosa estampada formalidade alta,top,rosa,estampada,alta,5,0,0,0,0
+1207,top rosa lisa formalidade media,top,rosa,lisa,media,5,0,0,0,0
+1208,top marinho estampada formalidade alta,top,marinho,estampada,alta,12,0,0,0,0
+1209,top amarelo estampada formalidade alta,top,amarelo,estampada,alta,12,0,0,0,0
+1210,top amarelo estampada formalidade desconhecido,top,amarelo,estampada,desconhecido,5,0,0,0,0
+1211,top verde lisa formalidade media,top,verde,lisa,media,10,0,0,0,0
+1212,top marinho estampada formalidade media,top,marinho,estampada,media,3,0,0,0,0
+1213,top amarelo estampada formalidade media,top,amarelo,estampada,media,1,0,0,0,0
+1214,watch bege estampa? formalidade alta,watch,bege,estampa?,alta,273,22,0,0,0
+1215,watch bege estampa? formalidade desconhecido,watch,bege,estampa?,desconhecido,27,4,0,0,0
+1216,watch branco estampa? formalidade alta,watch,branco,estampa?,alta,453,12,0,0,0
+1217,watch marrom estampa? formalidade alta,watch,marrom,estampa?,alta,66,4,0,0,0
+1218,watch cinza 2 estampa? formalidade alta,watch,cinza 2,estampa?,alta,66,5,0,0,0
+1219,watch preto estampa? formalidade alta,watch,preto,estampa?,alta,308,23,0,0,0
+1220,watch preto estampa? formalidade desconhecido,watch,preto,estampa?,desconhecido,66,5,0,0,0
+1221,watch branco estampa? formalidade desconhecido,watch,branco,estampa?,desconhecido,66,6,0,0,0
+1222,watch verde estampa? formalidade alta,watch,verde,estampa?,alta,5,0,0,0,0
+1223,watch cinza 1 estampa? formalidade alta,watch,cinza 1,estampa?,alta,97,3,0,0,0
+1224,watch branco estampa? formalidade media,watch,branco,estampa?,media,13,0,0,0,0
+1225,watch cinza 1 estampa? formalidade desconhecido,watch,cinza 1,estampa?,desconhecido,19,0,0,0,0
+1226,watch vinho estampa? formalidade alta,watch,vinho,estampa?,alta,38,2,0,0,0
+1227,watch vermelho estampa? formalidade alta,watch,vermelho,estampa?,alta,19,0,0,0,0
+1228,watch marrom estampa? formalidade desconhecido,watch,marrom,estampa?,desconhecido,11,0,0,0,0
+1229,watch amarelo estampa? formalidade alta,watch,amarelo,estampa?,alta,13,0,0,0,0
+1230,watch rosa estampa? formalidade alta,watch,rosa,estampa?,alta,12,0,0,0,0
+1231,watch rosa estampa? formalidade desconhecido,watch,rosa,estampa?,desconhecido,10,0,0,0,0
+1232,watch cinza 2 estampa? formalidade desconhecido,watch,cinza 2,estampa?,desconhecido,14,0,0,0,0
+1233,watch marrom estampa? formalidade media,watch,marrom,estampa?,media,1,0,0,0,0
+1234,watch vinho estampa? formalidade desconhecido,watch,vinho,estampa?,desconhecido,8,0,0,0,0
+1235,watch branco estampa? formalidade baixa,watch,branco,estampa?,baixa,19,3,0,0,0
+1236,watch preto estampa? formalidade media,watch,preto,estampa?,media,11,2,0,0,0
+1237,watch marinho estampa? formalidade alta,watch,marinho,estampa?,alta,22,2,0,0,0
+1238,watch vermelho estampa? formalidade desconhecido,watch,vermelho,estampa?,desconhecido,15,0,0,0,0
+1239,watch bege estampa? formalidade baixa,watch,bege,estampa?,baixa,2,0,0,0,0
+1240,watch marinho estampa? formalidade desconhecido,watch,marinho,estampa?,desconhecido,6,0,0,0,0
+1241,watch cinza 1 estampa? formalidade baixa,watch,cinza 1,estampa?,baixa,7,0,0,0,0
+1242,watch preto estampa? formalidade baixa,watch,preto,estampa?,baixa,11,0,0,0,0
+1243,watch vermelho estampa? formalidade baixa,watch,vermelho,estampa?,baixa,4,0,0,0,0
+1244,watch verde estampa? formalidade baixa,watch,verde,estampa?,baixa,2,0,0,0,0
+1245,watch bege estampa? formalidade media,watch,bege,estampa?,media,3,0,0,0,0
+1246,watch rosa estampa? formalidade baixa,watch,rosa,estampa?,baixa,2,0,0,0,0
+1247,watch verde estampa? formalidade desconhecido,watch,verde,estampa?,desconhecido,3,0,0,0,0
+1248,watch cinza 2 estampa? formalidade baixa,watch,cinza 2,estampa?,baixa,2,0,0,0,0
+1249,watch marrom estampa? formalidade baixa,watch,marrom,estampa?,baixa,5,0,0,0,0
+1250,watch amarelo estampa? formalidade baixa,watch,amarelo,estampa?,baixa,4,0,0,0,0
+1251,watch vinho estampa? formalidade media,watch,vinho,estampa?,media,1,0,0,0,0
+1252,watch amarelo estampa? formalidade desconhecido,watch,amarelo,estampa?,desconhecido,1,0,0,0,0
+1253,watch cinza 1 estampa? formalidade media,watch,cinza 1,estampa?,media,2,0,0,0,0
+1254,watch marinho estampa? formalidade media,watch,marinho,estampa?,media,1,0,0,0,0

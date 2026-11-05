@@ -1,0 +1,2018 @@
+tabela,lado_a,lado_b,pares,valor_a,valor_b,n,esperado,pontos
+categoria,bag,dress,3810,lisa,lisa,2281,2276.05,0.00217249
+categoria,bag,dress,3810,lisa,listrada,132,131.614,0.00290517
+categoria,bag,dress,3810,lisa,xadrez,38,40.3617,-0.0587932
+categoria,bag,dress,3810,lisa,floral,459,464.159,-0.0111535
+categoria,bag,dress,3810,lisa,poa,44,45.6262,-0.0355011
+categoria,bag,dress,3810,lisa,animal,40,35.9745,0.103342
+categoria,bag,dress,3810,lisa,outra,349,349.216,-0.000617732
+categoria,bag,dress,3810,listrada,lisa,24,21.106,0.123025
+categoria,bag,dress,3810,listrada,listrada,2,1.22047,0.300892
+categoria,bag,dress,3810,listrada,xadrez,0,0.374278,-0.317929
+categoria,bag,dress,3810,listrada,floral,5,4.3042,0.123261
+categoria,bag,dress,3810,listrada,poa,0,0.423097,-0.352836
+categoria,bag,dress,3810,listrada,animal,0,0.333596,-0.287879
+categoria,bag,dress,3810,listrada,outra,0,3.23832,-1.44417
+categoria,bag,dress,3810,xadrez,lisa,11,8.85092,0.197342
+categoria,bag,dress,3810,xadrez,listrada,0,0.511811,-0.413308
+categoria,bag,dress,3810,xadrez,xadrez,1,0.156955,0.547355
+categoria,bag,dress,3810,xadrez,floral,0,1.80499,-1.0314
+categoria,bag,dress,3810,xadrez,poa,0,0.177428,-0.163332
+categoria,bag,dress,3810,xadrez,animal,0,0.139895,-0.130936
+categoria,bag,dress,3810,xadrez,outra,1,1.35801,-0.164669
+categoria,bag,dress,3810,floral,lisa,83,93.2751,-0.1154
+categoria,bag,dress,3810,floral,listrada,5,5.3937,-0.0635538
+categoria,bag,dress,3810,floral,xadrez,0,1.65407,-0.976094
+categoria,bag,dress,3810,floral,floral,30,19.0218,0.437166
+categoria,bag,dress,3810,floral,poa,4,1.86982,0.55519
+categoria,bag,dress,3810,floral,animal,0,1.47428,-0.905949
+categoria,bag,dress,3810,floral,outra,15,14.3113,0.0439985
+categoria,bag,dress,3810,poa,lisa,6,5.44672,0.0823388
+categoria,bag,dress,3810,poa,listrada,1,0.314961,0.41934
+categoria,bag,dress,3810,poa,xadrez,0,0.0965879,-0.0922035
+categoria,bag,dress,3810,poa,floral,0,1.11076,-0.747049
+categoria,bag,dress,3810,poa,poa,1,0.109186,0.58952
+categoria,bag,dress,3810,poa,animal,0,0.0860892,-0.0825834
+categoria,bag,dress,3810,poa,outra,0,0.835696,-0.607423
+categoria,bag,dress,3810,animal,lisa,56,54.4672,0.0272596
+categoria,bag,dress,3810,animal,listrada,4,3.14961,0.186424
+categoria,bag,dress,3810,animal,xadrez,2,0.965879,0.422673
+categoria,bag,dress,3810,animal,floral,7,11.1076,-0.414393
+categoria,bag,dress,3810,animal,poa,0,1.09186,-0.738055
+categoria,bag,dress,3810,animal,animal,0,0.860892,-0.621056
+categoria,bag,dress,3810,animal,outra,11,8.35696,0.248787
+categoria,bag,dress,3810,outra,lisa,133,134.806,-0.0133898
+categoria,bag,dress,3810,outra,listrada,6,7.79528,-0.228305
+categoria,bag,dress,3810,outra,xadrez,5,2.39055,0.570767
+categoria,bag,dress,3810,outra,floral,28,27.4913,0.0176957
+categoria,bag,dress,3810,outra,poa,3,2.70236,0.0773233
+categoria,bag,dress,3810,outra,animal,1,2.13071,-0.448112
+categoria,bag,dress,3810,outra,outra,22,20.6835,0.0589442
+categoria,bag,hats,1578,lisa,lisa,1258,1254.39,0.0028732
+categoria,bag,hats,1578,lisa,listrada,24,25.5817,-0.061349
+categoria,bag,hats,1578,lisa,xadrez,5,4.41065,0.103391
+categoria,bag,hats,1578,lisa,floral,36,37.9316,-0.0508873
+categoria,bag,hats,1578,lisa,poa,1,0.882129,0.0607435
+categoria,bag,hats,1578,lisa,animal,4,7.93916,-0.581004
+categoria,bag,hats,1578,lisa,outra,64,60.8669,0.0494016
+categoria,bag,hats,1578,listrada,lisa,28,28.8365,-0.0284367
+categoria,bag,hats,1578,listrada,listrada,3,0.588086,0.923765
+categoria,bag,hats,1578,listrada,xadrez,0,0.101394,-0.0965768
+categoria,bag,hats,1578,listrada,floral,1,0.87199,0.0661452
+categoria,bag,hats,1578,listrada,poa,0,0.0202788,-0.020076
+categoria,bag,hats,1578,listrada,animal,0,0.18251,-0.167639
+categoria,bag,hats,1578,listrada,outra,0,1.39924,-0.875152
+categoria,bag,hats,1578,xadrez,lisa,9,8.11027,0.0931832
+categoria,bag,hats,1578,xadrez,listrada,0,0.165399,-0.153064
+categoria,bag,hats,1578,xadrez,xadrez,0,0.0285171,-0.0281181
+categoria,bag,hats,1578,xadrez,floral,0,0.245247,-0.219334
+categoria,bag,hats,1578,xadrez,poa,0,0.00570342,-0.00568722
+categoria,bag,hats,1578,xadrez,animal,0,0.0513308,-0.0500568
+categoria,bag,hats,1578,xadrez,outra,0,0.393536,-0.331844
+categoria,bag,hats,1578,floral,lisa,31,34.2433,-0.0965408
+categoria,bag,hats,1578,floral,listrada,1,0.698352,0.163489
+categoria,bag,hats,1578,floral,xadrez,0,0.120406,-0.113691
+categoria,bag,hats,1578,floral,floral,4,1.03549,0.898702
+categoria,bag,hats,1578,floral,poa,0,0.0240811,-0.0237957
+categoria,bag,hats,1578,floral,animal,1,0.21673,0.49698
+categoria,bag,hats,1578,floral,outra,1,1.6616,-0.285779
+categoria,bag,hats,1578,poa,lisa,2,1.80228,0.0681784
+categoria,bag,hats,1578,poa,listrada,0,0.0367554,-0.036096
+categoria,bag,hats,1578,poa,xadrez,0,0.00633714,-0.00631714
+categoria,bag,hats,1578,poa,floral,0,0.0544994,-0.0530661
+categoria,bag,hats,1578,poa,poa,0,0.00126743,-0.00126662
+categoria,bag,hats,1578,poa,animal,0,0.0114068,-0.0113423
+categoria,bag,hats,1578,poa,outra,0,0.0874525,-0.0838378
+categoria,bag,hats,1578,animal,lisa,36,36.0456,-0.00123241
+categoria,bag,hats,1578,animal,listrada,0,0.735108,-0.55107
+categoria,bag,hats,1578,animal,xadrez,0,0.126743,-0.119331
+categoria,bag,hats,1578,animal,floral,0,1.08999,-0.737158
+categoria,bag,hats,1578,animal,poa,0,0.0253485,-0.0250326
+categoria,bag,hats,1578,animal,animal,4,0.228137,1.40394
+categoria,bag,hats,1578,animal,outra,0,1.74905,-1.01126
+categoria,bag,hats,1578,outra,lisa,58,58.5741,-0.00968422
+categoria,bag,hats,1578,outra,listrada,1,1.19455,-0.0928299
+categoria,bag,hats,1578,outra,xadrez,0,0.205957,-0.187273
+categoria,bag,hats,1578,outra,floral,2,1.77123,0.0793212
+categoria,bag,hats,1578,outra,poa,0,0.0411914,-0.0403656
+categoria,bag,hats,1578,outra,animal,0,0.370722,-0.315338
+categoria,bag,hats,1578,outra,outra,4,2.84221,0.263391
+categoria,bag,neckwear,888,lisa,lisa,500,493.077,0.0139156
+categoria,bag,neckwear,888,lisa,listrada,40,39.5901,0.0100481
+categoria,bag,neckwear,888,lisa,xadrez,40,40.4899,-0.0118771
+categoria,bag,neckwear,888,lisa,floral,38,37.7905,0.00538523
+categoria,bag,neckwear,888,lisa,poa,13,12.5968,0.0292194
+categoria,bag,neckwear,888,lisa,animal,40,46.7883,-0.153209
+categoria,bag,neckwear,888,lisa,outra,128,128.668,-0.00516334
+categoria,bag,neckwear,888,listrada,lisa,1,4.31982,-0.978292
+categoria,bag,neckwear,888,listrada,listrada,3,0.346847,1.08853
+categoria,bag,neckwear,888,listrada,xadrez,1,0.35473,0.389545
+categoria,bag,neckwear,888,listrada,floral,0,0.331081,-0.285991
+categoria,bag,neckwear,888,listrada,poa,0,0.11036,-0.104685
+categoria,bag,neckwear,888,listrada,animal,0,0.40991,-0.343526
+categoria,bag,neckwear,888,listrada,outra,2,1.12725,0.343781
+categoria,bag,neckwear,888,xadrez,lisa,5,5.55405,-0.0883243
+categoria,bag,neckwear,888,xadrez,listrada,0,0.445946,-0.368764
+categoria,bag,neckwear,888,xadrez,xadrez,3,0.456081,1.01055
+categoria,bag,neckwear,888,xadrez,floral,0,0.425676,-0.354646
+categoria,bag,neckwear,888,xadrez,poa,0,0.141892,-0.132686
+categoria,bag,neckwear,888,xadrez,animal,0,0.527027,-0.423323
+categoria,bag,neckwear,888,xadrez,outra,1,1.44932,-0.202665
+categoria,bag,neckwear,888,floral,lisa,10,9.25676,0.0699586
+categoria,bag,neckwear,888,floral,listrada,1,0.743243,0.1374
+categoria,bag,neckwear,888,floral,xadrez,1,0.760135,0.127757
+categoria,bag,neckwear,888,floral,floral,2,0.709459,0.562435
+categoria,bag,neckwear,888,floral,poa,0,0.236486,-0.212274
+categoria,bag,neckwear,888,floral,animal,1,0.878378,0.0627383
+categoria,bag,neckwear,888,floral,outra,0,2.41554,-1.22834
+categoria,bag,neckwear,888,poa,lisa,1,1.23423,-0.110751
+categoria,bag,neckwear,888,poa,listrada,0,0.0990991,-0.0944908
+categoria,bag,neckwear,888,poa,xadrez,0,0.101351,-0.0965379
+categoria,bag,neckwear,888,poa,floral,0,0.0945946,-0.0903841
+categoria,bag,neckwear,888,poa,poa,0,0.0315315,-0.0310446
+categoria,bag,neckwear,888,poa,animal,0,0.117117,-0.110751
+categoria,bag,neckwear,888,poa,outra,1,0.322072,0.413947
+categoria,bag,neckwear,888,animal,lisa,12,15.4279,-0.234033
+categoria,bag,neckwear,888,animal,listrada,0,1.23874,-0.805913
+categoria,bag,neckwear,888,animal,xadrez,0,1.26689,-0.81841
+categoria,bag,neckwear,888,animal,floral,1,1.18243,-0.0872929
+categoria,bag,neckwear,888,animal,poa,0,0.394144,-0.332281
+categoria,bag,neckwear,888,animal,animal,9,1.46396,1.40081
+categoria,bag,neckwear,888,animal,outra,3,4.0259,-0.22831
+categoria,bag,neckwear,888,outra,lisa,19,19.1306,-0.00651029
+categoria,bag,neckwear,888,outra,listrada,0,1.53604,-0.930602
+categoria,bag,neckwear,888,outra,xadrez,0,1.57095,-0.944274
+categoria,bag,neckwear,888,outra,floral,1,1.46622,-0.209538
+categoria,bag,neckwear,888,outra,poa,1,0.488739,0.295218
+categoria,bag,neckwear,888,outra,animal,2,1.81532,0.063538
+categoria,bag,neckwear,888,outra,outra,8,4.99212,0.40678
+categoria,bag,outerwear,6039,lisa,lisa,4806,4806.95,-0.000197745
+categoria,bag,outerwear,6039,lisa,listrada,108,111.393,-0.0306503
+categoria,bag,outerwear,6039,lisa,xadrez,101,95.2227,0.0583073
+categoria,bag,outerwear,6039,lisa,floral,135,133.851,0.00848588
+categoria,bag,outerwear,6039,lisa,poa,10,10.7799,-0.068502
+categoria,bag,outerwear,6039,lisa,animal,89,89.8328,-0.00921027
+categoria,bag,outerwear,6039,lisa,outra,176,176.971,-0.00546821
+categoria,bag,outerwear,6039,listrada,lisa,52,53.1644,-0.0217325
+categoria,bag,outerwear,6039,listrada,listrada,4,1.23199,0.806543
+categoria,bag,outerwear,6039,listrada,xadrez,1,1.05315,-0.0262302
+categoria,bag,outerwear,6039,listrada,floral,0,1.48038,-0.908411
+categoria,bag,outerwear,6039,listrada,poa,0,0.119225,-0.112637
+categoria,bag,outerwear,6039,listrada,animal,1,0.993542,0.00323424
+categoria,bag,outerwear,6039,listrada,outra,2,1.95728,0.0143431
+categoria,bag,outerwear,6039,xadrez,lisa,18,17.7215,0.0147676
+categoria,bag,outerwear,6039,xadrez,listrada,0,0.410664,-0.344061
+categoria,bag,outerwear,6039,xadrez,xadrez,0,0.351051,-0.300883
+categoria,bag,outerwear,6039,xadrez,floral,0,0.493459,-0.401095
+categoria,bag,outerwear,6039,xadrez,poa,0,0.0397417,-0.0389723
+categoria,bag,outerwear,6039,xadrez,animal,0,0.331181,-0.286066
+categoria,bag,outerwear,6039,xadrez,outra,2,0.652426,0.596368
+categoria,bag,outerwear,6039,floral,lisa,95,98.3542,-0.034343
+categoria,bag,outerwear,6039,floral,listrada,4,2.27919,0.421843
+categoria,bag,outerwear,6039,floral,xadrez,1,1.94834,-0.388094
+categoria,bag,outerwear,6039,floral,floral,5,2.7387,0.473022
+categoria,bag,outerwear,6039,floral,poa,0,0.220566,-0.199315
+categoria,bag,outerwear,6039,floral,animal,1,1.83805,-0.349971
+categoria,bag,outerwear,6039,floral,outra,5,3.62096,0.261156
+categoria,bag,outerwear,6039,poa,lisa,14,14.1772,-0.0117429
+categoria,bag,outerwear,6039,poa,listrada,0,0.328531,-0.284074
+categoria,bag,outerwear,6039,poa,xadrez,1,0.280841,0.44563
+categoria,bag,outerwear,6039,poa,floral,0,0.394767,-0.332728
+categoria,bag,outerwear,6039,poa,poa,0,0.0317933,-0.0312984
+categoria,bag,outerwear,6039,poa,animal,0,0.264945,-0.235028
+categoria,bag,outerwear,6039,poa,outra,1,0.521941,0.273161
+categoria,bag,outerwear,6039,animal,lisa,151,151.519,-0.00340622
+categoria,bag,outerwear,6039,animal,listrada,1,3.51118,-0.813411
+categoria,bag,outerwear,6039,animal,xadrez,0,3.00149,-1.38667
+categoria,bag,outerwear,6039,animal,floral,5,4.21908,0.139439
+categoria,bag,outerwear,6039,animal,poa,1,0.339791,0.400633
+categoria,bag,outerwear,6039,animal,animal,7,2.83159,0.73616
+categoria,bag,outerwear,6039,animal,outra,6,5.57824,0.0621427
+categoria,bag,outerwear,6039,outra,lisa,215,209.113,0.0276309
+categoria,bag,outerwear,6039,outra,listrada,7,4.84584,0.313712
+categoria,bag,outerwear,6039,outra,xadrez,2,4.14241,-0.538909
+categoria,bag,outerwear,6039,outra,floral,4,5.82282,-0.310835
+categoria,bag,outerwear,6039,outra,poa,1,0.468952,0.308598
+categoria,bag,outerwear,6039,outra,animal,2,3.90793,-0.49224
+categoria,bag,outerwear,6039,outra,outra,5,7.69863,-0.371406
+categoria,bag,pants,4493,lisa,lisa,3626,3632.66,-0.00183421
+categoria,bag,pants,4493,lisa,listrada,85,85.5909,-0.00684765
+categoria,bag,pants,4493,lisa,xadrez,32,32.4345,-0.0130794
+categoria,bag,pants,4493,lisa,floral,129,127.936,0.00821907
+categoria,bag,pants,4493,lisa,poa,11,10.8115,0.0158343
+categoria,bag,pants,4493,lisa,animal,16,14.4153,0.097852
+categoria,bag,pants,4493,lisa,outra,149,144.153,0.0328461
+categoria,bag,pants,4493,listrada,lisa,46,42.1776,0.0848255
+categoria,bag,pants,4493,listrada,listrada,0,0.993768,-0.690026
+categoria,bag,pants,4493,listrada,xadrez,0,0.376586,-0.319606
+categoria,bag,pants,4493,listrada,floral,1,1.48542,-0.217295
+categoria,bag,pants,4493,listrada,poa,0,0.125529,-0.118253
+categoria,bag,pants,4493,listrada,animal,0,0.167371,-0.154755
+categoria,bag,pants,4493,listrada,outra,0,1.67371,-0.983469
+categoria,bag,pants,4493,xadrez,lisa,16,17.0505,-0.0599613
+categoria,bag,pants,4493,xadrez,listrada,1,0.401736,0.355436
+categoria,bag,pants,4493,xadrez,xadrez,2,0.152237,0.956907
+categoria,bag,pants,4493,xadrez,floral,0,0.60049,-0.47031
+categoria,bag,pants,4493,xadrez,poa,0,0.0507456,-0.0495
+categoria,bag,pants,4493,xadrez,animal,0,0.0676608,-0.0654701
+categoria,bag,pants,4493,xadrez,outra,0,0.676608,-0.516773
+categoria,bag,pants,4493,floral,lisa,77,76.2787,0.00929103
+categoria,bag,pants,4493,floral,listrada,1,1.79724,-0.335486
+categoria,bag,pants,4493,floral,xadrez,0,0.681059,-0.519424
+categoria,bag,pants,4493,floral,floral,4,2.6864,0.304787
+categoria,bag,pants,4493,floral,poa,0,0.22702,-0.204588
+categoria,bag,pants,4493,floral,animal,0,0.302693,-0.264434
+categoria,bag,pants,4493,floral,outra,3,3.02693,-0.00671013
+categoria,bag,pants,4493,poa,lisa,18,17.9479,0.00274487
+categoria,bag,pants,4493,poa,listrada,0,0.42288,-0.352683
+categoria,bag,pants,4493,poa,xadrez,0,0.160249,-0.148635
+categoria,bag,pants,4493,poa,floral,1,0.632094,0.203283
+categoria,bag,pants,4493,poa,poa,0,0.0534164,-0.0520386
+categoria,bag,pants,4493,poa,animal,0,0.0712219,-0.0688
+categoria,bag,pants,4493,poa,outra,1,0.712219,0.155357
+categoria,bag,pants,4493,animal,lisa,90,88.8422,0.0128047
+categoria,bag,pants,4493,animal,listrada,2,2.09326,-0.030612
+categoria,bag,pants,4493,animal,xadrez,1,0.793234,0.109127
+categoria,bag,pants,4493,animal,floral,1,3.12887,-0.724856
+categoria,bag,pants,4493,animal,poa,1,0.264411,0.458541
+categoria,bag,pants,4493,animal,animal,0,0.352548,-0.301991
+categoria,bag,pants,4493,animal,outra,4,3.52548,0.0997134
+categoria,bag,pants,4493,outra,lisa,159,157.044,0.0122985
+categoria,bag,pants,4493,outra,listrada,6,3.7002,0.398305
+categoria,bag,pants,4493,outra,xadrez,1,1.40218,-0.18323
+categoria,bag,pants,4493,outra,floral,6,5.53083,0.0693768
+categoria,bag,pants,4493,outra,poa,0,0.467394,-0.383488
+categoria,bag,pants,4493,outra,animal,0,0.623192,-0.484394
+categoria,bag,pants,4493,outra,outra,3,6.23192,-0.59221
+categoria,bag,shoes,10813,lisa,lisa,9123,9085.47,0.00412197
+categoria,bag,shoes,10813,lisa,listrada,51,59.2004,-0.146435
+categoria,bag,shoes,10813,lisa,xadrez,13,16.1456,-0.202682
+categoria,bag,shoes,10813,lisa,floral,160,163.25,-0.0199829
+categoria,bag,shoes,10813,lisa,poa,13,13.4546,-0.031958
+categoria,bag,shoes,10813,lisa,animal,231,241.287,-0.0433836
+categoria,bag,shoes,10813,lisa,outra,108,120.195,-0.106051
+categoria,bag,shoes,10813,listrada,lisa,92,99.2947,-0.0755137
+categoria,bag,shoes,10813,listrada,listrada,4,0.646999,1.11048
+categoria,bag,shoes,10813,listrada,xadrez,1,0.176454,0.530642
+categoria,bag,shoes,10813,listrada,floral,3,1.78415,0.362352
+categoria,bag,shoes,10813,listrada,poa,0,0.147045,-0.137189
+categoria,bag,shoes,10813,listrada,animal,2,2.63701,-0.19255
+categoria,bag,shoes,10813,listrada,outra,4,1.3136,0.770631
+categoria,bag,shoes,10813,xadrez,lisa,29,29.039,-0.00130006
+categoria,bag,shoes,10813,xadrez,listrada,0,0.189217,-0.173295
+categoria,bag,shoes,10813,xadrez,xadrez,1,0.0516046,0.64283
+categoria,bag,shoes,10813,xadrez,floral,0,0.521779,-0.41988
+categoria,bag,shoes,10813,xadrez,poa,0,0.0430038,-0.0421048
+categoria,bag,shoes,10813,xadrez,animal,0,0.771201,-0.571658
+categoria,bag,shoes,10813,xadrez,outra,1,0.384167,0.368049
+categoria,bag,shoes,10813,floral,lisa,247,249.174,-0.00872628
+categoria,bag,shoes,10813,floral,listrada,2,1.6236,0.134064
+categoria,bag,shoes,10813,floral,xadrez,2,0.4428,0.732026
+categoria,bag,shoes,10813,floral,floral,7,4.4772,0.378847
+categoria,bag,shoes,10813,floral,poa,1,0.369,0.379066
+categoria,bag,shoes,10813,floral,animal,0,6.6174,-2.03044
+categoria,bag,shoes,10813,floral,outra,7,3.2964,0.621664
+categoria,bag,shoes,10813,poa,lisa,26,25.2921,0.02657
+categoria,bag,shoes,10813,poa,listrada,0,0.164802,-0.152551
+categoria,bag,shoes,10813,poa,xadrez,0,0.0449459,-0.0439651
+categoria,bag,shoes,10813,poa,floral,1,0.454453,0.318517
+categoria,bag,shoes,10813,poa,poa,0,0.0374549,-0.0367705
+categoria,bag,shoes,10813,poa,animal,0,0.671691,-0.513836
+categoria,bag,shoes,10813,poa,outra,0,0.334597,-0.28863
+categoria,bag,shoes,10813,animal,lisa,194,209.83,-0.0780544
+categoria,bag,shoes,10813,animal,listrada,1,1.36724,-0.168579
+categoria,bag,shoes,10813,animal,xadrez,1,0.372884,0.376233
+categoria,bag,shoes,10813,animal,floral,2,3.77028,-0.463792
+categoria,bag,shoes,10813,animal,poa,0,0.310737,-0.27059
+categoria,bag,shoes,10813,animal,animal,22,5.57255,1.25259
+categoria,bag,shoes,10813,animal,outra,4,2.77592,0.280794
+categoria,bag,shoes,10813,outra,lisa,418,430.902,-0.0303271
+categoria,bag,shoes,10813,outra,listrada,8,2.80773,0.860191
+categoria,bag,shoes,10813,outra,xadrez,0,0.765745,-0.568573
+categoria,bag,shoes,10813,outra,floral,9,7.74253,0.134385
+categoria,bag,shoes,10813,outra,poa,1,0.638121,0.199597
+categoria,bag,shoes,10813,outra,animal,14,11.4436,0.186841
+categoria,bag,shoes,10813,outra,outra,10,5.70055,0.495706
+categoria,bag,skirt,3185,lisa,lisa,1867,1875.72,-0.00465954
+categoria,bag,skirt,3185,lisa,listrada,128,123.615,0.0345829
+categoria,bag,skirt,3185,lisa,xadrez,124,121.824,0.017565
+categoria,bag,skirt,3185,lisa,floral,337,329.64,0.0220152
+categoria,bag,skirt,3185,lisa,poa,44,48.3711,-0.092703
+categoria,bag,skirt,3185,lisa,animal,23,26.8728,-0.149599
+categoria,bag,skirt,3185,lisa,outra,330,326.953,0.00924836
+categoria,bag,skirt,3185,listrada,lisa,16,18.4088,-0.132513
+categoria,bag,skirt,3185,listrada,listrada,2,1.21319,0.304179
+categoria,bag,skirt,3185,listrada,xadrez,1,1.1956,-0.0933102
+categoria,bag,skirt,3185,listrada,floral,3,3.23516,-0.0571279
+categoria,bag,skirt,3185,listrada,poa,2,0.474725,0.710141
+categoria,bag,skirt,3185,listrada,animal,1,0.263736,0.459075
+categoria,bag,skirt,3185,listrada,outra,3,3.20879,-0.0508811
+categoria,bag,skirt,3185,xadrez,lisa,2,4.6022,-0.624547
+categoria,bag,skirt,3185,xadrez,listrada,2,0.303297,0.833715
+categoria,bag,skirt,3185,xadrez,xadrez,2,0.298901,0.837094
+categoria,bag,skirt,3185,xadrez,floral,0,0.808791,-0.592659
+categoria,bag,skirt,3185,xadrez,poa,0,0.118681,-0.112151
+categoria,bag,skirt,3185,xadrez,animal,0,0.0659341,-0.0638515
+categoria,bag,skirt,3185,xadrez,outra,1,0.802198,0.10414
+categoria,bag,skirt,3185,floral,lisa,58,55.2264,0.0481515
+categoria,bag,skirt,3185,floral,listrada,1,3.63956,-0.841472
+categoria,bag,skirt,3185,floral,xadrez,1,3.58681,-0.830038
+categoria,bag,skirt,3185,floral,floral,14,9.70549,0.337293
+categoria,bag,skirt,3185,floral,poa,3,1.42418,0.500803
+categoria,bag,skirt,3185,floral,animal,1,0.791209,0.110256
+categoria,bag,skirt,3185,floral,outra,6,9.62637,-0.417429
+categoria,bag,skirt,3185,poa,lisa,2,7.88948,-1.08626
+categoria,bag,skirt,3185,poa,listrada,1,0.519937,0.274478
+categoria,bag,skirt,3185,poa,xadrez,1,0.512402,0.279448
+categoria,bag,skirt,3185,poa,floral,1,1.3865,-0.17668
+categoria,bag,skirt,3185,poa,poa,4,0.203454,1.42424
+categoria,bag,skirt,3185,poa,animal,0,0.11303,-0.107086
+categoria,bag,skirt,3185,poa,outra,3,1.3752,0.521214
+categoria,bag,skirt,3185,animal,lisa,61,49.9667,0.195962
+categoria,bag,skirt,3185,animal,listrada,0,3.29294,-1.45697
+categoria,bag,skirt,3185,animal,xadrez,0,3.24521,-1.44579
+categoria,bag,skirt,3185,animal,floral,5,8.78116,-0.488699
+categoria,bag,skirt,3185,animal,poa,0,1.28854,-0.827914
+categoria,bag,skirt,3185,animal,animal,3,0.715856,0.846383
+categoria,bag,skirt,3185,animal,outra,7,8.70958,-0.193671
+categoria,bag,skirt,3185,outra,lisa,88,82.1821,0.0676041
+categoria,bag,skirt,3185,outra,listrada,4,5.41601,-0.249359
+categoria,bag,skirt,3185,outra,xadrez,7,5.33752,0.232954
+categoria,bag,skirt,3185,outra,floral,8,14.4427,-0.539912
+categoria,bag,skirt,3185,outra,poa,1,2.11931,-0.444464
+categoria,bag,skirt,3185,outra,animal,2,1.17739,0.320484
+categoria,bag,skirt,3185,outra,outra,15,14.325,0.0431058
+categoria,bag,top,11123,lisa,lisa,7163,7146.73,0.00227414
+categoria,bag,top,11123,lisa,listrada,704,704.747,-0.00105852
+categoria,bag,top,11123,lisa,xadrez,178,177.766,0.00130923
+categoria,bag,top,11123,lisa,floral,448,456.596,-0.0189647
+categoria,bag,top,11123,lisa,poa,114,112.796,0.0105286
+categoria,bag,top,11123,lisa,animal,110,118.21,-0.0713543
+categoria,bag,top,11123,lisa,outra,1320,1320.16,-0.000120522
+categoria,bag,top,11123,listrada,lisa,88,89.7168,-0.0191062
+categoria,bag,top,11123,listrada,listrada,15,8.84707,0.485414
+categoria,bag,top,11123,listrada,xadrez,3,2.23159,0.213319
+categoria,bag,top,11123,listrada,floral,6,5.73191,0.0390517
+categoria,bag,top,11123,listrada,poa,2,1.41598,0.216505
+categoria,bag,top,11123,listrada,animal,0,1.48395,-0.909851
+categoria,bag,top,11123,listrada,outra,12,16.5727,-0.301396
+categoria,bag,top,11123,xadrez,lisa,27,27.0574,-0.00204963
+categoria,bag,top,11123,xadrez,listrada,2,2.66817,-0.201079
+categoria,bag,top,11123,xadrez,xadrez,2,0.67302,0.583982
+categoria,bag,top,11123,xadrez,floral,1,1.72867,-0.310667
+categoria,bag,top,11123,xadrez,poa,1,0.427043,0.337543
+categoria,bag,top,11123,xadrez,animal,2,0.447541,0.728746
+categoria,bag,top,11123,xadrez,outra,3,4.99811,-0.40515
+categoria,bag,top,11123,floral,lisa,158,164.481,-0.039951
+categoria,bag,top,11123,floral,listrada,15,16.2196,-0.0734616
+categoria,bag,top,11123,floral,xadrez,1,4.09125,-0.934377
+categoria,bag,top,11123,floral,floral,25,10.5085,0.815011
+categoria,bag,top,11123,floral,poa,2,2.59597,-0.181202
+categoria,bag,top,11123,floral,animal,2,2.72058,-0.215267
+categoria,bag,top,11123,floral,outra,28,30.3833,-0.0789788
+categoria,bag,top,11123,poa,lisa,26,27.7695,-0.0634785
+categoria,bag,top,11123,poa,listrada,3,2.73838,0.067642
+categoria,bag,top,11123,poa,xadrez,0,0.690731,-0.525161
+categoria,bag,top,11123,poa,floral,3,1.77416,0.365946
+categoria,bag,top,11123,poa,poa,1,0.438281,0.329699
+categoria,bag,top,11123,poa,animal,1,0.459319,0.315178
+categoria,bag,top,11123,poa,outra,5,5.12964,-0.0213768
+categoria,bag,top,11123,animal,lisa,187,181.57,0.0293098
+categoria,bag,top,11123,animal,listrada,17,17.9048,-0.0490437
+categoria,bag,top,11123,animal,xadrez,2,4.51632,-0.609098
+categoria,bag,top,11123,animal,floral,6,11.6003,-0.587809
+categoria,bag,top,11123,animal,poa,0,2.86568,-1.35214
+categoria,bag,top,11123,animal,animal,12,3.00324,1.17785
+categoria,bag,top,11123,animal,outra,31,33.54,-0.0763811
+categoria,bag,top,11123,outra,lisa,271,282.679,-0.0420417
+categoria,bag,top,11123,outra,listrada,25,27.8753,-0.10489
+categoria,bag,top,11123,outra,xadrez,11,7.03129,0.401562
+categoria,bag,top,11123,outra,floral,17,18.0601,-0.0572231
+categoria,bag,top,11123,outra,poa,5,4.46148,0.0940403
+categoria,bag,top,11123,outra,animal,4,4.67563,-0.126743
+categoria,bag,top,11123,outra,outra,64,52.2171,0.200007
+categoria,dress,hats,377,lisa,lisa,210,213.114,-0.0146507
+categoria,dress,hats,377,lisa,listrada,6,5.77719,0.0323478
+categoria,dress,hats,377,lisa,floral,15,13.4801,0.099813
+categoria,dress,hats,377,lisa,poa,0,0.64191,-0.49586
+categoria,dress,hats,377,lisa,animal,1,0.64191,0.197287
+categoria,dress,hats,377,lisa,outra,10,8.34483,0.163072
+categoria,dress,hats,377,listrada,lisa,18,16.7321,0.0690627
+categoria,dress,hats,377,listrada,listrada,0,0.453581,-0.37403
+categoria,dress,hats,377,listrada,floral,1,1.05836,-0.0287602
+categoria,dress,hats,377,listrada,poa,0,0.0503979,-0.049169
+categoria,dress,hats,377,listrada,animal,0,0.0503979,-0.049169
+categoria,dress,hats,377,listrada,outra,0,0.655172,-0.503905
+categoria,dress,hats,377,xadrez,lisa,4,3.52255,0.100363
+categoria,dress,hats,377,xadrez,listrada,0,0.0954907,-0.0912024
+categoria,dress,hats,377,xadrez,floral,0,0.222812,-0.201153
+categoria,dress,hats,377,xadrez,poa,0,0.0106101,-0.0105542
+categoria,dress,hats,377,xadrez,animal,0,0.0106101,-0.0105542
+categoria,dress,hats,377,xadrez,outra,0,0.137931,-0.129212
+categoria,dress,hats,377,floral,lisa,50,49.3156,0.0135095
+categoria,dress,hats,377,floral,listrada,2,1.33687,0.2498
+categoria,dress,hats,377,floral,floral,1,3.11936,-0.722551
+categoria,dress,hats,377,floral,poa,1,0.148541,0.554655
+categoria,dress,hats,377,floral,animal,0,0.148541,-0.138493
+categoria,dress,hats,377,floral,outra,2,1.93103,0.0232569
+categoria,dress,hats,377,poa,lisa,3,2.64191,0.0937861
+categoria,dress,hats,377,poa,listrada,0,0.071618,-0.0691697
+categoria,dress,hats,377,poa,floral,0,0.167109,-0.15453
+categoria,dress,hats,377,poa,poa,0,0.00795756,-0.00792607
+categoria,dress,hats,377,poa,animal,0,0.00795756,-0.00792607
+categoria,dress,hats,377,poa,outra,0,0.103448,-0.0984401
+categoria,dress,hats,377,animal,lisa,4,4.40318,-0.0775503
+categoria,dress,hats,377,animal,listrada,0,0.119363,-0.11276
+categoria,dress,hats,377,animal,floral,1,0.278515,0.447448
+categoria,dress,hats,377,animal,poa,0,0.0132626,-0.0131754
+categoria,dress,hats,377,animal,animal,0,0.0132626,-0.0131754
+categoria,dress,hats,377,animal,outra,0,0.172414,-0.159065
+categoria,dress,hats,377,outra,lisa,43,42.2706,0.0167172
+categoria,dress,hats,377,outra,listrada,1,1.14589,-0.0704065
+categoria,dress,hats,377,outra,floral,3,2.67374,0.0850841
+categoria,dress,hats,377,outra,poa,0,0.127321,-0.119844
+categoria,dress,hats,377,outra,animal,0,0.127321,-0.119844
+categoria,dress,hats,377,outra,outra,1,1.65517,-0.283362
+categoria,dress,outerwear,1592,lisa,lisa,968,977.45,-0.00970482
+categoria,dress,outerwear,1592,lisa,listrada,25,21.9497,0.12479
+categoria,dress,outerwear,1592,lisa,xadrez,20,15.0905,0.266296
+categoria,dress,outerwear,1592,lisa,floral,33,29.495,0.108799
+categoria,dress,outerwear,1592,lisa,poa,2,2.74372,-0.221467
+categoria,dress,outerwear,1592,lisa,animal,20,19.892,0.00515805
+categoria,dress,outerwear,1592,lisa,outra,24,25.3794,-0.0537075
+categoria,dress,outerwear,1592,listrada,lisa,61,61.7619,-0.0122144
+categoria,dress,outerwear,1592,listrada,listrada,2,1.38693,0.228602
+categoria,dress,outerwear,1592,listrada,xadrez,0,0.953518,-0.669632
+categoria,dress,outerwear,1592,listrada,floral,3,1.86369,0.334182
+categoria,dress,outerwear,1592,listrada,poa,0,0.173367,-0.159877
+categoria,dress,outerwear,1592,listrada,animal,0,1.25691,-0.813996
+categoria,dress,outerwear,1592,listrada,outra,3,1.60364,0.429383
+categoria,dress,outerwear,1592,xadrez,lisa,18,18.7971,-0.041097
+categoria,dress,outerwear,1592,xadrez,listrada,1,0.422111,0.341005
+categoria,dress,outerwear,1592,xadrez,xadrez,0,0.290201,-0.254798
+categoria,dress,outerwear,1592,xadrez,floral,0,0.567211,-0.449298
+categoria,dress,outerwear,1592,xadrez,poa,0,0.0527638,-0.0514189
+categoria,dress,outerwear,1592,xadrez,animal,0,0.382538,-0.323921
+categoria,dress,outerwear,1592,xadrez,outra,2,0.488065,0.701135
+categoria,dress,outerwear,1592,floral,lisa,179,172.754,0.0353141
+categoria,dress,outerwear,1592,floral,listrada,1,3.8794,-0.891874
+categoria,dress,outerwear,1592,floral,xadrez,1,2.66709,-0.60625
+categoria,dress,outerwear,1592,floral,floral,7,5.21294,0.252807
+categoria,dress,outerwear,1592,floral,poa,0,0.484925,-0.395364
+categoria,dress,outerwear,1592,floral,animal,4,3.5157,0.101877
+categoria,dress,outerwear,1592,floral,outra,1,4.48555,-1.00897
+categoria,dress,outerwear,1592,poa,lisa,28,25.0628,0.106786
+categoria,dress,outerwear,1592,poa,listrada,0,0.562814,-0.446488
+categoria,dress,outerwear,1592,poa,xadrez,0,0.386935,-0.327096
+categoria,dress,outerwear,1592,poa,floral,0,0.756281,-0.563199
+categoria,dress,outerwear,1592,poa,poa,0,0.0703518,-0.0679873
+categoria,dress,outerwear,1592,poa,animal,0,0.51005,-0.412143
+categoria,dress,outerwear,1592,poa,outra,0,0.650754,-0.501232
+categoria,dress,outerwear,1592,animal,lisa,16,16.1118,-0.00655547
+categoria,dress,outerwear,1592,animal,listrada,1,0.361809,0.384333
+categoria,dress,outerwear,1592,animal,xadrez,0,0.248744,-0.222138
+categoria,dress,outerwear,1592,animal,floral,0,0.486181,-0.39621
+categoria,dress,outerwear,1592,animal,poa,1,0.0452261,0.648914
+categoria,dress,outerwear,1592,animal,animal,0,0.327889,-0.283591
+categoria,dress,outerwear,1592,animal,outra,0,0.418342,-0.349488
+categoria,dress,outerwear,1592,outra,lisa,155,153.062,0.0124997
+categoria,dress,outerwear,1592,outra,listrada,2,3.43719,-0.391408
+categoria,dress,outerwear,1592,outra,xadrez,1,2.36307,-0.519706
+categoria,dress,outerwear,1592,outra,floral,0,4.61872,-1.7261
+categoria,dress,outerwear,1592,outra,poa,1,0.429648,0.335719
+categoria,dress,outerwear,1592,outra,animal,5,3.11495,0.377133
+categoria,dress,outerwear,1592,outra,outra,7,3.97425,0.475168
+categoria,dress,pants,223,lisa,lisa,127,127.09,-0.000700427
+categoria,dress,pants,223,lisa,listrada,2,1.89686,0.0349846
+categoria,dress,pants,223,lisa,xadrez,1,0.632287,0.203165
+categoria,dress,pants,223,lisa,floral,6,5.69058,0.0452091
+categoria,dress,pants,223,lisa,poa,3,2.52915,0.125238
+categoria,dress,pants,223,lisa,outra,2,3.16143,-0.327248
+categoria,dress,pants,223,listrada,lisa,10,9.01345,0.0939658
+categoria,dress,pants,223,listrada,listrada,0,0.134529,-0.126218
+categoria,dress,pants,223,listrada,xadrez,0,0.044843,-0.0438667
+categoria,dress,pants,223,listrada,floral,0,0.403587,-0.339031
+categoria,dress,pants,223,listrada,poa,0,0.179372,-0.164982
+categoria,dress,pants,223,listrada,outra,0,0.224215,-0.2023
+categoria,dress,pants,223,xadrez,lisa,5,4.50673,0.0857891
+categoria,dress,pants,223,xadrez,listrada,0,0.0672646,-0.0650989
+categoria,dress,pants,223,xadrez,xadrez,0,0.0224215,-0.0221739
+categoria,dress,pants,223,xadrez,floral,0,0.201794,-0.183815
+categoria,dress,pants,223,xadrez,poa,0,0.0896861,-0.0858897
+categoria,dress,pants,223,xadrez,outra,0,0.112108,-0.106257
+categoria,dress,pants,223,floral,lisa,30,33.3498,-0.102608
+categoria,dress,pants,223,floral,listrada,1,0.497758,0.289178
+categoria,dress,pants,223,floral,xadrez,0,0.165919,-0.15351
+categoria,dress,pants,223,floral,floral,3,1.49327,0.472698
+categoria,dress,pants,223,floral,poa,0,0.663677,-0.50903
+categoria,dress,pants,223,floral,outra,3,0.829596,0.782199
+categoria,dress,pants,223,poa,lisa,3,2.70404,0.0768714
+categoria,dress,pants,223,poa,listrada,0,0.0403587,-0.0395656
+categoria,dress,pants,223,poa,xadrez,0,0.0134529,-0.0133632
+categoria,dress,pants,223,poa,floral,0,0.121076,-0.114289
+categoria,dress,pants,223,poa,poa,0,0.0538117,-0.0524137
+categoria,dress,pants,223,poa,outra,0,0.0672646,-0.0650989
+categoria,dress,pants,223,animal,lisa,2,1.80269,0.0680324
+categoria,dress,pants,223,animal,listrada,0,0.0269058,-0.0265502
+categoria,dress,pants,223,animal,xadrez,0,0.00896861,-0.00892863
+categoria,dress,pants,223,animal,floral,0,0.0807175,-0.0776252
+categoria,dress,pants,223,animal,poa,0,0.0358744,-0.0352459
+categoria,dress,pants,223,animal,outra,0,0.044843,-0.0438667
+categoria,dress,pants,223,outra,lisa,24,22.5336,0.0604453
+categoria,dress,pants,223,outra,listrada,0,0.336323,-0.289922
+categoria,dress,pants,223,outra,xadrez,0,0.112108,-0.106257
+categoria,dress,pants,223,outra,floral,0,1.00897,-0.697621
+categoria,dress,pants,223,outra,poa,1,0.44843,0.322667
+categoria,dress,pants,223,outra,outra,0,0.560538,-0.445031
+categoria,dress,shoes,4069,lisa,lisa,2693,2683.16,0.00365852
+categoria,dress,shoes,4069,lisa,listrada,5,9.06709,-0.517512
+categoria,dress,shoes,4069,lisa,xadrez,3,3.48734,-0.114966
+categoria,dress,shoes,4069,lisa,floral,70,68.3519,0.0234859
+categoria,dress,shoes,4069,lisa,poa,3,3.48734,-0.114966
+categoria,dress,shoes,4069,lisa,animal,36,40.4532,-0.113647
+categoria,dress,shoes,4069,lisa,outra,28,29.9912,-0.0664059
+categoria,dress,shoes,4069,listrada,lisa,135,137.089,-0.0152433
+categoria,dress,shoes,4069,listrada,listrada,2,0.463259,0.717946
+categoria,dress,shoes,4069,listrada,xadrez,1,0.178176,0.529179
+categoria,dress,shoes,4069,listrada,floral,3,3.49226,-0.116061
+categoria,dress,shoes,4069,listrada,poa,0,0.178176,-0.163968
+categoria,dress,shoes,4069,listrada,animal,3,2.06685,0.265644
+categoria,dress,shoes,4069,listrada,outra,1,1.53232,-0.235988
+categoria,dress,shoes,4069,xadrez,lisa,38,37.8176,0.00468672
+categoria,dress,shoes,4069,xadrez,listrada,1,0.127796,0.572882
+categoria,dress,shoes,4069,xadrez,xadrez,0,0.0491521,-0.0479823
+categoria,dress,shoes,4069,xadrez,floral,0,0.963382,-0.674668
+categoria,dress,shoes,4069,xadrez,poa,0,0.0491521,-0.0479823
+categoria,dress,shoes,4069,xadrez,animal,0,0.570165,-0.45118
+categoria,dress,shoes,4069,xadrez,outra,1,0.422708,0.340585
+categoria,dress,shoes,4069,floral,lisa,525,535.12,-0.0190562
+categoria,dress,shoes,4069,floral,listrada,3,1.80831,0.353713
+categoria,dress,shoes,4069,floral,xadrez,0,0.695503,-0.527979
+categoria,dress,shoes,4069,floral,floral,18,13.6319,0.261238
+categoria,dress,shoes,4069,floral,poa,1,0.695503,0.165168
+categoria,dress,shoes,4069,floral,animal,11,8.06783,0.280174
+categoria,dress,shoes,4069,floral,outra,8,5.98132,0.253986
+categoria,dress,shoes,4069,poa,lisa,50,50.1084,-0.00212285
+categoria,dress,shoes,4069,poa,listrada,0,0.169329,-0.15643
+categoria,dress,shoes,4069,poa,xadrez,0,0.0651266,-0.0630936
+categoria,dress,shoes,4069,poa,floral,1,1.27648,-0.129484
+categoria,dress,shoes,4069,poa,poa,0,0.0651266,-0.0630936
+categoria,dress,shoes,4069,poa,animal,2,0.755468,0.535877
+categoria,dress,shoes,4069,poa,outra,0,0.560088,-0.444743
+categoria,dress,shoes,4069,animal,lisa,31,31.1996,-0.00621681
+categoria,dress,shoes,4069,animal,listrada,1,0.105431,0.592912
+categoria,dress,shoes,4069,animal,xadrez,0,0.0405505,-0.0397499
+categoria,dress,shoes,4069,animal,floral,0,0.79479,-0.584888
+categoria,dress,shoes,4069,animal,poa,0,0.0405505,-0.0397499
+categoria,dress,shoes,4069,animal,animal,1,0.470386,0.307622
+categoria,dress,shoes,4069,animal,outra,0,0.348734,-0.299167
+categoria,dress,shoes,4069,outra,lisa,375,372.504,0.00666094
+categoria,dress,shoes,4069,outra,listrada,1,1.25879,-0.12168
+categoria,dress,shoes,4069,outra,xadrez,1,0.484148,0.298306
+categoria,dress,shoes,4069,outra,floral,6,9.48931,-0.404446
+categoria,dress,shoes,4069,outra,poa,1,0.484148,0.298306
+categoria,dress,shoes,4069,outra,animal,5,5.61612,-0.0977499
+categoria,dress,shoes,4069,outra,outra,5,4.16368,0.150111
+categoria,dress,top,483,lisa,lisa,263,251.969,0.0426824
+categoria,dress,top,483,lisa,listrada,12,14.0373,-0.145582
+categoria,dress,top,483,lisa,xadrez,5,4.91304,0.0145988
+categoria,dress,top,483,lisa,floral,16,16.1429,-0.00836825
+categoria,dress,top,483,lisa,poa,6,5.61491,0.0565844
+categoria,dress,top,483,lisa,animal,7,6.31677,0.0892725
+categoria,dress,top,483,lisa,outra,30,40.0062,-0.279736
+categoria,dress,top,483,listrada,lisa,10,11.1491,-0.0993572
+categoria,dress,top,483,listrada,listrada,2,0.621118,0.615496
+categoria,dress,top,483,listrada,xadrez,0,0.217391,-0.19671
+categoria,dress,top,483,listrada,floral,0,0.714286,-0.538997
+categoria,dress,top,483,listrada,poa,0,0.248447,-0.221901
+categoria,dress,top,483,listrada,animal,1,0.279503,0.446675
+categoria,dress,top,483,listrada,outra,2,1.77019,0.0796977
+categoria,dress,top,483,xadrez,lisa,6,5.94617,0.00771975
+categoria,dress,top,483,xadrez,listrada,0,0.331263,-0.286128
+categoria,dress,top,483,xadrez,xadrez,1,0.115942,0.583448
+categoria,dress,top,483,xadrez,floral,0,0.380952,-0.322773
+categoria,dress,top,483,xadrez,poa,0,0.132505,-0.124432
+categoria,dress,top,483,xadrez,animal,0,0.149068,-0.138951
+categoria,dress,top,483,xadrez,outra,1,0.944099,0.0283484
+categoria,dress,top,483,floral,lisa,47,51.2857,-0.0855222
+categoria,dress,top,483,floral,listrada,5,2.85714,0.441833
+categoria,dress,top,483,floral,xadrez,0,1,-0.693147
+categoria,dress,top,483,floral,floral,6,3.28571,0.490623
+categoria,dress,top,483,floral,poa,0,1.14286,-0.76214
+categoria,dress,top,483,floral,animal,0,1.28571,-0.826679
+categoria,dress,top,483,floral,outra,11,8.14286,0.271934
+categoria,dress,top,483,poa,lisa,5,5.94617,-0.146431
+categoria,dress,top,483,poa,listrada,0,0.331263,-0.286128
+categoria,dress,top,483,poa,xadrez,0,0.115942,-0.109699
+categoria,dress,top,483,poa,floral,0,0.380952,-0.322773
+categoria,dress,top,483,poa,poa,1,0.132505,0.568715
+categoria,dress,top,483,poa,animal,0,0.149068,-0.138951
+categoria,dress,top,483,poa,outra,2,0.944099,0.433813
+categoria,dress,top,483,animal,lisa,1,0.743271,0.137384
+categoria,dress,top,483,animal,listrada,0,0.0414079,-0.0405735
+categoria,dress,top,483,animal,xadrez,0,0.0144928,-0.0143887
+categoria,dress,top,483,animal,floral,0,0.047619,-0.04652
+categoria,dress,top,483,animal,poa,0,0.0165631,-0.0164275
+categoria,dress,top,483,animal,animal,0,0.0186335,-0.0184621
+categoria,dress,top,483,animal,outra,0,0.118012,-0.111552
+categoria,dress,top,483,outra,lisa,27,31.9607,-0.16311
+categoria,dress,top,483,outra,listrada,1,1.78054,-0.329497
+categoria,dress,top,483,outra,xadrez,1,0.623188,0.208755
+categoria,dress,top,483,outra,floral,1,2.04762,-0.421213
+categoria,dress,top,483,outra,poa,1,0.712215,0.155359
+categoria,dress,top,483,outra,animal,1,0.801242,0.104671
+categoria,dress,top,483,outra,outra,11,5.07453,0.680801
+categoria,hats,outerwear,802,lisa,lisa,621,617.315,0.00594131
+categoria,hats,outerwear,802,lisa,listrada,19,19.9426,-0.0460552
+categoria,hats,outerwear,802,lisa,xadrez,22,19.9426,0.0937068
+categoria,hats,outerwear,802,lisa,floral,17,18.1297,-0.0608691
+categoria,hats,outerwear,802,lisa,poa,1,1.81297,-0.341093
+categoria,hats,outerwear,802,lisa,animal,13,12.6908,0.0223352
+categoria,hats,outerwear,802,lisa,outra,34,37.1658,-0.0865927
+categoria,hats,outerwear,802,listrada,lisa,6,5.94389,0.00804797
+categoria,hats,outerwear,802,listrada,listrada,0,0.19202,-0.175649
+categoria,hats,outerwear,802,listrada,xadrez,0,0.19202,-0.175649
+categoria,hats,outerwear,802,listrada,floral,0,0.174564,-0.160897
+categoria,hats,outerwear,802,listrada,poa,0,0.0174564,-0.0173057
+categoria,hats,outerwear,802,listrada,animal,0,0.122195,-0.115286
+categoria,hats,outerwear,802,listrada,outra,1,0.357855,0.387241
+categoria,hats,outerwear,802,xadrez,lisa,2,2.54738,-0.167597
+categoria,hats,outerwear,802,xadrez,listrada,1,0.0822943,0.614064
+categoria,hats,outerwear,802,xadrez,xadrez,0,0.0822943,-0.0790831
+categoria,hats,outerwear,802,xadrez,floral,0,0.074813,-0.0721467
+categoria,hats,outerwear,802,xadrez,poa,0,0.0074813,-0.00745345
+categoria,hats,outerwear,802,xadrez,animal,0,0.0523691,-0.0510439
+categoria,hats,outerwear,802,xadrez,outra,0,0.153367,-0.142685
+categoria,hats,outerwear,802,floral,lisa,15,18.6808,-0.207055
+categoria,hats,outerwear,802,floral,listrada,0,0.603491,-0.472183
+categoria,hats,outerwear,802,floral,xadrez,0,0.603491,-0.472183
+categoria,hats,outerwear,802,floral,floral,3,0.548628,0.948925
+categoria,hats,outerwear,802,floral,poa,0,0.0548628,-0.0534108
+categoria,hats,outerwear,802,floral,animal,1,0.38404,0.36814
+categoria,hats,outerwear,802,floral,outra,3,1.12469,0.632669
+categoria,hats,outerwear,802,poa,lisa,1,0.849127,0.0784334
+categoria,hats,outerwear,802,poa,listrada,0,0.0274314,-0.0270619
+categoria,hats,outerwear,802,poa,xadrez,0,0.0274314,-0.0270619
+categoria,hats,outerwear,802,poa,floral,0,0.0249377,-0.0246318
+categoria,hats,outerwear,802,poa,poa,0,0.00249377,-0.00249066
+categoria,hats,outerwear,802,poa,animal,0,0.0174564,-0.0173057
+categoria,hats,outerwear,802,poa,outra,0,0.0511222,-0.0498584
+categoria,hats,outerwear,802,animal,lisa,5,5.09476,-0.0156704
+categoria,hats,outerwear,802,animal,listrada,1,0.164589,0.540779
+categoria,hats,outerwear,802,animal,xadrez,0,0.164589,-0.152368
+categoria,hats,outerwear,802,animal,floral,0,0.149626,-0.139437
+categoria,hats,outerwear,802,animal,poa,0,0.0149626,-0.0148518
+categoria,hats,outerwear,802,animal,animal,0,0.104738,-0.0996083
+categoria,hats,outerwear,802,animal,outra,0,0.306733,-0.26753
+categoria,hats,outerwear,802,outra,lisa,31,30.5686,0.0135736
+categoria,hats,outerwear,802,outra,listrada,1,0.987531,0.00625393
+categoria,hats,outerwear,802,outra,xadrez,0,0.987531,-0.686893
+categoria,hats,outerwear,802,outra,floral,0,0.897756,-0.640672
+categoria,hats,outerwear,802,outra,poa,1,0.0897756,0.607175
+categoria,hats,outerwear,802,outra,animal,0,0.628429,-0.487616
+categoria,hats,outerwear,802,outra,outra,3,1.8404,0.34235
+categoria,hats,pants,801,lisa,lisa,651,652.564,-0.00239635
+categoria,hats,pants,801,lisa,listrada,19,18.1773,0.0420061
+categoria,hats,pants,801,lisa,xadrez,8,8.17978,-0.0197781
+categoria,hats,pants,801,lisa,floral,16,15.4507,0.0328461
+categoria,hats,pants,801,lisa,poa,1,0.908864,0.0466389
+categoria,hats,pants,801,lisa,outra,33,32.7191,0.00829605
+categoria,hats,pants,801,listrada,lisa,9,8.9638,0.00362704
+categoria,hats,pants,801,listrada,listrada,1,0.249688,0.470253
+categoria,hats,pants,801,listrada,xadrez,0,0.11236,-0.106483
+categoria,hats,pants,801,listrada,floral,0,0.212235,-0.192466
+categoria,hats,pants,801,listrada,poa,0,0.0124844,-0.0124071
+categoria,hats,pants,801,listrada,outra,0,0.449438,-0.371176
+categoria,hats,pants,801,xadrez,lisa,1,0.89638,0.0532006
+categoria,hats,pants,801,xadrez,listrada,0,0.0249688,-0.0246622
+categoria,hats,pants,801,xadrez,xadrez,0,0.011236,-0.0111733
+categoria,hats,pants,801,xadrez,floral,0,0.0212235,-0.0210014
+categoria,hats,pants,801,xadrez,poa,0,0.00124844,-0.00124766
+categoria,hats,pants,801,xadrez,outra,0,0.0449438,-0.0439631
+categoria,hats,pants,801,floral,lisa,5,5.37828,-0.0611386
+categoria,hats,pants,801,floral,listrada,0,0.149813,-0.139599
+categoria,hats,pants,801,floral,xadrez,0,0.0674157,-0.0652405
+categoria,hats,pants,801,floral,floral,0,0.127341,-0.119862
+categoria,hats,pants,801,floral,poa,0,0.00749064,-0.00746272
+categoria,hats,pants,801,floral,outra,1,0.269663,0.454396
+categoria,hats,pants,801,poa,lisa,2,1.79276,0.0715823
+categoria,hats,pants,801,poa,listrada,0,0.0499376,-0.0487307
+categoria,hats,pants,801,poa,xadrez,0,0.0224719,-0.0222231
+categoria,hats,pants,801,poa,floral,0,0.0424469,-0.0415708
+categoria,hats,pants,801,poa,poa,0,0.00249688,-0.00249377
+categoria,hats,pants,801,poa,outra,0,0.0898876,-0.0860746
+categoria,hats,pants,801,animal,lisa,3,2.68914,0.0809014
+categoria,hats,pants,801,animal,listrada,0,0.0749064,-0.0722336
+categoria,hats,pants,801,animal,xadrez,0,0.0337079,-0.0331522
+categoria,hats,pants,801,animal,floral,0,0.0636704,-0.0617256
+categoria,hats,pants,801,animal,poa,0,0.00374532,-0.00373832
+categoria,hats,pants,801,animal,outra,0,0.134831,-0.126484
+categoria,hats,pants,801,outra,lisa,47,45.7154,0.0271281
+categoria,hats,pants,801,outra,listrada,0,1.27341,-0.82128
+categoria,hats,pants,801,outra,xadrez,1,0.573034,0.240141
+categoria,hats,pants,801,outra,floral,1,1.0824,-0.0403725
+categoria,hats,pants,801,outra,poa,0,0.0636704,-0.0617256
+categoria,hats,pants,801,outra,outra,2,2.29213,-0.092924
+categoria,hats,shoes,1471,lisa,lisa,1244,1239.56,0.00357525
+categoria,hats,shoes,1471,lisa,listrada,11,12.6485,-0.128726
+categoria,hats,shoes,1471,lisa,floral,26,28.9109,-0.102388
+categoria,hats,shoes,1471,lisa,poa,1,1.80693,-0.338946
+categoria,hats,shoes,1471,lisa,animal,26,25.2971,0.0263791
+categoria,hats,shoes,1471,lisa,outra,21,20.7797,0.0100622
+categoria,hats,shoes,1471,listrada,lisa,18,20.5194,-0.124515
+categoria,hats,shoes,1471,listrada,listrada,1,0.209381,0.503038
+categoria,hats,shoes,1471,listrada,floral,1,0.478586,0.302061
+categoria,hats,shoes,1471,listrada,poa,1,0.0299116,0.663674
+categoria,hats,shoes,1471,listrada,animal,1,0.418763,0.343362
+categoria,hats,shoes,1471,listrada,outra,0,0.343984,-0.295638
+categoria,hats,shoes,1471,xadrez,lisa,3,2.7981,0.0517943
+categoria,hats,shoes,1471,xadrez,listrada,0,0.028552,-0.028152
+categoria,hats,shoes,1471,xadrez,floral,0,0.0652617,-0.0632205
+categoria,hats,shoes,1471,xadrez,poa,0,0.00407886,-0.00407056
+categoria,hats,shoes,1471,xadrez,animal,0,0.057104,-0.0555331
+categoria,hats,shoes,1471,xadrez,outra,0,0.0469069,-0.04584
+categoria,hats,shoes,1471,floral,lisa,34,35.4426,-0.0403892
+categoria,hats,shoes,1471,floral,listrada,1,0.361659,0.384444
+categoria,hats,shoes,1471,floral,floral,2,0.826649,0.496129
+categoria,hats,shoes,1471,floral,poa,0,0.0516655,-0.0503751
+categoria,hats,shoes,1471,floral,animal,0,0.723317,-0.544251
+categoria,hats,shoes,1471,floral,outra,1,0.594154,0.226804
+categoria,hats,shoes,1471,poa,lisa,3,2.7981,0.0517943
+categoria,hats,shoes,1471,poa,listrada,0,0.028552,-0.028152
+categoria,hats,shoes,1471,poa,floral,0,0.0652617,-0.0632205
+categoria,hats,shoes,1471,poa,poa,0,0.00407886,-0.00407056
+categoria,hats,shoes,1471,poa,animal,0,0.057104,-0.0555331
+categoria,hats,shoes,1471,poa,outra,0,0.0469069,-0.04584
+categoria,hats,shoes,1471,animal,lisa,4,4.66349,-0.124603
+categoria,hats,shoes,1471,animal,listrada,0,0.0475867,-0.0464891
+categoria,hats,shoes,1471,animal,floral,0,0.10877,-0.103251
+categoria,hats,shoes,1471,animal,poa,0,0.0067981,-0.00677509
+categoria,hats,shoes,1471,animal,animal,1,0.0951734,0.602235
+categoria,hats,shoes,1471,animal,outra,0,0.0781781,-0.0752727
+categoria,hats,shoes,1471,outra,lisa,66,66.2216,-0.00330227
+categoria,hats,shoes,1471,outra,listrada,1,0.675731,0.176898
+categoria,hats,shoes,1471,outra,floral,3,1.54453,0.452349
+categoria,hats,shoes,1471,outra,poa,0,0.096533,-0.0921534
+categoria,hats,shoes,1471,outra,animal,0,1.35146,-0.855037
+categoria,hats,shoes,1471,outra,outra,1,1.11013,-0.053602
+categoria,hats,skirt,339,lisa,lisa,212,207.481,0.0214451
+categoria,hats,skirt,339,lisa,listrada,14,13.8938,0.00710483
+categoria,hats,skirt,339,lisa,xadrez,23,22.2301,0.0326055
+categoria,hats,skirt,339,lisa,floral,26,29.6401,-0.126473
+categoria,hats,skirt,339,lisa,poa,5,6.48378,-0.220978
+categoria,hats,skirt,339,lisa,animal,3,2.77876,0.0568982
+categoria,hats,skirt,339,lisa,outra,31,31.4926,-0.0152772
+categoria,hats,skirt,339,listrada,lisa,2,1.9823,0.00591718
+categoria,hats,skirt,339,listrada,listrada,0,0.132743,-0.124642
+categoria,hats,skirt,339,listrada,xadrez,0,0.212389,-0.192593
+categoria,hats,skirt,339,listrada,floral,0,0.283186,-0.249346
+categoria,hats,skirt,339,listrada,poa,0,0.0619469,-0.0601039
+categoria,hats,skirt,339,listrada,animal,0,0.0265487,-0.0262024
+categoria,hats,skirt,339,listrada,outra,1,0.300885,0.430102
+categoria,hats,skirt,339,xadrez,lisa,1,1.32153,-0.149081
+categoria,hats,skirt,339,xadrez,listrada,0,0.0884956,-0.0847965
+categoria,hats,skirt,339,xadrez,xadrez,0,0.141593,-0.132425
+categoria,hats,skirt,339,xadrez,floral,1,0.188791,0.520211
+categoria,hats,skirt,339,xadrez,poa,0,0.0412979,-0.0404679
+categoria,hats,skirt,339,xadrez,animal,0,0.0176991,-0.0175443
+categoria,hats,skirt,339,xadrez,outra,0,0.20059,-0.182813
+categoria,hats,skirt,339,floral,lisa,3,6.60767,-0.642863
+categoria,hats,skirt,339,floral,listrada,1,0.442478,0.326785
+categoria,hats,skirt,339,floral,xadrez,0,0.707965,-0.535302
+categoria,hats,skirt,339,floral,floral,4,0.943953,0.944714
+categoria,hats,skirt,339,floral,poa,1,0.20649,0.505432
+categoria,hats,skirt,339,floral,animal,0,0.0884956,-0.0847965
+categoria,hats,skirt,339,floral,outra,1,1.00295,-0.00147384
+categoria,hats,skirt,339,animal,lisa,2,2.64307,-0.194214
+categoria,hats,skirt,339,animal,listrada,0,0.176991,-0.162961
+categoria,hats,skirt,339,animal,xadrez,0,0.283186,-0.249346
+categoria,hats,skirt,339,animal,floral,1,0.377581,0.372818
+categoria,hats,skirt,339,animal,poa,1,0.0825959,0.613785
+categoria,hats,skirt,339,animal,animal,0,0.0353982,-0.0347861
+categoria,hats,skirt,339,animal,outra,0,0.40118,-0.337315
+categoria,hats,skirt,339,outra,lisa,4,3.9646,0.00710483
+categoria,hats,skirt,339,outra,listrada,0,0.265487,-0.235457
+categoria,hats,skirt,339,outra,xadrez,1,0.424779,0.339131
+categoria,hats,skirt,339,outra,floral,0,0.566372,-0.448762
+categoria,hats,skirt,339,outra,poa,0,0.123894,-0.116799
+categoria,hats,skirt,339,outra,animal,0,0.0530973,-0.0517357
+categoria,hats,skirt,339,outra,outra,1,0.60177,0.222038
+categoria,hats,top,1763,lisa,lisa,1090,1092.85,-0.00261222
+categoria,hats,top,1763,lisa,listrada,130,124.537,0.0426001
+categoria,hats,top,1763,lisa,xadrez,49,46.0244,0.0613566
+categoria,hats,top,1763,lisa,floral,63,63.1707,-0.00266413
+categoria,hats,top,1763,lisa,poa,13,11.7317,0.0949618
+categoria,hats,top,1763,lisa,animal,17,17.1463,-0.00809721
+categoria,hats,top,1763,lisa,outra,229,235.537,-0.0280236
+categoria,hats,top,1763,listrada,lisa,16,16.4855,-0.0281607
+categoria,hats,top,1763,listrada,listrada,1,1.87862,-0.364162
+categoria,hats,top,1763,listrada,xadrez,0,0.694271,-0.527253
+categoria,hats,top,1763,listrada,floral,3,0.952921,0.716968
+categoria,hats,top,1763,listrada,poa,0,0.176971,-0.162944
+categoria,hats,top,1763,listrada,animal,0,0.25865,-0.23004
+categoria,hats,top,1763,listrada,outra,4,3.55303,0.093644
+categoria,hats,top,1763,xadrez,lisa,7,6.18208,0.107853
+categoria,hats,top,1763,xadrez,listrada,0,0.704481,-0.533261
+categoria,hats,top,1763,xadrez,xadrez,0,0.260352,-0.231391
+categoria,hats,top,1763,xadrez,floral,0,0.357345,-0.305531
+categoria,hats,top,1763,xadrez,poa,0,0.0663642,-0.0642549
+categoria,hats,top,1763,xadrez,animal,1,0.0969938,0.600574
+categoria,hats,top,1763,xadrez,outra,1,1.33239,-0.153745
+categoria,hats,top,1763,floral,lisa,22,17.1724,0.235588
+categoria,hats,top,1763,floral,listrada,1,1.95689,-0.390991
+categoria,hats,top,1763,floral,xadrez,0,0.723199,-0.544183
+categoria,hats,top,1763,floral,floral,1,0.992626,0.00369371
+categoria,hats,top,1763,floral,poa,0,0.184345,-0.16919
+categoria,hats,top,1763,floral,animal,0,0.269427,-0.238566
+categoria,hats,top,1763,floral,outra,1,3.70108,-0.854645
+categoria,hats,top,1763,poa,lisa,2,2.06069,-0.0200287
+categoria,hats,top,1763,poa,listrada,0,0.234827,-0.210931
+categoria,hats,top,1763,poa,xadrez,0,0.0867839,-0.0832228
+categoria,hats,top,1763,poa,floral,1,0.119115,0.580609
+categoria,hats,top,1763,poa,poa,0,0.0221214,-0.0218803
+categoria,hats,top,1763,poa,animal,0,0.0323313,-0.0318196
+categoria,hats,top,1763,poa,outra,0,0.444129,-0.367507
+categoria,hats,top,1763,animal,lisa,5,4.80828,0.0324748
+categoria,hats,top,1763,animal,listrada,0,0.54793,-0.436918
+categoria,hats,top,1763,animal,xadrez,0,0.202496,-0.184399
+categoria,hats,top,1763,animal,floral,0,0.277935,-0.245246
+categoria,hats,top,1763,animal,poa,0,0.0516166,-0.0503286
+categoria,hats,top,1763,animal,animal,1,0.0754396,0.620418
+categoria,hats,top,1763,animal,outra,1,1.0363,-0.0179881
+categoria,hats,top,1763,outra,lisa,69,71.4373,-0.0342264
+categoria,hats,top,1763,outra,listrada,6,8.14067,-0.266823
+categoria,hats,top,1763,outra,xadrez,2,3.00851,-0.289807
+categoria,hats,top,1763,outra,floral,2,4.12933,-0.536362
+categoria,hats,top,1763,outra,poa,0,0.766875,-0.569212
+categoria,hats,top,1763,outra,animal,0,1.12082,-0.751801
+categoria,hats,top,1763,outra,outra,25,15.3965,0.46103
+categoria,neckwear,outerwear,572,lisa,lisa,305,307.474,-0.00805173
+categoria,neckwear,outerwear,572,lisa,listrada,6,5.27098,0.109978
+categoria,neckwear,outerwear,572,lisa,xadrez,9,8.1993,0.0834576
+categoria,neckwear,outerwear,572,lisa,floral,0,1.17133,-0.775339
+categoria,neckwear,outerwear,572,lisa,poa,0,0.585664,-0.461003
+categoria,neckwear,outerwear,572,lisa,animal,5,3.51399,0.284579
+categoria,neckwear,outerwear,572,lisa,outra,10,8.78497,0.117048
+categoria,neckwear,outerwear,572,listrada,lisa,29,27.535,0.0500672
+categoria,neckwear,outerwear,572,listrada,listrada,0,0.472028,-0.386641
+categoria,neckwear,outerwear,572,listrada,xadrez,0,0.734266,-0.550584
+categoria,neckwear,outerwear,572,listrada,floral,0,0.104895,-0.0997504
+categoria,neckwear,outerwear,572,listrada,poa,0,0.0524476,-0.0511185
+categoria,neckwear,outerwear,572,listrada,animal,0,0.314685,-0.273597
+categoria,neckwear,outerwear,572,listrada,outra,1,0.786713,0.112769
+categoria,neckwear,outerwear,572,xadrez,lisa,28,29.3706,-0.0461802
+categoria,neckwear,outerwear,572,xadrez,listrada,1,0.503497,0.285354
+categoria,neckwear,outerwear,572,xadrez,xadrez,1,0.783217,0.114728
+categoria,neckwear,outerwear,572,xadrez,floral,0,0.111888,-0.10606
+categoria,neckwear,outerwear,572,xadrez,poa,0,0.0559441,-0.0544352
+categoria,neckwear,outerwear,572,xadrez,animal,0,0.335664,-0.289429
+categoria,neckwear,outerwear,572,xadrez,outra,2,0.839161,0.489303
+categoria,neckwear,outerwear,572,floral,lisa,26,24.7815,0.0461809
+categoria,neckwear,outerwear,572,floral,listrada,0,0.424825,-0.354049
+categoria,neckwear,outerwear,572,floral,xadrez,0,0.660839,-0.507323
+categoria,neckwear,outerwear,572,floral,floral,1,0.0944056,0.602936
+categoria,neckwear,outerwear,572,floral,poa,0,0.0472028,-0.0461226
+categoria,neckwear,outerwear,572,floral,animal,0,0.283217,-0.24937
+categoria,neckwear,outerwear,572,floral,outra,0,0.708042,-0.535348
+categoria,neckwear,outerwear,572,poa,lisa,12,11.014,0.0788779
+categoria,neckwear,outerwear,572,poa,listrada,0,0.188811,-0.172954
+categoria,neckwear,outerwear,572,poa,xadrez,0,0.293706,-0.257511
+categoria,neckwear,outerwear,572,poa,floral,0,0.041958,-0.0411017
+categoria,neckwear,outerwear,572,poa,poa,0,0.020979,-0.020762
+categoria,neckwear,outerwear,572,poa,animal,0,0.125874,-0.11856
+categoria,neckwear,outerwear,572,poa,outra,0,0.314685,-0.273597
+categoria,neckwear,outerwear,572,animal,lisa,39,39.4668,-0.011602
+categoria,neckwear,outerwear,572,animal,listrada,1,0.676573,0.176395
+categoria,neckwear,outerwear,572,animal,xadrez,1,1.05245,-0.0258858
+categoria,neckwear,outerwear,572,animal,floral,0,0.15035,-0.140066
+categoria,neckwear,outerwear,572,animal,poa,0,0.0751748,-0.0724833
+categoria,neckwear,outerwear,572,animal,animal,1,0.451049,0.32086
+categoria,neckwear,outerwear,572,animal,outra,1,1.12762,-0.0618579
+categoria,neckwear,outerwear,572,outra,lisa,86,85.3584,0.00740214
+categoria,neckwear,outerwear,572,outra,listrada,1,1.46329,-0.208349
+categoria,neckwear,outerwear,572,outra,xadrez,3,2.27622,0.199603
+categoria,neckwear,outerwear,572,outra,floral,1,0.325175,0.411603
+categoria,neckwear,outerwear,572,outra,poa,1,0.162587,0.542499
+categoria,neckwear,outerwear,572,outra,animal,0,0.975524,-0.680834
+categoria,neckwear,outerwear,572,outra,outra,1,2.43881,-0.541979
+categoria,neckwear,pants,399,lisa,lisa,250,249.724,0.00109897
+categoria,neckwear,pants,399,lisa,listrada,4,5.31328,-0.233218
+categoria,neckwear,pants,399,lisa,xadrez,2,2.65664,-0.197933
+categoria,neckwear,pants,399,lisa,floral,1,0.66416,0.183826
+categoria,neckwear,pants,399,lisa,poa,2,1.32832,0.253465
+categoria,neckwear,pants,399,lisa,animal,1,0.66416,0.183826
+categoria,neckwear,pants,399,lisa,outra,5,4.64912,0.0602592
+categoria,neckwear,pants,399,listrada,lisa,20,19.7895,0.0100757
+categoria,neckwear,pants,399,listrada,listrada,1,0.421053,0.341749
+categoria,neckwear,pants,399,listrada,xadrez,0,0.210526,-0.191055
+categoria,neckwear,pants,399,listrada,floral,0,0.0526316,-0.0512933
+categoria,neckwear,pants,399,listrada,poa,0,0.105263,-0.100083
+categoria,neckwear,pants,399,listrada,animal,0,0.0526316,-0.0512933
+categoria,neckwear,pants,399,listrada,outra,0,0.368421,-0.313658
+categoria,neckwear,pants,399,xadrez,lisa,15,15.0777,-0.00484414
+categoria,neckwear,pants,399,xadrez,listrada,1,0.320802,0.414908
+categoria,neckwear,pants,399,xadrez,xadrez,0,0.160401,-0.148766
+categoria,neckwear,pants,399,xadrez,floral,0,0.0401003,-0.0393171
+categoria,neckwear,pants,399,xadrez,poa,0,0.0802005,-0.0771467
+categoria,neckwear,pants,399,xadrez,animal,0,0.0401003,-0.0393171
+categoria,neckwear,pants,399,xadrez,outra,0,0.280702,-0.247408
+categoria,neckwear,pants,399,floral,lisa,12,11.3083,0.0546779
+categoria,neckwear,pants,399,floral,listrada,0,0.240602,-0.215596
+categoria,neckwear,pants,399,floral,xadrez,0,0.120301,-0.113597
+categoria,neckwear,pants,399,floral,floral,0,0.0300752,-0.0296318
+categoria,neckwear,pants,399,floral,poa,0,0.0601504,-0.0584108
+categoria,neckwear,pants,399,floral,animal,0,0.0300752,-0.0296318
+categoria,neckwear,pants,399,floral,outra,0,0.210526,-0.191055
+categoria,neckwear,pants,399,poa,lisa,1,0.942356,0.0292456
+categoria,neckwear,pants,399,poa,listrada,0,0.0200501,-0.0198518
+categoria,neckwear,pants,399,poa,xadrez,0,0.0100251,-0.00997515
+categoria,neckwear,pants,399,poa,floral,0,0.00250627,-0.00250313
+categoria,neckwear,pants,399,poa,poa,0,0.00501253,-0.00500001
+categoria,neckwear,pants,399,poa,animal,0,0.00250627,-0.00250313
+categoria,neckwear,pants,399,poa,outra,0,0.0175439,-0.0173917
+categoria,neckwear,pants,399,animal,lisa,18,18.8471,-0.0436198
+categoria,neckwear,pants,399,animal,listrada,0,0.401003,-0.337188
+categoria,neckwear,pants,399,animal,xadrez,1,0.200501,0.510408
+categoria,neckwear,pants,399,animal,floral,0,0.0501253,-0.0489095
+categoria,neckwear,pants,399,animal,poa,0,0.100251,-0.095538
+categoria,neckwear,pants,399,animal,animal,0,0.0501253,-0.0489095
+categoria,neckwear,pants,399,animal,outra,1,0.350877,0.392393
+categoria,neckwear,pants,399,outra,lisa,60,60.3108,-0.00508177
+categoria,neckwear,pants,399,outra,listrada,2,1.28321,0.273031
+categoria,neckwear,pants,399,outra,xadrez,1,0.641604,0.197473
+categoria,neckwear,pants,399,outra,floral,0,0.160401,-0.148766
+categoria,neckwear,pants,399,outra,poa,0,0.320802,-0.278239
+categoria,neckwear,pants,399,outra,animal,0,0.160401,-0.148766
+categoria,neckwear,pants,399,outra,outra,1,1.12281,-0.0595921
+categoria,neckwear,shoes,764,lisa,lisa,453,451.702,0.00286407
+categoria,neckwear,shoes,764,lisa,listrada,1,0.623037,0.208848
+categoria,neckwear,shoes,764,lisa,floral,6,4.98429,0.156772
+categoria,neckwear,shoes,764,lisa,animal,11,13.0838,-0.160116
+categoria,neckwear,shoes,764,lisa,outra,5,5.60733,-0.0964201
+categoria,neckwear,shoes,764,listrada,lisa,36,36.0602,-0.00162596
+categoria,neckwear,shoes,764,listrada,listrada,0,0.0497382,-0.0485408
+categoria,neckwear,shoes,764,listrada,floral,1,0.397906,0.358172
+categoria,neckwear,shoes,764,listrada,animal,1,1.0445,-0.0220074
+categoria,neckwear,shoes,764,listrada,outra,0,0.447644,-0.369937
+categoria,neckwear,shoes,764,xadrez,lisa,40,40.805,-0.0194433
+categoria,neckwear,shoes,764,xadrez,listrada,0,0.0562827,-0.0547559
+categoria,neckwear,shoes,764,xadrez,floral,1,0.450262,0.321403
+categoria,neckwear,shoes,764,xadrez,animal,0,1.18194,-0.780213
+categoria,neckwear,shoes,764,xadrez,outra,2,0.506545,0.688794
+categoria,neckwear,shoes,764,floral,lisa,33,32.2644,0.0218728
+categoria,neckwear,shoes,764,floral,listrada,0,0.0445026,-0.0435408
+categoria,neckwear,shoes,764,floral,floral,0,0.356021,-0.304555
+categoria,neckwear,shoes,764,floral,animal,1,0.934555,0.0332699
+categoria,neckwear,shoes,764,floral,outra,0,0.400524,-0.336846
+categoria,neckwear,shoes,764,poa,lisa,17,16.1322,0.0494121
+categoria,neckwear,shoes,764,poa,listrada,0,0.0222513,-0.0220074
+categoria,neckwear,shoes,764,poa,floral,0,0.17801,-0.163827
+categoria,neckwear,shoes,764,poa,animal,0,0.467277,-0.383409
+categoria,neckwear,shoes,764,poa,outra,0,0.200262,-0.18254
+categoria,neckwear,shoes,764,animal,lisa,36,39.856,-0.0991363
+categoria,neckwear,shoes,764,animal,listrada,0,0.0549738,-0.053516
+categoria,neckwear,shoes,764,animal,floral,0,0.439791,-0.364498
+categoria,neckwear,shoes,764,animal,animal,5,1.15445,1.02422
+categoria,neckwear,shoes,764,animal,outra,1,0.494764,0.291179
+categoria,neckwear,shoes,764,outra,lisa,110,108.181,0.0165266
+categoria,neckwear,shoes,764,outra,listrada,0,0.149215,-0.139079
+categoria,neckwear,shoes,764,outra,floral,0,1.19372,-0.785597
+categoria,neckwear,shoes,764,outra,animal,3,3.13351,-0.032832
+categoria,neckwear,shoes,764,outra,outra,1,1.34293,-0.158256
+categoria,neckwear,top,956,lisa,lisa,433,432.427,0.00132166
+categoria,neckwear,top,956,lisa,listrada,49,51.4644,-0.0481125
+categoria,neckwear,top,956,lisa,xadrez,7,6.27615,0.0948396
+categoria,neckwear,top,956,lisa,floral,21,17.5732,0.169322
+categoria,neckwear,top,956,lisa,poa,4,5.02092,-0.185802
+categoria,neckwear,top,956,lisa,animal,2,5.64854,-0.795784
+categoria,neckwear,top,956,lisa,outra,84,81.59,0.0287632
+categoria,neckwear,top,956,listrada,lisa,33,34.5941,-0.0458206
+categoria,neckwear,top,956,listrada,listrada,9,4.11715,0.669987
+categoria,neckwear,top,956,listrada,xadrez,1,0.502092,0.286288
+categoria,neckwear,top,956,listrada,floral,0,1.40586,-0.877906
+categoria,neckwear,top,956,listrada,poa,0,0.401674,-0.337667
+categoria,neckwear,top,956,listrada,animal,0,0.451883,-0.372861
+categoria,neckwear,top,956,listrada,outra,5,6.5272,-0.226763
+categoria,neckwear,top,956,xadrez,lisa,39,40.3598,-0.0334307
+categoria,neckwear,top,956,xadrez,listrada,6,4.80335,0.187475
+categoria,neckwear,top,956,xadrez,xadrez,0,0.585774,-0.461073
+categoria,neckwear,top,956,xadrez,floral,0,1.64017,-0.970842
+categoria,neckwear,top,956,xadrez,poa,0,0.468619,-0.384323
+categoria,neckwear,top,956,xadrez,animal,0,0.527197,-0.423434
+categoria,neckwear,top,956,xadrez,outra,11,7.61506,0.331394
+categoria,neckwear,top,956,floral,lisa,29,26.6663,0.0809817
+categoria,neckwear,top,956,floral,listrada,2,3.17364,-0.330176
+categoria,neckwear,top,956,floral,xadrez,0,0.387029,-0.327164
+categoria,neckwear,top,956,floral,floral,0,1.08368,-0.734137
+categoria,neckwear,top,956,floral,poa,0,0.309623,-0.26974
+categoria,neckwear,top,956,floral,animal,1,0.348326,0.394283
+categoria,neckwear,top,956,floral,outra,5,5.03138,-0.0052165
+categoria,neckwear,top,956,poa,lisa,12,10.09,0.158909
+categoria,neckwear,top,956,poa,listrada,1,1.20084,-0.0956905
+categoria,neckwear,top,956,poa,xadrez,0,0.146444,-0.136665
+categoria,neckwear,top,956,poa,floral,0,0.410042,-0.343619
+categoria,neckwear,top,956,poa,poa,0,0.117155,-0.110785
+categoria,neckwear,top,956,poa,animal,0,0.131799,-0.123809
+categoria,neckwear,top,956,poa,outra,1,1.90377,-0.372861
+categoria,neckwear,top,956,animal,lisa,42,40.3598,0.0388899
+categoria,neckwear,top,956,animal,listrada,2,4.80335,-0.659823
+categoria,neckwear,top,956,animal,xadrez,1,0.585774,0.232075
+categoria,neckwear,top,956,animal,floral,0,1.64017,-0.970842
+categoria,neckwear,top,956,animal,poa,2,0.468619,0.71429
+categoria,neckwear,top,956,animal,animal,3,0.527197,0.962861
+categoria,neckwear,top,956,animal,outra,6,7.61506,-0.207602
+categoria,neckwear,top,956,outra,lisa,101,104.503,-0.0337679
+categoria,neckwear,top,956,outra,listrada,13,12.4372,0.0410275
+categoria,neckwear,top,956,outra,xadrez,1,1.51674,-0.229816
+categoria,neckwear,top,956,outra,floral,7,4.24686,0.421811
+categoria,neckwear,top,956,outra,poa,2,1.21339,0.304087
+categoria,neckwear,top,956,outra,animal,3,1.36506,0.52549
+categoria,neckwear,top,956,outra,outra,18,19.7176,-0.0865433
+categoria,outerwear,pants,2301,lisa,lisa,1847,1854.04,-0.00380251
+categoria,outerwear,pants,2301,lisa,listrada,38,40.3625,-0.0588118
+categoria,outerwear,pants,2301,lisa,xadrez,14,14.0391,-0.00260417
+categoria,outerwear,pants,2301,lisa,floral,52,46.5046,0.109466
+categoria,outerwear,pants,2301,lisa,poa,2,1.75489,0.0852351
+categoria,outerwear,pants,2301,lisa,animal,8,7.897,0.0115103
+categoria,outerwear,pants,2301,lisa,outra,58,54.4016,0.0629296
+categoria,outerwear,pants,2301,listrada,lisa,60,57.8527,0.0358366
+categoria,outerwear,pants,2301,listrada,listrada,2,1.25945,0.28349
+categoria,outerwear,pants,2301,listrada,xadrez,0,0.43807,-0.363302
+categoria,outerwear,pants,2301,listrada,floral,0,1.45111,-0.89654
+categoria,outerwear,pants,2301,listrada,poa,0,0.0547588,-0.0533121
+categoria,outerwear,pants,2301,listrada,animal,0,0.246415,-0.220271
+categoria,outerwear,pants,2301,listrada,outra,1,1.69752,-0.299187
+categoria,outerwear,pants,2301,xadrez,lisa,39,36.7319,0.0583747
+categoria,outerwear,pants,2301,xadrez,listrada,0,0.799652,-0.587593
+categoria,outerwear,pants,2301,xadrez,xadrez,1,0.27814,0.447741
+categoria,outerwear,pants,2301,xadrez,floral,0,0.921339,-0.653022
+categoria,outerwear,pants,2301,xadrez,poa,0,0.0347675,-0.0341768
+categoria,outerwear,pants,2301,xadrez,animal,0,0.156454,-0.145358
+categoria,outerwear,pants,2301,xadrez,outra,0,1.07779,-0.731306
+categoria,outerwear,pants,2301,floral,lisa,48,45.9148,0.0434867
+categoria,outerwear,pants,2301,floral,listrada,1,0.999565,0.00021732
+categoria,outerwear,pants,2301,floral,xadrez,0,0.347675,-0.298381
+categoria,outerwear,pants,2301,floral,floral,1,1.15167,-0.0730986
+categoria,outerwear,pants,2301,floral,poa,0,0.0434594,-0.0425415
+categoria,outerwear,pants,2301,floral,animal,0,0.195567,-0.178621
+categoria,outerwear,pants,2301,floral,outra,0,1.34724,-0.85324
+categoria,outerwear,pants,2301,poa,lisa,4,3.67319,0.0675969
+categoria,outerwear,pants,2301,poa,listrada,0,0.0799652,-0.0769288
+categoria,outerwear,pants,2301,poa,xadrez,0,0.027814,-0.0274342
+categoria,outerwear,pants,2301,poa,floral,0,0.0921339,-0.0881334
+categoria,outerwear,pants,2301,poa,poa,0,0.00347675,-0.00347072
+categoria,outerwear,pants,2301,poa,animal,0,0.0156454,-0.0155242
+categoria,outerwear,pants,2301,poa,outra,0,0.107779,-0.102357
+categoria,outerwear,pants,2301,animal,lisa,27,24.794,0.0820625
+categoria,outerwear,pants,2301,animal,listrada,0,0.539765,-0.43163
+categoria,outerwear,pants,2301,animal,xadrez,0,0.187744,-0.172056
+categoria,outerwear,pants,2301,animal,floral,0,0.621904,-0.4836
+categoria,outerwear,pants,2301,animal,poa,0,0.0234681,-0.0231969
+categoria,outerwear,pants,2301,animal,animal,0,0.105606,-0.100394
+categoria,outerwear,pants,2301,animal,outra,0,0.72751,-0.546681
+categoria,outerwear,pants,2301,outra,lisa,88,89.993,-0.0221467
+categoria,outerwear,pants,2301,outra,listrada,5,1.95915,0.706858
+categoria,outerwear,pants,2301,outra,xadrez,1,0.681443,0.173495
+categoria,outerwear,pants,2301,outra,floral,0,2.25728,-1.18089
+categoria,outerwear,pants,2301,outra,poa,0,0.0851804,-0.0817462
+categoria,outerwear,pants,2301,outra,animal,1,0.383312,0.368667
+categoria,outerwear,pants,2301,outra,outra,3,2.64059,0.0941483
+categoria,outerwear,shoes,5082,lisa,lisa,4208,4207.89,2.59936e-05
+categoria,outerwear,shoes,5082,lisa,listrada,26,27.462,-0.0527338
+categoria,outerwear,shoes,5082,lisa,xadrez,12,11.5163,0.037915
+categoria,outerwear,shoes,5082,lisa,floral,57,59.3534,-0.0397743
+categoria,outerwear,shoes,5082,lisa,poa,6,7.08697,-0.144344
+categoria,outerwear,shoes,5082,lisa,animal,133,131.995,0.00752914
+categoria,outerwear,shoes,5082,lisa,outra,60,56.6958,0.0556897
+categoria,outerwear,shoes,5082,listrada,lisa,102,101.879,0.00117368
+categoria,outerwear,shoes,5082,listrada,listrada,2,0.664896,0.58885
+categoria,outerwear,shoes,5082,listrada,xadrez,0,0.278827,-0.245943
+categoria,outerwear,shoes,5082,listrada,floral,1,1.43703,-0.197634
+categoria,outerwear,shoes,5082,listrada,poa,0,0.171586,-0.158358
+categoria,outerwear,shoes,5082,listrada,animal,2,3.19579,-0.335469
+categoria,outerwear,shoes,5082,listrada,outra,2,1.37269,0.234589
+categoria,outerwear,shoes,5082,xadrez,lisa,84,81.3164,0.0320808
+categoria,outerwear,shoes,5082,xadrez,listrada,0,0.530697,-0.425723
+categoria,outerwear,shoes,5082,xadrez,xadrez,1,0.22255,0.492208
+categoria,outerwear,shoes,5082,xadrez,floral,1,1.14699,-0.0709194
+categoria,outerwear,shoes,5082,xadrez,poa,0,0.136954,-0.128353
+categoria,outerwear,shoes,5082,xadrez,animal,0,2.55077,-1.26716
+categoria,outerwear,shoes,5082,xadrez,outra,1,1.09563,-0.0467078
+categoria,outerwear,shoes,5082,floral,lisa,111,109.357,0.0147824
+categoria,outerwear,shoes,5082,floral,listrada,0,0.713695,-0.538652
+categoria,outerwear,shoes,5082,floral,xadrez,0,0.299292,-0.261819
+categoria,outerwear,shoes,5082,floral,floral,4,1.5425,0.676289
+categoria,outerwear,shoes,5082,floral,poa,0,0.184179,-0.16905
+categoria,outerwear,shoes,5082,floral,animal,2,3.43034,-0.389865
+categoria,outerwear,shoes,5082,floral,outra,0,1.47344,-0.905608
+categoria,outerwear,shoes,5082,poa,lisa,8,7.47737,0.0598242
+categoria,outerwear,shoes,5082,poa,listrada,0,0.0487997,-0.0476464
+categoria,outerwear,shoes,5082,poa,xadrez,0,0.0204644,-0.0202578
+categoria,outerwear,shoes,5082,poa,floral,0,0.10547,-0.100271
+categoria,outerwear,shoes,5082,poa,poa,0,0.0125935,-0.0125148
+categoria,outerwear,shoes,5082,poa,animal,0,0.234553,-0.210709
+categoria,outerwear,shoes,5082,poa,outra,0,0.100748,-0.0959897
+categoria,outerwear,shoes,5082,animal,lisa,74,76.6431,-0.034634
+categoria,outerwear,shoes,5082,animal,listrada,0,0.500197,-0.405596
+categoria,outerwear,shoes,5082,animal,xadrez,0,0.20976,-0.190422
+categoria,outerwear,shoes,5082,animal,floral,0,1.08107,-0.732882
+categoria,outerwear,shoes,5082,animal,poa,0,0.129083,-0.121406
+categoria,outerwear,shoes,5082,animal,animal,7,2.40417,0.85444
+categoria,outerwear,shoes,5082,animal,outra,1,1.03266,-0.0162002
+categoria,outerwear,shoes,5082,outra,lisa,163,165.437,-0.0147494
+categoria,outerwear,shoes,5082,outra,listrada,3,1.07969,0.654074
+categoria,outerwear,shoes,5082,outra,xadrez,0,0.452774,-0.373475
+categoria,outerwear,shoes,5082,outra,floral,4,2.33353,0.405406
+categoria,outerwear,shoes,5082,outra,poa,2,0.27863,0.852823
+categoria,outerwear,shoes,5082,outra,animal,5,5.18949,-0.0310936
+categoria,outerwear,shoes,5082,outra,outra,0,2.22904,-1.17219
+categoria,outerwear,skirt,1518,lisa,lisa,885,888.455,-0.00389145
+categoria,outerwear,skirt,1518,lisa,listrada,62,65.0303,-0.046979
+categoria,outerwear,skirt,1518,lisa,xadrez,59,57.1212,0.0318139
+categoria,outerwear,skirt,1518,lisa,floral,144,140.606,0.0236848
+categoria,outerwear,skirt,1518,lisa,poa,23,23.7273,-0.029853
+categoria,outerwear,skirt,1518,lisa,animal,15,14.0606,0.0605063
+categoria,outerwear,skirt,1518,lisa,outra,146,145,0.00682597
+categoria,outerwear,skirt,1518,listrada,lisa,18,20.6462,-0.130393
+categoria,outerwear,skirt,1518,listrada,listrada,4,1.5112,0.688678
+categoria,outerwear,skirt,1518,listrada,xadrez,0,1.3274,-0.844754
+categoria,outerwear,skirt,1518,listrada,floral,2,3.26746,-0.352406
+categoria,outerwear,skirt,1518,listrada,poa,2,0.551383,0.659465
+categoria,outerwear,skirt,1518,listrada,animal,0,0.326746,-0.282729
+categoria,outerwear,skirt,1518,listrada,outra,5,3.36957,0.317096
+categoria,outerwear,skirt,1518,xadrez,lisa,21,19.3142,0.0797209
+categoria,outerwear,skirt,1518,xadrez,listrada,2,1.4137,0.217451
+categoria,outerwear,skirt,1518,xadrez,xadrez,1,1.24177,-0.114117
+categoria,outerwear,skirt,1518,xadrez,floral,1,3.05665,-0.707211
+categoria,outerwear,skirt,1518,xadrez,poa,1,0.51581,0.277197
+categoria,outerwear,skirt,1518,xadrez,animal,0,0.305665,-0.266713
+categoria,outerwear,skirt,1518,xadrez,outra,3,3.15217,-0.0373377
+categoria,outerwear,skirt,1518,floral,lisa,26,26.6403,-0.0234386
+categoria,outerwear,skirt,1518,floral,listrada,4,1.94993,0.527655
+categoria,outerwear,skirt,1518,floral,xadrez,0,1.71278,-0.997974
+categoria,outerwear,skirt,1518,floral,floral,6,4.21607,0.294165
+categoria,outerwear,skirt,1518,floral,poa,0,0.711462,-0.537348
+categoria,outerwear,skirt,1518,floral,animal,0,0.421607,-0.351788
+categoria,outerwear,skirt,1518,floral,outra,4,4.34783,-0.0672522
+categoria,outerwear,skirt,1518,poa,lisa,4,3.33004,0.143861
+categoria,outerwear,skirt,1518,poa,listrada,0,0.243742,-0.218124
+categoria,outerwear,skirt,1518,poa,xadrez,0,0.214097,-0.194001
+categoria,outerwear,skirt,1518,poa,floral,0,0.527009,-0.423311
+categoria,outerwear,skirt,1518,poa,poa,0,0.0889328,-0.0851981
+categoria,outerwear,skirt,1518,poa,animal,1,0.0527009,0.641788
+categoria,outerwear,skirt,1518,poa,outra,0,0.543478,-0.434038
+categoria,outerwear,skirt,1518,animal,lisa,19,18.6482,0.0177455
+categoria,outerwear,skirt,1518,animal,listrada,1,1.36495,-0.167611
+categoria,outerwear,skirt,1518,animal,xadrez,2,1.19895,0.310634
+categoria,outerwear,skirt,1518,animal,floral,2,2.95125,-0.27542
+categoria,outerwear,skirt,1518,animal,poa,1,0.498024,0.289
+categoria,outerwear,skirt,1518,animal,animal,0,0.295125,-0.258607
+categoria,outerwear,skirt,1518,animal,outra,3,3.04348,-0.0108109
+categoria,outerwear,skirt,1518,outra,lisa,38,33.9664,0.109174
+categoria,outerwear,skirt,1518,outra,listrada,1,2.48617,-0.555655
+categoria,outerwear,skirt,1518,outra,xadrez,3,2.18379,0.228221
+categoria,outerwear,skirt,1518,outra,floral,5,5.37549,-0.0607021
+categoria,outerwear,skirt,1518,outra,poa,0,0.907115,-0.645591
+categoria,outerwear,skirt,1518,outra,animal,0,0.537549,-0.43019
+categoria,outerwear,skirt,1518,outra,outra,4,5.54348,-0.269031
+categoria,outerwear,top,5329,lisa,lisa,3467,3482.17,-0.00436372
+categoria,outerwear,top,5329,lisa,listrada,328,316.318,0.0361525
+categoria,outerwear,top,5329,lisa,xadrez,76,71.0828,0.0659906
+categoria,outerwear,top,5329,lisa,floral,162,159.048,0.0182785
+categoria,outerwear,top,5329,lisa,poa,55,53.3121,0.0306053
+categoria,outerwear,top,5329,lisa,animal,68,63.9745,0.0601119
+categoria,outerwear,top,5329,lisa,outra,579,589.098,-0.0172611
+categoria,outerwear,top,5329,listrada,lisa,89,82.3659,0.07657
+categoria,outerwear,top,5329,listrada,listrada,8,7.48208,0.059269
+categoria,outerwear,top,5329,listrada,xadrez,0,1.68137,-0.986326
+categoria,outerwear,top,5329,listrada,floral,1,3.76206,-0.867532
+categoria,outerwear,top,5329,listrada,poa,0,1.26102,-0.815818
+categoria,outerwear,top,5329,listrada,animal,0,1.51323,-0.921569
+categoria,outerwear,top,5329,listrada,outra,14,13.9343,0.00438817
+categoria,outerwear,top,5329,xadrez,lisa,84,75.0118,0.111762
+categoria,outerwear,top,5329,xadrez,listrada,4,6.81404,-0.446484
+categoria,outerwear,top,5329,xadrez,xadrez,1,1.53124,-0.235564
+categoria,outerwear,top,5329,xadrez,floral,1,3.42616,-0.794385
+categoria,outerwear,top,5329,xadrez,poa,0,1.14843,-0.764739
+categoria,outerwear,top,5329,xadrez,animal,1,1.37812,-0.173163
+categoria,outerwear,top,5329,xadrez,outra,11,12.6902,-0.131773
+categoria,outerwear,top,5329,floral,lisa,96,89.72,0.0669329
+categoria,outerwear,top,5329,floral,listrada,2,8.15012,-1.11515
+categoria,outerwear,top,5329,floral,xadrez,0,1.83149,-1.0408
+categoria,outerwear,top,5329,floral,floral,6,4.09795,0.317071
+categoria,outerwear,top,5329,floral,poa,1,1.37362,-0.171267
+categoria,outerwear,top,5329,floral,animal,0,1.64834,-0.973933
+categoria,outerwear,top,5329,floral,outra,17,15.1785,0.106691
+categoria,outerwear,top,5329,poa,lisa,7,5.88328,0.150346
+categoria,outerwear,top,5329,poa,listrada,0,0.534434,-0.428162
+categoria,outerwear,top,5329,poa,xadrez,0,0.120098,-0.113416
+categoria,outerwear,top,5329,poa,floral,0,0.268718,-0.238007
+categoria,outerwear,top,5329,poa,poa,1,0.0900732,0.606902
+categoria,outerwear,top,5329,poa,animal,0,0.108088,-0.102636
+categoria,outerwear,top,5329,poa,outra,0,0.995309,-0.690799
+categoria,outerwear,top,5329,animal,lisa,59,61.7744,-0.0452034
+categoria,outerwear,top,5329,animal,listrada,3,5.61156,-0.502525
+categoria,outerwear,top,5329,animal,xadrez,2,1.26102,0.282794
+categoria,outerwear,top,5329,animal,floral,4,2.82154,0.268784
+categoria,outerwear,top,5329,animal,poa,0,0.945768,-0.665657
+categoria,outerwear,top,5329,animal,animal,3,1.13492,0.627864
+categoria,outerwear,top,5329,animal,outra,13,10.4507,0.201003
+categoria,outerwear,top,5329,outra,lisa,117,122.078,-0.0421342
+categoria,outerwear,top,5329,outra,listrada,11,11.0895,-0.0074315
+categoria,outerwear,top,5329,outra,xadrez,1,2.49202,-0.557335
+categoria,outerwear,top,5329,outra,floral,5,5.57591,-0.0916528
+categoria,outerwear,top,5329,outra,poa,3,1.86902,0.332324
+categoria,outerwear,top,5329,outra,animal,0,2.24282,-1.17644
+categoria,outerwear,top,5329,outra,outra,29,20.6527,0.326069
+categoria,pants,shoes,4317,lisa,lisa,3573,3567.33,0.00158867
+categoria,pants,shoes,4317,lisa,listrada,23,23.1934,-0.00802692
+categoria,pants,shoes,4317,lisa,xadrez,13,11.5967,0.105622
+categoria,pants,shoes,4317,lisa,floral,50,56.1994,-0.114719
+categoria,pants,shoes,4317,lisa,poa,7,8.02849,-0.120944
+categoria,pants,shoes,4317,lisa,animal,125,123.996,0.00800338
+categoria,pants,shoes,4317,lisa,outra,60,60.6597,-0.010757
+categoria,pants,shoes,4317,listrada,lisa,78,78.7387,-0.00930728
+categoria,pants,shoes,4317,listrada,listrada,1,0.51193,0.27976
+categoria,pants,shoes,4317,listrada,xadrez,0,0.255965,-0.227904
+categoria,pants,shoes,4317,listrada,floral,1,1.24044,-0.113527
+categoria,pants,shoes,4317,listrada,poa,1,0.177206,0.530003
+categoria,pants,shoes,4317,listrada,animal,2,2.73685,-0.219632
+categoria,pants,shoes,4317,listrada,outra,2,1.33889,0.248935
+categoria,pants,shoes,4317,xadrez,lisa,28,26.8638,0.0399677
+categoria,pants,shoes,4317,xadrez,listrada,0,0.174658,-0.160977
+categoria,pants,shoes,4317,xadrez,xadrez,0,0.0873292,-0.0837244
+categoria,pants,shoes,4317,xadrez,floral,0,0.423211,-0.352915
+categoria,pants,shoes,4317,xadrez,poa,0,0.0604587,-0.0587015
+categoria,pants,shoes,4317,xadrez,animal,1,0.93375,0.0336859
+categoria,pants,shoes,4317,xadrez,outra,0,0.456799,-0.376241
+categoria,pants,shoes,4317,floral,lisa,137,137.098,-0.000709782
+categoria,pants,shoes,4317,floral,listrada,1,0.89136,0.0558512
+categoria,pants,shoes,4317,floral,xadrez,0,0.44568,-0.36858
+categoria,pants,shoes,4317,floral,floral,6,2.15983,0.795391
+categoria,pants,shoes,4317,floral,poa,0,0.308548,-0.268918
+categoria,pants,shoes,4317,floral,animal,2,4.76535,-0.653253
+categoria,pants,shoes,4317,floral,outra,2,2.33125,-0.104735
+categoria,pants,shoes,4317,poa,lisa,6,8.33704,-0.288079
+categoria,pants,shoes,4317,poa,listrada,0,0.0542043,-0.0527863
+categoria,pants,shoes,4317,poa,xadrez,0,0.0271022,-0.0267414
+categoria,pants,shoes,4317,poa,floral,2,0.131341,0.975208
+categoria,pants,shoes,4317,poa,poa,0,0.018763,-0.0185892
+categoria,pants,shoes,4317,poa,animal,1,0.289785,0.438672
+categoria,pants,shoes,4317,poa,outra,0,0.141765,-0.132575
+categoria,pants,shoes,4317,animal,lisa,14,14.8214,-0.0533135
+categoria,pants,shoes,4317,animal,listrada,0,0.0963632,-0.0919985
+categoria,pants,shoes,4317,animal,xadrez,0,0.0481816,-0.0470569
+categoria,pants,shoes,4317,animal,floral,0,0.233495,-0.209852
+categoria,pants,shoes,4317,animal,poa,1,0.0333565,0.660335
+categoria,pants,shoes,4317,animal,animal,1,0.515173,0.277618
+categoria,pants,shoes,4317,animal,outra,0,0.252027,-0.224764
+categoria,pants,shoes,4317,outra,lisa,163,165.814,-0.0170157
+categoria,pants,shoes,4317,outra,listrada,1,1.07806,-0.0382893
+categoria,pants,shoes,4317,outra,xadrez,0,0.539032,-0.431153
+categoria,pants,shoes,4317,outra,floral,4,2.61223,0.325112
+categoria,pants,shoes,4317,outra,poa,0,0.373176,-0.317126
+categoria,pants,shoes,4317,outra,animal,7,5.76349,0.167902
+categoria,pants,shoes,4317,outra,outra,4,2.81955,0.269305
+categoria,pants,top,6645,lisa,lisa,4047,4099.3,-0.0128365
+categoria,pants,top,6645,lisa,listrada,452,437.631,0.0322329
+categoria,pants,top,6645,lisa,xadrez,141,130.838,0.0742515
+categoria,pants,top,6645,lisa,floral,241,248.141,-0.0290831
+categoria,pants,top,6645,lisa,poa,59,60.4563,-0.0239815
+categoria,pants,top,6645,lisa,animal,70,65.8703,0.0599253
+categoria,pants,top,6645,lisa,outra,986,953.766,0.0332042
+categoria,pants,top,6645,listrada,lisa,80,77.2549,0.0344773
+categoria,pants,top,6645,listrada,listrada,9,8.24755,0.0782259
+categoria,pants,top,6645,listrada,xadrez,0,2.46576,-1.24293
+categoria,pants,top,6645,listrada,floral,5,4.67645,0.0554337
+categoria,pants,top,6645,listrada,poa,3,1.13935,0.625791
+categoria,pants,top,6645,listrada,animal,0,1.24138,-0.807094
+categoria,pants,top,6645,listrada,outra,16,17.9746,-0.109886
+categoria,pants,top,6645,xadrez,lisa,34,32.1326,0.0548309
+categoria,pants,top,6645,xadrez,listrada,4,3.4304,0.120948
+categoria,pants,top,6645,xadrez,xadrez,1,1.02558,-0.0127105
+categoria,pants,top,6645,xadrez,floral,0,1.94507,-1.08013
+categoria,pants,top,6645,xadrez,poa,0,0.47389,-0.387905
+categoria,pants,top,6645,xadrez,animal,0,0.516328,-0.416292
+categoria,pants,top,6645,xadrez,outra,8,7.47615,0.0599685
+categoria,pants,top,6645,floral,lisa,151,131.265,0.139073
+categoria,pants,top,6645,floral,listrada,8,14.0135,-0.511728
+categoria,pants,top,6645,floral,xadrez,1,4.18962,-0.953513
+categoria,pants,top,6645,floral,floral,15,7.94582,0.581402
+categoria,pants,top,6645,floral,poa,2,1.93589,0.0216011
+categoria,pants,top,6645,floral,animal,0,2.10926,-1.13438
+categoria,pants,top,6645,floral,outra,15,30.5409,-0.678695
+categoria,pants,top,6645,poa,lisa,12,8.20406,0.345304
+categoria,pants,top,6645,poa,listrada,0,0.875847,-0.62906
+categoria,pants,top,6645,poa,xadrez,0,0.261851,-0.23258
+categoria,pants,top,6645,poa,floral,0,0.496614,-0.403205
+categoria,pants,top,6645,poa,poa,0,0.120993,-0.114215
+categoria,pants,top,6645,poa,animal,0,0.131828,-0.123834
+categoria,pants,top,6645,poa,outra,0,1.9088,-1.06774
+categoria,pants,top,6645,animal,lisa,22,16.4081,0.278557
+categoria,pants,top,6645,animal,listrada,0,1.75169,-1.01222
+categoria,pants,top,6645,animal,xadrez,0,0.523702,-0.421143
+categoria,pants,top,6645,animal,floral,0,0.993228,-0.689755
+categoria,pants,top,6645,animal,poa,0,0.241986,-0.216712
+categoria,pants,top,6645,animal,animal,1,0.263657,0.459137
+categoria,pants,top,6645,animal,outra,1,3.81761,-0.87913
+categoria,pants,top,6645,outra,lisa,197,178.438,0.0984352
+categoria,pants,top,6645,outra,listrada,12,19.0497,-0.433263
+categoria,pants,top,6645,outra,xadrez,2,5.69526,-0.802787
+categoria,pants,top,6645,outra,floral,14,10.8014,0.239836
+categoria,pants,top,6645,outra,poa,3,2.6316,0.0966203
+categoria,pants,top,6645,outra,animal,2,2.86727,-0.253936
+categoria,pants,top,6645,outra,outra,31,41.5165,-0.284156
+categoria,shoes,skirt,2851,lisa,lisa,1809,1821.42,-0.00683836
+categoria,shoes,skirt,2851,lisa,listrada,113,112.363,0.00560003
+categoria,shoes,skirt,2851,lisa,xadrez,104,99.1442,0.0473496
+categoria,shoes,skirt,2851,lisa,floral,312,304.042,0.0257534
+categoria,shoes,skirt,2851,lisa,poa,43,41.5461,0.0336009
+categoria,shoes,skirt,2851,lisa,animal,17,17.9404,-0.050924
+categoria,shoes,skirt,2851,lisa,outra,294,295.544,-0.00522032
+categoria,shoes,skirt,2851,listrada,lisa,9,7.44265,0.169289
+categoria,shoes,skirt,2851,listrada,listrada,1,0.459137,0.315302
+categoria,shoes,skirt,2851,listrada,xadrez,0,0.405121,-0.340123
+categoria,shoes,skirt,2851,listrada,floral,0,1.24237,-0.807534
+categoria,shoes,skirt,2851,listrada,poa,0,0.169765,-0.156803
+categoria,shoes,skirt,2851,listrada,animal,0,0.0733076,-0.0707451
+categoria,shoes,skirt,2851,listrada,outra,1,1.20765,-0.0987798
+categoria,shoes,skirt,2851,xadrez,lisa,4,2.70642,0.299372
+categoria,shoes,skirt,2851,xadrez,listrada,0,0.166959,-0.154401
+categoria,shoes,skirt,2851,xadrez,xadrez,0,0.147317,-0.137426
+categoria,shoes,skirt,2851,xadrez,floral,0,0.451771,-0.372784
+categoria,shoes,skirt,2851,xadrez,poa,0,0.0617327,-0.0599022
+categoria,shoes,skirt,2851,xadrez,animal,0,0.0266573,-0.0263082
+categoria,shoes,skirt,2851,xadrez,outra,0,0.439144,-0.364049
+categoria,shoes,skirt,2851,floral,lisa,25,23.0046,0.0798527
+categoria,shoes,skirt,2851,floral,listrada,0,1.41915,-0.883417
+categoria,shoes,skirt,2851,floral,xadrez,0,1.25219,-0.811904
+categoria,shoes,skirt,2851,floral,floral,5,3.84006,0.214833
+categoria,shoes,skirt,2851,floral,poa,0,0.524728,-0.421816
+categoria,shoes,skirt,2851,floral,animal,1,0.226587,0.488912
+categoria,shoes,skirt,2851,floral,outra,3,3.73273,-0.168207
+categoria,shoes,skirt,2851,poa,lisa,5,3.38302,0.314021
+categoria,shoes,skirt,2851,poa,listrada,0,0.208699,-0.189544
+categoria,shoes,skirt,2851,poa,xadrez,0,0.184146,-0.169022
+categoria,shoes,skirt,2851,poa,floral,0,0.564714,-0.447703
+categoria,shoes,skirt,2851,poa,poa,0,0.0771659,-0.0743334
+categoria,shoes,skirt,2851,poa,animal,0,0.0333216,-0.0327785
+categoria,shoes,skirt,2851,poa,outra,0,0.54893,-0.437564
+categoria,shoes,skirt,2851,animal,lisa,43,41.2729,0.0400437
+categoria,shoes,skirt,2851,animal,listrada,5,2.54612,0.525904
+categoria,shoes,skirt,2851,animal,xadrez,1,2.24658,-0.484455
+categoria,shoes,skirt,2851,animal,floral,3,6.88951,-0.67924
+categoria,shoes,skirt,2851,animal,poa,0,0.941424,-0.663422
+categoria,shoes,skirt,2851,animal,animal,1,0.406524,0.352026
+categoria,shoes,skirt,2851,animal,outra,8,6.69695,0.156401
+categoria,shoes,skirt,2851,outra,lisa,34,29.7706,0.128788
+categoria,shoes,skirt,2851,outra,listrada,0,1.83655,-1.04259
+categoria,shoes,skirt,2851,outra,xadrez,0,1.62048,-0.963359
+categoria,shoes,skirt,2851,outra,floral,2,4.96948,-0.688048
+categoria,shoes,skirt,2851,outra,poa,1,0.67906,0.174913
+categoria,shoes,skirt,2851,outra,animal,0,0.29323,-0.257143
+categoria,shoes,skirt,2851,outra,outra,7,4.83059,0.316324
+categoria,shoes,top,10024,lisa,lisa,6734,6716.51,0.00260081
+categoria,shoes,top,10024,lisa,listrada,621,629.293,-0.0132441
+categoria,shoes,top,10024,lisa,xadrez,155,151.479,0.0228288
+categoria,shoes,top,10024,lisa,floral,429,426.385,0.00609885
+categoria,shoes,top,10024,lisa,poa,105,102.856,0.0204324
+categoria,shoes,top,10024,lisa,animal,85,97.2458,-0.133125
+categoria,shoes,top,10024,lisa,outra,1244,1249.23,-0.00419571
+categoria,shoes,top,10024,listrada,lisa,35,39.4119,-0.115606
+categoria,shoes,top,10024,listrada,listrada,6,3.69264,0.399915
+categoria,shoes,top,10024,listrada,xadrez,2,0.888867,0.462635
+categoria,shoes,top,10024,listrada,floral,0,2.502,-1.25333
+categoria,shoes,top,10024,listrada,poa,0,0.603551,-0.472221
+categoria,shoes,top,10024,listrada,animal,1,0.57063,0.24167
+categoria,shoes,top,10024,listrada,outra,11,7.33041,0.364994
+categoria,shoes,top,10024,xadrez,lisa,13,17.1979,-0.26225
+categoria,shoes,top,10024,xadrez,listrada,2,1.61133,0.138752
+categoria,shoes,top,10024,xadrez,xadrez,0,0.387869,-0.32777
+categoria,shoes,top,10024,xadrez,floral,0,1.09178,-0.738015
+categoria,shoes,top,10024,xadrez,poa,0,0.263368,-0.233781
+categoria,shoes,top,10024,xadrez,animal,1,0.249002,0.470802
+categoria,shoes,top,10024,xadrez,outra,8,3.19872,0.762444
+categoria,shoes,top,10024,floral,lisa,89,93.1554,-0.0451372
+categoria,shoes,top,10024,floral,listrada,9,8.72805,0.0275714
+categoria,shoes,top,10024,floral,xadrez,0,2.10096,-1.13171
+categoria,shoes,top,10024,floral,floral,12,5.91381,0.631429
+categoria,shoes,top,10024,floral,poa,1,1.42658,-0.193334
+categoria,shoes,top,10024,floral,animal,2,1.34876,0.244723
+categoria,shoes,top,10024,floral,outra,17,17.3264,-0.0179718
+categoria,shoes,top,10024,poa,lisa,14,15.0482,-0.0675455
+categoria,shoes,top,10024,poa,listrada,0,1.40992,-0.879592
+categoria,shoes,top,10024,poa,xadrez,0,0.339385,-0.292211
+categoria,shoes,top,10024,poa,floral,0,0.955307,-0.670547
+categoria,shoes,top,10024,poa,poa,3,0.230447,1.17892
+categoria,shoes,top,10024,poa,animal,0,0.217877,-0.197109
+categoria,shoes,top,10024,poa,outra,4,2.79888,0.274731
+categoria,shoes,top,10024,animal,lisa,195,192.76,0.011494
+categoria,shoes,top,10024,animal,listrada,22,18.0604,0.187884
+categoria,shoes,top,10024,animal,xadrez,4,4.34737,-0.0671663
+categoria,shoes,top,10024,animal,floral,9,12.237,-0.280433
+categoria,shoes,top,10024,animal,poa,1,2.95192,-0.681053
+categoria,shoes,top,10024,animal,animal,13,2.7909,1.30645
+categoria,shoes,top,10024,animal,outra,25,35.8524,-0.348823
+categoria,shoes,top,10024,outra,lisa,103,108.92,-0.0553637
+categoria,shoes,top,10024,outra,listrada,13,10.2051,0.222688
+categoria,shoes,top,10024,outra,xadrez,1,2.4565,-0.547111
+categoria,shoes,top,10024,outra,floral,6,6.9146,-0.1228
+categoria,shoes,top,10024,outra,poa,0,1.668,-0.981328
+categoria,shoes,top,10024,outra,animal,2,1.57702,0.15198
+categoria,shoes,top,10024,outra,outra,27,20.2586,0.275444
+categoria,skirt,top,3869,lisa,lisa,1840,1908.2,-0.0363741
+categoria,skirt,top,3869,lisa,listrada,177,149.806,0.165788
+categoria,skirt,top,3869,lisa,xadrez,21,25.3006,-0.178549
+categoria,skirt,top,3869,lisa,floral,151,136.49,0.100329
+categoria,skirt,top,3869,lisa,poa,30,25.3006,0.164396
+categoria,skirt,top,3869,lisa,animal,41,31.9586,0.242416
+categoria,skirt,top,3869,lisa,outra,316,298.946,0.0552977
+categoria,skirt,top,3869,listrada,lisa,126,117.04,0.073163
+categoria,skirt,top,3869,listrada,listrada,13,9.18842,0.317805
+categoria,skirt,top,3869,listrada,xadrez,1,1.55182,-0.243661
+categoria,skirt,top,3869,listrada,floral,6,8.37167,-0.291781
+categoria,skirt,top,3869,listrada,poa,0,1.55182,-0.936808
+categoria,skirt,top,3869,listrada,animal,0,1.9602,-1.08526
+categoria,skirt,top,3869,listrada,outra,12,18.336,-0.397019
+categoria,skirt,top,3869,xadrez,lisa,143,128.892,0.103108
+categoria,skirt,top,3869,xadrez,listrada,3,10.1189,-1.02235
+categoria,skirt,top,3869,xadrez,xadrez,5,1.70897,0.795191
+categoria,skirt,top,3869,xadrez,floral,2,9.21944,-1.22568
+categoria,skirt,top,3869,xadrez,poa,0,1.70897,-0.996568
+categoria,skirt,top,3869,xadrez,animal,0,2.1587,-1.15016
+categoria,skirt,top,3869,xadrez,outra,21,20.1928,0.0373803
+categoria,skirt,top,3869,floral,lisa,327,306.675,0.0639709
+categoria,skirt,top,3869,floral,listrada,14,24.076,-0.513861
+categoria,skirt,top,3869,floral,xadrez,4,4.06617,-0.0131466
+categoria,skirt,top,3869,floral,floral,20,21.9359,-0.088181
+categoria,skirt,top,3869,floral,poa,0,4.06617,-1.62258
+categoria,skirt,top,3869,floral,animal,0,5.13621,-1.81421
+categoria,skirt,top,3869,floral,outra,49,48.045,0.0192853
+categoria,skirt,top,3869,poa,lisa,48,45.9271,0.0432247
+categoria,skirt,top,3869,poa,listrada,2,3.60558,-0.428657
+categoria,skirt,top,3869,poa,xadrez,0,0.608943,-0.475577
+categoria,skirt,top,3869,poa,floral,2,3.28509,-0.356528
+categoria,skirt,top,3869,poa,poa,4,0.608943,1.13386
+categoria,skirt,top,3869,poa,animal,0,0.769191,-0.570522
+categoria,skirt,top,3869,poa,outra,6,7.19514,-0.157631
+categoria,skirt,top,3869,animal,lisa,29,27.4081,0.0545225
+categoria,skirt,top,3869,animal,listrada,2,2.15172,-0.0493357
+categoria,skirt,top,3869,animal,xadrez,0,0.363401,-0.309983
+categoria,skirt,top,3869,animal,floral,0,1.96045,-1.08534
+categoria,skirt,top,3869,animal,poa,0,0.363401,-0.309983
+categoria,skirt,top,3869,animal,animal,2,0.459033,0.720838
+categoria,skirt,top,3869,animal,outra,4,4.29387,-0.0571125
+categoria,skirt,top,3869,outra,lisa,353,331.86,0.0615736
+categoria,skirt,top,3869,outra,listrada,14,26.0532,-0.589757
+categoria,skirt,top,3869,outra,xadrez,7,4.4001,0.393023
+categoria,skirt,top,3869,outra,floral,24,23.7374,0.0105596
+categoria,skirt,top,3869,outra,poa,4,4.4001,-0.0769802
+categoria,skirt,top,3869,outra,animal,5,5.55803,-0.0889301
+categoria,skirt,top,3869,outra,outra,41,51.9907,-0.232447
+grupo,acessorio,acessorio,186,lisa,lisa,104,109.941,-0.0550369
+grupo,acessorio,acessorio,186,lisa,listrada,5,4.22849,0.137636
+grupo,acessorio,acessorio,186,lisa,xadrez,7.5,5.76613,0.228137
+grupo,acessorio,acessorio,186,lisa,floral,2.5,2.30645,0.0568874
+grupo,acessorio,acessorio,186,lisa,poa,3.5,3.07527,0.0991407
+grupo,acessorio,acessorio,186,lisa,animal,7.5,6.15054,0.172879
+grupo,acessorio,acessorio,186,lisa,outra,13,11.5323,0.110751
+grupo,acessorio,acessorio,186,listrada,listrada,0,0.162634,-0.150688
+grupo,acessorio,acessorio,186,listrada,xadrez,0,0.221774,-0.200304
+grupo,acessorio,acessorio,186,listrada,floral,0,0.0887097,-0.0849932
+grupo,acessorio,acessorio,186,listrada,poa,0,0.11828,-0.111791
+grupo,acessorio,acessorio,186,listrada,animal,0,0.236559,-0.212333
+grupo,acessorio,acessorio,186,listrada,outra,0.5,0.443548,0.0383609
+grupo,acessorio,acessorio,186,xadrez,xadrez,0,0.302419,-0.264224
+grupo,acessorio,acessorio,186,xadrez,floral,0,0.120968,-0.114192
+grupo,acessorio,acessorio,186,xadrez,poa,0,0.16129,-0.149532
+grupo,acessorio,acessorio,186,xadrez,animal,0,0.322581,-0.279585
+grupo,acessorio,acessorio,186,xadrez,outra,0,0.604839,-0.473023
+grupo,acessorio,acessorio,186,floral,floral,0,0.0483871,-0.0472529
+grupo,acessorio,acessorio,186,floral,poa,0,0.0645161,-0.0625204
+grupo,acessorio,acessorio,186,floral,animal,0.5,0.129032,0.284104
+grupo,acessorio,acessorio,186,floral,outra,0,0.241935,-0.216671
+grupo,acessorio,acessorio,186,poa,poa,0,0.0860215,-0.082521
+grupo,acessorio,acessorio,186,poa,animal,0,0.172043,-0.158748
+grupo,acessorio,acessorio,186,poa,outra,0.5,0.322581,0.12588
+grupo,acessorio,acessorio,186,animal,animal,0,0.344086,-0.295714
+grupo,acessorio,acessorio,186,animal,outra,0,0.645161,-0.497838
+grupo,acessorio,acessorio,186,outra,outra,1,1.20968,-0.0996994
+grupo,acessorio,parte de baixo,1763,lisa,lisa,1219,1219.03,-2.32462e-05
+grupo,acessorio,parte de baixo,1763,lisa,listrada,45,44.8111,0.0041146
+grupo,acessorio,parte de baixo,1763,lisa,xadrez,44,41.4918,0.057352
+grupo,acessorio,parte de baixo,1763,lisa,floral,55,57.2587,-0.0395409
+grupo,acessorio,parte de baixo,1763,lisa,poa,9,10.7879,-0.164485
+grupo,acessorio,parte de baixo,1763,lisa,animal,5,4.14918,0.152922
+grupo,acessorio,parte de baixo,1763,lisa,outra,86,85.4731,0.00607523
+grupo,acessorio,parte de baixo,1763,listrada,lisa,39,34.996,0.105471
+grupo,acessorio,parte de baixo,1763,listrada,listrada,2,1.28644,0.271615
+grupo,acessorio,parte de baixo,1763,listrada,xadrez,0,1.19115,-0.784427
+grupo,acessorio,parte de baixo,1763,listrada,floral,0,1.64379,-0.972213
+grupo,acessorio,parte de baixo,1763,listrada,poa,0,0.309699,-0.269798
+grupo,acessorio,parte de baixo,1763,listrada,animal,0,0.119115,-0.112538
+grupo,acessorio,parte de baixo,1763,listrada,outra,1,2.45377,-0.54632
+grupo,acessorio,parte de baixo,1763,xadrez,lisa,22,23.3307,-0.0562441
+grupo,acessorio,parte de baixo,1763,xadrez,listrada,1,0.857629,0.0738462
+grupo,acessorio,parte de baixo,1763,xadrez,xadrez,0,0.794101,-0.584504
+grupo,acessorio,parte de baixo,1763,xadrez,floral,2,1.09586,0.358649
+grupo,acessorio,parte de baixo,1763,xadrez,poa,0,0.206466,-0.187696
+grupo,acessorio,parte de baixo,1763,xadrez,animal,0,0.0794101,-0.0764147
+grupo,acessorio,parte de baixo,1763,xadrez,outra,3,1.63585,0.417089
+grupo,acessorio,parte de baixo,1763,floral,lisa,29,34.1628,-0.158791
+grupo,acessorio,parte de baixo,1763,floral,listrada,2,1.25581,0.285101
+grupo,acessorio,parte de baixo,1763,floral,xadrez,0,1.16279,-0.771399
+grupo,acessorio,parte de baixo,1763,floral,floral,7,1.60465,1.12214
+grupo,acessorio,parte de baixo,1763,floral,poa,1,0.302326,0.428996
+grupo,acessorio,parte de baixo,1763,floral,animal,0,0.116279,-0.110001
+grupo,acessorio,parte de baixo,1763,floral,outra,2,2.39535,-0.123794
+grupo,acessorio,parte de baixo,1763,poa,lisa,3,4.99943,-0.405371
+grupo,acessorio,parte de baixo,1763,poa,listrada,0,0.183778,-0.168711
+grupo,acessorio,parte de baixo,1763,poa,xadrez,1,0.170164,0.536003
+grupo,acessorio,parte de baixo,1763,poa,floral,1,0.234827,0.482216
+grupo,acessorio,parte de baixo,1763,poa,poa,0,0.0442428,-0.043292
+grupo,acessorio,parte de baixo,1763,poa,animal,0,0.0170164,-0.0168733
+grupo,acessorio,parte de baixo,1763,poa,outra,1,0.350539,0.392644
+grupo,acessorio,parte de baixo,1763,animal,lisa,30,29.9966,0.00010979
+grupo,acessorio,parte de baixo,1763,animal,listrada,0,1.10267,-0.743206
+grupo,acessorio,parte de baixo,1763,animal,xadrez,1,1.02099,-0.0104388
+grupo,acessorio,parte de baixo,1763,animal,floral,2,1.40896,0.219416
+grupo,acessorio,parte de baixo,1763,animal,poa,1,0.265457,0.457714
+grupo,acessorio,parte de baixo,1763,animal,animal,0,0.102099,-0.0972163
+grupo,acessorio,parte de baixo,1763,animal,outra,2,2.10323,-0.0338322
+grupo,acessorio,parte de baixo,1763,outra,lisa,127,122.486,0.0359016
+grupo,acessorio,parte de baixo,1763,outra,listrada,4,4.50255,-0.0957742
+grupo,acessorio,parte de baixo,1763,outra,xadrez,4,4.16903,-0.0332471
+grupo,acessorio,parte de baixo,1763,outra,floral,2,5.75326,-0.811413
+grupo,acessorio,parte de baixo,1763,outra,poa,2,1.08395,0.364348
+grupo,acessorio,parte de baixo,1763,outra,animal,0,0.416903,-0.348474
+grupo,acessorio,parte de baixo,1763,outra,outra,8,8.5882,-0.0633088
+grupo,acessorio,parte de cima,4093,lisa,lisa,2449,2468.56,-0.00795216
+grupo,acessorio,parte de cima,4093,lisa,listrada,204,199.488,0.0222573
+grupo,acessorio,parte de cima,4093,lisa,xadrez,87,77.0928,0.119438
+grupo,acessorio,parte de cima,4093,lisa,floral,101,95.3726,0.056751
+grupo,acessorio,parte de cima,4093,lisa,poa,18,19.0745,-0.0550122
+grupo,acessorio,parte de cima,4093,lisa,animal,37,38.149,-0.0297896
+grupo,acessorio,parte de cima,4093,lisa,outra,357,355.263,0.00486408
+grupo,acessorio,parte de cima,4093,listrada,lisa,84,82.7154,0.0152287
+grupo,acessorio,parte de cima,4093,listrada,listrada,10,6.68434,0.358711
+grupo,acessorio,parte de cima,4093,listrada,xadrez,1,2.58319,-0.583107
+grupo,acessorio,parte de cima,4093,listrada,floral,3,3.1957,-0.0477658
+grupo,acessorio,parte de cima,4093,listrada,poa,0,0.63914,-0.494172
+grupo,acessorio,parte de cima,4093,listrada,animal,0,1.27828,-0.823421
+grupo,acessorio,parte de cima,4093,listrada,outra,11,11.904,-0.0726293
+grupo,acessorio,parte de cima,4093,xadrez,lisa,76,75.8857,0.00148606
+grupo,acessorio,parte de cima,4093,xadrez,listrada,8,6.13242,0.232574
+grupo,acessorio,parte de cima,4093,xadrez,xadrez,1,2.3699,-0.521736
+grupo,acessorio,parte de cima,4093,xadrez,floral,0,2.93183,-1.36911
+grupo,acessorio,parte de cima,4093,xadrez,poa,0,0.586367,-0.461446
+grupo,acessorio,parte de cima,4093,xadrez,animal,1,1.17273,-0.0828391
+grupo,acessorio,parte de cima,4093,xadrez,outra,14,10.9211,0.229742
+grupo,acessorio,parte de cima,4093,floral,lisa,92,84.2331,0.0872099
+grupo,acessorio,parte de cima,4093,floral,listrada,3,6.80699,-0.668725
+grupo,acessorio,parte de cima,4093,floral,xadrez,0,2.63059,-1.28939
+grupo,acessorio,parte de cima,4093,floral,floral,5,3.25434,0.343821
+grupo,acessorio,parte de cima,4093,floral,poa,0,0.650867,-0.501301
+grupo,acessorio,parte de cima,4093,floral,animal,2,1.30173,0.264949
+grupo,acessorio,parte de cima,4093,floral,outra,9,12.1224,-0.271736
+grupo,acessorio,parte de cima,4093,poa,lisa,27,22.7657,0.163961
+grupo,acessorio,parte de cima,4093,poa,listrada,1,1.83973,-0.350561
+grupo,acessorio,parte de cima,4093,poa,xadrez,0,0.71097,-0.53706
+grupo,acessorio,parte de cima,4093,poa,floral,1,0.87955,0.0621146
+grupo,acessorio,parte de cima,4093,poa,poa,0,0.17591,-0.162042
+grupo,acessorio,parte de cima,4093,poa,animal,0,0.35182,-0.301452
+grupo,acessorio,parte de cima,4093,poa,outra,1,3.27633,-0.759947
+grupo,acessorio,parte de cima,4093,animal,lisa,91,84.9919,0.067535
+grupo,acessorio,parte de cima,4093,animal,listrada,4,6.86831,-0.453406
+grupo,acessorio,parte de cima,4093,animal,xadrez,2,2.65429,-0.197289
+grupo,acessorio,parte de cima,4093,animal,floral,0,3.28366,-1.45481
+grupo,acessorio,parte de cima,4093,animal,poa,2,0.656731,0.593766
+grupo,acessorio,parte de cima,4093,animal,animal,5,1.31346,0.953014
+grupo,acessorio,parte de cima,4093,animal,outra,8,12.2316,-0.385384
+grupo,acessorio,parte de cima,4093,outra,lisa,287,286.848,0.00052865
+grupo,acessorio,parte de cima,4093,outra,listrada,21,23.1806,-0.0945062
+grupo,acessorio,parte de cima,4093,outra,xadrez,6,8.95822,-0.352488
+grupo,acessorio,parte de cima,4093,outra,floral,10,11.0823,-0.0938493
+grupo,acessorio,parte de cima,4093,outra,poa,4,2.21647,0.441154
+grupo,acessorio,parte de cima,4093,outra,animal,3,4.43293,-0.306185
+grupo,acessorio,parte de cima,4093,outra,outra,47,41.2817,0.126847
+grupo,acessorio,peca unica,579,lisa,lisa,312,319.275,-0.0229756
+grupo,acessorio,peca unica,579,lisa,listrada,23,21.285,0.0741412
+grupo,acessorio,peca unica,579,lisa,xadrez,7,6.54922,0.0579969
+grupo,acessorio,peca unica,579,lisa,floral,65,63.8549,0.0175019
+grupo,acessorio,peca unica,579,lisa,poa,9,8.18653,0.084847
+grupo,acessorio,peca unica,579,lisa,animal,5,4.91192,0.0147893
+grupo,acessorio,peca unica,579,lisa,outra,53,49.9378,0.0583783
+grupo,acessorio,peca unica,579,listrada,lisa,11,11.4508,-0.0368764
+grupo,acessorio,peca unica,579,listrada,listrada,1,0.763385,0.125912
+grupo,acessorio,peca unica,579,listrada,xadrez,1,0.234888,0.482167
+grupo,acessorio,peca unica,579,listrada,floral,2,2.29016,-0.0923225
+grupo,acessorio,peca unica,579,listrada,poa,1,0.29361,0.435711
+grupo,acessorio,peca unica,579,listrada,animal,0,0.176166,-0.16226
+grupo,acessorio,peca unica,579,listrada,outra,1,1.79102,-0.33326
+grupo,acessorio,peca unica,579,xadrez,lisa,3,2.02073,0.280797
+grupo,acessorio,peca unica,579,xadrez,listrada,0,0.134715,-0.126382
+grupo,acessorio,peca unica,579,xadrez,xadrez,0,0.0414508,-0.0406147
+grupo,acessorio,peca unica,579,xadrez,floral,0,0.404145,-0.339429
+grupo,acessorio,peca unica,579,xadrez,poa,0,0.0518135,-0.0505158
+grupo,acessorio,peca unica,579,xadrez,animal,0,0.0310881,-0.0306146
+grupo,acessorio,peca unica,579,xadrez,outra,0,0.316062,-0.274644
+grupo,acessorio,peca unica,579,floral,lisa,22,20.8808,0.0498833
+grupo,acessorio,peca unica,579,floral,listrada,1,1.39206,-0.179006
+grupo,acessorio,peca unica,579,floral,xadrez,0,0.428325,-0.356502
+grupo,acessorio,peca unica,579,floral,floral,4,4.17617,-0.0346267
+grupo,acessorio,peca unica,579,floral,poa,0,0.535406,-0.428795
+grupo,acessorio,peca unica,579,floral,animal,1,0.321244,0.414574
+grupo,acessorio,peca unica,579,floral,outra,3,3.26598,-0.0643766
+grupo,acessorio,peca unica,579,poa,lisa,3,4.04145,-0.2314
+grupo,acessorio,peca unica,579,poa,listrada,0,0.26943,-0.238568
+grupo,acessorio,peca unica,579,poa,xadrez,0,0.0829016,-0.0796441
+grupo,acessorio,peca unica,579,poa,floral,2,0.80829,0.506231
+grupo,acessorio,peca unica,579,poa,poa,0,0.103627,-0.098602
+grupo,acessorio,peca unica,579,poa,animal,0,0.0621762,-0.0603198
+grupo,acessorio,peca unica,579,poa,outra,1,0.632124,0.203265
+grupo,acessorio,peca unica,579,animal,lisa,4,3.36788,0.135161
+grupo,acessorio,peca unica,579,animal,listrada,0,0.224525,-0.202553
+grupo,acessorio,peca unica,579,animal,xadrez,0,0.0690846,-0.0668028
+grupo,acessorio,peca unica,579,animal,floral,1,0.673575,0.178185
+grupo,acessorio,peca unica,579,animal,poa,0,0.0863558,-0.0828288
+grupo,acessorio,peca unica,579,animal,animal,0,0.0518135,-0.0505158
+grupo,acessorio,peca unica,579,animal,outra,0,0.52677,-0.423155
+grupo,acessorio,peca unica,579,outra,lisa,35,28.9637,0.183531
+grupo,acessorio,peca unica,579,outra,listrada,1,1.93092,-0.382168
+grupo,acessorio,peca unica,579,outra,xadrez,0,0.594128,-0.466327
+grupo,acessorio,peca unica,579,outra,floral,4,5.79275,-0.306417
+grupo,acessorio,peca unica,579,outra,poa,0,0.74266,-0.555413
+grupo,acessorio,peca unica,579,outra,animal,0,0.445596,-0.368522
+grupo,acessorio,peca unica,579,outra,outra,3,4.53022,-0.323934
+grupo,bolsa,parte de baixo,7738,lisa,lisa,5523,5536.19,-0.00238433
+grupo,bolsa,parte de baixo,7738,lisa,listrada,222,218.285,0.0167974
+grupo,bolsa,parte de baixo,7738,lisa,xadrez,156,154.507,0.00955769
+grupo,bolsa,parte de baixo,7738,lisa,floral,469,461.723,0.0156037
+grupo,bolsa,parte de baixo,7738,lisa,poa,55,59.2874,-0.0737716
+grupo,bolsa,parte de baixo,7738,lisa,animal,39,41.3215,-0.0564165
+grupo,bolsa,parte de baixo,7738,lisa,outra,487,479.689,0.0150948
+grupo,bolsa,parte de baixo,7738,listrada,lisa,62,59.7344,0.036624
+grupo,bolsa,parte de baixo,7738,listrada,listrada,2,2.35526,-0.111917
+grupo,bolsa,parte de baixo,7738,listrada,xadrez,1,1.6671,-0.287844
+grupo,bolsa,parte de baixo,7738,listrada,floral,4,4.98191,-0.179302
+grupo,bolsa,parte de baixo,7738,listrada,poa,2,0.6397,0.604099
+grupo,bolsa,parte de baixo,7738,listrada,animal,1,0.445852,0.324449
+grupo,bolsa,parte de baixo,7738,listrada,outra,3,5.17576,-0.434337
+grupo,bolsa,parte de baixo,7738,xadrez,lisa,18,21.5044,-0.169272
+grupo,bolsa,parte de baixo,7738,xadrez,listrada,3,0.847894,0.772248
+grupo,bolsa,parte de baixo,7738,xadrez,xadrez,4,0.600155,1.13934
+grupo,bolsa,parte de baixo,7738,xadrez,floral,1,1.79349,-0.334143
+grupo,bolsa,parte de baixo,7738,xadrez,poa,0,0.230292,-0.207252
+grupo,bolsa,parte de baixo,7738,xadrez,animal,0,0.160507,-0.148857
+grupo,bolsa,parte de baixo,7738,xadrez,outra,1,1.86327,-0.358818
+grupo,bolsa,parte de baixo,7738,floral,lisa,137,136.991,6.55548e-05
+grupo,bolsa,parte de baixo,7738,floral,listrada,3,5.4014,-0.470222
+grupo,bolsa,parte de baixo,7738,floral,xadrez,1,3.82321,-0.880293
+grupo,bolsa,parte de baixo,7738,floral,floral,18,11.4252,0.424714
+grupo,bolsa,parte de baixo,7738,floral,poa,3,1.46705,0.483273
+grupo,bolsa,parte de baixo,7738,floral,animal,1,1.02249,-0.0111805
+grupo,bolsa,parte de baixo,7738,floral,outra,9,11.8697,-0.252293
+grupo,bolsa,parte de baixo,7738,poa,lisa,20,25.4867,-0.23212
+grupo,bolsa,parte de baixo,7738,poa,listrada,1,1.00491,-0.00245241
+grupo,bolsa,parte de baixo,7738,poa,xadrez,1,0.711295,0.155897
+grupo,bolsa,parte de baixo,7738,poa,floral,2,2.12561,-0.0410184
+grupo,bolsa,parte de baixo,7738,poa,poa,4,0.272939,1.36811
+grupo,bolsa,parte de baixo,7738,poa,animal,0,0.19023,-0.174147
+grupo,bolsa,parte de baixo,7738,poa,outra,4,2.20832,0.44369
+grupo,bolsa,parte de baixo,7738,animal,lisa,152,140.177,0.080425
+grupo,bolsa,parte de baixo,7738,animal,listrada,2,5.52701,-0.777337
+grupo,bolsa,parte de baixo,7738,animal,xadrez,1,3.91212,-0.898559
+grupo,bolsa,parte de baixo,7738,animal,floral,6,11.6909,-0.594973
+grupo,bolsa,parte de baixo,7738,animal,poa,1,1.50116,-0.223609
+grupo,bolsa,parte de baixo,7738,animal,animal,3,1.04627,0.670278
+grupo,bolsa,parte de baixo,7738,animal,outra,11,12.1458,-0.0911937
+grupo,bolsa,parte de baixo,7738,outra,lisa,251,242.92,0.0325888
+grupo,bolsa,parte de baixo,7738,outra,listrada,10,9.57806,0.0391136
+grupo,bolsa,parte de baixo,7738,outra,xadrez,8,6.77953,0.145729
+grupo,bolsa,parte de baixo,7738,outra,floral,14,20.2598,-0.348766
+grupo,bolsa,parte de baixo,7738,outra,poa,1,2.60145,-0.588189
+grupo,bolsa,parte de baixo,7738,outra,animal,2,1.81313,0.0643145
+grupo,bolsa,parte de baixo,7738,outra,outra,19,21.0481,-0.097493
+grupo,bolsa,peca unica,3909,lisa,lisa,2350,2344.58,0.00230841
+grupo,bolsa,peca unica,3909,lisa,listrada,133,133.374,-0.00278913
+grupo,bolsa,peca unica,3909,lisa,xadrez,38,40.3633,-0.0588315
+grupo,bolsa,peca unica,3909,lisa,floral,474,479.094,-0.0106679
+grupo,bolsa,peca unica,3909,lisa,poa,44,45.628,-0.0355395
+grupo,bolsa,peca unica,3909,lisa,animal,41,36.8534,0.103948
+grupo,bolsa,peca unica,3909,lisa,outra,350,350.107,-0.000306062
+grupo,bolsa,peca unica,3909,listrada,lisa,24,21.1901,0.119231
+grupo,bolsa,peca unica,3909,listrada,listrada,2,1.20542,0.307693
+grupo,bolsa,peca unica,3909,listrada,xadrez,0,0.364799,-0.311007
+grupo,bolsa,peca unica,3909,listrada,floral,5,4.33001,0.118407
+grupo,bolsa,peca unica,3909,listrada,poa,0,0.412382,-0.345277
+grupo,bolsa,peca unica,3909,listrada,animal,0,0.333078,-0.28749
+grupo,bolsa,peca unica,3909,listrada,outra,0,3.16424,-1.42653
+grupo,bolsa,peca unica,3909,xadrez,lisa,11,8.88616,0.193771
+grupo,bolsa,peca unica,3909,xadrez,listrada,0,0.5055,-0.409125
+grupo,bolsa,peca unica,3909,xadrez,xadrez,1,0.15298,0.550797
+grupo,bolsa,peca unica,3909,xadrez,floral,0,1.81581,-1.03525
+grupo,bolsa,peca unica,3909,xadrez,poa,0,0.172934,-0.159509
+grupo,bolsa,peca unica,3909,xadrez,animal,0,0.139678,-0.130745
+grupo,bolsa,peca unica,3909,xadrez,outra,1,1.32694,-0.151406
+grupo,bolsa,peca unica,3909,floral,lisa,85,95.6971,-0.117236
+grupo,bolsa,peca unica,3909,floral,listrada,5,5.44385,-0.0713663
+grupo,bolsa,peca unica,3909,floral,xadrez,0,1.64748,-0.973608
+grupo,bolsa,peca unica,3909,floral,floral,31,19.5549,0.442638
+grupo,bolsa,peca unica,3909,floral,poa,4,1.86237,0.557788
+grupo,bolsa,peca unica,3909,floral,animal,0,1.50422,-0.917978
+grupo,bolsa,peca unica,3909,floral,outra,15,14.2901,0.0453832
+grupo,bolsa,peca unica,3909,poa,lisa,6,5.46841,0.0789804
+grupo,bolsa,peca unica,3909,poa,listrada,1,0.311077,0.422298
+grupo,bolsa,peca unica,3909,poa,xadrez,0,0.0941417,-0.0899702
+grupo,bolsa,peca unica,3909,poa,floral,0,1.11742,-0.750199
+grupo,bolsa,peca unica,3909,poa,poa,1,0.106421,0.592017
+grupo,bolsa,peca unica,3909,poa,animal,0,0.0859555,-0.0824602
+grupo,bolsa,peca unica,3909,poa,outra,0,0.816577,-0.596954
+grupo,bolsa,peca unica,3909,animal,lisa,59,56.7347,0.0384859
+grupo,bolsa,peca unica,3909,animal,listrada,4,3.22742,0.167845
+grupo,bolsa,peca unica,3909,animal,xadrez,2,0.97672,0.417173
+grupo,bolsa,peca unica,3909,animal,floral,7,11.5932,-0.453719
+grupo,bolsa,peca unica,3909,animal,poa,0,1.10412,-0.743897
+grupo,bolsa,peca unica,3909,animal,animal,0,0.891788,-0.637523
+grupo,bolsa,peca unica,3909,animal,outra,11,8.47199,0.236568
+grupo,bolsa,peca unica,3909,outra,lisa,137,139.444,-0.0175577
+grupo,bolsa,peca unica,3909,outra,listrada,7,7.93246,-0.110251
+grupo,bolsa,peca unica,3909,outra,xadrez,5,2.40061,0.567803
+grupo,bolsa,peca unica,3909,outra,floral,29,28.4942,0.0170023
+grupo,bolsa,peca unica,3909,outra,poa,3,2.71374,0.0742556
+grupo,bolsa,peca unica,3909,outra,animal,1,2.19186,-0.467458
+grupo,bolsa,peca unica,3909,outra,outra,22,20.8227,0.0525427
+grupo,calcado,parte de baixo,7239,lisa,lisa,5434,5447.29,-0.00244222
+grupo,calcado,parte de baixo,7239,lisa,listrada,197,196.98,0.000101169
+grupo,calcado,parte de baixo,7239,lisa,xadrez,132,125.096,0.0533034
+grupo,calcado,parte de baixo,7239,lisa,floral,451,440.638,0.0231924
+grupo,calcado,parte de baixo,7239,lisa,poa,49,49.4784,-0.00952214
+grupo,calcado,parte de baixo,7239,lisa,animal,31,32.6744,-0.0510021
+grupo,calcado,parte de baixo,7239,lisa,outra,464,465.844,-0.00395695
+grupo,calcado,parte de baixo,7239,listrada,lisa,32,30.6299,0.042404
+grupo,calcado,parte de baixo,7239,listrada,listrada,3,1.10761,0.640739
+grupo,calcado,parte de baixo,7239,listrada,xadrez,0,0.703412,-0.532633
+grupo,calcado,parte de baixo,7239,listrada,floral,1,2.47769,-0.553221
+grupo,calcado,parte de baixo,7239,listrada,poa,0,0.278215,-0.245465
+grupo,calcado,parte de baixo,7239,listrada,animal,0,0.183727,-0.168668
+grupo,calcado,parte de baixo,7239,listrada,outra,2,2.61942,-0.187702
+grupo,calcado,parte de baixo,7239,xadrez,lisa,17,13.7029,0.20233
+grupo,calcado,parte de baixo,7239,xadrez,listrada,0,0.49551,-0.402468
+grupo,calcado,parte de baixo,7239,xadrez,xadrez,0,0.314684,-0.273597
+grupo,calcado,parte de baixo,7239,xadrez,floral,0,1.10844,-0.745949
+grupo,calcado,parte de baixo,7239,xadrez,poa,0,0.124465,-0.117307
+grupo,calcado,parte de baixo,7239,xadrez,animal,0,0.0821937,-0.0789902
+grupo,calcado,parte de baixo,7239,xadrez,outra,0,1.17185,-0.775578
+grupo,calcado,parte de baixo,7239,floral,lisa,77,79.799,-0.0352558
+grupo,calcado,parte de baixo,7239,floral,listrada,1,2.88562,-0.664135
+grupo,calcado,parte de baixo,7239,floral,xadrez,0,1.83257,-1.04119
+grupo,calcado,parte de baixo,7239,floral,floral,11,6.45504,0.476017
+grupo,calcado,parte de baixo,7239,floral,poa,2,0.724824,0.553487
+grupo,calcado,parte de baixo,7239,floral,animal,1,0.478657,0.302013
+grupo,calcado,parte de baixo,7239,floral,outra,7,6.82429,0.0222092
+grupo,calcado,parte de baixo,7239,poa,lisa,13,12.0908,0.0671508
+grupo,calcado,parte de baixo,7239,poa,listrada,1,0.437215,0.33044
+grupo,calcado,parte de baixo,7239,poa,xadrez,0,0.277663,-0.245032
+grupo,calcado,parte de baixo,7239,poa,floral,0,0.978036,-0.682104
+grupo,calcado,parte de baixo,7239,poa,poa,0,0.109822,-0.104199
+grupo,calcado,parte de baixo,7239,poa,animal,1,0.0725238,0.623133
+grupo,calcado,parte de baixo,7239,poa,outra,0,1.03398,-0.709996
+grupo,calcado,parte de baixo,7239,animal,lisa,168,161.21,0.0410062
+grupo,calcado,parte de baixo,7239,animal,listrada,7,5.82953,0.158185
+grupo,calcado,parte de baixo,7239,animal,xadrez,2,3.70217,-0.449412
+grupo,calcado,parte de baixo,7239,animal,floral,5,13.0405,-0.850185
+grupo,calcado,parte de baixo,7239,animal,poa,1,1.46429,-0.208757
+grupo,calcado,parte de baixo,7239,animal,animal,2,0.966984,0.422111
+grupo,calcado,parte de baixo,7239,animal,outra,15,13.7864,0.0788785
+grupo,calcado,parte de baixo,7239,outra,lisa,94,90.2777,0.0399708
+grupo,calcado,parte de baixo,7239,outra,listrada,2,3.26454,-0.351722
+grupo,calcado,parte de baixo,7239,outra,xadrez,0,2.07321,-1.12272
+grupo,calcado,parte de baixo,7239,outra,floral,4,7.30267,-0.507139
+grupo,calcado,parte de baixo,7239,outra,poa,1,0.820003,0.0943092
+grupo,calcado,parte de baixo,7239,outra,animal,0,0.541511,-0.432763
+grupo,calcado,parte de baixo,7239,outra,outra,11,7.7204,0.319241
+grupo,calcado,peca unica,4174,lisa,lisa,2769,2759.55,0.00341632
+grupo,calcado,peca unica,4174,lisa,listrada,138,139.916,-0.0136877
+grupo,calcado,peca unica,4174,lisa,xadrez,38,37.815,0.0047537
+grupo,calcado,peca unica,4174,lisa,floral,544,553.99,-0.0181651
+grupo,calcado,peca unica,4174,lisa,poa,50,50.1049,-0.00205544
+grupo,calcado,peca unica,4174,lisa,animal,31,31.1974,-0.00615019
+grupo,calcado,peca unica,4174,lisa,outra,376,373.424,0.00685748
+grupo,calcado,peca unica,4174,listrada,lisa,6,9.79061,-0.432766
+grupo,calcado,peca unica,4174,listrada,listrada,2,0.496406,0.695546
+grupo,calcado,peca unica,4174,listrada,xadrez,1,0.134164,0.567251
+grupo,calcado,peca unica,4174,listrada,floral,3,1.9655,0.299248
+grupo,calcado,peca unica,4174,listrada,poa,0,0.177767,-0.16362
+grupo,calcado,peca unica,4174,listrada,animal,1,0.110685,0.58817
+grupo,calcado,peca unica,4174,listrada,outra,1,1.32487,-0.150516
+grupo,calcado,peca unica,4174,xadrez,lisa,3,3.49665,-0.117037
+grupo,calcado,peca unica,4174,xadrez,listrada,1,0.177288,0.529934
+grupo,calcado,peca unica,4174,xadrez,xadrez,0,0.0479157,-0.0468031
+grupo,calcado,peca unica,4174,xadrez,floral,0,0.701965,-0.531783
+grupo,calcado,peca unica,4174,xadrez,poa,0,0.0634883,-0.0615543
+grupo,calcado,peca unica,4174,xadrez,animal,0,0.0395304,-0.0387691
+grupo,calcado,peca unica,4174,xadrez,outra,1,0.473167,0.305733
+grupo,calcado,peca unica,4174,floral,lisa,71,69.2336,0.0248394
+grupo,calcado,peca unica,4174,floral,listrada,3,3.5103,-0.12007
+grupo,calcado,peca unica,4174,floral,xadrez,0,0.94873,-0.667178
+grupo,calcado,peca unica,4174,floral,floral,18,13.8989,0.243152
+grupo,calcado,peca unica,4174,floral,poa,1,1.25707,-0.120919
+grupo,calcado,peca unica,4174,floral,animal,0,0.782702,-0.57813
+grupo,calcado,peca unica,4174,floral,outra,6,9.36871,-0.392883
+grupo,calcado,peca unica,4174,poa,lisa,3,3.49665,-0.117037
+grupo,calcado,peca unica,4174,poa,listrada,0,0.177288,-0.163213
+grupo,calcado,peca unica,4174,poa,xadrez,0,0.0479157,-0.0468031
+grupo,calcado,peca unica,4174,poa,floral,1,0.701965,0.161364
+grupo,calcado,peca unica,4174,poa,poa,0,0.0634883,-0.0615543
+grupo,calcado,peca unica,4174,poa,animal,0,0.0395304,-0.0387691
+grupo,calcado,peca unica,4174,poa,outra,1,0.473167,0.305733
+grupo,calcado,peca unica,4174,animal,lisa,39,43.3584,-0.103423
+grupo,calcado,peca unica,4174,animal,listrada,3,2.19837,0.223653
+grupo,calcado,peca unica,4174,animal,xadrez,0,0.594154,-0.466343
+grupo,calcado,peca unica,4174,animal,floral,12,8.70436,0.292374
+grupo,calcado,peca unica,4174,animal,poa,2,0.787254,0.517932
+grupo,calcado,peca unica,4174,animal,animal,1,0.490177,0.294252
+grupo,calcado,peca unica,4174,animal,outra,5,5.86727,-0.135008
+grupo,calcado,peca unica,4174,outra,lisa,28,30.0712,-0.0689841
+grupo,calcado,peca unica,4174,outra,listrada,1,1.52468,-0.232966
+grupo,calcado,peca unica,4174,outra,xadrez,1,0.412075,0.348087
+grupo,calcado,peca unica,4174,outra,floral,8,6.0369,0.246058
+grupo,calcado,peca unica,4174,outra,poa,0,0.545999,-0.43567
+grupo,calcado,peca unica,4174,outra,animal,0,0.339962,-0.292641
+grupo,calcado,peca unica,4174,outra,outra,5,4.06924,0.168569
+grupo,parte de baixo,parte de baixo,138,lisa,lisa,69,68.8859,0.00163177
+grupo,parte de baixo,parte de baixo,138,lisa,listrada,7,7.41848,-0.0509875
+grupo,parte de baixo,parte de baixo,138,lisa,xadrez,5.5,4.94565,0.089142
+grupo,parte de baixo,parte de baixo,138,lisa,floral,4,3.17935,0.179283
+grupo,parte de baixo,parte de baixo,138,lisa,poa,2,1.7663,0.0811
+grupo,parte de baixo,parte de baixo,138,lisa,animal,1,0.706522,0.15869
+grupo,parte de baixo,parte de baixo,138,lisa,outra,9,10.5978,-0.148233
+grupo,parte de baixo,parte de baixo,138,listrada,listrada,2,0.798913,0.51143
+grupo,parte de baixo,parte de baixo,138,listrada,xadrez,1,0.532609,0.266176
+grupo,parte de baixo,parte de baixo,138,listrada,floral,0,0.342391,-0.294453
+grupo,parte de baixo,parte de baixo,138,listrada,poa,0,0.190217,-0.174136
+grupo,parte de baixo,parte de baixo,138,listrada,animal,0,0.076087,-0.0733313
+grupo,parte de baixo,parte de baixo,138,listrada,outra,0.5,1.1413,-0.35595
+grupo,parte de baixo,parte de baixo,138,xadrez,xadrez,0,0.355072,-0.303855
+grupo,parte de baixo,parte de baixo,138,xadrez,floral,0,0.228261,-0.205599
+grupo,parte de baixo,parte de baixo,138,xadrez,poa,0,0.126812,-0.119392
+grupo,parte de baixo,parte de baixo,138,xadrez,animal,0,0.0507246,-0.0494801
+grupo,parte de baixo,parte de baixo,138,xadrez,outra,0.5,0.76087,-0.160343
+grupo,parte de baixo,parte de baixo,138,floral,floral,0,0.146739,-0.136922
+grupo,parte de baixo,parte de baixo,138,floral,poa,0,0.0815217,-0.0783691
+grupo,parte de baixo,parte de baixo,138,floral,animal,0,0.0326087,-0.0320883
+grupo,parte de baixo,parte de baixo,138,floral,outra,0.5,0.48913,0.00727276
+grupo,parte de baixo,parte de baixo,138,poa,poa,0,0.0452899,-0.0442942
+grupo,parte de baixo,parte de baixo,138,poa,animal,0,0.0181159,-0.0179538
+grupo,parte de baixo,parte de baixo,138,poa,outra,0.5,0.271739,0.16508
+grupo,parte de baixo,parte de baixo,138,animal,animal,0,0.00724638,-0.00722025
+grupo,parte de baixo,parte de baixo,138,animal,outra,0,0.108696,-0.103184
+grupo,parte de baixo,parte de baixo,138,outra,outra,4,1.63043,0.642289
+grupo,parte de baixo,parte de cima,14504,lisa,lisa,8706,8871.78,-0.0188609
+grupo,parte de baixo,parte de cima,14504,lisa,listrada,712,659.158,0.077002
+grupo,parte de baixo,parte de cima,14504,lisa,xadrez,223,206.699,0.0755562
+grupo,parte de baixo,parte de cima,14504,lisa,floral,467,465.48,0.00325402
+grupo,parte de baixo,parte de cima,14504,lisa,poa,97,92.7704,0.0441182
+grupo,parte de baixo,parte de cima,14504,lisa,animal,157,143.224,0.091224
+grupo,parte de baixo,parte de cima,14504,lisa,outra,1441,1363.89,0.0549588
+grupo,parte de baixo,parte de cima,14504,listrada,lisa,331,316.447,0.0448252
+grupo,parte de baixo,parte de cima,14504,listrada,listrada,29,23.5114,0.202057
+grupo,parte de baixo,parte de cima,14504,listrada,xadrez,3,7.37272,-0.738685
+grupo,parte de baixo,parte de cima,14504,listrada,floral,17,16.6031,0.0222942
+grupo,parte de baixo,parte de cima,14504,listrada,poa,3,3.30902,-0.0744157
+grupo,parte de baixo,parte de cima,14504,listrada,animal,1,5.10866,-1.11656
+grupo,parte de baixo,parte de cima,14504,listrada,outra,37,48.6484,-0.267379
+grupo,parte de baixo,parte de cima,14504,xadrez,lisa,250,227,0.0961085
+grupo,parte de baixo,parte de cima,14504,xadrez,listrada,7,16.8657,-0.803441
+grupo,parte de baixo,parte de cima,14504,xadrez,xadrez,8,5.28875,0.358463
+grupo,parte de baixo,parte de cima,14504,xadrez,floral,2,11.9101,-1.4594
+grupo,parte de baixo,parte de cima,14504,xadrez,poa,0,2.37369,-1.21601
+grupo,parte de baixo,parte de cima,14504,xadrez,animal,2,3.66464,-0.441399
+grupo,parte de baixo,parte de cima,14504,xadrez,outra,33,34.8974,-0.0543046
+grupo,parte de baixo,parte de cima,14504,floral,lisa,680,620.867,0.0908364
+grupo,parte de baixo,parte de cima,14504,floral,listrada,24,46.1293,-0.63402
+grupo,parte de baixo,parte de cima,14504,floral,xadrez,6,14.4653,-0.792685
+grupo,parte de baixo,parte de cima,14504,floral,floral,42,32.5753,0.24741
+grupo,parte de baixo,parte de cima,14504,floral,poa,2,6.49228,-0.915261
+grupo,parte de baixo,parte de cima,14504,floral,animal,2,10.0232,-1.30139
+grupo,parte de baixo,parte de cima,14504,floral,outra,70,95.4479,-0.306323
+grupo,parte de baixo,parte de cima,14504,poa,lisa,88,81.1787,0.0797401
+grupo,parte de baixo,parte de cima,14504,poa,listrada,4,6.03144,-0.340954
+grupo,parte de baixo,parte de cima,14504,poa,xadrez,1,1.89134,-0.368573
+grupo,parte de baixo,parte de cima,14504,poa,floral,2,4.25924,-0.561374
+grupo,parte de baixo,parte de cima,14504,poa,poa,4,0.848869,0.994864
+grupo,parte de baixo,parte de cima,14504,poa,animal,1,1.31054,-0.144332
+grupo,parte de baixo,parte de cima,14504,poa,outra,8,12.4799,-0.403973
+grupo,parte de baixo,parte de cima,14504,animal,lisa,74,64.6423,0.133268
+grupo,parte de baixo,parte de cima,14504,animal,listrada,2,4.80281,-0.659731
+grupo,parte de baixo,parte de cima,14504,animal,xadrez,0,1.50607,-0.918715
+grupo,parte de baixo,parte de cima,14504,animal,floral,0,3.39162,-1.4797
+grupo,parte de baixo,parte de cima,14504,animal,poa,1,0.675951,0.176766
+grupo,parte de baixo,parte de cima,14504,animal,animal,3,1.04357,0.671594
+grupo,parte de baixo,parte de cima,14504,animal,outra,6,9.93767,-0.446303
+grupo,parte de baixo,parte de cima,14504,outra,lisa,773,720.085,0.0708145
+grupo,parte de baixo,parte de cima,14504,outra,listrada,32,53.5011,-0.501713
+grupo,parte de baixo,parte de cima,14504,outra,xadrez,13,16.7769,-0.238842
+grupo,parte de baixo,parte de cima,14504,outra,floral,42,37.781,0.103269
+grupo,parte de baixo,parte de cima,14504,outra,poa,7,7.52978,-0.0641226
+grupo,parte de baixo,parte de cima,14504,outra,animal,10,11.6249,-0.137778
+grupo,parte de baixo,parte de cima,14504,outra,outra,81,110.701,-0.309107
+grupo,parte de baixo,peca unica,399,lisa,lisa,208,211.694,-0.0175214
+grupo,parte de baixo,peca unica,399,lisa,listrada,11,9.44361,0.138916
+grupo,parte de baixo,peca unica,399,lisa,xadrez,7,6.29574,0.092151
+grupo,parte de baixo,peca unica,399,lisa,floral,48,45.6441,0.0492736
+grupo,parte de baixo,peca unica,399,lisa,poa,10,8.65664,0.130249
+grupo,parte de baixo,peca unica,399,lisa,animal,2,1.57393,0.153176
+grupo,parte de baixo,peca unica,399,lisa,outra,28,30.6917,-0.0887599
+grupo,parte de baixo,peca unica,399,listrada,lisa,10,7.41604,0.267756
+grupo,parte de baixo,peca unica,399,listrada,listrada,0,0.330827,-0.285801
+grupo,parte de baixo,peca unica,399,listrada,xadrez,0,0.220551,-0.199303
+grupo,parte de baixo,peca unica,399,listrada,floral,1,1.599,-0.261979
+grupo,parte de baixo,peca unica,399,listrada,poa,0,0.303258,-0.264867
+grupo,parte de baixo,peca unica,399,listrada,animal,0,0.0551378,-0.0536714
+grupo,parte de baixo,peca unica,399,listrada,outra,0,1.07519,-0.730052
+grupo,parte de baixo,peca unica,399,xadrez,lisa,4,3.37093,0.134463
+grupo,parte de baixo,peca unica,399,xadrez,listrada,0,0.150376,-0.140089
+grupo,parte de baixo,peca unica,399,xadrez,xadrez,1,0.100251,0.597609
+grupo,parte de baixo,peca unica,399,xadrez,floral,0,0.726817,-0.54628
+grupo,parte de baixo,peca unica,399,xadrez,poa,0,0.137845,-0.129136
+grupo,parte de baixo,peca unica,399,xadrez,animal,0,0.0250627,-0.0247537
+grupo,parte de baixo,peca unica,399,xadrez,outra,0,0.488722,-0.397918
+grupo,parte de baixo,peca unica,399,floral,lisa,21,18.8772,0.101469
+grupo,parte de baixo,peca unica,399,floral,listrada,0,0.842105,-0.610909
+grupo,parte de baixo,peca unica,399,floral,xadrez,0,0.561404,-0.445585
+grupo,parte de baixo,peca unica,399,floral,floral,3,4.07018,-0.237081
+grupo,parte de baixo,peca unica,399,floral,poa,1,0.77193,0.121078
+grupo,parte de baixo,peca unica,399,floral,animal,0,0.140351,-0.131336
+grupo,parte de baixo,peca unica,399,floral,outra,3,2.73684,0.0680535
+grupo,parte de baixo,peca unica,399,poa,lisa,4,4.04511,-0.0089821
+grupo,parte de baixo,peca unica,399,poa,listrada,0,0.180451,-0.165897
+grupo,parte de baixo,peca unica,399,poa,xadrez,0,0.120301,-0.113597
+grupo,parte de baixo,peca unica,399,poa,floral,0,0.87218,-0.627104
+grupo,parte de baixo,peca unica,399,poa,poa,0,0.165414,-0.153076
+grupo,parte de baixo,peca unica,399,poa,animal,0,0.0300752,-0.0296318
+grupo,parte de baixo,peca unica,399,poa,outra,2,0.586466,0.637103
+grupo,parte de baixo,peca unica,399,animal,lisa,2,1.34837,0.24489
+grupo,parte de baixo,peca unica,399,animal,listrada,0,0.0601504,-0.0584108
+grupo,parte de baixo,peca unica,399,animal,xadrez,0,0.0401003,-0.0393171
+grupo,parte de baixo,peca unica,399,animal,floral,0,0.290727,-0.255205
+grupo,parte de baixo,peca unica,399,animal,poa,0,0.0551378,-0.0536714
+grupo,parte de baixo,peca unica,399,animal,animal,0,0.0100251,-0.00997515
+grupo,parte de baixo,peca unica,399,animal,outra,0,0.195489,-0.178555
+grupo,parte de baixo,peca unica,399,outra,lisa,20,22.2481,-0.101702
+grupo,parte de baixo,peca unica,399,outra,listrada,1,0.992481,0.00376648
+grupo,parte de baixo,peca unica,399,outra,xadrez,0,0.661654,-0.507814
+grupo,parte de baixo,peca unica,399,outra,floral,6,4.79699,0.188571
+grupo,parte de baixo,peca unica,399,outra,poa,0,0.909774,-0.646985
+grupo,parte de baixo,peca unica,399,outra,animal,0,0.165414,-0.153076
+grupo,parte de baixo,peca unica,399,outra,outra,6,3.22556,0.504757
+grupo,parte de cima,peca unica,2167,lisa,lisa,1284,1287.4,-0.00264392
+grupo,parte de cima,peca unica,2167,lisa,listrada,72,72.5658,-0.00772025
+grupo,parte de cima,peca unica,2167,lisa,xadrez,24,24.7577,-0.0298589
+grupo,parte de cima,peca unica,2167,lisa,floral,237,234.772,0.00940725
+grupo,parte de cima,peca unica,2167,lisa,poa,33,30.7337,0.0689803
+grupo,parte de cima,peca unica,2167,lisa,animal,18,17.0743,0.0499481
+grupo,parte de cima,peca unica,2167,lisa,outra,182,182.695,-0.00379046
+grupo,parte de cima,peca unica,2167,listrada,lisa,40,38.2741,0.0430065
+grupo,parte de cima,peca unica,2167,listrada,listrada,4,2.15736,0.459702
+grupo,parte de cima,peca unica,2167,listrada,xadrez,1,0.736041,0.14154
+grupo,parte de cima,peca unica,2167,listrada,floral,6,6.9797,-0.13099
+grupo,parte de cima,peca unica,2167,listrada,poa,0,0.913706,-0.649041
+grupo,parte de cima,peca unica,2167,listrada,animal,1,0.507614,0.282619
+grupo,parte de cima,peca unica,2167,listrada,outra,3,5.43147,-0.474909
+grupo,parte de cima,peca unica,2167,xadrez,lisa,25,20.1809,0.204997
+grupo,parte de cima,peca unica,2167,xadrez,listrada,0,1.13752,-0.759645
+grupo,parte de cima,peca unica,2167,xadrez,xadrez,1,0.388094,0.365215
+grupo,parte de cima,peca unica,2167,xadrez,floral,1,3.6802,-0.850194
+grupo,parte de cima,peca unica,2167,xadrez,poa,0,0.481772,-0.393239
+grupo,parte de cima,peca unica,2167,xadrez,animal,0,0.267651,-0.237166
+grupo,parte de cima,peca unica,2167,xadrez,outra,2,2.86387,-0.253056
+grupo,parte de cima,peca unica,2167,floral,lisa,56,52.192,0.0691438
+grupo,parte de cima,peca unica,2167,floral,listrada,3,2.94186,0.0146429
+grupo,parte de cima,peca unica,2167,floral,xadrez,0,1.00369,-0.694991
+grupo,parte de cima,peca unica,2167,floral,floral,15,9.51777,0.419523
+grupo,parte de cima,peca unica,2167,floral,poa,0,1.24596,-0.809134
+grupo,parte de cima,peca unica,2167,floral,animal,0,0.692201,-0.52603
+grupo,parte de cima,peca unica,2167,floral,outra,1,7.40655,-1.43586
+grupo,parte de cima,peca unica,2167,poa,lisa,8,8.35072,-0.0382283
+grupo,parte de cima,peca unica,2167,poa,listrada,0,0.470697,-0.385736
+grupo,parte de cima,peca unica,2167,poa,xadrez,0,0.160591,-0.148929
+grupo,parte de cima,peca unica,2167,poa,floral,0,1.52284,-0.925386
+grupo,parte de cima,peca unica,2167,poa,poa,1,0.199354,0.511364
+grupo,parte de cima,peca unica,2167,poa,animal,1,0.110752,0.58811
+grupo,parte de cima,peca unica,2167,poa,outra,2,1.18505,0.316974
+grupo,parte de cima,peca unica,2167,animal,lisa,27,26.4439,0.0200594
+grupo,parte de cima,peca unica,2167,animal,listrada,1,1.49054,-0.219352
+grupo,parte de cima,peca unica,2167,animal,xadrez,0,0.508537,-0.41114
+grupo,parte de cima,peca unica,2167,animal,floral,4,4.82234,-0.152263
+grupo,parte de cima,peca unica,2167,animal,poa,0,0.631287,-0.48937
+grupo,parte de cima,peca unica,2167,animal,animal,0,0.350715,-0.300634
+grupo,parte de cima,peca unica,2167,animal,outra,6,3.75265,0.387207
+grupo,parte de cima,peca unica,2167,outra,lisa,68,75.1564,-0.0986831
+grupo,parte de cima,peca unica,2167,outra,listrada,5,4.23627,0.13615
+grupo,parte de cima,peca unica,2167,outra,xadrez,3,1.44532,0.49212
+grupo,parte de cima,peca unica,2167,outra,floral,12,13.7056,-0.123278
+grupo,parte de cima,peca unica,2167,outra,poa,2,1.79419,0.0710716
+grupo,parte de cima,peca unica,2167,outra,animal,0,0.99677,-0.691531
+grupo,parte de cima,peca unica,2167,outra,outra,18,10.6654,0.487809
+grupo,peca unica,peca unica,4,lisa,lisa,4,4,0

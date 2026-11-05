@@ -1,0 +1,2625 @@
+tabela,lado_a,lado_b,pares,valor_a,valor_b,n,esperado,pontos
+categoria,bag,bracelet,728,casual,casual,99,83.6456,0.166697
+categoria,bag,bracelet,728,casual,classico,28.6667,34.989,-0.19319
+categoria,bag,bracelet,728,casual,romantico,31.3333,28.8538,0.0797871
+categoria,bag,bracelet,728,casual,moderno,106.333,117.845,-0.10188
+categoria,bag,bracelet,728,classico,casual,26.25,26.4282,-0.00651918
+categoria,bag,bracelet,728,classico,classico,17.5,11.0549,0.428296
+categoria,bag,bracelet,728,classico,romantico,8.25,9.11649,-0.0895433
+categoria,bag,bracelet,728,classico,moderno,31.8333,37.2337,-0.152272
+categoria,bag,bracelet,728,romantico,casual,14.5833,14.2912,0.0189239
+categoria,bag,bracelet,728,romantico,classico,8.75,5.97802,0.334502
+categoria,bag,bracelet,728,romantico,romantico,3.16667,4.92979,-0.352873
+categoria,bag,bracelet,728,romantico,moderno,18.8333,20.1343,-0.0635338
+categoria,bag,bracelet,728,moderno,casual,89.6667,105.135,-0.157522
+categoria,bag,bracelet,728,moderno,classico,41.0833,43.978,-0.0665222
+categoria,bag,bracelet,728,moderno,romantico,36.4167,36.2666,0.00401881
+categoria,bag,bracelet,728,moderno,moderno,166.333,148.12,0.115234
+categoria,bag,brooch,85,casual,casual,9.75,8.47353,0.126404
+categoria,bag,brooch,85,casual,classico,8,9.45882,-0.150221
+categoria,bag,brooch,85,casual,romantico,9,9.45882,-0.0448609
+categoria,bag,brooch,85,casual,moderno,6.75,6.10882,0.0863561
+categoria,bag,brooch,85,classico,casual,3,3.28824,-0.0695809
+categoria,bag,brooch,85,classico,classico,6,3.67059,0.404625
+categoria,bag,brooch,85,classico,romantico,2.5,3.67059,-0.288522
+categoria,bag,brooch,85,classico,moderno,1.5,2.37059,-0.298797
+categoria,bag,brooch,85,romantico,casual,1.25,1.26471,-0.00651468
+categoria,bag,brooch,85,romantico,classico,1,1.41176,-0.187212
+categoria,bag,brooch,85,romantico,romantico,2,1.41176,0.218254
+categoria,bag,brooch,85,romantico,moderno,0.75,0.911765,-0.088411
+categoria,bag,brooch,85,moderno,casual,7.5,8.47353,-0.108435
+categoria,bag,brooch,85,moderno,classico,9,9.45882,-0.0448609
+categoria,bag,brooch,85,moderno,romantico,10.5,9.45882,0.0949011
+categoria,bag,brooch,85,moderno,moderno,6.5,6.10882,0.0535663
+categoria,bag,dress,1227,casual,casual,164.833,141.176,0.153918
+categoria,bag,dress,1227,casual,classico,77,83.0414,-0.0746011
+categoria,bag,dress,1227,casual,esportivo,0,0.328443,-0.284008
+categoria,bag,dress,1227,casual,romantico,109.25,103.514,0.0534257
+categoria,bag,dress,1227,casual,moderno,51.9167,74.9398,-0.361223
+categoria,bag,dress,1227,classico,casual,61.6667,61.4798,0.00298591
+categoria,bag,dress,1227,classico,classico,41.9167,36.1632,0.143941
+categoria,bag,dress,1227,classico,esportivo,0,0.143032,-0.133684
+categoria,bag,dress,1227,classico,romantico,38.25,45.0789,-0.160403
+categoria,bag,dress,1227,classico,moderno,33.6667,32.6351,0.0302089
+categoria,bag,dress,1227,esportivo,casual,0.5,0.467083,0.0221889
+categoria,bag,dress,1227,esportivo,classico,0.333333,0.274744,0.0449366
+categoria,bag,dress,1227,esportivo,esportivo,0,0.00108666,-0.00108607
+categoria,bag,dress,1227,esportivo,romantico,0.5,0.342479,0.110947
+categoria,bag,dress,1227,esportivo,moderno,0,0.24794,-0.221494
+categoria,bag,dress,1227,romantico,casual,41.8333,41.512,0.00752973
+categoria,bag,dress,1227,romantico,classico,21.4167,24.4179,-0.125648
+categoria,bag,dress,1227,romantico,esportivo,0,0.096577,-0.0921935
+categoria,bag,dress,1227,romantico,romantico,32.1667,30.4379,0.0535326
+categoria,bag,dress,1227,romantico,moderno,23.0833,22.0357,0.0444768
+categoria,bag,dress,1227,moderno,casual,161,185.198,-0.139217
+categoria,bag,dress,1227,moderno,classico,112.167,108.936,0.0289627
+categoria,bag,dress,1227,moderno,esportivo,1,0.430861,0.334871
+categoria,bag,dress,1227,moderno,romantico,135,135.793,-0.00581455
+categoria,bag,dress,1227,moderno,moderno,119.5,98.3082,0.193422
+categoria,bag,earrings,668,casual,casual,54.5,46.2633,0.160649
+categoria,bag,earrings,668,casual,classico,58.75,71.4762,-0.193089
+categoria,bag,earrings,668,casual,esportivo,0,0.118929,-0.112372
+categoria,bag,earrings,668,casual,romantico,52.1667,44.7767,0.149656
+categoria,bag,earrings,668,casual,moderno,72.9167,75.6982,-0.0369397
+categoria,bag,earrings,668,classico,casual,15.3333,18.6994,-0.187382
+categoria,bag,earrings,668,classico,classico,42.6667,28.8904,0.379048
+categoria,bag,earrings,668,classico,esportivo,0,0.0480705,-0.0469509
+categoria,bag,earrings,668,classico,romantico,10.8333,18.0986,-0.478692
+categoria,bag,earrings,668,classico,moderno,27.5,30.5969,-0.103155
+categoria,bag,earrings,668,esportivo,casual,0,0.0970559,-0.0926301
+categoria,bag,earrings,668,esportivo,classico,0.5,0.14995,0.265747
+categoria,bag,earrings,668,esportivo,esportivo,0,0.000249501,-0.00024947
+categoria,bag,earrings,668,esportivo,romantico,0,0.0939371,-0.0897832
+categoria,bag,earrings,668,esportivo,moderno,0,0.158807,-0.147391
+categoria,bag,earrings,668,romantico,casual,17.3333,12.779,0.285573
+categoria,bag,earrings,668,romantico,classico,17,19.7434,-0.141858
+categoria,bag,earrings,668,romantico,esportivo,0,0.032851,-0.0323229
+categoria,bag,earrings,668,romantico,romantico,18.3333,12.3684,0.368938
+categoria,bag,earrings,668,romantico,moderno,13.1667,20.9096,-0.436035
+categoria,bag,earrings,668,moderno,casual,42.5,51.8278,-0.194277
+categoria,bag,earrings,668,moderno,classico,81.4167,80.0734,0.0164333
+categoria,bag,earrings,668,moderno,esportivo,0.333333,0.133234,0.162607
+categoria,bag,earrings,668,moderno,romantico,44.1667,50.1624,-0.124646
+categoria,bag,earrings,668,moderno,moderno,98.5833,84.8031,0.148939
+categoria,bag,eyewear,1585,casual,casual,358.583,344.425,0.0401716
+categoria,bag,eyewear,1585,casual,classico,90.5833,92.7727,-0.023625
+categoria,bag,eyewear,1585,casual,esportivo,2.5,1.97529,0.162422
+categoria,bag,eyewear,1585,casual,romantico,10.5,11.2591,-0.0639254
+categoria,bag,eyewear,1585,casual,moderno,164,175.735,-0.0687054
+categoria,bag,eyewear,1585,classico,casual,105.5,107.26,-0.0163931
+categoria,bag,eyewear,1585,classico,classico,25.1667,28.8912,-0.133077
+categoria,bag,eyewear,1585,classico,esportivo,0,0.615142,-0.479423
+categoria,bag,eyewear,1585,classico,romantico,4.5,3.50631,0.19927
+categoria,bag,eyewear,1585,classico,moderno,59.8333,54.7271,0.0876708
+categoria,bag,eyewear,1585,esportivo,casual,2.16667,2.47524,-0.0929831
+categoria,bag,eyewear,1585,esportivo,classico,1.33333,0.666719,0.336441
+categoria,bag,eyewear,1585,esportivo,esportivo,0,0.0141956,-0.0140958
+categoria,bag,eyewear,1585,esportivo,romantico,0,0.0809148,-0.0778077
+categoria,bag,eyewear,1585,esportivo,moderno,1,1.26293,-0.123515
+categoria,bag,eyewear,1585,romantico,casual,71,69.1233,0.0264114
+categoria,bag,eyewear,1585,romantico,classico,19.1667,18.6188,0.0275452
+categoria,bag,eyewear,1585,romantico,esportivo,1,0.396425,0.359232
+categoria,bag,eyewear,1585,romantico,romantico,3.75,2.25962,0.376534
+categoria,bag,eyewear,1585,romantico,moderno,30.75,35.2686,-0.133059
+categoria,bag,eyewear,1585,moderno,casual,334.583,348.55,-0.0407763
+categoria,bag,eyewear,1585,moderno,classico,98.5833,93.8839,0.0483403
+categoria,bag,eyewear,1585,moderno,esportivo,1.5,1.99895,-0.181971
+categoria,bag,eyewear,1585,moderno,romantico,9.75,11.394,-0.142307
+categoria,bag,eyewear,1585,moderno,moderno,189.25,177.84,0.0618487
+categoria,bag,gloves,48,casual,casual,4.25,3.1875,0.226124
+categoria,bag,gloves,48,casual,classico,5,3.89583,0.203375
+categoria,bag,gloves,48,casual,romantico,0.5,0.53125,-0.0206193
+categoria,bag,gloves,48,casual,moderno,7.25,9.38542,-0.230189
+categoria,bag,gloves,48,classico,casual,1,1.21875,-0.103797
+categoria,bag,gloves,48,classico,classico,1,1.48958,-0.218968
+categoria,bag,gloves,48,classico,romantico,1,0.203125,0.508225
+categoria,bag,gloves,48,classico,moderno,3.5,3.58854,-0.0194849
+categoria,bag,gloves,48,romantico,casual,0,0.28125,-0.247836
+categoria,bag,gloves,48,romantico,classico,0,0.34375,-0.295464
+categoria,bag,gloves,48,romantico,romantico,0,0.046875,-0.0458095
+categoria,bag,gloves,48,romantico,moderno,1.5,0.828125,0.313
+categoria,bag,gloves,48,moderno,casual,3.75,4.3125,-0.111918
+categoria,bag,gloves,48,moderno,classico,5,5.27083,-0.0441498
+categoria,bag,gloves,48,moderno,romantico,0,0.71875,-0.541597
+categoria,bag,gloves,48,moderno,moderno,14.25,12.6979,0.107336
+categoria,bag,hairwear,87,casual,casual,14.6667,14.4777,0.0121383
+categoria,bag,hairwear,87,casual,classico,3.5,4.98084,-0.284484
+categoria,bag,hairwear,87,casual,romantico,12,10.0945,0.158499
+categoria,bag,hairwear,87,casual,moderno,4.5,5.11367,-0.105778
+categoria,bag,hairwear,87,classico,casual,3.08333,4.52427,-0.302237
+categoria,bag,hairwear,87,classico,classico,4,1.55651,0.670794
+categoria,bag,hairwear,87,classico,romantico,2,3.15453,-0.325588
+categoria,bag,hairwear,87,classico,moderno,1.75,1.59802,0.0568511
+categoria,bag,hairwear,87,romantico,casual,3.66667,3.4802,0.0407764
+categoria,bag,hairwear,87,romantico,classico,0,1.19732,-0.787238
+categoria,bag,hairwear,87,romantico,romantico,1.83333,2.42656,-0.190104
+categoria,bag,hairwear,87,romantico,moderno,2.83333,1.22925,0.542071
+categoria,bag,hairwear,87,moderno,casual,14.9167,13.8512,0.0692852
+categoria,bag,hairwear,87,moderno,classico,5,4.76533,0.0398978
+categoria,bag,hairwear,87,moderno,romantico,9.5,9.65773,-0.0149099
+categoria,bag,hairwear,87,moderno,moderno,3.75,4.8924,-0.215519
+categoria,bag,hats,655,casual,casual,175.167,172.631,0.0144971
+categoria,bag,hats,655,casual,classico,60.3333,60.235,0.00160406
+categoria,bag,hats,655,casual,esportivo,6.83333,4.54391,0.345687
+categoria,bag,hats,655,casual,romantico,12.25,11.6039,0.0499928
+categoria,bag,hats,655,casual,moderno,40.5833,46.1527,-0.125691
+categoria,bag,hats,655,classico,casual,32.9167,35.2866,-0.0675408
+categoria,bag,hats,655,classico,classico,17.25,12.3123,0.315477
+categoria,bag,hats,655,classico,esportivo,0,0.928796,-0.656896
+categoria,bag,hats,655,classico,romantico,0.5,2.37188,-0.810006
+categoria,bag,hats,655,classico,moderno,9.66667,9.4338,0.0220731
+categoria,bag,hats,655,esportivo,casual,3.91667,3.02178,0.200907
+categoria,bag,hats,655,esportivo,classico,0,1.05437,-0.719968
+categoria,bag,hats,655,esportivo,esportivo,0.75,0.0795377,0.483083
+categoria,bag,hats,655,esportivo,romantico,0.25,0.203117,0.0382278
+categoria,bag,hats,655,esportivo,moderno,0.25,0.807867,-0.369004
+categoria,bag,hats,655,romantico,casual,32.4167,30.1203,0.0711947
+categoria,bag,hats,655,romantico,classico,10.6667,10.5097,0.0135483
+categoria,bag,hats,655,romantico,esportivo,0.583333,0.792812,-0.124253
+categoria,bag,hats,655,romantico,romantico,2.25,2.02462,0.0718701
+categoria,bag,hats,655,romantico,moderno,5.58333,8.05261,-0.318512
+categoria,bag,hats,655,moderno,casual,138.667,142.024,-0.0237504
+categoria,bag,hats,655,moderno,classico,45.4167,49.5553,-0.0854092
+categoria,bag,hats,655,moderno,esportivo,1.91667,3.73827,-0.485232
+categoria,bag,hats,655,moderno,romantico,10.5,9.5465,0.0865529
+categoria,bag,hats,655,moderno,moderno,46.3333,37.9697,0.194429
+categoria,bag,necklace,818,casual,casual,67.25,59.6886,0.117422
+categoria,bag,necklace,818,casual,classico,62.6667,63.9324,-0.0196849
+categoria,bag,necklace,818,casual,romantico,43.0833,38.4145,0.111947
+categoria,bag,necklace,818,casual,moderno,97.5,108.465,-0.105544
+categoria,bag,necklace,818,classico,casual,25,26.6263,-0.0606726
+categoria,bag,necklace,818,classico,classico,40.8333,28.5194,0.348645
+categoria,bag,necklace,818,classico,romantico,12.4167,17.1362,-0.301414
+categoria,bag,necklace,818,classico,moderno,42.4167,48.3847,-0.128797
+categoria,bag,necklace,818,romantico,casual,11.6667,14.4532,-0.198845
+categoria,bag,necklace,818,romantico,classico,19.75,15.4808,0.230347
+categoria,bag,necklace,818,romantico,romantico,9.66667,9.30185,0.0347997
+categoria,bag,necklace,818,romantico,moderno,24.4167,26.2641,-0.0701642
+categoria,bag,necklace,818,moderno,casual,76.5833,79.7319,-0.0397807
+categoria,bag,necklace,818,moderno,classico,70.0833,85.4007,-0.195143
+categoria,bag,necklace,818,moderno,romantico,51,51.314,-0.00602117
+categoria,bag,necklace,818,moderno,moderno,163.667,144.887,0.121093
+categoria,bag,neckwear,254,casual,casual,55.5,54.0801,0.025453
+categoria,bag,neckwear,254,casual,classico,19.9167,17.2979,0.13376
+categoria,bag,neckwear,254,casual,esportivo,1.5,0.57874,0.459664
+categoria,bag,neckwear,254,casual,romantico,6.91667,9.90289,-0.320057
+categoria,bag,neckwear,254,casual,moderno,14.1667,16.1404,-0.122339
+categoria,bag,neckwear,254,classico,casual,21.8333,21.3377,0.0219453
+categoria,bag,neckwear,254,classico,classico,5.33333,6.82502,-0.2115
+categoria,bag,neckwear,254,classico,esportivo,0,0.228346,-0.205669
+categoria,bag,neckwear,254,classico,romantico,5.25,3.90726,0.241865
+categoria,bag,neckwear,254,classico,moderno,6.25,6.36833,-0.0161895
+categoria,bag,neckwear,254,esportivo,casual,0,0.275919,-0.243666
+categoria,bag,neckwear,254,esportivo,classico,0.5,0.0882546,0.32089
+categoria,bag,neckwear,254,esportivo,esportivo,0,0.00295276,-0.00294841
+categoria,bag,neckwear,254,esportivo,romantico,0,0.0505249,-0.04929
+categoria,bag,neckwear,254,esportivo,moderno,0,0.0823491,-0.0791338
+categoria,bag,neckwear,254,romantico,casual,7.08333,6.62205,0.0587593
+categoria,bag,neckwear,254,romantico,classico,0.333333,2.11811,-0.849545
+categoria,bag,neckwear,254,romantico,esportivo,0,0.0708661,-0.0684678
+categoria,bag,neckwear,254,romantico,romantico,3,1.2126,0.592127
+categoria,bag,neckwear,254,romantico,moderno,1.58333,1.97638,-0.141627
+categoria,bag,neckwear,254,moderno,casual,55.75,57.8509,-0.0363522
+categoria,bag,neckwear,254,moderno,classico,18.75,18.504,0.0125315
+categoria,bag,neckwear,254,moderno,esportivo,0,0.619094,-0.481867
+categoria,bag,neckwear,254,moderno,romantico,10.5,10.5934,-0.00808847
+categoria,bag,neckwear,254,moderno,moderno,19.8333,17.2659,0.131521
+categoria,bag,outerwear,2793,casual,casual,403.306,365.989,0.0968394
+categoria,bag,outerwear,2793,casual,classico,150.069,148.713,0.00901898
+categoria,bag,outerwear,2793,casual,esportivo,17.3611,17.3677,-0.000361493
+categoria,bag,outerwear,2793,casual,romantico,38.375,37.3228,0.0270868
+categoria,bag,outerwear,2793,casual,moderno,313.389,353.108,-0.11897
+categoria,bag,outerwear,2793,classico,casual,165.222,159.686,0.0338722
+categoria,bag,outerwear,2793,classico,classico,65.3611,64.8857,0.00719052
+categoria,bag,outerwear,2793,classico,esportivo,3.86111,7.5778,-0.56791
+categoria,bag,outerwear,2793,classico,romantico,12.75,16.2845,-0.228769
+categoria,bag,outerwear,2793,classico,moderno,155.306,154.066,0.00796263
+categoria,bag,outerwear,2793,esportivo,casual,7.25,4.69471,0.370676
+categoria,bag,outerwear,2793,esportivo,classico,1.16667,1.90761,-0.294142
+categoria,bag,outerwear,2793,esportivo,esportivo,0.833333,0.222784,0.405005
+categoria,bag,outerwear,2793,esportivo,romantico,0,0.478756,-0.391201
+categoria,bag,outerwear,2793,esportivo,moderno,2.58333,4.52947,-0.433799
+categoria,bag,outerwear,2793,romantico,casual,65.1667,64.9324,0.00354623
+categoria,bag,outerwear,2793,romantico,classico,26.8333,26.3841,0.0162702
+categoria,bag,outerwear,2793,romantico,esportivo,3.66667,3.08132,0.134024
+categoria,bag,outerwear,2793,romantico,romantico,10.4167,6.62167,0.404078
+categoria,bag,outerwear,2793,romantico,moderno,57.5833,62.6471,-0.0829033
+categoria,bag,outerwear,2793,moderno,casual,467.139,512.781,-0.0930323
+categoria,bag,outerwear,2793,moderno,classico,206.819,208.36,-0.00738329
+categoria,bag,outerwear,2793,moderno,esportivo,26.8611,24.3337,0.0950973
+categoria,bag,outerwear,2793,moderno,romantico,51.4583,52.2923,-0.0157734
+categoria,bag,outerwear,2793,moderno,moderno,540.222,494.733,0.0877918
+categoria,bag,pants,2658,casual,casual,806.861,783.452,0.0294047
+categoria,bag,pants,2658,casual,classico,48.6111,50.0604,-0.0287947
+categoria,bag,pants,2658,casual,esportivo,11.8333,12.6131,-0.0589891
+categoria,bag,pants,2658,casual,romantico,15.3333,15.7501,-0.0251949
+categoria,bag,pants,2658,casual,moderno,159.611,180.374,-0.121577
+categoria,bag,pants,2658,classico,casual,266.278,266.538,-0.00097242
+categoria,bag,pants,2658,classico,classico,16.6944,17.031,-0.0188433
+categoria,bag,pants,2658,classico,esportivo,5.5,4.29111,0.205775
+categoria,bag,pants,2658,classico,romantico,6.5,5.35833,0.165138
+categoria,bag,pants,2658,classico,moderno,59.6111,61.3651,-0.028527
+categoria,bag,pants,2658,esportivo,casual,16.3333,15.5976,0.0433715
+categoria,bag,pants,2658,esportivo,classico,1.66667,0.996645,0.289361
+categoria,bag,pants,2658,esportivo,esportivo,0.5,0.251113,0.181432
+categoria,bag,pants,2658,esportivo,romantico,0.25,0.313566,-0.049602
+categoria,bag,pants,2658,esportivo,moderno,2,3.59105,-0.425496
+categoria,bag,pants,2658,romantico,casual,124.167,115.635,0.070593
+categoria,bag,pants,2658,romantico,classico,5.66667,7.38878,-0.229776
+categoria,bag,pants,2658,romantico,esportivo,0.75,1.86166,-0.491788
+categoria,bag,pants,2658,romantico,romantico,3.66667,2.32467,0.339075
+categoria,bag,pants,2658,romantico,moderno,19.5833,26.6228,-0.294159
+categoria,bag,pants,2658,moderno,casual,784.361,816.777,-0.0404462
+categoria,bag,pants,2658,moderno,classico,55.0278,52.1898,0.0519811
+categoria,bag,pants,2658,moderno,esportivo,13.5833,13.1496,0.0301896
+categoria,bag,pants,2658,moderno,romantico,14.4167,16.42,-0.122171
+categoria,bag,pants,2658,moderno,moderno,219.194,188.047,0.152517
+categoria,bag,rings,424,casual,casual,22.75,19.271,0.158393
+categoria,bag,rings,424,casual,classico,41,43.3016,-0.0533517
+categoria,bag,rings,424,casual,romantico,14.25,14.3952,-0.00947485
+categoria,bag,rings,424,casual,moderno,69.6667,70.6989,-0.0145014
+categoria,bag,rings,424,classico,casual,6.41667,7.43868,-0.129096
+categoria,bag,rings,424,classico,classico,16.5833,16.7146,-0.00743895
+categoria,bag,rings,424,classico,romantico,5.16667,5.5566,-0.0613143
+categoria,bag,rings,424,classico,moderno,28.8333,27.2901,0.0531146
+categoria,bag,rings,424,esportivo,casual,0,0.108753,-0.103236
+categoria,bag,rings,424,esportivo,classico,0,0.244366,-0.218626
+categoria,bag,rings,424,esportivo,romantico,0,0.0812369,-0.0781057
+categoria,bag,rings,424,esportivo,moderno,0.833333,0.398978,0.270394
+categoria,bag,rings,424,romantico,casual,5.25,5.32888,-0.0125416
+categoria,bag,rings,424,romantico,classico,7.91667,11.9739,-0.375019
+categoria,bag,rings,424,romantico,romantico,8.75,3.98061,0.671715
+categoria,bag,rings,424,romantico,moderno,18.9167,19.5499,-0.0313002
+categoria,bag,rings,424,moderno,casual,20.9167,23.1861,-0.098529
+categoria,bag,rings,424,moderno,classico,58.8333,52.0988,0.119409
+categoria,bag,rings,424,moderno,romantico,13.1667,17.3197,-0.257086
+categoria,bag,rings,424,moderno,moderno,84.75,85.0621,-0.00363312
+categoria,bag,shoes,3250,casual,casual,664.861,581.149,0.134355
+categoria,bag,shoes,3250,casual,classico,63.5417,72.9059,-0.135481
+categoria,bag,shoes,3250,casual,esportivo,38.5694,31.1407,0.207934
+categoria,bag,shoes,3250,casual,romantico,100.25,109.975,-0.0917117
+categoria,bag,shoes,3250,casual,moderno,431.694,503.747,-0.154025
+categoria,bag,shoes,3250,classico,casual,166.736,173.558,-0.0398645
+categoria,bag,shoes,3250,classico,classico,31.75,21.7731,0.363324
+categoria,bag,shoes,3250,classico,esportivo,6.61111,9.30005,-0.30254
+categoria,bag,shoes,3250,classico,romantico,34,32.8436,0.0335978
+categoria,bag,shoes,3250,classico,moderno,148.819,150.442,-0.0107721
+categoria,bag,shoes,3250,esportivo,casual,8.875,8.0161,0.0909944
+categoria,bag,shoes,3250,esportivo,classico,0.583333,1.00563,-0.236426
+categoria,bag,shoes,3250,esportivo,esportivo,1.58333,0.429541,0.591727
+categoria,bag,shoes,3250,esportivo,romantico,0.166667,1.51694,-0.768895
+categoria,bag,shoes,3250,esportivo,moderno,6.70833,6.94845,-0.0306751
+categoria,bag,shoes,3250,romantico,casual,118.528,104.023,0.129371
+categoria,bag,shoes,3250,romantico,classico,13.8333,13.0498,0.0542682
+categoria,bag,shoes,3250,romantico,esportivo,3.94444,5.57404,-0.284864
+categoria,bag,shoes,3250,romantico,romantico,29.0833,19.685,0.374563
+categoria,bag,shoes,3250,romantico,moderno,67.1111,90.1683,-0.291567
+categoria,bag,shoes,3250,moderno,casual,495.083,587.338,-0.170557
+categoria,bag,shoes,3250,moderno,classico,72.7083,73.6823,-0.0131273
+categoria,bag,shoes,3250,moderno,esportivo,27.2083,31.4723,-0.140771
+categoria,bag,shoes,3250,moderno,romantico,111.667,111.146,0.00463053
+categoria,bag,shoes,3250,moderno,moderno,606.083,509.111,0.174037
+categoria,bag,skirt,1267,casual,casual,187,174.568,0.0684174
+categoria,bag,skirt,1267,casual,classico,64.3333,64.7403,-0.00621024
+categoria,bag,skirt,1267,casual,esportivo,1.16667,1.15608,0.00489936
+categoria,bag,skirt,1267,casual,romantico,73.3333,72.0622,0.017249
+categoria,bag,skirt,1267,casual,moderno,92.6667,105.974,-0.132841
+categoria,bag,skirt,1267,classico,casual,62.4167,73.4839,-0.160856
+categoria,bag,skirt,1267,classico,classico,31.0833,27.2523,0.127162
+categoria,bag,skirt,1267,classico,esportivo,0.5,0.486648,0.00894102
+categoria,bag,skirt,1267,classico,romantico,27.25,30.3344,-0.103623
+categoria,bag,skirt,1267,classico,moderno,54.9167,44.6094,0.203748
+categoria,bag,skirt,1267,esportivo,casual,2.16667,1.25138,0.341136
+categoria,bag,skirt,1267,esportivo,classico,0.166667,0.464088,-0.227082
+categoria,bag,skirt,1267,esportivo,esportivo,0,0.00828729,-0.00825314
+categoria,bag,skirt,1267,esportivo,romantico,0.166667,0.516575,-0.262304
+categoria,bag,skirt,1267,esportivo,moderno,0.5,0.759669,-0.15966
+categoria,bag,skirt,1267,romantico,casual,55.4167,49.7772,0.105318
+categoria,bag,skirt,1267,romantico,classico,14.5,18.4604,-0.227542
+categoria,bag,skirt,1267,romantico,esportivo,0,0.32965,-0.284916
+categoria,bag,skirt,1267,romantico,romantico,27.5833,20.5482,0.282532
+categoria,bag,skirt,1267,romantico,moderno,21.8333,30.2179,-0.312771
+categoria,bag,skirt,1267,moderno,casual,221.5,229.42,-0.0349761
+categoria,bag,skirt,1267,moderno,classico,85.9167,85.0829,0.00963933
+categoria,bag,skirt,1267,moderno,esportivo,1.83333,1.51934,0.117458
+categoria,bag,skirt,1267,moderno,romantico,89.8333,94.7053,-0.0522478
+categoria,bag,skirt,1267,moderno,moderno,150.917,139.273,0.0797447
+categoria,bag,top,5825,casual,casual,1339.22,1312.19,0.0203794
+categoria,bag,top,5825,casual,classico,390.028,400.779,-0.0271244
+categoria,bag,top,5825,casual,esportivo,24.4167,22.9146,0.0609151
+categoria,bag,top,5825,casual,romantico,200.444,204.775,-0.0212704
+categoria,bag,top,5825,casual,moderno,308.222,321.679,-0.0425965
+categoria,bag,top,5825,classico,casual,427.444,422.154,0.0124255
+categoria,bag,top,5825,classico,classico,123.694,128.938,-0.0411904
+categoria,bag,top,5825,classico,esportivo,5.16667,7.37205,-0.30574
+categoria,bag,top,5825,classico,romantico,70.8333,65.8798,0.0714509
+categoria,bag,top,5825,classico,moderno,100.694,103.49,-0.0271166
+categoria,bag,top,5825,esportivo,casual,23.4167,21.8472,0.0664371
+categoria,bag,top,5825,esportivo,classico,5.25,6.67277,-0.205096
+categoria,bag,top,5825,esportivo,esportivo,1.33333,0.381516,0.524116
+categoria,bag,top,5825,esportivo,romantico,1.58333,3.4094,-0.534658
+categoria,bag,top,5825,esportivo,moderno,6.08333,5.35578,0.10838
+categoria,bag,top,5825,romantico,casual,207.139,212.189,-0.0239715
+categoria,bag,top,5825,romantico,classico,59.6111,64.8085,-0.0822708
+categoria,bag,top,5825,romantico,esportivo,3.25,3.70544,-0.1018
+categoria,bag,top,5825,romantico,romantico,49.9444,33.1134,0.401045
+categoria,bag,top,5825,romantico,moderno,45.8889,52.0174,-0.12284
+categoria,bag,top,5825,moderno,casual,1381.36,1410.21,-0.0206532
+categoria,bag,top,5825,moderno,classico,453.333,430.718,0.0510581
+categoria,bag,top,5825,moderno,esportivo,24.8333,24.6264,0.00804334
+categoria,bag,top,5825,moderno,romantico,204.444,220.072,-0.0733136
+categoria,bag,top,5825,moderno,moderno,367.361,345.708,0.0605795
+categoria,bag,watch,387,casual,casual,26.8333,21.0505,0.232898
+categoria,bag,watch,387,casual,classico,68,71.7997,-0.0536059
+categoria,bag,watch,387,casual,esportivo,0.25,0.536319,-0.206246
+categoria,bag,watch,387,casual,romantico,6.5,6.63695,-0.0180954
+categoria,bag,watch,387,casual,moderno,54.0833,55.6431,-0.0279234
+categoria,bag,watch,387,classico,casual,5.16667,5.5669,-0.0628829
+categoria,bag,watch,387,classico,classico,22.8333,18.9877,0.175967
+categoria,bag,watch,387,classico,esportivo,0.5,0.141832,0.272831
+categoria,bag,watch,387,classico,romantico,2.5,1.75517,0.239285
+categoria,bag,watch,387,classico,moderno,10.1667,14.715,-0.341685
+categoria,bag,watch,387,esportivo,casual,0.916667,0.428223,0.294157
+categoria,bag,watch,387,esportivo,classico,1.33333,1.46059,-0.0531051
+categoria,bag,watch,387,esportivo,esportivo,0,0.0109101,-0.010851
+categoria,bag,watch,387,esportivo,romantico,0,0.135013,-0.126644
+categoria,bag,watch,387,esportivo,moderno,0.916667,1.13193,-0.106438
+categoria,bag,watch,387,romantico,casual,2.66667,3.47086,-0.198297
+categoria,bag,watch,387,romantico,classico,12.5833,11.8385,0.056395
+categoria,bag,watch,387,romantico,esportivo,0.25,0.0884295,0.138408
+categoria,bag,watch,387,romantico,romantico,2.75,1.09432,0.582529
+categoria,bag,watch,387,romantico,moderno,7.41667,9.17456,-0.189677
+categoria,bag,watch,387,moderno,casual,16.75,21.8168,-0.251113
+categoria,bag,watch,387,moderno,classico,73.75,74.4134,-0.00883625
+categoria,bag,watch,387,moderno,esportivo,0.333333,0.555843,-0.154335
+categoria,bag,watch,387,moderno,romantico,4.75,6.87855,-0.314944
+categoria,bag,watch,387,moderno,moderno,65.75,57.6687,0.129048
+categoria,bracelet,brooch,35,casual,casual,3.5,3.94286,-0.0938661
+categoria,bracelet,brooch,35,casual,classico,4.5,3.42857,0.216671
+categoria,bracelet,brooch,35,casual,romantico,2.5,3.6,-0.273293
+categoria,bracelet,brooch,35,casual,moderno,1.5,1.02857,0.208959
+categoria,bracelet,brooch,35,classico,casual,0,0.985714,-0.685979
+categoria,bracelet,brooch,35,classico,classico,1,0.857143,0.074108
+categoria,bracelet,brooch,35,classico,romantico,2,0.9,0.456758
+categoria,bracelet,brooch,35,classico,moderno,0,0.257143,-0.228842
+categoria,bracelet,brooch,35,romantico,casual,3.5,2.13571,0.36122
+categoria,bracelet,brooch,35,romantico,classico,0.5,1.85714,-0.644357
+categoria,bracelet,brooch,35,romantico,romantico,2.5,1.95,0.170958
+categoria,bracelet,brooch,35,romantico,moderno,0,0.557143,-0.442853
+categoria,bracelet,brooch,35,moderno,casual,4.5,4.43571,0.0117572
+categoria,bracelet,brooch,35,moderno,classico,4,3.85714,0.0289875
+categoria,bracelet,brooch,35,moderno,romantico,3.5,4.05,-0.115311
+categoria,bracelet,brooch,35,moderno,moderno,1.5,1.15714,0.147506
+categoria,bracelet,dress,225,casual,casual,30.0833,23.1921,0.250646
+categoria,bracelet,dress,225,casual,classico,19.5,17.598,0.0973695
+categoria,bracelet,dress,225,casual,romantico,15.3333,19.8706,-0.245134
+categoria,bracelet,dress,225,casual,moderno,13.75,18.0059,-0.253508
+categoria,bracelet,dress,225,classico,casual,5.25,9.97457,-0.562999
+categoria,bracelet,dress,225,classico,classico,8,7.56864,0.0491153
+categoria,bracelet,dress,225,classico,romantico,12.5833,8.54605,0.352716
+categoria,bracelet,dress,225,classico,moderno,8,7.74407,0.0288484
+categoria,bracelet,dress,225,esportivo,casual,0.333333,0.0982716,0.193944
+categoria,bracelet,dress,225,esportivo,classico,0,0.0745679,-0.0719186
+categoria,bracelet,dress,225,esportivo,romantico,0,0.0841975,-0.0808401
+categoria,bracelet,dress,225,esportivo,moderno,0,0.0762963,-0.0735258
+categoria,bracelet,dress,225,romantico,casual,7.5,8.05827,-0.0636122
+categoria,bracelet,dress,225,romantico,classico,5.5,6.11457,-0.0903423
+categoria,bracelet,dress,225,romantico,romantico,9.08333,6.9042,0.24349
+categoria,bracelet,dress,225,romantico,moderno,5.25,6.2563,-0.149288
+categoria,bracelet,dress,225,moderno,casual,23.1667,25.0101,-0.0735116
+categoria,bracelet,dress,225,moderno,classico,17.3333,18.9775,-0.0858873
+categoria,bracelet,dress,225,moderno,romantico,19.8333,21.4283,-0.073768
+categoria,bracelet,dress,225,moderno,moderno,24.5,19.4174,0.222291
+categoria,bracelet,earrings,169,casual,casual,9.5,8.61538,0.0880109
+categoria,bracelet,earrings,169,casual,classico,11,14,-0.223144
+categoria,bracelet,earrings,169,casual,romantico,13,8.61538,0.375693
+categoria,bracelet,earrings,169,casual,moderno,18.5,20.7692,-0.110083
+categoria,bracelet,earrings,169,classico,casual,7,4.55621,0.364525
+categoria,bracelet,earrings,169,classico,classico,6.5,7.40385,-0.113786
+categoria,bracelet,earrings,169,classico,romantico,5.5,4.55621,0.156885
+categoria,bracelet,earrings,169,classico,moderno,8.5,10.9837,-0.232258
+categoria,bracelet,earrings,169,romantico,casual,4.5,4.22485,0.0513216
+categoria,bracelet,earrings,169,romantico,classico,5.5,6.86538,-0.190669
+categoria,bracelet,earrings,169,romantico,romantico,5.5,4.22485,0.218376
+categoria,bracelet,earrings,169,romantico,moderno,10,10.1849,-0.0166704
+categoria,bracelet,earrings,169,moderno,casual,7,10.6036,-0.37187
+categoria,bracelet,earrings,169,moderno,classico,22.5,17.2308,0.25389
+categoria,bracelet,earrings,169,moderno,romantico,4,10.6036,-0.841873
+categoria,bracelet,earrings,169,moderno,moderno,30.5,25.5621,0.170501
+categoria,bracelet,eyewear,257,casual,casual,52.3333,44.9451,0.149114
+categoria,bracelet,eyewear,257,casual,classico,9.16667,13.1111,-0.327848
+categoria,bracelet,eyewear,257,casual,romantico,0.25,1.07134,-0.50505
+categoria,bracelet,eyewear,257,casual,moderno,16.9167,19.5391,-0.1366
+categoria,bracelet,eyewear,257,classico,casual,18.6667,22.3773,-0.172841
+categoria,bracelet,eyewear,257,classico,classico,11,6.52778,0.466307
+categoria,bracelet,eyewear,257,classico,romantico,0.5,0.533398,-0.0220212
+categoria,bracelet,eyewear,257,classico,moderno,9,9.72817,-0.0702876
+categoria,bracelet,eyewear,257,romantico,casual,10,11.3315,-0.114261
+categoria,bracelet,eyewear,257,romantico,classico,3.91667,3.30556,0.132725
+categoria,bracelet,eyewear,257,romantico,romantico,0.25,0.270104,-0.015955
+categoria,bracelet,eyewear,257,romantico,moderno,5.66667,4.92618,0.11774
+categoria,bracelet,eyewear,257,moderno,casual,65.8333,68.1794,-0.0345015
+categoria,bracelet,eyewear,257,moderno,classico,18.75,19.8889,-0.0560639
+categoria,bracelet,eyewear,257,moderno,romantico,2.5,1.62516,0.28762
+categoria,bracelet,eyewear,257,moderno,moderno,32.25,29.6399,0.0817529
+categoria,bracelet,hats,88,casual,casual,17.3333,15.59,0.0999231
+categoria,bracelet,hats,88,casual,classico,5.91667,7.40909,-0.195379
+categoria,bracelet,hats,88,casual,esportivo,0,0.25726,-0.228935
+categoria,bracelet,hats,88,casual,romantico,0.5,0.308712,0.136422
+categoria,bracelet,hats,88,casual,moderno,3.41667,3.60164,-0.0410278
+categoria,bracelet,hats,88,classico,casual,9.83333,9.08617,0.0714622
+categoria,bracelet,hats,88,classico,classico,4.5,4.31818,0.0336166
+categoria,bracelet,hats,88,classico,esportivo,0.5,0.149937,0.265758
+categoria,bracelet,hats,88,classico,romantico,0,0.179924,-0.16545
+categoria,bracelet,hats,88,classico,moderno,1,2.09912,-0.43797
+categoria,bracelet,hats,88,romantico,casual,4.16667,4.97348,-0.145103
+categoria,bracelet,hats,88,romantico,classico,4,2.36364,0.396415
+categoria,bracelet,hats,88,romantico,esportivo,0,0.0820707,-0.0788765
+categoria,bracelet,hats,88,romantico,romantico,0.5,0.0984848,0.311533
+categoria,bracelet,hats,88,romantico,moderno,0,1.14899,-0.764998
+categoria,bracelet,hats,88,moderno,casual,19.1667,20.8504,-0.0801872
+categoria,bracelet,hats,88,moderno,classico,9.58333,9.90909,-0.030316
+categoria,bracelet,hats,88,moderno,esportivo,0.333333,0.344066,-0.00801702
+categoria,bracelet,hats,88,moderno,romantico,0,0.412879,-0.345629
+categoria,bracelet,hats,88,moderno,moderno,7.25,4.81692,0.349442
+categoria,bracelet,necklace,224,casual,casual,12.75,12.4583,0.0214403
+categoria,bracelet,necklace,224,casual,classico,17.4167,12.6409,0.300185
+categoria,bracelet,necklace,224,casual,romantico,12.25,7.48413,0.445801
+categoria,bracelet,necklace,224,casual,moderno,18.9167,28.75,-0.401272
+categoria,bracelet,necklace,224,classico,casual,8.25,7.78646,0.0514118
+categoria,bracelet,necklace,224,classico,classico,8.66667,7.90055,0.082571
+categoria,bracelet,necklace,224,classico,romantico,3,4.67758,-0.350231
+categoria,bracelet,necklace,224,classico,moderno,18.4167,17.9688,0.0233389
+categoria,bracelet,necklace,224,romantico,casual,4,4.46875,-0.0896122
+categoria,bracelet,necklace,224,romantico,classico,4.5,4.53423,-0.00620366
+categoria,bracelet,necklace,224,romantico,romantico,4,2.68452,0.305297
+categoria,bracelet,necklace,224,romantico,moderno,9.5,10.3125,-0.0745331
+categoria,bracelet,necklace,224,moderno,casual,20.5,20.7865,-0.0132357
+categoria,bracelet,necklace,224,moderno,classico,15.5833,21.091,-0.286773
+categoria,bracelet,necklace,224,moderno,romantico,8.08333,12.4871,-0.395293
+categoria,bracelet,necklace,224,moderno,moderno,58.1667,47.9687,0.189176
+categoria,bracelet,neckwear,45,casual,casual,6,7.00741,-0.134457
+categoria,bracelet,neckwear,45,casual,classico,3.83333,2.70741,0.265204
+categoria,bracelet,neckwear,45,casual,esportivo,0,0.159259,-0.147781
+categoria,bracelet,neckwear,45,casual,romantico,1.5,1.75185,-0.0959834
+categoria,bracelet,neckwear,45,casual,moderno,3,2.70741,0.0759615
+categoria,bracelet,neckwear,45,classico,casual,4.5,2.44444,0.467985
+categoria,bracelet,neckwear,45,classico,classico,0,0.944444,-0.664976
+categoria,bracelet,neckwear,45,classico,esportivo,0,0.0555556,-0.0540672
+categoria,bracelet,neckwear,45,classico,romantico,0,0.611111,-0.476924
+categoria,bracelet,neckwear,45,classico,moderno,0.5,0.944444,-0.259511
+categoria,bracelet,neckwear,45,romantico,casual,4.5,4.07407,0.080604
+categoria,bracelet,neckwear,45,romantico,classico,1.83333,1.57407,0.095964
+categoria,bracelet,neckwear,45,romantico,esportivo,0,0.0925926,-0.0885534
+categoria,bracelet,neckwear,45,romantico,romantico,0.5,1.01852,-0.296899
+categoria,bracelet,neckwear,45,romantico,moderno,1.5,1.57407,-0.0291992
+categoria,bracelet,neckwear,45,moderno,casual,7,8.47407,-0.169117
+categoria,bracelet,neckwear,45,moderno,classico,2.83333,3.27407,-0.108833
+categoria,bracelet,neckwear,45,moderno,esportivo,0.5,0.192593,0.229336
+categoria,bracelet,neckwear,45,moderno,romantico,3.5,2.11852,0.366719
+categoria,bracelet,neckwear,45,moderno,moderno,3.5,3.27407,0.0515099
+categoria,bracelet,outerwear,431,casual,casual,47.75,41.4857,0.137538
+categoria,bracelet,outerwear,431,casual,classico,20.75,17.1982,0.178292
+categoria,bracelet,outerwear,431,casual,esportivo,2.16667,1.9255,0.0792154
+categoria,bracelet,outerwear,431,casual,romantico,3,3.89475,-0.20187
+categoria,bracelet,outerwear,431,casual,moderno,39.5,48.6625,-0.203949
+categoria,bracelet,outerwear,431,classico,casual,21.75,24.6837,-0.121291
+categoria,bracelet,outerwear,431,classico,classico,10.1667,10.2328,-0.0059042
+categoria,bracelet,outerwear,431,classico,esportivo,0.833333,1.14566,-0.15731
+categoria,bracelet,outerwear,431,classico,romantico,4.5,2.31735,0.505582
+categoria,bracelet,outerwear,431,classico,moderno,30.0833,28.9539,0.0370138
+categoria,bracelet,outerwear,431,romantico,casual,17.6667,17.8407,-0.00927899
+categoria,bracelet,outerwear,431,romantico,classico,6.75,7.39598,-0.08006
+categoria,bracelet,outerwear,431,romantico,esportivo,0.833333,0.828048,0.00288682
+categoria,bracelet,outerwear,431,romantico,romantico,4,1.67492,0.62552
+categoria,bracelet,outerwear,431,romantico,moderno,19.4167,20.927,-0.0713692
+categoria,bracelet,outerwear,431,moderno,casual,70.8333,73.9899,-0.0430054
+categoria,bracelet,outerwear,431,moderno,classico,27.8333,30.673,-0.0939339
+categoria,bracelet,outerwear,431,moderno,esportivo,3.5,3.43413,0.0147454
+categoria,bracelet,outerwear,431,moderno,romantico,3.33333,6.94631,-0.606371
+categoria,bracelet,outerwear,431,moderno,moderno,96.3333,86.7899,0.103195
+categoria,bracelet,pants,457,casual,casual,95.5,94.0068,0.0155945
+categoria,bracelet,pants,457,casual,classico,5.25,6.69827,-0.208415
+categoria,bracelet,pants,457,casual,esportivo,0.583333,0.785315,-0.120062
+categoria,bracelet,pants,457,casual,romantico,1.5,1.24726,0.106577
+categoria,bracelet,pants,457,casual,moderno,23.8333,23.929,-0.00384517
+categoria,bracelet,pants,457,classico,casual,56.8333,56.5278,0.00529739
+categoria,bracelet,pants,457,classico,classico,4.83333,4.02778,0.14861
+categoria,bracelet,pants,457,classico,esportivo,0,0.472222,-0.386773
+categoria,bracelet,pants,457,classico,romantico,0,0.75,-0.559616
+categoria,bracelet,pants,457,classico,moderno,14.5,14.3889,0.00719428
+categoria,bracelet,pants,457,romantico,casual,42.1667,41.3135,0.019962
+categoria,bracelet,pants,457,romantico,classico,4.16667,2.94372,0.270105
+categoria,bracelet,pants,457,romantico,esportivo,0.25,0.345125,-0.0733436
+categoria,bracelet,pants,457,romantico,romantico,1,0.54814,0.256093
+categoria,bracelet,pants,457,romantico,moderno,8.08333,10.5162,-0.237311
+categoria,bracelet,pants,457,moderno,casual,144.667,147.319,-0.0180415
+categoria,bracelet,pants,457,moderno,classico,9.91667,10.4969,-0.0517868
+categoria,bracelet,pants,457,moderno,esportivo,2,1.23067,0.29631
+categoria,bracelet,pants,457,moderno,romantico,2,1.9546,0.0152506
+categoria,bracelet,pants,457,moderno,moderno,39.9167,37.4993,0.0608982
+categoria,bracelet,rings,138,casual,casual,6.83333,5.37681,0.20572
+categoria,bracelet,rings,138,casual,classico,9.25,8.06522,0.122833
+categoria,bracelet,rings,138,casual,romantico,5.75,4.6087,0.185224
+categoria,bracelet,rings,138,casual,moderno,13.5,17.2826,-0.231802
+categoria,bracelet,rings,138,classico,casual,3.58333,2.63768,0.23108
+categoria,bracelet,rings,138,classico,classico,8,3.95652,0.59652
+categoria,bracelet,rings,138,classico,romantico,2,2.26087,-0.0833816
+categoria,bracelet,rings,138,classico,moderno,3.75,8.47826,-0.690856
+categoria,bracelet,rings,138,romantico,casual,2.33333,2.71377,-0.108074
+categoria,bracelet,rings,138,romantico,classico,3,4.07065,-0.237175
+categoria,bracelet,rings,138,romantico,romantico,1.75,2.32609,-0.190196
+categoria,bracelet,rings,138,romantico,moderno,10.75,8.72283,0.189377
+categoria,bracelet,rings,138,moderno,casual,8.25,10.2717,-0.197675
+categoria,bracelet,rings,138,moderno,classico,11.25,15.4076,-0.292219
+categoria,bracelet,rings,138,moderno,romantico,8.5,8.80435,-0.0315341
+categoria,bracelet,rings,138,moderno,moderno,39.5,33.0163,0.174462
+categoria,bracelet,shoes,487,casual,casual,65.75,59.5462,0.0975476
+categoria,bracelet,shoes,487,casual,classico,8.75,7.96201,0.0842725
+categoria,bracelet,shoes,487,casual,esportivo,2.16667,1.39938,0.277467
+categoria,bracelet,shoes,487,casual,romantico,9.58333,8.87885,0.0688843
+categoria,bracelet,shoes,487,casual,moderno,54.75,63.2136,-0.141337
+categoria,bracelet,shoes,487,classico,casual,25.5833,30.125,-0.157728
+categoria,bracelet,shoes,487,classico,classico,10.0833,4.02806,0.790408
+categoria,bracelet,shoes,487,classico,esportivo,0.166667,0.707963,-0.381151
+categoria,bracelet,shoes,487,classico,romantico,5.33333,4.4919,0.142552
+categoria,bracelet,shoes,487,classico,moderno,30.1667,31.9804,-0.0565637
+categoria,bracelet,shoes,487,esportivo,casual,0.333333,0.140771,0.155978
+categoria,bracelet,shoes,487,esportivo,classico,0,0.0188227,-0.0186478
+categoria,bracelet,shoes,487,esportivo,esportivo,0,0.00330824,-0.00330278
+categoria,bracelet,shoes,487,esportivo,romantico,0,0.0209902,-0.0207729
+categoria,bracelet,shoes,487,esportivo,moderno,0,0.149441,-0.139276
+categoria,bracelet,shoes,487,romantico,casual,31.5833,26.2538,0.178607
+categoria,bracelet,shoes,487,romantico,classico,2.25,3.51044,-0.327739
+categoria,bracelet,shoes,487,romantico,esportivo,0.416667,0.616986,-0.132257
+categoria,bracelet,shoes,487,romantico,romantico,5.5,3.91467,0.279578
+categoria,bracelet,shoes,487,romantico,moderno,22.4167,27.8708,-0.209381
+categoria,bracelet,shoes,487,moderno,casual,82.4167,89.6008,-0.0826154
+categoria,bracelet,shoes,487,moderno,classico,6.41667,11.9807,-0.559731
+categoria,bracelet,shoes,487,moderno,esportivo,2.08333,2.10569,-0.00722544
+categoria,bracelet,shoes,487,moderno,romantico,10.25,13.3603,-0.244096
+categoria,bracelet,shoes,487,moderno,moderno,111,95.1192,0.15291
+categoria,bracelet,skirt,213,casual,casual,21.9167,25.1774,-0.13303
+categoria,bracelet,skirt,213,casual,classico,13.3333,10.1223,0.253633
+categoria,bracelet,skirt,213,casual,esportivo,0,0.154147,-0.143362
+categoria,bracelet,skirt,213,casual,romantico,14.9167,14.6954,0.0140018
+categoria,bracelet,skirt,213,casual,moderno,15.5,15.5175,-0.00105854
+categoria,bracelet,skirt,213,classico,casual,14,12.3331,0.117803
+categoria,bracelet,skirt,213,classico,classico,4.83333,4.9584,-0.0212132
+categoria,bracelet,skirt,213,classico,esportivo,0,0.0755086,-0.0727937
+categoria,bracelet,skirt,213,classico,romantico,5.5,7.19849,-0.232147
+categoria,bracelet,skirt,213,classico,moderno,7.83333,7.6012,0.0266307
+categoria,bracelet,skirt,213,romantico,casual,12,11.8858,0.00882661
+categoria,bracelet,skirt,213,romantico,classico,5,4.77856,0.0376049
+categoria,bracelet,skirt,213,romantico,esportivo,0,0.07277,-0.070244
+categoria,bracelet,skirt,213,romantico,romantico,8.75,6.9374,0.205681
+categoria,bracelet,skirt,213,romantico,moderno,5.25,7.32551,-0.286743
+categoria,bracelet,skirt,213,moderno,casual,33.75,32.2705,0.0435092
+categoria,bracelet,skirt,213,moderno,classico,9.66667,12.974,-0.270078
+categoria,bracelet,skirt,213,moderno,esportivo,0.5,0.197574,0.225167
+categoria,bracelet,skirt,213,moderno,romantico,18.5,18.8354,-0.0170548
+categoria,bracelet,skirt,213,moderno,moderno,21.75,19.8891,0.0853353
+categoria,bracelet,top,970,casual,casual,168.583,165.699,0.0171521
+categoria,bracelet,top,970,casual,classico,46.75,49.4934,-0.0558627
+categoria,bracelet,top,970,casual,esportivo,3.5,2.95189,0.129883
+categoria,bracelet,top,970,casual,romantico,25.5,27.1082,-0.0589163
+categoria,bracelet,top,970,casual,moderno,42,41.0805,0.0216164
+categoria,bracelet,top,970,classico,casual,80.8333,82.1746,-0.016257
+categoria,bracelet,top,970,classico,classico,27.9167,24.545,0.123976
+categoria,bracelet,top,970,classico,esportivo,1,1.46392,-0.208605
+categoria,bracelet,top,970,classico,romantico,18.3333,13.4436,0.291576
+categoria,bracelet,top,970,classico,moderno,13.9167,20.3729,-0.359642
+categoria,bracelet,top,970,romantico,casual,62.75,68.1895,-0.0818794
+categoria,bracelet,top,970,romantico,classico,26.25,20.3678,0.243171
+categoria,bracelet,top,970,romantico,esportivo,0.75,1.21478,-0.235536
+categoria,bracelet,top,970,romantico,romantico,17.5833,11.1557,0.424467
+categoria,bracelet,top,970,romantico,moderno,10.5,16.9056,-0.442769
+categoria,bracelet,top,970,moderno,casual,249.167,245.27,0.0156994
+categoria,bracelet,top,970,moderno,classico,66.75,73.2605,-0.0917552
+categoria,bracelet,top,970,moderno,esportivo,4.75,4.36942,0.0684807
+categoria,bracelet,top,970,moderno,romantico,30.4167,40.1258,-0.269297
+categoria,bracelet,top,970,moderno,moderno,72.75,60.8077,0.176653
+categoria,bracelet,watch,75,casual,casual,1.83333,2.62222,-0.245634
+categoria,bracelet,watch,75,casual,classico,8.33333,8.35556,-0.00237812
+categoria,bracelet,watch,75,casual,esportivo,0.25,0.133333,0.0979804
+categoria,bracelet,watch,75,casual,romantico,0.5,0.266667,0.169076
+categoria,bracelet,watch,75,casual,moderno,9.08333,8.62222,0.0468087
+categoria,bracelet,watch,75,classico,casual,2,1.24556,0.289659
+categoria,bracelet,watch,75,classico,classico,2.5,3.96889,-0.350433
+categoria,bracelet,watch,75,classico,esportivo,0,0.0633333,-0.0614086
+categoria,bracelet,watch,75,classico,romantico,0,0.126667,-0.119263
+categoria,bracelet,watch,75,classico,moderno,5,4.09556,0.163391
+categoria,bracelet,watch,75,romantico,casual,2,1.04889,0.381315
+categoria,bracelet,watch,75,romantico,classico,3,3.34222,-0.0820919
+categoria,bracelet,watch,75,romantico,esportivo,0,0.0533333,-0.0519597
+categoria,bracelet,watch,75,romantico,romantico,0.5,0.106667,0.304113
+categoria,bracelet,watch,75,romantico,moderno,2.5,3.44889,-0.239891
+categoria,bracelet,watch,75,moderno,casual,4,4.91667,-0.168335
+categoria,bracelet,watch,75,moderno,classico,17.5,15.6667,0.10436
+categoria,bracelet,watch,75,moderno,esportivo,0.25,0.25,0
+categoria,bracelet,watch,75,moderno,romantico,0,0.5,-0.405465
+categoria,bracelet,watch,75,moderno,moderno,15.75,16.1667,-0.0245713
+categoria,brooch,dress,38,casual,casual,0.25,1.47368,-0.682565
+categoria,brooch,dress,38,casual,classico,3,2.63158,0.0966268
+categoria,brooch,dress,38,casual,romantico,3.5,2.63158,0.21441
+categoria,brooch,dress,38,casual,moderno,1.25,1.26316,-0.00583092
+categoria,brooch,dress,38,classico,casual,3,2.11842,0.248968
+categoria,brooch,dress,38,classico,classico,4.5,3.78289,0.139702
+categoria,brooch,dress,38,classico,romantico,2,3.78289,-0.466434
+categoria,brooch,dress,38,classico,moderno,2,1.81579,0.0633696
+categoria,brooch,dress,38,romantico,casual,3.25,2.02632,0.339573
+categoria,brooch,dress,38,romantico,classico,3.5,3.61842,-0.0259755
+categoria,brooch,dress,38,romantico,romantico,2.5,3.61842,-0.27729
+categoria,brooch,dress,38,romantico,moderno,1.75,1.73684,0.00479617
+categoria,brooch,dress,38,moderno,casual,0.5,1.38158,-0.462299
+categoria,brooch,dress,38,moderno,classico,1.5,2.46711,-0.327029
+categoria,brooch,dress,38,moderno,romantico,4.5,2.46711,0.461428
+categoria,brooch,dress,38,moderno,moderno,1,1.18421,-0.0881073
+categoria,brooch,outerwear,60,casual,casual,5.66667,5.04167,0.0984401
+categoria,brooch,outerwear,60,casual,classico,2.75,1.65,0.347196
+categoria,brooch,outerwear,60,casual,esportivo,0,0.1375,-0.128833
+categoria,brooch,outerwear,60,casual,romantico,0.166667,0.366667,-0.158224
+categoria,brooch,outerwear,60,casual,moderno,7.91667,9.30417,-0.144626
+categoria,brooch,outerwear,60,classico,casual,4.5,5.5,-0.167054
+categoria,brooch,outerwear,60,classico,classico,2,1.8,0.0689929
+categoria,brooch,outerwear,60,classico,esportivo,0,0.15,-0.139762
+categoria,brooch,outerwear,60,classico,romantico,1,0.4,0.356675
+categoria,brooch,outerwear,60,classico,moderno,10.5,10.15,0.0309075
+categoria,brooch,outerwear,60,romantico,casual,1.41667,3.51389,-0.62477
+categoria,brooch,outerwear,60,romantico,classico,0,1.15,-0.765468
+categoria,brooch,outerwear,60,romantico,esportivo,0,0.0958333,-0.0915151
+categoria,brooch,outerwear,60,romantico,romantico,0.166667,0.255556,-0.0734275
+categoria,brooch,outerwear,60,romantico,moderno,9.91667,6.48472,0.377427
+categoria,brooch,outerwear,60,moderno,casual,6.75,4.27778,0.384188
+categoria,brooch,outerwear,60,moderno,classico,1.25,1.4,-0.0645385
+categoria,brooch,outerwear,60,moderno,esportivo,0.5,0.116667,0.295117
+categoria,brooch,outerwear,60,moderno,romantico,0,0.311111,-0.270875
+categoria,brooch,outerwear,60,moderno,moderno,5.5,7.89444,-0.313625
+categoria,brooch,shoes,59,casual,casual,5.66667,5.49153,0.0266224
+categoria,brooch,shoes,59,casual,classico,0.583333,0.237288,0.24661
+categoria,brooch,shoes,59,casual,esportivo,0.833333,0.338983,0.314225
+categoria,brooch,shoes,59,casual,romantico,0.75,1.9322,-0.516138
+categoria,brooch,shoes,59,casual,moderno,4.16667,4,0.0327898
+categoria,brooch,shoes,59,classico,casual,5.83333,8.00847,-0.276353
+categoria,brooch,shoes,59,classico,classico,0.333333,0.346045,-0.00948874
+categoria,brooch,shoes,59,classico,esportivo,0.333333,0.49435,-0.114009
+categoria,brooch,shoes,59,classico,romantico,4.5,2.8178,0.365075
+categoria,brooch,shoes,59,classico,moderno,6.5,5.83333,0.0930904
+categoria,brooch,shoes,59,romantico,casual,9.25,7.09322,0.236251
+categoria,brooch,shoes,59,romantico,classico,0.25,0.306497,-0.0442061
+categoria,brooch,shoes,59,romantico,esportivo,0.25,0.437853,-0.140008
+categoria,brooch,shoes,59,romantico,romantico,2.75,2.49576,0.0702043
+categoria,brooch,shoes,59,romantico,moderno,3,5.16667,-0.432864
+categoria,brooch,shoes,59,moderno,casual,6.25,6.40678,-0.0213943
+categoria,brooch,shoes,59,moderno,classico,0,0.276836,-0.244385
+categoria,brooch,shoes,59,moderno,esportivo,0.25,0.39548,-0.110095
+categoria,brooch,shoes,59,moderno,romantico,1.5,2.25424,-0.263667
+categoria,brooch,shoes,59,moderno,moderno,6,4.66667,0.211309
+categoria,brooch,top,109,casual,casual,11.9167,12.7615,-0.063354
+categoria,brooch,top,109,casual,classico,1.75,4.01529,-0.60089
+categoria,brooch,top,109,casual,esportivo,0,0.0795107,-0.0765079
+categoria,brooch,top,109,casual,romantico,7.41667,5.56575,0.248347
+categoria,brooch,top,109,casual,moderno,4.91667,3.57798,0.256515
+categoria,brooch,top,109,classico,casual,16,13.2523,0.176295
+categoria,brooch,top,109,classico,classico,3.5,4.16972,-0.138742
+categoria,brooch,top,109,classico,esportivo,0,0.0825688,-0.0793367
+categoria,brooch,top,109,classico,romantico,5.5,5.77982,-0.0421479
+categoria,brooch,top,109,classico,moderno,2,3.7156,-0.452263
+categoria,brooch,top,109,romantico,casual,13.5,14.2339,-0.0493775
+categoria,brooch,top,109,romantico,classico,5.25,4.47859,0.131733
+categoria,brooch,top,109,romantico,esportivo,0.333333,0.088685,0.202712
+categoria,brooch,top,109,romantico,romantico,6.66667,6.20795,0.0616972
+categoria,brooch,top,109,romantico,moderno,3.25,3.99083,-0.160682
+categoria,brooch,top,109,moderno,casual,12.0833,13.2523,-0.0855787
+categoria,brooch,top,109,moderno,classico,6.33333,4.16972,0.349611
+categoria,brooch,top,109,moderno,esportivo,0,0.0825688,-0.0793367
+categoria,brooch,top,109,moderno,romantico,3.75,5.77982,-0.355805
+categoria,brooch,top,109,moderno,moderno,4.83333,3.7156,0.212713
+categoria,dress,earrings,255,casual,casual,18.4167,15.081,0.188491
+categoria,dress,earrings,255,casual,classico,24.1667,22.8487,0.053791
+categoria,dress,earrings,255,casual,romantico,8.16667,11.9922,-0.348772
+categoria,dress,earrings,255,casual,moderno,18.75,19.5781,-0.0410741
+categoria,dress,earrings,255,classico,casual,11.9167,15.515,-0.245753
+categoria,dress,earrings,255,classico,classico,24.1667,23.5062,0.0265938
+categoria,dress,earrings,255,classico,romantico,14.1667,12.3373,0.128539
+categoria,dress,earrings,255,classico,moderno,21.25,20.1415,0.0511039
+categoria,dress,earrings,255,romantico,casual,17.6667,13.1643,0.276017
+categoria,dress,earrings,255,romantico,classico,16.8333,19.9447,-0.160814
+categoria,dress,earrings,255,romantico,romantico,12.1667,10.468,0.13813
+categoria,dress,earrings,255,romantico,moderno,14,17.0898,-0.187296
+categoria,dress,earrings,255,moderno,casual,7.33333,11.573,-0.411287
+categoria,dress,earrings,255,moderno,classico,18.6667,17.5338,0.0593307
+categoria,dress,earrings,255,moderno,romantico,9.5,9.20261,0.0287313
+categoria,dress,earrings,255,moderno,moderno,17.8333,15.024,0.161543
+categoria,dress,eyewear,323,casual,casual,80.5833,78.5208,0.0256062
+categoria,dress,eyewear,323,casual,classico,21.8333,22.236,-0.0174806
+categoria,dress,eyewear,323,casual,romantico,0.666667,1.6677,-0.470391
+categoria,dress,eyewear,323,casual,moderno,31.5833,32.2422,-0.0200185
+categoria,dress,eyewear,323,classico,casual,33.8333,39.066,-0.139954
+categoria,dress,eyewear,323,classico,classico,13.0833,11.063,0.154853
+categoria,dress,eyewear,323,classico,romantico,0,0.829721,-0.604164
+categoria,dress,eyewear,323,classico,moderno,20.0833,16.0413,0.212844
+categoria,dress,eyewear,323,esportivo,casual,0,0.291538,-0.255833
+categoria,dress,eyewear,323,esportivo,classico,0.5,0.0825593,0.326137
+categoria,dress,eyewear,323,esportivo,romantico,0,0.00619195,-0.00617286
+categoria,dress,eyewear,323,esportivo,moderno,0,0.119711,-0.113071
+categoria,dress,eyewear,323,romantico,casual,48.9167,45.2855,0.0755258
+categoria,dress,eyewear,323,romantico,classico,11.6667,12.8242,-0.0874481
+categoria,dress,eyewear,323,romantico,romantico,2.16667,0.961816,0.478809
+categoria,dress,eyewear,323,romantico,moderno,14.9167,18.5951,-0.207914
+categoria,dress,eyewear,323,moderno,casual,25,25.1694,-0.00649496
+categoria,dress,eyewear,323,moderno,classico,6.25,7.12762,-0.114267
+categoria,dress,eyewear,323,moderno,romantico,1.16667,0.534572,0.344939
+categoria,dress,eyewear,323,moderno,moderno,10.75,10.3351,0.0359533
+categoria,dress,hats,130,casual,casual,26.3333,25.6385,0.0257509
+categoria,dress,hats,130,casual,classico,15.5833,14.1788,0.0884954
+categoria,dress,hats,130,casual,esportivo,0,0.194231,-0.177502
+categoria,dress,hats,130,casual,romantico,2,2.71923,-0.214905
+categoria,dress,hats,130,casual,moderno,6.58333,7.76923,-0.145296
+categoria,dress,hats,130,classico,casual,16.9167,15.7385,0.0680222
+categoria,dress,hats,130,classico,classico,9.91667,8.70385,0.117768
+categoria,dress,hats,130,classico,esportivo,0.5,0.119231,0.292823
+categoria,dress,hats,130,classico,romantico,0,1.66923,-0.98179
+categoria,dress,hats,130,classico,moderno,3.66667,4.76923,-0.212094
+categoria,dress,hats,130,romantico,casual,12.4167,13.4538,-0.0744628
+categoria,dress,hats,130,romantico,classico,6.66667,7.44038,-0.096146
+categoria,dress,hats,130,romantico,esportivo,0,0.101923,-0.0970569
+categoria,dress,hats,130,romantico,romantico,2.75,1.42692,0.435132
+categoria,dress,hats,130,romantico,moderno,4.66667,4.07692,0.109896
+categoria,dress,hats,130,moderno,casual,10.3333,11.1692,-0.0711625
+categoria,dress,hats,130,moderno,classico,4.33333,6.17692,-0.296894
+categoria,dress,hats,130,moderno,esportivo,0,0.0846154,-0.0812254
+categoria,dress,hats,130,moderno,romantico,2.25,1.18462,0.397215
+categoria,dress,hats,130,moderno,moderno,5.08333,3.38462,0.327451
+categoria,dress,necklace,268,casual,casual,19.5833,14.9359,0.255904
+categoria,dress,necklace,268,casual,classico,20.3333,24.9462,-0.195755
+categoria,dress,necklace,268,casual,esportivo,0,0.158893,-0.147465
+categoria,dress,necklace,268,casual,romantico,9.75,12.2348,-0.207941
+categoria,dress,necklace,268,casual,moderno,35.5,32.8909,0.074167
+categoria,dress,necklace,268,classico,casual,6.58333,10.2009,-0.390039
+categoria,dress,necklace,268,classico,classico,18.0833,17.0376,0.0563555
+categoria,dress,necklace,268,classico,esportivo,0,0.10852,-0.103026
+categoria,dress,necklace,268,classico,romantico,9.75,8.35603,0.138884
+categoria,dress,necklace,268,classico,moderno,23.75,22.4636,0.0533744
+categoria,dress,necklace,268,romantico,casual,8.25,12.6269,-0.38742
+categoria,dress,necklace,268,romantico,classico,25.5833,21.0896,0.18518
+categoria,dress,necklace,268,romantico,esportivo,0.5,0.134328,0.279424
+categoria,dress,necklace,268,romantico,romantico,15.5,10.3433,0.374735
+categoria,dress,necklace,268,romantico,moderno,22.1667,27.806,-0.217868
+categoria,dress,necklace,268,moderno,casual,12.5833,9.23632,0.282902
+categoria,dress,necklace,268,moderno,classico,14.5,15.4266,-0.058063
+categoria,dress,necklace,268,moderno,esportivo,0,0.0982587,-0.0937259
+categoria,dress,necklace,268,moderno,romantico,3.5,7.56592,-0.643714
+categoria,dress,necklace,268,moderno,moderno,22.0833,20.3396,0.0785486
+categoria,dress,outerwear,656,casual,casual,80,73.5627,0.0828089
+categoria,dress,outerwear,656,casual,classico,38.5,40.8325,-0.0573731
+categoria,dress,outerwear,656,casual,esportivo,2.91667,2.08575,0.238447
+categoria,dress,outerwear,656,casual,romantico,11,8.53017,0.230444
+categoria,dress,outerwear,656,casual,moderno,78.0833,85.4889,-0.0895138
+categoria,dress,outerwear,656,classico,casual,48.1667,55.5069,-0.139147
+categoria,dress,outerwear,656,classico,classico,37,30.8103,0.177797
+categoria,dress,outerwear,656,classico,esportivo,2.16667,1.57381,0.207294
+categoria,dress,outerwear,656,classico,romantico,4.08333,6.43646,-0.380428
+categoria,dress,outerwear,656,classico,moderno,67.4167,64.5059,0.0434768
+categoria,dress,outerwear,656,esportivo,casual,0.333333,0.291222,0.032093
+categoria,dress,outerwear,656,esportivo,classico,0,0.161649,-0.14984
+categoria,dress,outerwear,656,esportivo,esportivo,0,0.00825711,-0.00822321
+categoria,dress,outerwear,656,esportivo,romantico,0,0.0337695,-0.0332118
+categoria,dress,outerwear,656,esportivo,moderno,0.5,0.338436,0.113963
+categoria,dress,outerwear,656,romantico,casual,58.0833,55.041,0.0528659
+categoria,dress,outerwear,656,romantico,classico,28.8333,30.5516,-0.0559992
+categoria,dress,outerwear,656,romantico,esportivo,1,1.56059,-0.247092
+categoria,dress,outerwear,656,romantico,romantico,9.25,6.38243,0.328175
+categoria,dress,outerwear,656,romantico,moderno,60.3333,63.9644,-0.0575155
+categoria,dress,outerwear,656,moderno,casual,42.6667,44.8482,-0.0487508
+categoria,dress,outerwear,656,moderno,classico,22.9167,24.8939,-0.0794329
+categoria,dress,outerwear,656,moderno,esportivo,0.416667,1.2716,-0.472176
+categoria,dress,outerwear,656,moderno,romantico,2.25,5.2005,-0.645975
+categoria,dress,outerwear,656,moderno,moderno,60.0833,52.1191,0.139702
+categoria,dress,pants,116,casual,casual,28.1111,29.1499,-0.0350618
+categoria,dress,pants,116,casual,classico,1.19444,1.46312,-0.115501
+categoria,dress,pants,116,casual,esportivo,0.25,0.168822,0.0671473
+categoria,dress,pants,116,casual,romantico,1.5,1.18175,0.136162
+categoria,dress,pants,116,casual,moderno,8.11111,7.20307,0.104987
+categoria,dress,pants,116,classico,casual,16.25,15.5053,0.0441325
+categoria,dress,pants,116,classico,classico,1.08333,0.778257,0.158336
+categoria,dress,pants,116,classico,esportivo,0.25,0.0897989,0.13715
+categoria,dress,pants,116,classico,romantico,0.5,0.628592,-0.0822507
+categoria,dress,pants,116,classico,moderno,2.75,3.83142,-0.253384
+categoria,dress,pants,116,esportivo,casual,0.25,0.372126,-0.0932181
+categoria,dress,pants,116,esportivo,classico,0,0.0186782,-0.0185059
+categoria,dress,pants,116,esportivo,esportivo,0,0.00215517,-0.00215285
+categoria,dress,pants,116,esportivo,romantico,0,0.0150862,-0.0149735
+categoria,dress,pants,116,esportivo,moderno,0.25,0.091954,0.135175
+categoria,dress,pants,116,romantico,casual,30.1111,29.8942,0.00699795
+categoria,dress,pants,116,romantico,classico,1.44444,1.50048,-0.0226644
+categoria,dress,pants,116,romantico,esportivo,0,0.173132,-0.159677
+categoria,dress,pants,116,romantico,romantico,1.5,1.21193,0.122427
+categoria,dress,pants,116,romantico,moderno,7.11111,7.38697,-0.0334448
+categoria,dress,pants,116,moderno,casual,11.6111,11.4119,0.0159244
+categoria,dress,pants,116,moderno,classico,0.611111,0.572797,0.0240686
+categoria,dress,pants,116,moderno,esportivo,0,0.066092,-0.0639996
+categoria,dress,pants,116,moderno,romantico,0,0.462644,-0.380246
+categoria,dress,pants,116,moderno,moderno,3.11111,2.81992,0.073463
+categoria,dress,rings,156,casual,casual,8.91667,6.30199,0.306069
+categoria,dress,rings,156,casual,classico,13.25,13.3355,-0.00597998
+categoria,dress,rings,156,casual,romantico,7,5.96439,0.138632
+categoria,dress,rings,156,casual,moderno,23.5,27.0648,-0.135844
+categoria,dress,rings,156,classico,casual,1.75,3.37037,-0.463247
+categoria,dress,rings,156,classico,classico,10,7.13194,0.302095
+categoria,dress,rings,156,classico,romantico,4.08333,3.18981,0.193311
+categoria,dress,rings,156,classico,moderno,12.3333,14.4745,-0.148929
+categoria,dress,rings,156,romantico,casual,6.25,5.4245,0.120882
+categoria,dress,rings,156,romantico,classico,5.75,11.4786,-0.614475
+categoria,dress,rings,156,romantico,romantico,4.58333,5.1339,-0.0940453
+categoria,dress,rings,156,romantico,moderno,28.75,23.2963,0.202505
+categoria,dress,rings,156,moderno,casual,1.75,3.5698,-0.507869
+categoria,dress,rings,156,moderno,classico,10.5,7.55395,0.295954
+categoria,dress,rings,156,moderno,romantico,2,3.37856,-0.378108
+categoria,dress,rings,156,moderno,moderno,15.5833,15.331,0.0153319
+categoria,dress,shoes,874,casual,casual,125.667,105.3,0.17529
+categoria,dress,shoes,874,casual,classico,16.3333,19.1101,-0.148589
+categoria,dress,shoes,874,casual,esportivo,2.16667,1.95001,0.0708722
+categoria,dress,shoes,874,casual,romantico,36.25,40.8944,-0.117501
+categoria,dress,shoes,874,casual,moderno,111.75,124.912,-0.110409
+categoria,dress,shoes,874,classico,casual,45.5,61.6905,-0.298758
+categoria,dress,shoes,874,classico,classico,13.0833,11.1957,0.14391
+categoria,dress,shoes,874,classico,esportivo,0.916667,1.14242,-0.111347
+categoria,dress,shoes,874,classico,romantico,29.8333,23.9581,0.211398
+categoria,dress,shoes,874,classico,moderno,81.8333,73.18,0.110337
+categoria,dress,shoes,874,esportivo,casual,0.5,0.180206,0.239776
+categoria,dress,shoes,874,esportivo,classico,0,0.032704,-0.0321806
+categoria,dress,shoes,874,esportivo,esportivo,0,0.00333715,-0.00333159
+categoria,dress,shoes,874,esportivo,romantico,0,0.0699847,-0.0676444
+categoria,dress,shoes,874,esportivo,moderno,0,0.213768,-0.19373
+categoria,dress,shoes,874,romantico,casual,88.25,87.6402,0.00685639
+categoria,dress,shoes,874,romantico,classico,15.0833,15.9051,-0.0498298
+categoria,dress,shoes,874,romantico,esportivo,2.25,1.62297,0.214349
+categoria,dress,shoes,874,romantico,romantico,44.3333,34.0359,0.257669
+categoria,dress,shoes,874,romantico,moderno,93.25,103.963,-0.107653
+categoria,dress,shoes,874,moderno,casual,55.0833,60.1888,-0.0871253
+categoria,dress,shoes,874,moderno,classico,12.6667,10.9232,0.136478
+categoria,dress,shoes,874,moderno,esportivo,0.5,1.11461,-0.343404
+categoria,dress,shoes,874,moderno,romantico,11.9167,23.3749,-0.635036
+categoria,dress,shoes,874,moderno,moderno,86.8333,71.3986,0.193255
+categoria,dress,top,206,casual,casual,41.5833,42.0955,-0.0119549
+categoria,dress,top,206,casual,classico,11.5833,10.4369,0.0955288
+categoria,dress,top,206,casual,esportivo,1.25,0.869741,0.18513
+categoria,dress,top,206,casual,romantico,6.75,6.61003,0.0182254
+categoria,dress,top,206,casual,moderno,10.5,11.6545,-0.0956683
+categoria,dress,top,206,classico,casual,22.8333,23.0057,-0.00720462
+categoria,dress,top,206,classico,classico,6.58333,5.70388,0.123266
+categoria,dress,top,206,classico,esportivo,1,0.475324,0.30427
+categoria,dress,top,206,classico,romantico,2.75,3.61246,-0.207005
+categoria,dress,top,206,classico,moderno,6,6.36934,-0.0514175
+categoria,dress,top,206,esportivo,casual,0.5,0.293689,0.147967
+categoria,dress,top,206,esportivo,classico,0,0.0728155,-0.0702865
+categoria,dress,top,206,esportivo,esportivo,0,0.00606796,-0.00604963
+categoria,dress,top,206,esportivo,romantico,0,0.0461165,-0.0450847
+categoria,dress,top,206,esportivo,moderno,0,0.0813107,-0.0781739
+categoria,dress,top,206,romantico,casual,32.6667,34.2638,-0.0463474
+categoria,dress,top,206,romantico,classico,8.16667,8.49515,-0.035207
+categoria,dress,top,206,romantico,esportivo,0,0.707929,-0.535281
+categoria,dress,top,206,romantico,romantico,4.25,5.38026,-0.194981
+categoria,dress,top,206,romantico,moderno,13.25,9.48625,0.306692
+categoria,dress,top,206,moderno,casual,23.4167,21.3414,0.0888234
+categoria,dress,top,206,moderno,classico,3.66667,5.29126,-0.298717
+categoria,dress,top,206,moderno,esportivo,0.25,0.440939,-0.142151
+categoria,dress,top,206,moderno,romantico,5.25,3.35113,0.362145
+categoria,dress,top,206,moderno,moderno,3.75,5.90858,-0.374619
+categoria,dress,watch,50,casual,casual,1.25,2.10222,-0.321188
+categoria,dress,watch,50,casual,classico,5.91667,6.54556,-0.0870248
+categoria,dress,watch,50,casual,esportivo,0.5,0.143333,0.271517
+categoria,dress,watch,50,casual,romantico,2,0.573333,0.645416
+categoria,dress,watch,50,casual,moderno,4.66667,4.96889,-0.0519597
+categoria,dress,watch,50,classico,casual,1.75,1.44222,0.118693
+categoria,dress,watch,50,classico,classico,4.66667,4.49056,0.0315716
+categoria,dress,watch,50,classico,esportivo,0,0.0983333,-0.0937939
+categoria,dress,watch,50,classico,romantico,0,0.393333,-0.331699
+categoria,dress,watch,50,classico,moderno,3.41667,3.40889,0.00176256
+categoria,dress,watch,50,romantico,casual,1,1.90667,-0.37386
+categoria,dress,watch,50,romantico,classico,6.75,5.93667,0.110871
+categoria,dress,watch,50,romantico,esportivo,0,0.13,-0.122218
+categoria,dress,watch,50,romantico,romantico,0,0.52,-0.41871
+categoria,dress,watch,50,romantico,moderno,5.25,4.50667,0.126622
+categoria,dress,watch,50,moderno,casual,3.33333,1.88222,0.407775
+categoria,dress,watch,50,moderno,classico,5.5,5.86056,-0.0539862
+categoria,dress,watch,50,moderno,esportivo,0,0.128333,-0.120742
+categoria,dress,watch,50,moderno,romantico,0,0.513333,-0.414315
+categoria,dress,watch,50,moderno,moderno,4,4.44889,-0.0859738
+categoria,earrings,eyewear,212,casual,casual,22.5,24.1111,-0.06631
+categoria,earrings,eyewear,212,casual,classico,7.5,6.07652,0.183284
+categoria,earrings,eyewear,212,casual,romantico,1,0.584906,0.232622
+categoria,earrings,eyewear,212,casual,moderno,10.3333,10.5608,-0.0198715
+categoria,earrings,eyewear,212,classico,casual,33.8333,36.4583,-0.0726544
+categoria,earrings,eyewear,212,classico,classico,10.0833,9.18829,0.0842038
+categoria,earrings,eyewear,212,classico,romantico,0,0.884434,-0.633627
+categoria,earrings,eyewear,212,classico,moderno,18.5833,15.9689,0.143294
+categoria,earrings,eyewear,212,romantico,casual,24.25,22.6528,0.0653456
+categoria,earrings,eyewear,212,romantico,classico,8,5.70899,0.293776
+categoria,earrings,eyewear,212,romantico,romantico,1,0.549528,0.255197
+categoria,earrings,eyewear,212,romantico,moderno,5.58333,9.92204,-0.506241
+categoria,earrings,eyewear,212,moderno,casual,43.0833,40.4444,0.0617279
+categoria,earrings,eyewear,212,moderno,classico,5.58333,10.1929,-0.530736
+categoria,earrings,eyewear,212,moderno,romantico,1,0.981132,0.00947874
+categoria,earrings,eyewear,212,moderno,moderno,19.6667,17.7149,0.0992029
+categoria,earrings,hats,74,casual,casual,8.875,8.81081,0.00652139
+categoria,earrings,hats,74,casual,classico,4,4,0
+categoria,earrings,hats,74,casual,esportivo,0.125,0.162162,-0.0324992
+categoria,earrings,hats,74,casual,romantico,1.125,0.918919,0.10201
+categoria,earrings,hats,74,casual,moderno,1.875,2.10811,-0.0779615
+categoria,earrings,hats,74,classico,casual,11.5,10.4628,0.0866183
+categoria,earrings,hats,74,classico,classico,5.5,4.75,0.122602
+categoria,earrings,hats,74,classico,esportivo,0,0.192568,-0.176109
+categoria,earrings,hats,74,classico,romantico,0,1.09122,-0.737746
+categoria,earrings,hats,74,classico,moderno,2,2.50338,-0.155115
+categoria,earrings,hats,74,romantico,casual,9.25,8.81081,0.0437928
+categoria,earrings,hats,74,romantico,classico,3,4,-0.223144
+categoria,earrings,hats,74,romantico,esportivo,0.5,0.162162,0.255183
+categoria,earrings,hats,74,romantico,romantico,2.25,0.918919,0.526893
+categoria,earrings,hats,74,romantico,moderno,1,2.10811,-0.440867
+categoria,earrings,hats,74,moderno,casual,11.125,12.6655,-0.119608
+categoria,earrings,hats,74,moderno,classico,6,5.75,0.0363676
+categoria,earrings,hats,74,moderno,esportivo,0.125,0.233108,-0.0917549
+categoria,earrings,hats,74,moderno,romantico,0.875,1.32095,-0.213366
+categoria,earrings,hats,74,moderno,moderno,4.875,3.03041,0.376839
+categoria,earrings,necklace,186,casual,casual,9.83333,6.4425,0.375421
+categoria,earrings,necklace,186,casual,classico,3.75,6.04152,-0.393679
+categoria,earrings,necklace,186,casual,romantico,5,3.76927,0.229567
+categoria,earrings,necklace,186,casual,moderno,11.25,13.58,-0.174128
+categoria,earrings,necklace,186,classico,casual,9.83333,12.1652,-0.194947
+categoria,earrings,necklace,186,classico,classico,16.5,11.408,0.343859
+categoria,earrings,necklace,186,classico,romantico,3.25,7.11738,-0.647089
+categoria,earrings,necklace,186,classico,moderno,26.75,25.6428,0.040718
+categoria,earrings,necklace,186,romantico,casual,9.66667,7.99014,0.170995
+categoria,earrings,necklace,186,romantico,classico,4.41667,7.49283,-0.449742
+categoria,earrings,necklace,186,romantico,romantico,10.25,4.67473,0.684345
+categoria,earrings,necklace,186,romantico,moderno,12.6667,16.8423,-0.266612
+categoria,earrings,necklace,186,moderno,casual,10.8333,13.5688,-0.207965
+categoria,earrings,necklace,186,moderno,classico,13,12.7243,0.0198884
+categoria,earrings,necklace,186,moderno,romantico,5,7.93862,-0.398622
+categoria,earrings,necklace,186,moderno,moderno,34,28.6016,0.167521
+categoria,earrings,neckwear,39,casual,casual,7.58333,6.00926,0.20259
+categoria,earrings,neckwear,39,casual,classico,0.5,1.97507,-0.684803
+categoria,earrings,neckwear,39,casual,esportivo,0,0.252137,-0.224851
+categoria,earrings,neckwear,39,casual,romantico,1,0.75641,0.129875
+categoria,earrings,neckwear,39,casual,moderno,0.75,0.840456,-0.0503975
+categoria,earrings,neckwear,39,classico,casual,7.58333,7.94444,-0.0412103
+categoria,earrings,neckwear,39,classico,classico,4.33333,2.61111,0.389961
+categoria,earrings,neckwear,39,classico,esportivo,0,0.333333,-0.287682
+categoria,earrings,neckwear,39,classico,romantico,0,1,-0.693147
+categoria,earrings,neckwear,39,classico,moderno,1.08333,1.11111,-0.0132452
+categoria,earrings,neckwear,39,esportivo,casual,0.333333,0.203704,0.102279
+categoria,earrings,neckwear,39,esportivo,classico,0,0.0669516,-0.0648056
+categoria,earrings,neckwear,39,esportivo,esportivo,0,0.00854701,-0.00851069
+categoria,earrings,neckwear,39,esportivo,romantico,0,0.025641,-0.0253178
+categoria,earrings,neckwear,39,esportivo,moderno,0,0.02849,-0.0280917
+categoria,earrings,neckwear,39,romantico,casual,2,3.97222,-0.505255
+categoria,earrings,neckwear,39,romantico,classico,3,1.30556,0.550973
+categoria,earrings,neckwear,39,romantico,esportivo,0,0.166667,-0.154151
+categoria,earrings,neckwear,39,romantico,romantico,0.5,0.5,0
+categoria,earrings,neckwear,39,romantico,moderno,1,0.555556,0.251314
+categoria,earrings,neckwear,39,moderno,casual,6.33333,5.7037,0.08977
+categoria,earrings,neckwear,39,moderno,classico,0,1.87464,-1.05593
+categoria,earrings,neckwear,39,moderno,esportivo,1,0.239316,0.478587
+categoria,earrings,neckwear,39,moderno,romantico,1.5,0.717949,0.37516
+categoria,earrings,neckwear,39,moderno,moderno,0.5,0.797721,-0.181055
+categoria,earrings,outerwear,350,casual,casual,19.4167,21.136,-0.0808533
+categoria,earrings,outerwear,350,casual,classico,11,7.80583,0.309492
+categoria,earrings,outerwear,350,casual,esportivo,1,0.96131,0.0195348
+categoria,earrings,outerwear,350,casual,romantico,2.91667,2.69167,0.0591629
+categoria,earrings,outerwear,350,casual,moderno,19.5,21.2385,-0.0814016
+categoria,earrings,outerwear,350,classico,casual,44.5833,42.5992,0.0445041
+categoria,earrings,outerwear,350,classico,classico,18.0833,15.7325,0.131462
+categoria,earrings,outerwear,350,classico,esportivo,0,1.9375,-1.07756
+categoria,earrings,outerwear,350,classico,romantico,6,5.425,0.0857135
+categoria,earrings,outerwear,350,classico,moderno,39.8333,42.8058,-0.0702682
+categoria,earrings,outerwear,350,esportivo,casual,0.166667,0.130873,0.0311608
+categoria,earrings,outerwear,350,esportivo,classico,0,0.0483333,-0.0472016
+categoria,earrings,outerwear,350,esportivo,esportivo,0,0.00595238,-0.00593474
+categoria,earrings,outerwear,350,esportivo,romantico,0,0.0166667,-0.0165293
+categoria,earrings,outerwear,350,esportivo,moderno,0.166667,0.131508,0.0305995
+categoria,earrings,outerwear,350,romantico,casual,28,26.6981,0.0459322
+categoria,earrings,outerwear,350,romantico,classico,6.91667,9.86,-0.316116
+categoria,earrings,outerwear,350,romantico,esportivo,2.66667,1.21429,0.504353
+categoria,earrings,outerwear,350,romantico,romantico,5.41667,3.4,0.377294
+categoria,earrings,outerwear,350,romantico,moderno,25,26.8276,-0.0679325
+categoria,earrings,outerwear,350,moderno,casual,45.25,46.8525,-0.0340627
+categoria,earrings,outerwear,350,moderno,classico,14.75,17.3033,-0.150243
+categoria,earrings,outerwear,350,moderno,esportivo,2.58333,2.13095,0.134956
+categoria,earrings,outerwear,350,moderno,romantico,3.16667,5.96667,-0.514021
+categoria,earrings,outerwear,350,moderno,moderno,53.5833,47.0798,0.126866
+categoria,earrings,pants,357,casual,casual,48.5833,47.5441,0.0211817
+categoria,earrings,pants,357,casual,classico,1.5,2.42484,-0.314763
+categoria,earrings,pants,357,casual,esportivo,0.25,0.433007,-0.136631
+categoria,earrings,pants,357,casual,romantico,1,0.866013,0.0693431
+categoria,earrings,pants,357,casual,moderno,10.5,10.5654,-0.00566734
+categoria,earrings,pants,357,classico,casual,77.4167,78.3004,-0.0112069
+categoria,earrings,pants,357,classico,classico,4.33333,3.99346,0.0658466
+categoria,earrings,pants,357,classico,esportivo,0.5,0.713119,-0.13285
+categoria,earrings,pants,357,classico,romantico,1,1.42624,-0.193194
+categoria,earrings,pants,357,classico,moderno,18.5833,17.4001,0.0623231
+categoria,earrings,pants,357,romantico,casual,58.5,58.437,0.00105981
+categoria,earrings,pants,357,romantico,classico,2.5,2.98039,-0.128617
+categoria,earrings,pants,357,romantico,esportivo,1.5,0.532213,0.489578
+categoria,earrings,pants,357,romantico,romantico,2,1.06443,0.37376
+categoria,earrings,pants,357,romantico,moderno,11.5,12.986,-0.112328
+categoria,earrings,pants,357,moderno,casual,90,90.2185,-0.00239808
+categoria,earrings,pants,357,moderno,classico,5.66667,4.60131,0.17412
+categoria,earrings,pants,357,moderno,esportivo,0.25,0.821662,-0.376606
+categoria,earrings,pants,357,moderno,romantico,1,1.64332,-0.27889
+categoria,earrings,pants,357,moderno,moderno,20.4167,20.0486,0.0173376
+categoria,earrings,rings,126,casual,casual,4.33333,2.08598,0.547108
+categoria,earrings,rings,126,casual,classico,7,5.65476,0.184109
+categoria,earrings,rings,126,casual,romantico,1.83333,1.70899,0.0448763
+categoria,earrings,rings,126,casual,moderno,5.83333,9.55026,-0.434338
+categoria,earrings,rings,126,classico,casual,3.5,4.17196,-0.139174
+categoria,earrings,rings,126,classico,classico,14,11.3095,0.197677
+categoria,earrings,rings,126,classico,romantico,3.75,3.41799,0.0724599
+categoria,earrings,rings,126,classico,moderno,16.75,19.1005,-0.124361
+categoria,earrings,rings,126,romantico,casual,3,2.19577,0.224467
+categoria,earrings,rings,126,romantico,classico,6,5.95238,0.00682597
+categoria,earrings,rings,126,romantico,romantico,3,1.79894,0.357053
+categoria,earrings,rings,126,romantico,moderno,8,10.0529,-0.205469
+categoria,earrings,rings,126,moderno,casual,3,5.37963,-0.466816
+categoria,earrings,rings,126,moderno,classico,10.5,14.5833,-0.303855
+categoria,earrings,rings,126,moderno,romantico,2.75,4.40741,-0.366014
+categoria,earrings,rings,126,moderno,moderno,32.75,24.6296,0.275231
+categoria,earrings,shoes,460,casual,casual,47.25,36.6682,0.24758
+categoria,earrings,shoes,460,casual,classico,3.75,4.68448,-0.179595
+categoria,earrings,shoes,460,casual,esportivo,2.16667,1.64764,0.179009
+categoria,earrings,shoes,460,casual,romantico,7.75,7.52748,0.0257603
+categoria,earrings,shoes,460,casual,moderno,28.25,38.6389,-0.303931
+categoria,earrings,shoes,460,classico,casual,44.25,52.1579,-0.161064
+categoria,earrings,shoes,460,classico,classico,8.33333,6.66335,0.197144
+categoria,earrings,shoes,460,classico,esportivo,2.66667,2.34366,0.0922171
+categoria,earrings,shoes,460,classico,romantico,10.8333,10.7073,0.0107073
+categoria,earrings,shoes,460,classico,moderno,60.75,54.9611,0.098437
+categoria,earrings,shoes,460,romantico,casual,45,39.4097,0.129571
+categoria,earrings,shoes,460,romantico,classico,3.08333,5.03472,-0.390616
+categoria,earrings,shoes,460,romantico,esportivo,1.33333,1.77083,-0.17185
+categoria,earrings,shoes,460,romantico,romantico,13,8.09028,0.431852
+categoria,earrings,shoes,460,romantico,moderno,33.4167,41.5278,-0.211617
+categoria,earrings,shoes,460,moderno,casual,52.6667,60.9309,-0.143226
+categoria,earrings,shoes,460,moderno,classico,9,7.78412,0.12964
+categoria,earrings,shoes,460,moderno,esportivo,2.33333,2.73786,-0.114541
+categoria,earrings,shoes,460,moderno,romantico,7.25,12.5083,-0.493089
+categoria,earrings,shoes,460,moderno,moderno,76.9167,64.2056,0.178095
+categoria,earrings,skirt,194,casual,casual,14.0833,15.3262,-0.0791792
+categoria,earrings,skirt,194,casual,classico,7.16667,5.68099,0.200795
+categoria,earrings,skirt,194,casual,romantico,5.66667,5.68099,-0.00214546
+categoria,earrings,skirt,194,casual,moderno,9.41667,9.64519,-0.021701
+categoria,earrings,skirt,194,classico,casual,22.25,23.4111,-0.0487321
+categoria,earrings,skirt,194,classico,classico,6.5,8.67784,-0.254935
+categoria,earrings,skirt,194,classico,romantico,13,8.67784,0.369219
+categoria,earrings,skirt,194,classico,moderno,13.75,14.7332,-0.0645331
+categoria,earrings,skirt,194,romantico,casual,17,14.4825,0.150659
+categoria,earrings,skirt,194,romantico,classico,5.25,5.36827,-0.0187464
+categoria,earrings,skirt,194,romantico,romantico,5.33333,5.36827,-0.00550121
+categoria,earrings,skirt,194,romantico,moderno,6.75,9.11426,-0.266254
+categoria,earrings,skirt,194,moderno,casual,28.5,28.6135,-0.0038416
+categoria,earrings,skirt,194,moderno,classico,11.4167,10.6062,0.0674965
+categoria,earrings,skirt,194,moderno,romantico,6.33333,10.6062,-0.459113
+categoria,earrings,skirt,194,moderno,moderno,21.5833,18.0073,0.172389
+categoria,earrings,top,789,casual,casual,93.8333,84.8999,0.0989382
+categoria,earrings,top,789,casual,classico,23.5833,24.4046,-0.0328598
+categoria,earrings,top,789,casual,esportivo,2,1.84185,0.0541559
+categoria,earrings,top,789,casual,romantico,13.6667,16.529,-0.178282
+categoria,earrings,top,789,casual,moderno,17.25,22.658,-0.259535
+categoria,earrings,top,789,classico,casual,126,129.515,-0.0272989
+categoria,earrings,top,789,classico,classico,41.1667,37.2291,0.0980324
+categoria,earrings,top,789,classico,esportivo,3.25,2.80975,0.109357
+categoria,earrings,top,789,classico,romantico,24,25.215,-0.0474575
+categoria,earrings,top,789,classico,moderno,34.9167,34.5647,0.00984761
+categoria,earrings,top,789,esportivo,casual,0.333333,0.188248,0.115202
+categoria,earrings,top,789,esportivo,classico,0,0.0541121,-0.0526988
+categoria,earrings,top,789,esportivo,esportivo,0,0.00408393,-0.00407562
+categoria,earrings,top,789,esportivo,romantico,0,0.0366498,-0.0359941
+categoria,earrings,top,789,esportivo,moderno,0,0.0502394,-0.0490181
+categoria,earrings,top,789,romantico,casual,76.75,81.1349,-0.054865
+categoria,earrings,top,789,romantico,classico,20.1667,23.3223,-0.138967
+categoria,earrings,top,789,romantico,esportivo,0.916667,1.76017,-0.364706
+categoria,earrings,top,789,romantico,romantico,19.1667,15.796,0.182887
+categoria,earrings,top,789,romantico,moderno,26.6667,21.6532,0.199928
+categoria,earrings,top,789,moderno,casual,148.667,149.846,-0.00784563
+categoria,earrings,top,789,moderno,classico,43.1667,43.0732,0.00211781
+categoria,earrings,top,789,moderno,esportivo,3.5,3.25081,0.0569679
+categoria,earrings,top,789,moderno,romantico,29.9167,29.1732,0.0243408
+categoria,earrings,top,789,moderno,moderno,40.0833,39.9906,0.00226061
+categoria,earrings,watch,75,casual,casual,3.5,1.45667,0.605272
+categoria,earrings,watch,75,casual,classico,5.5,5.82667,-0.0490343
+categoria,earrings,watch,75,casual,esportivo,0,0.0766667,-0.0738698
+categoria,earrings,watch,75,casual,romantico,0,0.23,-0.207014
+categoria,earrings,watch,75,casual,moderno,2.5,3.91,-0.338511
+categoria,earrings,watch,75,classico,casual,1.5,3.73667,-0.639043
+categoria,earrings,watch,75,classico,classico,16.25,14.9467,0.0785623
+categoria,earrings,watch,75,classico,esportivo,0.5,0.196667,0.225925
+categoria,earrings,watch,75,classico,romantico,0,0.59,-0.463734
+categoria,earrings,watch,75,classico,moderno,11.25,10.03,0.104907
+categoria,earrings,watch,75,romantico,casual,2,1.58333,0.149532
+categoria,earrings,watch,75,romantico,classico,3.5,6.33333,-0.488353
+categoria,earrings,watch,75,romantico,esportivo,0,0.0833333,-0.0800427
+categoria,earrings,watch,75,romantico,romantico,1.5,0.25,0.693147
+categoria,earrings,watch,75,romantico,moderno,5.5,4.25,0.213574
+categoria,earrings,watch,75,moderno,casual,2.5,2.72333,-0.0618564
+categoria,earrings,watch,75,moderno,classico,12.75,10.8933,0.145061
+categoria,earrings,watch,75,moderno,esportivo,0,0.143333,-0.133948
+categoria,earrings,watch,75,moderno,romantico,0,0.43,-0.357674
+categoria,earrings,watch,75,moderno,moderno,6.25,7.31,-0.136458
+categoria,eyewear,hats,302,casual,casual,79.4583,83.8178,-0.0527658
+categoria,eyewear,hats,302,casual,classico,46.1667,41.2403,0.110314
+categoria,eyewear,hats,302,casual,esportivo,1.04167,2.0275,-0.393971
+categoria,eyewear,hats,302,casual,romantico,4.04167,4.18442,-0.027921
+categoria,eyewear,hats,302,casual,moderno,25.625,25.0634,0.0213196
+categoria,eyewear,hats,302,classico,casual,25.75,23.2331,0.098816
+categoria,eyewear,hats,302,classico,classico,7.33333,11.4312,-0.399946
+categoria,eyewear,hats,302,classico,esportivo,1,0.561994,0.247184
+categoria,eyewear,hats,302,classico,romantico,1.58333,1.15986,0.179037
+categoria,eyewear,hats,302,classico,moderno,7.66667,6.9472,0.0866641
+categoria,eyewear,hats,302,esportivo,casual,1,1.0723,-0.0355099
+categoria,eyewear,hats,302,esportivo,classico,0.5,0.527594,-0.0182287
+categoria,eyewear,hats,302,esportivo,esportivo,0,0.0259382,-0.0256075
+categoria,eyewear,hats,302,esportivo,romantico,0,0.053532,-0.0521483
+categoria,eyewear,hats,302,esportivo,moderno,0.5,0.32064,0.127349
+categoria,eyewear,hats,302,romantico,casual,2.75,1.87652,0.265175
+categoria,eyewear,hats,302,romantico,classico,0.5,0.923289,-0.248572
+categoria,eyewear,hats,302,romantico,esportivo,0,0.0453918,-0.0443918
+categoria,eyewear,hats,302,romantico,romantico,0.25,0.093681,0.133594
+categoria,eyewear,hats,302,romantico,moderno,0,0.56112,-0.445404
+categoria,eyewear,hats,302,moderno,casual,52.9583,51.917,0.0194877
+categoria,eyewear,hats,302,moderno,classico,25.1667,25.5443,-0.01433
+categoria,eyewear,hats,302,moderno,esportivo,1.875,1.25584,0.24253
+categoria,eyewear,hats,302,moderno,romantico,2.20833,2.59184,-0.112913
+categoria,eyewear,hats,302,moderno,moderno,14.625,15.5243,-0.0559616
+categoria,eyewear,necklace,279,casual,casual,36.4167,32.7231,0.103933
+categoria,eyewear,necklace,279,casual,classico,39.25,41.3707,-0.0513464
+categoria,eyewear,necklace,279,casual,romantico,24.0833,22.7981,0.0525984
+categoria,eyewear,necklace,279,casual,moderno,64.75,67.6081,-0.0425513
+categoria,eyewear,necklace,279,classico,casual,7.83333,7.26075,0.0670167
+categoria,eyewear,necklace,279,classico,classico,8.25,9.17951,-0.0957533
+categoria,eyewear,necklace,279,classico,romantico,5.58333,5.05854,0.083072
+categoria,eyewear,necklace,279,classico,moderno,14.8333,15.0012,-0.010546
+categoria,eyewear,necklace,279,romantico,casual,0,0.0994624,-0.0948213
+categoria,eyewear,necklace,279,romantico,classico,0.5,0.125747,0.287019
+categoria,eyewear,necklace,279,romantico,romantico,0,0.0692951,-0.0669996
+categoria,eyewear,necklace,279,romantico,moderno,0,0.205496,-0.186891
+categoria,eyewear,necklace,279,moderno,casual,11.25,15.4167,-0.292771
+categoria,eyewear,necklace,279,moderno,classico,22.1667,19.4907,0.122741
+categoria,eyewear,necklace,279,moderno,romantico,9,10.7407,-0.16048
+categoria,eyewear,necklace,279,moderno,moderno,35.0833,31.8519,0.093823
+categoria,eyewear,neckwear,111,casual,casual,36.1667,34.6637,0.04128
+categoria,eyewear,neckwear,111,casual,classico,10.75,11.9429,-0.0966975
+categoria,eyewear,neckwear,111,casual,romantico,7,8.44745,-0.166303
+categoria,eyewear,neckwear,111,casual,moderno,10.75,9.61261,0.10181
+categoria,eyewear,neckwear,111,classico,casual,11.6667,10.8101,0.0700222
+categoria,eyewear,neckwear,111,classico,classico,3.5,3.72447,-0.0486789
+categoria,eyewear,neckwear,111,classico,romantico,4,2.63438,0.318998
+categoria,eyewear,neckwear,111,classico,moderno,1,2.99775,-0.692584
+categoria,eyewear,neckwear,111,esportivo,casual,0,0.268018,-0.237455
+categoria,eyewear,neckwear,111,esportivo,classico,0.5,0.0923423,0.317141
+categoria,eyewear,neckwear,111,esportivo,romantico,0,0.0653153,-0.0632708
+categoria,eyewear,neckwear,111,esportivo,moderno,0,0.0743243,-0.0716919
+categoria,eyewear,neckwear,111,moderno,casual,11.6667,13.7583,-0.152829
+categoria,eyewear,neckwear,111,moderno,classico,5.75,4.74024,0.162041
+categoria,eyewear,neckwear,111,moderno,romantico,3.5,3.35285,0.0332459
+categoria,eyewear,neckwear,111,moderno,moderno,4.75,3.81532,0.177398
+categoria,eyewear,outerwear,908,casual,casual,203.833,202.152,0.00824256
+categoria,eyewear,outerwear,908,casual,classico,83.3333,80.0401,0.0398334
+categoria,eyewear,outerwear,908,casual,esportivo,11.9167,10.7772,0.0923507
+categoria,eyewear,outerwear,908,casual,romantico,21.5833,18.3078,0.156705
+categoria,eyewear,outerwear,908,casual,moderno,170.667,180.056,-0.0532537
+categoria,eyewear,outerwear,908,classico,casual,58.5,63.0868,-0.0742615
+categoria,eyewear,outerwear,908,classico,classico,24.5,24.9786,-0.0185941
+categoria,eyewear,outerwear,908,classico,esportivo,2.66667,3.36331,-0.173949
+categoria,eyewear,outerwear,908,classico,romantico,4.5,5.71341,-0.199359
+categoria,eyewear,outerwear,908,classico,moderno,63.1667,56.1913,0.115083
+categoria,eyewear,outerwear,908,esportivo,casual,0.5,0.411435,0.0608579
+categoria,eyewear,outerwear,908,esportivo,classico,0,0.162904,-0.15092
+categoria,eyewear,outerwear,908,esportivo,esportivo,0,0.0219347,-0.0216976
+categoria,eyewear,outerwear,908,esportivo,romantico,0,0.0372614,-0.036584
+categoria,eyewear,outerwear,908,esportivo,moderno,0.5,0.366465,0.0932382
+categoria,eyewear,outerwear,908,romantico,casual,1.75,1.44002,0.119593
+categoria,eyewear,outerwear,908,romantico,classico,0,0.570163,-0.45118
+categoria,eyewear,outerwear,908,romantico,esportivo,0,0.0767713,-0.073967
+categoria,eyewear,outerwear,908,romantico,romantico,0.25,0.130415,0.100559
+categoria,eyewear,outerwear,908,romantico,moderno,1.5,1.28263,0.0909639
+categoria,eyewear,outerwear,908,moderno,casual,109,106.493,0.0230528
+categoria,eyewear,outerwear,908,moderno,classico,40.0833,42.1649,-0.049426
+categoria,eyewear,outerwear,908,moderno,esportivo,5.33333,5.67742,-0.052905
+categoria,eyewear,outerwear,908,moderno,romantico,7.5,9.64449,-0.224976
+categoria,eyewear,outerwear,908,moderno,moderno,96.9167,94.8533,0.0212979
+categoria,eyewear,pants,1111,casual,casual,439.417,433.018,0.0146342
+categoria,eyewear,pants,1111,casual,classico,22.8333,26.834,-0.155173
+categoria,eyewear,pants,1111,casual,esportivo,4.16667,5.38389,-0.21155
+categoria,eyewear,pants,1111,casual,romantico,10.6667,8.97315,0.15684
+categoria,eyewear,pants,1111,casual,moderno,92.5833,95.4572,-0.030247
+categoria,eyewear,pants,1111,classico,casual,145.5,149.491,-0.0268808
+categoria,eyewear,pants,1111,classico,classico,8,9.26393,-0.131411
+categoria,eyewear,pants,1111,classico,esportivo,2.25,1.85869,0.128293
+categoria,eyewear,pants,1111,classico,romantico,3.5,3.09781,0.0936248
+categoria,eyewear,pants,1111,classico,moderno,37.4167,32.9548,0.123461
+categoria,eyewear,pants,1111,esportivo,casual,1,0.760126,0.127762
+categoria,eyewear,pants,1111,esportivo,classico,0,0.0471047,-0.0460289
+categoria,eyewear,pants,1111,esportivo,esportivo,0,0.00945095,-0.00940656
+categoria,eyewear,pants,1111,esportivo,romantico,0,0.0157516,-0.0156288
+categoria,eyewear,pants,1111,esportivo,moderno,0,0.167567,-0.154922
+categoria,eyewear,pants,1111,romantico,casual,10.3333,9.12151,0.113085
+categoria,eyewear,pants,1111,romantico,classico,0.583333,0.565257,0.0114826
+categoria,eyewear,pants,1111,romantico,esportivo,0,0.113411,-0.107429
+categoria,eyewear,pants,1111,romantico,romantico,0.333333,0.189019,0.114554
+categoria,eyewear,pants,1111,romantico,moderno,0.75,2.0108,-0.54259
+categoria,eyewear,pants,1111,moderno,casual,248.25,252.108,-0.0153617
+categoria,eyewear,pants,1111,moderno,classico,20.9167,15.6231,0.276456
+categoria,eyewear,pants,1111,moderno,esportivo,4.08333,3.13456,0.206585
+categoria,eyewear,pants,1111,moderno,romantico,3,5.22427,-0.442162
+categoria,eyewear,pants,1111,moderno,moderno,55.4167,55.5763,-0.00282568
+categoria,eyewear,rings,149,casual,casual,14.4167,13.2222,0.0806435
+categoria,eyewear,rings,149,casual,classico,25,22.0962,0.118429
+categoria,eyewear,rings,149,casual,romantico,12.6667,8.16406,0.399671
+categoria,eyewear,rings,149,casual,moderno,27.25,35.8509,-0.265785
+categoria,eyewear,rings,149,classico,casual,2.91667,4.05556,-0.255247
+categoria,eyewear,rings,149,classico,classico,8.25,6.7774,0.173401
+categoria,eyewear,rings,149,classico,romantico,0.166667,2.5041,-1.09978
+categoria,eyewear,rings,149,classico,moderno,13,10.9963,0.154461
+categoria,eyewear,rings,149,romantico,casual,1,0.416667,0.34484
+categoria,eyewear,rings,149,romantico,classico,0.5,0.696309,-0.122989
+categoria,eyewear,rings,149,romantico,romantico,0,0.257271,-0.228943
+categoria,eyewear,rings,149,romantico,moderno,1,1.12975,-0.0628593
+categoria,eyewear,rings,149,moderno,casual,6.5,7.13889,-0.0817507
+categoria,eyewear,rings,149,moderno,classico,7.75,11.9301,-0.390503
+categoria,eyewear,rings,149,moderno,romantico,2.5,4.4079,-0.435099
+categoria,eyewear,rings,149,moderno,moderno,26.0833,19.3565,0.285521
+categoria,eyewear,shoes,1132,casual,casual,294.208,301.572,-0.0246394
+categoria,eyewear,shoes,1132,casual,classico,24.0417,27.0565,-0.113681
+categoria,eyewear,shoes,1132,casual,esportivo,16.7083,17.6855,-0.0537131
+categoria,eyewear,shoes,1132,casual,romantico,46.6667,43.4558,0.0697362
+categoria,eyewear,shoes,1132,casual,moderno,242.375,234.23,0.0340411
+categoria,eyewear,shoes,1132,classico,casual,90.375,90.1334,0.00264723
+categoria,eyewear,shoes,1132,classico,classico,4.20833,8.08661,-0.556542
+categoria,eyewear,shoes,1132,classico,esportivo,6.95833,5.28581,0.235924
+categoria,eyewear,shoes,1132,classico,romantico,12.1667,12.988,-0.0605115
+categoria,eyewear,shoes,1132,classico,moderno,72.7917,70.0061,0.0384794
+categoria,eyewear,shoes,1132,esportivo,casual,1.5,2.65809,-0.380651
+categoria,eyewear,shoes,1132,esportivo,classico,1,0.238479,0.479263
+categoria,eyewear,shoes,1132,esportivo,esportivo,0,0.155882,-0.144864
+categoria,eyewear,shoes,1132,esportivo,romantico,0.5,0.383024,0.0811926
+categoria,eyewear,shoes,1132,esportivo,moderno,2.5,2.06452,0.132871
+categoria,eyewear,shoes,1132,romantico,casual,7.16667,6.04111,0.148294
+categoria,eyewear,shoes,1132,romantico,classico,0,0.541998,-0.433079
+categoria,eyewear,shoes,1132,romantico,esportivo,0.916667,0.354277,0.34732
+categoria,eyewear,shoes,1132,romantico,romantico,0,0.870509,-0.626211
+categoria,eyewear,shoes,1132,romantico,moderno,4.41667,4.6921,-0.0495988
+categoria,eyewear,shoes,1132,moderno,casual,153.833,146.678,0.0473133
+categoria,eyewear,shoes,1132,moderno,classico,19.8333,13.1597,0.386154
+categoria,eyewear,shoes,1132,moderno,esportivo,7.5,8.60185,-0.121889
+categoria,eyewear,shoes,1132,moderno,romantico,19.5,21.136,-0.0767789
+categoria,eyewear,shoes,1132,moderno,moderno,102.833,113.924,-0.101486
+categoria,eyewear,skirt,384,casual,casual,98.4167,96.0266,0.0243344
+categoria,eyewear,skirt,384,casual,classico,30.9167,31.3171,-0.0124691
+categoria,eyewear,skirt,384,casual,romantico,30.4167,28.5816,0.0601861
+categoria,eyewear,skirt,384,casual,moderno,57.5833,61.408,-0.063243
+categoria,eyewear,skirt,384,classico,casual,18.8333,18.7046,0.00651335
+categoria,eyewear,skirt,384,classico,classico,3.91667,6.10012,-0.36748
+categoria,eyewear,skirt,384,classico,romantico,7.33333,5.56727,0.238165
+categoria,eyewear,skirt,384,classico,moderno,12.25,11.9614,0.022024
+categoria,eyewear,skirt,384,esportivo,casual,3.25,1.54644,0.512222
+categoria,eyewear,skirt,384,esportivo,classico,0.25,0.50434,-0.185211
+categoria,eyewear,skirt,384,esportivo,romantico,0,0.460286,-0.378633
+categoria,eyewear,skirt,384,esportivo,moderno,0,0.988932,-0.687598
+categoria,eyewear,skirt,384,romantico,casual,3.25,2.43012,0.214323
+categoria,eyewear,skirt,384,romantico,classico,0,0.792535,-0.583631
+categoria,eyewear,skirt,384,romantico,romantico,1.25,0.723307,0.266685
+categoria,eyewear,skirt,384,romantico,moderno,1,1.55404,-0.244528
+categoria,eyewear,skirt,384,moderno,casual,45.9167,50.9589,-0.10208
+categoria,eyewear,skirt,384,moderno,classico,20.25,16.6192,0.187367
+categoria,eyewear,skirt,384,moderno,romantico,11.5,15.1675,-0.257277
+categoria,eyewear,skirt,384,moderno,moderno,37.6667,32.5877,0.140819
+categoria,eyewear,top,2180,casual,casual,681.069,675.161,0.00870023
+categoria,eyewear,top,2180,casual,classico,197.736,201.483,-0.0186769
+categoria,eyewear,top,2180,casual,esportivo,11.6528,11.8882,-0.0184345
+categoria,eyewear,top,2180,casual,romantico,107.5,102.503,0.0471534
+categoria,eyewear,top,2180,casual,moderno,153.875,160.799,-0.0437349
+categoria,eyewear,top,2180,classico,casual,232.319,223.816,0.0371252
+categoria,eyewear,top,2180,classico,classico,68.4028,66.7916,0.023488
+categoria,eyewear,top,2180,classico,esportivo,3.48611,3.94094,-0.0965695
+categoria,eyewear,top,2180,classico,romantico,25.9167,33.9797,-0.262021
+categoria,eyewear,top,2180,classico,moderno,51.7083,53.3049,-0.0298403
+categoria,eyewear,top,2180,esportivo,casual,3.08333,4.10313,-0.222941
+categoria,eyewear,top,2180,esportivo,classico,0.333333,1.22446,-0.511834
+categoria,eyewear,top,2180,esportivo,esportivo,0,0.0722477,-0.0697571
+categoria,eyewear,top,2180,esportivo,romantico,2.33333,0.622936,0.719736
+categoria,eyewear,top,2180,esportivo,moderno,1.25,0.977217,0.12924
+categoria,eyewear,top,2180,romantico,casual,18.25,16.4125,0.100321
+categoria,eyewear,top,2180,romantico,classico,3.5,4.89786,-0.270512
+categoria,eyewear,top,2180,romantico,esportivo,0,0.288991,-0.25386
+categoria,eyewear,top,2180,romantico,romantico,3.25,2.49174,0.196518
+categoria,eyewear,top,2180,romantico,moderno,3,3.90887,-0.204749
+categoria,eyewear,top,2180,moderno,casual,343.111,358.34,-0.0433056
+categoria,eyewear,top,2180,moderno,classico,111.361,106.937,0.0401739
+categoria,eyewear,top,2180,moderno,esportivo,7.36111,6.30963,0.134398
+categoria,eyewear,top,2180,moderno,romantico,55,54.4031,0.0107169
+categoria,eyewear,top,2180,moderno,moderno,94.5,85.3436,0.100791
+categoria,eyewear,watch,192,casual,casual,14,10.8815,0.233067
+categoria,eyewear,watch,192,casual,classico,40,42.3346,-0.0553801
+categoria,eyewear,watch,192,casual,esportivo,0,0.238281,-0.213724
+categoria,eyewear,watch,192,casual,romantico,3,2.38281,0.167587
+categoria,eyewear,watch,192,casual,moderno,34.5,35.6628,-0.0322288
+categoria,eyewear,watch,192,classico,casual,2.75,4.69748,-0.418269
+categoria,eyewear,watch,192,classico,classico,22.5,18.2756,0.19816
+categoria,eyewear,watch,192,classico,esportivo,0,0.102865,-0.097911
+categoria,eyewear,watch,192,classico,romantico,0,1.02865,-0.707368
+categoria,eyewear,watch,192,classico,moderno,14.25,15.3954,-0.0724213
+categoria,eyewear,watch,192,esportivo,casual,0,0.0594618,-0.057761
+categoria,eyewear,watch,192,esportivo,classico,0,0.231337,-0.2081
+categoria,eyewear,watch,192,esportivo,esportivo,0,0.00130208,-0.00130124
+categoria,eyewear,watch,192,esportivo,romantico,0,0.0130208,-0.0129368
+categoria,eyewear,watch,192,esportivo,moderno,0.5,0.194878,0.227421
+categoria,eyewear,watch,192,romantico,casual,1,0.535156,0.264515
+categoria,eyewear,watch,192,romantico,classico,1.75,2.08203,-0.113988
+categoria,eyewear,watch,192,romantico,esportivo,0,0.0117188,-0.0116506
+categoria,eyewear,watch,192,romantico,romantico,0,0.117188,-0.110814
+categoria,eyewear,watch,192,romantico,moderno,1.75,1.75391,-0.00141945
+categoria,eyewear,watch,192,moderno,casual,5.08333,6.65972,-0.230423
+categoria,eyewear,watch,192,moderno,classico,24.5833,25.9097,-0.0505465
+categoria,eyewear,watch,192,moderno,esportivo,0.5,0.145833,0.269333
+categoria,eyewear,watch,192,moderno,romantico,2,1.45833,0.199129
+categoria,eyewear,watch,192,moderno,moderno,23.8333,21.8264,0.0842696
+categoria,gloves,shoes,42,casual,casual,2.5,2.77778,-0.076373
+categoria,gloves,shoes,42,casual,classico,0.5,0.555556,-0.0363676
+categoria,gloves,shoes,42,casual,esportivo,0.25,0.111111,0.117783
+categoria,gloves,shoes,42,casual,romantico,1,0.777778,0.117783
+categoria,gloves,shoes,42,casual,moderno,5.08333,5.11111,-0.00455582
+categoria,gloves,shoes,42,classico,casual,3,2.48016,0.139216
+categoria,gloves,shoes,42,classico,classico,0,0.496032,-0.402816
+categoria,gloves,shoes,42,classico,esportivo,0,0.0992063,-0.0945884
+categoria,gloves,shoes,42,classico,romantico,1,0.694444,0.165792
+categoria,gloves,shoes,42,classico,moderno,4.33333,4.56349,-0.0422495
+categoria,gloves,shoes,42,romantico,casual,0,0.0992063,-0.0945884
+categoria,gloves,shoes,42,romantico,classico,0,0.0198413,-0.019647
+categoria,gloves,shoes,42,romantico,esportivo,0,0.00396825,-0.0039604
+categoria,gloves,shoes,42,romantico,romantico,0,0.0277778,-0.027399
+categoria,gloves,shoes,42,romantico,moderno,0.333333,0.18254,0.120018
+categoria,gloves,shoes,42,moderno,casual,7,7.14286,-0.0176996
+categoria,gloves,shoes,42,moderno,classico,2,1.42857,0.211309
+categoria,gloves,shoes,42,moderno,esportivo,0.25,0.285714,-0.0281709
+categoria,gloves,shoes,42,moderno,romantico,1.5,2,-0.182322
+categoria,gloves,shoes,42,moderno,moderno,13.25,13.1429,0.00754721
+categoria,gloves,top,74,casual,casual,7.41667,7.01014,0.0495062
+categoria,gloves,top,74,casual,classico,1.66667,1.60473,0.0235003
+categoria,gloves,top,74,casual,esportivo,0.166667,0.0563063,0.0993725
+categoria,gloves,top,74,casual,romantico,0.75,1.09797,-0.181356
+categoria,gloves,top,74,casual,moderno,2.5,2.73086,-0.0638747
+categoria,gloves,top,74,classico,casual,8.83333,10.0946,-0.12068
+categoria,gloves,top,74,classico,classico,3.33333,2.31081,0.269144
+categoria,gloves,top,74,classico,esportivo,0,0.0810811,-0.0779615
+categoria,gloves,top,74,classico,romantico,2,1.58108,0.150404
+categoria,gloves,top,74,classico,moderno,3.83333,3.93243,-0.0202959
+categoria,gloves,top,74,romantico,casual,1.5,1.12162,0.16411
+categoria,gloves,top,74,romantico,classico,0,0.256757,-0.228534
+categoria,gloves,top,74,romantico,esportivo,0,0.00900901,-0.00896867
+categoria,gloves,top,74,romantico,romantico,0,0.175676,-0.161843
+categoria,gloves,top,74,romantico,moderno,0.5,0.436937,0.0429514
+categoria,gloves,top,74,moderno,casual,23.75,23.2736,0.0194341
+categoria,gloves,top,74,moderno,classico,4.5,5.3277,-0.140189
+categoria,gloves,top,74,moderno,esportivo,0.166667,0.186937,-0.0172253
+categoria,gloves,top,74,moderno,romantico,3.75,3.64527,0.0222951
+categoria,gloves,top,74,moderno,moderno,9.33333,9.06644,0.0261677
+categoria,hairwear,shoes,69,casual,casual,11.0833,11.3611,-0.0227283
+categoria,hairwear,shoes,69,casual,classico,2.08333,1.52778,0.198671
+categoria,hairwear,shoes,69,casual,esportivo,1,0.416667,0.34484
+categoria,hairwear,shoes,69,casual,romantico,1.83333,2.77778,-0.287682
+categoria,hairwear,shoes,69,casual,moderno,7,6.91667,0.0104713
+categoria,hairwear,shoes,69,classico,casual,8.25,7.40942,0.095271
+categoria,hairwear,shoes,69,classico,classico,0,0.996377,-0.691334
+categoria,hairwear,shoes,69,classico,esportivo,0,0.271739,-0.240385
+categoria,hairwear,shoes,69,classico,romantico,2.5,1.81159,0.219011
+categoria,hairwear,shoes,69,classico,moderno,4.25,4.51087,-0.0484943
+categoria,hairwear,shoes,69,romantico,casual,11.25,11.1141,0.0111534
+categoria,hairwear,shoes,69,romantico,classico,1,1.49457,-0.220967
+categoria,hairwear,shoes,69,romantico,esportivo,0.25,0.407609,-0.118749
+categoria,hairwear,shoes,69,romantico,romantico,3.5,2.71739,0.191055
+categoria,hairwear,shoes,69,romantico,moderno,6.5,6.7663,-0.0348914
+categoria,hairwear,shoes,69,moderno,casual,3.5,4.19867,-0.144326
+categoria,hairwear,shoes,69,moderno,classico,1.5,0.564614,0.468652
+categoria,hairwear,shoes,69,moderno,esportivo,0,0.153986,-0.143222
+categoria,hairwear,shoes,69,moderno,romantico,0.5,1.02657,-0.30088
+categoria,hairwear,shoes,69,moderno,moderno,3,2.55616,0.117613
+categoria,hairwear,top,129,casual,casual,26.0833,27.7326,-0.0591124
+categoria,hairwear,top,129,casual,classico,6.5,8.35401,-0.220902
+categoria,hairwear,top,129,casual,esportivo,0,0.75323,-0.56146
+categoria,hairwear,top,129,casual,romantico,9.58333,7.94315,0.168392
+categoria,hairwear,top,129,casual,moderno,10.8333,8.21705,0.249865
+categoria,hairwear,top,129,classico,casual,9.33333,11.5116,-0.191284
+categoria,hairwear,top,129,classico,classico,6,3.4677,0.449036
+categoria,hairwear,top,129,classico,esportivo,0.833333,0.312661,0.334079
+categoria,hairwear,top,129,classico,romantico,2.5,3.29716,-0.205191
+categoria,hairwear,top,129,classico,moderno,3.33333,3.41085,-0.017731
+categoria,hairwear,top,129,esportivo,casual,0.5,0.261628,0.173062
+categoria,hairwear,top,129,esportivo,classico,0,0.0788114,-0.0758599
+categoria,hairwear,top,129,esportivo,esportivo,0,0.00710594,-0.00708081
+categoria,hairwear,top,129,esportivo,romantico,0,0.0749354,-0.0722606
+categoria,hairwear,top,129,esportivo,moderno,0,0.0775194,-0.0746615
+categoria,hairwear,top,129,romantico,casual,20,17.7907,0.11116
+categoria,hairwear,top,129,romantico,classico,5,5.35917,-0.0581389
+categoria,hairwear,top,129,romantico,esportivo,1,0.483204,0.298942
+categoria,hairwear,top,129,romantico,romantico,3.75,5.09561,-0.249424
+categoria,hairwear,top,129,romantico,moderno,4.25,5.27132,-0.177758
+categoria,hairwear,top,129,moderno,casual,11.5833,10.2035,0.116148
+categoria,hairwear,top,129,moderno,classico,2.83333,3.07364,-0.060803
+categoria,hairwear,top,129,moderno,esportivo,0,0.277132,-0.244617
+categoria,hairwear,top,129,moderno,romantico,3.5,2.92248,0.137353
+categoria,hairwear,top,129,moderno,moderno,1.58333,3.02326,-0.443011
+categoria,hats,necklace,123,casual,casual,13.3333,12.8117,0.0370752
+categoria,hats,necklace,123,casual,classico,21.3333,21.7378,-0.0179486
+categoria,hats,necklace,123,casual,romantico,8.33333,8.08604,0.0268527
+categoria,hats,necklace,123,casual,moderno,34.5,34.8645,-0.0102152
+categoria,hats,necklace,123,classico,casual,3.5,2.72764,0.188301
+categoria,hats,necklace,123,classico,classico,3.33333,4.62805,-0.261426
+categoria,hats,necklace,123,classico,romantico,2.25,1.72154,0.177455
+categoria,hats,necklace,123,classico,moderno,7.41667,7.42276,-0.0007242
+categoria,hats,necklace,123,esportivo,casual,0,0.0551039,-0.0536392
+categoria,hats,necklace,123,esportivo,classico,0,0.0934959,-0.0893798
+categoria,hats,necklace,123,esportivo,romantico,0,0.0347787,-0.0341876
+categoria,hats,necklace,123,esportivo,moderno,0.333333,0.149955,0.147959
+categoria,hats,necklace,123,romantico,casual,1.25,0.826558,0.208497
+categoria,hats,necklace,123,romantico,classico,1,1.40244,-0.183337
+categoria,hats,necklace,123,romantico,romantico,0.75,0.52168,0.139801
+categoria,hats,necklace,123,romantico,moderno,2,2.24932,-0.0798342
+categoria,hats,necklace,123,moderno,casual,2.25,3.91238,-0.413103
+categoria,hats,necklace,123,moderno,classico,8.83333,6.63821,0.252615
+categoria,hats,necklace,123,moderno,romantico,1.5,2.46929,-0.327658
+categoria,hats,necklace,123,moderno,moderno,11.0833,10.6468,0.0367962
+categoria,hats,outerwear,413,casual,casual,121.5,110.998,0.0896305
+categoria,hats,outerwear,413,casual,classico,33.0833,30.537,0.0776473
+categoria,hats,outerwear,413,casual,esportivo,6,5.72569,0.0399762
+categoria,hats,outerwear,413,casual,romantico,6,7.23245,-0.162173
+categoria,hats,outerwear,413,casual,moderno,82.3333,94.4236,-0.135477
+categoria,hats,outerwear,413,classico,casual,26,30.2485,-0.146135
+categoria,hats,outerwear,413,classico,classico,7.16667,8.32176,-0.132291
+categoria,hats,outerwear,413,classico,esportivo,0.25,1.56033,-0.716993
+categoria,hats,outerwear,413,classico,romantico,4.25,1.97094,0.569348
+categoria,hats,outerwear,413,classico,moderno,30.1667,25.7318,0.153496
+categoria,hats,outerwear,413,esportivo,casual,3.91667,3.53023,0.0818575
+categoria,hats,outerwear,413,esportivo,classico,0.583333,0.971213,-0.219117
+categoria,hats,outerwear,413,esportivo,esportivo,0.5,0.182103,0.23817
+categoria,hats,outerwear,413,esportivo,romantico,0,0.230024,-0.207034
+categoria,hats,outerwear,413,esportivo,moderno,2.91667,3.00309,-0.0218266
+categoria,hats,outerwear,413,romantico,casual,6.25,5.53689,0.10354
+categoria,hats,outerwear,413,romantico,classico,1.16667,1.52327,-0.152366
+categoria,hats,outerwear,413,romantico,esportivo,0.25,0.285613,-0.0280924
+categoria,hats,outerwear,413,romantico,romantico,0.5,0.360775,0.0974109
+categoria,hats,outerwear,413,romantico,moderno,4.25,4.71012,-0.0840112
+categoria,hats,outerwear,413,moderno,casual,26.5,33.8531,-0.236955
+categoria,hats,outerwear,413,moderno,classico,8.66667,9.31342,-0.0647629
+categoria,hats,outerwear,413,moderno,esportivo,2.5,1.74627,0.24252
+categoria,hats,outerwear,413,moderno,romantico,1.25,2.20581,-0.354035
+categoria,hats,outerwear,413,moderno,moderno,37,28.7981,0.243142
+categoria,hats,pants,480,casual,casual,214.75,218.48,-0.0171417
+categoria,hats,pants,480,casual,classico,16.8333,15.7354,0.0635421
+categoria,hats,pants,480,casual,esportivo,5.58333,5.44688,0.0209457
+categoria,hats,pants,480,casual,romantico,5.91667,4.13559,0.297739
+categoria,hats,pants,480,casual,moderno,47.4167,46.7019,0.0148727
+categoria,hats,pants,480,classico,casual,62.75,60.6681,0.0332031
+categoria,hats,pants,480,classico,classico,2.83333,4.36944,-0.33699
+categoria,hats,pants,480,classico,esportivo,1.66667,1.5125,0.059551
+categoria,hats,pants,480,classico,romantico,0.416667,1.14838,-0.416407
+categoria,hats,pants,480,classico,moderno,13,12.9683,0.00226778
+categoria,hats,pants,480,esportivo,casual,7.91667,8.02222,-0.0117685
+categoria,hats,pants,480,esportivo,classico,0.5,0.577778,-0.0505523
+categoria,hats,pants,480,esportivo,esportivo,0.25,0.2,0.040822
+categoria,hats,pants,480,esportivo,romantico,0,0.151852,-0.141371
+categoria,hats,pants,480,esportivo,moderno,2,1.71481,0.0998885
+categoria,hats,pants,480,romantico,casual,13.8333,12.6601,0.0824
+categoria,hats,pants,480,romantico,classico,0.75,0.911806,-0.0884323
+categoria,hats,pants,480,romantico,esportivo,0.5,0.315625,0.131153
+categoria,hats,pants,480,romantico,romantico,0,0.239641,-0.214822
+categoria,hats,pants,480,romantico,moderno,1.75,2.70619,-0.298404
+categoria,hats,pants,480,moderno,casual,61.75,61.1694,0.00929495
+categoria,hats,pants,480,moderno,classico,5.08333,4.40556,0.118126
+categoria,hats,pants,480,moderno,esportivo,1,1.525,-0.233094
+categoria,hats,pants,480,moderno,romantico,0.5,1.15787,-0.363657
+categoria,hats,pants,480,moderno,moderno,13,13.0755,-0.00537574
+categoria,hats,rings,54,casual,casual,4,3.27778,0.156004
+categoria,hats,rings,54,casual,classico,6,7.10185,-0.146183
+categoria,hats,rings,54,casual,romantico,0,1.09259,-0.738404
+categoria,hats,rings,54,casual,moderno,19.5,18.0278,0.074525
+categoria,hats,rings,54,classico,casual,0,1.25926,-0.815037
+categoria,hats,rings,54,classico,classico,2.83333,2.7284,0.0277569
+categoria,hats,rings,54,classico,romantico,2,0.419753,0.748129
+categoria,hats,rings,54,classico,moderno,6.5,6.92593,-0.0552361
+categoria,hats,rings,54,esportivo,casual,0,0.240741,-0.215709
+categoria,hats,rings,54,esportivo,classico,1.16667,0.521605,0.353424
+categoria,hats,rings,54,esportivo,romantico,0,0.0802469,-0.0771896
+categoria,hats,rings,54,esportivo,moderno,1,1.32407,-0.150175
+categoria,hats,rings,54,romantico,casual,0,0.222222,-0.200671
+categoria,hats,rings,54,romantico,classico,0.5,0.481481,0.0124225
+categoria,hats,rings,54,romantico,romantico,0,0.0740741,-0.071459
+categoria,hats,rings,54,romantico,moderno,1.5,1.22222,0.117783
+categoria,hats,rings,54,moderno,casual,2,1,0.405465
+categoria,hats,rings,54,moderno,classico,2.5,2.16667,0.100083
+categoria,hats,rings,54,moderno,romantico,0,0.333333,-0.287682
+categoria,hats,rings,54,moderno,moderno,4.5,5.5,-0.167054
+categoria,hats,shoes,586,casual,casual,161.889,161.719,0.00104469
+categoria,hats,shoes,586,casual,classico,20.5,20.967,-0.0214898
+categoria,hats,shoes,586,casual,esportivo,14.2222,12.9751,0.0854782
+categoria,hats,shoes,586,casual,romantico,16.8333,18.8985,-0.109577
+categoria,hats,shoes,586,casual,moderno,117.139,116.024,0.00948325
+categoria,hats,shoes,586,classico,casual,61.8056,50.876,0.191187
+categoria,hats,shoes,586,classico,classico,6.75,6.59613,0.0200537
+categoria,hats,shoes,586,classico,esportivo,1.30556,4.08191,-0.790366
+categoria,hats,shoes,586,classico,romantico,6.75,5.94539,0.109614
+categoria,hats,shoes,586,classico,moderno,27.3889,36.5006,-0.278358
+categoria,hats,shoes,586,esportivo,casual,7.72222,6.97099,0.0900654
+categoria,hats,shoes,586,esportivo,classico,1.25,0.903797,0.16708
+categoria,hats,shoes,586,esportivo,esportivo,1.38889,0.5593,0.426591
+categoria,hats,shoes,586,esportivo,romantico,0.5,0.814633,-0.190418
+categoria,hats,shoes,586,esportivo,moderno,3.38889,5.00128,-0.312897
+categoria,hats,shoes,586,romantico,casual,13.6667,13.4936,0.0118734
+categoria,hats,shoes,586,romantico,classico,1.25,1.74945,-0.200472
+categoria,hats,shoes,586,romantico,esportivo,1.83333,1.08262,0.307826
+categoria,hats,shoes,586,romantico,romantico,2.25,1.57686,0.232082
+categoria,hats,shoes,586,romantico,moderno,8.58333,9.68084,-0.108426
+categoria,hats,shoes,586,moderno,casual,41.5833,53.6073,-0.248705
+categoria,hats,shoes,586,moderno,classico,7.41667,6.95025,0.0570103
+categoria,hats,shoes,586,moderno,esportivo,4.25,4.30105,-0.00967728
+categoria,hats,shoes,586,moderno,romantico,7.16667,6.26458,0.117051
+categoria,hats,shoes,586,moderno,moderno,49.1667,38.4601,0.24006
+categoria,hats,skirt,152,casual,casual,36,32.2577,0.106632
+categoria,hats,skirt,152,casual,classico,12,12.727,-0.0544134
+categoria,hats,skirt,152,casual,esportivo,0.166667,0.240132,-0.0610668
+categoria,hats,skirt,152,casual,romantico,9.83333,8.56469,0.124549
+categoria,hats,skirt,152,casual,moderno,15,19.2105,-0.233615
+categoria,hats,skirt,152,classico,casual,16.1667,15.3187,0.050657
+categoria,hats,skirt,152,classico,classico,5,6.04386,-0.160397
+categoria,hats,skirt,152,classico,esportivo,0,0.114035,-0.107989
+categoria,hats,skirt,152,classico,romantico,4.25,4.06725,0.0354295
+categoria,hats,skirt,152,classico,moderno,9.25,9.12281,0.0124867
+categoria,hats,skirt,152,esportivo,casual,0.166667,0.147295,0.0167434
+categoria,hats,skirt,152,esportivo,classico,0,0.058114,-0.0564881
+categoria,hats,skirt,152,esportivo,esportivo,0.166667,0.00109649,0.153055
+categoria,hats,skirt,152,esportivo,romantico,0,0.0391082,-0.0383628
+categoria,hats,skirt,152,esportivo,moderno,0,0.0877193,-0.0840831
+categoria,hats,skirt,152,romantico,casual,5.08333,6.11276,-0.156337
+categoria,hats,skirt,152,romantico,classico,3.25,2.41173,0.219699
+categoria,hats,skirt,152,romantico,esportivo,0,0.0455044,-0.0444994
+categoria,hats,skirt,152,romantico,romantico,1.5,1.62299,-0.0480241
+categoria,hats,skirt,152,romantico,moderno,4,3.64035,0.0746479
+categoria,hats,skirt,152,moderno,casual,9.75,13.3302,-0.287465
+categoria,hats,skirt,152,moderno,classico,6.25,5.25932,0.14693
+categoria,hats,skirt,152,moderno,esportivo,0.166667,0.0992325,0.0595385
+categoria,hats,skirt,152,moderno,romantico,2.25,3.53929,-0.334116
+categoria,hats,skirt,152,moderno,moderno,11.75,7.9386,0.355153
+categoria,hats,top,990,casual,casual,367.792,362.369,0.0148139
+categoria,hats,top,990,casual,classico,95.2222,100.273,-0.0511624
+categoria,hats,top,990,casual,esportivo,7.26389,8.05264,-0.0911609
+categoria,hats,top,990,casual,romantico,35.3333,39.9042,-0.118496
+categoria,hats,top,990,casual,moderno,103.722,98.7346,0.048799
+categoria,hats,top,990,classico,casual,83.3472,91.9302,-0.0969072
+categoria,hats,top,990,classico,classico,34.5972,25.4386,0.297443
+categoria,hats,top,990,classico,esportivo,1.94444,2.04289,-0.032889
+categoria,hats,top,990,classico,romantico,14.0833,10.1234,0.304541
+categoria,hats,top,990,classico,moderno,20.6111,25.0482,-0.186742
+categoria,hats,top,990,esportivo,casual,15.9722,12.786,0.207926
+categoria,hats,top,990,esportivo,classico,2.15278,3.53809,-0.364222
+categoria,hats,top,990,esportivo,esportivo,0.888889,0.284133,0.385905
+categoria,hats,top,990,esportivo,romantico,0.5,1.408,-0.47333
+categoria,hats,top,990,esportivo,moderno,1.98611,3.4838,-0.406498
+categoria,hats,top,990,romantico,casual,24.125,23.441,0.0276025
+categoria,hats,top,990,romantico,classico,6.16667,6.4865,-0.0436603
+categoria,hats,top,990,romantico,esportivo,0,0.52091,-0.419309
+categoria,hats,top,990,romantico,romantico,3,2.58133,0.110561
+categoria,hats,top,990,romantico,moderno,6.125,6.38696,-0.0361065
+categoria,hats,top,990,moderno,casual,97.5139,98.2241,-0.00718355
+categoria,hats,top,990,moderno,classico,24.7778,27.1802,-0.089107
+categoria,hats,top,990,moderno,esportivo,2.98611,2.18276,0.225068
+categoria,hats,top,990,moderno,romantico,11.9167,10.8165,0.0890241
+categoria,hats,top,990,moderno,moderno,27.9722,26.7631,0.0426291
+categoria,hats,watch,67,casual,casual,8,7.89801,0.0113969
+categoria,hats,watch,67,casual,classico,18,16.1119,0.104662
+categoria,hats,watch,67,casual,esportivo,0,0.31592,-0.274536
+categoria,hats,watch,67,casual,romantico,0.75,0.631841,0.0699071
+categoria,hats,watch,67,casual,moderno,15.5833,17.3756,-0.102627
+categoria,hats,watch,67,classico,casual,2,1.58582,0.148569
+categoria,hats,watch,67,classico,classico,2,3.23507,-0.344789
+categoria,hats,watch,67,classico,esportivo,0.5,0.0634328,0.343963
+categoria,hats,watch,67,classico,romantico,0,0.126866,-0.11944
+categoria,hats,watch,67,classico,moderno,4,3.48881,0.107851
+categoria,hats,watch,67,esportivo,casual,1.75,0.621891,0.528008
+categoria,hats,watch,67,esportivo,classico,1,1.26866,-0.126041
+categoria,hats,watch,67,esportivo,esportivo,0,0.0248756,-0.0245713
+categoria,hats,watch,67,esportivo,romantico,0,0.0497512,-0.0485532
+categoria,hats,watch,67,esportivo,moderno,0.583333,1.36816,-0.402581
+categoria,hats,watch,67,romantico,casual,0.25,0.373134,-0.0939524
+categoria,hats,watch,67,romantico,classico,0.75,0.761194,-0.00637622
+categoria,hats,watch,67,romantico,esportivo,0,0.0149254,-0.0148151
+categoria,hats,watch,67,romantico,romantico,0,0.0298507,-0.0294139
+categoria,hats,watch,67,romantico,moderno,1,0.820896,0.0938188
+categoria,hats,watch,67,moderno,casual,0.5,2.02114,-0.700171
+categoria,hats,watch,67,moderno,classico,3.75,4.12313,-0.0756218
+categoria,hats,watch,67,moderno,esportivo,0,0.0808458,-0.0777439
+categoria,hats,watch,67,moderno,romantico,0.25,0.161692,0.0732664
+categoria,hats,watch,67,moderno,moderno,6.33333,4.44652,0.297454
+categoria,necklace,outerwear,517,casual,casual,44.6944,42.986,0.0381059
+categoria,necklace,outerwear,517,casual,classico,15.8611,16.7569,-0.0517661
+categoria,necklace,outerwear,517,casual,esportivo,2.08333,2.20583,-0.0389613
+categoria,necklace,outerwear,517,casual,romantico,6.33333,4.9863,0.202957
+categoria,necklace,outerwear,517,casual,moderno,46.0278,48.065,-0.0424067
+categoria,necklace,outerwear,517,classico,casual,42.1111,45.7271,-0.0805438
+categoria,necklace,outerwear,517,classico,classico,24.1944,17.8255,0.291412
+categoria,necklace,outerwear,517,classico,esportivo,1.75,2.3465,-0.196313
+categoria,necklace,outerwear,517,classico,romantico,5.83333,5.30427,0.080586
+categoria,necklace,outerwear,517,classico,moderno,48.4444,51.13,-0.0528903
+categoria,necklace,outerwear,517,esportivo,casual,0.25,0.186896,0.0518024
+categoria,necklace,outerwear,517,esportivo,classico,0.25,0.0728562,0.152819
+categoria,necklace,outerwear,517,esportivo,esportivo,0,0.00959059,-0.00954489
+categoria,necklace,outerwear,517,esportivo,romantico,0,0.0216796,-0.0214479
+categoria,necklace,outerwear,517,esportivo,moderno,0,0.208978,-0.189775
+categoria,necklace,outerwear,517,romantico,casual,25.6111,22.4275,0.12742
+categoria,necklace,outerwear,517,romantico,classico,8.44444,8.74275,-0.0310964
+categoria,necklace,outerwear,517,romantico,esportivo,1.25,1.15087,0.0450576
+categoria,necklace,outerwear,517,romantico,romantico,2.75,2.60155,0.0403923
+categoria,necklace,outerwear,517,romantico,moderno,21.9444,25.0774,-0.127992
+categoria,necklace,outerwear,517,moderno,casual,80.5833,81.9225,-0.016282
+categoria,necklace,outerwear,517,moderno,classico,26.5833,31.9353,-0.177334
+categoria,necklace,outerwear,517,moderno,esportivo,4.83333,4.20387,0.114185
+categoria,necklace,outerwear,517,moderno,romantico,7.5,9.50287,-0.211583
+categoria,necklace,outerwear,517,moderno,moderno,99.6667,91.6021,0.0835034
+categoria,necklace,pants,487,casual,casual,76.25,77.5301,-0.0164353
+categoria,necklace,pants,487,casual,classico,6.33333,4.94285,0.210242
+categoria,necklace,pants,487,casual,esportivo,0.166667,0.933265,-0.50506
+categoria,necklace,pants,487,casual,romantico,1.5,1.55544,-0.0219343
+categoria,necklace,pants,487,casual,moderno,16.75,16.0383,0.04092
+categoria,necklace,pants,487,classico,casual,77.5,80.7286,-0.0403048
+categoria,necklace,pants,487,classico,classico,5.75,5.14676,0.0936174
+categoria,necklace,pants,487,classico,esportivo,0.833333,0.971766,-0.0727937
+categoria,necklace,pants,487,classico,romantico,0.5,1.61961,-0.55756
+categoria,necklace,pants,487,classico,moderno,20.5833,16.7,0.198358
+categoria,necklace,pants,487,esportivo,casual,0.5,0.383812,0.0806228
+categoria,necklace,pants,487,esportivo,classico,0,0.0244695,-0.024175
+categoria,necklace,pants,487,esportivo,esportivo,0,0.00462012,-0.00460948
+categoria,necklace,pants,487,esportivo,romantico,0,0.00770021,-0.00767071
+categoria,necklace,pants,487,esportivo,moderno,0,0.0793977,-0.0764032
+categoria,necklace,pants,487,romantico,casual,49.6667,48.6162,0.0209499
+categoria,necklace,pants,487,romantico,classico,3.5,3.09948,0.0932184
+categoria,necklace,pants,487,romantico,esportivo,0.833333,0.585216,0.145415
+categoria,necklace,pants,487,romantico,romantico,0.5,0.975359,-0.275285
+categoria,necklace,pants,487,romantico,moderno,8.83333,10.057,-0.117289
+categoria,necklace,pants,487,moderno,casual,169.917,166.575,0.0197474
+categoria,necklace,pants,487,moderno,classico,8.25,10.6198,-0.228085
+categoria,necklace,pants,487,moderno,esportivo,2.66667,2.00513,0.198961
+categoria,necklace,pants,487,moderno,romantico,5,3.34189,0.32345
+categoria,necklace,pants,487,moderno,moderno,31.1667,34.4586,-0.0974348
+categoria,necklace,rings,156,casual,casual,6.25,5.34722,0.132984
+categoria,necklace,rings,156,casual,classico,9.25,8.55556,0.070155
+categoria,necklace,rings,156,casual,romantico,3.5,2.625,0.216223
+categoria,necklace,rings,156,casual,moderno,11.3333,13.8056,-0.182697
+categoria,necklace,rings,156,classico,casual,7.5,7.63889,-0.0162078
+categoria,necklace,rings,156,classico,classico,16.75,12.2222,0.294487
+categoria,necklace,rings,156,classico,romantico,2,3.75,-0.459532
+categoria,necklace,rings,156,classico,moderno,17.0833,19.7222,-0.136216
+categoria,necklace,rings,156,romantico,casual,2.5,2.96741,-0.125352
+categoria,necklace,rings,156,romantico,classico,5.75,4.74786,0.160714
+categoria,necklace,rings,156,romantico,romantico,0.5,1.45673,-0.493366
+categoria,necklace,rings,156,romantico,moderno,8.08333,7.66132,0.0475735
+categoria,necklace,rings,156,moderno,casual,11.25,11.5465,-0.0239138
+categoria,necklace,rings,156,moderno,classico,12.25,18.4744,-0.385101
+categoria,necklace,rings,156,moderno,romantico,7.5,5.66827,0.242706
+categoria,necklace,rings,156,moderno,moderno,34.5,29.8109,0.141664
+categoria,necklace,shoes,547,casual,casual,43.1667,44.3023,-0.0253876
+categoria,necklace,shoes,547,casual,classico,5.25,6.47771,-0.179345
+categoria,necklace,shoes,547,casual,esportivo,0.333333,2.08328,-0.838313
+categoria,necklace,shoes,547,casual,romantico,7,11.0023,-0.40566
+categoria,necklace,shoes,547,casual,moderno,51.0833,42.9677,0.16939
+categoria,necklace,shoes,547,classico,casual,48.75,51.6284,-0.056246
+categoria,necklace,shoes,547,classico,classico,6,7.5489,-0.199893
+categoria,necklace,shoes,547,classico,esportivo,2.75,2.42779,0.0898407
+categoria,necklace,shoes,547,classico,romantico,15.5,12.8218,0.177117
+categoria,necklace,shoes,547,classico,moderno,51.5,50.0731,0.0275547
+categoria,necklace,shoes,547,esportivo,casual,0.333333,0.138229,0.158209
+categoria,necklace,shoes,547,esportivo,classico,0,0.0202113,-0.0200097
+categoria,necklace,shoes,547,esportivo,esportivo,0,0.0065001,-0.00647907
+categoria,necklace,shoes,547,esportivo,romantico,0,0.0343287,-0.0337526
+categoria,necklace,shoes,547,esportivo,moderno,0,0.134065,-0.125808
+categoria,necklace,shoes,547,romantico,casual,38.25,30.6868,0.214052
+categoria,necklace,shoes,547,romantico,classico,5.33333,4.4869,0.143464
+categoria,necklace,shoes,547,romantico,esportivo,0.5,1.44302,-0.487771
+categoria,necklace,shoes,547,romantico,romantico,11.75,7.62096,0.391334
+categoria,necklace,shoes,547,romantico,moderno,18.1667,29.7623,-0.473119
+categoria,necklace,shoes,547,moderno,casual,96.3333,100.078,-0.037747
+categoria,necklace,shoes,547,moderno,classico,16.5833,14.6329,0.117571
+categoria,necklace,shoes,547,moderno,esportivo,7.08333,4.70607,0.348273
+categoria,necklace,shoes,547,moderno,romantico,22.0833,24.854,-0.113353
+categoria,necklace,shoes,547,moderno,moderno,99.25,97.0628,0.0220593
+categoria,necklace,skirt,270,casual,casual,29.1111,26.1981,0.101745
+categoria,necklace,skirt,270,casual,classico,9.86111,10.9231,-0.0932931
+categoria,necklace,skirt,270,casual,romantico,12.2778,11.6194,0.050853
+categoria,necklace,skirt,270,casual,moderno,19.25,21.7593,-0.116817
+categoria,necklace,skirt,270,classico,casual,18.2778,22.3582,-0.191996
+categoria,necklace,skirt,270,classico,classico,11.9444,9.32212,0.226378
+categoria,necklace,skirt,270,classico,romantico,10.5278,9.91636,0.0544972
+categoria,necklace,skirt,270,classico,moderno,19.4167,18.57,0.0423559
+categoria,necklace,skirt,270,romantico,casual,15.3333,13.5016,0.118946
+categoria,necklace,skirt,270,romantico,classico,6.25,5.62942,0.0894836
+categoria,necklace,skirt,270,romantico,romantico,6.5,5.98827,0.0706698
+categoria,necklace,skirt,270,romantico,moderno,8.25,11.214,-0.277959
+categoria,necklace,skirt,270,moderno,casual,37.6111,38.2753,-0.017056
+categoria,necklace,skirt,270,moderno,classico,13.7778,15.9586,-0.137653
+categoria,necklace,skirt,270,moderno,romantico,15.1944,16.9759,-0.104365
+categoria,necklace,skirt,270,moderno,moderno,36.4167,31.7901,0.131989
+categoria,necklace,top,1125,casual,casual,139.833,139.615,0.00155282
+categoria,necklace,top,1125,casual,classico,41.4167,38.541,0.0702023
+categoria,necklace,top,1125,casual,esportivo,1.5,3.19644,-0.517947
+categoria,necklace,top,1125,casual,romantico,29.25,26.4533,0.0970086
+categoria,necklace,top,1125,casual,moderno,36,40.1944,-0.107384
+categoria,necklace,top,1125,classico,casual,136.833,133.141,0.0271557
+categoria,necklace,top,1125,classico,classico,37.75,36.7539,0.0260432
+categoria,necklace,top,1125,classico,esportivo,3,3.04822,-0.0119835
+categoria,necklace,top,1125,classico,romantico,26.8333,25.2267,0.0594576
+categoria,necklace,top,1125,classico,moderno,32.0833,38.3305,-0.172971
+categoria,necklace,top,1125,esportivo,casual,1.41667,1.0321,0.17332
+categoria,necklace,top,1125,esportivo,classico,0.416667,0.284914,0.0976152
+categoria,necklace,top,1125,esportivo,esportivo,0,0.0236296,-0.0233548
+categoria,necklace,top,1125,esportivo,romantico,0,0.195556,-0.178611
+categoria,necklace,top,1125,esportivo,moderno,0,0.297136,-0.260159
+categoria,necklace,top,1125,romantico,casual,89.8333,86.9778,0.0319421
+categoria,necklace,top,1125,romantico,classico,21.0833,24.0104,-0.12447
+categoria,necklace,top,1125,romantico,esportivo,2.16667,1.99133,0.0569603
+categoria,necklace,top,1125,romantico,romantico,19,16.48,0.134675
+categoria,necklace,top,1125,romantico,moderno,22.4167,25.0404,-0.106203
+categoria,necklace,top,1125,moderno,casual,265.417,272.568,-0.0264884
+categoria,necklace,top,1125,moderno,classico,74.1667,75.2431,-0.0142189
+categoria,necklace,top,1125,moderno,esportivo,7.83333,6.24037,0.19886
+categoria,necklace,top,1125,moderno,romantico,44.9167,51.6444,-0.136733
+categoria,necklace,top,1125,moderno,moderno,91.8333,78.4709,0.155415
+categoria,necklace,watch,72,casual,casual,0.75,1.04167,-0.154151
+categoria,necklace,watch,72,casual,classico,2.25,2.91667,-0.186586
+categoria,necklace,watch,72,casual,esportivo,0,0.0520833,-0.0507723
+categoria,necklace,watch,72,casual,romantico,0.25,0.15625,0.0779615
+categoria,necklace,watch,72,casual,moderno,4.25,3.33333,0.191891
+categoria,necklace,watch,72,classico,casual,0,2.84722,-1.34735
+categoria,necklace,watch,72,classico,classico,10.5,7.97222,0.248214
+categoria,necklace,watch,72,classico,esportivo,0,0.142361,-0.133097
+categoria,necklace,watch,72,classico,romantico,1,0.427083,0.337514
+categoria,necklace,watch,72,classico,moderno,9,9.11111,-0.0110498
+categoria,necklace,watch,72,romantico,casual,3.25,1.31944,0.605591
+categoria,necklace,watch,72,romantico,classico,2.25,3.69444,-0.367725
+categoria,necklace,watch,72,romantico,esportivo,0,0.0659722,-0.0638873
+categoria,necklace,watch,72,romantico,romantico,0.25,0.197917,0.0425596
+categoria,necklace,watch,72,romantico,moderno,3.75,4.22222,-0.0947784
+categoria,necklace,watch,72,moderno,casual,6,4.79167,0.18949
+categoria,necklace,watch,72,moderno,classico,13,13.4167,-0.0293276
+categoria,necklace,watch,72,moderno,esportivo,0.5,0.239583,0.19069
+categoria,necklace,watch,72,moderno,romantico,0,0.71875,-0.541597
+categoria,necklace,watch,72,moderno,moderno,15,15.3333,-0.0206193
+categoria,neckwear,outerwear,203,casual,casual,32.5833,37.7898,-0.144128
+categoria,neckwear,outerwear,203,casual,classico,22.6667,19.746,0.131713
+categoria,neckwear,outerwear,203,casual,esportivo,1.5,1.02135,0.212527
+categoria,neckwear,outerwear,203,casual,romantico,3.25,3.91516,-0.145406
+categoria,neckwear,outerwear,203,casual,moderno,43.6667,41.1943,0.0569422
+categoria,neckwear,outerwear,203,classico,casual,21,14.8851,0.325664
+categoria,neckwear,outerwear,203,classico,classico,8.75,7.77778,0.105044
+categoria,neckwear,outerwear,203,classico,esportivo,0.166667,0.402299,-0.183962
+categoria,neckwear,outerwear,203,classico,romantico,1.66667,1.54215,0.0478208
+categoria,neckwear,outerwear,203,classico,moderno,9.25,16.2261,-0.519145
+categoria,neckwear,outerwear,203,esportivo,casual,0,0.182266,-0.167433
+categoria,neckwear,outerwear,203,esportivo,classico,0.5,0.0952381,0.314493
+categoria,neckwear,outerwear,203,esportivo,esportivo,0,0.00492611,-0.00491401
+categoria,neckwear,outerwear,203,esportivo,romantico,0,0.0188834,-0.0187073
+categoria,neckwear,outerwear,203,esportivo,moderno,0,0.198686,-0.181226
+categoria,neckwear,outerwear,203,romantico,casual,10,10.2677,-0.0240407
+categoria,neckwear,outerwear,203,romantico,classico,3.25,5.36508,-0.403908
+categoria,neckwear,outerwear,203,romantico,esportivo,0,0.277504,-0.244908
+categoria,neckwear,outerwear,203,romantico,romantico,2.5,1.06377,0.528231
+categoria,neckwear,outerwear,203,romantico,moderno,12.4167,11.1927,0.0956631
+categoria,neckwear,outerwear,203,moderno,casual,10.4167,10.8752,-0.0393784
+categoria,neckwear,outerwear,203,moderno,classico,3.5,5.68254,-0.395421
+categoria,neckwear,outerwear,203,moderno,esportivo,0.333333,0.293924,0.0300023
+categoria,neckwear,outerwear,203,moderno,romantico,0.25,1.12671,-0.531433
+categoria,neckwear,outerwear,203,moderno,moderno,15.3333,11.855,0.239479
+categoria,neckwear,pants,189,casual,casual,59.75,60.7917,-0.0170026
+categoria,neckwear,pants,189,casual,classico,3.75,3.69533,0.011577
+categoria,neckwear,pants,189,casual,esportivo,1.75,1.23178,0.208803
+categoria,neckwear,pants,189,casual,moderno,16.9167,16.4478,0.0265164
+categoria,neckwear,pants,189,classico,casual,45.8333,46.8577,-0.0216375
+categoria,neckwear,pants,189,classico,classico,2.83333,2.84832,-0.00390312
+categoria,neckwear,pants,189,classico,esportivo,0.833333,0.949442,-0.0614071
+categoria,neckwear,pants,189,classico,moderno,13.8333,12.6778,0.0811001
+categoria,neckwear,pants,189,esportivo,casual,0,0.369929,-0.314759
+categoria,neckwear,pants,189,esportivo,classico,0,0.0224868,-0.0222377
+categoria,neckwear,pants,189,esportivo,esportivo,0,0.00749559,-0.00746764
+categoria,neckwear,pants,189,esportivo,moderno,0.5,0.100088,0.310075
+categoria,neckwear,pants,189,romantico,casual,12.3333,10.9746,0.107482
+categoria,neckwear,pants,189,romantico,classico,0.25,0.667108,-0.287947
+categoria,neckwear,pants,189,romantico,esportivo,0.25,0.222369,0.0223526
+categoria,neckwear,pants,189,romantico,moderno,2,2.96928,-0.279973
+categoria,neckwear,pants,189,moderno,casual,21.9167,20.8394,0.0481506
+categoria,neckwear,pants,189,moderno,classico,1.66667,1.26675,0.16248
+categoria,neckwear,pants,189,moderno,esportivo,0,0.422252,-0.352241
+categoria,neckwear,pants,189,moderno,moderno,4.58333,5.6383,-0.17307
+categoria,neckwear,shoes,166,casual,casual,38.1667,37.119,0.0271138
+categoria,neckwear,shoes,166,casual,classico,5,5.47105,-0.075579
+categoria,neckwear,shoes,166,casual,esportivo,3.25,2.10425,0.314147
+categoria,neckwear,shoes,166,casual,romantico,4.41667,6.06024,-0.264999
+categoria,neckwear,shoes,166,casual,moderno,33,33.0788,-0.00231541
+categoria,neckwear,shoes,166,classico,casual,14.0833,17.9322,-0.227275
+categoria,neckwear,shoes,166,classico,classico,4.66667,2.64307,0.441774
+categoria,neckwear,shoes,166,classico,esportivo,0.416667,1.01657,-0.35309
+categoria,neckwear,shoes,166,classico,romantico,3.5,2.92771,0.136021
+categoria,neckwear,shoes,166,classico,moderno,17.8333,15.9804,0.103567
+categoria,neckwear,shoes,166,esportivo,casual,0,0.221386,-0.199986
+categoria,neckwear,shoes,166,esportivo,classico,0,0.0326305,-0.0321095
+categoria,neckwear,shoes,166,esportivo,esportivo,0,0.0125502,-0.0124721
+categoria,neckwear,shoes,166,esportivo,romantico,0,0.0361446,-0.0355067
+categoria,neckwear,shoes,166,esportivo,moderno,0.5,0.197289,0.225405
+categoria,neckwear,shoes,166,romantico,casual,7.91667,7.01054,0.107164
+categoria,neckwear,shoes,166,romantico,classico,1,1.0333,-0.0165128
+categoria,neckwear,shoes,166,romantico,esportivo,0.5,0.397423,0.0708353
+categoria,neckwear,shoes,166,romantico,romantico,1.91667,1.14458,0.307498
+categoria,neckwear,shoes,166,romantico,moderno,4.5,6.24749,-0.275907
+categoria,neckwear,shoes,166,moderno,casual,13.3333,11.2169,0.15977
+categoria,neckwear,shoes,166,moderno,classico,0.166667,1.65328,-0.821646
+categoria,neckwear,shoes,166,moderno,esportivo,0,0.635877,-0.492179
+categoria,neckwear,shoes,166,moderno,romantico,2.16667,1.83133,0.111935
+categoria,neckwear,shoes,166,moderno,moderno,9.66667,9.99598,-0.0304065
+categoria,neckwear,top,355,casual,casual,114.583,117.815,-0.0275735
+categoria,neckwear,top,355,casual,classico,36.1667,34.8329,0.0365447
+categoria,neckwear,top,355,casual,esportivo,0.75,0.970031,-0.118434
+categoria,neckwear,top,355,casual,romantico,13.0833,10.8467,0.172942
+categoria,neckwear,top,355,casual,moderno,23.25,23.3689,-0.00489258
+categoria,neckwear,top,355,classico,casual,48.75,45.8923,0.0591563
+categoria,neckwear,top,355,classico,classico,13.0833,13.5685,-0.0338673
+categoria,neckwear,top,355,classico,esportivo,0.333333,0.377856,-0.0328466
+categoria,neckwear,top,355,classico,romantico,3,4.22512,-0.267183
+categoria,neckwear,top,355,classico,moderno,8,9.1029,-0.115597
+categoria,neckwear,top,355,esportivo,casual,1.75,1.25446,0.19869
+categoria,neckwear,top,355,esportivo,classico,0,0.370892,-0.315462
+categoria,neckwear,top,355,esportivo,esportivo,0,0.0103286,-0.0102757
+categoria,neckwear,top,355,esportivo,romantico,0,0.115493,-0.109296
+categoria,neckwear,top,355,esportivo,moderno,0.25,0.248826,0.000939408
+categoria,neckwear,top,355,romantico,casual,22.5833,23.2075,-0.0261227
+categoria,neckwear,top,355,romantico,classico,5.58333,6.8615,-0.177437
+categoria,neckwear,top,355,romantico,esportivo,0.75,0.19108,0.384755
+categoria,neckwear,top,355,romantico,romantico,2.41667,2.13662,0.0855197
+categoria,neckwear,top,355,romantico,moderno,5.66667,4.60329,0.173767
+categoria,neckwear,top,355,moderno,casual,35,34.4977,0.0140524
+categoria,neckwear,top,355,moderno,classico,11,10.1995,0.0690348
+categoria,neckwear,top,355,moderno,esportivo,0,0.284038,-0.250009
+categoria,neckwear,top,355,moderno,romantico,2,3.17606,-0.330755
+categoria,neckwear,top,355,moderno,moderno,7,6.84272,0.0198554
+categoria,outerwear,pants,1685,casual,casual,513.486,505.922,0.0148123
+categoria,outerwear,pants,1685,casual,classico,40.2778,38.1854,0.0520206
+categoria,outerwear,pants,1685,casual,esportivo,12,9.99763,0.16727
+categoria,outerwear,pants,1685,casual,romantico,7.58333,7.15108,0.0516719
+categoria,outerwear,pants,1685,casual,moderno,128.569,140.661,-0.0892202
+categoria,outerwear,pants,1685,classico,casual,180.583,179.832,0.00414354
+categoria,outerwear,pants,1685,classico,classico,11,13.5732,-0.194277
+categoria,outerwear,pants,1685,classico,esportivo,3,3.55371,-0.129648
+categoria,outerwear,pants,1685,classico,romantico,3.83333,2.54189,0.310876
+categoria,outerwear,pants,1685,classico,moderno,51.0833,49.9987,0.0210446
+categoria,outerwear,pants,1685,esportivo,casual,32.6528,31.5338,0.0338175
+categoria,outerwear,pants,1685,esportivo,classico,3.19444,2.38007,0.215865
+categoria,outerwear,pants,1685,esportivo,esportivo,0.666667,0.623145,0.0264598
+categoria,outerwear,pants,1685,esportivo,romantico,0.333333,0.445722,-0.0809268
+categoria,outerwear,pants,1685,esportivo,moderno,6.90278,8.76731,-0.211827
+categoria,outerwear,pants,1685,romantico,casual,46.125,44.2674,0.0402169
+categoria,outerwear,pants,1685,romantico,classico,2.66667,3.34116,-0.168859
+categoria,outerwear,pants,1685,romantico,esportivo,0,0.874777,-0.62849
+categoria,outerwear,pants,1685,romantico,romantico,1.5,0.625709,0.430347
+categoria,outerwear,pants,1685,romantico,moderno,11.125,12.3076,-0.0930683
+categoria,outerwear,pants,1685,moderno,casual,441.653,452.945,-0.02519
+categoria,outerwear,pants,1685,moderno,classico,34.5278,34.1869,0.00964211
+categoria,outerwear,pants,1685,moderno,esportivo,8.33333,8.95074,-0.0640549
+categoria,outerwear,pants,1685,moderno,romantico,3.91667,6.40227,-0.409155
+categoria,outerwear,pants,1685,moderno,moderno,139.986,125.932,0.10501
+categoria,outerwear,rings,270,casual,casual,12.1667,9.57819,0.218894
+categoria,outerwear,rings,270,casual,classico,25.6667,26.8737,-0.0442679
+categoria,outerwear,rings,270,casual,romantico,5.25,7.11523,-0.261161
+categoria,outerwear,rings,270,casual,moderno,45.5833,45.0996,0.0104388
+categoria,outerwear,rings,270,classico,casual,2.25,4.8251,-0.583522
+categoria,outerwear,rings,270,classico,classico,17.25,13.5379,0.227409
+categoria,outerwear,rings,270,classico,romantico,3.5,3.58436,-0.0185736
+categoria,outerwear,rings,270,classico,moderno,21.6667,22.7193,-0.0453954
+categoria,outerwear,rings,270,esportivo,casual,0.25,0.396091,-0.110532
+categoria,outerwear,rings,270,esportivo,classico,0.5,1.11132,-0.341847
+categoria,outerwear,rings,270,esportivo,romantico,0.5,0.294239,0.147542
+categoria,outerwear,rings,270,esportivo,moderno,2.41667,1.86502,0.17609
+categoria,outerwear,rings,270,romantico,casual,1,1.00823,-0.00410678
+categoria,outerwear,rings,270,romantico,classico,3,2.82881,0.0437412
+categoria,outerwear,rings,270,romantico,romantico,1.83333,0.748971,0.482426
+categoria,outerwear,rings,270,romantico,moderno,3.5,4.74733,-0.244657
+categoria,outerwear,rings,270,moderno,casual,13.5,13.3591,0.009768
+categoria,outerwear,rings,270,moderno,classico,35.4167,37.4817,-0.0551559
+categoria,outerwear,rings,270,moderno,romantico,10.5833,9.92387,0.0586171
+categoria,outerwear,rings,270,moderno,moderno,64.1667,62.9021,0.0195965
+categoria,outerwear,shoes,1888,casual,casual,360.917,325.954,0.101593
+categoria,outerwear,shoes,1888,casual,classico,41.9167,47.0412,-0.112799
+categoria,outerwear,shoes,1888,casual,esportivo,25.5833,21.8898,0.149595
+categoria,outerwear,shoes,1888,casual,romantico,49.5,49.3607,0.00276268
+categoria,outerwear,shoes,1888,casual,moderno,343.167,376.837,-0.0933375
+categoria,outerwear,shoes,1888,classico,casual,102.944,108.541,-0.0524442
+categoria,outerwear,shoes,1888,classico,classico,21.9167,15.6645,0.318584
+categoria,outerwear,shoes,1888,classico,esportivo,4.69444,7.28918,-0.37546
+categoria,outerwear,shoes,1888,classico,romantico,16.6667,16.4369,0.0130933
+categoria,outerwear,shoes,1888,classico,moderno,127.194,125.485,0.0134251
+categoria,outerwear,shoes,1888,esportivo,casual,25.9722,20.5438,0.224721
+categoria,outerwear,shoes,1888,esportivo,classico,2.5,2.96484,-0.124703
+categoria,outerwear,shoes,1888,esportivo,esportivo,3.38889,1.37963,0.612129
+categoria,outerwear,shoes,1888,esportivo,romantico,1.25,3.11103,-0.602743
+categoria,outerwear,shoes,1888,esportivo,moderno,18.6389,23.7507,-0.231343
+categoria,outerwear,shoes,1888,romantico,casual,25.25,26.0023,-0.0282542
+categoria,outerwear,shoes,1888,romantico,classico,4.5,3.7526,0.146055
+categoria,outerwear,shoes,1888,romantico,esportivo,0.333333,1.7462,-0.722538
+categoria,outerwear,shoes,1888,romantico,romantico,8.25,3.93763,0.627738
+categoria,outerwear,shoes,1888,romantico,moderno,27.1667,30.0613,-0.0978237
+categoria,outerwear,shoes,1888,moderno,casual,234.417,268.458,-0.135057
+categoria,outerwear,shoes,1888,moderno,classico,37.3333,38.7435,-0.0361262
+categoria,outerwear,shoes,1888,moderno,esportivo,16.3333,18.0286,-0.0933095
+categoria,outerwear,shoes,1888,moderno,romantico,37.8333,40.6538,-0.0701136
+categoria,outerwear,shoes,1888,moderno,moderno,350.333,310.366,0.120767
+categoria,outerwear,skirt,713,casual,casual,110.167,107.419,0.025024
+categoria,outerwear,skirt,713,casual,classico,41,45.2222,-0.0957911
+categoria,outerwear,skirt,713,casual,esportivo,0.916667,0.862007,0.0289325
+categoria,outerwear,skirt,713,casual,romantico,50.5,47.4104,0.0618673
+categoria,outerwear,skirt,713,casual,moderno,81.0833,82.7527,-0.0201333
+categoria,outerwear,skirt,713,classico,casual,42.1667,42.5386,-0.00857861
+categoria,outerwear,skirt,713,classico,classico,21.75,17.9082,0.184969
+categoria,outerwear,skirt,713,classico,esportivo,0.166667,0.341359,-0.139533
+categoria,outerwear,skirt,713,classico,romantico,18.5,18.7747,-0.0139908
+categoria,outerwear,skirt,713,classico,moderno,29.75,32.7705,-0.0936963
+categoria,outerwear,skirt,713,esportivo,casual,5.75,4.29173,0.243398
+categoria,outerwear,skirt,713,esportivo,classico,1.83333,1.80676,0.00942191
+categoria,outerwear,skirt,713,esportivo,esportivo,0.166667,0.0344398,0.120291
+categoria,outerwear,skirt,713,esportivo,romantico,0.916667,1.89419,-0.412117
+categoria,outerwear,skirt,713,esportivo,moderno,2.66667,3.30622,-0.160777
+categoria,outerwear,skirt,713,romantico,casual,15.4167,11.6129,0.263577
+categoria,outerwear,skirt,713,romantico,classico,2.5,4.88889,-0.520304
+categoria,outerwear,skirt,713,romantico,esportivo,0,0.09319,-0.0891
+categoria,outerwear,skirt,713,romantico,romantico,8.91667,5.12545,0.481765
+categoria,outerwear,skirt,713,romantico,moderno,3.83333,8.94624,-0.721658
+categoria,outerwear,skirt,713,moderno,casual,96.5,104.137,-0.0754161
+categoria,outerwear,skirt,713,moderno,classico,46.5833,43.8406,0.059369
+categoria,outerwear,skirt,713,moderno,esportivo,0.916667,0.835671,0.0431776
+categoria,outerwear,skirt,713,moderno,romantico,40.3333,45.9619,-0.127667
+categoria,outerwear,skirt,713,moderno,moderno,90.6667,80.2244,0.120943
+categoria,outerwear,top,3450,casual,casual,807.597,782.094,0.0320486
+categoria,outerwear,top,3450,casual,classico,241.472,257.795,-0.0651486
+categoria,outerwear,top,3450,casual,esportivo,18.5,14.6501,0.219936
+categoria,outerwear,top,3450,casual,romantico,108.5,114.804,-0.055977
+categoria,outerwear,top,3450,casual,moderno,221.431,228.157,-0.0297927
+categoria,outerwear,top,3450,classico,casual,288.125,296.608,-0.028918
+categoria,outerwear,top,3450,classico,classico,112.292,97.7684,0.137188
+categoria,outerwear,top,3450,classico,esportivo,4.58333,5.55604,-0.160601
+categoria,outerwear,top,3450,classico,romantico,44.3333,43.5394,0.017669
+categoria,outerwear,top,3450,classico,moderno,80.6667,86.5283,-0.0693158
+categoria,outerwear,top,3450,esportivo,casual,41.1806,39.2679,0.0464045
+categoria,outerwear,top,3450,esportivo,classico,8.63889,12.9435,-0.369211
+categoria,outerwear,top,3450,esportivo,esportivo,0.666667,0.735564,-0.0405066
+categoria,outerwear,top,3450,esportivo,romantico,4.75,5.76417,-0.16244
+categoria,outerwear,top,3450,esportivo,moderno,14.9306,11.4555,0.246079
+categoria,outerwear,top,3450,romantico,casual,67.125,72.0067,-0.0692072
+categoria,outerwear,top,3450,romantico,classico,22.9167,23.735,-0.0336421
+categoria,outerwear,top,3450,romantico,esportivo,2.08333,1.34882,0.272096
+categoria,outerwear,top,3450,romantico,romantico,14.625,10.5699,0.300462
+categoria,outerwear,top,3450,romantico,moderno,21.9167,21.0062,0.0405388
+categoria,outerwear,top,3450,moderno,casual,726.722,740.774,-0.0191249
+categoria,outerwear,top,3450,moderno,classico,251.097,244.175,0.0278428
+categoria,outerwear,top,3450,moderno,esportivo,10.3333,13.8761,-0.272009
+categoria,outerwear,top,3450,moderno,romantico,111.208,108.739,0.0222534
+categoria,outerwear,top,3450,moderno,moderno,224.306,216.103,0.0370857
+categoria,outerwear,watch,219,casual,casual,8.16667,8.29535,-0.01394
+categoria,outerwear,watch,219,casual,classico,38.8333,41.4082,-0.0626369
+categoria,outerwear,watch,219,casual,esportivo,1.16667,0.617009,0.292612
+categoria,outerwear,watch,219,casual,romantico,2.5,2.0567,0.135428
+categoria,outerwear,watch,219,casual,moderno,39.4167,37.7061,0.0432447
+categoria,outerwear,watch,219,classico,casual,2.5,2.47863,0.00612512
+categoria,outerwear,watch,219,classico,classico,12,12.3727,-0.0282625
+categoria,outerwear,watch,219,classico,esportivo,0,0.184361,-0.169203
+categoria,outerwear,watch,219,classico,romantico,0.5,0.614536,-0.0735824
+categoria,outerwear,watch,219,classico,moderno,11.9167,11.2665,0.0516474
+categoria,outerwear,watch,219,esportivo,casual,0.416667,0.729008,-0.199241
+categoria,outerwear,watch,219,esportivo,classico,4.33333,3.63902,0.139474
+categoria,outerwear,watch,219,esportivo,esportivo,0.166667,0.0542237,0.101346
+categoria,outerwear,watch,219,esportivo,romantico,0,0.180746,-0.166146
+categoria,outerwear,watch,219,esportivo,moderno,3,3.31367,-0.0754954
+categoria,outerwear,watch,219,romantico,casual,1.5,0.598554,0.447191
+categoria,outerwear,watch,219,romantico,classico,1.75,2.98782,-0.371645
+categoria,outerwear,watch,219,romantico,esportivo,0,0.0445205,-0.043558
+categoria,outerwear,watch,219,romantico,romantico,0.5,0.148402,0.267094
+categoria,outerwear,watch,219,romantico,moderno,2.75,2.7207,0.00784398
+categoria,outerwear,watch,219,moderno,casual,7.58333,8.06513,-0.0546131
+categoria,outerwear,watch,219,moderno,classico,43.75,40.259,0.081222
+categoria,outerwear,watch,219,moderno,esportivo,0.166667,0.599886,-0.315782
+categoria,outerwear,watch,219,moderno,romantico,1.5,1.99962,-0.182195
+categoria,outerwear,watch,219,moderno,moderno,34.5833,36.6597,-0.0567129
+categoria,pants,rings,252,casual,casual,29.5833,30.2205,-0.0206184
+categoria,pants,rings,252,casual,classico,51.8333,52.4259,-0.0111538
+categoria,pants,rings,252,casual,romantico,24.9167,23.1252,0.0716285
+categoria,pants,rings,252,casual,moderno,92.3333,92.8951,-0.00600048
+categoria,pants,rings,252,classico,casual,0.5,1.16623,-0.367521
+categoria,pants,rings,252,classico,classico,1.33333,2.02315,-0.259001
+categoria,pants,rings,252,classico,romantico,0.333333,0.892416,-0.350172
+categoria,pants,rings,252,classico,moderno,5.5,3.58488,0.349039
+categoria,pants,rings,252,esportivo,casual,0,0.0760582,-0.0733046
+categoria,pants,rings,252,esportivo,classico,0,0.131944,-0.123937
+categoria,pants,rings,252,esportivo,romantico,0,0.0582011,-0.0565704
+categoria,pants,rings,252,esportivo,moderno,0.5,0.233796,0.195369
+categoria,pants,rings,252,romantico,casual,0,0.304233,-0.265615
+categoria,pants,rings,252,romantico,classico,1,0.527778,0.269333
+categoria,pants,rings,252,romantico,romantico,0,0.232804,-0.209291
+categoria,pants,rings,252,romantico,moderno,1,0.935185,0.0329442
+categoria,pants,rings,252,moderno,casual,8.25,6.56636,0.200912
+categoria,pants,rings,252,moderno,classico,12.3333,11.3912,0.0732803
+categoria,pants,rings,252,moderno,romantico,4.08333,5.02469,-0.169899
+categoria,pants,rings,252,moderno,moderno,18.5,20.1844,-0.0828512
+categoria,pants,shoes,2290,casual,casual,896.083,862.6,0.0380393
+categoria,pants,shoes,2290,casual,classico,99.5556,102.265,-0.0265884
+categoria,pants,shoes,2290,casual,esportivo,60.8889,60.9535,-0.00104353
+categoria,pants,shoes,2290,casual,romantico,98.5,98.6534,-0.00154091
+categoria,pants,shoes,2290,casual,moderno,586.139,616.695,-0.0507332
+categoria,pants,shoes,2290,classico,casual,51.4167,53.0094,-0.0299333
+categoria,pants,shoes,2290,classico,classico,8.91667,6.2845,0.308468
+categoria,pants,shoes,2290,classico,esportivo,4.5,3.74578,0.147493
+categoria,pants,shoes,2290,classico,romantico,7.75,6.06255,0.214247
+categoria,pants,shoes,2290,classico,moderno,34.4167,37.8978,-0.0937547
+categoria,pants,shoes,2290,esportivo,casual,18.1667,16.1836,0.10922
+categoria,pants,shoes,2290,esportivo,classico,1.97222,1.91863,0.018195
+categoria,pants,shoes,2290,esportivo,esportivo,1.72222,1.14357,0.238975
+categoria,pants,shoes,2290,esportivo,romantico,2.16667,1.85087,0.105054
+categoria,pants,shoes,2290,esportivo,moderno,8.63889,11.57,-0.26551
+categoria,pants,shoes,2290,romantico,casual,17.25,14.6973,0.150676
+categoria,pants,shoes,2290,romantico,classico,3.41667,1.74243,0.476541
+categoria,pants,shoes,2290,romantico,esportivo,0.583333,1.03855,-0.252706
+categoria,pants,shoes,2290,romantico,romantico,2,1.6809,0.112462
+categoria,pants,shoes,2290,romantico,moderno,6.41667,10.5075,-0.439268
+categoria,pants,shoes,2290,moderno,casual,151.583,188.01,-0.214089
+categoria,pants,shoes,2290,moderno,classico,20.6389,22.2894,-0.0735067
+categoria,pants,shoes,2290,moderno,esportivo,12.4722,13.2853,-0.0585984
+categoria,pants,shoes,2290,moderno,romantico,19.3333,21.5022,-0.101353
+categoria,pants,shoes,2290,moderno,moderno,175.472,134.413,0.264833
+categoria,pants,top,5182,casual,casual,2361.62,2348.89,0.00540566
+categoria,pants,top,5182,casual,classico,657.958,659.473,-0.00229589
+categoria,pants,top,5182,casual,esportivo,48.9167,46.96,0.0399883
+categoria,pants,top,5182,casual,romantico,312.042,313.342,-0.00414463
+categoria,pants,top,5182,casual,moderno,570.958,582.837,-0.0205563
+categoria,pants,top,5182,classico,casual,151.333,152.471,-0.0074415
+categoria,pants,top,5182,classico,classico,50.1667,42.8077,0.155278
+categoria,pants,top,5182,classico,esportivo,1.66667,3.04827,-0.41746
+categoria,pants,top,5182,classico,romantico,16.3333,20.3397,-0.207936
+categoria,pants,top,5182,classico,moderno,37,37.8332,-0.0216887
+categoria,pants,top,5182,esportivo,casual,39.6667,38.0435,0.0407328
+categoria,pants,top,5182,esportivo,classico,6.33333,10.6811,-0.46554
+categoria,pants,top,5182,esportivo,esportivo,1.58333,0.760582,0.383436
+categoria,pants,top,5182,esportivo,romantico,5.5,5.075,0.0676197
+categoria,pants,top,5182,esportivo,moderno,10.9167,9.43986,0.132307
+categoria,pants,top,5182,romantico,casual,37.125,42.7989,-0.138739
+categoria,pants,top,5182,romantico,classico,13.5417,12.0162,0.110823
+categoria,pants,top,5182,romantico,esportivo,0.916667,0.855654,0.0323503
+categoria,pants,top,5182,romantico,romantico,9.45833,5.70938,0.443893
+categoria,pants,top,5182,romantico,moderno,10.9583,10.6198,0.0287146
+categoria,pants,top,5182,moderno,casual,490.583,498.132,-0.0152388
+categoria,pants,top,5182,moderno,classico,136.833,139.855,-0.0216881
+categoria,pants,top,5182,moderno,esportivo,8.5,9.95886,-0.142857
+categoria,pants,top,5182,moderno,romantico,67.5833,66.4508,0.0166508
+categoria,pants,top,5182,moderno,moderno,134.5,123.603,0.083838
+categoria,pants,watch,261,casual,casual,27.8333,26.0132,0.0652066
+categoria,pants,watch,261,casual,classico,79.9167,79.3274,0.00730937
+categoria,pants,watch,261,casual,esportivo,0.25,0.386335,-0.10352
+categoria,pants,watch,261,casual,romantico,5.5,4.63602,0.142625
+categoria,pants,watch,261,casual,moderno,88.1667,91.3037,-0.0345775
+categoria,pants,watch,261,classico,casual,0.916667,1.52639,-0.276206
+categoria,pants,watch,261,classico,classico,4.75,4.65475,0.0167045
+categoria,pants,watch,261,classico,esportivo,0,0.0226692,-0.0224161
+categoria,pants,watch,261,classico,romantico,0,0.272031,-0.240615
+categoria,pants,watch,261,classico,moderno,6.16667,5.35749,0.119807
+categoria,pants,watch,261,esportivo,casual,0.833333,0.257982,0.376627
+categoria,pants,watch,261,esportivo,classico,0,0.786718,-0.58038
+categoria,pants,watch,261,esportivo,esportivo,0,0.00383142,-0.0038241
+categoria,pants,watch,261,esportivo,romantico,0,0.045977,-0.0449514
+categoria,pants,watch,261,esportivo,moderno,1.16667,0.905492,0.12845
+categoria,pants,watch,261,romantico,casual,0.416667,0.236484,0.136035
+categoria,pants,watch,261,romantico,classico,0.5,0.721158,-0.137532
+categoria,pants,watch,261,romantico,esportivo,0,0.00351213,-0.00350598
+categoria,pants,watch,261,romantico,romantico,0.5,0.0421456,0.364183
+categoria,pants,watch,261,romantico,moderno,0.416667,0.830034,-0.256028
+categoria,pants,watch,261,moderno,casual,3.66667,5.63261,-0.351553
+categoria,pants,watch,261,moderno,classico,17.5,17.1767,0.0176318
+categoria,pants,watch,261,moderno,esportivo,0.25,0.0836526,0.142806
+categoria,pants,watch,261,moderno,romantico,0,1.00383,-0.695061
+categoria,pants,watch,261,moderno,moderno,22.25,19.7699,0.1128
+categoria,rings,shoes,313,casual,casual,18.5833,17.5209,0.0557814
+categoria,rings,shoes,313,casual,classico,1,2.4929,-0.557585
+categoria,rings,shoes,313,casual,esportivo,1.41667,0.634984,0.390756
+categoria,rings,shoes,313,casual,romantico,3,2.72808,0.0704011
+categoria,rings,shoes,313,casual,moderno,20.1667,20.7898,-0.0290165
+categoria,rings,shoes,313,classico,casual,38.0833,38.8103,-0.0184308
+categoria,rings,shoes,313,classico,classico,7.16667,5.52201,0.224878
+categoria,rings,shoes,313,classico,esportivo,0.75,1.40655,-0.318578
+categoria,rings,shoes,313,classico,romantico,7.5,6.04295,0.188039
+categoria,rings,shoes,313,classico,moderno,44.3333,46.0515,-0.0371996
+categoria,rings,shoes,313,romantico,casual,12.3333,11.1737,0.0909911
+categoria,rings,shoes,313,romantico,classico,2.5,1.58981,0.301178
+categoria,rings,shoes,313,romantico,esportivo,0.166667,0.404952,-0.185853
+categoria,rings,shoes,313,romantico,romantico,1.5,1.73979,-0.091592
+categoria,rings,shoes,313,romantico,moderno,11.6667,13.2584,-0.118375
+categoria,rings,shoes,313,moderno,casual,55.1667,56.6618,-0.0262712
+categoria,rings,shoes,313,moderno,classico,7,8.06195,-0.124642
+categoria,rings,shoes,313,moderno,esportivo,2.16667,2.05351,0.0363863
+categoria,rings,shoes,313,moderno,romantico,7.33333,8.82251,-0.164413
+categoria,rings,shoes,313,moderno,moderno,71.1667,67.2336,0.0560414
+categoria,rings,skirt,115,casual,casual,5.83333,5.8,0.00488999
+categoria,rings,skirt,115,casual,classico,0.833333,2.42222,-0.624154
+categoria,rings,skirt,115,casual,esportivo,0,0.0666667,-0.0645385
+categoria,rings,skirt,115,casual,romantico,1.08333,2.68889,-0.571356
+categoria,rings,skirt,115,casual,moderno,7.58333,4.35556,0.471688
+categoria,rings,skirt,115,classico,casual,15.5,17.1478,-0.0951904
+categoria,rings,skirt,115,classico,classico,8.25,7.16135,0.125214
+categoria,rings,skirt,115,classico,esportivo,0.5,0.197101,0.225562
+categoria,rings,skirt,115,classico,romantico,11.5,7.94976,0.334102
+categoria,rings,skirt,115,classico,moderno,9.58333,12.8773,-0.270974
+categoria,rings,skirt,115,romantico,casual,3.75,3.71957,0.00642794
+categoria,rings,skirt,115,romantico,classico,1.25,1.55338,-0.126488
+categoria,rings,skirt,115,romantico,esportivo,0,0.0427536,-0.0418649
+categoria,rings,skirt,115,romantico,romantico,1.75,1.7244,0.00935411
+categoria,rings,skirt,115,romantico,moderno,3.08333,2.79324,0.073694
+categoria,rings,skirt,115,moderno,casual,18.4167,16.8326,0.0851031
+categoria,rings,skirt,115,moderno,classico,7.83333,7.02971,0.095384
+categoria,rings,skirt,115,moderno,esportivo,0,0.193478,-0.176872
+categoria,rings,skirt,115,moderno,romantico,5.83333,7.80362,-0.253351
+categoria,rings,skirt,115,moderno,moderno,12.4167,12.6406,-0.0165514
+categoria,rings,top,543,casual,casual,48.25,45.6095,0.0551044
+categoria,rings,top,543,casual,classico,7.5,11.6879,-0.400582
+categoria,rings,top,543,casual,esportivo,0.25,0.850471,-0.392296
+categoria,rings,top,543,casual,romantico,12.75,9.16078,0.302503
+categoria,rings,top,543,casual,moderno,10.4167,11.858,-0.118891
+categoria,rings,top,543,classico,casual,81.3333,89.8748,-0.0987064
+categoria,rings,top,543,classico,classico,28.75,23.0313,0.213472
+categoria,rings,top,543,classico,esportivo,1.83333,1.67587,0.0571775
+categoria,rings,top,543,classico,romantico,16.25,18.0516,-0.0993371
+categoria,rings,top,543,classico,moderno,27.8333,23.3665,0.168324
+categoria,rings,top,543,romantico,casual,36.25,32.9349,0.0932086
+categoria,rings,top,543,romantico,classico,6.16667,8.43989,-0.275504
+categoria,rings,top,543,romantico,esportivo,0.666667,0.614129,0.0320299
+categoria,rings,top,543,romantico,romantico,8.75,6.61505,0.247141
+categoria,rings,top,543,romantico,moderno,5.33333,8.56272,-0.412045
+categoria,rings,top,543,moderno,casual,147,144.414,0.0176263
+categoria,rings,top,543,moderno,classico,37.75,37.0076,0.0193454
+categoria,rings,top,543,moderno,esportivo,3.08333,2.69286,0.100513
+categoria,rings,top,543,moderno,romantico,25.0833,29.0059,-0.140099
+categoria,rings,top,543,moderno,moderno,37.75,37.5461,0.00527472
+categoria,rings,watch,70,casual,casual,1.5,1.11905,0.165324
+categoria,rings,watch,70,casual,classico,4,3.7619,0.0487902
+categoria,rings,watch,70,casual,romantico,0.5,0.357143,0.100083
+categoria,rings,watch,70,casual,moderno,4,4.7619,-0.14183
+categoria,rings,watch,70,classico,casual,3.16667,2.40595,0.201592
+categoria,rings,watch,70,classico,classico,10.6667,8.0881,0.24977
+categoria,rings,watch,70,classico,romantico,0.5,0.767857,-0.164303
+categoria,rings,watch,70,classico,moderno,7.16667,10.2381,-0.319249
+categoria,rings,watch,70,romantico,casual,1.5,1.62262,-0.0478827
+categoria,rings,watch,70,romantico,classico,3.5,5.45476,-0.360741
+categoria,rings,watch,70,romantico,romantico,1.5,0.517857,0.498991
+categoria,rings,watch,70,romantico,moderno,8,6.90476,0.129759
+categoria,rings,watch,70,moderno,casual,1.66667,2.68571,-0.323635
+categoria,rings,watch,70,moderno,classico,8.16667,9.02857,-0.0898644
+categoria,rings,watch,70,moderno,romantico,0,0.857143,-0.619039
+categoria,rings,watch,70,moderno,moderno,14.1667,11.4286,0.199102
+categoria,shoes,skirt,834,casual,casual,143.833,135.671,0.0580053
+categoria,shoes,skirt,834,casual,classico,48.3333,50.6383,-0.0456641
+categoria,shoes,skirt,834,casual,esportivo,0.75,0.723405,0.015314
+categoria,shoes,skirt,834,casual,romantico,52.25,52.0194,0.00434053
+categoria,shoes,skirt,834,casual,moderno,83.9167,90.031,-0.0695296
+categoria,shoes,skirt,834,classico,casual,21.6667,21.335,0.0147413
+categoria,shoes,skirt,834,classico,classico,11.1667,7.96313,0.305581
+categoria,shoes,skirt,834,classico,esportivo,0,0.113759,-0.107741
+categoria,shoes,skirt,834,classico,romantico,7.16667,8.18031,-0.117
+categoria,shoes,skirt,834,classico,moderno,11.75,14.1578,-0.172986
+categoria,shoes,skirt,834,esportivo,casual,6.91667,5.39387,0.213631
+categoria,shoes,skirt,834,esportivo,classico,1.08333,2.01322,-0.369041
+categoria,shoes,skirt,834,esportivo,esportivo,0.25,0.0287603,0.194789
+categoria,shoes,skirt,834,esportivo,romantico,1,2.06813,-0.427921
+categoria,shoes,skirt,834,esportivo,moderno,3.83333,3.57935,0.0539786
+categoria,shoes,skirt,834,romantico,casual,28,31.8822,-0.125636
+categoria,shoes,skirt,834,romantico,classico,11.1667,11.8998,-0.0585129
+categoria,shoes,skirt,834,romantico,esportivo,0,0.169997,-0.157001
+categoria,shoes,skirt,834,romantico,romantico,17.75,12.2244,0.349134
+categoria,shoes,skirt,834,romantico,moderno,20.4167,21.1569,-0.0339814
+categoria,shoes,skirt,834,moderno,casual,143.417,149.551,-0.0415993
+categoria,shoes,skirt,834,moderno,classico,56.5833,55.8188,0.0133651
+categoria,shoes,skirt,834,moderno,esportivo,0.833333,0.797412,0.0197879
+categoria,shoes,skirt,834,moderno,romantico,53.6667,57.3412,-0.065054
+categoria,shoes,skirt,834,moderno,moderno,108.25,99.2416,0.086056
+categoria,shoes,top,4458,casual,casual,1250.06,1218.2,0.0257953
+categoria,shoes,top,4458,casual,classico,337.764,345.259,-0.0218823
+categoria,shoes,top,4458,casual,esportivo,23.7917,24.5387,-0.0296879
+categoria,shoes,top,4458,casual,romantico,177.194,174.658,0.014337
+categoria,shoes,top,4458,casual,moderno,298.194,324.348,-0.0838016
+categoria,shoes,top,4458,classico,casual,161.778,158.768,0.0186609
+categoria,shoes,top,4458,classico,classico,46.2361,44.9978,0.026566
+categoria,shoes,top,4458,classico,esportivo,3.20833,3.19815,0.00242377
+categoria,shoes,top,4458,classico,romantico,19.5833,22.7633,-0.14366
+categoria,shoes,top,4458,classico,moderno,41.1944,42.2725,-0.025228
+categoria,shoes,top,4458,esportivo,casual,81.4722,79.7733,0.0208149
+categoria,shoes,top,4458,esportivo,classico,21.3472,22.6092,-0.054933
+categoria,shoes,top,4458,esportivo,esportivo,2.29167,1.60691,0.233228
+categoria,shoes,top,4458,esportivo,romantico,7.75,11.4374,-0.351657
+categoria,shoes,top,4458,esportivo,moderno,23.8056,21.2398,0.109182
+categoria,shoes,top,4458,romantico,casual,162.889,161.298,0.00975605
+categoria,shoes,top,4458,romantico,classico,41.8056,45.7146,-0.0873896
+categoria,shoes,top,4458,romantico,esportivo,1.75,3.2491,-0.435105
+categoria,shoes,top,4458,romantico,romantico,39.7778,23.1259,0.52485
+categoria,shoes,top,4458,romantico,moderno,30.1111,42.9459,-0.345395
+categoria,shoes,top,4458,moderno,casual,945.972,984.13,-0.0395042
+categoria,shoes,top,4458,moderno,classico,290.347,278.92,0.0400122
+categoria,shoes,top,4458,moderno,esportivo,21.375,19.8238,0.0718477
+categoria,shoes,top,4458,moderno,romantico,128.778,141.099,-0.0906991
+categoria,shoes,top,4458,moderno,moderno,299.528,262.027,0.133283
+categoria,shoes,watch,269,casual,casual,22.0833,16.3699,0.28437
+categoria,shoes,watch,269,casual,classico,57.8333,58.9005,-0.0179755
+categoria,shoes,watch,269,casual,esportivo,2,0.939901,0.435975
+categoria,shoes,watch,269,casual,romantico,2.25,3.28965,-0.277551
+categoria,shoes,watch,269,casual,moderno,42.25,46.9167,-0.102467
+categoria,shoes,watch,269,classico,casual,1.75,2.23374,-0.162037
+categoria,shoes,watch,269,classico,classico,5.41667,8.03717,-0.342448
+categoria,shoes,watch,269,classico,esportivo,0,0.128253,-0.12067
+categoria,shoes,watch,269,classico,romantico,1,0.448885,0.322353
+categoria,shoes,watch,269,classico,moderno,9.08333,6.40195,0.30914
+categoria,shoes,watch,269,esportivo,casual,1.66667,1.8021,-0.0495385
+categoria,shoes,watch,269,esportivo,classico,7.75,6.4841,0.156273
+categoria,shoes,watch,269,esportivo,esportivo,0,0.10347,-0.0984594
+categoria,shoes,watch,269,esportivo,romantico,0.5,0.362144,0.0964054
+categoria,shoes,watch,269,esportivo,moderno,4,5.16486,-0.209427
+categoria,shoes,watch,269,romantico,casual,0,1.53232,-0.929136
+categoria,shoes,watch,269,romantico,classico,6.58333,5.51342,0.152088
+categoria,shoes,watch,269,romantico,esportivo,0,0.0879802,-0.0843229
+categoria,shoes,watch,269,romantico,romantico,1.5,0.307931,0.647845
+categoria,shoes,watch,269,romantico,moderno,3.75,4.39168,-0.126712
+categoria,shoes,watch,269,moderno,casual,9.33333,12.8952,-0.296171
+categoria,shoes,watch,269,moderno,classico,47.75,46.3982,0.0281213
+categoria,shoes,watch,269,moderno,esportivo,0,0.740397,-0.554113
+categoria,shoes,watch,269,moderno,romantico,1.75,2.59139,-0.266938
+categoria,shoes,watch,269,moderno,moderno,40.75,36.9581,0.0952158
+categoria,skirt,top,2059,casual,casual,453.694,443.207,0.0233339
+categoria,skirt,top,2059,casual,classico,146.278,147.875,-0.0107833
+categoria,skirt,top,2059,casual,esportivo,7.44444,8.35586,-0.102494
+categoria,skirt,top,2059,casual,romantico,107.5,107.274,0.00208487
+categoria,skirt,top,2059,casual,moderno,141.75,149.955,-0.0558856
+categoria,skirt,top,2059,classico,casual,171.903,172.109,-0.00119406
+categoria,skirt,top,2059,classico,classico,61.8194,57.4236,0.072544
+categoria,skirt,top,2059,classico,esportivo,4.81944,3.24481,0.315509
+categoria,skirt,top,2059,classico,romantico,36.8333,41.6574,-0.12001
+categoria,skirt,top,2059,classico,moderno,57.2917,58.2315,-0.015994
+categoria,skirt,top,2059,esportivo,casual,2.27778,1.98322,0.0941611
+categoria,skirt,top,2059,esportivo,classico,0.277778,0.661695,-0.262716
+categoria,skirt,top,2059,esportivo,esportivo,0.277778,0.03739,0.208414
+categoria,skirt,top,2059,esportivo,romantico,0,0.48002,-0.392056
+categoria,skirt,top,2059,esportivo,moderno,1,0.671004,0.179723
+categoria,skirt,top,2059,romantico,casual,163.125,168.919,-0.0346932
+categoria,skirt,top,2059,romantico,classico,52.2083,56.3592,-0.0751178
+categoria,skirt,top,2059,romantico,esportivo,2.79167,3.18466,-0.098619
+categoria,skirt,top,2059,romantico,romantico,51.6667,40.8852,0.229051
+categoria,skirt,top,2059,romantico,moderno,56.7083,57.152,-0.0076593
+categoria,skirt,top,2059,moderno,casual,274.25,279.031,-0.0172205
+categoria,skirt,top,2059,moderno,classico,94.8333,93.0976,0.0182775
+categoria,skirt,top,2059,moderno,esportivo,4.75,5.26062,-0.0850789
+categoria,skirt,top,2059,moderno,romantico,61.8333,67.5367,-0.086884
+categoria,skirt,top,2059,moderno,moderno,103.667,94.4073,0.0926251
+categoria,skirt,watch,101,casual,casual,5.41667,5.21452,0.03201
+categoria,skirt,watch,101,casual,classico,18.9167,17.2937,0.0849986
+categoria,skirt,watch,101,casual,romantico,1.75,1.58416,0.062201
+categoria,skirt,watch,101,casual,moderno,13.9167,15.9076,-0.125284
+categoria,skirt,watch,101,classico,casual,1.5,2.34653,-0.291635
+categoria,skirt,watch,101,classico,classico,8.5,7.78218,0.0785673
+categoria,skirt,watch,101,classico,romantico,0.5,0.712871,-0.132706
+categoria,skirt,watch,101,classico,moderno,7.5,7.15842,0.0410162
+categoria,skirt,watch,101,romantico,casual,2.25,1.7599,0.16346
+categoria,skirt,watch,101,romantico,classico,5.25,5.83663,-0.089714
+categoria,skirt,watch,101,romantico,romantico,0.75,0.534653,0.131311
+categoria,skirt,watch,101,romantico,moderno,5.25,5.36881,-0.0188315
+categoria,skirt,watch,101,moderno,casual,4,3.84571,0.0313442
+categoria,skirt,watch,101,moderno,classico,11,12.7541,-0.136432
+categoria,skirt,watch,101,moderno,romantico,1,1.16832,-0.080804
+categoria,skirt,watch,101,moderno,moderno,13.5,11.7318,0.130042
+categoria,top,watch,524,casual,casual,41.3333,38.8601,0.0601989
+categoria,top,watch,524,casual,classico,121.667,125.162,-0.0280987
+categoria,top,watch,524,casual,esportivo,1.33333,1.63926,-0.123201
+categoria,top,watch,524,casual,romantico,7.25,7.52131,-0.0323569
+categoria,top,watch,524,casual,moderno,131.583,129.984,0.0121387
+categoria,top,watch,524,classico,casual,12.5,12.6044,-0.00770592
+categoria,top,watch,524,classico,classico,43.5,40.5969,0.0674634
+categoria,top,watch,524,classico,esportivo,0,0.531701,-0.426379
+categoria,top,watch,524,classico,romantico,0.75,2.43957,-0.67573
+categoria,top,watch,524,classico,moderno,41.5833,42.1607,-0.0134681
+categoria,top,watch,524,esportivo,casual,0.25,1.13226,-0.53404
+categoria,top,watch,524,esportivo,classico,3.66667,3.64684,0.00425751
+categoria,top,watch,524,esportivo,esportivo,0.5,0.0477629,0.358808
+categoria,top,watch,524,esportivo,romantico,0,0.219148,-0.198152
+categoria,top,watch,524,esportivo,moderno,4.41667,3.78732,0.12351
+categoria,top,watch,524,romantico,casual,3.58333,4.69996,-0.218032
+categoria,top,watch,524,romantico,classico,18.25,15.1378,0.176345
+categoria,top,watch,524,romantico,esportivo,0,0.198261,-0.180872
+categoria,top,watch,524,romantico,romantico,2,0.909669,0.451682
+categoria,top,watch,524,romantico,moderno,12.8333,15.7209,-0.189581
+categoria,top,watch,524,moderno,casual,9.5,9.86991,-0.0346233
+categoria,top,watch,524,moderno,classico,29.25,31.7894,-0.0806103
+categoria,top,watch,524,moderno,esportivo,1,0.416349,0.345065
+categoria,top,watch,524,moderno,romantico,3,1.91031,0.318036
+categoria,top,watch,524,moderno,moderno,34.25,33.014,0.0356935
+grupo,acessorio,acessorio,3813,casual,casual,452,420.672,0.0716644
+grupo,acessorio,acessorio,3813,casual,classico,288.792,290.689,-0.00652717
+grupo,acessorio,acessorio,3813,casual,esportivo,2.625,3.34921,-0.18214
+grupo,acessorio,acessorio,3813,casual,romantico,132.458,119.049,0.105887
+grupo,acessorio,acessorio,3813,casual,moderno,390.625,432.74,-0.102141
+grupo,acessorio,acessorio,3813,classico,classico,224,200.87,0.108477
+grupo,acessorio,acessorio,3813,classico,esportivo,3.08333,2.31434,0.208654
+grupo,acessorio,acessorio,3813,classico,romantico,75,82.2644,-0.0912883
+grupo,acessorio,acessorio,3813,classico,moderno,284.292,299.029,-0.050366
+grupo,acessorio,acessorio,3813,esportivo,esportivo,0,0.026665,-0.0263157
+grupo,acessorio,acessorio,3813,esportivo,romantico,0.375,0.947819,-0.348257
+grupo,acessorio,acessorio,3813,esportivo,moderno,4,3.44529,0.117592
+grupo,acessorio,acessorio,3813,romantico,romantico,49.6667,33.6907,0.378798
+grupo,acessorio,acessorio,3813,romantico,moderno,100.917,122.465,-0.191798
+grupo,acessorio,acessorio,3813,moderno,moderno,523,445.155,0.160826
+grupo,acessorio,parte de baixo,5365,casual,casual,1261.69,1246.04,0.0124787
+grupo,acessorio,parte de baixo,5365,casual,classico,142.278,149.201,-0.0471898
+grupo,acessorio,parte de baixo,5365,casual,esportivo,14.3333,14.0945,0.0156993
+grupo,acessorio,parte de baixo,5365,casual,romantico,109.444,107.684,0.0160656
+grupo,acessorio,parte de baixo,5365,casual,moderno,370.583,381.318,-0.0284793
+grupo,acessorio,parte de baixo,5365,classico,casual,771.694,780.988,-0.0119551
+grupo,acessorio,parte de baixo,5365,classico,classico,90.7778,93.5159,-0.0293984
+grupo,acessorio,parte de baixo,5365,classico,esportivo,7.16667,8.83412,-0.185797
+grupo,acessorio,parte de baixo,5365,classico,romantico,74.3611,67.4941,0.0955435
+grupo,acessorio,parte de baixo,5365,classico,moderno,245.833,239.002,0.0280676
+grupo,acessorio,parte de baixo,5365,esportivo,casual,14.0833,11.8149,0.162981
+grupo,acessorio,parte de baixo,5365,esportivo,classico,0.75,1.41473,-0.32197
+grupo,acessorio,parte de baixo,5365,esportivo,esportivo,0.416667,0.133644,0.222869
+grupo,acessorio,parte de baixo,5365,esportivo,romantico,0,1.02106,-0.703623
+grupo,acessorio,parte de baixo,5365,esportivo,moderno,2.75,3.61566,-0.207698
+grupo,acessorio,parte de baixo,5365,romantico,casual,314.167,307.516,0.0213283
+grupo,acessorio,parte de baixo,5365,romantico,classico,37.9167,36.8221,0.0285277
+grupo,acessorio,parte de baixo,5365,romantico,esportivo,4.08333,3.47846,0.126689
+grupo,acessorio,parte de baixo,5365,romantico,romantico,37.5,26.576,0.333713
+grupo,acessorio,parte de baixo,5365,romantico,moderno,74.8333,94.1075,-0.22647
+grupo,acessorio,parte de baixo,5365,moderno,casual,1159.86,1175.15,-0.013081
+grupo,acessorio,parte de baixo,5365,moderno,classico,149.944,140.713,0.0631097
+grupo,acessorio,parte de baixo,5365,moderno,esportivo,13.8333,13.2926,0.0371331
+grupo,acessorio,parte de baixo,5365,moderno,romantico,83.0278,101.558,-0.19928
+grupo,acessorio,parte de baixo,5365,moderno,moderno,383.667,359.624,0.0645414
+grupo,acessorio,parte de cima,11242,casual,casual,2206.56,2131.07,0.034793
+grupo,acessorio,parte de cima,11242,casual,classico,669.319,663.385,0.00889205
+grupo,acessorio,parte de cima,11242,casual,esportivo,52.6667,57.8268,-0.0918047
+grupo,acessorio,parte de cima,11242,casual,romantico,304.667,310.936,-0.0203038
+grupo,acessorio,parte de cima,11242,casual,moderno,857.542,927.533,-0.0783703
+grupo,acessorio,parte de cima,11242,classico,casual,1232.86,1265.34,-0.0259824
+grupo,acessorio,parte de cima,11242,classico,classico,432.111,393.891,0.0923857
+grupo,acessorio,parte de cima,11242,classico,esportivo,31.5139,34.3351,-0.0832098
+grupo,acessorio,parte de cima,11242,classico,romantico,189.167,184.621,0.0241939
+grupo,acessorio,parte de cima,11242,classico,moderno,543.264,550.73,-0.0136249
+grupo,acessorio,parte de cima,11242,esportivo,casual,30.3889,24.8753,0.193166
+grupo,acessorio,parte de cima,11242,esportivo,classico,4.23611,7.74348,-0.512729
+grupo,acessorio,parte de cima,11242,esportivo,esportivo,2.05556,0.674993,0.601152
+grupo,acessorio,parte de cima,11242,esportivo,romantico,2.83333,3.62946,-0.188705
+grupo,acessorio,parte de cima,11242,esportivo,moderno,8.23611,10.8268,-0.247246
+grupo,acessorio,parte de cima,11242,romantico,casual,475.986,482.398,-0.0133531
+grupo,acessorio,parte de cima,11242,romantico,classico,130.444,150.167,-0.1398
+grupo,acessorio,parte de cima,11242,romantico,esportivo,12.5833,13.0899,-0.0366158
+grupo,acessorio,parte de cima,11242,romantico,romantico,103.5,70.3849,0.381101
+grupo,acessorio,parte de cima,11242,romantico,moderno,203.486,209.96,-0.03117
+grupo,acessorio,parte de cima,11242,moderno,casual,1910.71,1952.82,-0.0217881
+grupo,acessorio,parte de cima,11242,moderno,classico,586.972,607.897,-0.0349697
+grupo,acessorio,parte de cima,11242,moderno,esportivo,60.0972,52.9899,0.12367
+grupo,acessorio,parte de cima,11242,moderno,romantico,254.333,284.928,-0.113171
+grupo,acessorio,parte de cima,11242,moderno,moderno,936.472,849.95,0.0968336
+grupo,acessorio,peca unica,1598,casual,casual,209.833,181.803,0.14266
+grupo,acessorio,peca unica,1598,casual,classico,108.583,118.767,-0.0888658
+grupo,acessorio,peca unica,1598,casual,esportivo,0.25,0.337088,-0.0673506
+grupo,acessorio,peca unica,1598,casual,romantico,128.75,133.206,-0.0337661
+grupo,acessorio,peca unica,1598,casual,moderno,91.25,104.553,-0.134715
+grupo,acessorio,peca unica,1598,classico,casual,122.083,130.333,-0.0648765
+grupo,acessorio,peca unica,1598,classico,classico,94.1667,85.1435,0.0996147
+grupo,acessorio,peca unica,1598,classico,esportivo,0.5,0.241656,0.189019
+grupo,acessorio,peca unica,1598,classico,romantico,91.8333,95.4945,-0.0386801
+grupo,acessorio,peca unica,1598,classico,moderno,77.5833,74.9537,0.0340356
+grupo,acessorio,peca unica,1598,esportivo,casual,1.08333,0.787512,0.153144
+grupo,acessorio,peca unica,1598,esportivo,classico,0.5,0.514463,-0.0095955
+grupo,acessorio,peca unica,1598,esportivo,esportivo,0.25,0.00146016,0.221684
+grupo,acessorio,peca unica,1598,esportivo,romantico,0.5,0.577006,-0.050063
+grupo,acessorio,peca unica,1598,esportivo,moderno,0,0.452893,-0.373556
+grupo,acessorio,peca unica,1598,romantico,casual,48.0833,57.3196,-0.172419
+grupo,acessorio,peca unica,1598,romantico,classico,41.5,37.4455,0.100262
+grupo,acessorio,peca unica,1598,romantico,esportivo,0,0.106279,-0.101002
+grupo,acessorio,peca unica,1598,romantico,romantico,53,41.9978,0.227835
+grupo,acessorio,peca unica,1598,romantico,moderno,27.25,32.9641,-0.184211
+grupo,acessorio,peca unica,1598,moderno,casual,158.25,169.09,-0.0658531
+grupo,acessorio,peca unica,1598,moderno,classico,107.583,110.462,-0.0261699
+grupo,acessorio,peca unica,1598,moderno,esportivo,0,0.313517,-0.272708
+grupo,acessorio,peca unica,1598,moderno,romantico,121.083,123.891,-0.0227409
+grupo,acessorio,peca unica,1598,moderno,moderno,114.083,97.2425,0.158218
+grupo,bolsa,parte de baixo,3956,casual,casual,1003.36,949.897,0.0547007
+grupo,bolsa,parte de baixo,3956,casual,classico,113.944,122.274,-0.0699646
+grupo,bolsa,parte de baixo,3956,casual,esportivo,14.25,13.8694,0.025275
+grupo,bolsa,parte de baixo,3956,casual,romantico,90.1667,96.9613,-0.0718833
+grupo,bolsa,parte de baixo,3956,casual,moderno,254.528,293.247,-0.14109
+grupo,bolsa,parte de baixo,3956,classico,casual,329.194,341.834,-0.0375658
+grupo,bolsa,parte de baixo,3956,classico,classico,47.7778,44.0023,0.0805623
+grupo,bolsa,parte de baixo,3956,classico,esportivo,6,4.9911,0.155635
+grupo,bolsa,parte de baixo,3956,classico,romantico,33.75,34.8929,-0.032361
+grupo,bolsa,parte de baixo,3956,classico,moderno,114.528,105.529,0.0810908
+grupo,bolsa,parte de baixo,3956,esportivo,casual,18.5,15.282,0.180354
+grupo,bolsa,parte de baixo,3956,esportivo,classico,1.83333,1.96716,-0.0461513
+grupo,bolsa,parte de baixo,3956,esportivo,esportivo,0.5,0.223132,0.204051
+grupo,bolsa,parte de baixo,3956,esportivo,romantico,0.416667,1.55992,-0.591669
+grupo,bolsa,parte de baixo,3956,esportivo,moderno,2.5,4.71778,-0.490818
+grupo,bolsa,parte de baixo,3956,romantico,casual,181.083,178.665,0.013368
+grupo,bolsa,parte de baixo,3956,romantico,classico,22.6667,22.9985,-0.0139242
+grupo,bolsa,parte de baixo,3956,romantico,esportivo,0.75,2.60868,-0.723727
+grupo,bolsa,parte de baixo,3956,romantico,romantico,31.25,18.2374,0.516663
+grupo,bolsa,parte de baixo,3956,romantico,moderno,41.9167,55.1567,-0.268885
+grupo,bolsa,parte de baixo,3956,moderno,casual,1013.36,1059.82,-0.0447839
+grupo,bolsa,parte de baixo,3956,moderno,classico,141.444,136.424,0.0358793
+grupo,bolsa,parte de baixo,3956,moderno,esportivo,15.6667,15.4744,0.011605
+grupo,bolsa,parte de baixo,3956,moderno,romantico,104.25,108.182,-0.0366758
+grupo,bolsa,parte de baixo,3956,moderno,moderno,372.361,327.182,0.128977
+grupo,bolsa,peca unica,1269,casual,casual,178.583,153.232,0.152178
+grupo,bolsa,peca unica,1269,casual,classico,77,84.3111,-0.0895954
+grupo,bolsa,peca unica,1269,casual,esportivo,0.25,0.498227,-0.181139
+grupo,bolsa,peca unica,1269,casual,romantico,110.5,105.679,0.0441958
+grupo,bolsa,peca unica,1269,casual,moderno,55.1667,77.7788,-0.33832
+grupo,bolsa,peca unica,1269,classico,casual,62.9167,64.5285,-0.024905
+grupo,bolsa,peca unica,1269,classico,classico,41.9167,35.5047,0.16182
+grupo,bolsa,peca unica,1269,classico,esportivo,0,0.209811,-0.190464
+grupo,bolsa,peca unica,1269,classico,romantico,38.25,44.5032,-0.147832
+grupo,bolsa,peca unica,1269,classico,moderno,34.4167,32.7538,0.0480893
+grupo,bolsa,peca unica,1269,esportivo,casual,0.5,0.484721,0.0102381
+grupo,bolsa,peca unica,1269,esportivo,classico,0.333333,0.266702,0.0512656
+grupo,bolsa,peca unica,1269,esportivo,esportivo,0,0.00157604,-0.0015748
+grupo,bolsa,peca unica,1269,esportivo,romantico,0.5,0.334296,0.117061
+grupo,bolsa,peca unica,1269,esportivo,moderno,0,0.246038,-0.219969
+grupo,bolsa,peca unica,1269,romantico,casual,46.0833,44.7155,0.0294811
+grupo,bolsa,peca unica,1269,romantico,classico,21.4167,24.6032,-0.132914
+grupo,bolsa,peca unica,1269,romantico,esportivo,0.25,0.14539,0.0873983
+grupo,bolsa,peca unica,1269,romantico,romantico,32.1667,30.8388,0.0408581
+grupo,bolsa,peca unica,1269,romantico,moderno,23.0833,22.697,0.0161713
+grupo,bolsa,peca unica,1269,moderno,casual,173.25,198.372,-0.134682
+grupo,bolsa,peca unica,1269,moderno,classico,113.167,109.148,0.0358375
+grupo,bolsa,peca unica,1269,moderno,esportivo,1,0.644996,0.195409
+grupo,bolsa,peca unica,1269,moderno,romantico,136.75,136.811,-0.000441506
+grupo,bolsa,peca unica,1269,moderno,moderno,121.5,100.691,0.186172
+grupo,calcado,parte de baixo,3162,casual,casual,1054.42,990.733,0.0622367
+grupo,calcado,parte de baixo,3162,casual,classico,101.5,111.749,-0.0952976
+grupo,calcado,parte de baixo,3162,casual,esportivo,19.4167,16.8795,0.132696
+grupo,calcado,parte de baixo,3162,casual,romantico,70.75,76.8955,-0.0821807
+grupo,calcado,parte de baixo,3162,casual,moderno,236.5,286.326,-0.190451
+grupo,calcado,parte de baixo,3162,classico,casual,122.722,126.132,-0.0271854
+grupo,calcado,parte de baixo,3162,classico,classico,20.0833,14.2269,0.32542
+grupo,calcado,parte de baixo,3162,classico,esportivo,1.97222,2.14896,-0.0577612
+grupo,calcado,parte de baixo,3162,classico,romantico,11.0833,9.78969,0.113236
+grupo,calcado,parte de baixo,3162,classico,moderno,32.8889,36.4527,-0.0999907
+grupo,calcado,parte de baixo,3162,esportivo,casual,69.5556,63.6506,0.0874028
+grupo,calcado,parte de baixo,3162,esportivo,classico,5.83333,7.1794,-0.179806
+grupo,calcado,parte de baixo,3162,esportivo,esportivo,1.97222,1.08444,0.35481
+grupo,calcado,parte de baixo,3162,esportivo,romantico,1.58333,4.94023,-0.832667
+grupo,calcado,parte de baixo,3162,esportivo,moderno,16.3056,18.3953,-0.114004
+grupo,calcado,parte de baixo,3162,romantico,casual,127.5,139.051,-0.0860796
+grupo,calcado,parte de baixo,3162,romantico,classico,18.9167,15.6841,0.177099
+grupo,calcado,parte de baixo,3162,romantico,esportivo,2.16667,2.36907,-0.0619573
+grupo,calcado,parte de baixo,3162,romantico,romantico,19.75,10.7924,0.565088
+grupo,calcado,parte de baixo,3162,romantico,moderno,39.75,40.1865,-0.0106535
+grupo,calcado,parte de baixo,3162,moderno,casual,738.806,793.433,-0.0712413
+grupo,calcado,parte de baixo,3162,moderno,classico,92,89.4943,0.0273122
+grupo,calcado,parte de baixo,3162,moderno,esportivo,10.4722,13.518,-0.235462
+grupo,calcado,parte de baixo,3162,moderno,romantico,60.8333,61.5821,-0.012037
+grupo,calcado,parte de baixo,3162,moderno,moderno,285.222,229.306,0.217361
+grupo,calcado,peca unica,906,casual,casual,137.667,115.866,0.171041
+grupo,calcado,peca unica,906,casual,classico,46,62.9948,-0.308654
+grupo,calcado,peca unica,906,casual,esportivo,0.5,0.182947,0.237456
+grupo,calcado,peca unica,906,casual,romantico,90.25,90.0709,0.00196449
+grupo,calcado,peca unica,906,casual,moderno,57.0833,62.3849,-0.0873474
+grupo,calcado,peca unica,906,classico,casual,20.8333,21.7286,-0.0401862
+grupo,calcado,peca unica,906,classico,classico,13.5833,11.8135,0.12938
+grupo,calcado,peca unica,906,classico,esportivo,0,0.0343083,-0.0337329
+grupo,calcado,peca unica,906,classico,romantico,15.0833,16.8911,-0.106521
+grupo,calcado,peca unica,906,classico,moderno,12.6667,11.6991,0.0734259
+grupo,calcado,peca unica,906,esportivo,casual,3.16667,2.3884,0.206759
+grupo,calcado,peca unica,906,esportivo,classico,0.916667,1.29853,-0.181684
+grupo,calcado,peca unica,906,esportivo,esportivo,0,0.00377116,-0.00376406
+grupo,calcado,peca unica,906,esportivo,romantico,2.25,1.85667,0.129
+grupo,calcado,peca unica,906,esportivo,moderno,0.5,1.28596,-0.421323
+grupo,calcado,peca unica,906,romantico,casual,38.75,43.632,-0.11584
+grupo,calcado,peca unica,906,romantico,classico,29.8333,23.722,0.220903
+grupo,calcado,peca unica,906,romantico,esportivo,0,0.0688926,-0.0666231
+grupo,calcado,peca unica,906,romantico,romantico,44.3333,33.9181,0.261037
+grupo,calcado,peca unica,906,romantico,moderno,11.9167,23.4924,-0.639843
+grupo,calcado,peca unica,906,moderno,casual,116.25,133.051,-0.133914
+grupo,calcado,peca unica,906,moderno,classico,81.8333,72.3379,0.121753
+grupo,calcado,peca unica,906,moderno,esportivo,0,0.210081,-0.190687
+grupo,calcado,peca unica,906,moderno,romantico,94.25,103.43,-0.0920105
+grupo,calcado,peca unica,906,moderno,moderno,88.3333,71.6376,0.206892
+grupo,parte de baixo,parte de baixo,89,casual,casual,40.1667,38.8917,0.0314606
+grupo,parte de baixo,parte de baixo,89,casual,classico,4.625,4.7926,-0.0293608
+grupo,parte de baixo,parte de baixo,89,casual,esportivo,1.33333,1.26701,0.0288361
+grupo,parte de baixo,parte de baixo,89,casual,romantico,3.70833,3.36033,0.0767861
+grupo,parte de baixo,parte de baixo,89,casual,moderno,9,10.5217,-0.141646
+grupo,parte de baixo,parte de baixo,89,classico,classico,0.75,0.59059,0.0955108
+grupo,parte de baixo,parte de baixo,89,classico,esportivo,0.291667,0.156133,0.110853
+grupo,parte de baixo,parte de baixo,89,classico,romantico,0,0.414092,-0.346487
+grupo,parte de baixo,parte de baixo,89,classico,moderno,1.58333,1.29658,0.117658
+grupo,parte de baixo,parte de baixo,89,esportivo,esportivo,0,0.0412765,-0.0404474
+grupo,parte de baixo,parte de baixo,89,esportivo,romantico,0.125,0.109473,0.0138983
+grupo,parte de baixo,parte de baixo,89,esportivo,moderno,0.166667,0.342775,-0.140587
+grupo,parte de baixo,parte de baixo,89,romantico,romantico,0,0.29034,-0.254906
+grupo,parte de baixo,parte de baixo,89,romantico,moderno,1.25,0.909098,0.164299
+grupo,parte de baixo,parte de baixo,89,moderno,moderno,3.91667,2.84652,0.245462
+grupo,parte de baixo,parte de cima,9750,casual,casual,3482.72,3393.88,0.0258328
+grupo,parte de baixo,parte de cima,9750,casual,classico,1036.9,1043.24,-0.00608405
+grupo,parte de baixo,parte de cima,9750,casual,esportivo,95.5972,90.4157,0.0551332
+grupo,parte de baixo,parte de cima,9750,casual,romantico,483.75,500.253,-0.0334773
+grupo,parte de baixo,parte de cima,9750,casual,moderno,1269.86,1341.05,-0.0545019
+grupo,parte de baixo,parte de cima,9750,classico,casual,409.097,428.087,-0.0452664
+grupo,parte de baixo,parte de cima,9750,classico,classico,146.486,131.589,0.106482
+grupo,parte de baixo,parte de cima,9750,classico,esportivo,11.8472,11.4046,0.0350613
+grupo,parte de baixo,parte de cima,9750,classico,romantico,58.5833,63.0994,-0.0730596
+grupo,parte de baixo,parte de cima,9750,classico,moderno,177.319,169.153,0.0468776
+grupo,parte de baixo,parte de cima,9750,esportivo,casual,57.0278,51.9567,0.0914479
+grupo,parte de baixo,parte de cima,9750,esportivo,classico,9.94444,15.9708,-0.438664
+grupo,parte de baixo,parte de cima,9750,esportivo,esportivo,2.69444,1.38417,0.437981
+grupo,parte de baixo,parte de cima,9750,esportivo,romantico,5.5,7.65833,-0.28672
+grupo,parte de baixo,parte de cima,9750,esportivo,moderno,22.3333,20.53,0.0804356
+grupo,parte de baixo,parte de cima,9750,romantico,casual,263.583,288.382,-0.0895903
+grupo,parte de baixo,parte de cima,9750,romantico,classico,88.5,88.645,-0.00161824
+grupo,parte de baixo,parte de cima,9750,romantico,esportivo,4.95833,7.68272,-0.376544
+grupo,parte de baixo,parte de cima,9750,romantico,romantico,71.7083,42.507,0.513534
+grupo,parte de baixo,parte de cima,9750,romantico,moderno,112.417,113.95,-0.0134313
+grupo,parte de baixo,parte de cima,9750,moderno,casual,983.236,1033.36,-0.0496727
+grupo,parte de baixo,parte de cima,9750,moderno,classico,315.25,317.642,-0.00753558
+grupo,parte de baixo,parte de cima,9750,moderno,esportivo,23.3194,27.5295,-0.159664
+grupo,parte de baixo,parte de cima,9750,moderno,romantico,146.292,152.316,-0.0400847
+grupo,parte de baixo,parte de cima,9750,moderno,moderno,471.069,408.319,0.142632
+grupo,parte de baixo,peca unica,191,casual,casual,42.8611,41.7805,0.0249447
+grupo,parte de baixo,peca unica,191,casual,classico,23.4167,23.7075,-0.0118422
+grupo,parte de baixo,peca unica,191,casual,esportivo,0.25,0.318935,-0.0536814
+grupo,parte de baixo,peca unica,191,casual,romantico,38.1111,36.6776,0.0373415
+grupo,parte de baixo,peca unica,191,casual,moderno,17.1944,19.3487,-0.111903
+grupo,parte de baixo,peca unica,191,classico,casual,3.44444,3.88656,-0.0948341
+grupo,parte de baixo,peca unica,191,classico,classico,2.33333,2.20535,0.0391509
+grupo,parte de baixo,peca unica,191,classico,esportivo,0,0.0296684,-0.0292368
+grupo,parte de baixo,peca unica,191,classico,romantico,2.44444,3.41187,-0.247535
+grupo,parte de baixo,peca unica,191,classico,moderno,3.11111,1.79988,0.384115
+grupo,parte de baixo,peca unica,191,esportivo,casual,0.416667,0.514398,-0.0667112
+grupo,parte de baixo,peca unica,191,esportivo,classico,0.25,0.291885,-0.0329587
+grupo,parte de baixo,peca unica,191,esportivo,esportivo,0,0.0039267,-0.00391901
+grupo,parte de baixo,peca unica,191,esportivo,romantico,0.166667,0.451571,-0.218496
+grupo,parte de baixo,peca unica,191,esportivo,moderno,0.666667,0.23822,0.297151
+grupo,parte de baixo,peca unica,191,romantico,casual,5.41667,6.17277,-0.111394
+grupo,parte de baixo,peca unica,191,romantico,classico,5.91667,3.50262,0.429275
+grupo,parte de baixo,peca unica,191,romantico,esportivo,0,0.0471204,-0.0460439
+grupo,parte de baixo,peca unica,191,romantico,romantico,4.66667,5.41885,-0.124638
+grupo,parte de baixo,peca unica,191,romantico,moderno,2,2.85864,-0.251702
+grupo,parte de baixo,peca unica,191,moderno,casual,13.3611,13.1457,0.0151115
+grupo,parte de baixo,peca unica,191,moderno,classico,5.25,7.45928,-0.302682
+grupo,parte de baixo,peca unica,191,moderno,esportivo,0.25,0.100349,0.127516
+grupo,parte de baixo,peca unica,191,moderno,romantico,12.1111,11.5401,0.0445254
+grupo,parte de baixo,peca unica,191,moderno,moderno,7.36111,6.08784,0.16521
+grupo,parte de cima,peca unica,923,casual,casual,147.25,135.225,0.0845916
+grupo,parte de cima,peca unica,923,casual,classico,72.5,84.5769,-0.15213
+grupo,parte de cima,peca unica,923,casual,esportivo,1,0.769517,0.122441
+grupo,parte de cima,peca unica,923,casual,romantico,92.1667,91.8523,0.00337986
+grupo,parte de cima,peca unica,923,casual,moderno,74.5,74.9929,-0.00650723
+grupo,parte de cima,peca unica,923,classico,casual,54.9167,57.4467,-0.044252
+grupo,parte de cima,peca unica,923,classico,classico,44.0833,35.9302,0.199484
+grupo,parte de cima,peca unica,923,classico,esportivo,0,0.326908,-0.282851
+grupo,parte de cima,peca unica,923,classico,romantico,37,39.0209,-0.0518164
+grupo,parte de cima,peca unica,923,classico,moderno,28.5833,31.8587,-0.105005
+grupo,parte de cima,peca unica,923,esportivo,casual,4.33333,3.43226,0.185068
+grupo,parte de cima,peca unica,923,esportivo,classico,3.16667,2.14671,0.280758
+grupo,parte de cima,peca unica,923,esportivo,esportivo,0.166667,0.0195317,0.134807
+grupo,parte de cima,peca unica,923,esportivo,romantico,1.5,2.33138,-0.287095
+grupo,parte de cima,peca unica,923,esportivo,moderno,0.666667,1.90345,-0.555076
+grupo,parte de cima,peca unica,923,romantico,casual,19.6667,17.1322,0.130833
+grupo,parte de cima,peca unica,923,romantico,classico,6.83333,10.7154,-0.402514
+grupo,parte de cima,peca unica,923,romantico,esportivo,0,0.0974931,-0.0930286
+grupo,parte de cima,peca unica,923,romantico,romantico,13.6667,11.6371,0.148938
+grupo,parte de cima,peca unica,923,romantico,moderno,8.91667,9.50114,-0.0572673
+grupo,parte de cima,peca unica,923,moderno,casual,96,108.93,-0.125137
+grupo,parte de cima,peca unica,923,moderno,classico,74.9167,68.1309,0.0936349
+grupo,parte de cima,peca unica,923,moderno,esportivo,0.666667,0.619884,0.0284712
+grupo,parte de cima,peca unica,923,moderno,romantico,74.5,73.9916,0.0067567
+grupo,parte de cima,peca unica,923,moderno,moderno,66,60.4105,0.0871118

@@ -1,0 +1,31 @@
+tabela,lado_a,lado_b,pares,valor_a,valor_b,n,esperado,pontos
+categoria,dress,outerwear,5,medio,longo,1,1,0
+categoria,dress,outerwear,5,longo,longo,4,4,0
+categoria,dress,pants,17,curto,curto,0,1.05882,-0.722135
+categoria,dress,pants,17,curto,longo,3,1.94118,0.307485
+categoria,dress,pants,17,medio,curto,1,1.05882,-0.0289875
+categoria,dress,pants,17,medio,longo,2,1.94118,0.0198026
+categoria,dress,pants,17,longo,curto,5,3.88235,0.206132
+categoria,dress,pants,17,longo,longo,6,7.11765,-0.14813
+categoria,outerwear,pants,56,longo,curto,4,4,0
+categoria,outerwear,pants,56,longo,longo,52,52,0
+categoria,outerwear,skirt,17,longo,curto,8,8,0
+categoria,outerwear,skirt,17,longo,medio,6,6,0
+categoria,outerwear,skirt,17,longo,longo,3,3,0
+grupo,parte de baixo,parte de baixo,20,curto,curto,6,5.5125,0.0721867
+grupo,parte de baixo,parte de baixo,20,curto,medio,1,1.575,-0.252702
+grupo,parte de baixo,parte de baixo,20,curto,longo,3.5,3.4125,0.019636
+grupo,parte de baixo,parte de baixo,20,medio,medio,0,0.45,-0.371564
+grupo,parte de baixo,parte de baixo,20,medio,longo,2,0.975,0.418044
+grupo,parte de baixo,parte de baixo,20,longo,longo,1,2.1125,-0.442279
+grupo,parte de baixo,parte de cima,73,curto,longo,12,12,0
+grupo,parte de baixo,parte de cima,73,medio,longo,6,6,0
+grupo,parte de baixo,parte de cima,73,longo,longo,55,55,0
+grupo,parte de baixo,peca unica,20,curto,curto,0,1.6,-0.955511
+grupo,parte de baixo,peca unica,20,curto,medio,1,1.2,-0.0953102
+grupo,parte de baixo,peca unica,20,curto,longo,7,5.2,0.254892
+grupo,parte de baixo,peca unica,20,longo,curto,4,2.4,0.385662
+grupo,parte de baixo,peca unica,20,longo,medio,2,1.8,0.0689929
+grupo,parte de baixo,peca unica,20,longo,longo,6,7.8,-0.228842
+grupo,parte de cima,peca unica,5,longo,medio,1,1,0
+grupo,parte de cima,peca unica,5,longo,longo,4,4,0

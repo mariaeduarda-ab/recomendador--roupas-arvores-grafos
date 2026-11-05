@@ -1,0 +1,2406 @@
+tabela,lado_a,lado_b,pares,valor_a,valor_b,n,esperado,pontos
+categoria,bag,bracelet,2498,dia,dia,273.111,256.08,0.0641476
+categoria,bag,bracelet,2498,dia,trabalho,13.7778,14.3219,-0.0361588
+categoria,bag,bracelet,2498,dia,festa,468.111,484.524,-0.0343892
+categoria,bag,bracelet,2498,dia,praia,0.833333,0.907726,-0.0397762
+categoria,bag,bracelet,2498,trabalho,dia,40.9444,38.059,0.071272
+categoria,bag,bracelet,2498,trabalho,trabalho,3.11111,2.12855,0.273125
+categoria,bag,bracelet,2498,trabalho,festa,67.6944,72.0109,-0.0609398
+categoria,bag,bracelet,2498,trabalho,praia,0.583333,0.134908,0.332981
+categoria,bag,bracelet,2498,festa,dia,524.944,546.379,-0.039945
+categoria,bag,bracelet,2498,festa,trabalho,29.8611,30.5576,-0.0223176
+categoria,bag,bracelet,2498,festa,festa,1056.28,1033.79,0.0214953
+categoria,bag,bracelet,2498,festa,praia,1.58333,1.93675,-0.128223
+categoria,bag,bracelet,2498,esporte,dia,6.08333,4.96913,0.171143
+categoria,bag,bracelet,2498,esporte,trabalho,0.583333,0.277911,0.214305
+categoria,bag,bracelet,2498,esporte,festa,8,9.40201,-0.144775
+categoria,bag,bracelet,2498,esporte,praia,0,0.0176141,-0.0174608
+categoria,bag,bracelet,2498,praia,dia,1.25,0.847011,0.197362
+categoria,bag,bracelet,2498,praia,trabalho,0,0.0473712,-0.0462834
+categoria,bag,bracelet,2498,praia,festa,1.25,1.60262,-0.145587
+categoria,bag,bracelet,2498,praia,praia,0,0.0030024,-0.0029979
+categoria,bag,brooch,447,dia,dia,43.5,41.1338,0.0546391
+categoria,bag,brooch,447,dia,trabalho,2.75,3.68786,-0.22322
+categoria,bag,brooch,447,dia,festa,105.917,107.345,-0.013271
+categoria,bag,brooch,447,trabalho,dia,5.25,4.91083,0.055796
+categoria,bag,brooch,447,trabalho,trabalho,0,0.440281,-0.364838
+categoria,bag,brooch,447,trabalho,festa,12.9167,12.8156,0.00729163
+categoria,bag,brooch,447,festa,dia,71,73.9327,-0.0399243
+categoria,bag,brooch,447,festa,trabalho,7.83333,6.62845,0.146648
+categoria,bag,brooch,447,festa,festa,194.667,192.939,0.00886962
+categoria,bag,brooch,447,esporte,dia,1.08333,0.856015,0.115537
+categoria,bag,brooch,447,esporte,trabalho,0.25,0.0767462,0.1492
+categoria,bag,brooch,447,esporte,festa,1.83333,2.23391,-0.132237
+categoria,bag,dress,3596,dia,dia,170.306,143.361,0.171135
+categoria,bag,dress,3596,dia,trabalho,5.72222,5.63558,0.0129723
+categoria,bag,dress,3596,dia,festa,754.139,781.872,-0.0360676
+categoria,bag,dress,3596,dia,esporte,2.33333,1.73403,0.198198
+categoria,bag,dress,3596,dia,praia,2.83333,2.73109,0.0270343
+categoria,bag,dress,3596,trabalho,dia,21.3056,19.3123,0.0936096
+categoria,bag,dress,3596,trabalho,trabalho,1.55556,0.759177,0.373424
+categoria,bag,dress,3596,trabalho,festa,102.389,105.327,-0.028022
+categoria,bag,dress,3596,trabalho,esporte,0.333333,0.233593,0.0777511
+categoria,bag,dress,3596,trabalho,praia,0.416667,0.367909,0.0350236
+categoria,bag,dress,3596,festa,dia,358.889,386.476,-0.0738579
+categoria,bag,dress,3596,festa,trabalho,14.0556,15.1926,-0.0728057
+categoria,bag,dress,3596,festa,festa,2137.31,2107.79,0.0138973
+categoria,bag,dress,3596,festa,esporte,4,4.67464,-0.126569
+categoria,bag,dress,3596,festa,praia,7.25,7.36256,-0.0135509
+categoria,bag,dress,3596,esporte,dia,0.666667,1.78818,-0.514562
+categoria,bag,dress,3596,esporte,trabalho,0.333333,0.0702942,0.219749
+categoria,bag,dress,3596,esporte,festa,10.6667,9.7525,0.0815972
+categoria,bag,dress,3596,esporte,esporte,0,0.021629,-0.0213984
+categoria,bag,dress,3596,esporte,praia,0,0.0340656,-0.0334982
+categoria,bag,dress,3596,praia,dia,0,0.229908,-0.20694
+categoria,bag,dress,3596,praia,trabalho,0,0.00903782,-0.00899722
+categoria,bag,dress,3596,praia,festa,1.5,1.25389,0.103632
+categoria,bag,dress,3596,praia,esporte,0,0.00278087,-0.00277701
+categoria,bag,dress,3596,praia,praia,0,0.00437987,-0.0043703
+categoria,bag,earrings,2960,dia,dia,255.833,237.853,0.0725782
+categoria,bag,earrings,2960,dia,trabalho,15.6667,16.6469,-0.0571496
+categoria,bag,earrings,2960,dia,festa,563.667,580.384,-0.0291766
+categoria,bag,earrings,2960,dia,esporte,0,0.141075,-0.131971
+categoria,bag,earrings,2960,dia,praia,0,0.141075,-0.131971
+categoria,bag,earrings,2960,trabalho,dia,35.25,34.3655,0.0247015
+categoria,bag,earrings,2960,trabalho,trabalho,1.83333,2.40518,-0.183844
+categoria,bag,earrings,2960,trabalho,festa,83.5833,83.8552,-0.0032088
+categoria,bag,earrings,2960,trabalho,esporte,0,0.0203829,-0.0201779
+categoria,bag,earrings,2960,trabalho,praia,0,0.0203829,-0.0201779
+categoria,bag,earrings,2960,festa,dia,547.917,565.845,-0.0321388
+categoria,bag,earrings,2960,festa,trabalho,41.1667,39.6024,0.0378023
+categoria,bag,earrings,2960,festa,festa,1396.75,1380.71,0.0115384
+categoria,bag,earrings,2960,festa,esporte,0.5,0.335614,0.116074
+categoria,bag,earrings,2960,festa,praia,0.5,0.335614,0.116074
+categoria,bag,earrings,2960,esporte,dia,3.25,3.7973,-0.121134
+categoria,bag,earrings,2960,esporte,trabalho,0.333333,0.265766,0.0520048
+categoria,bag,earrings,2960,esporte,festa,9.75,9.26577,0.0460911
+categoria,bag,earrings,2960,esporte,esporte,0,0.00225225,-0.00224972
+categoria,bag,earrings,2960,esporte,praia,0,0.00225225,-0.00224972
+categoria,bag,earrings,2960,praia,dia,0.75,1.13919,-0.200811
+categoria,bag,earrings,2960,praia,trabalho,0,0.0797297,-0.0767108
+categoria,bag,earrings,2960,praia,festa,3.25,2.77973,0.117266
+categoria,bag,earrings,2960,praia,esporte,0,0.000675676,-0.000675448
+categoria,bag,earrings,2960,praia,praia,0,0.000675676,-0.000675448
+categoria,bag,eyewear,3611,dia,dia,820.181,821.243,-0.00129306
+categoria,bag,eyewear,3611,dia,trabalho,29.4306,27.6696,0.0596116
+categoria,bag,eyewear,3611,dia,festa,443.431,443.522,-0.000206239
+categoria,bag,eyewear,3611,dia,esporte,3.29167,3.44745,-0.0356562
+categoria,bag,eyewear,3611,dia,praia,2.66667,3.1177,-0.116011
+categoria,bag,eyewear,3611,trabalho,dia,134.139,128.444,0.043052
+categoria,bag,eyewear,3611,trabalho,trabalho,3.63889,4.32758,-0.138423
+categoria,bag,eyewear,3611,trabalho,festa,65.3889,69.3679,-0.0582078
+categoria,bag,eyewear,3611,trabalho,esporte,0,0.53919,-0.431256
+categoria,bag,eyewear,3611,trabalho,praia,0,0.487615,-0.397174
+categoria,bag,eyewear,3611,festa,dia,1309.18,1312.89,-0.0028296
+categoria,bag,eyewear,3611,festa,trabalho,42.6806,44.2344,-0.0349539
+categoria,bag,eyewear,3611,festa,festa,712.514,709.044,0.00487533
+categoria,bag,eyewear,3611,festa,esporte,6.29167,5.51132,0.113189
+categoria,bag,eyewear,3611,festa,praia,6,4.98415,0.156795
+categoria,bag,eyewear,3611,esporte,dia,14.1667,14.6462,-0.0311305
+categoria,bag,eyewear,3611,esporte,trabalho,0.916667,0.493465,0.249489
+categoria,bag,eyewear,3611,esporte,festa,8.08333,7.90988,0.0192807
+categoria,bag,eyewear,3611,esporte,esporte,0,0.0614827,-0.0596667
+categoria,bag,eyewear,3611,esporte,praia,0,0.0556017,-0.0541109
+categoria,bag,eyewear,3611,praia,dia,5.25,5.68991,-0.0680183
+categoria,bag,eyewear,3611,praia,trabalho,0.25,0.191706,0.0477577
+categoria,bag,eyewear,3611,praia,festa,3.5,3.0729,0.0997216
+categoria,bag,eyewear,3611,praia,esporte,0,0.0238854,-0.0236046
+categoria,bag,eyewear,3611,praia,praia,0,0.0216007,-0.0213707
+categoria,bag,gloves,219,dia,dia,11.5,8.26104,0.299913
+categoria,bag,gloves,219,dia,trabalho,0,0.395738,-0.333423
+categoria,bag,gloves,219,dia,festa,53.5,56.3432,-0.050854
+categoria,bag,gloves,219,trabalho,dia,2,1.39802,0.223968
+categoria,bag,gloves,219,trabalho,trabalho,0,0.0669711,-0.0648239
+categoria,bag,gloves,219,trabalho,festa,9,9.53501,-0.0521187
+categoria,bag,gloves,219,festa,dia,14.3333,18.1107,-0.220221
+categoria,bag,gloves,219,festa,trabalho,1.33333,0.86758,0.222654
+categoria,bag,gloves,219,festa,festa,126.833,123.522,0.0262474
+categoria,bag,gloves,219,esporte,dia,0,0.0635464,-0.061609
+categoria,bag,gloves,219,esporte,trabalho,0,0.00304414,-0.00303952
+categoria,bag,gloves,219,esporte,festa,0.5,0.433409,0.0454093
+categoria,bag,hairwear,276,dia,dia,37.8333,34.7367,0.0831004
+categoria,bag,hairwear,276,dia,festa,59.5,62.5966,-0.0499169
+categoria,bag,hairwear,276,trabalho,dia,5.83333,5.11534,0.111013
+categoria,bag,hairwear,276,trabalho,festa,8.5,9.218,-0.0728586
+categoria,bag,hairwear,276,festa,dia,54.5833,57.9342,-0.0585378
+categoria,bag,hairwear,276,festa,festa,107.75,104.399,0.0312971
+categoria,bag,hairwear,276,esporte,dia,0.25,0.713768,-0.315551
+categoria,bag,hairwear,276,esporte,festa,1.75,1.28623,0.184696
+categoria,bag,hats,1442,dia,dia,250.931,236.788,0.0577726
+categoria,bag,hats,1442,dia,trabalho,4.97222,6.02115,-0.161808
+categoria,bag,hats,1442,dia,festa,295.472,311.595,-0.0529535
+categoria,bag,hats,1442,dia,esporte,12.2917,8.76994,0.307827
+categoria,bag,hats,1442,dia,praia,2.58333,3.07602,-0.128828
+categoria,bag,hats,1442,trabalho,dia,34.6806,34.952,-0.00757818
+categoria,bag,hats,1442,trabalho,trabalho,0.722222,0.888773,-0.0923121
+categoria,bag,hats,1442,trabalho,festa,46.9722,45.994,0.0206018
+categoria,bag,hats,1442,trabalho,esporte,1.20833,1.29452,-0.0382846
+categoria,bag,hats,1442,trabalho,praia,0,0.454047,-0.374351
+categoria,bag,hats,1442,festa,dia,310.514,324.534,-0.0440235
+categoria,bag,hats,1442,festa,trabalho,9.38889,8.25239,0.115855
+categoria,bag,hats,1442,festa,festa,443.222,427.061,0.037059
+categoria,bag,hats,1442,festa,esporte,7.70833,12.0198,-0.40219
+categoria,bag,hats,1442,festa,praia,5.25,4.21589,0.180871
+categoria,bag,hats,1442,esporte,dia,4.45833,4.00745,0.0862157
+categoria,bag,hats,1442,esporte,trabalho,0.25,0.101903,0.126105
+categoria,bag,hats,1442,esporte,festa,3.75,5.27349,-0.278188
+categoria,bag,hats,1442,esporte,esporte,1.125,0.148424,0.615381
+categoria,bag,hats,1442,esporte,praia,0,0.0520593,-0.0507494
+categoria,bag,hats,1442,praia,dia,2.41667,2.7181,-0.0845473
+categoria,bag,hats,1442,praia,trabalho,0,0.069117,-0.066833
+categoria,bag,hats,1442,praia,festa,4.08333,3.5768,0.104966
+categoria,bag,hats,1442,praia,esporte,0,0.10067,-0.0959194
+categoria,bag,hats,1442,praia,praia,0,0.0353098,-0.0347007
+categoria,bag,necklace,2835,dia,dia,263.056,257.393,0.0216794
+categoria,bag,necklace,2835,dia,trabalho,17.8056,20.6511,-0.140906
+categoria,bag,necklace,2835,dia,festa,594.639,597.596,-0.00495193
+categoria,bag,necklace,2835,dia,esporte,0.166667,0.102998,0.0561185
+categoria,bag,necklace,2835,dia,praia,0.333333,0.257496,0.05856
+categoria,bag,necklace,2835,trabalho,dia,41.4444,38.5403,0.0708749
+categoria,bag,necklace,2835,trabalho,trabalho,3.86111,3.09217,0.172191
+categoria,bag,necklace,2835,trabalho,festa,85.8611,89.4802,-0.0408205
+categoria,bag,necklace,2835,trabalho,esporte,0,0.0154223,-0.0153046
+categoria,bag,necklace,2835,trabalho,praia,0,0.0385558,-0.037831
+categoria,bag,necklace,2835,festa,dia,524.389,533.296,-0.0168118
+categoria,bag,necklace,2835,festa,trabalho,45.0556,42.7875,0.0505005
+categoria,bag,necklace,2835,festa,festa,1244.89,1238.17,0.005408
+categoria,bag,necklace,2835,festa,esporte,0.166667,0.213404,-0.0392789
+categoria,bag,necklace,2835,festa,praia,0.5,0.53351,-0.0220939
+categoria,bag,necklace,2835,esporte,dia,3.33333,2.98724,0.0832371
+categoria,bag,necklace,2835,esporte,trabalho,0,0.239673,-0.214847
+categoria,bag,necklace,2835,esporte,festa,6.83333,6.93557,-0.0129667
+categoria,bag,necklace,2835,esporte,esporte,0,0.00119538,-0.00119466
+categoria,bag,necklace,2835,esporte,praia,0,0.00298844,-0.00298398
+categoria,bag,necklace,2835,praia,dia,0.777778,0.783539,-0.0032355
+categoria,bag,necklace,2835,praia,trabalho,0.111111,0.062865,0.0443924
+categoria,bag,necklace,2835,praia,festa,1.77778,1.81917,-0.0147896
+categoria,bag,necklace,2835,praia,esporte,0,0.000313541,-0.000313492
+categoria,bag,necklace,2835,praia,praia,0,0.000783853,-0.000783546
+categoria,bag,neckwear,819,dia,dia,101.75,97.3159,0.0441131
+categoria,bag,neckwear,819,dia,trabalho,4.08333,4.58528,-0.094168
+categoria,bag,neckwear,819,dia,festa,157.75,162.481,-0.0293653
+categoria,bag,neckwear,819,dia,esporte,0.5,0.269723,0.166667
+categoria,bag,neckwear,819,dia,praia,1,0.431556,0.334385
+categoria,bag,neckwear,819,trabalho,dia,20.6667,17.4685,0.159707
+categoria,bag,neckwear,819,trabalho,trabalho,0.5,0.823074,-0.195059
+categoria,bag,neckwear,819,trabalho,festa,26.4167,29.1659,-0.0955595
+categoria,bag,neckwear,819,trabalho,esporte,0,0.0484161,-0.0472805
+categoria,bag,neckwear,819,trabalho,praia,0,0.0774657,-0.0746118
+categoria,bag,neckwear,819,festa,dia,177.167,184.444,-0.0400355
+categoria,bag,neckwear,819,festa,trabalho,9.08333,8.69056,0.0397316
+categoria,bag,neckwear,819,festa,festa,315.5,307.953,0.0241354
+categoria,bag,neckwear,819,festa,esporte,0.333333,0.511209,-0.125228
+categoria,bag,neckwear,819,festa,praia,0.333333,0.817935,-0.310019
+categoria,bag,neckwear,819,esporte,dia,1.08333,1.25431,-0.0788736
+categoria,bag,neckwear,819,esporte,trabalho,0.5,0.0590999,0.348046
+categoria,bag,neckwear,819,esporte,festa,1.83333,2.09422,-0.0880822
+categoria,bag,neckwear,819,esporte,esporte,0,0.00347646,-0.00347043
+categoria,bag,neckwear,819,esporte,praia,0,0.00556234,-0.00554693
+categoria,bag,neckwear,819,praia,dia,0,0.183557,-0.168524
+categoria,bag,neckwear,819,praia,trabalho,0,0.00864876,-0.00861157
+categoria,bag,neckwear,819,praia,festa,0.5,0.306471,0.138135
+categoria,bag,neckwear,819,praia,esporte,0,0.000508751,-0.000508621
+categoria,bag,neckwear,819,praia,praia,0,0.000814001,-0.00081367
+categoria,bag,outerwear,5645,dia,dia,544.069,477.75,0.129734
+categoria,bag,outerwear,5645,dia,trabalho,84.0972,78.1971,0.0718547
+categoria,bag,outerwear,5645,dia,festa,1089.4,1169.07,-0.0705197
+categoria,bag,outerwear,5645,dia,esporte,35.8472,28.24,0.231243
+categoria,bag,outerwear,5645,dia,praia,0,0.155307,-0.144366
+categoria,bag,outerwear,5645,trabalho,dia,95.4583,83.1709,0.136261
+categoria,bag,outerwear,5645,trabalho,trabalho,13.7639,13.6132,0.0102569
+categoria,bag,outerwear,5645,trabalho,festa,188.208,203.523,-0.0778294
+categoria,bag,outerwear,5645,trabalho,esporte,7.81944,4.91626,0.399254
+categoria,bag,outerwear,5645,trabalho,praia,0,0.0270372,-0.0266782
+categoria,bag,outerwear,5645,festa,dia,885.778,968.375,-0.089057
+categoria,bag,outerwear,5645,festa,trabalho,152.139,158.501,-0.0407075
+categoria,bag,outerwear,5645,festa,festa,2469.19,2369.65,0.0411322
+categoria,bag,outerwear,5645,festa,esporte,46.4722,57.241,-0.204445
+categoria,bag,outerwear,5645,festa,praia,0.5,0.314799,0.131781
+categoria,bag,outerwear,5645,esporte,dia,11.4444,8.01511,0.322372
+categoria,bag,outerwear,5645,esporte,trabalho,1.75,1.31189,0.173533
+categoria,bag,outerwear,5645,esporte,festa,15.6111,19.6133,-0.215864
+categoria,bag,outerwear,5645,esporte,esporte,0.611111,0.473776,0.0890963
+categoria,bag,outerwear,5645,esporte,praia,0,0.00260555,-0.00260216
+categoria,bag,outerwear,5645,praia,dia,1.33333,0.771993,0.275193
+categoria,bag,outerwear,5645,praia,trabalho,0,0.126358,-0.11899
+categoria,bag,outerwear,5645,praia,festa,1.33333,1.8891,-0.213646
+categoria,bag,outerwear,5645,praia,esporte,0.166667,0.0456328,0.109528
+categoria,bag,outerwear,5645,praia,praia,0,0.00025096,-0.000250928
+categoria,bag,pants,4125,dia,dia,871.208,844.21,0.0314438
+categoria,bag,pants,4125,dia,trabalho,38.5556,42.517,-0.0954455
+categoria,bag,pants,4125,dia,festa,550.569,578.189,-0.0488602
+categoria,bag,pants,4125,dia,esporte,32.2639,31.6895,0.0174185
+categoria,bag,pants,4125,dia,praia,17.1528,13.1455,0.249427
+categoria,bag,pants,4125,trabalho,dia,140.208,140.958,-0.00529398
+categoria,bag,pants,4125,trabalho,trabalho,5.72222,7.09907,-0.186331
+categoria,bag,pants,4125,trabalho,festa,99.2361,96.5403,0.0272631
+categoria,bag,pants,4125,trabalho,esporte,5.51389,5.2912,0.0347842
+categoria,bag,pants,4125,trabalho,praia,1.40278,2.19491,-0.284933
+categoria,bag,pants,4125,festa,dia,1268.97,1297.42,-0.0221517
+categoria,bag,pants,4125,festa,trabalho,70.3889,65.342,0.0733192
+categoria,bag,pants,4125,festa,festa,916.25,888.585,0.0306245
+categoria,bag,pants,4125,festa,esporte,47.9444,48.7018,-0.0153555
+categoria,bag,pants,4125,festa,praia,16.6944,20.2026,-0.180872
+categoria,bag,pants,4125,esporte,dia,22.4444,20.8291,0.0713875
+categoria,bag,pants,4125,esporte,trabalho,1.5,1.04902,0.198929
+categoria,bag,pants,4125,esporte,festa,11.9444,14.2656,-0.164937
+categoria,bag,pants,4125,esporte,esporte,0.861111,0.781874,0.0435082
+categoria,bag,pants,4125,esporte,praia,0.5,0.324338,0.124552
+categoria,bag,pants,4125,praia,dia,3.75,3.16864,0.130555
+categoria,bag,pants,4125,praia,trabalho,0,0.159582,-0.14806
+categoria,bag,pants,4125,praia,festa,1.75,2.17016,-0.142182
+categoria,bag,pants,4125,praia,esporte,0,0.118943,-0.112384
+categoria,bag,pants,4125,praia,praia,0.166667,0.0493401,0.105989
+categoria,bag,rings,1852,dia,dia,162.917,149.771,0.0835973
+categoria,bag,rings,1852,dia,trabalho,9.83333,8.74574,0.105797
+categoria,bag,rings,1852,dia,festa,355.417,369.65,-0.0391581
+categoria,bag,rings,1852,trabalho,dia,23.1667,23.2998,-0.00549307
+categoria,bag,rings,1852,trabalho,trabalho,1.33333,1.36057,-0.0116057
+categoria,bag,rings,1852,trabalho,festa,57.6667,57.5063,0.00273702
+categoria,bag,rings,1852,festa,dia,337.083,350.253,-0.038214
+categoria,bag,rings,1852,festa,trabalho,19.5,20.4527,-0.0454267
+categoria,bag,rings,1852,festa,festa,878.583,864.461,0.0161859
+categoria,bag,rings,1852,esporte,dia,2,1.7014,0.104841
+categoria,bag,rings,1852,esporte,trabalho,0,0.0993521,-0.094721
+categoria,bag,rings,1852,esporte,festa,4,4.19924,-0.0390753
+categoria,bag,rings,1852,praia,dia,0,0.141784,-0.132592
+categoria,bag,rings,1852,praia,trabalho,0,0.00827934,-0.00824525
+categoria,bag,rings,1852,praia,festa,0.5,0.349937,0.105407
+categoria,bag,shoes,10378,dia,dia,674.889,509.745,0.280159
+categoria,bag,shoes,10378,dia,trabalho,30.8194,27.1246,0.123433
+categoria,bag,shoes,10378,dia,festa,2451.6,2646.76,-0.0765657
+categoria,bag,shoes,10378,dia,esporte,63.5833,39.8279,0.458591
+categoria,bag,shoes,10378,dia,praia,20.9444,18.3781,0.124371
+categoria,bag,shoes,10378,trabalho,dia,91.9167,77.1523,0.173044
+categoria,bag,shoes,10378,trabalho,trabalho,5.90278,4.10544,0.301618
+categoria,bag,shoes,10378,trabalho,festa,382.875,400.599,-0.0451376
+categoria,bag,shoes,10378,trabalho,esporte,6.86111,6.02814,0.112006
+categoria,bag,shoes,10378,trabalho,praia,3.11111,2.78161,0.0835433
+categoria,bag,shoes,10378,festa,dia,844.681,1033.64,-0.201668
+categoria,bag,shoes,10378,festa,trabalho,49.0278,55.0023,-0.112814
+categoria,bag,shoes,10378,festa,festa,5594.14,5367,0.0414436
+categoria,bag,shoes,10378,festa,esporte,53.0417,80.7615,-0.414051
+categoria,bag,shoes,10378,festa,praia,32.7778,37.2664,-0.124769
+categoria,bag,shoes,10378,esporte,dia,17.0139,9.14611,0.574053
+categoria,bag,shoes,10378,esporte,trabalho,0.583333,0.486684,0.0629843
+categoria,bag,shoes,10378,esporte,festa,36.0556,47.4895,-0.268929
+categoria,bag,shoes,10378,esporte,esporte,4.01389,0.714613,1.07302
+categoria,bag,shoes,10378,esporte,praia,0.5,0.329749,0.120475
+categoria,bag,shoes,10378,praia,dia,3.33333,2.14894,0.31927
+categoria,bag,shoes,10378,praia,trabalho,0.5,0.11435,0.297194
+categoria,bag,shoes,10378,praia,festa,8.33333,11.158,-0.264395
+categoria,bag,shoes,10378,praia,esporte,0,0.167903,-0.15521
+categoria,bag,shoes,10378,praia,praia,1.5,0.0774769,0.841669
+categoria,bag,skirt,2945,dia,dia,269.083,255.536,0.0514628
+categoria,bag,skirt,2945,dia,trabalho,20.1111,17.7532,0.118434
+categoria,bag,skirt,2945,dia,festa,590.111,606.677,-0.0276398
+categoria,bag,skirt,2945,dia,esporte,7.52778,6.13567,0.178222
+categoria,bag,skirt,2945,dia,praia,1.83333,2.56491,-0.229686
+categoria,bag,skirt,2945,trabalho,dia,48.6667,43.0845,0.119226
+categoria,bag,skirt,2945,trabalho,trabalho,4.44444,2.99327,0.309984
+categoria,bag,skirt,2945,trabalho,festa,96.1944,102.289,-0.0608134
+categoria,bag,skirt,2945,trabalho,esporte,0.277778,1.0345,-0.465129
+categoria,bag,skirt,2945,trabalho,praia,0.25,0.432456,-0.136247
+categoria,bag,skirt,2945,festa,dia,523.25,543.564,-0.0380176
+categoria,bag,skirt,2945,festa,trabalho,34.0278,37.7639,-0.101347
+categoria,bag,skirt,2945,festa,festa,1314.11,1290.5,0.0181188
+categoria,bag,skirt,2945,festa,esporte,12.5278,13.0515,-0.0379866
+categoria,bag,skirt,2945,festa,praia,6.41667,5.45597,0.138724
+categoria,bag,skirt,2945,esporte,dia,4.91667,3.73814,0.222128
+categoria,bag,skirt,2945,esporte,trabalho,0,0.259706,-0.230878
+categoria,bag,skirt,2945,esporte,festa,8.08333,8.87487,-0.0835522
+categoria,bag,skirt,2945,esporte,esporte,0,0.0897566,-0.0859544
+categoria,bag,skirt,2945,esporte,praia,0,0.0375212,-0.0368344
+categoria,bag,skirt,2945,praia,dia,0.916667,0.910573,0.00318412
+categoria,bag,skirt,2945,praia,trabalho,0.25,0.0632616,0.161802
+categoria,bag,skirt,2945,praia,festa,2,2.16183,-0.052538
+categoria,bag,skirt,2945,praia,esporte,0,0.0218638,-0.0216282
+categoria,bag,skirt,2945,praia,praia,0,0.00913978,-0.00909827
+categoria,bag,top,10583,dia,dia,1691.69,1611.24,0.0486982
+categoria,bag,top,10583,dia,trabalho,253.069,260.846,-0.0301471
+categoria,bag,top,10583,dia,festa,1675.86,1760.93,-0.0494877
+categoria,bag,top,10583,dia,esporte,56.7083,48.4922,0.153587
+categoria,bag,top,10583,dia,praia,16.9167,12.7412,0.265333
+categoria,bag,top,10583,trabalho,dia,261.514,249.804,0.0456341
+categoria,bag,top,10583,trabalho,trabalho,42.1389,40.441,0.0401534
+categoria,bag,top,10583,trabalho,festa,260.931,273.012,-0.0450922
+categoria,bag,top,10583,trabalho,esporte,7.58333,7.51814,0.00762383
+categoria,bag,top,10583,trabalho,praia,0.583333,1.97537,-0.630837
+categoria,bag,top,10583,festa,dia,2616.17,2711.28,-0.0356955
+categoria,bag,top,10583,festa,trabalho,447.625,438.932,0.0195672
+categoria,bag,top,10583,festa,festa,3063.08,2963.17,0.0331513
+categoria,bag,top,10583,festa,esporte,71.7083,81.5992,-0.127543
+categoria,bag,top,10583,festa,praia,17.8333,21.44,-0.175215
+categoria,bag,top,10583,esporte,dia,40.6806,36.4547,0.106903
+categoria,bag,top,10583,esporte,trabalho,4.13889,5.9017,-0.29493
+categoria,bag,top,10583,esporte,festa,35.8472,39.8415,-0.10292
+categoria,bag,top,10583,esporte,esporte,2.91667,1.09715,0.624663
+categoria,bag,top,10583,esporte,praia,0,0.288273,-0.253302
+categoria,bag,top,10583,praia,dia,5.69444,6.97836,-0.175455
+categoria,bag,top,10583,praia,trabalho,0.277778,1.12974,-0.510876
+categoria,bag,top,10583,praia,festa,8.86111,7.6267,0.133737
+categoria,bag,top,10583,praia,esporte,0,0.210022,-0.190639
+categoria,bag,top,10583,praia,praia,1.16667,0.0551828,0.719476
+categoria,bag,watch,1068,dia,dia,124.472,118.547,0.0483763
+categoria,bag,watch,1068,dia,trabalho,36.4722,35.299,0.0318097
+categoria,bag,watch,1068,dia,festa,224.389,231.492,-0.0310267
+categoria,bag,watch,1068,dia,esporte,0.666667,0.662609,0.00243743
+categoria,bag,watch,1068,trabalho,dia,21.2222,23.392,-0.0931628
+categoria,bag,watch,1068,trabalho,trabalho,8.55556,6.9653,0.182028
+categoria,bag,watch,1068,trabalho,festa,46.0556,45.6786,0.00804302
+categoria,bag,watch,1068,trabalho,esporte,0.333333,0.130748,0.164803
+categoria,bag,watch,1068,festa,dia,177.806,182.99,-0.0285825
+categoria,bag,watch,1068,festa,trabalho,51.8889,54.4879,-0.0479713
+categoria,bag,watch,1068,festa,festa,365.306,357.333,0.0220061
+categoria,bag,watch,1068,festa,esporte,0.833333,1.02281,-0.0983518
+categoria,bag,watch,1068,esporte,dia,4.25,2.9176,0.292748
+categoria,bag,watch,1068,esporte,trabalho,0.75,0.868758,-0.0656581
+categoria,bag,watch,1068,esporte,festa,4.5,5.69733,-0.196961
+categoria,bag,watch,1068,esporte,esporte,0,0.0163077,-0.0161762
+categoria,bag,watch,1068,praia,dia,0.25,0.153558,0.0802924
+categoria,bag,watch,1068,praia,trabalho,0,0.0457241,-0.0447096
+categoria,bag,watch,1068,praia,festa,0.25,0.29986,-0.0391127
+categoria,bag,watch,1068,praia,esporte,0,0.000858302,-0.000857934
+categoria,bracelet,brooch,183,dia,dia,19.6667,17.8825,0.0902858
+categoria,bracelet,brooch,183,dia,trabalho,1.5,1.57787,-0.0306723
+categoria,bracelet,brooch,183,dia,festa,43,44.7063,-0.0380462
+categoria,bracelet,brooch,183,trabalho,dia,0.166667,0.464481,-0.22735
+categoria,bracelet,brooch,183,trabalho,trabalho,0,0.0409836,-0.040166
+categoria,bracelet,brooch,183,trabalho,festa,1.5,1.1612,0.145626
+categoria,bracelet,brooch,183,festa,dia,30.6667,32.235,-0.0483381
+categoria,bracelet,brooch,183,festa,trabalho,2.75,2.84426,-0.0248259
+categoria,bracelet,brooch,183,festa,festa,82.25,80.5874,0.0201729
+categoria,bracelet,brooch,183,praia,dia,0.5,0.418033,0.0561946
+categoria,bracelet,brooch,183,praia,trabalho,0.25,0.0368852,0.186922
+categoria,bracelet,brooch,183,praia,festa,0.75,1.04508,-0.155822
+categoria,bracelet,dress,857,dia,dia,35.0417,35.77,-0.0200061
+categoria,bracelet,dress,857,dia,trabalho,2.625,2.90475,-0.0743407
+categoria,bracelet,dress,857,dia,festa,246.458,245.244,0.00491804
+categoria,bracelet,dress,857,dia,esporte,0.125,0.248979,-0.104543
+categoria,bracelet,dress,857,dia,praia,0.25,0.331972,-0.063517
+categoria,bracelet,dress,857,trabalho,dia,1.91667,1.65544,0.0938327
+categoria,bracelet,dress,857,trabalho,trabalho,0,0.134432,-0.126132
+categoria,bracelet,dress,857,trabalho,festa,11.25,11.3499,-0.00812304
+categoria,bracelet,dress,857,trabalho,esporte,0,0.0115228,-0.0114569
+categoria,bracelet,dress,857,trabalho,praia,0,0.0153637,-0.0152468
+categoria,bracelet,dress,857,festa,dia,70.7917,70.2827,0.00711514
+categoria,bracelet,dress,857,festa,trabalho,6.125,5.70741,0.0603969
+categoria,bracelet,dress,857,festa,festa,480.708,481.868,-0.00240541
+categoria,bracelet,dress,857,festa,esporte,0.625,0.489207,0.0872644
+categoria,bracelet,dress,857,festa,praia,0.75,0.652275,0.0574624
+categoria,bracelet,dress,857,esporte,dia,0,0.0419098,-0.0410553
+categoria,bracelet,dress,857,esporte,trabalho,0,0.00340335,-0.00339757
+categoria,bracelet,dress,857,esporte,festa,0.333333,0.28734,0.0351043
+categoria,bracelet,dress,857,esporte,esporte,0,0.000291715,-0.000291673
+categoria,bracelet,dress,857,esporte,praia,0,0.000388954,-0.000388878
+categoria,bracelet,earrings,1074,dia,dia,96.9444,102.815,-0.0582063
+categoria,bracelet,earrings,1074,dia,trabalho,5.52778,7.02038,-0.205919
+categoria,bracelet,earrings,1074,dia,festa,262.361,254.998,0.0283552
+categoria,bracelet,earrings,1074,trabalho,dia,6.52778,5.73019,0.111997
+categoria,bracelet,earrings,1074,trabalho,trabalho,0.611111,0.391268,0.146708
+categoria,bracelet,earrings,1074,trabalho,festa,13.1944,14.2119,-0.0692258
+categoria,bracelet,earrings,1074,festa,dia,198.444,193.558,0.0248041
+categoria,bracelet,earrings,1074,festa,trabalho,14.5278,13.2165,0.088225
+categoria,bracelet,earrings,1074,festa,festa,473.861,480.059,-0.0129666
+categoria,bracelet,earrings,1074,praia,dia,0.75,0.563625,0.112609
+categoria,bracelet,earrings,1074,praia,trabalho,0,0.0384854,-0.0377633
+categoria,bracelet,earrings,1074,praia,festa,1.25,1.39789,-0.0636588
+categoria,bracelet,eyewear,758,dia,dia,169.167,164.257,0.0292794
+categoria,bracelet,eyewear,758,dia,trabalho,4,3.22515,0.168382
+categoria,bracelet,eyewear,758,dia,festa,83.1667,88.8898,-0.0657852
+categoria,bracelet,eyewear,758,dia,esporte,1,0.509235,0.281544
+categoria,bracelet,eyewear,758,dia,praia,0,0.452653,-0.373392
+categoria,bracelet,eyewear,758,trabalho,dia,12.5,12.0214,0.0360982
+categoria,bracelet,eyewear,758,trabalho,trabalho,0.333333,0.236038,0.0757711
+categoria,bracelet,eyewear,758,trabalho,festa,6,6.50553,-0.0697304
+categoria,bracelet,eyewear,758,trabalho,esporte,0,0.0372691,-0.0365914
+categoria,bracelet,eyewear,758,trabalho,praia,0,0.0331281,-0.0325912
+categoria,bracelet,eyewear,758,festa,dia,301.417,306.917,-0.018025
+categoria,bracelet,eyewear,758,festa,trabalho,5.16667,6.02628,-0.130498
+categoria,bracelet,eyewear,758,festa,festa,172.417,166.093,0.037149
+categoria,bracelet,eyewear,758,festa,esporte,0.5,0.951517,-0.263142
+categoria,bracelet,eyewear,758,festa,praia,1.33333,0.845793,0.234389
+categoria,bracelet,eyewear,758,praia,dia,0.75,0.638303,0.0659551
+categoria,bracelet,eyewear,758,praia,trabalho,0,0.012533,-0.0124551
+categoria,bracelet,eyewear,758,praia,festa,0.25,0.345427,-0.0735676
+categoria,bracelet,eyewear,758,praia,esporte,0,0.00197889,-0.00197694
+categoria,bracelet,eyewear,758,praia,praia,0,0.00175901,-0.00175747
+categoria,bracelet,hats,290,dia,dia,50.25,47.4681,0.0558097
+categoria,bracelet,hats,290,dia,trabalho,1.58333,1.40201,0.072774
+categoria,bracelet,hats,290,dia,festa,64.0833,66.0948,-0.0304385
+categoria,bracelet,hats,290,dia,esporte,0,1.00144,-0.693865
+categoria,bracelet,hats,290,dia,praia,0.25,0.200287,0.0405826
+categoria,bracelet,hats,290,trabalho,dia,2.41667,2.72414,-0.08617
+categoria,bracelet,hats,290,trabalho,trabalho,0,0.0804598,-0.0773867
+categoria,bracelet,hats,290,trabalho,festa,4.25,3.7931,0.09105
+categoria,bracelet,hats,290,trabalho,esporte,0,0.0574713,-0.0558805
+categoria,bracelet,hats,290,trabalho,praia,0,0.0114943,-0.0114287
+categoria,bracelet,hats,290,festa,dia,65.8333,68.3078,-0.0363549
+categoria,bracelet,hats,290,festa,trabalho,1.91667,2.01753,-0.0339968
+categoria,bracelet,hats,290,festa,festa,96.6667,95.1121,0.0160454
+categoria,bracelet,hats,290,festa,esporte,2.5,1.44109,0.360318
+categoria,bracelet,hats,290,festa,praia,0.25,0.288218,-0.0301166
+categoria,bracelet,necklace,895,dia,dia,85.8333,86.014,-0.00207807
+categoria,bracelet,necklace,895,dia,trabalho,6.16667,6.21788,-0.00712023
+categoria,bracelet,necklace,895,dia,festa,217.167,216.935,0.00106326
+categoria,bracelet,necklace,895,trabalho,dia,3.16667,3.52402,-0.0822851
+categoria,bracelet,necklace,895,trabalho,trabalho,0,0.254749,-0.226935
+categoria,bracelet,necklace,895,trabalho,festa,9.5,8.8879,0.0600639
+categoria,bracelet,necklace,895,festa,dia,159.5,159.184,0.00197204
+categoria,bracelet,necklace,895,festa,trabalho,11.8333,11.5073,0.0257365
+categoria,bracelet,necklace,895,festa,festa,400.833,401.476,-0.00159708
+categoria,bracelet,necklace,895,praia,dia,0.5,0.278212,0.160003
+categoria,bracelet,necklace,895,praia,trabalho,0,0.0201117,-0.0199122
+categoria,bracelet,necklace,895,praia,festa,0.5,0.701676,-0.126149
+categoria,bracelet,neckwear,232,dia,dia,28.1667,27.6433,0.0181063
+categoria,bracelet,neckwear,232,dia,trabalho,1.25,1.09914,0.0694035
+categoria,bracelet,neckwear,232,dia,festa,47.0833,47.5377,-0.00940552
+categoria,bracelet,neckwear,232,dia,esporte,0,0.109914,-0.104282
+categoria,bracelet,neckwear,232,dia,praia,0,0.109914,-0.104282
+categoria,bracelet,neckwear,232,trabalho,dia,1.16667,1.4454,-0.12102
+categoria,bracelet,neckwear,232,trabalho,trabalho,0,0.0574713,-0.0558805
+categoria,bracelet,neckwear,232,trabalho,festa,2.83333,2.48563,0.0950853
+categoria,bracelet,neckwear,232,trabalho,esporte,0,0.00574713,-0.00573067
+categoria,bracelet,neckwear,232,trabalho,praia,0,0.00574713,-0.00573067
+categoria,bracelet,neckwear,232,festa,dia,54.5,54.5639,-0.00115135
+categoria,bracelet,neckwear,232,festa,trabalho,2.08333,2.16954,-0.0275753
+categoria,bracelet,neckwear,232,festa,festa,93.75,93.8326,-0.000871546
+categoria,bracelet,neckwear,232,festa,esporte,0.333333,0.216954,0.091331
+categoria,bracelet,neckwear,232,festa,praia,0.333333,0.216954,0.091331
+categoria,bracelet,neckwear,232,praia,dia,0,0.180675,-0.166087
+categoria,bracelet,neckwear,232,praia,trabalho,0,0.00718391,-0.00715823
+categoria,bracelet,neckwear,232,praia,festa,0.5,0.310704,0.134901
+categoria,bracelet,neckwear,232,praia,esporte,0,0.000718391,-0.000718133
+categoria,bracelet,neckwear,232,praia,praia,0,0.000718391,-0.000718133
+categoria,bracelet,outerwear,1105,dia,dia,98.9167,94.2312,0.0480287
+categoria,bracelet,outerwear,1105,dia,trabalho,17.3333,17.2079,0.00686431
+categoria,bracelet,outerwear,1105,dia,festa,242.5,246.629,-0.0168127
+categoria,bracelet,outerwear,1105,dia,esporte,5.75,6.43235,-0.0963
+categoria,bracelet,outerwear,1105,trabalho,dia,8.75,6.46305,0.267304
+categoria,bracelet,outerwear,1105,trabalho,trabalho,0.916667,1.18024,-0.128848
+categoria,bracelet,outerwear,1105,trabalho,festa,15.0833,16.9155,-0.107885
+categoria,bracelet,outerwear,1105,trabalho,esporte,0.25,0.441176,-0.142316
+categoria,bracelet,outerwear,1105,festa,dia,177.667,184.585,-0.0379891
+categoria,bracelet,outerwear,1105,festa,trabalho,33.9167,33.7077,0.00600293
+categoria,bracelet,outerwear,1105,festa,festa,489.25,483.108,0.0126081
+categoria,bracelet,outerwear,1105,festa,esporte,13.1667,12.6,0.040822
+categoria,bracelet,outerwear,1105,praia,dia,0.333333,0.387783,-0.0400253
+categoria,bracelet,outerwear,1105,praia,trabalho,0,0.0708145,-0.0684196
+categoria,bracelet,outerwear,1105,praia,festa,0.833333,1.01493,-0.0944497
+categoria,bracelet,outerwear,1105,praia,esporte,0.333333,0.0264706,0.261556
+categoria,bracelet,pants,960,dia,dia,187.083,193.457,-0.0333274
+categoria,bracelet,pants,960,dia,trabalho,10,9.36276,0.0596766
+categoria,bracelet,pants,960,dia,festa,136.167,131.854,0.0319467
+categoria,bracelet,pants,960,dia,esporte,3.75,5.54609,-0.320724
+categoria,bracelet,pants,960,dia,praia,6.5,3.27995,0.560962
+categoria,bracelet,pants,960,trabalho,dia,10.5833,10.4191,0.0142801
+categoria,bracelet,pants,960,trabalho,trabalho,0.666667,0.504253,0.102529
+categoria,bracelet,pants,960,trabalho,festa,6.66667,7.1013,-0.0551429
+categoria,bracelet,pants,960,trabalho,esporte,0.166667,0.298698,-0.107211
+categoria,bracelet,pants,960,trabalho,praia,0.416667,0.176649,0.185636
+categoria,bracelet,pants,960,festa,dia,342,335.664,0.0186454
+categoria,bracelet,pants,960,festa,trabalho,15.5,16.2451,-0.0441699
+categoria,bracelet,pants,960,festa,festa,224.667,228.777,-0.0180507
+categoria,bracelet,pants,960,festa,esporte,11.5833,9.62292,0.16936
+categoria,bracelet,pants,960,festa,praia,2.25,5.69097,-0.722104
+categoria,bracelet,pants,960,praia,dia,1,1.12639,-0.061278
+categoria,bracelet,pants,960,praia,trabalho,0,0.0545139,-0.0530799
+categoria,bracelet,pants,960,praia,festa,1,0.767708,0.123463
+categoria,bracelet,pants,960,praia,esporte,0,0.0322917,-0.0317812
+categoria,bracelet,pants,960,praia,praia,0,0.0190972,-0.0189172
+categoria,bracelet,rings,749,dia,dia,78.4167,73.2716,0.0669793
+categoria,bracelet,rings,749,dia,trabalho,2.08333,3.33838,-0.341489
+categoria,bracelet,rings,749,dia,festa,178.167,182.057,-0.0214793
+categoria,bracelet,rings,749,trabalho,dia,4.08333,3.58804,0.102514
+categoria,bracelet,rings,749,trabalho,trabalho,0.25,0.163477,0.0717304
+categoria,bracelet,rings,749,trabalho,festa,8.33333,8.91515,-0.0604713
+categoria,bracelet,rings,749,festa,dia,129.167,135.024,-0.0440137
+categoria,bracelet,rings,749,festa,trabalho,7.33333,6.15191,0.152885
+categoria,bracelet,rings,749,festa,festa,340.167,335.491,0.0137996
+categoria,bracelet,rings,749,praia,dia,0.5,0.283267,0.156056
+categoria,bracelet,rings,749,praia,trabalho,0,0.0129061,-0.0128235
+categoria,bracelet,rings,749,praia,festa,0.5,0.703827,-0.127412
+categoria,bracelet,shoes,2288,dia,dia,130.681,113.049,0.14375
+categoria,bracelet,shoes,2288,dia,trabalho,9.04167,9.41842,-0.0368321
+categoria,bracelet,shoes,2288,dia,festa,620.014,636.488,-0.0261824
+categoria,bracelet,shoes,2288,dia,esporte,5.51389,5.9322,-0.0622402
+categoria,bracelet,shoes,2288,dia,praia,6.66667,7.02867,-0.046137
+categoria,bracelet,shoes,2288,trabalho,dia,4.88889,6.11439,-0.189052
+categoria,bracelet,shoes,2288,trabalho,trabalho,0,0.509406,-0.411716
+categoria,bracelet,shoes,2288,trabalho,festa,35.9722,34.4252,0.0427435
+categoria,bracelet,shoes,2288,trabalho,esporte,0.722222,0.32085,0.26534
+categoria,bracelet,shoes,2288,trabalho,praia,0.166667,0.380154,-0.168044
+categoria,bracelet,shoes,2288,festa,dia,199.014,215.493,-0.0791698
+categoria,bracelet,shoes,2288,festa,trabalho,18.875,17.9533,0.0474869
+categoria,bracelet,shoes,2288,festa,festa,1228.35,1213.26,0.0123444
+categoria,bracelet,shoes,2288,festa,esporte,11.1806,11.3079,-0.0103981
+categoria,bracelet,shoes,2288,festa,praia,14,13.398,0.0409642
+categoria,bracelet,shoes,2288,esporte,dia,0.333333,0.134248,0.161712
+categoria,bracelet,shoes,2288,esporte,trabalho,0,0.0111846,-0.0111225
+categoria,bracelet,shoes,2288,esporte,festa,0.583333,0.755843,-0.103417
+categoria,bracelet,shoes,2288,esporte,esporte,0,0.0070446,-0.00701991
+categoria,bracelet,shoes,2288,esporte,praia,0,0.00834669,-0.00831205
+categoria,bracelet,shoes,2288,praia,dia,0.166667,0.292905,-0.102741
+categoria,bracelet,shoes,2288,praia,trabalho,0,0.0244027,-0.0241097
+categoria,bracelet,shoes,2288,praia,festa,1.66667,1.64911,0.00660503
+categoria,bracelet,shoes,2288,praia,esporte,0.166667,0.01537,0.138898
+categoria,bracelet,shoes,2288,praia,praia,0,0.018211,-0.0180471
+categoria,bracelet,skirt,599,dia,dia,50.9167,54.6369,-0.0692067
+categoria,bracelet,skirt,599,dia,trabalho,3,3.63523,-0.14739
+categoria,bracelet,skirt,599,dia,festa,138,134.286,0.0270806
+categoria,bracelet,skirt,599,dia,esporte,1.5,1.68197,-0.0702608
+categoria,bracelet,skirt,599,dia,praia,1.58333,0.759599,0.383994
+categoria,bracelet,skirt,599,trabalho,dia,2.66667,3.08208,-0.107324
+categoria,bracelet,skirt,599,trabalho,trabalho,0.166667,0.205064,-0.032382
+categoria,bracelet,skirt,599,trabalho,festa,7.66667,7.57513,0.0106187
+categoria,bracelet,skirt,599,trabalho,esporte,0,0.0948804,-0.0906451
+categoria,bracelet,skirt,599,trabalho,praia,0.5,0.0428492,0.363509
+categoria,bracelet,skirt,599,festa,dia,114.25,110.114,0.0365438
+categoria,bracelet,skirt,599,festa,trabalho,8,7.32638,0.0777961
+categoria,bracelet,skirt,599,festa,festa,266.833,270.639,-0.0141075
+categoria,bracelet,skirt,599,festa,esporte,3.66667,3.38982,0.0611576
+categoria,bracelet,skirt,599,festa,praia,0.25,1.53088,-0.705425
+categoria,bracelet,top,2366,dia,dia,358.167,355.539,0.00734328
+categoria,bracelet,top,2366,dia,trabalho,58.6111,61.5025,-0.047364
+categoria,bracelet,top,2366,dia,festa,414.083,413.361,0.00174249
+categoria,bracelet,top,2366,dia,esporte,10.3889,9.73591,0.0590439
+categoria,bracelet,top,2366,dia,praia,1.5,2.61207,-0.367991
+categoria,bracelet,top,2366,trabalho,dia,19.4167,18.8791,0.0266825
+categoria,bracelet,top,2366,trabalho,trabalho,3.86111,3.26578,0.130642
+categoria,bracelet,top,2366,trabalho,festa,20.8333,21.9494,-0.0498557
+categoria,bracelet,top,2366,trabalho,esporte,0.638889,0.516977,0.0772992
+categoria,bracelet,top,2366,trabalho,praia,0,0.138701,-0.129888
+categoria,bracelet,top,2366,festa,dia,619.083,622.378,-0.00529854
+categoria,bracelet,top,2366,festa,trabalho,109.944,107.661,0.0207944
+categoria,bracelet,top,2366,festa,festa,724.583,723.596,0.00136197
+categoria,bracelet,top,2366,festa,esporte,15.8056,17.0429,-0.0710427
+categoria,bracelet,top,2366,festa,praia,5.83333,4.57249,0.203971
+categoria,bracelet,top,2366,esporte,dia,0.25,0.10547,0.122873
+categoria,bracelet,top,2366,esporte,trabalho,0,0.0182446,-0.0180801
+categoria,bracelet,top,2366,esporte,festa,0,0.122623,-0.115668
+categoria,bracelet,top,2366,esporte,esporte,0,0.00288814,-0.00288397
+categoria,bracelet,top,2366,esporte,praia,0,0.000774866,-0.000774566
+categoria,bracelet,top,2366,praia,dia,1.25,1.26564,-0.00692627
+categoria,bracelet,top,2366,praia,trabalho,0.25,0.218935,0.0251661
+categoria,bracelet,top,2366,praia,festa,1,1.47147,-0.211666
+categoria,bracelet,top,2366,praia,esporte,0.5,0.0346577,0.371395
+categoria,bracelet,top,2366,praia,praia,0,0.00929839,-0.00925543
+categoria,bracelet,watch,251,dia,dia,24.3611,24.9502,-0.0229623
+categoria,bracelet,watch,251,dia,trabalho,5.11111,6.81972,-0.24654
+categoria,bracelet,watch,251,dia,festa,53.7778,51.5637,0.041258
+categoria,bracelet,watch,251,dia,esporte,0.25,0.166335,0.0692775
+categoria,bracelet,watch,251,trabalho,dia,1.69444,2.09163,-0.137508
+categoria,bracelet,watch,251,trabalho,trabalho,1.19444,0.571713,0.333763
+categoria,bracelet,watch,251,trabalho,festa,4.11111,4.32271,-0.0405656
+categoria,bracelet,watch,251,trabalho,esporte,0,0.0139442,-0.0138479
+categoria,bracelet,watch,251,festa,dia,48.9444,47.9582,0.0199451
+categoria,bracelet,watch,251,festa,trabalho,14.1944,13.1086,0.0741478
+categoria,bracelet,watch,251,festa,festa,97.1111,99.1135,-0.0202044
+categoria,bracelet,watch,251,festa,esporte,0.25,0.319721,-0.0542769
+categoria,brooch,dress,197,dia,dia,7.16667,5.35251,0.251211
+categoria,brooch,dress,197,dia,trabalho,0.416667,0.535251,-0.0803872
+categoria,brooch,dress,197,dia,festa,40.5833,42.4083,-0.0429523
+categoria,brooch,dress,197,dia,praia,0.5,0.370558,0.0902469
+categoria,brooch,dress,197,trabalho,dia,0.75,0.843204,-0.0518894
+categoria,brooch,dress,197,trabalho,trabalho,0,0.0843204,-0.0809534
+categoria,brooch,dress,197,trabalho,festa,6.91667,6.68077,0.0302508
+categoria,brooch,dress,197,trabalho,praia,0,0.0583756,-0.0567353
+categoria,brooch,dress,197,festa,dia,13.75,15.471,-0.110355
+categoria,brooch,dress,197,festa,trabalho,1.75,1.5471,0.0766473
+categoria,brooch,dress,197,festa,festa,124.167,122.578,0.0127773
+categoria,brooch,dress,197,festa,praia,1,1.07107,-0.0349163
+categoria,brooch,outerwear,171,dia,dia,12.9167,14.4649,-0.105487
+categoria,brooch,outerwear,171,dia,trabalho,1.66667,2.26901,-0.203657
+categoria,brooch,outerwear,171,dia,festa,33.6667,31.6243,0.0607222
+categoria,brooch,outerwear,171,dia,esporte,0.25,0.141813,0.0905263
+categoria,brooch,outerwear,171,trabalho,dia,1.5,2.23684,-0.258307
+categoria,brooch,outerwear,171,trabalho,trabalho,0,0.350877,-0.300754
+categoria,brooch,outerwear,171,trabalho,festa,6,4.89035,0.172595
+categoria,brooch,outerwear,171,trabalho,esporte,0,0.0219298,-0.0216928
+categoria,brooch,outerwear,171,festa,dia,36.5833,34.2982,0.0627274
+categoria,brooch,outerwear,171,festa,trabalho,6.33333,5.38012,0.139244
+categoria,brooch,outerwear,171,festa,festa,71.8333,74.9854,-0.0423672
+categoria,brooch,outerwear,171,festa,esporte,0.25,0.336257,-0.0667291
+categoria,brooch,shoes,403,dia,dia,13.5,12.6976,0.0569294
+categoria,brooch,shoes,403,dia,trabalho,0.75,1.07392,-0.169827
+categoria,brooch,shoes,403,dia,festa,85.8333,86.8616,-0.0117718
+categoria,brooch,shoes,403,dia,esporte,1.5,0.947581,0.249703
+categoria,brooch,shoes,403,dia,praia,0.25,0.252688,-0.00214823
+categoria,brooch,shoes,403,trabalho,dia,0.916667,1.35081,-0.204171
+categoria,brooch,shoes,403,trabalho,trabalho,0,0.114247,-0.108179
+categoria,brooch,shoes,403,trabalho,festa,9.75,9.24059,0.0485464
+categoria,brooch,shoes,403,trabalho,esporte,0.166667,0.100806,0.0581076
+categoria,brooch,shoes,403,trabalho,praia,0,0.0268817,-0.0265268
+categoria,brooch,shoes,403,festa,dia,35.8333,36.2016,-0.00994889
+categoria,brooch,shoes,403,festa,trabalho,3.5,3.06183,0.102444
+categoria,brooch,shoes,403,festa,festa,248.167,247.648,0.00208438
+categoria,brooch,shoes,403,festa,esporte,2.08333,2.70161,-0.182757
+categoria,brooch,shoes,403,festa,praia,0.75,0.72043,0.0170415
+categoria,brooch,top,360,dia,dia,36.0833,38.4722,-0.0624296
+categoria,brooch,top,360,dia,trabalho,4,5.72809,-0.296853
+categoria,brooch,top,360,dia,festa,51.1667,46.9361,0.0845746
+categoria,brooch,top,360,dia,esporte,1.08333,0.683951,0.212827
+categoria,brooch,top,360,dia,praia,0,0.512963,-0.41407
+categoria,brooch,top,360,trabalho,dia,4.75,3.88889,0.162235
+categoria,brooch,top,360,trabalho,trabalho,1.16667,0.579012,0.31639
+categoria,brooch,top,360,trabalho,festa,3.08333,4.74444,-0.34132
+categoria,brooch,top,360,trabalho,esporte,0.333333,0.0691358,0.220831
+categoria,brooch,top,360,trabalho,praia,0,0.0518519,-0.0505523
+categoria,brooch,top,360,festa,dia,109.167,107.639,0.0139649
+categoria,brooch,top,360,festa,trabalho,17.1667,16.0262,0.064833
+categoria,brooch,top,360,festa,festa,128.75,131.319,-0.0196095
+categoria,brooch,top,360,festa,esporte,1.25,1.91358,-0.258452
+categoria,brooch,top,360,festa,praia,2,1.43519,0.208589
+categoria,dress,earrings,1269,dia,dia,45.125,43.101,0.0448732
+categoria,dress,earrings,1269,dia,trabalho,4.33333,2.73323,0.356702
+categoria,dress,earrings,1269,dia,festa,110.625,114.123,-0.0308559
+categoria,dress,earrings,1269,dia,praia,0,0.126149,-0.118804
+categoria,dress,earrings,1269,trabalho,dia,3.20833,2.6251,0.149185
+categoria,dress,earrings,1269,trabalho,trabalho,0.25,0.16647,0.0691617
+categoria,dress,earrings,1269,trabalho,festa,6.29167,6.95075,-0.0865339
+categoria,dress,earrings,1269,trabalho,praia,0,0.00768322,-0.00765385
+categoria,dress,earrings,1269,festa,dia,291.875,294.437,-0.00871084
+categoria,dress,earrings,1269,festa,trabalho,17.0833,18.6716,-0.0841871
+categoria,dress,earrings,1269,festa,festa,783.875,779.613,0.00544547
+categoria,dress,earrings,1269,festa,praia,0.75,0.861768,-0.0619107
+categoria,dress,earrings,1269,esporte,dia,0.791667,0.560918,0.137872
+categoria,dress,earrings,1269,esporte,trabalho,0,0.0355704,-0.0349524
+categoria,dress,earrings,1269,esporte,festa,1.29167,1.4852,-0.0810749
+categoria,dress,earrings,1269,esporte,praia,0,0.00164171,-0.00164037
+categoria,dress,earrings,1269,praia,dia,0.666667,0.942343,-0.153069
+categoria,dress,earrings,1269,praia,trabalho,0,0.0597583,-0.0580409
+categoria,dress,earrings,1269,praia,festa,2.58333,2.49514,0.0249199
+categoria,dress,earrings,1269,praia,praia,0.25,0.00275808,0.220389
+categoria,dress,eyewear,699,dia,dia,87.5833,86.0128,0.0178885
+categoria,dress,eyewear,699,dia,trabalho,3.25,2.55548,0.17843
+categoria,dress,eyewear,699,dia,festa,43.5833,46.5161,-0.0637092
+categoria,dress,eyewear,699,dia,praia,1.25,0.58226,0.352076
+categoria,dress,eyewear,699,trabalho,dia,2.75,2.853,-0.0270973
+categoria,dress,eyewear,699,trabalho,trabalho,0,0.0847639,-0.0813624
+categoria,dress,eyewear,699,trabalho,festa,1.75,1.54292,0.0782885
+categoria,dress,eyewear,699,trabalho,praia,0,0.0193133,-0.0191292
+categoria,dress,eyewear,699,festa,dia,349,350.074,-0.00306442
+categoria,dress,eyewear,699,festa,trabalho,9.91667,10.4009,-0.0433973
+categoria,dress,eyewear,699,festa,festa,191.5,189.322,0.0113798
+categoria,dress,eyewear,699,festa,praia,1.75,2.36981,-0.203257
+categoria,dress,eyewear,699,esporte,dia,2,2.219,-0.0704595
+categoria,dress,eyewear,699,esporte,trabalho,0,0.0659275,-0.0638453
+categoria,dress,eyewear,699,esporte,festa,1.5,1.20005,0.127812
+categoria,dress,eyewear,699,esporte,praia,0,0.0150215,-0.0149098
+categoria,dress,eyewear,699,praia,dia,1.83333,2.00767,-0.0597117
+categoria,dress,eyewear,699,praia,trabalho,0,0.0596487,-0.0579374
+categoria,dress,eyewear,699,praia,festa,1.33333,1.08576,0.112166
+categoria,dress,eyewear,699,praia,praia,0,0.0135908,-0.0134993
+categoria,dress,hats,327,dia,dia,24.3333,23.3761,0.038516
+categoria,dress,hats,327,dia,trabalho,0.583333,0.711179,-0.0776503
+categoria,dress,hats,327,dia,festa,35.0833,35.8991,-0.0223556
+categoria,dress,hats,327,dia,esporte,0.166667,0.154604,0.0103931
+categoria,dress,hats,327,dia,praia,0.5,0.525654,-0.0169581
+categoria,dress,hats,327,trabalho,dia,0,0.12844,-0.120836
+categoria,dress,hats,327,trabalho,trabalho,0,0.00390758,-0.00389996
+categoria,dress,hats,327,trabalho,festa,0.333333,0.197248,0.107657
+categoria,dress,hats,327,trabalho,esporte,0,0.000849473,-0.000849113
+categoria,dress,hats,327,trabalho,praia,0,0.00288821,-0.00288405
+categoria,dress,hats,327,festa,dia,99.8333,101.018,-0.0116837
+categoria,dress,hats,327,festa,trabalho,3.25,3.07331,0.0424632
+categoria,dress,hats,327,festa,festa,156.083,155.135,0.00605338
+categoria,dress,hats,327,festa,esporte,0.666667,0.668111,-0.000866088
+categoria,dress,hats,327,festa,praia,2.33333,2.27158,0.0187008
+categoria,dress,hats,327,esporte,dia,0.75,0.385321,0.233684
+categoria,dress,hats,327,esporte,trabalho,0,0.0117227,-0.0116546
+categoria,dress,hats,327,esporte,festa,0.25,0.591743,-0.241686
+categoria,dress,hats,327,esporte,esporte,0,0.00254842,-0.00254518
+categoria,dress,hats,327,esporte,praia,0,0.00866463,-0.00862731
+categoria,dress,hats,327,praia,dia,1.08333,1.09174,-0.00402857
+categoria,dress,hats,327,praia,trabalho,0,0.0332144,-0.0326747
+categoria,dress,hats,327,praia,festa,1.75,1.67661,0.0270515
+categoria,dress,hats,327,praia,esporte,0,0.00722052,-0.00719458
+categoria,dress,hats,327,praia,praia,0,0.0245498,-0.0242533
+categoria,dress,necklace,981,dia,dia,46.5417,42.8619,0.080561
+categoria,dress,necklace,981,dia,trabalho,3.41667,3.23777,0.0413486
+categoria,dress,necklace,981,dia,festa,101.292,105.073,-0.0363018
+categoria,dress,necklace,981,dia,esporte,0,0.0770897,-0.0742627
+categoria,dress,necklace,981,trabalho,dia,1.20833,1.67669,-0.192343
+categoria,dress,necklace,981,trabalho,trabalho,0,0.126656,-0.119254
+categoria,dress,necklace,981,trabalho,festa,4.70833,4.1103,0.110668
+categoria,dress,necklace,981,trabalho,esporte,0,0.00301563,-0.00301109
+categoria,dress,necklace,981,festa,dia,227.958,232.304,-0.0188035
+categoria,dress,necklace,981,festa,trabalho,17.5833,17.5482,0.00189425
+categoria,dress,necklace,981,festa,festa,573.708,569.48,0.00738501
+categoria,dress,necklace,981,festa,esporte,0.5,0.417813,0.0563492
+categoria,dress,necklace,981,esporte,dia,1.29167,0.590384,0.365304
+categoria,dress,necklace,981,esporte,trabalho,0,0.0445973,-0.0436315
+categoria,dress,necklace,981,esporte,festa,0.791667,1.44729,-0.311835
+categoria,dress,necklace,981,esporte,esporte,0,0.00106184,-0.00106128
+categoria,dress,necklace,981,praia,dia,1,0.566769,0.244132
+categoria,dress,necklace,981,praia,trabalho,0,0.0428135,-0.0419223
+categoria,dress,necklace,981,praia,festa,1,1.3894,-0.177895
+categoria,dress,necklace,981,praia,esporte,0,0.00101937,-0.00101885
+categoria,dress,outerwear,1483,dia,dia,57.2778,51.3778,0.106737
+categoria,dress,outerwear,1483,dia,trabalho,10.4444,10.6563,-0.0183447
+categoria,dress,outerwear,1483,dia,festa,148.528,155.963,-0.0485288
+categoria,dress,outerwear,1483,dia,esporte,3.75,2.0027,0.458634
+categoria,dress,outerwear,1483,trabalho,dia,0.361111,1.94613,-0.772191
+categoria,dress,outerwear,1483,trabalho,trabalho,0.111111,0.403649,-0.233715
+categoria,dress,outerwear,1483,trabalho,festa,7.86111,5.90769,0.249036
+categoria,dress,outerwear,1483,trabalho,esporte,0,0.0758597,-0.0731201
+categoria,dress,outerwear,1483,festa,dia,286.694,291.452,-0.0164032
+categoria,dress,outerwear,1483,festa,trabalho,61.2778,60.4504,0.0133737
+categoria,dress,outerwear,1483,festa,festa,890.444,884.736,0.00642379
+categoria,dress,outerwear,1483,festa,esporte,9.58333,11.3608,-0.155246
+categoria,dress,outerwear,1483,esporte,dia,1.25,0.856297,0.192346
+categoria,dress,outerwear,1483,esporte,trabalho,0,0.177605,-0.163483
+categoria,dress,outerwear,1483,esporte,festa,2.41667,2.59939,-0.0520978
+categoria,dress,outerwear,1483,esporte,esporte,0,0.0333783,-0.0328333
+categoria,dress,outerwear,1483,praia,dia,0.75,0.700607,0.0286306
+categoria,dress,outerwear,1483,praia,trabalho,0,0.145314,-0.135678
+categoria,dress,outerwear,1483,praia,festa,2.08333,2.12677,-0.0139893
+categoria,dress,outerwear,1483,praia,esporte,0.166667,0.0273095,0.127207
+categoria,dress,pants,204,dia,dia,16.5,16.8051,-0.0172867
+categoria,dress,pants,204,dia,trabalho,0.666667,0.669118,-0.00146951
+categoria,dress,pants,204,dia,festa,12,13.0993,-0.0811733
+categoria,dress,pants,204,dia,esporte,1.83333,0.797794,0.454893
+categoria,dress,pants,204,dia,praia,0.5,0.128676,0.284419
+categoria,dress,pants,204,trabalho,dia,0,0.266748,-0.236453
+categoria,dress,pants,204,trabalho,trabalho,0,0.0106209,-0.0105649
+categoria,dress,pants,204,trabalho,festa,0.5,0.207925,0.216561
+categoria,dress,pants,204,trabalho,esporte,0,0.0126634,-0.0125839
+categoria,dress,pants,204,trabalho,praia,0,0.00204248,-0.0020404
+categoria,dress,pants,204,festa,dia,91.8333,91.2279,0.00654264
+categoria,dress,pants,204,festa,trabalho,3.66667,3.63235,0.00738011
+categoria,dress,pants,204,festa,festa,71.8333,71.1103,0.00997692
+categoria,dress,pants,204,festa,esporte,3.33333,4.33088,-0.20718
+categoria,dress,pants,204,festa,praia,0.333333,0.698529,-0.242081
+categoria,dress,pants,204,esporte,dia,0.25,0.266748,-0.0133097
+categoria,dress,pants,204,esporte,trabalho,0,0.0106209,-0.0105649
+categoria,dress,pants,204,esporte,festa,0.25,0.207925,0.0342397
+categoria,dress,pants,204,esporte,esporte,0,0.0126634,-0.0125839
+categoria,dress,pants,204,esporte,praia,0,0.00204248,-0.0020404
+categoria,dress,pants,204,praia,dia,0.25,0.266748,-0.0133097
+categoria,dress,pants,204,praia,trabalho,0,0.0106209,-0.0105649
+categoria,dress,pants,204,praia,festa,0.25,0.207925,0.0342397
+categoria,dress,pants,204,praia,esporte,0,0.0126634,-0.0125839
+categoria,dress,pants,204,praia,praia,0,0.00204248,-0.0020404
+categoria,dress,rings,742,dia,dia,27.6667,21.9867,0.220821
+categoria,dress,rings,742,dia,trabalho,2,1.33313,0.251403
+categoria,dress,rings,742,dia,festa,58.9167,65.2636,-0.100685
+categoria,dress,rings,742,trabalho,dia,0.916667,1.0135,-0.0492849
+categoria,dress,rings,742,trabalho,trabalho,0,0.0614518,-0.0596376
+categoria,dress,rings,742,trabalho,festa,3.16667,3.00839,0.0387278
+categoria,dress,rings,742,festa,dia,155.083,160.36,-0.033247
+categoria,dress,rings,742,festa,trabalho,9.16667,9.72318,-0.0532931
+categoria,dress,rings,742,festa,festa,481.833,476,0.0121544
+categoria,dress,rings,742,esporte,dia,0.25,0.310254,-0.0470773
+categoria,dress,rings,742,esporte,trabalho,0,0.0188118,-0.018637
+categoria,dress,rings,742,esporte,festa,1,0.920934,0.0403354
+categoria,dress,rings,742,praia,dia,0.25,0.496406,-0.179923
+categoria,dress,rings,742,praia,trabalho,0,0.0300988,-0.0296548
+categoria,dress,rings,742,praia,festa,1.75,1.4735,0.105969
+categoria,dress,shoes,3831,dia,dia,72.5833,54.9274,0.274365
+categoria,dress,shoes,3831,dia,trabalho,4.33333,4.93374,-0.106678
+categoria,dress,shoes,3831,dia,festa,456.083,475.338,-0.041262
+categoria,dress,shoes,3831,dia,esporte,2.83333,1.32426,0.500334
+categoria,dress,shoes,3831,dia,praia,2.91667,2.22663,0.193804
+categoria,dress,shoes,3831,trabalho,dia,2.66667,2.4044,0.0742142
+categoria,dress,shoes,3831,trabalho,trabalho,0.5,0.21597,0.209923
+categoria,dress,shoes,3831,trabalho,festa,20,20.8075,-0.0377327
+categoria,dress,shoes,3831,trabalho,esporte,0.166667,0.0579683,0.0978004
+categoria,dress,shoes,3831,trabalho,praia,0.25,0.0974687,0.130137
+categoria,dress,shoes,3831,festa,dia,313.333,331.561,-0.0563688
+categoria,dress,shoes,3831,festa,trabalho,30.25,29.7818,0.0150971
+categoria,dress,shoes,3831,festa,festa,2889.42,2869.31,0.0069819
+categoria,dress,shoes,3831,festa,esporte,6.41667,7.99368,-0.192792
+categoria,dress,shoes,3831,festa,praia,12.6667,13.4407,-0.0550908
+categoria,dress,shoes,3831,esporte,dia,1.5,0.535255,0.487594
+categoria,dress,shoes,3831,esporte,trabalho,0,0.0480782,-0.0469582
+categoria,dress,shoes,3831,esporte,festa,3.75,4.63206,-0.170331
+categoria,dress,shoes,3831,esporte,esporte,0,0.0129046,-0.012822
+categoria,dress,shoes,3831,esporte,praia,0,0.021698,-0.0214659
+categoria,dress,shoes,3831,praia,dia,0.5,1.15547,-0.362544
+categoria,dress,shoes,3831,praia,trabalho,0,0.103788,-0.0987477
+categoria,dress,shoes,3831,praia,festa,10.8333,9.99938,0.0730818
+categoria,dress,shoes,3831,praia,esporte,0,0.0278575,-0.0274766
+categoria,dress,shoes,3831,praia,praia,0,0.0468401,-0.0457762
+categoria,dress,top,443,dia,dia,36.5,33.4984,0.083427
+categoria,dress,top,443,dia,trabalho,5.25,4.64221,0.102305
+categoria,dress,top,443,dia,festa,33.5833,37.3669,-0.103824
+categoria,dress,top,443,dia,esporte,0.833333,0.487146,0.209277
+categoria,dress,top,443,dia,praia,0,0.171934,-0.158655
+categoria,dress,top,443,trabalho,dia,2,1.75922,0.0836652
+categoria,dress,top,443,trabalho,trabalho,0,0.243792,-0.218165
+categoria,dress,top,443,trabalho,festa,2,1.96238,0.0126201
+categoria,dress,top,443,trabalho,esporte,0,0.0255831,-0.0252614
+categoria,dress,top,443,trabalho,praia,0,0.00902935,-0.00898882
+categoria,dress,top,443,festa,dia,155.75,158.549,-0.0177019
+categoria,dress,top,443,festa,trabalho,21.75,21.9718,-0.0097015
+categoria,dress,top,443,festa,festa,180,176.859,0.0175043
+categoria,dress,top,443,festa,esporte,2,2.30568,-0.0970302
+categoria,dress,top,443,festa,praia,1,0.81377,0.0977398
+categoria,dress,top,443,esporte,dia,0.583333,0.806308,-0.131753
+categoria,dress,top,443,esporte,trabalho,0,0.111738,-0.105925
+categoria,dress,top,443,esporte,festa,1.25,0.899423,0.16938
+categoria,dress,top,443,esporte,esporte,0,0.0117256,-0.0116574
+categoria,dress,top,443,esporte,praia,0,0.00413845,-0.00412991
+categoria,dress,top,443,praia,dia,0,0.219902,-0.198771
+categoria,dress,top,443,praia,trabalho,0,0.030474,-0.0300189
+categoria,dress,top,443,praia,festa,0.5,0.245297,0.186091
+categoria,dress,top,443,praia,esporte,0,0.00319789,-0.00319279
+categoria,dress,top,443,praia,praia,0,0.00112867,-0.00112803
+categoria,dress,watch,201,dia,dia,10.75,8.1657,0.248385
+categoria,dress,watch,201,dia,trabalho,2.41667,2.22499,0.0577368
+categoria,dress,watch,201,dia,festa,13.4167,16.3759,-0.186699
+categoria,dress,watch,201,dia,esporte,0.25,0.0667496,0.158527
+categoria,dress,watch,201,trabalho,dia,0.5,0.152156,0.26383
+categoria,dress,watch,201,trabalho,trabalho,0,0.0414594,-0.040623
+categoria,dress,watch,201,trabalho,festa,0,0.305141,-0.266311
+categoria,dress,watch,201,trabalho,esporte,0,0.00124378,-0.00124301
+categoria,dress,watch,201,festa,dia,49.3333,52.2909,-0.0570982
+categoria,dress,watch,201,festa,trabalho,14.25,14.2482,0.000117815
+categoria,dress,watch,201,festa,festa,108,104.867,0.0291664
+categoria,dress,watch,201,festa,esporte,0.25,0.427446,-0.132743
+categoria,dress,watch,201,esporte,dia,0.25,0.152156,0.0815087
+categoria,dress,watch,201,esporte,trabalho,0,0.0414594,-0.040623
+categoria,dress,watch,201,esporte,festa,0.25,0.305141,-0.0431675
+categoria,dress,watch,201,esporte,esporte,0,0.00124378,-0.00124301
+categoria,dress,watch,201,praia,dia,0.333333,0.405749,-0.0528882
+categoria,dress,watch,201,praia,trabalho,0,0.110558,-0.104863
+categoria,dress,watch,201,praia,festa,1,0.813709,0.0977731
+categoria,dress,watch,201,praia,esporte,0,0.00331675,-0.00331126
+categoria,earrings,eyewear,833,dia,dia,147.167,148.844,-0.0112592
+categoria,earrings,eyewear,833,dia,trabalho,3.75,4.44098,-0.135814
+categoria,earrings,eyewear,833,dia,festa,86.75,83.6623,0.0358219
+categoria,earrings,eyewear,833,dia,esporte,0.5,0.716287,-0.134698
+categoria,earrings,eyewear,833,dia,praia,0.5,1.0028,-0.289082
+categoria,earrings,eyewear,833,trabalho,dia,10,9.77051,0.0210836
+categoria,earrings,eyewear,833,trabalho,trabalho,0.333333,0.291517,0.0318649
+categoria,earrings,eyewear,833,trabalho,festa,5.33333,5.4918,-0.0247126
+categoria,earrings,eyewear,833,trabalho,esporte,0,0.0470188,-0.0459469
+categoria,earrings,eyewear,833,trabalho,praia,0,0.0658263,-0.0637504
+categoria,earrings,eyewear,833,festa,dia,362.083,360.573,0.00416751
+categoria,earrings,eyewear,833,festa,trabalho,11.4167,10.7582,0.0544885
+categoria,earrings,eyewear,833,festa,festa,199.667,202.671,-0.0148592
+categoria,earrings,eyewear,833,festa,esporte,2,1.73519,0.0924099
+categoria,earrings,eyewear,833,festa,praia,3,2.42927,0.153946
+categoria,earrings,eyewear,833,praia,dia,0.25,0.311825,-0.0482755
+categoria,earrings,eyewear,833,praia,trabalho,0,0.00930372,-0.00926071
+categoria,earrings,eyewear,833,praia,festa,0.25,0.17527,0.0616456
+categoria,earrings,eyewear,833,praia,esporte,0,0.0015006,-0.00149948
+categoria,earrings,eyewear,833,praia,praia,0,0.00210084,-0.00209864
+categoria,earrings,hats,317,dia,dia,41.8333,39.2124,0.063141
+categoria,earrings,hats,317,dia,trabalho,0.666667,0.795478,-0.0744459
+categoria,earrings,hats,317,dia,festa,46,47.9159,-0.0399544
+categoria,earrings,hats,317,dia,esporte,0.5,0.935857,-0.255085
+categoria,earrings,hats,317,dia,praia,0,0.140379,-0.13136
+categoria,earrings,hats,317,trabalho,dia,2.91667,3.30442,-0.0944006
+categoria,earrings,hats,317,trabalho,trabalho,0,0.0670347,-0.0648835
+categoria,earrings,hats,317,trabalho,festa,4.58333,4.03785,0.102806
+categoria,earrings,hats,317,trabalho,esporte,0,0.0788644,-0.075909
+categoria,earrings,hats,317,trabalho,praia,0,0.0118297,-0.0117602
+categoria,earrings,hats,317,festa,dia,94.4167,96.9295,-0.0259951
+categoria,earrings,hats,317,festa,trabalho,2.16667,1.96635,0.0653469
+categoria,earrings,hats,317,festa,festa,120.083,118.444,0.0136335
+categoria,earrings,hats,317,festa,esporte,2.83333,2.31335,0.145774
+categoria,earrings,hats,317,festa,praia,0.5,0.347003,0.107583
+categoria,earrings,hats,317,praia,dia,0.5,0.220294,0.206373
+categoria,earrings,hats,317,praia,trabalho,0,0.00446898,-0.00445902
+categoria,earrings,hats,317,praia,festa,0,0.26919,-0.238379
+categoria,earrings,hats,317,praia,esporte,0,0.00525762,-0.00524385
+categoria,earrings,hats,317,praia,praia,0,0.000788644,-0.000788333
+categoria,earrings,necklace,907,dia,dia,80.75,76.1409,0.0580317
+categoria,earrings,necklace,907,dia,trabalho,6.33333,6.60263,-0.0360638
+categoria,earrings,necklace,907,dia,festa,167.75,171.949,-0.0245801
+categoria,earrings,necklace,907,dia,esporte,0,0.140481,-0.13145
+categoria,earrings,necklace,907,trabalho,dia,5.33333,4.6312,0.117504
+categoria,earrings,necklace,907,trabalho,trabalho,0.166667,0.401599,-0.183463
+categoria,earrings,necklace,907,trabalho,festa,10,10.4587,-0.0408501
+categoria,earrings,necklace,907,trabalho,esporte,0,0.00854465,-0.00850835
+categoria,earrings,necklace,907,festa,dia,184.75,190.128,-0.028543
+categoria,earrings,necklace,907,festa,trabalho,16.8333,16.4871,0.0196038
+categoria,earrings,necklace,907,festa,festa,434.25,429.367,0.0112819
+categoria,earrings,necklace,907,festa,esporte,0.5,0.35079,0.104775
+categoria,earrings,necklace,907,praia,dia,0.166667,0.0995957,0.0592081
+categoria,earrings,necklace,907,praia,trabalho,0.166667,0.00863653,0.145551
+categoria,earrings,necklace,907,praia,festa,0,0.224917,-0.202873
+categoria,earrings,necklace,907,praia,esporte,0,0.000183756,-0.000183739
+categoria,earrings,neckwear,203,dia,dia,21.6667,21.3017,0.0162314
+categoria,earrings,neckwear,203,dia,trabalho,1.25,1.30419,-0.0237978
+categoria,earrings,neckwear,203,dia,festa,35.6667,35.7927,-0.00343119
+categoria,earrings,neckwear,203,dia,esporte,0,0.14491,-0.135326
+categoria,earrings,neckwear,203,dia,praia,0.25,0.289819,-0.0313586
+categoria,earrings,neckwear,203,trabalho,dia,1.91667,1.93103,-0.00491401
+categoria,earrings,neckwear,203,trabalho,trabalho,0,0.118227,-0.111744
+categoria,earrings,neckwear,203,trabalho,festa,3.41667,3.24466,0.0397227
+categoria,earrings,neckwear,203,trabalho,esporte,0,0.0131363,-0.0130508
+categoria,earrings,neckwear,203,trabalho,praia,0,0.0262726,-0.0259334
+categoria,earrings,neckwear,203,festa,dia,49.6667,50.0862,-0.0082463
+categoria,earrings,neckwear,203,festa,trabalho,3.25,3.0665,0.0441357
+categoria,earrings,neckwear,203,festa,festa,84.1667,84.1585,9.6406e-05
+categoria,earrings,neckwear,203,festa,esporte,0.5,0.340722,0.112256
+categoria,earrings,neckwear,203,festa,praia,0.75,0.681445,0.0399623
+categoria,earrings,neckwear,203,esporte,dia,0.25,0.181034,0.0567528
+categoria,earrings,neckwear,203,esporte,trabalho,0,0.0110837,-0.0110228
+categoria,earrings,neckwear,203,esporte,festa,0.25,0.304187,-0.0424365
+categoria,earrings,neckwear,203,esporte,esporte,0,0.00123153,-0.00123077
+categoria,earrings,neckwear,203,esporte,praia,0,0.00246305,-0.00246003
+categoria,earrings,outerwear,1189,dia,dia,84.6111,88.3571,-0.0428259
+categoria,earrings,outerwear,1189,dia,trabalho,14.0833,11.8127,0.163154
+categoria,earrings,outerwear,1189,dia,festa,218.694,218.138,0.00253586
+categoria,earrings,outerwear,1189,dia,esporte,5.86111,5.0561,0.124803
+categoria,earrings,outerwear,1189,dia,praia,0.25,0.136039,0.0955962
+categoria,earrings,outerwear,1189,trabalho,dia,6.36111,6.19092,0.0233922
+categoria,earrings,outerwear,1189,trabalho,trabalho,0.666667,0.82768,-0.0922216
+categoria,earrings,outerwear,1189,trabalho,festa,15.1111,15.2843,-0.0106906
+categoria,earrings,outerwear,1189,trabalho,esporte,0.527778,0.354266,0.120555
+categoria,earrings,outerwear,1189,trabalho,praia,0,0.00953182,-0.00948668
+categoria,earrings,outerwear,1189,festa,dia,233.278,229.974,0.0142008
+categoria,earrings,outerwear,1189,festa,trabalho,28.6667,30.7459,-0.0677384
+categoria,earrings,outerwear,1189,festa,festa,567.611,567.766,-0.000271956
+categoria,earrings,outerwear,1189,festa,esporte,12.1944,13.1599,-0.0706209
+categoria,earrings,outerwear,1189,festa,praia,0.25,0.354079,-0.079978
+categoria,earrings,outerwear,1189,esporte,dia,0.5,0.136564,0.277455
+categoria,earrings,outerwear,1189,esporte,trabalho,0,0.0182576,-0.018093
+categoria,earrings,outerwear,1189,esporte,festa,0,0.337153,-0.290543
+categoria,earrings,outerwear,1189,esporte,esporte,0,0.00781469,-0.00778431
+categoria,earrings,outerwear,1189,esporte,praia,0,0.000210261,-0.000210239
+categoria,earrings,outerwear,1189,praia,dia,0,0.0910429,-0.087134
+categoria,earrings,outerwear,1189,praia,trabalho,0,0.0121718,-0.0120983
+categoria,earrings,outerwear,1189,praia,festa,0.333333,0.224769,0.0849301
+categoria,earrings,outerwear,1189,praia,esporte,0,0.00520979,-0.00519627
+categoria,earrings,outerwear,1189,praia,praia,0,0.000140174,-0.000140164
+categoria,earrings,pants,885,dia,dia,143.583,144.791,-0.00831778
+categoria,earrings,pants,885,dia,trabalho,6.16667,7.67684,-0.191216
+categoria,earrings,pants,885,dia,festa,101.833,98.1469,0.036507
+categoria,earrings,pants,885,dia,esporte,5.33333,5.4904,-0.0244968
+categoria,earrings,pants,885,dia,praia,1.08333,1.89492,-0.328987
+categoria,earrings,pants,885,trabalho,dia,11.1667,11.5047,-0.0274052
+categoria,earrings,pants,885,trabalho,trabalho,0.833333,0.609981,0.129913
+categoria,earrings,pants,885,trabalho,festa,8.16667,7.79849,0.0409932
+categoria,earrings,pants,885,trabalho,esporte,0.333333,0.436252,-0.0743551
+categoria,earrings,pants,885,trabalho,praia,0,0.150565,-0.140253
+categoria,earrings,pants,885,festa,dia,341.917,340.371,0.00451761
+categoria,earrings,pants,885,festa,trabalho,19.3333,18.0465,0.0653774
+categoria,earrings,pants,885,festa,festa,226.667,230.721,-0.0176527
+categoria,earrings,pants,885,festa,esporte,13.1667,12.9067,0.0185221
+categoria,earrings,pants,885,festa,praia,5.41667,4.45452,0.162454
+categoria,earrings,rings,855,dia,dia,68.0278,63.5492,0.067081
+categoria,earrings,rings,855,dia,trabalho,3.19444,3.94688,-0.164996
+categoria,earrings,rings,855,dia,festa,156.278,160.004,-0.0234151
+categoria,earrings,rings,855,trabalho,dia,4.27778,4.09695,0.0348636
+categoria,earrings,rings,855,trabalho,trabalho,0.444444,0.254451,0.141027
+categoria,earrings,rings,855,trabalho,festa,9.94444,10.3153,-0.0333211
+categoria,earrings,rings,855,festa,dia,166.528,170.954,-0.0260801
+categoria,earrings,rings,855,festa,trabalho,11.1944,10.6175,0.0484641
+categoria,earrings,rings,855,festa,festa,434.278,430.428,0.0088836
+categoria,earrings,rings,855,praia,dia,0,0.232781,-0.209273
+categoria,earrings,rings,855,praia,trabalho,0,0.0144574,-0.0143539
+categoria,earrings,rings,855,praia,festa,0.833333,0.586095,0.144861
+categoria,earrings,shoes,2767,dia,dia,108.583,99.0401,0.0911143
+categoria,earrings,shoes,2767,dia,trabalho,7.33333,6.48449,0.107431
+categoria,earrings,shoes,2767,dia,festa,646.917,659.692,-0.0195255
+categoria,earrings,shoes,2767,dia,esporte,6,5.31821,0.102473
+categoria,earrings,shoes,2767,dia,praia,5.66667,3.96534,0.294639
+categoria,earrings,shoes,2767,trabalho,dia,7.08333,6.73481,0.0440733
+categoria,earrings,shoes,2767,trabalho,trabalho,0.25,0.440951,-0.14216
+categoria,earrings,shoes,2767,trabalho,festa,44.5833,44.8596,-0.00604274
+categoria,earrings,shoes,2767,trabalho,esporte,0.75,0.361643,0.250924
+categoria,earrings,shoes,2767,trabalho,praia,0,0.269646,-0.238738
+categoria,earrings,shoes,2767,festa,dia,238.167,248.016,-0.0403557
+categoria,earrings,shoes,2767,festa,trabalho,15.5833,16.2384,-0.0387433
+categoria,earrings,shoes,2767,festa,festa,1665,1652,0.00783498
+categoria,earrings,shoes,2767,festa,esporte,12.25,13.3179,-0.0775097
+categoria,earrings,shoes,2767,festa,praia,8.5,9.92998,-0.140218
+categoria,earrings,shoes,2767,praia,dia,0,0.0426254,-0.0417419
+categoria,earrings,shoes,2767,praia,trabalho,0,0.00279083,-0.00278694
+categoria,earrings,shoes,2767,praia,festa,0.333333,0.283922,0.0377629
+categoria,earrings,shoes,2767,praia,esporte,0,0.00228888,-0.00228627
+categoria,earrings,shoes,2767,praia,praia,0,0.00170662,-0.00170517
+categoria,earrings,skirt,760,dia,dia,55.9167,61.798,-0.0983354
+categoria,earrings,skirt,760,dia,trabalho,5,4.49704,0.0875498
+categoria,earrings,skirt,760,dia,festa,156.583,151.69,0.0315417
+categoria,earrings,skirt,760,dia,esporte,2.33333,1.8375,0.161049
+categoria,earrings,skirt,760,dia,praia,0.666667,0.676974,-0.00616517
+categoria,earrings,skirt,760,trabalho,dia,3.25,3.36316,-0.0262771
+categoria,earrings,skirt,760,trabalho,trabalho,0.333333,0.244737,0.0687579
+categoria,earrings,skirt,760,trabalho,festa,7.91667,8.25526,-0.0372702
+categoria,earrings,skirt,760,trabalho,esporte,0.333333,0.1,0.192372
+categoria,earrings,skirt,760,trabalho,praia,0.166667,0.0368421,0.117971
+categoria,earrings,skirt,760,festa,dia,153.833,147.839,0.0394853
+categoria,earrings,skirt,760,festa,trabalho,10.1667,10.7582,-0.0516197
+categoria,earrings,skirt,760,festa,festa,358.333,362.888,-0.0125946
+categoria,earrings,skirt,760,festa,esporte,3.66667,4.39583,-0.145182
+categoria,earrings,skirt,760,festa,praia,1.5,1.61952,-0.0466994
+categoria,earrings,top,2416,dia,dia,291.222,286.116,0.0176272
+categoria,earrings,top,2416,dia,trabalho,44.8056,44.8362,-0.000669206
+categoria,earrings,top,2416,dia,festa,352.556,360.584,-0.0224544
+categoria,earrings,top,2416,dia,esporte,10.9167,9.81248,0.0972372
+categoria,earrings,top,2416,dia,praia,4.66667,2.81744,0.39502
+categoria,earrings,top,2416,trabalho,dia,19.9722,20.0451,-0.00346751
+categoria,earrings,top,2416,trabalho,trabalho,1.55556,3.14119,-0.482713
+categoria,earrings,top,2416,trabalho,festa,26.9722,25.2622,0.06308
+categoria,earrings,top,2416,trabalho,esporte,0.833333,0.687454,0.0829149
+categoria,earrings,top,2416,trabalho,praia,0,0.197388,-0.180142
+categoria,earrings,top,2416,festa,dia,669.806,675.167,-0.00796035
+categoria,earrings,top,2416,festa,trabalho,107.472,105.803,0.0155094
+categoria,earrings,top,2416,festa,festa,857.472,850.893,0.00769285
+categoria,earrings,top,2416,festa,esporte,21.9167,23.1551,-0.0526321
+categoria,earrings,top,2416,festa,praia,5,6.6485,-0.24275
+categoria,earrings,top,2416,esporte,dia,0.5,0.203159,0.220514
+categoria,earrings,top,2416,esporte,trabalho,0,0.0318364,-0.0313401
+categoria,earrings,top,2416,esporte,festa,0,0.256036,-0.227961
+categoria,earrings,top,2416,esporte,esporte,0,0.00696744,-0.00694328
+categoria,earrings,top,2416,esporte,praia,0,0.00200055,-0.00199855
+categoria,earrings,top,2416,praia,dia,0.166667,0.13544,0.0271307
+categoria,earrings,top,2416,praia,trabalho,0,0.0212242,-0.0210021
+categoria,earrings,top,2416,praia,festa,0.166667,0.170691,-0.00344329
+categoria,earrings,top,2416,praia,esporte,0,0.00464496,-0.0046342
+categoria,earrings,top,2416,praia,praia,0,0.0013337,-0.00133281
+categoria,earrings,watch,346,dia,dia,30.3611,30.9551,-0.0187639
+categoria,earrings,watch,346,dia,trabalho,9.11111,7.8249,0.136057
+categoria,earrings,watch,346,dia,festa,62.5278,63.1406,-0.0095999
+categoria,earrings,watch,346,dia,esporte,0.166667,0.246066,-0.0658408
+categoria,earrings,watch,346,trabalho,dia,3.86111,2.77738,0.252237
+categoria,earrings,watch,346,trabalho,trabalho,0.527778,0.702071,-0.108032
+categoria,earrings,watch,346,trabalho,festa,4.77778,5.66514,-0.142872
+categoria,earrings,watch,346,trabalho,esporte,0,0.0220777,-0.0218375
+categoria,earrings,watch,346,festa,dia,70.6111,70.9493,-0.00471204
+categoria,earrings,watch,346,festa,trabalho,16.8611,17.9347,-0.058372
+categoria,earrings,watch,346,festa,festa,146.028,144.719,0.0089441
+categoria,earrings,watch,346,festa,esporte,0.666667,0.563985,0.0635884
+categoria,earrings,watch,346,praia,dia,0,0.151493,-0.14106
+categoria,earrings,watch,346,praia,trabalho,0,0.0382948,-0.0375797
+categoria,earrings,watch,346,praia,festa,0.5,0.309008,0.136196
+categoria,earrings,watch,346,praia,esporte,0,0.00120424,-0.00120351
+categoria,eyewear,hats,634,dia,dia,168.583,169.032,-0.0026434
+categoria,eyewear,hats,634,dia,trabalho,4.83333,5.15028,-0.0529091
+categoria,eyewear,hats,634,dia,festa,211.083,209.513,0.00742994
+categoria,eyewear,hats,634,dia,esporte,5.66667,6.07733,-0.0597769
+categoria,eyewear,hats,634,dia,praia,1.66667,2.06011,-0.137622
+categoria,eyewear,hats,634,trabalho,dia,7.25,5.39235,0.255111
+categoria,eyewear,hats,634,trabalho,trabalho,0,0.164301,-0.152121
+categoria,eyewear,hats,634,trabalho,festa,5,6.68375,-0.247349
+categoria,eyewear,hats,634,trabalho,esporte,0.25,0.193875,0.0459393
+categoria,eyewear,hats,634,trabalho,praia,0,0.0657203,-0.0636509
+categoria,eyewear,hats,634,festa,dia,94.75,97.4218,-0.0275216
+categoria,eyewear,hats,634,festa,trabalho,3.5,2.96837,0.125723
+categoria,eyewear,hats,634,festa,festa,122.25,120.753,0.0122191
+categoria,eyewear,hats,634,festa,esporte,3.91667,3.50267,0.0879597
+categoria,eyewear,hats,634,festa,praia,1.41667,1.18735,0.0996999
+categoria,eyewear,hats,634,esporte,dia,1.41667,0.790878,0.299683
+categoria,eyewear,hats,634,esporte,trabalho,0,0.0240974,-0.0238117
+categoria,eyewear,hats,634,esporte,festa,0.416667,0.980284,-0.334934
+categoria,eyewear,hats,634,esporte,esporte,0,0.028435,-0.0280382
+categoria,eyewear,hats,634,esporte,praia,0,0.00963898,-0.00959282
+categoria,eyewear,hats,634,praia,dia,1.5,0.862776,0.294223
+categoria,eyewear,hats,634,praia,trabalho,0,0.0262881,-0.0259485
+categoria,eyewear,hats,634,praia,festa,0.25,1.0694,-0.504115
+categoria,eyewear,hats,634,praia,esporte,0,0.03102,-0.0305486
+categoria,eyewear,hats,634,praia,praia,0.25,0.0105152,0.212683
+categoria,eyewear,necklace,815,dia,dia,149.694,150.519,-0.00545399
+categoria,eyewear,necklace,815,dia,trabalho,13.6111,12.1266,0.107143
+categoria,eyewear,necklace,815,dia,festa,356.694,357.309,-0.00171596
+categoria,eyewear,necklace,815,dia,esporte,0.166667,0.212747,-0.0387374
+categoria,eyewear,necklace,815,trabalho,dia,4.19444,4.67808,-0.0890243
+categoria,eyewear,necklace,815,trabalho,trabalho,0.777778,0.376892,0.255536
+categoria,eyewear,necklace,815,trabalho,festa,11.1944,11.1051,0.00735541
+categoria,eyewear,necklace,815,trabalho,esporte,0,0.00661213,-0.00659037
+categoria,eyewear,necklace,815,festa,dia,80.6944,79.7686,0.011398
+categoria,eyewear,necklace,815,festa,trabalho,4.61111,6.42658,-0.280317
+categoria,eyewear,necklace,815,festa,festa,190.194,189.359,0.00438044
+categoria,eyewear,necklace,815,festa,esporte,0.166667,0.112747,0.0473189
+categoria,eyewear,necklace,815,esporte,dia,0.25,0.578732,-0.233479
+categoria,eyewear,necklace,815,esporte,trabalho,0,0.0466258,-0.0455714
+categoria,eyewear,necklace,815,esporte,festa,1.75,1.37382,0.147099
+categoria,eyewear,necklace,815,esporte,esporte,0,0.000817996,-0.000817662
+categoria,eyewear,necklace,815,praia,dia,1,0.289366,0.438997
+categoria,eyewear,necklace,815,praia,trabalho,0,0.0233129,-0.0230453
+categoria,eyewear,necklace,815,praia,festa,0,0.686912,-0.5229
+categoria,eyewear,necklace,815,praia,esporte,0,0.000408998,-0.000408914
+categoria,eyewear,neckwear,299,dia,dia,73.4167,73.1918,0.00302697
+categoria,eyewear,neckwear,299,dia,trabalho,2.08333,1.94314,0.0465329
+categoria,eyewear,neckwear,299,dia,festa,117.917,118.208,-0.00244619
+categoria,eyewear,neckwear,299,dia,praia,0.25,0.323857,-0.0574061
+categoria,eyewear,neckwear,299,trabalho,dia,2.91667,2.96042,-0.01111
+categoria,eyewear,neckwear,299,trabalho,trabalho,0,0.0785953,-0.0756596
+categoria,eyewear,neckwear,299,trabalho,festa,4.91667,4.78122,0.0231593
+categoria,eyewear,neckwear,299,trabalho,praia,0,0.0130992,-0.0130142
+categoria,eyewear,neckwear,299,festa,dia,36.5,36.7219,-0.00589859
+categoria,eyewear,neckwear,299,festa,trabalho,0.916667,0.974916,-0.0299385
+categoria,eyewear,neckwear,299,festa,festa,59.5,59.3074,0.00318832
+categoria,eyewear,neckwear,299,festa,praia,0.25,0.162486,0.0725827
+categoria,eyewear,neckwear,299,esporte,dia,0.166667,0.125975,0.0355009
+categoria,eyewear,neckwear,299,esporte,trabalho,0,0.00334448,-0.0033389
+categoria,eyewear,neckwear,299,esporte,festa,0.166667,0.203456,-0.0310467
+categoria,eyewear,neckwear,299,esporte,praia,0,0.000557414,-0.000557258
+categoria,eyewear,outerwear,1560,dia,dia,307.667,303.254,0.0143975
+categoria,eyewear,outerwear,1560,dia,trabalho,36.75,37.6031,-0.022348
+categoria,eyewear,outerwear,1560,dia,festa,623.5,628.374,-0.0077739
+categoria,eyewear,outerwear,1560,dia,esporte,20.5,19.1184,0.0664158
+categoria,eyewear,outerwear,1560,dia,praia,0.25,0.31688,-0.052122
+categoria,eyewear,outerwear,1560,trabalho,dia,12,9.45753,0.217627
+categoria,eyewear,outerwear,1560,trabalho,trabalho,1.58333,1.17272,0.1731
+categoria,eyewear,outerwear,1560,trabalho,festa,16.5833,19.597,-0.158192
+categoria,eyewear,outerwear,1560,trabalho,esporte,0.666667,0.596243,0.043173
+categoria,eyewear,outerwear,1560,trabalho,praia,0,0.00988248,-0.00983397
+categoria,eyewear,outerwear,1560,festa,dia,156.083,163.385,-0.0454363
+categoria,eyewear,outerwear,1560,festa,trabalho,19.9167,20.2595,-0.0162596
+categoria,eyewear,outerwear,1560,festa,festa,347.417,338.551,0.025776
+categoria,eyewear,outerwear,1560,festa,esporte,9,10.3005,-0.122262
+categoria,eyewear,outerwear,1560,festa,praia,0.25,0.170726,0.0655191
+categoria,eyewear,outerwear,1560,esporte,dia,1.41667,1.02244,0.178087
+categoria,eyewear,outerwear,1560,esporte,trabalho,0.75,0.126781,0.440251
+categoria,eyewear,outerwear,1560,esporte,festa,1.16667,2.11859,-0.364191
+categoria,eyewear,outerwear,1560,esporte,esporte,0,0.0644587,-0.0624664
+categoria,eyewear,outerwear,1560,esporte,praia,0,0.00106838,-0.00106781
+categoria,eyewear,outerwear,1560,praia,dia,1.33333,1.38029,-0.0199238
+categoria,eyewear,outerwear,1560,praia,trabalho,0.333333,0.171154,0.129693
+categoria,eyewear,outerwear,1560,praia,festa,2.83333,2.8601,-0.00695735
+categoria,eyewear,outerwear,1560,praia,esporte,0,0.0870192,-0.0834393
+categoria,eyewear,outerwear,1560,praia,praia,0,0.00144231,-0.00144127
+categoria,eyewear,pants,1556,dia,dia,568.417,575.763,-0.0128185
+categoria,eyewear,pants,1556,dia,trabalho,23.25,22.3012,0.0399106
+categoria,eyewear,pants,1556,dia,festa,363.333,359.515,0.0105362
+categoria,eyewear,pants,1556,dia,esporte,18,16.4353,0.0859442
+categoria,eyewear,pants,1556,dia,praia,13.75,12.736,0.0712223
+categoria,eyewear,pants,1556,trabalho,dia,22.8333,22.8049,0.00119412
+categoria,eyewear,pants,1556,trabalho,trabalho,0.916667,0.88331,0.0175566
+categoria,eyewear,pants,1556,trabalho,festa,14.5,14.2397,0.0169353
+categoria,eyewear,pants,1556,trabalho,esporte,0.416667,0.65097,-0.153056
+categoria,eyewear,pants,1556,trabalho,praia,0.416667,0.50445,-0.0601204
+categoria,eyewear,pants,1556,festa,dia,313.583,306.188,0.0237875
+categoria,eyewear,pants,1556,festa,trabalho,10.75,11.8597,-0.0902459
+categoria,eyewear,pants,1556,festa,festa,187,191.189,-0.0220354
+categoria,eyewear,pants,1556,festa,esporte,7.5,8.74021,-0.136197
+categoria,eyewear,pants,1556,festa,praia,5.91667,6.77296,-0.116717
+categoria,eyewear,pants,1556,esporte,dia,1.58333,1.50736,0.0298503
+categoria,eyewear,pants,1556,esporte,trabalho,0,0.0583851,-0.0567443
+categoria,eyewear,pants,1556,esporte,festa,1,0.941218,0.0298317
+categoria,eyewear,pants,1556,esporte,esporte,0,0.0430279,-0.0421279
+categoria,eyewear,pants,1556,esporte,praia,0,0.0333432,-0.0327993
+categoria,eyewear,pants,1556,praia,dia,1.5,1.65323,-0.0594882
+categoria,eyewear,pants,1556,praia,trabalho,0.25,0.0640353,0.161075
+categoria,eyewear,pants,1556,praia,festa,1.08333,1.0323,0.0247994
+categoria,eyewear,pants,1556,praia,esporte,0,0.0471919,-0.0461122
+categoria,eyewear,pants,1556,praia,praia,0,0.0365699,-0.0359171
+categoria,eyewear,rings,505,dia,dia,96.0833,97.3,-0.0124543
+categoria,eyewear,rings,505,dia,trabalho,6.58333,5.7802,0.111947
+categoria,eyewear,rings,505,dia,festa,221.667,221.253,0.0018589
+categoria,eyewear,rings,505,trabalho,dia,3.33333,3.1,0.0553501
+categoria,eyewear,rings,505,trabalho,trabalho,0.166667,0.184158,-0.0148816
+categoria,eyewear,rings,505,trabalho,festa,6.83333,7.04917,-0.0271815
+categoria,eyewear,rings,505,festa,dia,51.75,50.65,0.0210736
+categoria,eyewear,rings,505,festa,trabalho,2.25,3.00891,-0.209865
+categoria,eyewear,rings,505,festa,festa,114.833,115.174,-0.00294033
+categoria,eyewear,rings,505,esporte,dia,0.333333,0.25,0.0645385
+categoria,eyewear,rings,505,esporte,trabalho,0,0.0148515,-0.0147423
+categoria,eyewear,rings,505,esporte,festa,0.5,0.568482,-0.0446431
+categoria,eyewear,rings,505,praia,dia,0,0.2,-0.182322
+categoria,eyewear,rings,505,praia,trabalho,0,0.0118812,-0.0118112
+categoria,eyewear,rings,505,praia,festa,0.666667,0.454785,0.135967
+categoria,eyewear,shoes,2960,dia,dia,377.319,376.095,0.00324145
+categoria,eyewear,shoes,2960,dia,trabalho,18.375,17.5133,0.0454919
+categoria,eyewear,shoes,2960,dia,festa,1401.07,1400.81,0.000186817
+categoria,eyewear,shoes,2960,dia,esporte,33.6528,34.455,-0.0228873
+categoria,eyewear,shoes,2960,dia,praia,15.5,17.0456,-0.089543
+categoria,eyewear,shoes,2960,trabalho,dia,21.4444,14.1433,0.393488
+categoria,eyewear,shoes,2960,trabalho,trabalho,1,0.658598,0.187174
+categoria,eyewear,shoes,2960,trabalho,festa,44.7778,52.6781,-0.159206
+categoria,eyewear,shoes,2960,trabalho,esporte,2.02778,1.2957,0.276791
+categoria,eyewear,shoes,2960,trabalho,praia,0.166667,0.64101,-0.341161
+categoria,eyewear,shoes,2960,festa,dia,200.736,209.228,-0.0412345
+categoria,eyewear,shoes,2960,festa,trabalho,8.45833,9.74299,-0.127357
+categoria,eyewear,shoes,2960,festa,festa,786.736,779.294,0.00949181
+categoria,eyewear,shoes,2960,festa,esporte,19.3194,19.168,0.00748334
+categoria,eyewear,shoes,2960,festa,praia,11.6667,9.48279,0.189239
+categoria,eyewear,shoes,2960,esporte,dia,1.5,1.95255,-0.166379
+categoria,eyewear,shoes,2960,esporte,trabalho,0.25,0.090923,0.136119
+categoria,eyewear,shoes,2960,esporte,festa,7.83333,7.27249,0.0655972
+categoria,eyewear,shoes,2960,esporte,esporte,0,0.178878,-0.164563
+categoria,eyewear,shoes,2960,esporte,praia,0,0.0884947,-0.0847958
+categoria,eyewear,shoes,2960,praia,dia,2.08333,1.66391,0.146215
+categoria,eyewear,shoes,2960,praia,trabalho,0,0.0774822,-0.074627
+categoria,eyewear,shoes,2960,praia,festa,5.83333,6.19742,-0.0519106
+categoria,eyewear,shoes,2960,praia,esporte,0.25,0.152435,0.0812662
+categoria,eyewear,shoes,2960,praia,praia,0,0.0754129,-0.0727047
+categoria,eyewear,skirt,798,dia,dia,152.083,152.05,0.000219226
+categoria,eyewear,skirt,798,dia,trabalho,12.5,12.523,-0.00170034
+categoria,eyewear,skirt,798,dia,festa,331.917,331.963,-0.00013968
+categoria,eyewear,skirt,798,dia,esporte,2.33333,2.29588,0.0113
+categoria,eyewear,skirt,798,dia,praia,0.833333,0.834865,-0.000835073
+categoria,eyewear,skirt,798,trabalho,dia,6,6.74537,-0.101185
+categoria,eyewear,skirt,798,trabalho,trabalho,0.25,0.555556,-0.218689
+categoria,eyewear,skirt,798,trabalho,festa,15.9167,14.7269,0.0729298
+categoria,eyewear,skirt,798,trabalho,esporte,0,0.101852,-0.0969923
+categoria,eyewear,skirt,798,trabalho,praia,0,0.037037,-0.0363676
+categoria,eyewear,skirt,798,festa,dia,82.75,82.6688,0.000969726
+categoria,eyewear,skirt,798,festa,trabalho,7.25,6.80869,0.0549762
+categoria,eyewear,skirt,798,festa,festa,179.833,180.487,-0.00360813
+categoria,eyewear,skirt,798,festa,esporte,1.33333,1.24826,0.0371415
+categoria,eyewear,skirt,798,festa,praia,0.5,0.453913,0.0312069
+categoria,eyewear,skirt,798,esporte,dia,1.25,1.06506,0.0857717
+categoria,eyewear,skirt,798,esporte,trabalho,0,0.0877193,-0.0840831
+categoria,eyewear,skirt,798,esporte,festa,2.25,2.32529,-0.0229026
+categoria,eyewear,skirt,798,esporte,esporte,0,0.0160819,-0.0159539
+categoria,eyewear,skirt,798,esporte,praia,0,0.00584795,-0.00583092
+categoria,eyewear,skirt,798,praia,dia,0.75,0.304302,0.293947
+categoria,eyewear,skirt,798,praia,trabalho,0,0.0250627,-0.0247537
+categoria,eyewear,skirt,798,praia,festa,0.25,0.664369,-0.286303
+categoria,eyewear,skirt,798,praia,esporte,0,0.00459482,-0.0045843
+categoria,eyewear,skirt,798,praia,praia,0,0.00167084,-0.00166945
+categoria,eyewear,top,3581,dia,dia,1022.53,1020.09,0.00238937
+categoria,eyewear,top,3581,dia,trabalho,164.167,158.38,0.035663
+categoria,eyewear,top,3581,dia,festa,1016.36,1024.48,-0.00794603
+categoria,eyewear,top,3581,dia,esporte,31.4444,32.2616,-0.0248758
+categoria,eyewear,top,3581,dia,praia,12.4167,11.7125,0.0539124
+categoria,eyewear,top,3581,trabalho,dia,36.7778,38.1733,-0.0362736
+categoria,eyewear,top,3581,trabalho,trabalho,6.75,5.92685,0.112288
+categoria,eyewear,top,3581,trabalho,festa,38.5278,38.3376,0.00482203
+categoria,eyewear,top,3581,trabalho,esporte,1.52778,1.20728,0.135578
+categoria,eyewear,top,3581,trabalho,praia,0.5,0.438301,0.0420026
+categoria,eyewear,top,3581,festa,dia,556.111,557.466,-0.00242893
+categoria,eyewear,top,3581,festa,trabalho,81.5,86.5531,-0.0594471
+categoria,eyewear,top,3581,festa,festa,566.111,559.866,0.0110728
+categoria,eyewear,top,3581,festa,esporte,18.4444,17.6307,0.042753
+categoria,eyewear,top,3581,festa,praia,5.75,6.40076,-0.0920398
+categoria,eyewear,top,3581,esporte,dia,5,5.63708,-0.100913
+categoria,eyewear,top,3581,esporte,trabalho,0,0.875223,-0.628728
+categoria,eyewear,top,3581,esporte,festa,7.41667,5.66136,0.233891
+categoria,eyewear,top,3581,esporte,esporte,0,0.178281,-0.164056
+categoria,eyewear,top,3581,esporte,praia,0,0.0647243,-0.0627159
+categoria,eyewear,top,3581,praia,dia,5.33333,4.3886,0.161541
+categoria,eyewear,top,3581,praia,trabalho,0,0.681382,-0.519616
+categoria,eyewear,top,3581,praia,festa,4.33333,4.4075,-0.0138101
+categoria,eyewear,top,3581,praia,esporte,0,0.138796,-0.129971
+categoria,eyewear,top,3581,praia,praia,0,0.0503894,-0.049161
+categoria,eyewear,watch,424,dia,dia,92.9167,88.0405,0.0533167
+categoria,eyewear,watch,424,dia,trabalho,22.75,22.0355,0.0305457
+categoria,eyewear,watch,424,dia,festa,142.25,147.75,-0.037673
+categoria,eyewear,watch,424,dia,esporte,0.416667,0.507731,-0.0622989
+categoria,eyewear,watch,424,trabalho,dia,4,3.57842,0.088084
+categoria,eyewear,watch,424,trabalho,trabalho,0.666667,0.895637,-0.128729
+categoria,eyewear,watch,424,trabalho,festa,5.83333,6.00531,-0.0248554
+categoria,eyewear,watch,424,trabalho,esporte,0,0.0206368,-0.0204267
+categoria,eyewear,watch,424,festa,dia,47.4167,51.9155,-0.088852
+categoria,eyewear,watch,424,festa,trabalho,12.75,12.9938,-0.0175785
+categoria,eyewear,watch,424,festa,festa,91.75,87.1246,0.0511559
+categoria,eyewear,watch,424,festa,esporte,0.416667,0.299397,0.0864062
+categoria,eyewear,watch,424,esporte,dia,0.166667,0.624803,-0.331236
+categoria,eyewear,watch,424,esporte,trabalho,0,0.156381,-0.145295
+categoria,eyewear,watch,424,esporte,festa,1.66667,1.04855,0.263699
+categoria,eyewear,watch,424,esporte,esporte,0,0.00360325,-0.00359677
+categoria,eyewear,watch,424,praia,dia,0,0.340802,-0.293268
+categoria,eyewear,watch,424,praia,trabalho,0,0.0852987,-0.0818553
+categoria,eyewear,watch,424,praia,festa,1,0.571934,0.24084
+categoria,eyewear,watch,424,praia,esporte,0,0.00196541,-0.00196348
+categoria,gloves,shoes,206,dia,dia,6,4.52157,0.237247
+categoria,gloves,shoes,206,dia,trabalho,0.25,0.179072,0.0584156
+categoria,gloves,shoes,206,dia,festa,21.25,22.9213,-0.0724252
+categoria,gloves,shoes,206,dia,esporte,0.166667,0.0447681,0.110356
+categoria,gloves,shoes,206,trabalho,dia,0.833333,0.354099,0.302999
+categoria,gloves,shoes,206,trabalho,trabalho,0,0.0140237,-0.0139263
+categoria,gloves,shoes,206,trabalho,festa,1.33333,1.79504,-0.180548
+categoria,gloves,shoes,206,trabalho,esporte,0,0.00350593,-0.0034998
+categoria,gloves,shoes,206,festa,dia,26.8333,28.7093,-0.065225
+categoria,gloves,shoes,206,festa,trabalho,1.08333,1.137,-0.0254343
+categoria,gloves,shoes,206,festa,festa,147.583,145.536,0.0138739
+categoria,gloves,shoes,206,festa,esporte,0.166667,0.28425,-0.0960244
+categoria,gloves,shoes,206,esporte,dia,0,0.0817152,-0.0785479
+categoria,gloves,shoes,206,esporte,trabalho,0,0.00323625,-0.00323102
+categoria,gloves,shoes,206,esporte,festa,0.5,0.414239,0.0588732
+categoria,gloves,shoes,206,esporte,esporte,0,0.000809061,-0.000808734
+categoria,gloves,top,203,dia,dia,14.625,13.931,0.0454349
+categoria,gloves,top,203,dia,trabalho,3.625,2.44287,0.295171
+categoria,gloves,top,203,dia,festa,13.7917,15.5155,-0.110237
+categoria,gloves,top,203,dia,esporte,0.125,0.277299,-0.126965
+categoria,gloves,top,203,trabalho,dia,1.91667,2.23762,-0.104396
+categoria,gloves,top,203,trabalho,trabalho,0.416667,0.392378,0.0172935
+categoria,gloves,top,203,trabalho,festa,2.83333,2.49213,0.0932223
+categoria,gloves,top,203,trabalho,esporte,0,0.0445402,-0.0435768
+categoria,gloves,top,203,festa,dia,71.375,71.7481,-0.00514164
+categoria,gloves,top,203,festa,trabalho,11.375,12.5814,-0.0930242
+categoria,gloves,top,203,festa,festa,81.2917,79.909,0.0169447
+categoria,gloves,top,203,festa,esporte,1.625,1.42816,0.0779467
+categoria,hairwear,shoes,241,dia,dia,12.8333,14.1743,-0.0925203
+categoria,hairwear,shoes,241,dia,trabalho,0.5,0.522822,-0.0150998
+categoria,hairwear,shoes,241,dia,festa,69.0833,68.0249,0.0152178
+categoria,hairwear,shoes,241,dia,esporte,1.08333,0.580913,0.275967
+categoria,hairwear,shoes,241,dia,praia,0.5,0.697095,-0.123453
+categoria,hairwear,shoes,241,festa,dia,27.8333,26.4924,0.0476228
+categoria,hairwear,shoes,241,festa,trabalho,1,0.977178,0.0114764
+categoria,hairwear,shoes,241,festa,festa,126.083,127.142,-0.00829419
+categoria,hairwear,shoes,241,festa,esporte,0.583333,1.08575,-0.275598
+categoria,hairwear,shoes,241,festa,praia,1.5,1.3029,0.0821196
+categoria,hairwear,top,245,dia,dia,40.25,39.4816,0.0188028
+categoria,hairwear,top,245,dia,trabalho,5.5,6.17551,-0.0988717
+categoria,hairwear,top,245,dia,festa,54.5,53.8449,0.0118739
+categoria,hairwear,top,245,dia,esporte,1.5,1.87347,-0.139229
+categoria,hairwear,top,245,dia,praia,0.25,0.62449,-0.26205
+categoria,hairwear,top,245,festa,dia,54.3333,55.1582,-0.0147966
+categoria,hairwear,top,245,festa,trabalho,9.33333,8.62755,0.070746
+categoria,hairwear,top,245,festa,festa,74.5833,75.2245,-0.008447
+categoria,hairwear,top,245,festa,esporte,3,2.61735,0.100553
+categoria,hairwear,top,245,festa,praia,1.25,0.872449,0.183683
+categoria,hairwear,top,245,esporte,dia,0.25,0.193537,0.046222
+categoria,hairwear,top,245,esporte,trabalho,0,0.0302721,-0.029823
+categoria,hairwear,top,245,esporte,festa,0.25,0.263946,-0.0110947
+categoria,hairwear,top,245,esporte,esporte,0,0.00918367,-0.00914176
+categoria,hairwear,top,245,esporte,praia,0,0.00306122,-0.00305655
+categoria,hats,necklace,342,dia,dia,39,40.0063,-0.0248471
+categoria,hats,necklace,342,dia,trabalho,2.5,1.49756,0.337447
+categoria,hats,necklace,342,dia,festa,104.833,104.829,3.68382e-05
+categoria,hats,necklace,342,trabalho,dia,0.5,0.364522,0.0946606
+categoria,hats,necklace,342,trabalho,trabalho,0,0.0136452,-0.013553
+categoria,hats,necklace,342,trabalho,festa,0.833333,0.955166,-0.0643391
+categoria,hats,necklace,342,festa,dia,52.75,51.7622,0.018549
+categoria,hats,necklace,342,festa,trabalho,1,1.93762,-0.384453
+categoria,hats,necklace,342,festa,festa,135.583,135.634,-0.000367437
+categoria,hats,necklace,342,esporte,dia,1.25,0.956871,0.139583
+categoria,hats,necklace,342,esporte,trabalho,0,0.0358187,-0.0351921
+categoria,hats,necklace,342,esporte,festa,2.25,2.50731,-0.0761943
+categoria,hats,necklace,342,praia,dia,0,0.410088,-0.343652
+categoria,hats,necklace,342,praia,trabalho,0,0.0153509,-0.0152342
+categoria,hats,necklace,342,praia,festa,1.5,1.07456,0.186541
+categoria,hats,outerwear,720,dia,dia,106.611,98.3201,0.0801755
+categoria,hats,outerwear,720,dia,trabalho,10,11.4292,-0.122151
+categoria,hats,outerwear,720,dia,festa,193.611,201.402,-0.0392547
+categoria,hats,outerwear,720,dia,esporte,5.77778,5.12847,0.100704
+categoria,hats,outerwear,720,dia,praia,0.5,0.219792,0.206785
+categoria,hats,outerwear,720,trabalho,dia,3.5,2.58873,0.226278
+categoria,hats,outerwear,720,trabalho,trabalho,0.666667,0.300926,0.247749
+categoria,hats,outerwear,720,trabalho,festa,4.16667,5.30285,-0.198775
+categoria,hats,outerwear,720,trabalho,esporte,0,0.135031,-0.12666
+categoria,hats,outerwear,720,trabalho,praia,0,0.00578704,-0.00577036
+categoria,hats,outerwear,720,festa,dia,109.528,117.891,-0.07294
+categoria,hats,outerwear,720,festa,trabalho,14.25,13.7042,0.0364486
+categoria,hats,outerwear,720,festa,festa,250.278,241.492,0.0355902
+categoria,hats,outerwear,720,festa,esporte,5.44444,6.14931,-0.103797
+categoria,hats,outerwear,720,festa,praia,0,0.263542,-0.233919
+categoria,hats,outerwear,720,esporte,dia,4.02778,4.0902,-0.0123392
+categoria,hats,outerwear,720,esporte,trabalho,0.583333,0.475463,0.0705605
+categoria,hats,outerwear,720,esporte,festa,8.11111,8.37851,-0.0289263
+categoria,hats,outerwear,720,esporte,esporte,0.444444,0.213349,0.174341
+categoria,hats,outerwear,720,esporte,praia,0,0.00914352,-0.00910197
+categoria,hats,outerwear,720,praia,dia,0,0.77662,-0.574713
+categoria,hats,outerwear,720,praia,trabalho,0.5,0.0902778,0.319033
+categoria,hats,outerwear,720,praia,festa,2,1.59086,0.146624
+categoria,hats,outerwear,720,praia,esporte,0,0.0405093,-0.0397103
+categoria,hats,outerwear,720,praia,praia,0,0.00173611,-0.00173461
+categoria,hats,pants,701,dia,dia,180.25,178.205,0.011348
+categoria,hats,pants,701,dia,trabalho,7,8.21255,-0.141126
+categoria,hats,pants,701,dia,festa,118.167,120.793,-0.0217996
+categoria,hats,pants,701,dia,esporte,11.9167,9.46725,0.210267
+categoria,hats,pants,701,dia,praia,2.5,3.15575,-0.17173
+categoria,hats,pants,701,trabalho,dia,4.08333,3.52881,0.115508
+categoria,hats,pants,701,trabalho,trabalho,0.333333,0.162625,0.137002
+categoria,hats,pants,701,trabalho,festa,1.5,2.39194,-0.305111
+categoria,hats,pants,701,trabalho,esporte,0.416667,0.18747,0.176481
+categoria,hats,pants,701,trabalho,praia,0,0.0624901,-0.0606153
+categoria,hats,pants,701,festa,dia,196.5,200.213,-0.0186276
+categoria,hats,pants,701,festa,trabalho,10.6667,9.22682,0.131722
+categoria,hats,pants,701,festa,festa,139.75,135.711,0.0291151
+categoria,hats,pants,701,festa,esporte,8,10.6365,-0.25692
+categoria,hats,pants,701,festa,praia,4.41667,3.54549,0.175345
+categoria,hats,pants,701,esporte,dia,9.75,8.63629,0.109369
+categoria,hats,pants,701,esporte,trabalho,0,0.398003,-0.335045
+categoria,hats,pants,701,esporte,festa,5.33333,5.85396,-0.0789997
+categoria,hats,pants,701,esporte,esporte,0.416667,0.458809,-0.0293135
+categoria,hats,pants,701,esporte,praia,0,0.152936,-0.142312
+categoria,hats,rings,210,dia,dia,27.0833,30.4593,-0.113517
+categoria,hats,rings,210,dia,trabalho,0.416667,0.883862,-0.285017
+categoria,hats,rings,210,dia,festa,58.1667,54.3235,0.0671597
+categoria,hats,rings,210,trabalho,dia,1.16667,0.77037,0.202001
+categoria,hats,rings,210,trabalho,trabalho,0,0.0223545,-0.0221083
+categoria,hats,rings,210,trabalho,festa,1,1.37394,-0.171405
+categoria,hats,rings,210,festa,dia,44.1667,41.837,0.0529563
+categoria,hats,rings,210,festa,trabalho,1.75,1.21402,0.216791
+categoria,hats,rings,210,festa,festa,71.75,74.6156,-0.0386338
+categoria,hats,rings,210,esporte,dia,2.25,1.6,0.223144
+categoria,hats,rings,210,esporte,trabalho,0,0.0464286,-0.045383
+categoria,hats,rings,210,esporte,festa,2.25,2.85357,-0.170345
+categoria,hats,shoes,1308,dia,dia,144.944,129.953,0.108388
+categoria,hats,shoes,1308,dia,trabalho,4.58333,4.84208,-0.0453014
+categoria,hats,shoes,1308,dia,festa,385.611,403.317,-0.04478
+categoria,hats,shoes,1308,dia,esporte,19.5278,16.3064,0.170701
+categoria,hats,shoes,1308,dia,praia,4.16667,4.41484,-0.0469157
+categoria,hats,shoes,1308,trabalho,dia,3.75,3.25561,0.109907
+categoria,hats,shoes,1308,trabalho,trabalho,0,0.121305,-0.114493
+categoria,hats,shoes,1308,trabalho,festa,10,10.104,-0.00940793
+categoria,hats,shoes,1308,trabalho,esporte,0.25,0.408512,-0.11939
+categoria,hats,shoes,1308,trabalho,praia,0,0.110601,-0.104902
+categoria,hats,shoes,1308,festa,dia,144.111,164.253,-0.129979
+categoria,hats,shoes,1308,festa,trabalho,6.41667,6.12012,0.0408058
+categoria,hats,shoes,1308,festa,festa,534.444,509.77,0.0471785
+categoria,hats,shoes,1308,festa,esporte,15.1944,20.6104,-0.288506
+categoria,hats,shoes,1308,festa,praia,6.16667,5.58011,0.0853899
+categoria,hats,shoes,1308,esporte,dia,9.86111,5.30974,0.543094
+categoria,hats,shoes,1308,esporte,trabalho,0.333333,0.197842,0.10716
+categoria,hats,shoes,1308,esporte,festa,9.69444,16.4791,-0.491282
+categoria,hats,shoes,1308,esporte,esporte,2.94444,0.666263,0.861725
+categoria,hats,shoes,1308,esporte,praia,0,0.180386,-0.165841
+categoria,hats,shoes,1308,praia,dia,1.5,1.39526,0.042799
+categoria,hats,shoes,1308,praia,trabalho,0,0.0519878,-0.0506815
+categoria,hats,shoes,1308,praia,festa,4.25,4.33028,-0.0151748
+categoria,hats,shoes,1308,praia,esporte,0.25,0.175076,0.0618103
+categoria,hats,shoes,1308,praia,praia,0,0.0474006,-0.0463115
+categoria,hats,skirt,301,dia,dia,37.3333,37.0173,0.00827722
+categoria,hats,skirt,301,dia,trabalho,0.666667,1.5622,-0.430041
+categoria,hats,skirt,301,dia,festa,84.5,83.0683,0.0168869
+categoria,hats,skirt,301,dia,esporte,0.166667,0.611296,-0.322888
+categoria,hats,skirt,301,dia,praia,0,0.40753,-0.341837
+categoria,hats,skirt,301,trabalho,dia,0,0.704134,-0.533057
+categoria,hats,skirt,301,trabalho,trabalho,0.25,0.0297158,0.193861
+categoria,hats,skirt,301,trabalho,festa,2.08333,1.5801,0.178182
+categoria,hats,skirt,301,trabalho,esporte,0,0.0116279,-0.0115608
+categoria,hats,skirt,301,trabalho,praia,0,0.00775194,-0.00772205
+categoria,hats,skirt,301,festa,dia,50.8333,51.6533,-0.0156952
+categoria,hats,skirt,301,festa,trabalho,2.91667,2.17986,0.208403
+categoria,hats,skirt,301,festa,festa,115.25,115.912,-0.00567734
+categoria,hats,skirt,301,festa,esporte,1.16667,0.85299,0.156389
+categoria,hats,skirt,301,festa,praia,1,0.56866,0.242925
+categoria,hats,skirt,301,esporte,dia,0.666667,0.402362,0.172667
+categoria,hats,skirt,301,esporte,trabalho,0,0.0169804,-0.0168379
+categoria,hats,skirt,301,esporte,festa,0.5,0.902916,-0.237922
+categoria,hats,skirt,301,esporte,esporte,0.166667,0.00664452,0.147528
+categoria,hats,skirt,301,esporte,praia,0,0.00442968,-0.0044199
+categoria,hats,skirt,301,praia,dia,2,1.0562,0.377752
+categoria,hats,skirt,301,praia,trabalho,0,0.0445736,-0.0436088
+categoria,hats,skirt,301,praia,festa,1.5,2.37016,-0.298668
+categoria,hats,skirt,301,praia,esporte,0,0.0174419,-0.0172915
+categoria,hats,skirt,301,praia,praia,0,0.0116279,-0.0115608
+categoria,hats,top,1587,dia,dia,353.778,333.031,0.0602563
+categoria,hats,top,1587,dia,trabalho,51.8889,53.1603,-0.0237551
+categoria,hats,top,1587,dia,festa,298.028,319.494,-0.0693278
+categoria,hats,top,1587,dia,esporte,13.8889,12.8528,0.0721293
+categoria,hats,top,1587,dia,praia,6.58333,5.62784,0.134673
+categoria,hats,top,1587,trabalho,dia,8.94444,8.58447,0.0368699
+categoria,hats,top,1587,trabalho,trabalho,1.77778,1.3703,0.158635
+categoria,hats,top,1587,trabalho,festa,7.61111,8.23552,-0.0700041
+categoria,hats,top,1587,trabalho,esporte,0.333333,0.331303,0.00152395
+categoria,hats,top,1587,trabalho,praia,0,0.145068,-0.135464
+categoria,hats,top,1587,festa,dia,345.194,370.282,-0.0699612
+categoria,hats,top,1587,festa,trabalho,60.7222,59.1064,0.0265271
+categoria,hats,top,1587,festa,festa,381.694,355.231,0.0716588
+categoria,hats,top,1587,festa,esporte,12.4722,14.2904,-0.126595
+categoria,hats,top,1587,festa,praia,5.08333,6.25733,-0.17646
+categoria,hats,top,1587,esporte,dia,20.4167,15.1761,0.280633
+categoria,hats,top,1587,esporte,trabalho,2.11111,2.4225,-0.09539
+categoria,hats,top,1587,esporte,festa,8.58333,14.5592,-0.484629
+categoria,hats,top,1587,esporte,esporte,1.47222,0.585696,0.444094
+categoria,hats,top,1587,esporte,praia,0.416667,0.256459,0.120009
+categoria,hats,top,1587,praia,dia,1.5,2.75929,-0.407941
+categoria,hats,top,1587,praia,trabalho,0,0.440454,-0.364958
+categoria,hats,top,1587,praia,festa,4.25,2.64713,0.364287
+categoria,hats,top,1587,praia,esporte,0,0.10649,-0.101193
+categoria,hats,top,1587,praia,praia,0.25,0.0466289,0.177569
+categoria,hats,watch,169,dia,dia,28.9167,29.2633,-0.0115205
+categoria,hats,watch,169,dia,trabalho,7.75,7.58679,0.0188293
+categoria,hats,watch,169,dia,festa,41.1667,41.108,0.00139255
+categoria,hats,watch,169,dia,esporte,0.666667,0.541913,0.0778016
+categoria,hats,watch,169,festa,dia,30.75,31.5,-0.0233474
+categoria,hats,watch,169,festa,trabalho,7.5,8.16667,-0.0755076
+categoria,hats,watch,169,festa,festa,45.75,44.25,0.0326116
+categoria,hats,watch,169,festa,esporte,0.5,0.583333,-0.0540672
+categoria,hats,watch,169,esporte,dia,2.83333,1.86391,0.291549
+categoria,hats,watch,169,esporte,trabalho,1.08333,0.483235,0.339744
+categoria,hats,watch,169,esporte,festa,1.08333,2.61834,-0.552047
+categoria,hats,watch,169,esporte,esporte,0,0.0345168,-0.0339344
+categoria,hats,watch,169,praia,dia,0.5,0.372781,0.0886265
+categoria,hats,watch,169,praia,trabalho,0,0.0966469,-0.0922573
+categoria,hats,watch,169,praia,festa,0.5,0.523669,-0.0156559
+categoria,hats,watch,169,praia,esporte,0,0.00690335,-0.00687963
+categoria,necklace,outerwear,1465,dia,dia,107.917,107.552,0.00335802
+categoria,necklace,outerwear,1465,dia,trabalho,18.1667,17.0509,0.0599797
+categoria,necklace,outerwear,1465,dia,festa,293.667,296.277,-0.00881889
+categoria,necklace,outerwear,1465,dia,esporte,7.25,5.97509,0.167869
+categoria,necklace,outerwear,1465,dia,praia,0,0.145734,-0.136045
+categoria,necklace,outerwear,1465,trabalho,dia,6.83333,8.98362,-0.242557
+categoria,necklace,outerwear,1465,trabalho,trabalho,0.666667,1.42423,-0.374689
+categoria,necklace,outerwear,1465,trabalho,festa,28.1667,24.7476,0.124687
+categoria,necklace,outerwear,1465,trabalho,esporte,0,0.49909,-0.404858
+categoria,necklace,outerwear,1465,trabalho,praia,0,0.0121729,-0.0120994
+categoria,necklace,outerwear,1465,festa,dia,253.917,252.255,0.00654001
+categoria,necklace,outerwear,1465,festa,trabalho,39.6667,39.9916,-0.00795934
+categoria,necklace,outerwear,1465,festa,festa,694.167,694.897,-0.00105067
+categoria,necklace,outerwear,1465,festa,esporte,13.25,14.0142,-0.0522371
+categoria,necklace,outerwear,1465,festa,praia,0.5,0.341809,0.111446
+categoria,necklace,outerwear,1465,esporte,dia,0.333333,0.083959,0.207062
+categoria,necklace,outerwear,1465,esporte,trabalho,0,0.0133106,-0.0132228
+categoria,necklace,outerwear,1465,esporte,festa,0,0.231286,-0.208059
+categoria,necklace,outerwear,1465,esporte,esporte,0,0.00466439,-0.00465355
+categoria,necklace,outerwear,1465,esporte,praia,0,0.000113766,-0.000113759
+categoria,necklace,outerwear,1465,praia,dia,0,0.125939,-0.118617
+categoria,necklace,outerwear,1465,praia,trabalho,0,0.0199659,-0.0197692
+categoria,necklace,outerwear,1465,praia,festa,0.5,0.346928,0.107638
+categoria,necklace,outerwear,1465,praia,esporte,0,0.00699659,-0.00697222
+categoria,necklace,outerwear,1465,praia,praia,0,0.000170648,-0.000170634
+categoria,necklace,pants,1066,dia,dia,177.361,171.628,0.03267
+categoria,necklace,pants,1066,dia,trabalho,7.25,6.39316,0.109658
+categoria,necklace,pants,1066,dia,festa,107.778,112.868,-0.0457286
+categoria,necklace,pants,1066,dia,esporte,6,7.1453,-0.151531
+categoria,necklace,pants,1066,dia,praia,2.27778,2.63248,-0.10275
+categoria,necklace,pants,1066,trabalho,dia,12.6944,13.0338,-0.024482
+categoria,necklace,pants,1066,trabalho,trabalho,0.5,0.485512,0.00970576
+categoria,necklace,pants,1066,trabalho,festa,8.77778,8.57142,0.0213302
+categoria,necklace,pants,1066,trabalho,esporte,0.75,0.542631,0.126127
+categoria,necklace,pants,1066,trabalho,praia,0.111111,0.199917,-0.0768916
+categoria,necklace,pants,1066,festa,dia,418.194,423.362,-0.0122526
+categoria,necklace,pants,1066,festa,trabalho,14.9167,15.7703,-0.0522411
+categoria,necklace,pants,1066,festa,festa,283.028,278.415,0.0163743
+categoria,necklace,pants,1066,festa,esporte,18.5833,17.6256,0.0501419
+categoria,necklace,pants,1066,festa,praia,6.94444,6.49364,0.058418
+categoria,necklace,pants,1066,esporte,dia,0,0.190275,-0.174185
+categoria,necklace,pants,1066,esporte,trabalho,0,0.00708776,-0.00706276
+categoria,necklace,pants,1066,esporte,festa,0.333333,0.12513,0.169783
+categoria,necklace,pants,1066,esporte,esporte,0,0.00792162,-0.00789041
+categoria,necklace,pants,1066,esporte,praia,0,0.00291849,-0.00291424
+categoria,necklace,pants,1066,praia,dia,0.25,0.285413,-0.0279363
+categoria,necklace,pants,1066,praia,trabalho,0,0.0106316,-0.0105755
+categoria,necklace,pants,1066,praia,festa,0.25,0.187695,0.0511287
+categoria,necklace,pants,1066,praia,esporte,0,0.0118824,-0.0118124
+categoria,necklace,pants,1066,praia,praia,0,0.00437774,-0.00436818
+categoria,necklace,rings,718,dia,dia,59.1667,58.3596,0.0135052
+categoria,necklace,rings,718,dia,trabalho,4,3.63045,0.0767828
+categoria,necklace,rings,718,dia,festa,132.333,133.51,-0.00878615
+categoria,necklace,rings,718,trabalho,dia,4.91667,5.224,-0.0506399
+categoria,necklace,rings,718,trabalho,trabalho,0,0.324977,-0.281395
+categoria,necklace,rings,718,trabalho,festa,12.5833,11.951,0.0476689
+categoria,necklace,rings,718,festa,dia,150.25,150.75,-0.0032988
+categoria,necklace,rings,718,festa,trabalho,9.33333,9.3779,-0.00430378
+categoria,necklace,rings,718,festa,festa,345.417,344.872,0.00157257
+categoria,necklace,shoes,2619,dia,dia,115.611,112.092,0.0306424
+categoria,necklace,shoes,2619,dia,trabalho,6.77778,6.59078,0.0243365
+categoria,necklace,shoes,2619,dia,festa,633.028,637.011,-0.00626274
+categoria,necklace,shoes,2619,dia,esporte,8.16667,8.00658,0.0176188
+categoria,necklace,shoes,2619,dia,praia,3.58333,3.46626,0.0258748
+categoria,necklace,shoes,2619,trabalho,dia,10.7778,9.18069,0.145722
+categoria,necklace,shoes,2619,trabalho,trabalho,1.11111,0.539805,0.315558
+categoria,necklace,shoes,2619,trabalho,festa,49.1111,52.1732,-0.0593114
+categoria,necklace,shoes,2619,trabalho,esporte,1.25,0.655763,0.306668
+categoria,necklace,shoes,2619,trabalho,praia,0.583333,0.283898,0.209632
+categoria,necklace,shoes,2619,festa,dia,256.028,261.272,-0.0201986
+categoria,necklace,shoes,2619,festa,trabalho,14.6111,15.3623,-0.0469943
+categoria,necklace,shoes,2619,festa,festa,1491.94,1484.79,0.00480332
+categoria,necklace,shoes,2619,festa,esporte,17.9167,18.6623,-0.0386596
+categoria,necklace,shoes,2619,festa,praia,7.66667,8.07941,-0.0465249
+categoria,necklace,shoes,2619,esporte,dia,0.25,0.0730559,0.152633
+categoria,necklace,shoes,2619,esporte,trabalho,0,0.00429553,-0.00428633
+categoria,necklace,shoes,2619,esporte,festa,0.25,0.415171,-0.124107
+categoria,necklace,shoes,2619,esporte,esporte,0,0.00521828,-0.00520471
+categoria,necklace,shoes,2619,esporte,praia,0,0.00225913,-0.00225658
+categoria,necklace,shoes,2619,praia,dia,0,0.0487039,-0.047555
+categoria,necklace,shoes,2619,praia,trabalho,0,0.00286369,-0.0028596
+categoria,necklace,shoes,2619,praia,festa,0.333333,0.276781,0.0433402
+categoria,necklace,shoes,2619,praia,esporte,0,0.00347885,-0.00347281
+categoria,necklace,shoes,2619,praia,praia,0,0.00150609,-0.00150495
+categoria,necklace,skirt,860,dia,dia,67.25,70.6483,-0.0485923
+categoria,necklace,skirt,860,dia,trabalho,4.33333,5.01189,-0.119762
+categoria,necklace,skirt,860,dia,festa,175.5,170.693,0.0276112
+categoria,necklace,skirt,860,dia,esporte,1.08333,1.6385,-0.236242
+categoria,necklace,skirt,860,dia,praia,0.5,0.674677,-0.110155
+categoria,necklace,skirt,860,trabalho,dia,5.41667,6.01363,-0.0889567
+categoria,necklace,skirt,860,trabalho,trabalho,0.416667,0.426615,-0.0069978
+categoria,necklace,skirt,860,trabalho,festa,15.3333,14.5295,0.0504652
+categoria,necklace,skirt,860,trabalho,esporte,0,0.13947,-0.130563
+categoria,necklace,skirt,860,trabalho,praia,0,0.0574289,-0.0558404
+categoria,necklace,skirt,860,festa,dia,171.667,167.671,0.0234106
+categoria,necklace,skirt,860,festa,trabalho,12.5833,11.8948,0.0520169
+categoria,necklace,skirt,860,festa,festa,399.5,405.111,-0.0139116
+categoria,necklace,skirt,860,festa,esporte,4.58333,3.8887,0.132861
+categoria,necklace,skirt,860,festa,praia,1.83333,1.60123,0.0854705
+categoria,necklace,top,2903,dia,dia,351.236,349.784,0.00412992
+categoria,necklace,top,2903,dia,trabalho,61.5694,58.768,0.0458074
+categoria,necklace,top,2903,dia,festa,400.903,405.255,-0.0107696
+categoria,necklace,top,2903,dia,esporte,9.875,10.2731,-0.0359548
+categoria,necklace,top,2903,dia,praia,2.91667,2.42,0.135601
+categoria,necklace,top,2903,trabalho,dia,29.2778,28.3552,0.0309451
+categoria,necklace,top,2903,trabalho,trabalho,5.52778,4.76401,0.124433
+categoria,necklace,top,2903,trabalho,festa,31.6944,32.8518,-0.0347884
+categoria,necklace,top,2903,trabalho,esporte,0.5,0.832788,-0.200373
+categoria,necklace,top,2903,trabalho,praia,0,0.196176,-0.17913
+categoria,necklace,top,2903,festa,dia,846.819,849.386,-0.00302234
+categoria,necklace,top,2903,festa,trabalho,139.319,142.707,-0.0238545
+categoria,necklace,top,2903,festa,festa,989.569,984.084,0.00555257
+categoria,necklace,top,2903,festa,esporte,25.7083,24.9463,0.0289447
+categoria,necklace,top,2903,festa,praia,5.58333,5.87651,-0.0435696
+categoria,necklace,top,2903,esporte,dia,0.833333,0.705353,0.0723639
+categoria,necklace,top,2903,esporte,trabalho,0,0.118508,-0.111995
+categoria,necklace,top,2903,esporte,festa,0.833333,0.81721,0.00883335
+categoria,necklace,top,2903,esporte,esporte,0,0.0207161,-0.0205045
+categoria,necklace,top,2903,esporte,praia,0,0.00488001,-0.00486814
+categoria,necklace,top,2903,praia,dia,0.416667,0.352676,0.0462216
+categoria,necklace,top,2903,praia,trabalho,0,0.0592538,-0.0575647
+categoria,necklace,top,2903,praia,festa,0.416667,0.408605,0.00570678
+categoria,necklace,top,2903,praia,esporte,0,0.0103581,-0.0103048
+categoria,necklace,top,2903,praia,praia,0,0.00244,-0.00243703
+categoria,necklace,watch,278,dia,dia,16.9167,19.279,-0.123853
+categoria,necklace,watch,278,dia,trabalho,5.75,5.51938,0.0347625
+categoria,necklace,watch,278,dia,festa,42.1667,39.9184,0.0534896
+categoria,necklace,watch,278,dia,esporte,0,0.116607,-0.110294
+categoria,necklace,watch,278,trabalho,dia,0.333333,1.73461,-0.718308
+categoria,necklace,watch,278,trabalho,trabalho,0.166667,0.496603,-0.249047
+categoria,necklace,watch,278,trabalho,festa,5.33333,3.59163,0.321592
+categoria,necklace,watch,278,trabalho,esporte,0,0.0104916,-0.010437
+categoria,necklace,watch,278,festa,dia,65.4167,61.6531,0.0583352
+categoria,necklace,watch,278,festa,trabalho,17.75,17.6507,0.00531118
+categoria,necklace,watch,278,festa,festa,123.667,127.657,-0.0315039
+categoria,necklace,watch,278,festa,esporte,0.5,0.372902,0.0885386
+categoria,neckwear,outerwear,505,dia,dia,55.4444,54.0594,0.0248442
+categoria,neckwear,outerwear,505,dia,trabalho,11.0278,11.3267,-0.0245515
+categoria,neckwear,outerwear,505,dia,festa,125.528,127.233,-0.0133845
+categoria,neckwear,outerwear,505,dia,esporte,3,2.38119,0.168067
+categoria,neckwear,outerwear,505,trabalho,dia,3.52778,2.40264,0.28568
+categoria,neckwear,outerwear,505,trabalho,trabalho,0.111111,0.50341,-0.302376
+categoria,neckwear,outerwear,505,trabalho,festa,5.02778,5.65479,-0.0989578
+categoria,neckwear,outerwear,505,trabalho,esporte,0,0.105831,-0.100597
+categoria,neckwear,outerwear,505,festa,dia,80.8611,83.4455,-0.0310828
+categoria,neckwear,outerwear,505,festa,trabalho,18.0278,17.4838,0.0290037
+categoria,neckwear,outerwear,505,festa,festa,198.944,196.395,0.0128325
+categoria,neckwear,outerwear,505,festa,esporte,3.16667,3.67558,-0.115236
+categoria,neckwear,outerwear,505,esporte,dia,0.166667,0.0924092,0.0657651
+categoria,neckwear,outerwear,505,esporte,trabalho,0.166667,0.0193619,0.134974
+categoria,neckwear,outerwear,505,esporte,festa,0,0.217492,-0.196793
+categoria,neckwear,outerwear,505,esporte,esporte,0,0.00407041,-0.00406215
+categoria,neckwear,pants,362,dia,dia,76.9167,75.1133,0.0234164
+categoria,neckwear,pants,362,dia,trabalho,6.08333,6.16091,-0.0108927
+categoria,neckwear,pants,362,dia,festa,47,49.9718,-0.0600723
+categoria,neckwear,pants,362,dia,esporte,3.16667,2.86265,0.075764
+categoria,neckwear,pants,362,dia,praia,2,1.05793,0.37691
+categoria,neckwear,pants,362,trabalho,dia,9.83333,11.0216,-0.104074
+categoria,neckwear,pants,362,trabalho,trabalho,0.833333,0.904006,-0.037824
+categoria,neckwear,pants,362,trabalho,festa,8.25,7.33249,0.104461
+categoria,neckwear,pants,362,trabalho,esporte,0.916667,0.420043,0.2999
+categoria,neckwear,pants,362,trabalho,praia,0,0.155233,-0.144302
+categoria,neckwear,pants,362,festa,dia,114.25,114.847,-0.00516263
+categoria,neckwear,pants,362,festa,trabalho,9.58333,9.41989,0.015564
+categoria,neckwear,pants,362,festa,festa,78.4167,76.4058,0.0256469
+categoria,neckwear,pants,362,festa,esporte,3.58333,4.37692,-0.159689
+categoria,neckwear,pants,362,festa,praia,0.833333,1.61756,-0.356106
+categoria,neckwear,pants,362,esporte,dia,0.166667,0.185236,-0.0157915
+categoria,neckwear,pants,362,esporte,trabalho,0,0.0151934,-0.0150791
+categoria,neckwear,pants,362,esporte,festa,0.166667,0.123235,0.0379377
+categoria,neckwear,pants,362,esporte,esporte,0,0.00705955,-0.00703474
+categoria,neckwear,pants,362,esporte,praia,0,0.00260896,-0.00260557
+categoria,neckwear,shoes,694,dia,dia,48.3333,44.1327,0.0889924
+categoria,neckwear,shoes,694,dia,trabalho,2.5,2.13833,0.109073
+categoria,neckwear,shoes,694,dia,festa,192.333,197.38,-0.0257666
+categoria,neckwear,shoes,694,dia,esporte,4,2.67291,0.308453
+categoria,neckwear,shoes,694,dia,praia,0.166667,1.00977,-0.543868
+categoria,neckwear,shoes,694,trabalho,dia,2.66667,2.49808,0.0470691
+categoria,neckwear,shoes,694,trabalho,trabalho,0,0.121037,-0.114255
+categoria,neckwear,shoes,694,trabalho,festa,11.1667,11.1724,-0.000473616
+categoria,neckwear,shoes,694,trabalho,esporte,0,0.151297,-0.140889
+categoria,neckwear,shoes,694,trabalho,praia,0.166667,0.0571566,0.0985678
+categoria,neckwear,shoes,694,festa,dia,72.6667,77.1431,-0.0589907
+categoria,neckwear,shoes,694,festa,trabalho,3.5,3.73775,-0.0514854
+categoria,neckwear,shoes,694,festa,festa,350.167,345.015,0.014778
+categoria,neckwear,shoes,694,festa,esporte,3.5,4.67219,-0.231498
+categoria,neckwear,shoes,694,festa,praia,2.5,1.76505,0.235704
+categoria,neckwear,shoes,694,esporte,dia,0.166667,0.0594781,0.0963743
+categoria,neckwear,shoes,694,esporte,trabalho,0,0.00288184,-0.0028777
+categoria,neckwear,shoes,694,esporte,festa,0.166667,0.26601,-0.0817197
+categoria,neckwear,shoes,694,esporte,esporte,0,0.00360231,-0.00359583
+categoria,neckwear,shoes,694,esporte,praia,0,0.00136087,-0.00135995
+categoria,neckwear,top,879,dia,dia,157.639,154.486,0.0200748
+categoria,neckwear,top,879,dia,trabalho,23.3889,24.9332,-0.0613949
+categoria,neckwear,top,879,dia,festa,141.806,144.027,-0.015437
+categoria,neckwear,top,879,dia,esporte,5,4.13996,0.154714
+categoria,neckwear,top,879,dia,praia,0.5,0.747061,-0.15247
+categoria,neckwear,top,879,trabalho,dia,8.72222,9.41031,-0.0683829
+categoria,neckwear,top,879,trabalho,trabalho,2.22222,1.51877,0.2463
+categoria,neckwear,top,879,trabalho,festa,8.13889,8.77323,-0.0671079
+categoria,neckwear,top,879,trabalho,esporte,0.916667,0.252181,0.425701
+categoria,neckwear,top,879,trabalho,praia,0,0.0455063,-0.0445012
+categoria,neckwear,top,879,festa,dia,245.722,248.511,-0.0112388
+categoria,neckwear,top,879,festa,trabalho,41.1389,40.1082,0.0247629
+categoria,neckwear,top,879,festa,festa,234.639,231.686,0.0126093
+categoria,neckwear,top,879,festa,esporte,5.16667,6.65967,-0.21681
+categoria,neckwear,top,879,festa,praia,1.5,1.20174,0.127041
+categoria,neckwear,top,879,esporte,dia,0.833333,0.548935,0.168568
+categoria,neckwear,top,879,esporte,trabalho,0,0.088595,-0.0848879
+categoria,neckwear,top,879,esporte,festa,0.333333,0.511772,-0.1256
+categoria,neckwear,top,879,esporte,esporte,0,0.0147105,-0.0146034
+categoria,neckwear,top,879,esporte,praia,0,0.00265453,-0.00265101
+categoria,neckwear,top,879,praia,dia,0.666667,0.627354,0.02387
+categoria,neckwear,top,879,praia,trabalho,0,0.101251,-0.0964472
+categoria,neckwear,top,879,praia,festa,0.666667,0.584882,0.0503158
+categoria,neckwear,top,879,praia,esporte,0,0.016812,-0.0166723
+categoria,neckwear,top,879,praia,praia,0,0.00303375,-0.00302916
+categoria,outerwear,pants,2059,dia,dia,344.125,347.313,-0.00919401
+categoria,outerwear,pants,2059,dia,trabalho,17.0833,20.9979,-0.195957
+categoria,outerwear,pants,2059,dia,festa,248.708,246.584,0.00854234
+categoria,outerwear,pants,2059,dia,esporte,20,15.6073,0.234683
+categoria,outerwear,pants,2059,dia,praia,4.33333,3.74779,0.116296
+categoria,outerwear,pants,2059,trabalho,dia,44.2917,47.5952,-0.070402
+categoria,outerwear,pants,2059,trabalho,trabalho,3.16667,2.87752,0.0719199
+categoria,outerwear,pants,2059,trabalho,festa,38.2083,33.7915,0.119515
+categoria,outerwear,pants,2059,trabalho,esporte,1.25,2.13879,-0.332909
+categoria,outerwear,pants,2059,trabalho,praia,0,0.513592,-0.414486
+categoria,outerwear,pants,2059,festa,dia,710.625,704.893,0.00808763
+categoria,outerwear,pants,2059,festa,trabalho,46.5833,42.6166,0.0870452
+categoria,outerwear,pants,2059,festa,festa,494.708,500.458,-0.0115327
+categoria,outerwear,pants,2059,festa,esporte,27.6667,31.6759,-0.130903
+categoria,outerwear,pants,2059,festa,praia,7.66667,7.60638,0.00698016
+categoria,outerwear,pants,2059,esporte,dia,28.4583,27.6992,0.0261066
+categoria,outerwear,pants,2059,esporte,trabalho,1.33333,1.67465,-0.136519
+categoria,outerwear,pants,2059,esporte,festa,18.875,19.6658,-0.0390193
+categoria,outerwear,pants,2059,esporte,esporte,1.75,1.24473,0.203018
+categoria,outerwear,pants,2059,esporte,praia,0.166667,0.298898,-0.107365
+categoria,outerwear,rings,852,dia,dia,60.75,59.9557,0.0129473
+categoria,outerwear,rings,852,dia,trabalho,2.41667,3.18825,-0.203618
+categoria,outerwear,rings,852,dia,festa,148.5,148.523,-0.000152209
+categoria,outerwear,rings,852,trabalho,dia,8.91667,9.39463,-0.0470722
+categoria,outerwear,rings,852,trabalho,trabalho,0.666667,0.499576,0.105643
+categoria,outerwear,rings,852,trabalho,festa,23.5833,23.2725,0.0127262
+categoria,outerwear,rings,852,festa,dia,167.833,168.726,-0.00527106
+categoria,outerwear,rings,852,festa,trabalho,9.75,8.97229,0.0750958
+categoria,outerwear,rings,852,festa,festa,418.083,417.969,0.000273413
+categoria,outerwear,rings,852,esporte,dia,3.83333,3.25743,0.12687
+categoria,outerwear,rings,852,esporte,trabalho,0,0.17322,-0.159752
+categoria,outerwear,rings,852,esporte,festa,7.66667,8.06935,-0.045416
+categoria,outerwear,shoes,4744,dia,dia,265.389,209.912,0.233518
+categoria,outerwear,shoes,4744,dia,trabalho,15.25,11.9092,0.23015
+categoria,outerwear,shoes,4744,dia,festa,980.806,1051.65,-0.0696715
+categoria,outerwear,shoes,4744,dia,esporte,28.9722,17.8184,0.465436
+categoria,outerwear,shoes,4744,dia,praia,3.41667,2.54548,0.21971
+categoria,outerwear,shoes,4744,trabalho,dia,26.6111,30.7986,-0.141203
+categoria,outerwear,shoes,4744,trabalho,trabalho,1.33333,1.74734,-0.163336
+categoria,outerwear,shoes,4744,trabalho,festa,159.861,154.3,0.0351851
+categoria,outerwear,shoes,4744,trabalho,esporte,2.02778,2.61434,-0.177081
+categoria,outerwear,shoes,4744,trabalho,praia,0,0.373478,-0.317346
+categoria,outerwear,shoes,4744,festa,dia,454.722,515.518,-0.125226
+categoria,outerwear,shoes,4744,festa,trabalho,26,29.2476,-0.113582
+categoria,outerwear,shoes,4744,festa,festa,2660.72,2582.72,0.0297418
+categoria,outerwear,shoes,4744,festa,esporte,30.5556,43.7598,-0.349562
+categoria,outerwear,shoes,4744,festa,praia,5.5,6.25141,-0.109393
+categoria,outerwear,shoes,4744,esporte,dia,22.9444,13.3578,0.511446
+categoria,outerwear,shoes,4744,esporte,trabalho,1.08333,0.757846,0.16988
+categoria,outerwear,shoes,4744,esporte,festa,54.1111,66.9219,-0.209007
+categoria,outerwear,shoes,4744,esporte,esporte,3.77778,1.13388,0.806035
+categoria,outerwear,shoes,4744,esporte,praia,0.416667,0.161982,0.198179
+categoria,outerwear,shoes,4744,praia,dia,0,0.08112,-0.0779976
+categoria,outerwear,shoes,4744,praia,trabalho,0,0.0046023,-0.00459175
+categoria,outerwear,shoes,4744,praia,festa,0.5,0.406408,0.0644261
+categoria,outerwear,shoes,4744,praia,esporte,0,0.00688589,-0.00686229
+categoria,outerwear,shoes,4744,praia,praia,0,0.000983699,-0.000983215
+categoria,outerwear,skirt,1365,dia,dia,103.417,98.2006,0.0512449
+categoria,outerwear,skirt,1365,dia,trabalho,10.25,8.6498,0.153431
+categoria,outerwear,skirt,1365,dia,festa,260.5,267.727,-0.0272632
+categoria,outerwear,skirt,1365,dia,esporte,3.66667,3.56168,0.0227539
+categoria,outerwear,skirt,1365,dia,praia,1,0.693834,0.166153
+categoria,outerwear,skirt,1365,trabalho,dia,13.6667,14.8187,-0.075613
+categoria,outerwear,skirt,1365,trabalho,trabalho,0.916667,1.30527,-0.184611
+categoria,outerwear,skirt,1365,trabalho,festa,41.5,40.4006,0.0262094
+categoria,outerwear,skirt,1365,trabalho,esporte,1.08333,0.537464,0.303835
+categoria,outerwear,skirt,1365,trabalho,praia,0,0.104701,-0.0995746
+categoria,outerwear,skirt,1365,festa,dia,229.833,235.846,-0.0257129
+categoria,outerwear,skirt,1365,festa,trabalho,19.8333,20.774,-0.0441611
+categoria,outerwear,skirt,1365,festa,festa,651.083,642.993,0.012484
+categoria,outerwear,skirt,1365,festa,esporte,7.58333,8.55399,-0.107136
+categoria,outerwear,skirt,1365,festa,praia,1.5,1.66636,-0.064424
+categoria,outerwear,skirt,1365,esporte,dia,6.91667,4.83875,0.304454
+categoria,outerwear,skirt,1365,esporte,trabalho,0.166667,0.426211,-0.20087
+categoria,outerwear,skirt,1365,esporte,festa,11.0833,13.192,-0.160853
+categoria,outerwear,skirt,1365,esporte,esporte,0.5,0.175499,0.243773
+categoria,outerwear,skirt,1365,esporte,praia,0,0.034188,-0.0336166
+categoria,outerwear,skirt,1365,praia,dia,0,0.129609,-0.121872
+categoria,outerwear,skirt,1365,praia,trabalho,0,0.0114164,-0.0113517
+categoria,outerwear,skirt,1365,praia,festa,0.5,0.353358,0.102876
+categoria,outerwear,skirt,1365,praia,esporte,0,0.00470085,-0.00468984
+categoria,outerwear,skirt,1365,praia,praia,0,0.000915751,-0.000915332
+categoria,outerwear,top,4958,dia,dia,640.694,622.744,0.0283716
+categoria,outerwear,top,4958,dia,trabalho,109.236,113.763,-0.0402414
+categoria,outerwear,top,4958,dia,festa,677.653,695.059,-0.0253248
+categoria,outerwear,top,4958,dia,esporte,20.3333,15.8965,0.233162
+categoria,outerwear,top,4958,dia,praia,2.66667,3.12079,-0.116762
+categoria,outerwear,top,4958,trabalho,dia,89.7778,86.7556,0.0338586
+categoria,outerwear,top,4958,trabalho,trabalho,15.1528,15.8485,-0.0421681
+categoria,outerwear,top,4958,trabalho,festa,94.3194,96.8299,-0.0259964
+categoria,outerwear,top,4958,trabalho,esporte,2.66667,2.21457,0.131588
+categoria,outerwear,top,4958,trabalho,praia,0.166667,0.434763,-0.206849
+categoria,outerwear,top,4958,festa,dia,1355.11,1377.68,-0.0165049
+categoria,outerwear,top,4958,festa,trabalho,256.653,251.674,0.0195136
+categoria,outerwear,top,4958,festa,festa,1560.82,1537.66,0.0149403
+categoria,outerwear,top,4958,festa,esporte,29.1667,35.1674,-0.181422
+categoria,outerwear,top,4958,festa,praia,7.33333,6.90404,0.0528897
+categoria,outerwear,top,4958,esporte,dia,42.6667,41.1061,0.0363932
+categoria,outerwear,top,4958,esporte,trabalho,7.54167,7.50924,0.003804
+categoria,outerwear,top,4958,esporte,festa,42.875,45.8794,-0.0662337
+categoria,outerwear,top,4958,esporte,esporte,2.16667,1.0493,0.435182
+categoria,outerwear,top,4958,esporte,praia,0.5,0.205997,0.218158
+categoria,outerwear,top,4958,praia,dia,0.25,0.214653,0.028685
+categoria,outerwear,top,4958,praia,trabalho,0.25,0.0392127,0.18468
+categoria,outerwear,top,4958,praia,festa,0,0.239579,-0.214772
+categoria,outerwear,top,4958,praia,esporte,0,0.00547936,-0.0054644
+categoria,outerwear,top,4958,praia,praia,0,0.0010757,-0.00107512
+categoria,outerwear,watch,470,dia,dia,41.1667,39.3669,0.0436191
+categoria,outerwear,watch,470,dia,trabalho,11.125,11.416,-0.0237131
+categoria,outerwear,watch,470,dia,festa,74.625,76.6047,-0.0258411
+categoria,outerwear,watch,470,dia,esporte,0.833333,0.362411,0.29688
+categoria,outerwear,watch,470,trabalho,dia,5.41667,5.82928,-0.0623212
+categoria,outerwear,watch,470,trabalho,trabalho,1.29167,1.69043,-0.16042
+categoria,outerwear,watch,470,trabalho,festa,12.2083,11.3433,0.0677352
+categoria,outerwear,watch,470,trabalho,esporte,0,0.0536643,-0.0522739
+categoria,outerwear,watch,470,festa,dia,94.25,96.0676,-0.0189031
+categoria,outerwear,watch,470,festa,trabalho,28.9583,27.8585,0.0374026
+categoria,outerwear,watch,470,festa,festa,188.208,186.939,0.00672886
+categoria,outerwear,watch,470,festa,esporte,0.333333,0.884397,-0.345926
+categoria,outerwear,watch,470,esporte,dia,4,3.56947,0.0900398
+categoria,outerwear,watch,470,esporte,trabalho,0.625,1.03511,-0.22504
+categoria,outerwear,watch,470,esporte,festa,6.79167,6.94589,-0.0196003
+categoria,outerwear,watch,470,esporte,esporte,0.166667,0.0328605,0.121819
+categoria,pants,rings,619,dia,dia,102.333,103.161,-0.00798047
+categoria,pants,rings,619,dia,trabalho,5.75,5.8717,-0.0178693
+categoria,pants,rings,619,dia,festa,227.417,226.467,0.0041662
+categoria,pants,rings,619,trabalho,dia,4.22222,5.38099,-0.2004
+categoria,pants,rings,619,trabalho,trabalho,0.388889,0.306274,0.0613256
+categoria,pants,rings,619,trabalho,festa,12.8889,11.8127,0.0806495
+categoria,pants,rings,619,festa,dia,78.1667,76.8713,0.0164979
+categoria,pants,rings,619,festa,trabalho,4.33333,4.37534,-0.00784476
+categoria,pants,rings,619,festa,festa,167.5,168.753,-0.00741084
+categoria,pants,rings,619,esporte,dia,4.86111,2.76737,0.441963
+categoria,pants,rings,619,esporte,trabalho,0.361111,0.157512,0.162028
+categoria,pants,rings,619,esporte,festa,3.77778,6.07512,-0.392609
+categoria,pants,rings,619,praia,dia,0.75,2.1524,-0.588547
+categoria,pants,rings,619,praia,trabalho,0,0.122509,-0.115567
+categoria,pants,rings,619,praia,festa,6.25,4.72509,0.236142
+categoria,pants,shoes,3909,dia,dia,559.417,514.282,0.0839665
+categoria,pants,shoes,3909,dia,trabalho,22.2778,22.4244,-0.00627943
+categoria,pants,shoes,3909,dia,festa,1512.33,1557.27,-0.0292623
+categoria,pants,shoes,3909,dia,esporte,58.0556,57.5637,0.00836377
+categoria,pants,shoes,3909,dia,praia,16.75,17.2922,-0.0300906
+categoria,pants,shoes,3909,trabalho,dia,16,26.874,-0.494482
+categoria,pants,shoes,3909,trabalho,trabalho,0.666667,1.1718,-0.264729
+categoria,pants,shoes,3909,trabalho,festa,94.3333,81.3759,0.146087
+categoria,pants,shoes,3909,trabalho,esporte,2.08333,3.00802,-0.262285
+categoria,pants,shoes,3909,trabalho,praia,0.25,0.903613,-0.42061
+categoria,pants,shoes,3909,festa,dia,316.917,357.978,-0.121471
+categoria,pants,shoes,3909,festa,trabalho,16.1111,15.609,0.0297816
+categoria,pants,shoes,3909,festa,festa,1124.83,1083.97,0.0369669
+categoria,pants,shoes,3909,festa,esporte,39.3889,40.0685,-0.0166876
+categoria,pants,shoes,3909,festa,praia,12.4167,12.0367,0.0287328
+categoria,pants,shoes,3909,esporte,dia,23.7222,19.9184,0.167074
+categoria,pants,shoes,3909,esporte,trabalho,1,0.868509,0.0680066
+categoria,pants,shoes,3909,esporte,festa,54.8056,60.3139,-0.094133
+categoria,pants,shoes,3909,esporte,esporte,3.72222,2.22947,0.379961
+categoria,pants,shoes,3909,esporte,praia,0.75,0.669737,0.04695
+categoria,pants,shoes,3909,praia,dia,10.8611,7.8646,0.291199
+categoria,pants,shoes,3909,praia,trabalho,0.361111,0.342923,0.0134528
+categoria,pants,shoes,3909,praia,festa,20.4444,23.8144,-0.145959
+categoria,pants,shoes,3909,praia,esporte,0.5,0.880287,-0.225959
+categoria,pants,shoes,3909,praia,praia,1,0.26444,0.458518
+categoria,pants,top,6043,dia,dia,1645.44,1593.62,0.0319834
+categoria,pants,top,6043,dia,trabalho,217.375,230.744,-0.0594214
+categoria,pants,top,6043,dia,festa,1502.11,1544.75,-0.0279734
+categoria,pants,top,6043,dia,esporte,59.9028,56.017,0.0659299
+categoria,pants,top,6043,dia,praia,8.91667,8.61799,0.0305811
+categoria,pants,top,6043,trabalho,dia,72.9722,74.5661,-0.0213184
+categoria,pants,top,6043,trabalho,trabalho,13.4722,10.7966,0.204417
+categoria,pants,top,6043,trabalho,festa,72.0556,72.2796,-0.0030623
+categoria,pants,top,6043,trabalho,esporte,2,2.62106,-0.188154
+categoria,pants,top,6043,trabalho,praia,0.166667,0.40324,-0.184633
+categoria,pants,top,6043,festa,dia,994.444,1048.45,-0.0528328
+categoria,pants,top,6043,festa,trabalho,161.292,151.808,0.0602125
+categoria,pants,top,6043,festa,festa,1066.03,1016.3,0.0477241
+categoria,pants,top,6043,festa,esporte,31.5694,36.8539,-0.150359
+categoria,pants,top,6043,festa,praia,5.75,5.66983,0.0119486
+categoria,pants,top,6043,esporte,dia,65.7917,63.9304,0.0282625
+categoria,pants,top,6043,esporte,trabalho,9.22222,9.25666,-0.00336297
+categoria,pants,top,6043,esporte,festa,58.2083,61.97,-0.0615965
+categoria,pants,top,6043,esporte,esporte,4.19444,2.2472,0.469795
+categoria,pants,top,6043,esporte,praia,0.333333,0.345724,-0.00924986
+categoria,pants,top,6043,praia,dia,25.9306,24.0174,0.0736897
+categoria,pants,top,6043,praia,trabalho,4.72222,3.47755,0.245282
+categoria,pants,top,6043,praia,festa,20.1806,23.2809,-0.136608
+categoria,pants,top,6043,praia,esporte,0.916667,0.844231,0.0385252
+categoria,pants,top,6043,praia,praia,0,0.129882,-0.122113
+categoria,pants,watch,472,dia,dia,85.7778,82.2251,0.0418015
+categoria,pants,watch,472,dia,trabalho,24.6944,23.6178,0.042803
+categoria,pants,watch,472,dia,festa,164.278,168.824,-0.0271344
+categoria,pants,watch,472,dia,esporte,0.5,0.583157,-0.0539557
+categoria,pants,watch,472,trabalho,dia,6.5,5.12818,0.202006
+categoria,pants,watch,472,trabalho,trabalho,1.25,1.47299,-0.0944966
+categoria,pants,watch,472,trabalho,festa,9.41667,10.5291,-0.10147
+categoria,pants,watch,472,trabalho,esporte,0,0.0363701,-0.0357243
+categoria,pants,watch,472,festa,dia,44.6944,50.3109,-0.115927
+categoria,pants,watch,472,festa,trabalho,14.2778,14.451,-0.0112748
+categoria,pants,watch,472,festa,festa,108.944,103.298,0.0527236
+categoria,pants,watch,472,festa,esporte,0.5,0.356815,0.100325
+categoria,pants,watch,472,esporte,dia,1.61111,2.26536,-0.223594
+categoria,pants,watch,472,esporte,trabalho,0.111111,0.650689,-0.395832
+categoria,pants,watch,472,esporte,festa,5.86111,4.65122,0.193998
+categoria,pants,watch,472,esporte,esporte,0,0.0160664,-0.0159387
+categoria,pants,watch,472,praia,dia,2.41667,1.07044,0.500902
+categoria,pants,watch,472,praia,trabalho,0.166667,0.307468,-0.113942
+categoria,pants,watch,472,praia,festa,1,2.19783,-0.469325
+categoria,pants,watch,472,praia,esporte,0,0.00759181,-0.00756314
+categoria,rings,shoes,1734,dia,dia,68.375,64.0953,0.0636739
+categoria,rings,shoes,1734,dia,trabalho,3.04167,4.33044,-0.276777
+categoria,rings,shoes,1734,dia,festa,420.708,423.833,-0.00738228
+categoria,rings,shoes,1734,dia,esporte,3.625,2.75139,0.209351
+categoria,rings,shoes,1734,dia,praia,2.08333,2.82316,-0.215066
+categoria,rings,shoes,1734,trabalho,dia,2.75,3.45475,-0.172216
+categoria,rings,shoes,1734,trabalho,trabalho,0,0.233412,-0.209784
+categoria,rings,shoes,1734,trabalho,festa,23.5833,22.8447,0.0305068
+categoria,rings,shoes,1734,trabalho,esporte,0,0.1483,-0.138283
+categoria,rings,shoes,1734,trabalho,praia,0.5,0.152169,0.263819
+categoria,rings,shoes,1734,festa,dia,152.125,155.7,-0.0230781
+categoria,rings,shoes,1734,festa,trabalho,12.0417,10.5195,0.12411
+categoria,rings,shoes,1734,festa,festa,1031.96,1029.57,0.00231259
+categoria,rings,shoes,1734,festa,esporte,5.95833,6.68365,-0.0991544
+categoria,rings,shoes,1734,festa,praia,7.25,6.858,0.0486807
+categoria,rings,skirt,434,dia,dia,31.9444,32.4062,-0.0139199
+categoria,rings,skirt,434,dia,trabalho,1.19444,1.63268,-0.182074
+categoria,rings,skirt,434,dia,festa,93.6111,91.6775,0.0206494
+categoria,rings,skirt,434,dia,esporte,1.58333,2.22638,-0.222281
+categoria,rings,skirt,434,dia,praia,0.5,0.890553,-0.231404
+categoria,rings,skirt,434,trabalho,dia,1.61111,1.8446,-0.0856459
+categoria,rings,skirt,434,trabalho,trabalho,0.277778,0.0929339,0.156257
+categoria,rings,skirt,434,trabalho,festa,5.44444,5.21838,0.0357087
+categoria,rings,skirt,434,trabalho,esporte,0,0.126728,-0.119318
+categoria,rings,skirt,434,trabalho,praia,0,0.0506912,-0.0494483
+categoria,rings,skirt,434,festa,dia,75.6111,74.9158,0.00911683
+categoria,rings,skirt,434,festa,trabalho,4.02778,3.77439,0.0517128
+categoria,rings,skirt,434,festa,festa,209.778,211.937,-0.0101942
+categoria,rings,skirt,434,festa,esporte,5.91667,5.14689,0.117988
+categoria,rings,skirt,434,festa,praia,2.5,2.05876,0.134755
+categoria,rings,top,1595,dia,dia,195.639,191.877,0.0193152
+categoria,rings,top,1595,dia,trabalho,32.3611,35.6379,-0.0936922
+categoria,rings,top,1595,dia,festa,240.139,241.999,-0.00768522
+categoria,rings,top,1595,dia,esporte,6.61111,5.22623,0.200839
+categoria,rings,top,1595,dia,praia,1.58333,1.59276,-0.00364052
+categoria,rings,top,1595,trabalho,dia,9.13889,8.59352,0.0552904
+categoria,rings,top,1595,trabalho,trabalho,1.94444,1.5961,0.12591
+categoria,rings,top,1595,trabalho,festa,9.47222,10.8383,-0.122615
+categoria,rings,top,1595,trabalho,esporte,0.361111,0.234065,0.0979879
+categoria,rings,top,1595,trabalho,praia,0.416667,0.071334,0.279402
+categoria,rings,top,1595,festa,dia,437.722,442.029,-0.00976935
+categoria,rings,top,1595,festa,trabalho,85.0278,82.0993,0.0346335
+categoria,rings,top,1595,festa,festa,560.722,557.496,0.00576039
+categoria,rings,top,1595,festa,esporte,10.5278,12.0397,-0.12324
+categoria,rings,top,1595,festa,praia,3.33333,3.66924,-0.0746601
+categoria,rings,watch,249,dia,dia,21,22.7178,-0.0751817
+categoria,rings,watch,249,dia,trabalho,4.58333,6.33757,-0.273222
+categoria,rings,watch,249,dia,festa,47.25,43.778,0.0746789
+categoria,rings,watch,249,trabalho,dia,0.416667,0.883757,-0.284962
+categoria,rings,watch,249,trabalho,trabalho,0,0.246542,-0.220373
+categoria,rings,watch,249,trabalho,festa,2.41667,1.70303,0.23429
+categoria,rings,watch,249,festa,dia,56.25,54.0651,0.0389106
+categoria,rings,watch,249,festa,trabalho,17.0833,15.0826,0.117256
+categoria,rings,watch,249,festa,festa,100,104.186,-0.0406062
+categoria,shoes,skirt,2608,dia,dia,105.944,99.4149,0.0629987
+categoria,shoes,skirt,2608,dia,trabalho,7.11111,7.18795,-0.00942902
+categoria,shoes,skirt,2608,dia,festa,228.028,235.986,-0.0341578
+categoria,shoes,skirt,2608,dia,esporte,3.91667,2.74248,0.272882
+categoria,shoes,skirt,2608,dia,praia,1.08333,0.75197,0.173228
+categoria,shoes,skirt,2608,trabalho,dia,6.41667,5.24244,0.172358
+categoria,shoes,skirt,2608,trabalho,trabalho,0.5,0.379042,0.084076
+categoria,shoes,skirt,2608,trabalho,festa,11,12.4442,-0.113644
+categoria,shoes,skirt,2608,trabalho,esporte,0.166667,0.144619,0.0190787
+categoria,shoes,skirt,2608,trabalho,praia,0.166667,0.0396536,0.115263
+categoria,shoes,skirt,2608,festa,dia,625.778,634.048,-0.0131091
+categoria,shoes,skirt,2608,festa,trabalho,45.8611,45.8433,0.000379757
+categoria,shoes,skirt,2608,festa,festa,1515.36,1505.07,0.00680891
+categoria,shoes,skirt,2608,festa,esporte,15.8333,17.491,-0.0939225
+categoria,shoes,skirt,2608,festa,praia,4.41667,4.79592,-0.067673
+categoria,shoes,skirt,2608,esporte,dia,7.61111,6.87023,0.0899656
+categoria,shoes,skirt,2608,esporte,trabalho,0.527778,0.496735,0.0205279
+categoria,shoes,skirt,2608,esporte,festa,15.0278,16.3082,-0.0768575
+categoria,shoes,skirt,2608,esporte,esporte,0.75,0.189524,0.386063
+categoria,shoes,skirt,2608,esporte,praia,0,0.0519662,-0.050661
+categoria,shoes,skirt,2608,praia,dia,3.41667,3.59071,-0.0386504
+categoria,shoes,skirt,2608,praia,trabalho,0.166667,0.259618,-0.0766577
+categoria,shoes,skirt,2608,praia,festa,8.91667,8.52345,0.0404593
+categoria,shoes,skirt,2608,praia,esporte,0,0.0990542,-0.09445
+categoria,shoes,skirt,2608,praia,praia,0,0.02716,-0.0267977
+categoria,shoes,top,9424,dia,dia,891.167,815.376,0.0887784
+categoria,shoes,top,9424,dia,trabalho,124.694,127.598,-0.0228407
+categoria,shoes,top,9424,dia,festa,845.5,926.951,-0.0918684
+categoria,shoes,top,9424,dia,esporte,31.8056,23.9594,0.273348
+categoria,shoes,top,9424,dia,praia,8.25,7.53249,0.0807419
+categoria,shoes,top,9424,trabalho,dia,42.0833,37.1291,0.122158
+categoria,shoes,top,9424,trabalho,trabalho,6.66667,5.81035,0.118438
+categoria,shoes,top,9424,trabalho,festa,36.9167,42.2098,-0.130677
+categoria,shoes,top,9424,trabalho,esporte,0.916667,1.09102,-0.0870643
+categoria,shoes,top,9424,trabalho,praia,0,0.343001,-0.294907
+categoria,shoes,top,9424,festa,dia,2986.92,3083.5,-0.0318146
+categoria,shoes,top,9424,festa,trabalho,487.694,482.539,0.0106061
+categoria,shoes,top,9424,festa,festa,3607.25,3505.45,0.0286195
+categoria,shoes,top,9424,festa,esporte,80.4722,90.6071,-0.117247
+categoria,shoes,top,9424,festa,praia,28.25,28.4856,-0.00802297
+categoria,shoes,top,9424,esporte,dia,98.5833,80.7978,0.196744
+categoria,shoes,top,9424,esporte,trabalho,11.1944,12.6441,-0.112325
+categoria,shoes,top,9424,esporte,festa,73.0833,91.8541,-0.225839
+categoria,shoes,top,9424,esporte,esporte,5.38889,2.3742,0.638402
+categoria,shoes,top,9424,esporte,praia,0.166667,0.746416,-0.403415
+categoria,shoes,top,9424,praia,dia,22.5,24.443,-0.079442
+categoria,shoes,top,9424,praia,trabalho,2.16667,3.8251,-0.421152
+categoria,shoes,top,9424,praia,festa,31.5,27.7878,0.121288
+categoria,shoes,top,9424,praia,esporte,0.166667,0.718246,-0.387153
+categoria,shoes,top,9424,praia,praia,0.666667,0.225806,0.307227
+categoria,shoes,watch,918,dia,dia,53.8333,54.2318,-0.0072403
+categoria,shoes,watch,918,dia,trabalho,14.4167,14.3743,0.00275163
+categoria,shoes,watch,918,dia,festa,107.25,107.343,-0.000859462
+categoria,shoes,watch,918,dia,esporte,0.833333,0.384168,0.281036
+categoria,shoes,watch,918,trabalho,dia,2.16667,2.10161,0.0207582
+categoria,shoes,watch,918,trabalho,trabalho,0.583333,0.557038,0.0167469
+categoria,shoes,watch,918,trabalho,festa,4.08333,4.1598,-0.0149302
+categoria,shoes,watch,918,trabalho,esporte,0,0.0148874,-0.0147777
+categoria,shoes,watch,918,festa,dia,220.083,218.67,0.00641358
+categoria,shoes,watch,918,festa,trabalho,57.4167,57.9592,-0.0092436
+categoria,shoes,watch,918,festa,festa,432.333,432.822,-0.00112682
+categoria,shoes,watch,918,festa,esporte,1.16667,1.54902,-0.162519
+categoria,shoes,watch,918,esporte,dia,5.16667,6.35609,-0.17637
+categoria,shoes,watch,918,esporte,trabalho,2,1.6847,0.111043
+categoria,shoes,watch,918,esporte,festa,13.5,12.5809,0.0654878
+categoria,shoes,watch,918,esporte,esporte,0,0.0450254,-0.0440412
+categoria,shoes,watch,918,praia,dia,1.08333,0.973917,0.0539494
+categoria,shoes,watch,918,praia,trabalho,0.416667,0.25814,0.118673
+categoria,shoes,watch,918,praia,festa,1.66667,1.92771,-0.0933917
+categoria,shoes,watch,918,praia,esporte,0,0.00689906,-0.00687537
+categoria,skirt,top,3492,dia,dia,396.097,392.614,0.00881096
+categoria,skirt,top,3492,dia,trabalho,68.2083,68.5431,-0.00482609
+categoria,skirt,top,3492,dia,festa,538.264,539.495,-0.00228112
+categoria,skirt,top,3492,dia,esporte,10.2639,11.2258,-0.0819506
+categoria,skirt,top,3492,dia,praia,3.16667,4.1218,-0.20639
+categoria,skirt,top,3492,trabalho,dia,28.1111,27.5654,0.0189236
+categoria,skirt,top,3492,trabalho,trabalho,5.75,4.81241,0.149547
+categoria,skirt,top,3492,trabalho,festa,35.6111,37.878,-0.0600757
+categoria,skirt,top,3492,trabalho,esporte,1.36111,0.788167,0.277941
+categoria,skirt,top,3492,trabalho,praia,0.5,0.289392,0.151295
+categoria,skirt,top,3492,festa,dia,917.319,917.838,-0.000564267
+categoria,skirt,top,3492,festa,trabalho,160.347,160.238,0.000679682
+categoria,skirt,top,3492,festa,festa,1261.15,1261.21,-4.70311e-05
+categoria,skirt,top,3492,festa,esporte,26.0972,26.2434,-0.00537896
+categoria,skirt,top,3492,festa,praia,10.25,9.63579,0.056143
+categoria,skirt,top,3492,esporte,dia,6.63889,9.14553,-0.283781
+categoria,skirt,top,3492,esporte,trabalho,0.694444,1.59664,-0.426864
+categoria,skirt,top,3492,esporte,festa,15.2222,12.567,0.178743
+categoria,skirt,top,3492,esporte,esporte,0.861111,0.261495,0.388877
+categoria,skirt,top,3492,esporte,praia,0.25,0.0960131,0.131464
+categoria,skirt,top,3492,praia,dia,1.25,2.25418,-0.36901
+categoria,skirt,top,3492,praia,trabalho,0.583333,0.393538,0.127686
+categoria,skirt,top,3492,praia,festa,4,3.0975,0.199062
+categoria,skirt,top,3492,praia,esporte,0,0.0644529,-0.0624609
+categoria,skirt,top,3492,praia,praia,0,0.0236652,-0.0233895
+categoria,skirt,watch,239,dia,dia,26.4444,25.6625,0.0289063
+categoria,skirt,watch,239,dia,trabalho,8.27778,8.55416,-0.0293547
+categoria,skirt,watch,239,dia,festa,41.9444,42.3431,-0.00924014
+categoria,skirt,watch,239,dia,esporte,0,0.106927,-0.101588
+categoria,skirt,watch,239,trabalho,dia,1.33333,1.95258,-0.235382
+categoria,skirt,watch,239,trabalho,trabalho,0.583333,0.65086,-0.0417641
+categoria,skirt,watch,239,trabalho,festa,3.91667,3.22176,0.152379
+categoria,skirt,watch,239,trabalho,esporte,0,0.00813575,-0.00810283
+categoria,skirt,watch,239,festa,dia,51.9444,51.7713,0.00327625
+categoria,skirt,watch,239,festa,trabalho,17.4444,17.2571,0.0102097
+categoria,skirt,watch,239,festa,festa,84.9444,85.4226,-0.00554806
+categoria,skirt,watch,239,festa,esporte,0.333333,0.215714,0.0923508
+categoria,skirt,watch,239,esporte,dia,0.277778,0.446304,-0.123889
+categoria,skirt,watch,239,esporte,trabalho,0.111111,0.148768,-0.0333296
+categoria,skirt,watch,239,esporte,festa,0.944444,0.736402,0.113161
+categoria,skirt,watch,239,esporte,esporte,0,0.0018596,-0.00185787
+categoria,skirt,watch,239,praia,dia,0,0.167364,-0.154748
+categoria,skirt,watch,239,praia,trabalho,0.25,0.055788,0.168856
+categoria,skirt,watch,239,praia,festa,0.25,0.276151,-0.0207047
+categoria,skirt,watch,239,praia,esporte,0,0.00069735,-0.000697107
+categoria,top,watch,1071,dia,dia,142.5,144.335,-0.0127071
+categoria,top,watch,1071,dia,trabalho,41.25,41.9392,-0.0161797
+categoria,top,watch,1071,dia,festa,285.833,283.327,0.00877578
+categoria,top,watch,1071,dia,esporte,0.75,0.731922,0.0103838
+categoria,top,watch,1071,trabalho,dia,24.3889,23.9877,0.0159298
+categoria,top,watch,1071,trabalho,trabalho,8.88889,6.97004,0.215722
+categoria,top,watch,1071,trabalho,festa,44.8889,47.0873,-0.0467957
+categoria,top,watch,1071,trabalho,esporte,0,0.121641,-0.114793
+categoria,top,watch,1071,festa,dia,155.25,153.235,0.0129827
+categoria,top,watch,1071,festa,trabalho,42.8333,44.5251,-0.0378683
+categoria,top,watch,1071,festa,festa,300.583,300.797,-0.000707104
+categoria,top,watch,1071,festa,esporte,0.666667,0.777052,-0.0641299
+categoria,top,watch,1071,esporte,dia,4.86111,5.6261,-0.122678
+categoria,top,watch,1071,esporte,trabalho,1.77778,1.63477,0.0528572
+categoria,top,watch,1071,esporte,festa,11.4444,11.0439,0.032713
+categoria,top,watch,1071,esporte,esporte,0.25,0.0285299,0.195013
+categoria,top,watch,1071,praia,dia,1.66667,1.48325,0.071263
+categoria,top,watch,1071,praia,trabalho,0.75,0.430984,0.201254
+categoria,top,watch,1071,praia,festa,2.41667,2.91158,-0.135277
+categoria,top,watch,1071,praia,esporte,0,0.00752153,-0.00749338
+grupo,acessorio,acessorio,14757,dia,dia,1950.92,1954.91,-0.00204131
+grupo,acessorio,acessorio,14757,dia,trabalho,120.792,118.35,0.020248
+grupo,acessorio,acessorio,14757,dia,festa,3283.54,3282.48,0.000323175
+grupo,acessorio,acessorio,14757,dia,esporte,10.2083,9.43285,0.071698
+grupo,acessorio,acessorio,14757,dia,praia,5.625,5.91449,-0.0427686
+grupo,acessorio,acessorio,14757,trabalho,trabalho,6.25,7.16496,-0.118851
+grupo,acessorio,acessorio,14757,trabalho,festa,197.25,198.722,-0.00739826
+grupo,acessorio,acessorio,14757,trabalho,esporte,0.666667,0.571067,0.0590706
+grupo,acessorio,acessorio,14757,trabalho,praia,0.208333,0.358065,-0.116819
+grupo,acessorio,acessorio,14757,festa,festa,5512.58,5511.61,0.000176346
+grupo,acessorio,acessorio,14757,festa,esporte,15.0417,15.8387,-0.04849
+grupo,acessorio,acessorio,14757,festa,praia,10.1667,9.93101,0.021329
+grupo,acessorio,acessorio,14757,esporte,esporte,0,0.0455156,-0.0445102
+grupo,acessorio,acessorio,14757,esporte,praia,0,0.0285387,-0.0281391
+grupo,acessorio,acessorio,14757,praia,praia,0.25,0.0178941,0.205408
+grupo,acessorio,parte de baixo,11481,dia,dia,2073.94,2049.8,0.0117035
+grupo,acessorio,parte de baixo,11481,dia,trabalho,106.25,108.917,-0.024559
+grupo,acessorio,parte de baixo,11481,dia,festa,2153.69,2181.07,-0.0126244
+grupo,acessorio,parte de baixo,11481,dia,esporte,66.5,65.6011,0.013406
+grupo,acessorio,parte de baixo,11481,dia,praia,36.5278,31.5285,0.142965
+grupo,acessorio,parte de baixo,11481,trabalho,dia,136.194,138.096,-0.0137643
+grupo,acessorio,parte de baixo,11481,trabalho,trabalho,8.66667,7.33775,0.14789
+grupo,acessorio,parte de baixo,11481,trabalho,festa,147.611,146.939,0.00453036
+grupo,acessorio,parte de baixo,11481,trabalho,esporte,4.16667,4.41957,-0.0477891
+grupo,acessorio,parte de baixo,11481,trabalho,praia,2.27778,2.12408,0.0480243
+grupo,acessorio,parte de baixo,11481,festa,dia,3073.11,3099.36,-0.00850292
+grupo,acessorio,parte de baixo,11481,festa,trabalho,166.667,164.685,0.011889
+grupo,acessorio,parte de baixo,11481,festa,festa,3327.69,3297.84,0.0090091
+grupo,acessorio,parte de baixo,11481,festa,esporte,98.5,99.1909,-0.00691937
+grupo,acessorio,parte de baixo,11481,festa,praia,42.7778,47.672,-0.105978
+grupo,acessorio,parte de baixo,11481,esporte,dia,15,12.1272,0.197904
+grupo,acessorio,parte de baixo,11481,esporte,trabalho,0,0.64438,-0.497363
+grupo,acessorio,parte de baixo,11481,esporte,festa,10.6667,12.9038,-0.175426
+grupo,acessorio,parte de baixo,11481,esporte,esporte,0.583333,0.388114,0.131586
+grupo,acessorio,parte de baixo,11481,esporte,praia,0,0.186531,-0.171034
+grupo,acessorio,parte de baixo,11481,praia,dia,5.83333,4.69688,0.181894
+grupo,acessorio,parte de baixo,11481,praia,trabalho,0.25,0.249569,0.00034459
+grupo,acessorio,parte de baixo,11481,praia,festa,4.08333,4.99766,-0.165402
+grupo,acessorio,parte de baixo,11481,praia,esporte,0,0.150317,-0.140038
+grupo,acessorio,parte de baixo,11481,praia,praia,0,0.0722438,-0.0697534
+grupo,acessorio,parte de cima,25525,dia,dia,3851.67,3729.38,0.032255
+grupo,acessorio,parte de cima,25525,dia,trabalho,601.083,600.469,0.00102046
+grupo,acessorio,parte de cima,25525,dia,festa,5174.92,5314.83,-0.0266719
+grupo,acessorio,parte de cima,25525,dia,esporte,153.75,141.306,0.0838331
+grupo,acessorio,parte de cima,25525,dia,praia,33.0833,28.5175,0.143826
+grupo,acessorio,parte de cima,25525,trabalho,dia,236.681,232.172,0.0191511
+grupo,acessorio,parte de cima,25525,trabalho,trabalho,40.6806,37.3821,0.0824433
+grupo,acessorio,parte de cima,25525,trabalho,festa,322.681,330.874,-0.0249969
+grupo,acessorio,parte de cima,25525,trabalho,esporte,9.29167,8.79696,0.049262
+grupo,acessorio,parte de cima,25525,trabalho,praia,1.66667,1.77535,-0.039948
+grupo,acessorio,parte de cima,25525,festa,dia,5563.71,5699.17,-0.0240516
+grupo,acessorio,parte de cima,25525,festa,trabalho,915.208,917.626,-0.00263502
+grupo,acessorio,parte de cima,25525,festa,festa,8279.38,8122.02,0.0191867
+grupo,acessorio,parte de cima,25525,festa,esporte,201.292,215.941,-0.0699137
+grupo,acessorio,parte de cima,25525,festa,praia,38.75,43.5799,-0.114673
+grupo,acessorio,parte de cima,25525,esporte,dia,36.1111,26.8524,0.286997
+grupo,acessorio,parte de cima,25525,esporte,trabalho,3.61111,4.32352,-0.143665
+grupo,acessorio,parte de cima,25525,esporte,festa,28.1944,38.268,-0.296431
+grupo,acessorio,parte de cima,25525,esporte,esporte,2.33333,1.01743,0.502146
+grupo,acessorio,parte de cima,25525,esporte,praia,0.416667,0.205332,0.161551
+grupo,acessorio,parte de cima,25525,praia,dia,11,11.5896,-0.0479646
+grupo,acessorio,parte de cima,25525,praia,trabalho,1.08333,1.86605,-0.318964
+grupo,acessorio,parte de cima,25525,praia,festa,17.3333,16.5166,0.0455718
+grupo,acessorio,parte de cima,25525,praia,esporte,0.833333,0.439128,0.242098
+grupo,acessorio,parte de cima,25525,praia,praia,0.25,0.0886223,0.138231
+grupo,acessorio,peca unica,5754,dia,dia,312.5,279.646,0.110707
+grupo,acessorio,peca unica,5754,dia,trabalho,13.5,13.0344,0.0326338
+grupo,acessorio,peca unica,5754,dia,festa,1570.42,1605.84,-0.0222909
+grupo,acessorio,peca unica,5754,dia,esporte,6.08333,4.45551,0.261118
+grupo,acessorio,peca unica,5754,dia,praia,8.33333,7.85941,0.0521118
+grupo,acessorio,peca unica,5754,trabalho,dia,19.9167,16.586,0.173441
+grupo,acessorio,peca unica,5754,trabalho,trabalho,0.25,0.773085,-0.349578
+grupo,acessorio,peca unica,5754,trabalho,festa,93.1667,95.2438,-0.0218182
+grupo,acessorio,peca unica,5754,trabalho,esporte,0,0.264261,-0.234487
+grupo,acessorio,peca unica,5754,trabalho,praia,0,0.466149,-0.382639
+grupo,acessorio,peca unica,5754,festa,dia,507.25,544.461,-0.0706585
+grupo,acessorio,peca unica,5754,festa,trabalho,25.5,25.3777,0.00462711
+grupo,acessorio,peca unica,5754,festa,festa,3165.42,3126.52,0.012361
+grupo,acessorio,peca unica,5754,festa,esporte,7.08333,8.67474,-0.179714
+grupo,acessorio,peca unica,5754,festa,praia,15.0833,15.302,-0.0135062
+grupo,acessorio,peca unica,5754,esporte,dia,0.666667,0.39026,0.181335
+grupo,acessorio,peca unica,5754,esporte,trabalho,0,0.0181902,-0.0180268
+grupo,acessorio,peca unica,5754,esporte,festa,1.75,2.24103,-0.16429
+grupo,acessorio,peca unica,5754,esporte,esporte,0.25,0.0062179,0.216945
+grupo,acessorio,peca unica,5754,esporte,praia,0,0.0109682,-0.0109085
+grupo,acessorio,peca unica,5754,praia,dia,1.75,1.00004,0.318433
+grupo,acessorio,peca unica,5754,praia,trabalho,0,0.0466125,-0.0455588
+grupo,acessorio,peca unica,5754,praia,festa,4.83333,5.74264,-0.144863
+grupo,acessorio,peca unica,5754,praia,esporte,0,0.0159334,-0.0158078
+grupo,acessorio,peca unica,5754,praia,praia,0.25,0.0281061,0.195425
+grupo,bolsa,parte de baixo,7128,dia,dia,1160.54,1087.98,0.06451
+grupo,bolsa,parte de baixo,7128,dia,trabalho,59.4167,59.9527,-0.00883274
+grupo,bolsa,parte de baixo,7128,dia,festa,1148.85,1228.26,-0.066786
+grupo,bolsa,parte de baixo,7128,dia,esporte,40.2917,36.7608,0.0893904
+grupo,bolsa,parte de baixo,7128,dia,praia,18.9861,15.1301,0.21435
+grupo,bolsa,parte de baixo,7128,trabalho,dia,190.625,181.286,0.0499643
+grupo,bolsa,parte de baixo,7128,trabalho,trabalho,10.1667,9.98971,0.0159736
+grupo,bolsa,parte de baixo,7128,trabalho,festa,196.347,204.661,-0.0412663
+grupo,bolsa,parte de baixo,7128,trabalho,esporte,5.79167,6.12532,-0.0479583
+grupo,bolsa,parte de baixo,7128,trabalho,praia,1.65278,2.52108,-0.28316
+grupo,bolsa,parte de baixo,7128,festa,dia,1810.72,1897.96,-0.0470265
+grupo,bolsa,parte de baixo,7128,festa,trabalho,104.417,104.586,-0.00160901
+grupo,bolsa,parte de baixo,7128,festa,festa,2236.53,2142.68,0.0428455
+grupo,bolsa,parte de baixo,7128,festa,esporte,60.9722,64.1285,-0.0496761
+grupo,bolsa,parte de baixo,7128,festa,praia,23.1111,26.3942,-0.127659
+grupo,bolsa,parte de baixo,7128,esporte,dia,27.3611,22.7401,0.177854
+grupo,bolsa,parte de baixo,7128,esporte,trabalho,1.75,1.25309,0.1993
+grupo,bolsa,parte de baixo,7128,esporte,festa,20.2778,25.6723,-0.225961
+grupo,bolsa,parte de baixo,7128,esporte,esporte,0.861111,0.768346,0.051129
+grupo,bolsa,parte de baixo,7128,esporte,praia,0.5,0.316238,0.130687
+grupo,bolsa,parte de baixo,7128,praia,dia,4.66667,3.95804,0.13359
+grupo,bolsa,parte de baixo,7128,praia,trabalho,0.25,0.218107,0.0258455
+grupo,bolsa,parte de baixo,7128,praia,festa,3.75,4.46841,-0.140842
+grupo,bolsa,parte de baixo,7128,praia,esporte,0,0.133735,-0.125518
+grupo,bolsa,parte de baixo,7128,praia,praia,0.166667,0.0550431,0.100569
+grupo,bolsa,peca unica,3689,dia,dia,178.556,150.352,0.170875
+grupo,bolsa,peca unica,3689,dia,trabalho,5.72222,5.66873,0.00798937
+grupo,bolsa,peca unica,3689,dia,festa,774.389,803.869,-0.0373155
+grupo,bolsa,peca unica,3689,dia,esporte,3,2.13668,0.243131
+grupo,bolsa,peca unica,3689,dia,praia,3.5,3.1396,0.0834772
+grupo,bolsa,peca unica,3689,trabalho,dia,22.3056,20.1473,0.0971774
+grupo,bolsa,peca unica,3689,trabalho,trabalho,1.55556,0.759616,0.373174
+grupo,bolsa,peca unica,3689,trabalho,festa,104.139,107.719,-0.0334875
+grupo,bolsa,peca unica,3689,trabalho,esporte,0.5,0.286317,0.153682
+grupo,bolsa,peca unica,3689,trabalho,praia,0.833333,0.42071,0.254979
+grupo,bolsa,peca unica,3689,festa,dia,373.139,401.96,-0.074211
+grupo,bolsa,peca unica,3689,festa,trabalho,14.0556,15.1551,-0.0704897
+grupo,bolsa,peca unica,3689,festa,festa,2180.81,2149.11,0.0146328
+grupo,bolsa,peca unica,3689,festa,esporte,4.66667,5.71231,-0.169343
+grupo,bolsa,peca unica,3689,festa,praia,7.66667,8.3936,-0.0805446
+grupo,bolsa,peca unica,3689,esporte,dia,0.666667,1.81742,-0.524994
+grupo,bolsa,peca unica,3689,esporte,trabalho,0.333333,0.068522,0.221406
+grupo,bolsa,peca unica,3689,esporte,festa,10.6667,9.71695,0.0849091
+grupo,bolsa,peca unica,3689,esporte,esporte,0,0.0258275,-0.0254996
+grupo,bolsa,peca unica,3689,esporte,praia,0,0.0379507,-0.0372483
+grupo,bolsa,peca unica,3689,praia,dia,0,0.389446,-0.328905
+grupo,bolsa,peca unica,3689,praia,trabalho,0,0.0146833,-0.0145765
+grupo,bolsa,peca unica,3689,praia,festa,2.5,2.0822,0.127118
+grupo,bolsa,peca unica,3689,praia,esporte,0,0.00553447,-0.00551921
+grupo,bolsa,peca unica,3689,praia,praia,0,0.00813229,-0.0080994
+grupo,calcado,parte de baixo,6585,dia,dia,682.528,583.487,0.156532
+grupo,calcado,parte de baixo,6585,dia,trabalho,24.3611,33.432,-0.305771
+grupo,calcado,parte de baixo,6585,dia,festa,548.278,649.663,-0.169388
+grupo,calcado,parte de baixo,6585,dia,esporte,27.8889,20.7803,0.282451
+grupo,calcado,parte de baixo,6585,dia,praia,11.9444,7.63693,0.40462
+grupo,calcado,parte de baixo,6585,trabalho,dia,28.6944,26.4334,0.0791984
+grupo,calcado,parte de baixo,6585,trabalho,trabalho,1.16667,1.51455,-0.148905
+grupo,calcado,parte de baixo,6585,trabalho,festa,27.1111,29.4313,-0.0793079
+grupo,calcado,parte de baixo,6585,trabalho,esporte,1.16667,0.941399,0.109781
+grupo,calcado,parte de baixo,6585,trabalho,praia,0.527778,0.345971,0.126698
+grupo,calcado,parte de baixo,6585,festa,dia,2168.53,2278.98,-0.0496573
+grupo,calcado,parte de baixo,6585,festa,trabalho,141.194,130.579,0.0775911
+grupo,calcado,parte de baixo,6585,festa,festa,2652.03,2537.45,0.0441482
+grupo,calcado,parte de baixo,6585,festa,esporte,71.3889,81.1636,-0.126659
+grupo,calcado,parte de baixo,6585,festa,praia,24.8611,29.8282,-0.175691
+grupo,calcado,parte de baixo,6585,esporte,dia,67.0833,58.4238,0.136037
+grupo,calcado,parte de baixo,6585,esporte,trabalho,2.86111,3.34751,-0.118648
+grupo,calcado,parte de baixo,6585,esporte,festa,54.75,65.0499,-0.169534
+grupo,calcado,parte de baixo,6585,esporte,esporte,4.47222,2.08071,0.574526
+grupo,calcado,parte de baixo,6585,esporte,praia,0.5,0.764676,-0.162502
+grupo,calcado,parte de baixo,6585,praia,dia,20.1667,19.6749,0.0235088
+grupo,calcado,parte de baixo,6585,praia,trabalho,0.416667,1.12731,-0.406551
+grupo,calcado,parte de baixo,6585,praia,festa,21.3333,21.9063,-0.0253306
+grupo,calcado,parte de baixo,6585,praia,esporte,0.75,0.7007,0.0285757
+grupo,calcado,parte de baixo,6585,praia,praia,1,0.257513,0.464011
+grupo,calcado,peca unica,3926,dia,dia,77.75,58.0155,0.288478
+grupo,calcado,peca unica,3926,dia,trabalho,2.66667,2.43632,0.0648808
+grupo,calcado,peca unica,3926,dia,festa,322.75,343.177,-0.0611853
+grupo,calcado,peca unica,3926,dia,esporte,1.5,0.594015,0.450035
+grupo,calcado,peca unica,3926,dia,praia,0.916667,1.36021,-0.208163
+grupo,calcado,peca unica,3926,trabalho,dia,5,5.28064,-0.0457121
+grupo,calcado,peca unica,3926,trabalho,trabalho,0.5,0.221757,0.205175
+grupo,calcado,peca unica,3926,trabalho,festa,31.4167,31.2364,0.00557657
+grupo,calcado,peca unica,3926,trabalho,esporte,0,0.054068,-0.0526569
+grupo,calcado,peca unica,3926,trabalho,praia,0,0.123808,-0.116723
+grupo,calcado,peca unica,3926,festa,dia,472.5,494.509,-0.0454326
+grupo,calcado,peca unica,3926,festa,trabalho,20,20.7666,-0.0358528
+grupo,calcado,peca unica,3926,festa,festa,2948.08,2925.15,0.00780649
+grupo,calcado,peca unica,3926,festa,esporte,4.25,5.06323,-0.144014
+grupo,calcado,peca unica,3926,festa,praia,12.25,11.5941,0.0507726
+grupo,calcado,peca unica,3926,esporte,dia,3.41667,1.51386,0.563565
+grupo,calcado,peca unica,3926,esporte,trabalho,0.166667,0.0635737,0.092516
+grupo,calcado,peca unica,3926,esporte,festa,7,8.9549,-0.218624
+grupo,calcado,peca unica,3926,esporte,esporte,0,0.0155003,-0.0153814
+grupo,calcado,peca unica,3926,esporte,praia,0,0.0354934,-0.0348781
+grupo,calcado,peca unica,3926,praia,dia,2.91667,2.26483,0.182032
+grupo,calcado,peca unica,3926,praia,trabalho,0.25,0.0951102,0.132289
+grupo,calcado,peca unica,3926,praia,festa,12.6667,13.3971,-0.052067
+grupo,calcado,peca unica,3926,praia,esporte,0,0.0231894,-0.0229246
+grupo,calcado,peca unica,3926,praia,praia,0,0.0531004,-0.0517386
+grupo,parte de baixo,parte de baixo,123,dia,dia,31.5,30.0869,0.0444521
+grupo,parte de baixo,parte de baixo,123,dia,trabalho,1.83333,1.9371,-0.0359705
+grupo,parte de baixo,parte de baixo,123,dia,festa,24.8333,26.6249,-0.0670514
+grupo,parte de baixo,parte de baixo,123,dia,esporte,2.08333,1.73103,0.121333
+grupo,parte de baixo,parte de baixo,123,dia,praia,0.583333,0.453365,0.0856508
+grupo,parte de baixo,parte de baixo,123,trabalho,trabalho,0,0.124718,-0.117532
+grupo,parte de baixo,parte de baixo,123,trabalho,festa,2.08333,1.71421,0.127512
+grupo,parte de baixo,parte de baixo,123,trabalho,esporte,0,0.11145,-0.105665
+grupo,parte de baixo,parte de baixo,123,trabalho,praia,0,0.0291893,-0.0287714
+grupo,parte de baixo,parte de baixo,123,festa,festa,25.1667,23.5612,0.0633183
+grupo,parte de baixo,parte de baixo,123,festa,esporte,1.41667,1.53184,-0.0465582
+grupo,parte de baixo,parte de baixo,123,festa,praia,0.333333,0.401197,-0.0496447
+grupo,parte de baixo,parte de baixo,123,esporte,esporte,0,0.0995935,-0.0949406
+grupo,parte de baixo,parte de baixo,123,esporte,praia,0,0.026084,-0.0257496
+grupo,parte de baixo,parte de baixo,123,praia,praia,0,0.00683153,-0.0068083
+grupo,parte de baixo,parte de cima,13123,dia,dia,2549.75,2419.73,0.0523166
+grupo,parte de baixo,parte de cima,13123,dia,trabalho,349.958,366.184,-0.0451947
+grupo,parte de baixo,parte de cima,13123,dia,festa,3034.75,3158.02,-0.039804
+grupo,parte de baixo,parte de cima,13123,dia,esporte,107.542,96.3803,0.10851
+grupo,parte de baixo,parte de cima,13123,dia,praia,12.0833,13.7631,-0.120793
+grupo,parte de baixo,parte de cima,13123,trabalho,dia,130.833,134.828,-0.0298473
+grupo,parte de baixo,parte de cima,13123,trabalho,trabalho,23.4722,20.4037,0.133973
+grupo,parte de baixo,parte de cima,13123,trabalho,festa,177.25,175.965,0.00723572
+grupo,parte de baixo,parte de cima,13123,trabalho,esporte,5.11111,5.37031,-0.0415393
+grupo,parte de baixo,parte de cima,13123,trabalho,praia,0.666667,0.766881,-0.0583902
+grupo,parte de baixo,parte de cima,13123,festa,dia,2434.14,2570.35,-0.054427
+grupo,parte de baixo,parte de cima,13123,festa,trabalho,402.764,388.977,0.0347435
+grupo,parte de baixo,parte de cima,13123,festa,festa,3489.64,3354.59,0.0394567
+grupo,parte de baixo,parte de cima,13123,festa,esporte,87.875,102.379,-0.151175
+grupo,parte de baixo,parte de cima,13123,festa,praia,16.5,14.6198,0.113661
+grupo,parte de baixo,parte de cima,13123,esporte,dia,97.8472,91.295,0.0685853
+grupo,parte de baixo,parte de cima,13123,esporte,trabalho,12.25,13.8159,-0.111702
+grupo,parte de baixo,parte de cima,13123,esporte,festa,110.431,119.15,-0.0753405
+grupo,parte de baixo,parte de cima,13123,esporte,esporte,7.30556,3.63637,0.582993
+grupo,parte de baixo,parte de cima,13123,esporte,praia,0.583333,0.519274,0.0412998
+grupo,parte de baixo,parte de cima,13123,praia,dia,32.5139,28.8773,0.11486
+grupo,parte de baixo,parte de cima,13123,praia,trabalho,5.30556,4.37007,0.16059
+grupo,parte de baixo,parte de cima,13123,praia,festa,33.3472,37.6881,-0.119012
+grupo,parte de baixo,parte de cima,13123,praia,esporte,1.08333,1.15021,-0.0315972
+grupo,parte de baixo,parte de cima,13123,praia,praia,0,0.16425,-0.152077
+grupo,parte de baixo,peca unica,356,dia,dia,28.0833,24.1653,0.144698
+grupo,parte de baixo,peca unica,356,dia,trabalho,0.333333,0.501951,-0.119083
+grupo,parte de baixo,peca unica,356,dia,festa,124.25,127.854,-0.0283683
+grupo,parte de baixo,peca unica,356,dia,esporte,0.25,0.215122,0.0282993
+grupo,parte de baixo,peca unica,356,dia,praia,0.25,0.430243,-0.134701
+grupo,parte de baixo,peca unica,356,trabalho,dia,0.666667,0.920334,-0.141673
+grupo,parte de baixo,peca unica,356,trabalho,trabalho,0,0.0191167,-0.0189363
+grupo,parte de baixo,peca unica,356,trabalho,festa,5.16667,4.8693,0.0494224
+grupo,parte de baixo,peca unica,356,trabalho,esporte,0,0.00819288,-0.0081595
+grupo,parte de baixo,peca unica,356,trabalho,praia,0,0.0163858,-0.016253
+grupo,parte de baixo,peca unica,356,festa,dia,25.0833,29.924,-0.170236
+grupo,parte de baixo,peca unica,356,festa,trabalho,0.833333,0.621567,0.122743
+grupo,parte de baixo,peca unica,356,festa,festa,162.75,158.322,0.0274139
+grupo,parte de baixo,peca unica,356,festa,esporte,0.25,0.266386,-0.0130234
+grupo,parte de baixo,peca unica,356,festa,praia,0.75,0.532772,0.132538
+grupo,parte de baixo,peca unica,356,esporte,dia,1.83333,0.972924,0.361937
+grupo,parte de baixo,peca unica,356,esporte,trabalho,0,0.0202091,-0.0200076
+grupo,parte de baixo,peca unica,356,esporte,festa,4.33333,5.14755,-0.142077
+grupo,parte de baixo,peca unica,356,esporte,esporte,0,0.00866105,-0.00862376
+grupo,parte de baixo,peca unica,356,esporte,praia,0,0.0173221,-0.0171738
+grupo,parte de baixo,peca unica,356,praia,dia,0.5,0.184067,0.23651
+grupo,parte de baixo,peca unica,356,praia,trabalho,0,0.00382335,-0.00381606
+grupo,parte de baixo,peca unica,356,praia,festa,0.666667,0.973861,-0.169166
+grupo,parte de baixo,peca unica,356,praia,esporte,0,0.00163858,-0.00163724
+grupo,parte de baixo,peca unica,356,praia,praia,0,0.00327715,-0.0032718
+grupo,parte de cima,peca unica,2011,dia,dia,102.028,90.2591,0.121296
+grupo,parte de cima,peca unica,2011,dia,trabalho,2.36111,3.48964,-0.289501
+grupo,parte de cima,peca unica,2011,dia,festa,460.278,471.903,-0.0248901
+grupo,parte de cima,peca unica,2011,dia,esporte,2.25,1.83913,0.135156
+grupo,parte de cima,peca unica,2011,dia,praia,2.08333,1.50903,0.206114
+grupo,parte de cima,peca unica,2011,trabalho,dia,15.9444,16.1536,-0.0122664
+grupo,parte de cima,peca unica,2011,trabalho,trabalho,0.111111,0.624537,-0.379863
+grupo,parte de cima,peca unica,2011,trabalho,festa,85.7778,84.456,0.0153489
+grupo,parte de cima,peca unica,2011,trabalho,esporte,0,0.329148,-0.284538
+grupo,parte de cima,peca unica,2011,trabalho,praia,0,0.27007,-0.239072
+grupo,parte de cima,peca unica,2011,festa,dia,196.278,209.706,-0.0658492
+grupo,parte de cima,peca unica,2011,festa,trabalho,9.86111,8.10774,0.176064
+grupo,parte de cima,peca unica,2011,festa,festa,1108.69,1096.41,0.011134
+grupo,parte de cima,peca unica,2011,festa,esporte,4.08333,4.273,-0.036632
+grupo,parte de cima,peca unica,2011,festa,praia,3.08333,3.50605,-0.0985073
+grupo,parte de cima,peca unica,2011,esporte,dia,4.75,2.72311,0.434642
+grupo,parte de cima,peca unica,2011,esporte,trabalho,0,0.105282,-0.100101
+grupo,parte de cima,peca unica,2011,esporte,festa,12.0833,14.2373,-0.152405
+grupo,parte de cima,peca unica,2011,esporte,esporte,0.166667,0.0554865,0.100149
+grupo,parte de cima,peca unica,2011,esporte,praia,0.166667,0.0455274,0.109629
+grupo,parte de cima,peca unica,2011,praia,dia,0,0.158628,-0.147236
+grupo,parte de cima,peca unica,2011,praia,trabalho,0,0.00613294,-0.00611421
+grupo,parte de cima,peca unica,2011,praia,festa,1,0.829355,0.0891836
+grupo,parte de cima,peca unica,2011,praia,esporte,0,0.00323222,-0.00322701
+grupo,parte de cima,peca unica,2011,praia,praia,0,0.00265208,-0.00264857
+grupo,peca unica,peca unica,4,dia,dia,0,0.015625,-0.0155042
+grupo,peca unica,peca unica,4,dia,festa,0.25,0.234375,0.0125788
+grupo,peca unica,peca unica,4,festa,festa,3.5,3.51562,-0.00346621

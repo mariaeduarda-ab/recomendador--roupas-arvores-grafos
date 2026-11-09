@@ -101,3 +101,14 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | Arestas paralelas contam como arestas diferentes no Tarjan, e laços são ignorados. | Duas arestas entre os mesmos vértices nunca são ponte. No grafo dos grupos não há paralelas, mas os testes cobrem o caso. | Não se aplica. |
 | Os exemplos de peças são as 3 do grupo que mais aparecem nos looks de treino. | São as peças que mais pesam nos pontos do grupo. | Não se aplica. |
 | O tempo do Tarjan é a média de 1000 execuções no mesmo grafo. | Uma execução leva menos de 1 ms e sairia com muito ruído. | Não se aplica. |
+
+## Últimas melhorias (até 13/11)
+
+### Etapa 1: peças gêmeas
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| A impressão digital é categoria + as 3 cores com cada canal dividido por 16 + legenda do BLIP. | O JSON não tem código de produto, nome nem preço. O passo 16 foi escolhido antes de medir. | Medida só na validação. |
+| **Erro registrado:** antes do prompt de 09/11, a primeira versão do script mediu a cobertura também nas escondidas do teste (27,4% para 28,6%). | O pedido anterior dizia para medir no teste. A regra nova proíbe. O script foi trocado para medir só na validação, e o número do teste não foi usado em nenhuma escolha. | Não se aplica. |
+| As gêmeas não entram. | Só 24 de 50 pares conferidos pela imagem são a mesma peça, abaixo dos 45 exigidos. Na validação, as peças com alguma peça da classe no treino iriam de 26,0% para 27,2%. | Sim (cobertura) e pela imagem. |
+| A variante sem legenda (passo 8) foi medida, mas as imagens dela não foram conferidas. | Ela foge da impressão digital pedida e junta mais peças diferentes. Na validação, a cobertura chega a 32,8%. | Só a cobertura. |

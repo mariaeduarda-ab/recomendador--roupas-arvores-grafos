@@ -4,17 +4,29 @@ Trabalho final da disciplina AEDS 2 (CEFET-MG). O sistema encontra peças de rou
 
 A explicação completa está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md). A versão final (F), a avaliação justa e os resultados finais estão em [docs/VERSAO_F.md](docs/VERSAO_F.md). As decisões tomadas durante o trabalho estão em [docs/DECISOES.md](docs/DECISOES.md). A ordem das tarefas está em [docs/ROTEIRO.md](docs/ROTEIRO.md).
 
-## Como compilar
+## Como compilar e rodar um exemplo
+
+Precisa só de `g++` (C++17) e `make`. Não precisa baixar nada para o exemplo.
 
 ```
-make
+make -j4        # compila (cerca de 45 s com 1 núcleo, menos com -j4)
+make test       # 170 testes
+make demo       # exemplo pequeno, cerca de 1 s depois de compilado
 ```
 
-Precisa só de `g++` e `make`. Testado no Ubuntu 22.04 (g++ 11.4) e no Ubuntu 24.04.
+O `make demo` usa `dados/demo/`, um pedaço da base real que já vem no repositório: os 826 looks das 60 peças mais usadas, com 2.891 peças. Ele mostra peças parecidas, completa um look, roda a avaliação de todas as versões, as tabelas de pontos, as formas de agrupar e as articulações. As tabelas vão para `resultados/demo/`. Os números do exemplo não são os do artigo, porque a base é pequena e escolhida pelas peças mais usadas.
 
-## Como baixar os dados
+Testado em 09/11/2026 num clone limpo, seguindo só este README:
 
-Veja [dados/README.md](dados/README.md).
+| Sistema | Compilador | make |
+| --- | --- | --- |
+| Ubuntu 22.04.5 LTS | g++ 11.4.0 | GNU Make 4.3 |
+
+Para rodar outro comando no exemplo, use `--dados dados/demo`, por exemplo `./recomendador --dados dados/demo parecidas 5 3`.
+
+## Base completa
+
+Os números do artigo usam a base completa (102.370 peças), que não fica no repositório. Para gerar os CSVs, veja [dados/README.md](dados/README.md). Os scripts em Python precisam de Python 3 com `numpy` e `matplotlib` (`preprocess/requirements.txt`).
 
 ## Comandos
 

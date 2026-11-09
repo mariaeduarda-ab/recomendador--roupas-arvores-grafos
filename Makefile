@@ -33,6 +33,21 @@ tempos_f: recomendador
 clean:
 	rm -rf $(BUILD) recomendador
 
-.PHONY: all test clean tempos_f
+# exemplo pequeno com dados/demo (2.891 pecas reais, 826 looks), sem baixar nada.
+# as configs sao as escolhidas na validacao da base completa
+demo: recomendador
+	mkdir -p resultados/demo
+	cp resultados/config_f.csv resultados/config_d.csv resultados/vetor_d.csv resultados/demo/
+	./recomendador --dados dados/demo parecidas 5 3
+	./recomendador --dados dados/demo completar 3 shoes
+	./recomendador --dados dados/demo avaliar_justo
+	./recomendador --dados dados/demo pontos
+	./recomendador --dados dados/demo grupos_formas
+	./recomendador --dados dados/demo articulacoes
+	@echo
+	@echo "Tabelas em resultados/demo/. Resumo das versoes:"
+	@grep -E "^\| (Aleatória|Popularidade|C|F|C \+ popularidade) \|" resultados/demo/tabela_final.md
+
+.PHONY: all test clean demo tempos_f
 
 -include $(wildcard $(BUILD)/*.d)

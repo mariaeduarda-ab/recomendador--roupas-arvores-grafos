@@ -183,7 +183,9 @@ Muitas peças têm a mesma nota, e quem vem antes no empate dependia da linha no
 **10. Os grupos do Kruskal valeram a pena?**
 Para o acerto, não de forma mensurável. A F empata com a C + popularidade no teste, e na validação a diferença foi de 1 consulta. Os grupos foram mantidos pelo critério combinado antes. Eles servem para ver o grafo de estilos no Gephi e para a análise de articulações.
 
-## 8. Últimas melhorias: gêmeas, peça nova e duas configurações
+## 8. Experimentos depois da F: gêmeas e peça nova
+
+**A versão final é a F.** Esta seção registra os experimentos feitos depois dela. Nenhum deles muda a versão final. A F2 aparece só como experimento.
 
 O maior problema é a peça nova. No teste, 4.242 das 5.842 peças escondidas (72,6%) não aparecem em nenhum look de treino. Nesta etapa, toda escolha usou só a validação, dividida em duas metades com semente fixa. A metade A escolhe e a metade B confirma. Uma variação só fica se ganhar da F nas duas metades.
 
@@ -244,8 +246,8 @@ Só 24 de 50 pares juntados eram a mesma peça. A legenda do BLIP é genérica (
 **12. Por que a peça nova nunca entra no top 10?**
 C e popularidade dão 0 para quem não tem look de treino. Na categoria inteira há milhares de peças conhecidas com nota maior. Só a nota por atributos e grupos poderia ajudar, mas nenhuma variação ganhou da F no Hit@10 nas duas metades da validação.
 
-**13. Por que existem duas configurações?**
-A F é a melhor pelo Hit@10, que é o critério principal. A F2 foi escolhida depois pelo FITB, e isso está registrado em `DECISOES.md`. As duas foram escolhidas só na validação, e o teste foi usado uma vez para cada uma.
+**13. O que é a F2?**
+Um experimento. A F é a versão final, escolhida pelo Hit@10, que é o critério principal. A F2 foi escolhida depois pelo FITB só para medir o que a peça nova ganha na múltipla escolha. As duas foram escolhidas só na validação, e o teste foi usado uma vez para cada uma.
 
 **14. Por que dividir a validação em duas metades?**
 Com tantas combinações testadas, alguma ganha só por sorte. A metade B não participa da escolha. A forma 3 com peso por grau mostra isso: subiu de 1,123% para 1,630% na metade A e caiu para 0,995% na metade B.

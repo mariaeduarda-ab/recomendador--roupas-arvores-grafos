@@ -8,7 +8,8 @@ from pathlib import Path
 
 RES = Path("resultados")
 SAIDA = Path("artigo/tabelas")
-VERSOES = ["Aleatória", "Popularidade", "A", "B", "C", "D", "D nova", "C + popularidade", "F", "F2 (FITB)"]
+# a F e a versao final. a F2 foi so experimento e fica fora das tabelas do artigo
+VERSOES = ["Aleatória", "Popularidade", "A", "B", "C", "D", "D nova", "C + popularidade", "F"]
 METRICAS = ["hit1", "hit5", "hit10", "fitb"]
 
 
@@ -33,19 +34,19 @@ def tabela(nome, legenda, rotulo, colunas, linhas, larga=False):
 
 def final():
     v = {}
-    for r in csv.DictReader(open(RES / "tabela_final_2.csv", encoding="utf-8")):
+    for r in csv.DictReader(open(RES / "tabela_final.csv", encoding="utf-8")):
         v[(r["versao"], r["metrica"])] = float(r["media"])
     linhas = [["Aleatória (esperado)"] + [pct(v[("Aleatória (esperado)", m)], 2 if m == "fitb" else 3) for m in METRICAS]]
     for nome in VERSOES[1:]:
         linhas.append([nome] + [pct(v[(nome, m)], 2 if m == "fitb" else 3) for m in METRICAS])
-    tabela("final.tex", "Teste com 5.842 looks: média de 10 ordens de desempate (tabela\\_final\\_2.md).", "tab:final",
+    tabela("final.tex", "Teste com 5.842 looks: média de 10 ordens de desempate (tabela\\_final.md).", "tab:final",
            ["Versão", "Hit@1", "Hit@5", "Hit@10", "FITB"], linhas)
 
 
 def diferencas():
-    quero = [("F", "Popularidade"), ("F", "C"), ("F", "C + popularidade"), ("F2 (FITB)", "F")]
+    quero = [("F", "Popularidade"), ("F", "C"), ("F", "C + popularidade")]
     d = {}
-    for r in csv.DictReader(open(RES / "tabela_final_2_diferencas.csv", encoding="utf-8")):
+    for r in csv.DictReader(open(RES / "tabela_final_diferencas.csv", encoding="utf-8")):
         d.setdefault((r["x"], r["y"], r["metrica"]), r)
     linhas = []
     for x, y in quero:
@@ -60,7 +61,7 @@ def diferencas():
 
 
 def conhecida_nova():
-    # as duas tabelas estao so no md, uma por grupo de consultas
+    # as duas tabelas estao so no md da segunda rodada. as linhas das outras versoes sao iguais as da primeira
     texto = (RES / "tabela_final_2.md").read_text(encoding="utf-8")
     partes = re.split(r"### Peça (conhecida|nova)", texto)[1:]
     dados = {}
@@ -75,7 +76,7 @@ def conhecida_nova():
         k, n = dados[("conhecida", nome)], dados[("nova", nome)]
         linhas.append([nome, k[0], k[1], k[2], n[0], n[1], n[2]])
     tabela("conhecida_nova.tex",
-           "Peça escondida conhecida (1.600 consultas) e nova (4.242), no teste. x = vezes o aleatório.",
+           "Peça escondida conhecida (1.600 consultas) e nova (4.242), no teste (tabela\\_final\\_2.md). x = vezes o aleatório.",
            "tab:conhecida_nova",
            ["Versão", "Hit@10 conh.", "x", "FITB conh.", "Hit@10 nova", "x", "FITB nova"], linhas, larga=True)
 

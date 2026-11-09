@@ -8,7 +8,7 @@
 \node[caixa, below=of base] (pre) {Pré-processamento: junta registros repetidos (102.370 peças),\\cor Lab, divisão dos looks em treino, validação e teste};
 \node[caixa, below=of pre] (atr) {Atributos do texto (estilo, ocasião, formalidade, estampa)\\e 12 grupos de cor com k-means};
 \node[caixa, below=of atr] (est) {Estruturas: KD-tree, grafo peça--look (BFS de 2 passos),\\Union-Find e Kruskal (grupos), tabelas de pontos};
-\node[caixa, below=of est] (ver) {Versões A, B, C, D, F e F2: nota para todas as peças\\da categoria da peça escondida};
+\node[caixa, below=of est] (ver) {Versões A, B, C, D e F: nota para todas as peças\\da categoria da peça escondida};
 \node[caixa, below=of ver] (val) {Validação: escolhe pesos e parâmetros\\(metade A escolhe, metade B confirma)};
 \node[caixa, below=of val] (tes) {Teste único: Hit@1, Hit@5, Hit@10 e FITB,\\10 ordens de desempate e bootstrap};
 \node[dado, below=of tes] (sai) {Tabelas, gráficos de tempo, Gephi e articulações (Tarjan)};

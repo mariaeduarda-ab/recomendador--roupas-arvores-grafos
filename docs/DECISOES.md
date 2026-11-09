@@ -136,3 +136,9 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | Comando novo `exportar_grupos`, que grava os grupos da forma 3 e do Kruskal da F. | O Zenodo precisa dos grupos por peça. O comando só lê e grava, sem mudar nenhuma nota. | Não se aplica. |
 | As seções do artigo seguem o artigo modelo do professor (`Documentação_AEDS.pdf`). | O enunciado do trabalho final com as seções pedidas não foi encontrado. | Não se aplica. Falta ela conferir. |
 | A figura do grafo entre grupos é um desenho provisório feito em Python (`preprocess/desenho_grupos.py`). | Não dá para abrir o Gephi por aqui. A imagem do Gephi precisa ser feita à mão. | Não se aplica. |
+
+### Versão final (09/11)
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| A versão final é a F. A F2 e as tentativas para a peça nova ficam registradas como experimento (`VERSAO_F.md`, seção 8) e saem das tabelas do artigo. O código delas continua no repositório. | Decisão dela. A F é a melhor pelo Hit@10, que é o critério principal. O prazo pede foco no artigo. | Sim. A F foi escolhida na validação. |

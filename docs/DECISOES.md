@@ -112,3 +112,16 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | **Erro registrado:** antes do prompt de 09/11, a primeira versão do script mediu a cobertura também nas escondidas do teste (27,4% para 28,6%). | O pedido anterior dizia para medir no teste. A regra nova proíbe. O script foi trocado para medir só na validação, e o número do teste não foi usado em nenhuma escolha. | Não se aplica. |
 | As gêmeas não entram. | Só 24 de 50 pares conferidos pela imagem são a mesma peça, abaixo dos 45 exigidos. Na validação, as peças com alguma peça da classe no treino iriam de 26,0% para 27,2%. | Sim (cobertura) e pela imagem. |
 | A variante sem legenda (passo 8) foi medida, mas as imagens dela não foram conferidas. | Ela foge da impressão digital pedida e junta mais peças diferentes. Na validação, a cobertura chega a 32,8%. | Só a cobertura. |
+
+### Etapa 2: variações para a peça nova (`ajustar_novas`)
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| As metades A e B são um sorteio das 2.332 consultas de validação (semente 2711), com 1.166 em cada. | Cada consulta é um look, então dividir as consultas é dividir os looks. | Não se aplica. |
+| "Ganhar" é ter mais acertos somados nas 10 ordens que a F atual, na metade A e na metade B. Os intervalos de bootstrap da metade B vão no relatório, mas não decidem. | É a regra do prompt. | Sim. |
+| Recuo dos grupos da forma 3: com menos de 20 pares no treino, usa os grupos de categoria + cor. Com menos de 20 também neles, o ponto é 0. | O ponto de "só a categoria" é sempre 0, porque o esperado é igual à contagem. | Sim. Sozinha, a forma 3 teve Hit@10 menor que a F na metade A (120 contra 131 acertos). |
+| No peso por grau, o fator a / (1 + grau) multiplica os atributos e os grupos. C e popularidade ficam sem fator. a fica em 0,5; 1; 2; 5 ou 10. | É a fórmula do prompt. A peça nova tem grau 0 e recebe o fator a. | Sim. |
+| Regressão logística com 13 colunas: C, popularidade, os 6 atributos separados, grupos do Kruskal, grupos da forma 3, atributos / (1 + grau), forma 3 / (1 + grau) e "peça nova". Os dados são pares da metade A: a certa e 10 sorteadas da mesma categoria (semente 31). São 3.000 passos de descida de gradiente em lote, com taxa 1 e L2 0,001. | Escrita em C++ no próprio projeto, sem biblioteca de aprendizado. A coluna "peça nova" deixa o modelo dar um bônus à peça sem look. | Sim. Ela ganhou na metade A (181 contra 131), mas perdeu na B (−0,026 pp, pode ser sorte). |
+| Na metade A, a melhor pelo Hit@10 foi forma 3 + peso por grau, com w = (0; 0,5; 0,5; 0) e a = 0,5. Ela não vai ao teste. | Ganhou na A (190 contra 131 acertos), mas perdeu na B (116 contra 153). Nenhuma variação ganhou da F no Hit@10 nas duas metades. | Sim. |
+| A configuração pelo FITB foi acrescentada depois, como o prompt pede: forma 3 + peso por grau, com w = (1; 0; 0,5; 1) e a = 0,5. | Foi a de maior FITB na metade A (39,79% contra 30,39% da F) e ganhou na B (40,77% contra 31,13%). Ela perde no Hit@10 nas duas metades (120 contra 131 e 140 contra 153). | Sim. |
+| A configuração pelo FITB vai ao teste uma única vez, com o nome "F2 (FITB)", pelo `avaliar_justo --novas`. A `tabela_final.md` da F não muda. | O teste já foi usado uma vez pela F. Este é o segundo uso, e ele fica registrado aqui. | Não se aplica. |

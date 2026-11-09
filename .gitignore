@@ -64,3 +64,8 @@ resultados/gephi_grupos/*
 # Tarjan: Gephi das articulacoes nos 3 limiares (800 KB)
 !resultados/gephi_articulacoes/
 !resultados/gemeas_pares.csv
+# variacoes para a peca nova (ajustar_novas) e tabela final 2
+!resultados/novas_grade.csv
+!resultados/config_novas.csv
+!resultados/tabela_final_2.csv
+!resultados/tabela_final_2_diferencas.csv

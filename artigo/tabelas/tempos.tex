@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Tempos em ms, média de 5 repetições (tempos\_f.md).}
+\label{tab:tempos}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+Medida & $n=10^3$ & $n=10^4$ & $n=10^5$ \\
+\midrule
+Construir a KD-tree & 0,2315 & 2,876 & 48,98 \\
+kNN na KD-tree (consulta) & 0,007219 & 0,01299 & 0,09484 \\
+kNN força bruta (consulta) & 0,0117 & 0,07875 & 1,343 \\
+Union-Find sem técnicas & 3,458 & 297,6 & 29.204 \\
+Union-Find com técnicas & 0,009074 & 0,07919 & 0,7813 \\
+Kruskal: ordenar & 0,3545 & 4,328 & 51,73 \\
+Kruskal: uniões & 0,04993 & 0,4981 & 6,523 \\
+Prim com heap & 0,5577 & 8,527 & 105,7 \\
+BFS 2 passos (consulta) & 0,000017 & 0,000067 & 0,000367 \\
+\bottomrule
+\end{tabular}
+\end{table}

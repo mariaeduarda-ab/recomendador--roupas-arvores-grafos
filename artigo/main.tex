@@ -1,0 +1,129 @@
+% Modelo IEEE de conferência. Compila no Overleaf com pdfLaTeX (IEEEtran já vem instalado).
+% Só títulos e listas do que escrever. Nenhum texto e nenhuma referência foram escritos.
+% As seções seguem o artigo modelo do professor (Documentação_AEDS.pdf). Conferir com o enunciado do trabalho final.
+\documentclass[conference]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta}
+
+% lista do que escrever em cada seção. apagar antes de entregar
+\newcommand{\escrever}[1]{\noindent\textbf{A escrever:}\begin{itemize}\setlength\itemsep{0pt}#1\end{itemize}}
+
+\begin{document}
+
+\title{Recomendação de Roupas com KD-tree e Grafos}
+
+\author{\IEEEauthorblockN{Nome 1 \quad Nome 2}
+\IEEEauthorblockA{Engenharia de Computação, CEFET-MG, Campus Divinópolis\\
+Divinópolis, Minas Gerais, Brasil}}
+
+\maketitle
+
+\begin{abstract}
+\escrever{
+\item problema: completar um look com uma peça de outra categoria;
+\item estruturas usadas: KD-tree, grafo peça--look com BFS, Union-Find, Kruskal, Tarjan;
+\item base: FashionVerse-MME (102.370 peças, 31.333 looks);
+\item resultado principal com números da Tabela~\ref{tab:final} e a limitação da peça nova (Tabela~\ref{tab:conhecida_nova}).
+}
+\end{abstract}
+
+\begin{IEEEkeywords}
+\escrever{\item 4 a 6 palavras-chave.}
+\end{IEEEkeywords}
+
+\section{Introdução}
+\escrever{
+\item contexto: recomendação de roupas e a tarefa de completar look;
+\item objetivo do trabalho e as perguntas que o sistema responde;
+\item por que estruturas clássicas (leve e explicável);
+\item contribuições: versões A a F2, avaliação justa, base tratada no Zenodo (DOI);
+\item organização do texto.
+}
+
+\section{Fundamentação Teórica}
+\escrever{
+\item KD-tree: construção, busca kNN e custo esperado;
+\item grafo peça--look e BFS de 2 passos;
+\item Union-Find com união por tamanho e compressão de caminho;
+\item árvore geradora mínima: Kruskal e Prim, agrupamento por AGM e efeito corrente;
+\item grafo de condensação (grupos como supervértices) e grau do vértice (popularidade);
+\item Tarjan: pontes e vértices de articulação;
+\item NP-dificuldade de montar o look inteiro (transformação da clique, \texttt{docs/VERSAO\_F.md}, seção 4).
+}
+
+\section{Metodologia}
+\escrever{
+\item explicar cada etapa do fluxograma (Fig.~\ref{fig:fluxo});
+\item pré-processamento e junção de registros repetidos;
+\item atributos do texto e acerto contra a referência rotulada pela imagem;
+\item versões A, B, C, D, F e F2 e a fórmula da nota;
+\item pontos por atributo: $\log((n+1)/(\text{esperado}+1))$;
+\item por que as peças gêmeas não entraram (24 de 50 pares).
+}
+
+\begin{figure}[t]
+\centering
+\resizebox{\columnwidth}{!}{\input{figuras/fluxograma.tex}}
+\caption{Fluxograma da metodologia.}
+\label{fig:fluxo}
+\end{figure}
+
+\section{Modelagem Experimental}
+\escrever{
+\item ambiente: Ubuntu 22.04.5, g++ 11.4, 8 núcleos, carga da máquina;
+\item divisão treino, validação e teste e sementes;
+\item avaliação justa: categoria inteira, 10 ordens de desempate, Hit@k e FITB;
+\item escolha só na validação, metades A e B, teste usado uma vez por configuração;
+\item bootstrap com 1.000 sorteios;
+\item testes de tempo: $n = 10^3$, $10^4$ e $10^5$, 5 repetições.
+}
+
+\section{Resultados e Discussão}
+\escrever{
+\item Tabela~\ref{tab:final}: comparação de todas as versões;
+\item Tabela~\ref{tab:diferencas}: o que é diferença real e o que pode ser sorte;
+\item Tabela~\ref{tab:conhecida_nova}: peça conhecida contra peça nova;
+\item Tabela~\ref{tab:tempos} e Fig.~\ref{fig:tempos}: teoria contra prática;
+\item Fig.~\ref{fig:grupos}: grupos e articulações;
+\item limitações: 72,6\% de peças novas, atributos do texto, efeito corrente.
+}
+
+\input{tabelas/final.tex}
+\input{tabelas/diferencas.tex}
+\input{tabelas/conhecida_nova.tex}
+\input{tabelas/tempos.tex}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.24\textwidth]{figuras/kdtree.png}\hfill
+\includegraphics[width=0.24\textwidth]{figuras/union_find.png}\hfill
+\includegraphics[width=0.24\textwidth]{figuras/agm.png}\hfill
+\includegraphics[width=0.24\textwidth]{figuras/bfs.png}
+\caption{Tempo por tamanho da base, em escala log-log, com a curva teórica tracejada.}
+\label{fig:tempos}
+\end{figure*}
+
+\begin{figure}[t]
+\centering
+% trocar pela imagem do Gephi (resultados/gephi_articulacoes/q2_*), ver LEIA-ME.md
+\includegraphics[width=\columnwidth]{figuras/grupos_articulacoes.png}
+\caption{Grafo entre grupos com as articulações em destaque.}
+\label{fig:grupos}
+\end{figure}
+
+\section{Conclusões}
+\escrever{
+\item síntese dos achados;
+\item limitações do estudo;
+\item trabalhos futuros.
+}
+
+% Referências: nenhuma foi criada. Colocar aqui as que vocês leram, com \bibliographystyle{IEEEtran} e um arquivo .bib.
+
+\end{document}

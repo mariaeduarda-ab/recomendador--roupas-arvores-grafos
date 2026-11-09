@@ -69,3 +69,6 @@ resultados/gephi_grupos/*
 !resultados/config_novas.csv
 !resultados/tabela_final_2.csv
 !resultados/tabela_final_2_diferencas.csv
+# dados da pasta zenodo saem do preprocess/zenodo.py (27 MB). so os textos ficam no git
+zenodo/*.csv
+zenodo/tabelas_pontos/

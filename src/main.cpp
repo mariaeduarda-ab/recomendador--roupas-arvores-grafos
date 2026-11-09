@@ -54,6 +54,7 @@ int mostrar_uso() {
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "  ./recomendador pontos                           tabelas de pontos por atributo e diagnóstico na validação\n"
+                 "  ./recomendador exportar_grupos                 grava zenodo/grupos.csv (forma 3 e Kruskal da F)\n"
                  "  ./recomendador ajustar_novas                   variacoes para a peca nova, so na validacao\n"
                  "  ./recomendador tempos_f                         tempos das estruturas para 1 mil, 10 mil e 100 mil peças\n"
                  "  ./recomendador articulacoes                     Tarjan no grafo entre grupos (só análise)\n"
@@ -128,7 +129,7 @@ int main(int argc, char** argv) {
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
-                            ((comando == "tempos_f" || comando == "pontos" || comando == "grupos_formas" || comando == "ajustar_f" || comando == "ajustar_novas" || comando == "articulacoes") && argumentos.size() == 1) ||
+                            ((comando == "tempos_f" || comando == "pontos" || comando == "grupos_formas" || comando == "ajustar_f" || comando == "ajustar_novas" || comando == "exportar_grupos" || comando == "articulacoes") && argumentos.size() == 1) ||
                             (comando == "avaliar_justo" && argumentos.size() <= 3 &&
                              std::all_of(argumentos.begin() + 1, argumentos.end(),
                                          [](const std::string& a) { return a == "--validacao" || a == "--novas"; }));
@@ -169,6 +170,9 @@ int main(int argc, char** argv) {
     }
     if (comando == "grupos_formas") return comparar_formas(base, pasta_dados, saida) ? 0 : 1;
     if (comando == "pontos") return rodar_pontos(base, pasta_dados, saida) ? 0 : 1;
+    if (comando == "exportar_grupos") {
+        return exportar_grupos(base, pasta_dados, "zenodo/grupos.csv") ? 0 : 1;
+    }
     if (comando == "ajustar_novas") {
         return ajustar_novas(base, pasta_dados, saida) ? 0 : 1;
     }

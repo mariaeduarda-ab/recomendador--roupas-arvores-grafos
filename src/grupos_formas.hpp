@@ -22,3 +22,7 @@ bool grupos_escolhidos(const Base& base, const std::string& pasta_dados, Grupos&
 
 // so categoria + grupo_cor (le pecas_v5.csv). e o recuo dos grupos da forma 3 quando falta contagem
 bool grupos_por_cor(const Base& base, const std::string& pasta_dados, Grupos& gr, std::string& erro);
+
+// grava id, grupo da forma 3 e grupo do Kruskal da F (K = 100, estampa 0,1) de cada peca.
+// nao usa looks. serve para publicar os grupos junto com a base
+bool exportar_grupos(const Base& base, const std::string& pasta_dados, const std::string& arquivo);

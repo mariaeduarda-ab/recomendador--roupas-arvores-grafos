@@ -381,3 +381,23 @@ bool grupos_por_cor(const Base& base, const std::string& pasta_dados, Grupos& gr
     gr = agrupar_por_chave(g, chave, (int)base.pecas.size());
     return true;
 }
+
+bool exportar_grupos(const Base& base, const std::string& pasta_dados, const std::string& arquivo) {
+    std::vector<Atrib> attr;
+    ValoresAtrib val;
+    std::string erro;
+    Grupos g3;
+    if (!ler_tudo(base, pasta_dados, attr, val, erro) || !grupos_escolhidos(base, pasta_dados, g3, erro)) {
+        std::cerr << erro << '\n';
+        return false;
+    }
+    const std::vector<std::string> chave = chaves(attr, val);
+    const Grupos gk = agrupar(montar_grafo_knn(base, attr, K_VIZINHOS_GRUPOS, PESO_ESTAMPA), 100, (int)base.pecas.size());
+    std::ofstream csv(arquivo);
+    csv << "id,grupo_forma3,chave_forma3,grupo_kruskal\n";
+    for (int i = 0; i < (int)base.pecas.size(); i++) {
+        csv << base.pecas[i].id << ',' << g3.grupo[i] << ',' << chave[i] << ',' << gk.grupo[i] << '\n';
+    }
+    std::cout << "Grupos de " << base.pecas.size() << " peças em " << arquivo << std::endl;
+    return true;
+}

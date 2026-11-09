@@ -63,3 +63,4 @@ resultados/gephi_grupos/*
 !resultados/tabela_final_diferencas.csv
 # Tarjan: Gephi das articulacoes nos 3 limiares (800 KB)
 !resultados/gephi_articulacoes/
+!resultados/gemeas_pares.csv

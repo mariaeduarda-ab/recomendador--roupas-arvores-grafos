@@ -1,0 +1,51 @@
+par,id1,id2,categoria,legenda,rgb1,rgb2,mesma_peca
+0,36622,39385,earrings,pair of green and yellow earrings with a gold earring,"[[150, 146, 105], [221, 208, 188]]","[[151, 147, 106], [222, 209, 190]]",sim
+1,16925,19731,skirt,a black skirt with a zippered front and a side slit,"[[17, 17, 17], [210, 210, 210], [125, 125, 125]]","[[30, 30, 30], [211, 211, 211], [118, 118, 118]]",nao
+2,41642,47458,pants,a close up of a woman ' s leggings with a black top,"[[25, 20, 19], [211, 210, 210], [115, 112, 113]]","[[30, 26, 26], [213, 213, 212], [117, 116, 115]]",nao
+3,61462,65051,bag,a black purse with fringes on it sitting on a white surface,"[[30, 30, 30], [107, 107, 107], [206, 206, 206]]","[[30, 29, 25], [106, 105, 99], [207, 207, 203]]",nao
+4,5162,2866,top,a white tank top with a scoop neck and a scooped neck,"[[242, 242, 244], [209, 209, 210]]","[[241, 240, 245], [217, 216, 220]]",nao
+5,9607,4554,top,a white top with a lace pattern on the front,"[[233, 233, 230], [223, 222, 218]]","[[235, 233, 230], [221, 218, 215]]",nao
+6,89314,88567,bracelet,a white pearl bracelet with a silver clasp,"[[226, 226, 220], [238, 239, 235], [167, 175, 177]]","[[226, 225, 219], [237, 238, 234], [166, 174, 176]]",sim
+7,47115,45805,pants,a black shorts with a zippered waistband and a zippered waistband,"[[22, 19, 20], [203, 202, 202], [116, 114, 114]]","[[21, 19, 20], [205, 204, 204], [119, 117, 117]]",sim
+8,7983,13921,top,a pink blouse with a collar and a white collar,"[[247, 220, 216], [246, 238, 235]]","[[246, 219, 216], [246, 238, 235]]",sim
+9,41247,47163,pants,a woman in black jeans with holes on the knees,"[[34, 34, 34], [119, 119, 119], [205, 205, 205]]","[[37, 37, 37], [121, 121, 121], [206, 206, 206]]",sim
+10,56553,53837,bag,a close up of a purse with a star and moon design,"[[47, 44, 58], [132, 118, 104], [215, 197, 166]]","[[46, 44, 59], [136, 120, 105], [218, 198, 165]]",sim
+11,8788,3650,top,mens plaid shirt long sleeve buttoned shirt,"[[35, 26, 29], [104, 86, 80], [179, 166, 154]]","[[35, 26, 28], [104, 86, 80], [178, 165, 153]]",sim
+12,97895,99572,outerwear,a black leather jacket with zippers and zippers on the shoulders,"[[35, 33, 33], [72, 69, 69], [211, 210, 207]]","[[34, 32, 32], [70, 67, 67], [209, 208, 206]]",sim
+13,47393,45932,pants,a close up of a pair of black jeans on a white background,"[[26, 22, 28], [118, 115, 117], [211, 209, 211]]","[[20, 19, 25], [118, 117, 120], [210, 210, 211]]",nao
+14,21978,22921,eyewear,a close up of a pair of sunglasses on a white background,"[[82, 83, 82], [151, 154, 152], [16, 16, 15]]","[[81, 83, 82], [151, 155, 152], [16, 16, 15]]",sim
+15,2036,4443,top,a black top with a spaghetti neckline and spaghetti straps,"[[30, 26, 23], [215, 215, 213], [118, 117, 113]]","[[18, 18, 18], [209, 209, 209], [113, 113, 113]]",nao
+16,97599,6789,outerwear,a black cardigan sweater with buttons on the front,"[[17, 15, 15], [203, 203, 203], [99, 96, 96]]","[[18, 15, 14], [204, 202, 202], [103, 98, 96]]",nao
+17,42467,47026,pants,a close up of a pair of jeans with a white background,"[[55, 66, 88], [100, 114, 129], [206, 209, 213]]","[[55, 72, 94], [100, 115, 130], [205, 209, 213]]",nao
+18,44902,42105,pants,a close up of a pair of black leather pants,"[[43, 43, 41], [84, 84, 82], [202, 202, 202]]","[[37, 36, 39], [83, 83, 86], [204, 204, 205]]",nao
+19,6109,4375,top,a white top with a spaghetti neckline and spaghetti straps,"[[224, 224, 224]]","[[229, 229, 229]]",sim
+20,24509,24512,legwear,a pair of black socks with a white background,"[[24, 23, 20], [210, 209, 208], [110, 110, 108]]","[[27, 27, 27], [211, 211, 210], [110, 110, 109]]",nao
+21,11191,7191,top,a white shirt with a collared neck and cuffs,"[[241, 240, 242], [220, 215, 215]]","[[242, 242, 242], [219, 219, 219]]",nao
+22,48144,48339,brooch,a close up of a flower with a white background,"[[180, 110, 40], [86, 51, 32], [230, 204, 185]]","[[181, 111, 41], [86, 51, 33], [231, 207, 190]]",sim
+23,45307,43195,pants,a close up of a pair of jeans with a white background,"[[36, 33, 39], [211, 209, 211], [119, 115, 118]]","[[38, 39, 44], [211, 212, 212], [117, 118, 121]]",nao
+24,12910,10898,top,a white shirt with a v neck and a short sleeve,"[[224, 224, 224], [214, 214, 214]]","[[225, 225, 225], [217, 217, 217]]",nao
+25,90944,90679,necklace,a close up of a choke with a chain on it,"[[15, 15, 17], [195, 193, 193]]","[[15, 15, 17], [194, 192, 192]]",sim
+26,51350,50456,rings,a close up of a ring with a pearl on it,"[[36, 35, 34], [219, 217, 210], [95, 92, 88]]","[[35, 34, 33], [219, 216, 209], [92, 90, 86]]",sim
+27,18003,19310,skirt,a black skirt with a plea on the bottom,"[[24, 24, 24], [112, 112, 112], [214, 214, 214]]","[[23, 22, 21], [119, 119, 118], [210, 210, 210]]",sim
+28,22345,22414,eyewear,a close up of a pair of sunglasses on a white background,"[[229, 210, 197], [113, 66, 60], [186, 137, 123]]","[[229, 210, 197], [113, 66, 60], [185, 137, 123]]",sim
+29,68145,58701,bag,a close up of a purse with a flower design on it,"[[56, 44, 54], [101, 110, 120], [180, 183, 182]]","[[57, 44, 55], [102, 111, 121], [181, 184, 184]]",sim
+30,58049,61308,bag,a black leather handbag with a gold lock on the handle,"[[23, 20, 22], [93, 87, 83], [207, 202, 193]]","[[26, 31, 30], [91, 90, 83], [195, 197, 196]]",nao
+31,3905,101765,outerwear,a close up of a black jacket on a mannequin mannequin mannequin mannequin mannequin mannequin mannequin,"[[30, 30, 31], [209, 210, 211], [113, 115, 117]]","[[29, 27, 27], [211, 210, 209], [120, 117, 116]]",nao
+32,56458,53120,bag,a white purse with a chain strap and a chain around the strap,"[[233, 226, 219], [205, 186, 161]]","[[233, 226, 219], [205, 185, 160]]",sim
+33,58878,54054,bag,a close up of a white purse with a bow on the front,"[[197, 195, 197], [227, 226, 225]]","[[198, 196, 198], [227, 227, 226]]",sim
+34,41695,42407,pants,a close up of a pair of jeans with holes on them,"[[41, 51, 67], [180, 188, 190]]","[[40, 52, 66], [180, 184, 185]]",nao
+35,12282,2912,top,a blue top with a cross - over neckline and straps,"[[114, 158, 195], [93, 139, 179], [213, 227, 234]]","[[114, 158, 195], [93, 139, 179], [210, 224, 233]]",sim
+36,22331,22646,eyewear,a close up of a pair of glasses on a white background,"[[54, 52, 55], [214, 212, 210], [134, 134, 131]]","[[57, 56, 60], [219, 218, 219], [135, 135, 138]]",nao
+37,4779,2744,top,a woman wearing a grey sweater with a hoodie,"[[108, 109, 106], [204, 204, 198]]","[[109, 109, 107], [198, 198, 192]]",sim
+38,49094,48882,hairwear,a black bandana with white paisley print on it,"[[27, 26, 30], [93, 93, 101], [194, 195, 201]]","[[28, 26, 30], [92, 93, 101], [194, 195, 201]]",sim
+39,94771,96291,outerwear,a black leather jacket with zippers and zippers on the shoulders,"[[33, 31, 31], [74, 70, 69], [190, 186, 183]]","[[32, 31, 31], [78, 78, 77], [190, 190, 190]]",nao
+40,15955,17103,skirt,a black skirt with a side slit and a side slit,"[[24, 22, 26], [205, 203, 204], [114, 112, 114]]","[[31, 30, 30], [202, 202, 202], [117, 117, 116]]",nao
+41,33131,34889,hats,a close up of a black hat on a white background,"[[39, 37, 38], [190, 188, 188]]","[[46, 46, 46], [188, 188, 188]]",nao
+42,42161,46427,pants,a close up of a person wearing black leather pants,"[[48, 48, 48], [89, 89, 89], [197, 197, 197]]","[[48, 48, 50], [90, 89, 93], [201, 200, 201]]",nao
+43,19596,16298,skirt,a white skirt with a lace pattern on the bottom,"[[239, 237, 234], [225, 221, 215]]","[[239, 233, 235], [225, 216, 217]]",nao
+44,46705,46278,pants,a close up of a pair of shorts with holes on the side,"[[104, 105, 109], [197, 197, 198]]","[[101, 106, 109], [204, 206, 205]]",nao
+45,12803,13041,top,a woman wearing a grey sweater and black pants,"[[146, 145, 148], [104, 101, 104], [219, 218, 218]]","[[156, 157, 152], [109, 110, 107], [220, 220, 218]]",nao
+46,68441,52444,bag,a black leather bag with a metal handle and a strap,"[[39, 41, 38], [99, 101, 105], [204, 204, 204]]","[[43, 41, 46], [105, 103, 110], [206, 204, 204]]",nao
+47,34606,33916,hats,a close up of a white hat on a white background,"[[234, 234, 234], [178, 178, 178]]","[[227, 227, 227], [177, 177, 177]]",sim
+48,49486,51093,rings,a close up of a ring with a stone on it,"[[233, 230, 222], [224, 202, 162], [183, 155, 107]]","[[233, 230, 223], [224, 202, 162], [184, 156, 108]]",sim
+49,87596,86770,bracelet,a close up of a peace sign bracelet on a white background,"[[144, 131, 90], [221, 215, 203]]","[[145, 131, 91], [221, 215, 202]]",sim

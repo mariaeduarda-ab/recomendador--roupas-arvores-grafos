@@ -23,6 +23,7 @@
 #include "versao_d.hpp"
 #include "versao_e.hpp"
 #include "versao_f.hpp"
+#include "pecas_novas.hpp"
 
 namespace {
 
@@ -44,7 +45,7 @@ int mostrar_uso() {
                  "  ./recomendador estampa_d                        valida a regra de estampa na D nova\n"
                  "  ./recomendador avaliar_e                        escolhe os pesos da E e roda o teste\n"
                  "  ./recomendador avaliar_fitb                     prova de múltipla escolha com todas as versões\n"
-                 "  ./recomendador avaliar_justo [--validacao]      todas as versões na categoria inteira, 10 ordens\n"
+                 "  ./recomendador avaliar_justo [--validacao] [--novas] todas as versões na categoria inteira, 10 ordens\n"
                  "  ./recomendador completar_e <id_look> <categoria> completa um look (versão E)\n"
                  "  ./recomendador gephi <k>                        grupos com esse k e arquivos do Gephi\n"
                  "  ./recomendador validacao                        lista os looks de validacao\n"
@@ -53,6 +54,7 @@ int mostrar_uso() {
                  "  ./recomendador completar_d <id_look> <categoria> completa um look (versão D)\n"
                  "  ./recomendador montar <id_peca> [categorias]    3 melhores looks a partir de uma peça\n"
                  "  ./recomendador pontos                           tabelas de pontos por atributo e diagnóstico na validação\n"
+                 "  ./recomendador ajustar_novas                   variacoes para a peca nova, so na validacao\n"
                  "  ./recomendador tempos_f                         tempos das estruturas para 1 mil, 10 mil e 100 mil peças\n"
                  "  ./recomendador articulacoes                     Tarjan no grafo entre grupos (só análise)\n"
                  "  ./recomendador ajustar_f                        escolhe os pesos da F na validação (não monta o teste)\n"
@@ -126,8 +128,10 @@ int main(int argc, char** argv) {
                             (comando == "montar" && argumentos.size() >= 2) ||
                             ((comando == "avaliar" || comando == "avaliar_d" || comando == "avaliar_e" || comando == "avaliar_fitb" || comando == "reavaliar" || comando == "vetor_d" || comando == "estampa_d" || comando == "validacao") && argumentos.size() == 1) ||
                             (comando == "gephi" && argumentos.size() == 2) || comando == "grupos" ||
-                            ((comando == "tempos_f" || comando == "pontos" || comando == "grupos_formas" || comando == "ajustar_f" || comando == "articulacoes") && argumentos.size() == 1) ||
-                            (comando == "avaliar_justo" && (argumentos.size() == 1 || (argumentos.size() == 2 && argumentos[1] == "--validacao")));
+                            ((comando == "tempos_f" || comando == "pontos" || comando == "grupos_formas" || comando == "ajustar_f" || comando == "ajustar_novas" || comando == "articulacoes") && argumentos.size() == 1) ||
+                            (comando == "avaliar_justo" && argumentos.size() <= 3 &&
+                             std::all_of(argumentos.begin() + 1, argumentos.end(),
+                                         [](const std::string& a) { return a == "--validacao" || a == "--novas"; }));
     if (!formato_ok) return mostrar_uso();
 
     // usa os subconjuntos pecas_N.csv, entao nao precisa ler a base inteira
@@ -165,6 +169,9 @@ int main(int argc, char** argv) {
     }
     if (comando == "grupos_formas") return comparar_formas(base, pasta_dados, saida) ? 0 : 1;
     if (comando == "pontos") return rodar_pontos(base, pasta_dados, saida) ? 0 : 1;
+    if (comando == "ajustar_novas") {
+        return ajustar_novas(base, pasta_dados, saida) ? 0 : 1;
+    }
     if (comando == "ajustar_f") return ajustar_f(base, pasta_dados, saida) ? 0 : 1;
     if (comando == "articulacoes") return rodar_articulacoes(base, pasta_dados, saida) ? 0 : 1;
 
@@ -181,7 +188,8 @@ int main(int argc, char** argv) {
         return avaliar_e(base, pasta_dados, TABELA_CORES, saida) ? 0 : 1;
     }
     if (comando == "avaliar_justo") {
-        return avaliar_justo(base, pasta_dados, argumentos.size() == 2, saida) ? 0 : 1;
+        const auto tem = [&](const char* o) { return std::find(argumentos.begin(), argumentos.end(), o) != argumentos.end(); };
+        return avaliar_justo(base, pasta_dados, tem("--validacao"), saida, tem("--novas")) ? 0 : 1;
     }
     if (comando == "avaliar_fitb") {
         return avaliar_fitb(base, pasta_dados, TABELA_CORES, saida) ? 0 : 1;

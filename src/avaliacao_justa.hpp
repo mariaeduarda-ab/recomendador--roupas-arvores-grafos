@@ -78,4 +78,7 @@ struct Intervalo {
 Intervalo bootstrap(const std::vector<double>& x, const std::vector<double>& y);
 
 // roda aleatorio, popularidade, A, B, C, D e D nova. validacao = true nunca monta o teste
-bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool validacao, const std::string& pasta_saida);
+// novas = true roda tambem as configs de config_novas.csv, separa peca conhecida e peca nova
+// e grava tabela_final_2 (ou validacao_final_2). as tabelas de antes nao mudam
+bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool validacao, const std::string& pasta_saida,
+                   bool novas = false);

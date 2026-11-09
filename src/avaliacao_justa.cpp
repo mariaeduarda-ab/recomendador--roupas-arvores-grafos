@@ -18,6 +18,7 @@
 #include "kdtree.hpp"
 #include "recomendador.hpp"
 #include "versao_d.hpp"
+#include "pecas_novas.hpp"
 #include "versao_f.hpp"
 
 namespace {
@@ -143,6 +144,31 @@ double esperado_aleatorio(const Base& base, const Consultas& c, int k) {
         soma += std::min((double)k, m) / m;
     }
     return c.alvo.empty() ? 0.0 : soma / c.alvo.size();
+}
+
+// taxa so nas consultas com dentro[q] = true. k = 0 da o FITB
+double taxa_em(const Posicoes& p, int k, int s, const std::vector<bool>& dentro) {
+    double soma = 0.0;
+    int n = 0;
+    for (int q = 0; q < (int)p.pos.size(); q++) {
+        if (!dentro[q]) continue;
+        if (k == 0) {
+            if (p.fitb[q][s] < 0) continue;
+            soma += p.fitb[q][s];
+        } else {
+            soma += p.pos[q][s] < k;
+        }
+        n++;
+    }
+    return n > 0 ? soma / n : 0.0;
+}
+
+std::vector<double> filtrar(const std::vector<double>& v, const std::vector<bool>& dentro) {
+    std::vector<double> r;
+    for (int q = 0; q < (int)v.size(); q++) {
+        if (dentro[q]) r.push_back(v[q]);
+    }
+    return r;
 }
 
 }  // namespace
@@ -298,7 +324,8 @@ Intervalo bootstrap(const std::vector<double>& x, const std::vector<double>& y) 
     return res;
 }
 
-bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool validacao, const std::string& pasta_saida) {
+bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool validacao, const std::string& pasta_saida,
+                   bool novas) {
     std::vector<Atrib> attr;
     std::vector<Atrib> attr_v4;
     std::string erro;
@@ -395,6 +422,18 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
     } else {
         std::cerr << "Aviso: " << erro_f << ". F e C + popularidade ficam de fora.\n";
     }
+    // configuracoes da peca nova escolhidas pelo ajustar_novas (so com --novas)
+    Novas nvn;
+    std::vector<ConfigN> cfgs_novas;
+    if (novas) {
+        std::string erro_n;
+        if (!tem_f || !ler_config_novas(pasta_saida + "/config_novas.csv", cfgs_novas) ||
+            !nvn.montar(b, rec, grafo, pasta_dados, vf.f, erro_n)) {
+            std::cerr << "Sem config_novas.csv ou sem a F (" << erro_n << "). Rode ./recomendador ajustar_novas.\n";
+            return false;
+        }
+        for (const ConfigN& cfg : cfgs_novas) rodar_versao(cfg.nome, nvn.notas(cfg), &nvn.f->popularidade());
+    }
     const int principais = (int)res.size();
     // a D antiga so pontuava as vizinhas das arestas. fica so pra comparar com a D na categoria inteira
     rodar_versao("D (só lista curta)", de_lista(b, [&](const std::vector<int>& l, const std::string& cat) { return vd.completar(l, cat, tudo); }));
@@ -403,8 +442,10 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
     }
 
     // com a F a tabela vira a final. a corrigida antiga fica como estava
-    const std::string nome_arq = tem_f ? (validacao ? "validacao_final" : "tabela_final")
-                                       : (validacao ? "validacao_corrigida" : "tabela_corrigida");
+    // as tabelas de antes ficam como estavam: com --novas o arquivo e outro
+    const std::string nome_arq = novas  ? (validacao ? "validacao_final_2" : "tabela_final_2")
+                                 : tem_f ? (validacao ? "validacao_final" : "tabela_final")
+                                         : (validacao ? "validacao_corrigida" : "tabela_corrigida");
     std::ofstream csv(pasta_saida + "/" + nome_arq + ".csv");
     csv << "versao,metrica,media,min,max\n";
     for (int m = 0; m < 4; m++) {
@@ -429,6 +470,7 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
         if (v != i_c && v != i_pop) pares.push_back({v, i_c});
     }
     if (tem_f) pares.push_back({i_c_pop + 1, i_c_pop});  // F x C + popularidade
+    for (int k = 0; k < (int)cfgs_novas.size(); k++) pares.push_back({i_c_pop + 2 + k, i_c_pop + 1});  // nova x F
     std::ofstream dif(pasta_saida + "/" + nome_arq + "_diferencas.csv");
     dif << "x,y,metrica,diferenca,ic95_min,ic95_max,conclusao\n";
     std::vector<std::vector<Intervalo>> ints;
@@ -511,6 +553,76 @@ bool avaliar_justo(const Base& base, const std::string& pasta_dados, bool valida
                << (METRICAS[m] == 0 ? std::string("FITB") : "Hit@" + std::to_string(METRICAS[m])) << " | "
                << num(100 * it.dif, casas) << " pp | " << num(100 * it.min, casas) << " a " << num(100 * it.max, casas)
                << " pp | " << conclusao(res[pares[i].first].nome, res[pares[i].second].nome, it) << " |\n";
+        }
+    }
+    if (novas) {
+        // peca conhecida = a escondida aparece em algum look de treino de b
+        std::vector<bool> conhecida(c.alvo.size());
+        for (int q = 0; q < (int)c.alvo.size(); q++) conhecida[q] = grafo.num_looks(c.alvo[q]) > 0;
+        const int ks[3] = {1, 10, 0};
+        const int i_f = i_c_pop + 1;
+        md << "\n## Peça escondida conhecida e peça nova\n\n"
+           << "Conhecida: a peça escondida aparece em algum look de treino. Nova: não aparece em nenhum. "
+              "\"x aleatório\" é quantas vezes a versão acerta mais que o aleatório esperado no mesmo grupo de consultas "
+              "(no FITB, o aleatório acerta 25%). Os intervalos são de bootstrap nas consultas do grupo.\n";
+        for (int g = 0; g < 2; g++) {
+            std::vector<bool> dentro(c.alvo.size());
+            int n = 0;
+            for (std::size_t q = 0; q < dentro.size(); q++) {
+                dentro[q] = conhecida[q] == (g == 0);
+                n += dentro[q];
+            }
+            std::array<double, 3> esp{};
+            for (int j = 0; j < 2; j++) {
+                for (std::size_t q = 0; q < dentro.size(); q++) {
+                    if (!dentro[q]) continue;
+                    double m = (double)candidatas(b, c, (int)q).size();
+                    esp[j] += std::min((double)ks[j], m) / m;
+                }
+                esp[j] = n > 0 ? esp[j] / n : 0.0;
+            }
+            esp[2] = 0.25;
+            md << "\n### " << (g == 0 ? "Peça conhecida" : "Peça nova") << " (" << num(n, 0) << " consultas, "
+               << pct((double)n / std::max<std::size_t>(1, c.alvo.size()), 0) << ")\n\n"
+               << "| Versão | Hit@1 | x aleatório | Hit@10 | x aleatório | FITB | x aleatório |\n"
+               << "| --- | --- | --- | --- | --- | --- | --- |\n"
+               << "| Aleatória (esperado) | " << pct(esp[0], 1) << " | 1,0 | " << pct(esp[1], 10) << " | 1,0 | 25,00% | 1,0 |\n";
+            for (int v = 0; v < principais; v++) {
+                md << "| " << res[v].nome;
+                for (int j = 0; j < 3; j++) {
+                    double t = 0.0, lo = 2.0, hi = -1.0;
+                    for (int s = 0; s < N_ORDENS; s++) {
+                        double x = taxa_em(res[v], ks[j], s, dentro);
+                        t += x / N_ORDENS;
+                        lo = std::min(lo, x);
+                        hi = std::max(hi, x);
+                    }
+                    md << " | " << pct(t, ks[j]) << " (" << pct(lo, ks[j]) << " a " << pct(hi, ks[j]) << ") | "
+                       << (esp[j] > 0 ? num(t / esp[j], 1) : "") ;
+                }
+                md << " |\n";
+            }
+            md << "\n| Comparação | Métrica | Diferença | Intervalo de 95% | Conclusão |\n| --- | --- | --- | --- | --- |\n";
+            std::vector<std::pair<int, int>> pg;
+            for (int v = 0; v < principais; v++) {
+                if (v != i_pop) pg.push_back({v, i_pop});
+            }
+            if (tem_f) {
+                for (int v = 0; v < principais; v++) {
+                    if (v != i_f && v != i_pop) pg.push_back({v, i_f});
+                }
+            }
+            for (const auto& par : pg) {
+                for (int j = 0; j < 3; j++) {
+                    Intervalo it = bootstrap(filtrar(por_consulta(res[par.first], ks[j]), dentro),
+                                             filtrar(por_consulta(res[par.second], ks[j]), dentro));
+                    int casas = ks[j] == 0 ? 2 : 3;
+                    md << "| " << res[par.first].nome << " x " << res[par.second].nome << " | "
+                       << (ks[j] == 0 ? std::string("FITB") : "Hit@" + std::to_string(ks[j])) << " | "
+                       << num(100 * it.dif, casas) << " pp | " << num(100 * it.min, casas) << " a " << num(100 * it.max, casas)
+                       << " pp | " << conclusao(res[par.first].nome, res[par.second].nome, it) << " |\n";
+                }
+            }
         }
     }
     std::cout << "Tabela em " << pasta_saida << "/" << nome_arq << ".md" << std::endl;

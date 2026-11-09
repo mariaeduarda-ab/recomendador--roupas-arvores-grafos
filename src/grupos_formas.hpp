@@ -19,3 +19,6 @@ bool comparar_formas(const Base& base, const std::string& pasta_dados, const std
 // grupos da forma escolhida (forma 3: mesma combinacao de grupo_cor, estampa e faixa de formalidade).
 // le pecas_v4.csv e pecas_v5.csv e nao usa looks. depois: PontosGrupos pg(base, gr); pg.arestas()
 bool grupos_escolhidos(const Base& base, const std::string& pasta_dados, Grupos& gr, std::string& erro);
+
+// so categoria + grupo_cor (le pecas_v5.csv). e o recuo dos grupos da forma 3 quando falta contagem
+bool grupos_por_cor(const Base& base, const std::string& pasta_dados, Grupos& gr, std::string& erro);

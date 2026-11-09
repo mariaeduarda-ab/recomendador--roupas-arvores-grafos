@@ -370,3 +370,14 @@ bool grupos_escolhidos(const Base& base, const std::string& pasta_dados, Grupos&
     gr = agrupar_por_chave(g, chaves(attr, val), (int)base.pecas.size());
     return true;
 }
+
+bool grupos_por_cor(const Base& base, const std::string& pasta_dados, Grupos& gr, std::string& erro) {
+    std::vector<Atrib> attr;
+    ValoresAtrib val;
+    if (!ler_tudo(base, pasta_dados, attr, val, erro)) return false;
+    std::vector<std::string> chave(base.pecas.size());
+    for (int i = 0; i < (int)chave.size(); i++) chave[i] = cor_da_peca(val, i);
+    GrafoKnn g = montar_grafo_knn(base, attr, 0);
+    gr = agrupar_por_chave(g, chave, (int)base.pecas.size());
+    return true;
+}

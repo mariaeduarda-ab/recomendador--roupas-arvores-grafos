@@ -125,3 +125,14 @@ Cada linha diz o que foi decidido, o motivo e se a escolha foi testada na valida
 | Na metade A, a melhor pelo Hit@10 foi forma 3 + peso por grau, com w = (0; 0,5; 0,5; 0) e a = 0,5. Ela não vai ao teste. | Ganhou na A (190 contra 131 acertos), mas perdeu na B (116 contra 153). Nenhuma variação ganhou da F no Hit@10 nas duas metades. | Sim. |
 | A configuração pelo FITB foi acrescentada depois, como o prompt pede: forma 3 + peso por grau, com w = (1; 0; 0,5; 1) e a = 0,5. | Foi a de maior FITB na metade A (39,79% contra 30,39% da F) e ganhou na B (40,77% contra 31,13%). Ela perde no Hit@10 nas duas metades (120 contra 131 e 140 contra 153). | Sim. |
 | A configuração pelo FITB vai ao teste uma única vez, com o nome "F2 (FITB)", pelo `avaliar_justo --novas`. A `tabela_final.md` da F não muda. | O teste já foi usado uma vez pela F. Este é o segundo uso, e ele fica registrado aqui. | Não se aplica. |
+
+### Depois da tag v-final-2 (nenhum item muda o algoritmo)
+
+| Decisão | Motivo | Testada na validação? |
+| --- | --- | --- |
+| A pasta `zenodo/` não tem imagens, legendas nem descrições. Tem só os dados gerados pelo projeto, com o id original de cada peça. | A licença da base (CC BY 4.0) permite republicar, mas a página avisa que o conteúdo de terceiros (imagens do Polyvore) pode exigir outra permissão. Assim o pacote também fica pequeno (27 MB). | Não se aplica. |
+| Os dados da pasta `zenodo/` ficam fora do git e saem do `preprocess/zenodo.py`. Só os textos ficam versionados. | Assim o repositório não cresce 27 MB. | Não se aplica. |
+| `dados/demo` usa os looks das 60 peças mais usadas (826 looks, 2.891 peças). As peças são numeradas de novo, e a ligação com o id original fica em `ids_originais.csv`. | Com looks sorteados ao acaso quase nenhuma peça se repete, e o grafo peça–look ficaria vazio. Os números do exemplo não valem para o artigo. | Não se aplica. |
+| Comando novo `exportar_grupos`, que grava os grupos da forma 3 e do Kruskal da F. | O Zenodo precisa dos grupos por peça. O comando só lê e grava, sem mudar nenhuma nota. | Não se aplica. |
+| As seções do artigo seguem o artigo modelo do professor (`Documentação_AEDS.pdf`). | O enunciado do trabalho final com as seções pedidas não foi encontrado. | Não se aplica. Falta ela conferir. |
+| A figura do grafo entre grupos é um desenho provisório feito em Python (`preprocess/desenho_grupos.py`). | Não dá para abrir o Gephi por aqui. A imagem do Gephi precisa ser feita à mão. | Não se aplica. |

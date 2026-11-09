@@ -52,15 +52,17 @@ Uma leitura possível: os atributos ajudam a separar a peça certa de 3 peças s
 
 Alguns números dos tempos (`tempos_f.md`, média de 5 repetições):
 
-- Com 100.000 peças, o kNN na KD-tree leva 0,107 ms por consulta e a força bruta 1,99 ms, 19 vezes mais.
-- O Union-Find sem as técnicas leva 35.239 ms com 100.000 peças. Com tamanho e compressão, leva 0,987 ms.
-- Kruskal e Prim dão florestas com o mesmo peso nos 3 tamanhos. Kruskal (ordenar + laço) foi 1,3 a 1,5 vezes mais rápido que Prim com heap. Ordenar as arestas custa de 6,7 a 8,3 vezes o laço do Kruskal (`tempos_f/agm.csv`).
+- Com 100.000 peças, o kNN na KD-tree leva 0,095 ms por consulta e a força bruta 1,34 ms, 14 vezes mais.
+- O Union-Find sem as técnicas leva 29.204 ms com 100.000 peças. Com tamanho e compressão, leva 0,781 ms.
+- Kruskal e Prim dão florestas com o mesmo peso nos 3 tamanhos. Kruskal (ordenar + laço) foi 1,4 a 1,8 vez mais rápido que Prim com heap. Ordenar as arestas custa de 7,1 a 8,7 vezes o laço do Kruskal (`tempos_f/agm.csv`).
 
 ## 4. Montar o look inteiro
 
 **[CONFERIR]**
 
 Montar um look inteiro é escolher uma peça por categoria de modo que a soma das notas entre todos os pares seja a maior possível. No caso geral, com muitas categorias e muitas candidatas, esse problema é NP-difícil. A ideia é que, se cada par vale 0 ou 1, achar um look em que todos os pares valem 1 é procurar uma clique com uma peça de cada categoria, e o problema da clique é NP-completo.
+
+A transformação é esta. Recebemos um grafo G = (V, E) e um número k, e a pergunta da clique é se G tem k vértices todos ligados entre si. Criamos k categorias, e cada categoria é uma cópia dos vértices de G: a peça (i, u) é o vértice u na categoria i. Duas peças de categorias diferentes, (i, u) e (j, v), têm nota 1 se u e v estão ligados em G e nota 0 nos outros casos. Como nenhum vértice está ligado a si mesmo, um look com todas as notas iguais a 1 usa k vértices diferentes, todos ligados entre si, ou seja, uma clique de tamanho k. O contrário também vale: uma clique de tamanho k vira um look com uma peça por categoria e todas as notas iguais a 1. A transformação cria k × |V| peças e no máximo k² × |V|² notas, então ela custa tempo polinomial. Por isso o nosso problema é pelo menos tão difícil quanto a clique.
 
 No nosso caso, um look de treino tem em média 4,0 peças, de 20 categorias possíveis (média calculada sobre `dados/looks.csv`, categorias em `tabelas_pontos.md`). Se cada categoria ficar só com as 10 primeiras candidatas da F, um look de 4 categorias tem 10^4 = 10.000 combinações com 6 pares cada (60.000 somas), e mesmo 6 categorias dariam 10^6 = 1.000.000 de combinações com 15 pares cada. As notas dos pares podem ser calculadas uma vez antes do laço (10 × 10 × 15 = 1.500 notas com 6 categorias), então cada combinação custa só algumas somas e testar todas é viável.
 
@@ -121,7 +123,7 @@ Bootstrap com 1.000 sorteios dos looks (`tabela_final.md`). pp = pontos percentu
 - **Peças novas.** Em 72,6% dos looks de teste (4.242 de 5.842), a peça escondida não aparece em nenhum look de treino (`diagnostico.md`). Para essas peças, a parte que vem dos looks (B, C, popularidade) não tem nada a dizer.
 - **Efeito corrente do Kruskal.** No Kruskal puro, as arestas mais curtas são unidas primeiro, e o grupo grande sempre acha mais uma peça perto. Com K = 50, o maior grupo tem em média 83,4% das peças da categoria (`grupos_formas.md`). Com K = 100, que é o da F, 16 das 20 categorias têm um grupo com mais da metade das peças (`grupos_kruskal.md`). Por isso o Gephi e o Tarjan usam a forma 3 (mesma combinação de cor, estampa e formalidade): maior grupo de 17,6% em média e 9,1% de grupos com 1 peça. O critério foi escrito antes de rodar (`grupos_formas.md`, `DECISOES.md`).
 - **Atributos fracos.** Na comparação com peças rotuladas pela imagem, a melhor fonte de cada atributo acerta de 51,3% (estilo) a 77,0% (estampa). Só a estampa passou do limite de 70% (`comparacao_fontes.md`, tabela "Decisão").
-- **Tempos com carga.** A máquina rodava outros programas. A carga média de 1 minuto foi de 1,94 no início e 2,02 no fim (`tempos_f/carga.csv`). Uma rodada anterior deu tempos até 40% menores em parte das medidas. Os valores absolutos mudam com a carga, a forma das curvas não (`tempos_f.md`).
+- **Tempos com carga.** A rodada final (09/11) teve só o navegador aberto, com carga média de 1 minuto de 0,94 no início e 1,22 no fim (`tempos_f/carga.csv`). A rodada de 05/11, com carga perto de 2, deu tempos de 10% a 40% maiores. Os valores absolutos mudam com a carga, a forma das curvas não (`tempos_f.md`).
 - **Articulações rasas.** Em todas as 53 articulações da mediana, o maior pedaço que se solta tem 1 grupo (`articulacoes.md`). As articulações só seguram grupos pendurados por uma ligação, e não estilos inteiros.
 
 ## 6. Articulações
@@ -167,7 +169,7 @@ Se o teste roda várias vezes e a gente escolhe pelo resultado, o teste vira val
 Na validação, nenhuma combinação com peso de atributo maior que 0 passou a F no Hit@10, que era o critério combinado antes. Eles melhoram o FITB, mas não o Hit@10 (seção 2).
 
 **6. Quanto custa a KD-tree na prática e por que cresce mais que log n?**
-De 1.000 para 100.000 peças, a busca kNN ficou 13 vezes mais lenta (0,0083 ms para 0,107 ms), enquanto log n cresce menos de 2 vezes. Muitas peças têm o mesmo valor de formalidade e de cor, e com muitos pontos iguais a busca precisa visitar mais galhos (`tempos_f.md`). Mesmo assim, com 100.000 peças ela é 19 vezes mais rápida que a força bruta.
+De 1.000 para 100.000 peças, a busca kNN ficou 13 vezes mais lenta (0,0072 ms para 0,095 ms), enquanto log n cresce menos de 2 vezes. Muitas peças têm o mesmo valor de formalidade e de cor, e com muitos pontos iguais a busca precisa visitar mais galhos (`tempos_f.md`). Mesmo assim, com 100.000 peças ela é 14 vezes mais rápida que a força bruta.
 
 **7. Como evitaram vazamento de teste?**
 O grafo peça–look, a popularidade, as tabelas de pontos e os grupos usam só looks de treino. No ajuste, os looks de validação (semente 7) também saem de tudo isso. As peças escondidas são as mesmas em todas as versões e foram conferidas com `escondidas.csv`. Se um look de teste entrasse no grafo, a BFS acharia a peça escondida dentro do próprio look (`ARQUITETURA.md`).
@@ -180,3 +182,70 @@ Muitas peças têm a mesma nota, e quem vem antes no empate dependia da linha no
 
 **10. Os grupos do Kruskal valeram a pena?**
 Para o acerto, não de forma mensurável. A F empata com a C + popularidade no teste, e na validação a diferença foi de 1 consulta. Os grupos foram mantidos pelo critério combinado antes. Eles servem para ver o grafo de estilos no Gephi e para a análise de articulações.
+
+## 8. Últimas melhorias: gêmeas, peça nova e duas configurações
+
+O maior problema é a peça nova. No teste, 4.242 das 5.842 peças escondidas (72,6%) não aparecem em nenhum look de treino. Nesta etapa, toda escolha usou só a validação, dividida em duas metades com semente fixa. A metade A escolhe e a metade B confirma. Uma variação só fica se ganhar da F nas duas metades.
+
+### Peças gêmeas
+
+O JSON da FashionVerse não tem código de produto, nome nem preço. A impressão digital testada foi categoria + as 3 cores arredondadas (passo 16) + legenda do BLIP. A junção usa uma tabela hash e o Union-Find. Ela criou 960 classes com mais de 1 peça. Na validação, as peças com alguma peça da classe no treino iriam de 26,0% para 27,2%. Pela imagem, só 24 dos 50 pares conferidos são a mesma peça, e a regra pedia 45. **As gêmeas não entraram.** Fonte: `resultados/gemeas.md`.
+
+### Variações para a peça nova (validação)
+
+Fonte: `resultados/novas_validacao.md`. Os números são o Hit@10 e o FITB nas metades A e B.
+
+| Variação | Hit@10 A | Hit@10 B | FITB A | FITB B |
+| --- | --- | --- | --- | --- |
+| F atual | 1,123% | 1,312% | 30,39% | 31,13% |
+| Grupos da forma 3 com recuo | 1,029% | 1,072% | 39,35% | 40,70% |
+| Peso por grau (grupos do Kruskal) | 1,175% | 1,141% | 30,30% | 31,22% |
+| Forma 3 + peso por grau | 1,630% | 0,995% | 32,32% | 35,09% |
+| Regressão logística | 1,552% | 1,286% | 39,61% | 41,05% |
+
+- **Hit@10:** nenhuma variação ganhou da F nas duas metades. As que subiram na metade A caíram na metade B. Por isso nenhuma configuração nova pelo Hit@10 foi ao teste.
+- **FITB (critério acrescentado depois):** a de maior FITB na metade A foi forma 3 + peso por grau, com w = (1; 0; 0,5; 1) e a = 0,5. Ela ganhou da F no FITB nas duas metades (39,79% e 40,77%, contra 30,39% e 31,13%) e foi ao teste uma única vez com o nome "F2 (FITB)".
+- **Regressão logística:** foi treinada por descida de gradiente, escrita no projeto, com pares da metade A. O maior peso foi o da coluna "peça nova" (2,14), seguido da cor (0,70), da popularidade (0,62) e da C (0,55).
+
+### Teste (segundo uso, só a F2)
+
+Fonte: `resultados/tabela_final_2.md`. A tabela da F (`tabela_final.md`) não mudou.
+
+| Versão | Hit@1 | Hit@10 | FITB |
+| --- | --- | --- | --- |
+| Popularidade | 0,142% | 0,895% | 31,40% |
+| C | 0,336% | 0,751% | 25,37% |
+| F | 0,313% | 1,056% | 32,04% |
+| F2 (FITB) | 0,308% | 1,048% | 41,64% |
+
+F2 x F no FITB: +9,60 pp (de 8,48 a 10,70), diferença real. No Hit@10: −0,009 pp (de −0,022 a 0,002), pode ser sorte.
+
+### Peça conhecida e peça nova (teste)
+
+| Versão | Hit@10 conhecida | Hit@10 nova | FITB conhecida | FITB nova |
+| --- | --- | --- | --- | --- |
+| Aleatória (esperado) | 0,167% | 0,187% | 25,00% | 25,00% |
+| Popularidade | 3,269% | 0,000% | 47,99% | 25,14% |
+| A | 0,438% | 0,542% | 32,13% | 35,10% |
+| C | 2,394% | 0,132% | 25,97% | 25,14% |
+| D nova | 1,856% | 0,248% | 29,14% | 26,56% |
+| F | 3,856% | 0,000% | 49,04% | 25,62% |
+| F2 (FITB) | 3,825% | 0,000% | 53,54% | 37,15% |
+
+- Na peça conhecida, a F acerta 23 vezes mais que o aleatório no Hit@10.
+- Na peça nova, nenhuma versão com popularidade coloca a escondida no top 10. A peça nova tem grau 0, e qualquer peça conhecida fica na frente dela. Só a A e as duas D, que não usam popularidade, passam do aleatório (A: 2,9 vezes).
+- No FITB, as 4 opções vêm da mesma categoria, então a peça nova compete com outras parecidas. Ali a F2 acerta 37,15% na peça nova, contra 25,62% da F.
+
+### Perguntas novas que o professor pode fazer
+
+**11. Por que as gêmeas não entraram?**
+Só 24 de 50 pares juntados eram a mesma peça. A legenda do BLIP é genérica ("a black skirt"), então peças diferentes da mesma cor caem na mesma impressão digital. A regra combinada antes pedia 45.
+
+**12. Por que a peça nova nunca entra no top 10?**
+C e popularidade dão 0 para quem não tem look de treino. Na categoria inteira há milhares de peças conhecidas com nota maior. Só a nota por atributos e grupos poderia ajudar, mas nenhuma variação ganhou da F no Hit@10 nas duas metades da validação.
+
+**13. Por que existem duas configurações?**
+A F é a melhor pelo Hit@10, que é o critério principal. A F2 foi escolhida depois pelo FITB, e isso está registrado em `DECISOES.md`. As duas foram escolhidas só na validação, e o teste foi usado uma vez para cada uma.
+
+**14. Por que dividir a validação em duas metades?**
+Com tantas combinações testadas, alguma ganha só por sorte. A metade B não participa da escolha. A forma 3 com peso por grau mostra isso: subiu de 1,123% para 1,630% na metade A e caiu para 0,995% na metade B.

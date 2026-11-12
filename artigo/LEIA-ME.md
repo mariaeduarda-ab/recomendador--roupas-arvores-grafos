@@ -20,5 +20,8 @@ Não foi possível compilar nesta máquina (não há LaTeX instalado). O arquivo
 ## O que falta
 
 - **Imagem do Gephi.** Abra `resultados/gephi_articulacoes/q2_nodes.csv` e `q2_edges.csv` (Data Laboratory → Import Spreadsheet), use o layout ForceAtlas 2, cor pela coluna `destaque` e tamanho pela coluna `Pecas`. Exporte em PNG para `figuras/gephi.png` e troque o nome no `main.tex`.
-- **Seções.** Os títulos seguem o artigo modelo do professor (`Documentação_AEDS.pdf`: Introdução, Fundamentação Teórica, Metodologia, Modelagem Experimental, Resultados e Discussão, Conclusões). Não achei o enunciado do trabalho final com as seções pedidas. Confiram com ele.
-- Nomes dos autores, texto de todas as seções e as referências.
+- **Seções.** Seguem o enunciado do trabalho final: Resumo (até 250 palavras), Introdução, Referencial Teórico (Estado da Arte), Metodologia (com o fluxograma, que é obrigatório), Resultados e Discussão, Conclusão e Próximas Etapas. A antiga "Modelagem Experimental" virou a subseção "Configuração experimental" da Metodologia.
+- **Autores.** Alunos por contribuição decrescente (se igual, ordem alfabética). O último autor é sempre o professor Michel Pires da Silva.
+- **Referências.** `referencias.bib` tem 19 obras conferidas pelo DOI (Crossref e DataCite, 12/11/2026), com o BibTeX vindo do próprio doi.org. Mesmo assim, confira cada uma no scholar.google.com: referência inventada tira 50% da nota, e site ou blog tira 20%. Só aparece na lista o que for citado com `\cite` no texto. As entradas `repositorio` e `zenodo` são exigidas pelo enunciado; o DOI do Zenodo entra depois de publicar.
+- **Ubuntu 24.04.** O enunciado exige que o código rode no Ubuntu 24.04 sem configuração especial. Esta máquina é 22.04; testar antes da entrega.
+- Texto de todas as seções.

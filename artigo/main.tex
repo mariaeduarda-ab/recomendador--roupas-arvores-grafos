@@ -1,6 +1,6 @@
 % Modelo IEEE de conferência. Compila no Overleaf com pdfLaTeX (IEEEtran já vem instalado).
 % Seções e regras seguem o enunciado do trabalho final (prof. Michel Pires da Silva, entrega 22/11/2026).
-% Só títulos e listas do que escrever. As referências em referencias.bib foram conferidas pelo DOI;
+% O texto de cada seção fica em secoes/. As referências em referencias.bib foram conferidas pelo DOI;
 % conferir cada uma no scholar.google.com antes de entregar. Só conta referência citada no texto.
 \documentclass[conference]{IEEEtran}
 \usepackage[utf8]{inputenc}
@@ -13,8 +13,6 @@
 \usepackage{tikz}
 \usetikzlibrary{positioning, arrows.meta}
 
-% lista do que escrever em cada seção. apagar antes de entregar
-\newcommand{\escrever}[1]{\noindent\textbf{A escrever:}\begin{itemize}\setlength\itemsep{0pt}#1\end{itemize}}
 
 \begin{document}
 
@@ -35,54 +33,21 @@
 \maketitle
 
 \begin{abstract}
-\escrever{
-\item um parágrafo, no máximo 250 palavras, respondendo nesta ordem:
-\item qual o problema: completar um look com uma peça de outra categoria;
-\item há soluções? quais: redes neurais de compatibilidade (Bi-LSTM, embeddings por tipo) e filtragem por item;
-\item como foi modelado: KD-tree, grafo peça--look com BFS, Union-Find, Kruskal, Tarjan, sobre a FashionVerse-MME (102.370 peças, 31.333 looks);
-\item principal resultado, com números da Tabela~\ref{tab:final}, e a limitação da peça nova (Tabela~\ref{tab:conhecida_nova}).
-}
+\input{secoes/resumo}
 \end{abstract}
 
 \begin{IEEEkeywords}
-\escrever{\item 4 a 6 palavras-chave.}
+\input{secoes/palavras_chave}
 \end{IEEEkeywords}
 
 \section{Introdução}
-\escrever{
-\item funil: começar pelo cenário amplo (comércio de moda, sistemas de recomendação) e afunilar até completar um look;
-\item por que o problema importa no mundo real (exemplo concreto de uso);
-\item motivação da equipe para o tema;
-\item objetivos principais, declarados sem ambiguidade;
-\item por que estruturas clássicas (leve e explicável);
-\item contribuições: versões A a F, avaliação justa, base tratada no Zenodo~\cite{zenodo}, código aberto~\cite{repositorio};
-\item parágrafo-roteiro: o que vem em cada seção e o que se espera alcançar.
-}
+\input{secoes/introducao}
 
 \section{Referencial Teórico (Estado da Arte)}
-\escrever{
-\item o que a literatura diz sobre o problema: compatibilidade de roupas com Bi-LSTM e FITB~\cite{han2017}, embeddings por tipo de peça~\cite{vasileva2018}, recomendação por imagem de estilos e substitutos~\cite{mcauley2015};
-\item recomendação top-$N$ baseada em itens e a métrica Hit@k~\cite{deshpande2004};
-\item KD-tree: construção, busca kNN e custo esperado~\cite{bentley1975,friedman1977};
-\item grafo peça--look e BFS de 2 passos;
-\item Union-Find com união por tamanho e compressão de caminho~\cite{galler1964,tarjan1975};
-\item árvore geradora mínima: Kruskal e Prim~\cite{kruskal1956,prim1957}; agrupamento por AGM e efeito corrente~\cite{zahn1971,gower1969};
-\item grafo de condensação (grupos como supervértices) e grau do vértice (popularidade);
-\item Tarjan: pontes e vértices de articulação~\cite{tarjan1972,hopcroft1973};
-\item NP-dificuldade de montar o look inteiro, por redução da clique~\cite{karp1972} (\texttt{docs/VERSAO\_F.md}, seção 4).
-}
+\input{secoes/referencial}
 
 \section{Metodologia}
-\escrever{
-\item origem e natureza dos dados: FashionVerse-MME~\cite{fashionverse}, licença, o que cada registro tem;
-\item pré-processamento e junção de registros repetidos;
-\item modelagem: o que é vértice e o que é aresta em cada grafo (peça--look, kNN mútuo, grupos), e o que é nó na KD-tree;
-\item atributos do texto e acerto contra a referência rotulada pela imagem;
-\item lógica do algoritmo passo a passo, seguindo o fluxograma (Fig.~\ref{fig:fluxo});
-\item versões A, B, C, D e F (a final) e a fórmula da nota;
-\item pontos por atributo: $\log((n+1)/(\text{esperado}+1))$;
-\item por que as peças gêmeas não entraram (24 de 50 pares).
-}
+\input{secoes/metodologia}
 
 \begin{figure}[t]
 \centering
@@ -92,27 +57,10 @@
 \end{figure}
 
 \subsection{Configuração experimental}
-\escrever{
-\item ambiente: Ubuntu 22.04.5, g++ 11.4, 8 núcleos, carga da máquina; o enunciado exige Ubuntu 24.04: testar lá antes de escrever;
-\item como rodar: \texttt{make demo}, instruções no repositório~\cite{repositorio};
-\item divisão treino, validação e teste e sementes;
-\item avaliação justa: categoria inteira, 10 ordens de desempate, Hit@k e FITB;
-\item escolha só na validação, metades A e B, teste usado uma vez por configuração;
-\item bootstrap com 1.000 sorteios~\cite{efron1979};
-\item testes de tempo: $n = 10^3$, $10^4$ e $10^5$, 5 repetições.
-}
+\input{secoes/configuracao}
 
 \section{Resultados e Discussão}
-\escrever{
-\item Tabela~\ref{tab:final}: comparação de todas as versões;
-\item Tabela~\ref{tab:diferencas}: o que é diferença real e o que pode ser sorte;
-\item Tabela~\ref{tab:conhecida_nova}: peça conhecida contra peça nova;
-\item Tabela~\ref{tab:tempos} e Fig.~\ref{fig:tempos}: teoria contra prática; como cada estrutura se comportou quando a entrada cresceu;
-\item qual foi o gargalo e por quê;
-\item Fig.~\ref{fig:grupos}: grupos e articulações, desenhados no Gephi~\cite{bastian2009} com ForceAtlas2~\cite{jacomy2014};
-\item discutir criticamente: o que os números significam, não só mostrar;
-\item experimento registrado, fora da versão final: F2 pelo FITB e as tentativas para a peça nova (\texttt{docs/VERSAO\_F.md}, seção 8).
-}
+\input{secoes/resultados}
 
 \input{tabelas/final.tex}
 \input{tabelas/diferencas.tex}
@@ -138,11 +86,7 @@
 \end{figure}
 
 \section{Conclusão e Próximas Etapas}
-\escrever{
-\item contribuições da equipe;
-\item desafios e limitações: 72,6\% de peças novas, atributos do texto, efeito corrente;
-\item sugestões de melhoria para pesquisas futuras.
-}
+\input{secoes/conclusao}
 
 \bibliographystyle{IEEEtran}
 \bibliography{referencias}

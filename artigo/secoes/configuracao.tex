@@ -1,0 +1,15 @@
+% corpo da subseção Configuração experimental
+\textbf{Ambiente.} As medidas foram feitas em uma máquina com 8 núcleos, Ubuntu 22.04.5 LTS, g++ 11.4.0 e GNU Make 4.3. % CONFERIR: Ubuntu 24.04
+O programa é escrito em C++17 e usa só a biblioteca padrão. O Python 3 entra só no preparo dos dados e nos gráficos. Na rodada final dos tempos, a carga média de 1 minuto foi de 0,94 no início e de 1,22 no fim.
+
+\textbf{Como rodar.} No repositório~\cite{repositorio}, \texttt{make} compila, \texttt{make test} roda os 170 testes e \texttt{make demo} roda um exemplo com 826 looks e 2.891 peças da base real. Depois de compilado, o exemplo leva cerca de 1~s. Os números do exemplo não são os deste artigo. A base completa tratada está no Zenodo~\cite{zenodo}.
+
+\textbf{Divisão e sementes.} O teste usa os 5.842 looks de teste com pelo menos 2 peças, e a peça escondida de cada um é sorteada com semente 42. A validação tem 2.332 consultas. O grafo de peças e looks, a popularidade, as tabelas de pontos e os grupos usam só os looks de treino. No ajuste, os looks de validação também ficam de fora.
+
+\textbf{Avaliação justa.} Toda versão dá nota à categoria inteira da peça escondida, com 10.940 candidatas por consulta em média no teste. A posição da escondida é o número de peças com nota maior, mais as empatadas que vêm antes dela em uma ordem sorteada. São 10 ordens (sementes 1 a 10), e cada número é a média delas. O Hit@$k$~\cite{deshpande2004}, com $k = 1$, 5 e 10, vale 1 quando a escondida fica entre as $k$ primeiras. No FITB (completar a lacuna), a escondida concorre com 3 peças erradas da mesma categoria, com semente 13 no teste e 11 na validação. Um chute ao acaso acerta 25\%.
+
+\textbf{Escolha dos parâmetros.} A F foi escolhida só na validação, em uma grade de 623 combinações. O critério foi fixado antes de ver os números. Vence o maior Hit@10, depois o maior Hit@5, depois a combinação com mais pesos nulos e, por último, a com mais pesos iguais a 1. Nos experimentos seguintes, a validação foi dividida em duas metades de 1.166 consultas (semente 2711): a metade A escolhe e a metade B confirma. O teste foi usado uma só vez para cada configuração escolhida.
+
+\textbf{Bootstrap.} A margem de erro das diferenças vem do bootstrap~\cite{efron1979}, com 1.000 sorteios dos looks com reposição (semente 2026). As duas versões comparadas usam sempre as mesmas amostras. O intervalo de 95\% vai do percentil 2,5 ao 97,5 da diferença. Quando o intervalo passa pelo 0, a diferença pode ser sorte.
+
+\textbf{Tempos.} Os tempos usam subconjuntos de peças reais com $n = 10^3$, $10^4$ e $10^5$, medidos com \texttt{std::chrono} e repetidos 5 vezes. A busca kNN e a BFS são medidas por consulta, na média de 1.000 consultas sorteadas. Kruskal e Prim~\cite{prim1957} rodam no grafo kNN de todas as peças ($k = 10$).

@@ -1,0 +1,42 @@
+% corpo da seção Metodologia (vem antes da figura do fluxograma)
+A Fig.~\ref{fig:fluxo} resume a proposta, e esta seção segue a ordem das caixas do fluxograma. O código está no repositório do projeto~\cite{repositorio}.
+
+\subsection{Dados e preparo}
+
+A base é a FashionVerse-MME~\cite{fashionverse}, publicada no Mendeley Data sob a licença CC BY 4.0 e derivada da Polyvore. O arquivo \texttt{Combined\_Metadata.json} tem 126.928 registros em 20 categorias. Cada registro traz a categoria, o caminho da imagem, a cor dominante e uma paleta calculadas por k-means, uma legenda do BLIP e uma descrição refinada por modelo de linguagem. Não há campo de look nem código de produto. O look vem do nome do arquivo: \texttt{200266907\_1.jpg} é a peça 1 do look 200266907.
+
+Um script em Python lê o JSON uma vez e grava CSVs, que o C++ lê sem biblioteca externa. Os 277 registros com nome fora do padrão são descartados. Como cada nome de arquivo é único, cada registro estaria em um só look, e a busca no grafo nunca sairia dele. Por isso, registros com a mesma categoria, as mesmas três cores RGB e a mesma legenda do BLIP viram uma só peça. Assim, são 102.370 peças, e cerca de 14\% aparecem em mais de um look. As cores passam de RGB para Lab, porque no Lab a distância entre duas cores acompanha a diferença que o olho percebe. Os 31.333 looks são sorteados com semente 42 em treino (25.066) e teste (6.267). Depois, 10\% dos looks de treino vão para a validação com semente 7 (2.506 looks). A base tratada está no Zenodo~\cite{zenodo}.
+
+Foi testada também uma junção mais solta, de peças gêmeas. Ela usa a categoria, as cores com cada canal dividido por 16 e a legenda do BLIP, com tabela hash e Union-Find. Essa junção formou 960 classes com mais de uma peça. Na conferência pela imagem, só 24 de 50 pares eram a mesma peça, e a regra fixada antes exigia 45. Por isso, as gêmeas não entraram.
+
+\subsection{Atributos do texto}
+
+Listas de palavras aplicadas à descrição dão estilo, ocasião, formalidade, estampa e comprimento. Quando o texto não traz palavra de estampa, a peça recebe ``lisa''. A cor Lab é dividida em 12 grupos por k-means (semente 42). Para medir o acerto, 400 peças foram rotuladas pela imagem. A regra pedia pelo menos 70\% de acerto na metade de teste dessa referência (187 peças). A melhor fonte de cada atributo acertou de 51,3\% (estilo) a 77,0\% (estampa), e só a estampa passou do limite.
+
+\subsection{Modelagem}
+
+\textbf{KD-tree.} A KD-tree serve para achar as peças mais próximas sem comparar a consulta com todas as peças. Cada nó guarda uma peça. O eixo de corte é a profundidade módulo a dimensão, e a peça do nó é a mediana do eixo, na posição $n/2$~\cite{bentley1975}. O vetor tem 5 números de 0 a 1: L, a, b, variação de cor e formalidade. Cada número é multiplicado por $\sqrt{w}$, com $w = 1$ nos quatro primeiros e $w = 0{,}5$ na formalidade. Assim, a distância euclidiana comum já aplica os pesos. A busca kNN é exata e usa um heap de máximo. O filtro de categoria atua na entrada do heap, e só peças da categoria pedida entram nele~\cite{friedman1977}.
+
+\textbf{Grafo de peças e looks.} É um grafo bipartido, guardado em listas de adjacência. Os vértices são as peças e os looks de treino. Uma aresta liga cada peça a cada look de treino em que ela aparece. O grau da peça dá a popularidade, $\log(1 + \text{grau})$.
+
+\textbf{Grafo kNN e grupos.} Há um grafo por categoria. Os vértices são as peças, e a aresta $\{u, v\}$ existe quando $v$ está entre as 10 peças mais próximas de $u$ ou o contrário. O peso da aresta é a distância na cor Lab (em $\Delta E/100$) somada à estampa com peso 0,1. Na estampa, lisa vale 0, estampada vale 1 e desconhecida vale 0,5. São 655.776 arestas. As que existem nos dois sentidos formam o kNN mútuo, usado só no desenho. O Kruskal~\cite{kruskal1956} percorre as arestas em ordem de (peso, $u$, $v$). A ordem por $u$ e $v$ resolve os empates, e o resultado sai sempre igual. Cada aresta une as suas pontas com Union-Find por posto e compressão de caminho~\cite{galler1964,tarjan1975}. O Kruskal para quando restam $K = 100$ grupos na categoria. Como as arestas leves entram primeiro, cada grupo reúne peças de cor e estampa parecidas.
+
+\textbf{Grafo entre grupos.} No grafo de condensação, cada grupo é um vértice. A aresta entre grupos de categorias diferentes recebe os pontos do par nos looks de treino. No grafo do Tarjan~\cite{tarjan1972}, os vértices são os 1.255 grupos com a mesma combinação de grupo de cor, estampa e faixa de formalidade. Nesse grafo, a aresta exige pelo menos 3 pares de peças e pontos acima de um limiar.
+
+\textbf{Pontos por atributo.} Para um par de categorias e um par de valores, $n$ conta os pares de peças com esses valores no mesmo look de treino. O ``esperado'' é a contagem sob independência:
+\begin{equation}
+\text{pontos} = \log\frac{n + 1}{\text{esperado} + 1}.
+\end{equation}
+O $+1$ evita divisão por zero e aproxima de 0 os pares com pouca contagem. Bolsa rosa com sapato rosa tem $n = 47$, esperado 3,2 e 2,43 pontos. Pares de categorias com menos de 200 pares usam grupos de categorias. A mesma conta, com grupos no lugar dos valores, dá os pontos entre grupos.
+
+\subsection{Algoritmo passo a passo}
+
+Na Fig.~\ref{fig:fluxo}: (1) o JSON é lido; (2) os registros repetidos são unidos, a cor é convertida e os looks são divididos; (3) os atributos e os grupos de cor são gravados; (4) as estruturas são montadas só com os looks de treino; (5) cada consulta é um look sem uma peça, com a categoria dela, e cada versão dá nota a todas as peças dessa categoria fora do look; (6) a validação escolhe os pesos; (7) o teste roda uma vez; (8) saem as tabelas, os tempos, o desenho dos grupos e as articulações.
+
+As versões diferem no passo 5. A versão A dá a nota $1/(1 + d)$, com $d$ a distância entre a candidata e a média dos vetores do look. A B soma as contagens da BFS de 2 passos a partir das peças do look. O primeiro passo vai da peça para os seus looks, e o segundo vai desses looks para as outras peças. Assim, a BFS chega às peças que já apareceram em um look junto com uma peça da consulta. A C troca cada peça $p$ do look por ela mesma, com peso 1, mais as suas 5 vizinhas $q$ na KD-tree, com peso $\max(0, 1 - d(p,q)/d_{\text{ref}})$ e $d_{\text{ref}} = 1$. A nota de $c$ soma, para cada peça de partida, o seu peso vezes o número de looks de treino em que ela e $c$ aparecem juntas. A D usa uma KD-tree por categoria sobre atributos do texto e a nota $a \cdot \text{proximidade} + b \cdot \text{cor} + c \cdot \text{estampa} + d \cdot \text{bônus dos looks}$. A D nova usa só a ocasião no vetor.
+
+A versão final é
+\begin{equation}
+\text{nota}_F(c) = w_1 C(c) + w_2 A_t(c) + w_3 G(c) + w_4 P(c),
+\end{equation}
+em que $C$ é a nota da versão C, $A_t$ são os pontos por atributo, $G(c)$ soma os pontos entre o grupo de cada peça do look e o grupo de $c$, e $P$ é a popularidade. Cada termo é levado à faixa de 0 a 1 pelo mínimo e pelo máximo entre as candidatas da consulta, para que nenhum termo pese mais só pela escala. A validação escolheu $w = (1;\, 0;\, 0{,}5;\, 1)$, com $K = 100$ e peso 0,1 na estampa. Os atributos ficaram com peso 0, porque nenhuma combinação com eles passou a F no Hit@10. No empate, ganha a peça mais popular.

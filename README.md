@@ -161,5 +161,5 @@ O pacote com a base tratada para o Zenodo é gerado por `preprocess/zenodo.py`. 
 
 ## Autores
 
-Maria Eduarda Alves Barbosa e Igor Moreira Lopes, com orientação do professor Michel Pires da Silva.
+Maria Eduarda Alves Barbosa e Igor Moreira Lopes
 

@@ -72,6 +72,7 @@ O `make demo` usa a pasta `dados/demo/`, que já vem no repositório: 826 looks 
 | --- | --- | --- |
 | Ubuntu 24.04 | g++ do sistema | GNU Make |
 | Ubuntu 22.04.5 LTS | g++ 11.4.0 | GNU Make 4.3 |
+| Debian 13 | g++ do sistema | GNU Make |
 
 O Ubuntu 24.04 é conferido a cada envio para o repositório pelo workflow [`ci-ubuntu24.yml`](.github/workflows/ci-ubuntu24.yml), que compila, roda os testes e roda o exemplo.
 
@@ -137,7 +138,7 @@ make
 make tempos_f
 ```
 
-O pacote com a base tratada para o Zenodo é gerado por `preprocess/zenodo.py`. Ele traz os dados gerados pelo projeto e o identificador original de cada peça, sem as imagens. A base de origem usa a licença CC BY 4.0, mas as imagens da Polyvore podem exigir outra permissão.
+O pacote com a base tratada está publicado no Zenodo ([DOI 10.5281/zenodo.24372507](https://doi.org/10.5281/zenodo.24372507)) e é gerado por `preprocess/zenodo.py`. Ele traz os dados gerados pelo projeto e o identificador original de cada peça, sem as imagens. A base de origem usa a licença CC BY 4.0, mas as imagens da Polyvore podem exigir outra permissão.
 
 ## Organização do repositório
 
